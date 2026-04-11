@@ -1,0 +1,38 @@
+strain_name,atcc_id,match_status,CCGG_present,CCGG_enzyme,AAGCCCG_present,AAGCCCG_enzyme,GATC_present,GATC_enzyme
+Streptomyces albus,ATCC 3004,matched,yes,SalCI,no,,yes,SalAI
+Streptomyces ambofaciens,ATCC 15154,matched,yes,SaoI,no,,no,
+Streptomyces antibioticus-oligomycini,ATCC 11891,no_data,no_data,,no_data,,no_data,
+Streptomyces aureofaciens,ATCC 10762,matched,yes,SauAI; SauBMKI; SauHPI; SauLPI; M.SauLPI; SauNI; SauSI,no,,no,
+Streptomyces aureoverticillatus,ATCC 15853,matched,no,,no,,no,
+Streptomyces avermitilis,ATCC 31267,matched,no,,no,,no,
+Streptomyces bikiniensis,ATCC 11062,matched,no,,no,,no,
+Streptomyces californicus,ATCC 15436,matched,no,,no,,no,
+Streptomyces canus,ATCC 12237,matched,no,,no,,no,
+Streptomyces cattleya,ATCC 35852,matched,no,,no,,no,
+Streptomyces clavuligerus,ATCC 27064,matched,no,,no,,no,
+Streptomyces coelescens,ATCC 19833,matched,yes,M.Svi27968I,no,,no,
+Streptomyces diastatochromogenes,ATCC 12309,matched,no,,no,,no,
+Streptomyces fulvissimus,ATCC 27431,matched,no,,no,,no,
+Streptomyces globisporus subsp. globisporus,ATCC 15864,matched,no,,no,,no,
+Streptomyces griseorubiginosus,ATCC 19766,matched,no,,no,,yes,M.Sgr3E1I
+Streptomyces griseus subsp. griseus,ATCC 10137,matched,yes,M1.Sgr13350II; SgrAI; M.SgrAI,no,,yes,SgrAII
+Streptomyces hygroscopicus subsp. hygroscopicus,ATCC 27438,matched,no,,no,,no,
+Streptomyces lavendulae subsp. lavendulae,ATCC 8664,matched,no,,no,,no,
+Streptomyces lividans,ATCC 19844,matched,no,,no,,no,
+Streptomyces lydicus,ATCC 25470,matched,no,,no,,no,
+Streptomyces natalensis,ATCC 27448,matched,yes,SkaI,no,,no,
+Streptomyces netropsis,ATCC 23940,matched,no,,no,,no,
+Streptomyces nodosus,ATCC 14899,matched,no,,no,,no,
+Streptomyces noursei,ATCC 11455,matched,no,,no,,yes,M1.SstMg1I; M2.SstMg1I
+Streptomyces peucetius subsp. caesius,ATCC 27952,matched,no,,no,,yes,M1.SstMg1I; M2.SstMg1I
+Streptomyces platensis,ATCC 23948,matched,no,,no,,no,
+Streptomyces prasinus,ATCC 13879,matched,no,,no,,no,
+Streptomyces rimosus subsp. rimosus,ATCC 10970,matched,no,,no,,no,
+Streptomyces roseofulvus,ATCC 27454,matched,yes,SgrTI,no,,no,
+Streptomyces sp. NRRL WC-3753,ATCC 55227,matched,no,,no,,no,
+Streptomyces spectabilis,ATCC 27465,matched,no,,no,,yes,M1.SstMg1I; M2.SstMg1I
+Streptomyces tsukubensis,ATCC 67382,matched,no,,no,,no,
+Streptomyces venezuelae,ATCC 10595,matched,no,,no,,no,
+Streptomyces violaceoruber,ATCC 14980,matched,yes,SvoI,no,,no,
+Streptomyces virginiae,ATCC 13161,matched,yes,M.Sfr10745III,no,,no,
+Streptomyces viridochromogenes,ATCC 14920,matched,no,,no,,no,

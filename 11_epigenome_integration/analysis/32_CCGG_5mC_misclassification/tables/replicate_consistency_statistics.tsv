@@ -1,0 +1,6 @@
+timepoint	comparison	n1	n2	mean1	mean2	MannWhitney_U	MannWhitney_p
+T1	CCGG_4mC vs non_CCGG_4mC	1516	10	3.0	3.0	7580.0	1.0
+T1	CCGG_4mC vs 6mA	1516	1934	3.0	3.0	1465972.0	1.0
+T2	CCGG_4mC vs non_CCGG_4mC	486	7	3.0	3.0	1701.0	1.0
+T2	CCGG_4mC vs 6mA	486	2120	3.0	3.0	515160.0	1.0
+T3	CCGG_4mC vs 6mA	30	2295	3.0	3.0	34425.0	1.0

@@ -1,0 +1,22 @@
+test_name	test_type	statistic	p_value	p_adj	n1	n2	result
+Fisher exact: LacI enrichment by bloc	Fisher exact test	OR=1.2500	1.0	1.0	1	1	Activation
+Fisher exact: LuxR enrichment by bloc	Fisher exact test	OR=3.3333	0.5454545454545454	1.0	2	1	Activation
+Fisher exact: LysR enrichment by bloc	Fisher exact test	OR=0.0000	1.0	1.0	0	1	Repression
+Fisher exact: MarR enrichment by bloc	Fisher exact test	OR=0.0000	0.4545454545454546	1.0	0	2	Repression
+Fisher exact: Sigma factor enrichment by bloc	Fisher exact test	OR=inf	0.18181818181818182	1.0	2	0	Activation
+Fisher exact: TetR enrichment by bloc	Fisher exact test	OR=0.0000	1.0	1.0	0	1	Repression
+Fisher exact: Defense/resistance enrichment by bloc	Fisher exact test	OR=0.0000	1.0	1.0	0	1	Repression
+Fisher exact: General enrichment by bloc	Fisher exact test	OR=3.3333	0.5454545454545454	1.0	2	1	Activation
+Fisher exact: Metabolic enrichment by bloc	Fisher exact test	OR=0.5000	1.0	1.0	1	2	Repression
+Fisher exact: Stress/development enrichment by bloc	Fisher exact test	OR=1.3333	1.0	1.0	2	2	Activation
+KW: |LFC_T3| differences by TF family	Kruskal-Wallis H test	H=3.9778	0.2638737483912161		4	11	Non-significant
+MWU: |LFC_T3| activation vs repression bloc	Mann-Whitney U test	U=15.0	1.0		5	6	Act median=1.49, Rep median=1.47
+Fisher exact: neighbor DNA_RNA_processing by bloc	Fisher exact test	OR=inf	0.2362047440699126	0.8925455215960679	2	0	Activation enriched
+Fisher exact: neighbor cell_wall_membrane by bloc	Fisher exact test	OR=0.0000	1.0	1.0	0	1	Repression enriched
+Fisher exact: neighbor hypothetical by bloc	Fisher exact test	OR=1.8571	0.297515173865356	0.8925455215960679	11	7	Activation enriched
+Fisher exact: neighbor other by bloc	Fisher exact test	OR=0.8046	0.6661114560151656	1.0	15	18	Repression enriched
+Fisher exact: neighbor primary_metabolism by bloc	Fisher exact test	OR=1.8376	0.4800164900548477	1.0	5	3	Activation enriched
+Fisher exact: neighbor secondary_metabolism by bloc	Fisher exact test	OR=1.0488	1.0	1.0	3	3	Activation enriched
+Fisher exact: neighbor signaling by bloc	Fisher exact test	OR=0.2653	0.15821610850265705	0.8925455215960679	2	7	Repression enriched
+Fisher exact: neighbor stress_response by bloc	Fisher exact test	OR=0.0000	1.0	1.0	0	1	Repression enriched
+Fisher exact: neighbor transport by bloc	Fisher exact test	OR=1.0526	1.0	1.0	6	6	Activation enriched

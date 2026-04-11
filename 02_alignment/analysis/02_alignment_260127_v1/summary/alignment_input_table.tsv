@@ -1,0 +1,10 @@
+sample_id	condition	replicate	R1_fastq	R2_fastq	source
+M145_1_1	M145_1	1	/Users/okaban/bioinfo/rna-seq/01_qc/analysis/01_qc_260127_v1/fastp/M145_1_1_trimmed_R1.fastq.gz	/Users/okaban/bioinfo/rna-seq/01_qc/analysis/01_qc_260127_v1/fastp/M145_1_1_trimmed_R2.fastq.gz	TRIMMED
+M145_1_2	M145_1	2	/Users/okaban/bioinfo/rna-seq/01_qc/analysis/01_qc_260127_v1/fastp/M145_1_2_trimmed_R1.fastq.gz	/Users/okaban/bioinfo/rna-seq/01_qc/analysis/01_qc_260127_v1/fastp/M145_1_2_trimmed_R2.fastq.gz	TRIMMED
+M145_1_3	M145_1	3	/Users/okaban/bioinfo/rna-seq/01_qc/analysis/01_qc_260127_v1/fastp/M145_1_3_trimmed_R1.fastq.gz	/Users/okaban/bioinfo/rna-seq/01_qc/analysis/01_qc_260127_v1/fastp/M145_1_3_trimmed_R2.fastq.gz	TRIMMED
+M145_2_1	M145_2	1	/Users/okaban/bioinfo/rna-seq/01_qc/analysis/01_qc_260127_v1/fastp/M145_2_1_trimmed_R1.fastq.gz	/Users/okaban/bioinfo/rna-seq/01_qc/analysis/01_qc_260127_v1/fastp/M145_2_1_trimmed_R2.fastq.gz	TRIMMED
+M145_2_3	M145_2	3	/Users/okaban/bioinfo/rna-seq/01_qc/analysis/01_qc_260127_v1/fastp/M145_2_3_trimmed_R1.fastq.gz	/Users/okaban/bioinfo/rna-seq/01_qc/analysis/01_qc_260127_v1/fastp/M145_2_3_trimmed_R2.fastq.gz	TRIMMED
+M145_2_4	M145_2	4	/Users/okaban/bioinfo/rna-seq/01_qc/analysis/01_qc_260127_v1/fastp/M145_2_4_trimmed_R1.fastq.gz	/Users/okaban/bioinfo/rna-seq/01_qc/analysis/01_qc_260127_v1/fastp/M145_2_4_trimmed_R2.fastq.gz	TRIMMED
+M145_3_2	M145_3	2	/Users/okaban/bioinfo/rna-seq/01_qc/analysis/01_qc_260127_v1/fastp/M145_3_2_trimmed_R1.fastq.gz	/Users/okaban/bioinfo/rna-seq/01_qc/analysis/01_qc_260127_v1/fastp/M145_3_2_trimmed_R2.fastq.gz	TRIMMED
+M145_3_3	M145_3	3	/Users/okaban/bioinfo/rna-seq/01_qc/analysis/01_qc_260127_v1/fastp/M145_3_3_trimmed_R1.fastq.gz	/Users/okaban/bioinfo/rna-seq/01_qc/analysis/01_qc_260127_v1/fastp/M145_3_3_trimmed_R2.fastq.gz	TRIMMED
+M145_3_4	M145_3	4	/Users/okaban/bioinfo/rna-seq/01_qc/analysis/01_qc_260127_v1/fastp/M145_3_4_trimmed_R1.fastq.gz	/Users/okaban/bioinfo/rna-seq/01_qc/analysis/01_qc_260127_v1/fastp/M145_3_4_trimmed_R2.fastq.gz	TRIMMED

@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "m145_prot",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "M145_proteome",
+  "number-of-letters": 2583023,
+  "number-of-sequences": 7872,
+  "last-updated": "2026-02-24T23:56:00",
+  "number-of-volumes": 1,
+  "bytes-total": 4027766,
+  "bytes-to-cache": 2653968,
+  "files": [
+    "m145_prot.pdb",
+    "m145_prot.phr",
+    "m145_prot.pin",
+    "m145_prot.pot",
+    "m145_prot.psq",
+    "m145_prot.ptf",
+    "m145_prot.pto"
+  ]
+}

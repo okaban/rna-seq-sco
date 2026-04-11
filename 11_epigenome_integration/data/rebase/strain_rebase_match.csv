@@ -1,0 +1,38 @@
+strain_name,atcc_id,rebase_organisms,n_rm_entries,recognition_seqs,enzyme_names,enzyme_types,methyl_types,match_status
+Streptomyces albus,ATCC 3004,Streptomyces albus; Streptomyces albus 13; Streptomyces albus 1974; Streptomyces albus G; Streptomyces albus subspecies pathocidicus,10,; CTCGAG; CTGCAG; GATC; GCCGGC; GTCGAC; TCGCGA,M.SalI; Sal13I; Sal1974I; SalAI; SalCI; SalDI; SalI; SalII; SalPI; SpaI,M2; R2,; m6A,matched
+Streptomyces ambofaciens,ATCC 15154,Streptomyces albofaciens,1,GCCGGC,SaoI,R2,,matched
+Streptomyces antibioticus-oligomycini,ATCC 11891,,0,,,,,no_data
+Streptomyces aureofaciens,ATCC 10762,Streptomyces aureofaciens; Streptomyces aureofaciens 13; Streptomyces aureofaciens 16; Streptomyces aureofaciens B-96; Streptomyces aureofaciens IKA 18/4; Streptomyces aureofaciens IKA 22201; Streptomyces aureofaciens NMU; Streptomyces aureofaciens R8/26; Streptomyces aureofaciens strain BM-K,13,; CCTNAGG; CTCGAG; GCCGGC,M.Sau3239I; M.SauLPI; Sau22201I; Sau3239I; SauAI; SauBMKI; SauHI; SauHPI; SauI; SauLPI; SauLPII; SauNI; SauSI,M2; R2,; m5C; m6A,matched
+Streptomyces aureoverticillatus,ATCC 15853,Streptomyces verticillius 194,1,CTCGAG,Sve194I,R2,,matched
+Streptomyces avermitilis,ATCC 31267,Streptomyces verticillius 194,1,CTCGAG,Sve194I,R2,,matched
+Streptomyces bikiniensis,ATCC 11062,Streptomyces bikiniensis JAM68,1,CTCGAG,Sbi68I,R2,,matched
+Streptomyces californicus,ATCC 15436,Streptomyces carneus 1827,1,CTCGAG,Sca1827I,R2,,matched
+Streptomyces canus,ATCC 12237,Streptomyces carneus 1827,1,CTCGAG,Sca1827I,R2,,matched
+Streptomyces cattleya,ATCC 35852,Streptomyces tendae,1,AGGCCT,SteI,R2,,matched
+Streptomyces clavuligerus,ATCC 27064,Streptomyces sviceus,1,AGGCCT,SsvI,R2,,matched
+Streptomyces coelescens,ATCC 19833,Streptomyces violascens ATCC 27968,1,GCCGGC,M.Svi27968I,M2,,matched
+Streptomyces diastatochromogenes,ATCC 12309,Streptomyces diastatochromogenes,1,CTCGAG,SdiAI,R2,,matched
+Streptomyces fulvissimus,ATCC 27431,Streptomyces fulvissimus; Streptomyces fulvissimus 1762,2,CTCGAG; TTCGAA,Sfu1762I; SfuI,R2,,matched
+Streptomyces globisporus subsp. globisporus,ATCC 15864,Streptomyces griseus RFL12,1,CC,SguI,R2*,,matched
+Streptomyces griseorubiginosus,ATCC 19766,Streptomyces griseorubiginosus 3E-1,1,CCGANNNNNNCTAC,M.Sgr3E1I,M1,"m6A, m6A",matched
+Streptomyces griseus subsp. griseus,ATCC 10137,Streptomyces griseus; Streptomyces griseus Kr. 20; Streptomyces griseus NCTC13033; Streptomyces griseus NCTC7807; Streptomyces griseus RFL12; Streptomyces griseus RFL5; Streptomyces griseus RFL6; Streptomyces griseus subsp. griseus NBRC 13350,19,; CAGNNNNNNCTTG; CC; CCGCGG; CCWGG; CGAGATC; CGTCGACG; CRCCGGYG; GAGCTC; GCCGAGG; GCCGGC; GCTCTTC; GGCGCGCC,M.Sgr13350I; M.SgrAI; M.SgrAIII; M1.Sgr13033I; M1.Sgr13350II; M1.Sgr13350III; M2.Sgr13033I; M2.Sgr13350III; Sgr13350I; Sgr13350III; Sgr20I; Sgr7807I; SgrAI; SgrAII; SgrBI; SgrDI; SgrI; SgsI; SguI,M1; M2; R2; R2*; RM2,"; m5C; m6A; m6A, m6A",matched
+Streptomyces hygroscopicus subsp. hygroscopicus,ATCC 27438,Streptomyces hygroscopicus; Streptomyces hygroscopicus 0477; Streptomyces hygroscopicus 1766,3,; CCGCGG; CTCGAG,Shy1766I; ShyI; ShyTI,R2,,matched
+Streptomyces lavendulae subsp. lavendulae,ATCC 8664,Streptomyces lavendulae,1,CTCGAG,SlaI,R2,,matched
+Streptomyces lividans,ATCC 19844,Streptomyces olivaceus IMRU 3335,1,CAGCTG,Sol3335I,R2,,matched
+Streptomyces lydicus,ATCC 25470,Streptomyces olivaceus IMRU 3335,1,CAGCTG,Sol3335I,R2,,matched
+Streptomyces natalensis,ATCC 27448,Streptomyces karnatakensis,2,CTGCAG; GCCGGC,SkaI; SkaII,R2,,matched
+Streptomyces netropsis,ATCC 23940,Streptomyces ghanaesis 1835,1,GGWCC,Sgh1835I,R2,,matched
+Streptomyces nodosus,ATCC 14899,Streptomyces rimosus forma paramomycinus,1,CTCGAG,SrifpI,R2,,matched
+Streptomyces noursei,ATCC 11455,Streptomyces species Mg1,2,GNNGAYNNNNNNNTGCT,M1.SstMg1I; M2.SstMg1I,M1,"m6A, m6A",matched
+Streptomyces peucetius subsp. caesius,ATCC 27952,Streptomyces species Mg1,2,GNNGAYNNNNNNNTGCT,M1.SstMg1I; M2.SstMg1I,M1,"m6A, m6A",matched
+Streptomyces platensis,ATCC 23948,Streptomyces takatoensis,1,CCGCGG,StaI,R2,,matched
+Streptomyces prasinus,ATCC 13879,Streptomyces prasinus,1,CTGCAG,SprLI,R2,,matched
+Streptomyces rimosus subsp. rimosus,ATCC 10970,Streptomyces rimosus forma paramomycinus,1,CTCGAG,SrifpI,R2,,matched
+Streptomyces roseofulvus,ATCC 27454,Streptomyces griseoflavus Tu4000,1,CCDS,SgrTI,R2*,,matched
+Streptomyces sp. NRRL WC-3753,ATCC 55227,Streptomyces sp. WMMB 714,2,AAGNNNNNGTCC; CGCAGCG,M.Ssp714I; Ssp714II,M1; RM2,"m6A; m6A, m6A",matched
+Streptomyces spectabilis,ATCC 27465,Streptomyces species Mg1,2,GNNGAYNNNNNNNTGCT,M1.SstMg1I; M2.SstMg1I,M1,"m6A, m6A",matched
+Streptomyces tsukubensis,ATCC 67382,Streptomyces takatoensis,1,CCGCGG,StaI,R2,,matched
+Streptomyces venezuelae,ATCC 10595,Streptomyces lavendulae,1,CTCGAG,SlaI,R2,,matched
+Streptomyces violaceoruber,ATCC 14980,Streptomyces violaceoruber RFL10,1,CRCCGGYG,SvoI,R2,,matched
+Streptomyces virginiae,ATCC 13161,Streptomyces fradiae ATCC 10745 = DSM 40063,3,CCGCGG; CGACNNNNNCTTC; GCCGGC,M.Sfr10745I; M.Sfr10745II; M.Sfr10745III,M1; M2,"m5C; m6A, m6A",matched
+Streptomyces viridochromogenes,ATCC 14920,Streptomyces violochromogenes,1,TTCGAA,SviI,R2,,matched

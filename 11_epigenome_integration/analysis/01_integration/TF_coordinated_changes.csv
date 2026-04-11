@@ -1,0 +1,31 @@
+gene_id,old_locus_tag,product,mod_type,T1_sites,T2_sites,methyl_change,methyl_category,log2FC,padj,coordination,correlation_type
+SC_RS38475,SCO7252,DNA-binding protein NsdB,4mC,0,1,92.3,Gained,9.32,3.5040142420988754e-226,Gained_Up,Positive
+SC_RS08090,SCO1227,helix-turn-helix transcriptional regulator,4mC,0,1,87.8,Gained,4.58,6.884471988046264e-44,Gained_Up,Positive
+SC_RS22780,SCO4122,MarR family winged helix-turn-helix transcriptional regulator,6mA,1,0,-56.1,Lost,-3.8,5.766380137126139e-88,Lost_Down,Positive
+SC_RS17795,SCO3134,response regulator transcription factor,6mA,0,1,52.6,Gained,3.4,6.4490549138040534e-49,Gained_Up,Positive
+SC_RS30370,SCO5629,FxSxx-COOH system tetratricopeptide repeat protein,4mC,1,1,11.3,Increased,2.65,5.695406080702799e-50,Increased_Up,Positive
+SC_RS13145,SCO2223,TetR/AcrR family transcriptional regulator,6mA,1,0,-51.4,Lost,-2.6,1.2629170602358348e-22,Lost_Down,Positive
+SC_RS36220,,helix-turn-helix transcriptional regulator,6mA,0,1,62.1,Gained,2.17,0.0001427567692109,Gained_Up,Positive
+SC_RS24380,SCO4443,MerR family transcriptional regulator,6mA,0,1,58.3,Gained,2.12,1.4387410976569703e-24,Gained_Up,Positive
+SC_RS32025,SCO5956,TetR/AcrR family transcriptional regulator,6mA,1,1,-13.2,Decreased,-2.09,5.888344612414325e-11,Decreased_Down,Positive
+SC_RS20135,SCO3600,helix-turn-helix domain-containing protein,4mC,1,1,-14.2,Decreased,-2.03,2.467216729464118e-07,Decreased_Down,Positive
+SC_RS02455,SCO0089,LysR family transcriptional regulator,4mC,0,1,78.6,Gained,1.96,2.5249380577013426e-17,Gained_Up,Positive
+SC_RS27105,SCO4989,IclR family transcriptional regulator,4mC,1,0,-53.4,Lost,-1.72,7.190817694141732e-21,Lost_Down,Positive
+SC_RS06310,SCO0877,helix-turn-helix transcriptional regulator,6mA,0,1,53.1,Gained,1.69,3.741050281151121e-24,Gained_Up,Positive
+SC_RS16855,SCO2950,HU family DNA-binding protein,4mC,1,0,-50.7,Lost,-1.65,2.827966405340166e-12,Lost_Down,Positive
+SC_RS15485,SCO2681,FxSxx-COOH system tetratricopeptide repeat protein,6mA,1,0,-50.4,Lost,-1.63,2.0668006416906303e-08,Lost_Down,Positive
+SC_RS38610,SCO7279,helix-turn-helix domain-containing protein,4mC,0,1,65.6,Gained,1.51,2.7868803275573235e-09,Gained_Up,Positive
+SC_RS33745,SCO6299,TetR/AcrR family transcriptional regulator,6mA,1,0,-56.6,Lost,-1.41,1.6258548905382441e-07,Lost_Down,Positive
+SC_RS26965,SCO4960,sigma factor-like helix-turn-helix DNA-binding protein,6mA,1,0,-54.1,Lost,-1.27,1.1788458467230524e-08,Lost_Down,Positive
+SC_RS25370,SCO4639,TetR/AcrR family transcriptional regulator,6mA,1,0,-55.0,Lost,-1.21,2.476275996620529e-09,Lost_Down,Positive
+SC_RS29350,SCO5433,AfsR-like transcriptional regulator TcrA,6mA,0,1,51.9,Gained,1.04,3.683188120370881e-05,Gained_Up,Positive
+SC_RS09835,SCO1564,sigma-70 family RNA polymerase sigma factor,6mA,1,0,-50.3,Lost,3.56,2.6224452530615437e-26,Lost_Up,Negative
+SC_RS31385,SCO5828,response regulator,6mA,1,0,-50.1,Lost,3.2,2.66394711150193e-54,Lost_Up,Negative
+SC_RS07910,SCO1191,MarR family winged helix-turn-helix transcriptional regulator,4mC,0,1,76.7,Gained,-2.82,8.542326584087243e-19,Gained_Down,Negative
+SC_RS36820,SCO6924,helix-turn-helix domain-containing protein,4mC,0,1,83.8,Gained,-2.54,7.40547348508819e-05,Gained_Down,Negative
+SC_RS21680,SCO3907,single-stranded DNA-binding protein,4mC,0,1,52.1,Gained,-2.53,8.216758919198887e-26,Gained_Down,Negative
+SC_RS16920,SCO2964,LysR family transcriptional regulator StgR,4mC,1,1,12.5,Increased,-2.15,1.594777898086238e-07,Increased_Down,Negative
+SC_RS10435,SCO1684,tetratricopeptide repeat protein,6mA,1,0,-55.7,Lost,1.73,1.1503249464833512e-05,Lost_Up,Negative
+SC_RS29770,SCO5517,TetR/AcrR family transcriptional regulator,4mC,1,1,10.9,Increased,-1.26,1.182971561813807e-12,Increased_Down,Negative
+SC_RS37035,,WhiB family transcriptional regulator,6mA,1,0,-52.6,Lost,1.24,0.023562700652312,Lost_Up,Negative
+SC_RS04270,SCO0471,helix-turn-helix domain-containing protein,6mA,1,0,-59.6,Lost,1.17,0.0002421652039553,Lost_Up,Negative

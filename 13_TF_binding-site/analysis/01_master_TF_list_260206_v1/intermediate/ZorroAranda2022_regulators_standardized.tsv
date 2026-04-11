@@ -1,0 +1,105 @@
+SCO_ID	gene_id	gene_name	regulator_type	ZorroAranda_regulator_type	is_global_regulator	source
+SCO0204	SC_RS02970	osdR	TCS_response_regulator;TF_LUXR_family	TCS	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO0310	SC_RS03465		TF_TETR_family	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO0561	SC_RS04725	furA	TF	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO0599	SC_RS04920	rsbA	sigma_factor;anti-sigma_factor	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO0600	SC_RS04925	sigB	sigma_factor	sigma	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO0608	SC_RS04965	slbR	TF	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO0877	SC_RS06310		global_regulator;TF	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO1104	SC_RS07470	rrdA	TF_TETR_family	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO1135	SC_RS07625	xdhR	TF_TETR_family	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO1480	SC_RS09375		TF_ARAC_family	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO1489	SC_RS09420	bldD	global_regulator;TF	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO1568	SC_RS09855	pqrA	TF_TETR_family	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO1576	SC_RS09895	argR	global_regulator;TF	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO1614	SC_RS10080	epuRI	TF	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO1678	SC_RS10405	gntR	TF	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO1697	SC_RS10500	soxR	TF_MERR_family	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO1712	SC_RS10575		TF_TETR_family	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO1745	SC_RS10735	abrA2	global_regulator	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO1839	SC_RS11225		TF	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO1950	SC_RS11780	whiA	regulator	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO2120	SC_RS12645	macR	TCS_response_regulator	TCS	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO2127	SC_RS12680		TF_ARAC_family	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO2140	SC_RS12745		TF	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO2281	SC_RS13430	aor1	global_regulator;TCS_response_regulator	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO2792	SC_RS16045	adpA, bldH	global_regulator;TF_ARAC_family	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO2935	SC_RS16775	hpdR	global_regulator	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO2950	SC_RS16855	hupA	TF	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO2958	SC_RS16890	nnaR	TF	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO2964	SC_RS16920	stgR	TF_LYSR_family	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO3013	SC_RS17165	mtrA	TCS_response_regulator	TCS	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO3034	SC_RS17285	whiB	TF	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO3063	SC_RS17430	draR	global_regulator;TCS_response_regulator	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO3129	SC_RS17770		TF_TETR_family	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO3133	SC_RS17790	tamR	TF_MARR_family	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO3198	SC_RS18105	fruR	TF_DEOR_family	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO3201	SC_RS18120		TF_TETR_family	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO3202	SC_RS18125	hrdD	sigma_factor	sigma	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO3217	SC_RS18200	cdaR	TF	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO3226	SC_RS18245	absA2	global_regulator;TCS_response_regulator	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO3323	SC_RS18720	bldN	sigma_factor	sigma	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO3356	SC_RS18895	sigE	sigma_factor	sigma	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO3358	SC_RS18905	cseB	TF	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO3361	SC_RS18920	lrpA	TF_ASNC_family	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO3375	SC_RS19000		TF_LSR2_family	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO3549	SC_RS19880	bldG	sigma_factor;anti-sigma_factor	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO3571	SC_RS19990	crp	global_regulator;TF	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO3579	SC_RS20030	wblA	global_regulator;TF	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO3606	SC_RS20165		TF	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO3668	SC_RS20475	hspR	regulator	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO3832	SC_RS21290	bkdR	TF	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO3859	SC_RS21435		TF	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO3892	SC_RS21605	sigT	sigma_factor	sigma	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO3925	SC_RS21770	ssgR	TF	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO3932	SC_RS21805		TF_GNTR_family	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO4035	SC_RS22295	sigF	sigma_factor	sigma	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO4117	SC_RS22755		global_regulator	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO4118	SC_RS22760	atrA	global_regulator;TF_TETR_family	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO4159	SC_RS22985	glnR	global_regulator;TF	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO4184	SC_RS23105	amfC	regulator	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO4228	SC_RS23325	phoU	regulator	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO4230	SC_RS23335	phoP	global_regulator;TCS_response_regulator	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO4425	SC_RS24290	afsS	global_regulator;sigma_factor;sigma-like	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO4426	SC_RS24295	afsR, afsB	global_regulator;TF	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO4543	SC_RS24870	whiJ	TF_ARAC_family	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO4596	SC_RS25135	abrC3	global_regulator;TCS_response_regulator	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO4907	SC_RS26695	afsQ1	global_regulator;TF	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO4908	SC_RS26700	sigQ	sigma_factor	sigma	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO5033	SC_RS27330	oxyR	TF	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO5082	SC_RS27570	actII-orf1	TF	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO5085	SC_RS27585	actII-orf4	TF	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO5206	SC_RS28210	catR	TF	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO5216	SC_RS28260	sigR	global_regulator;sigma_factor	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO5217	SC_RS28265	rsrA	sigma_factor;anti-sigma_factor	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO5231	SC_RS28335	dasR	global_regulator;TF	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO5243	SC_RS28395	sigH	sigma_factor	sigma	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO5260	SC_RS28480	atrA*	global_regulator	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO5283	SC_RS28600		global_regulator;TCS_response_regulator	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO5351	SC_RS28935		TF	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO5403	SC_RS29195	RapA1	TCS_response_regulator	TCS	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO5405	SC_RS29205	absC	global_regulator;TF	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO5552	SC_RS29970	ndgR	global_regulator;TF	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO5582	SC_RS30130	nsdA	TF	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO5621	SC_RS30330	whiG	sigma_factor	sigma	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO5778	SC_RS31130	gluR	TCS_response_regulator	TCS	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO5785	SC_RS31165		global_regulator;TCS_response_regulator	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO5803	SC_RS31255	lexA	TF	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO5819	SC_RS31335	whiH	regulator	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO5820	SC_RS31340	hrdB	global_regulator;sigma_factor	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO5877	SC_RS31630	redD	TF	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO5881	SC_RS31650	redZ	global_regulator;TCS_response_regulator	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO6008	SC_RS32280	rok7B7	global_regulator;TF	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO6029	SC_RS32380	whiI	TCS_response_regulator	TCS	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO6256	SC_RS33530		TF	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO6265	SC_RS33575	scbR	global_regulator	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO6266	SC_RS33580	scbA	regulator	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO6280	SC_RS33650	kasO	TF	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO6286	SC_RS33680	scbR2	global_regulator;TF	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO6294	SC_RS33720	hypR	TF_GNTR_family	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO6459	SC_RS34490	nmtR	TF	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO6685	SC_RS35610	ramR	TCS_response_regulator	TCS	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO6974	SC_RS37085		TF_GNTR_family	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO7168	SC_RS38065	agl3R	TF_GNTR_family	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO7173	SC_RS38085		global_regulator;TF	global	True	Zorro-Aranda_et_al_2022_SciRep_12_2704
+SCO7427	SC_RS39340	nsrR	TF	TF	False	Zorro-Aranda_et_al_2022_SciRep_12_2704

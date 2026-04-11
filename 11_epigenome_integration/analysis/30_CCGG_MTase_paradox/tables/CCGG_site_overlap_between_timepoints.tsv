@@ -1,0 +1,11 @@
+comparison	n_sites
+T1_only	1516
+T2_only	486
+T3_only	30
+T1∩T2	0
+T1∩T3	0
+T2∩T3	0
+T1∩T2∩T3	0
+T1_total	1516
+T2_total	486
+T3_total	30

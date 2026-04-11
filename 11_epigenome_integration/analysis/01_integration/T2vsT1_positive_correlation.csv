@@ -1,0 +1,149 @@
+gene_id,old_locus_tag,product,mod_type,T1_sites,T2_sites,T1_mean_freq,T2_mean_freq,methyl_change,methyl_category,log2FC,padj,baseMean,expr_category,coordination
+SC_RS03540,SCO0324,esterase-like activity of phytase family protein,4mC,0,1,0.0,66.8,66.8,Gained,10.95,1.5156487716504137e-208,7437.3,Up,Gained_Up
+SC_RS02090,SCO0005,Mu transposase C-terminal domain-containing protein,4mC,0,1,0.0,90.8,90.8,Gained,9.68,6.467811215071488e-13,37.6,Up,Gained_Up
+SC_RS38475,SCO7252,DNA-binding protein NsdB,4mC,0,1,0.0,92.3,92.3,Gained,9.32,3.5040142420988754e-226,9088.5,Up,Gained_Up
+SC_RS03820,SCO0382,nucleotide sugar dehydrogenase,4mC,0,1,0.0,75.2,75.2,Gained,9.25,2.6645209861139977e-128,2916.2,Up,Gained_Up
+SC_RS18310,SCO3239,TatD family hydrolase,6mA,0,1,0.0,51.2,51.2,Gained,8.96,1.190047041178338e-46,721.2,Up,Gained_Up
+SC_RS36160,SCO6796,DUF742 domain-containing protein,4mC,0,1,0.0,93.3,93.3,Gained,8.79,2.470536268447503e-24,224.1,Up,Gained_Up
+SC_RS09840,SCO1565,glycerophosphodiester phosphodiesterase,6mA,0,1,0.0,56.9,56.9,Gained,8.29,8.260064023319935e-205,3366.9,Up,Gained_Up
+SC_RS41345,SCO7842,Mu transposase C-terminal domain-containing protein,4mC,0,1,0.0,87.1,87.1,Gained,8.07,5.756079931935038e-09,14.3,Up,Gained_Up
+SC_RS11025,SCO1800,chaplin ChpE,4mC,1,1,51.0,70.8,19.8,Increased,7.96,2.9371214379930388e-173,10033.5,Up,Increased_Up
+SC_RS04860,SCO0587,roadblock/LC7 domain-containing protein,6mA,0,1,0.0,52.8,52.8,Gained,7.53,1.609764913148607e-68,346.1,Up,Gained_Up
+SC_RS33670,SCO6284,acyl-CoA carboxylase subunit beta,6mA,1,1,52.4,64.4,12.0,Increased,7.36,1.3859434302175416e-132,2919.9,Up,Increased_Up
+SC_RS08425,SCO1293,GNAT family N-acetyltransferase,6mA,1,1,51.2,66.2,15.0,Increased,6.79,8.869809665435927e-181,8440.0,Up,Increased_Up
+SC_RS31380,SCO5827,solute symporter family protein,6mA,0,1,0.0,54.1,54.1,Gained,6.75,1.1522480665657204e-173,1973.3,Up,Gained_Up
+SC_RS03040,SCO0219,respiratory nitrate reductase subunit gamma,6mA,0,1,0.0,59.7,59.7,Gained,6.32,8.075013626398953e-26,156.5,Up,Gained_Up
+SC_RS11875,SCO1969,methylated-DNA--[protein]-cysteine S-methyltransferase,4mC,0,1,0.0,54.6,54.6,Gained,5.53,9.420012158200229e-96,7059.6,Up,Gained_Up
+SC_RS41080,SCO7784,NADPH-dependent oxidoreductase,4mC,0,1,0.0,60.3,60.3,Gained,5.35,4.2889865924211687e-60,586.4,Up,Gained_Up
+SC_RS07820,SCO1174,acetaldehyde dehydrogenase ExaC,6mA,1,1,51.0,64.9,13.9,Increased,5.28,9.024531985256285e-72,556.5,Up,Increased_Up
+SC_RS40770,SCO7717,hypothetical protein,4mC,0,1,0.0,63.1,63.1,Gained,4.95,8.230183149713911e-54,306.0,Up,Gained_Up
+SC_RS08090,SCO1227,helix-turn-helix transcriptional regulator,4mC,0,1,0.0,87.8,87.8,Gained,4.58,6.884471988046263e-44,190.6,Up,Gained_Up
+SC_RS04370,SCO0490,alpha/beta fold hydrolase,4mC,0,1,0.0,81.3,81.3,Gained,4.57,4.749468740529724e-87,1888.8,Up,Gained_Up
+SC_RS04645,SCO0546,pyruvate carboxylase,6mA,0,1,0.0,54.4,54.4,Gained,4.36,1.0343198929431425e-131,1152.1,Up,Gained_Up
+SC_RS03545,SCO0325,hypothetical protein,4mC,0,1,0.0,66.8,66.8,Gained,4.32,0.00017161880378304358,13.3,Up,Gained_Up
+SC_RS06245,SCO0863,PepSY-associated TM helix domain-containing protein,6mA,0,1,0.0,59.1,59.1,Gained,3.99,3.6567861703059943e-47,2825.5,Up,Gained_Up
+SC_RS06245,SCO0863,PepSY-associated TM helix domain-containing protein,4mC,1,1,80.9,94.1,13.2,Increased,3.99,3.6567861703059943e-47,2825.5,Up,Increased_Up
+SC_RS22780,SCO4122,MarR family winged helix-turn-helix transcriptional regulator,6mA,1,0,56.1,0.0,-56.1,Lost,-3.8,5.766380137126139e-88,473.2,Down,Lost_Down
+SC_RS40335,SCO7628,PQQ-dependent sugar dehydrogenase,4mC,0,1,0.0,68.1,68.1,Gained,3.79,3.993161780756369e-28,81.2,Up,Gained_Up
+SC_RS34185,SCO6394,IS21-like element helper ATPase IstB,6mA,0,1,0.0,53.8,53.8,Gained,3.59,3.358000681262023e-86,450.7,Up,Gained_Up
+SC_RS02810,SCO0172,universal stress protein,6mA,0,1,0.0,53.8,53.8,Gained,3.52,1.7887814434037213e-11,74.7,Up,Gained_Up
+SC_RS38380,SCO7233,alpha/beta hydrolase,4mC,0,1,0.0,64.7,64.7,Gained,3.45,1.351710600698684e-64,1002.4,Up,Gained_Up
+SC_RS17795,SCO3134,response regulator transcription factor,6mA,0,1,0.0,52.6,52.6,Gained,3.4,6.4490549138040534e-49,877.4,Up,Gained_Up
+SC_RS35745,SCO6712,multicopper oxidase domain-containing protein,4mC,0,1,0.0,67.4,67.4,Gained,3.39,2.3169741365762517e-35,223.2,Up,Gained_Up
+SC_RS04660,SCO0549,acyl carrier protein,6mA,0,1,0.0,52.8,52.8,Gained,3.34,0.0022587061462784,10.4,Up,Gained_Up
+SC_RS06230,SCO0860,heavy metal translocating P-type ATPase,4mC,0,1,0.0,63.8,63.8,Gained,3.17,1.45020125237929e-38,1330.6,Up,Gained_Up
+SC_RS40740,SCO7711,sensor histidine kinase,4mC,0,1,0.0,76.1,76.1,Gained,3.16,3.0234167912246887e-31,174.7,Up,Gained_Up
+SC_RS10240,SCO1646,ubiquitin-like protein Pup,4mC,1,1,53.3,83.1,29.7,Increased,3.08,5.2817746197601614e-39,2462.1,Up,Increased_Up
+SC_RS07375,SCO1084,TlpA family protein disulfide reductase,4mC,0,1,0.0,57.1,57.1,Gained,3.04,5.4248831455168935e-25,213.9,Up,Gained_Up
+SC_RS09135,SCO1432,peptidase C39 family protein,6mA,0,1,0.0,50.3,50.3,Gained,2.94,2.269933233698066e-31,251.6,Up,Gained_Up
+SC_RS09070,SCO1419,glycerophosphodiester phosphodiesterase,4mC,0,1,0.0,74.3,74.3,Gained,2.9,3.469506302804237e-36,593.7,Up,Gained_Up
+SC_RS04840,SCO0583,cytochrome P450,4mC,0,1,0.0,80.1,80.1,Gained,2.86,6.73010202104824e-42,195.5,Up,Gained_Up
+SC_RS26225,SCO4813,phosphoribosylglycinamide formyltransferase,4mC,1,1,79.0,62.0,-17.0,Decreased,-2.82,6.653916806136314e-56,394.9,Down,Decreased_Down
+SC_RS27735,SCO5115,ABC transporter ATP-binding protein,4mC,2,2,69.6,59.4,-10.2,Decreased,-2.8,4.7583135928870055e-34,2363.4,Down,Decreased_Down
+SC_RS06225,SCO0859,copper chaperone PCu(A)C,4mC,0,1,0.0,86.8,86.8,Gained,2.74,1.5616113423258453e-15,81.3,Up,Gained_Up
+SC_RS26590,SCO4886,ABC transporter ATP-binding protein,6mA,1,0,54.1,0.0,-54.1,Lost,-2.73,6.788903724865328e-79,812.3,Down,Lost_Down
+SC_RS06595,SCO0929,SAM-dependent methyltransferase,4mC,0,1,0.0,51.8,51.8,Gained,2.66,1.812753700778313e-41,259.7,Up,Gained_Up
+SC_RS30370,SCO5629,FxSxx-COOH system tetratricopeptide repeat protein,4mC,1,1,85.8,97.1,11.3,Increased,2.65,5.695406080702799e-50,343.4,Up,Increased_Up
+SC_RS04960,SCO0607,SCO0607 family lipoprotein,4mC,1,1,88.4,100.0,11.6,Increased,2.63,8.52842599836044e-20,1046.0,Up,Increased_Up
+SC_RS38940,SCO7345,ATP-dependent DNA ligase,6mA,1,0,52.8,0.0,-52.8,Lost,-2.62,0.0069260165076378,18.1,Down,Lost_Down
+SC_RS13145,SCO2223,TetR/AcrR family transcriptional regulator,6mA,1,0,51.4,0.0,-51.4,Lost,-2.6,1.2629170602358348e-22,90.3,Down,Lost_Down
+SC_RS13090,SCO2211,DUF6891 domain-containing protein,4mC,1,0,79.6,0.0,-79.6,Lost,-2.54,7.68685505395119e-48,790.5,Down,Lost_Down
+SC_RS35805,SCO6723,WD40/YVTN/BNR-like repeat-containing protein,6mA,0,1,0.0,53.3,53.3,Gained,2.53,1.7906245331674096e-27,308.3,Up,Gained_Up
+SC_RS40220,SCO7605,M1 family metallopeptidase,4mC,0,1,0.0,56.6,56.6,Gained,2.49,4.7389785155712526e-27,142.1,Up,Gained_Up
+SC_RS27440,SCO5056,exodeoxyribonuclease VII large subunit,6mA,1,0,50.3,0.0,-50.3,Lost,-2.48,6.8673735808106e-39,422.6,Down,Lost_Down
+SC_RS16925,SCO2965,MFS transporter,6mA,1,0,53.8,0.0,-53.8,Lost,-2.45,1.5538888301237132e-22,198.6,Down,Lost_Down
+SC_RS40755,SCO7714,GNAT family N-acetyltransferase,6mA,1,1,50.0,64.4,14.3,Increased,2.44,4.9175398513907796e-18,85.3,Up,Increased_Up
+SC_RS26600,SCO4888,ABC transporter permease,4mC,1,1,73.1,53.3,-19.8,Decreased,-2.38,6.6393053527163456e-46,443.5,Down,Decreased_Down
+SC_RS26870,SCO4941,ATP-binding protein,4mC,1,0,62.5,0.0,-62.5,Lost,-2.36,4.1438144174309835e-08,30.5,Down,Lost_Down
+SC_RS40310,SCO7623,Re/Si-specific NAD(P)(+) transhydrogenase subunit alpha,4mC,1,1,83.1,98.0,15.0,Increased,2.31,1.9046955358772756e-23,146.1,Up,Increased_Up
+SC_RS25830,SCO4734,50S ribosomal protein L13,4mC,1,1,73.4,54.0,-19.4,Decreased,-2.31,3.4581814952311677e-19,6813.2,Down,Decreased_Down
+SC_RS26305,SCO4829,GMC family oxidoreductase,4mC,1,1,80.5,63.4,-17.0,Decreased,-2.3,1.9079359756850645e-25,296.0,Down,Decreased_Down
+SC_RS27665,SCO5101,hypothetical protein,6mA,0,1,0.0,53.0,53.0,Gained,2.29,2.066920739832508e-18,530.1,Up,Gained_Up
+SC_RS25685,SCO4705,50S ribosomal protein L2,4mC,1,0,73.3,0.0,-73.3,Lost,-2.21,3.545357178749164e-17,21123.2,Down,Lost_Down
+SC_RS04710,SCO0558,hypothetical protein,6mA,1,0,55.6,0.0,-55.6,Lost,-2.2,2.339821344534882e-12,67.2,Down,Lost_Down
+SC_RS36220,,helix-turn-helix transcriptional regulator,6mA,0,1,0.0,62.1,62.1,Gained,2.17,0.0001427567692109228,18.9,Up,Gained_Up
+SC_RS03550,SCO0326,DUF3500 domain-containing protein,4mC,0,1,0.0,65.4,65.4,Gained,2.17,3.3676448750042387e-17,101.9,Up,Gained_Up
+SC_RS27670,SCO5102,(deoxy)nucleoside triphosphate pyrophosphohydrolase,6mA,0,1,0.0,53.0,53.0,Gained,2.16,1.425608294263421e-19,540.1,Up,Gained_Up
+SC_RS24380,SCO4443,MerR family transcriptional regulator,6mA,0,1,0.0,58.3,58.3,Gained,2.12,1.4387410976569703e-24,717.3,Up,Gained_Up
+SC_RS25760,SCO4720,50S ribosomal protein L30,4mC,1,0,66.1,0.0,-66.1,Lost,-2.12,2.171232198795765e-15,2958.9,Down,Lost_Down
+SC_RS39465,SCO7452,methyltransferase,4mC,0,1,0.0,57.6,57.6,Gained,2.12,6.4684312035308954e-09,46.3,Up,Gained_Up
+SC_RS39465,SCO7452,methyltransferase,6mA,0,1,0.0,50.3,50.3,Gained,2.12,6.4684312035308954e-09,46.3,Up,Gained_Up
+SC_RS32025,SCO5956,TetR/AcrR family transcriptional regulator,6mA,1,1,72.0,58.8,-13.2,Decreased,-2.09,5.888344612414325e-11,64.3,Down,Decreased_Down
+SC_RS07305,,DUF6332 family protein,4mC,0,1,0.0,79.7,79.7,Gained,2.06,5.3870547470100855e-08,33.0,Up,Gained_Up
+SC_RS34950,SCO6552,AMP-dependent synthetase/ligase,6mA,1,0,53.8,0.0,-53.8,Lost,-2.05,2.728804497511981e-07,62.6,Down,Lost_Down
+SC_RS06255,SCO0865,hypothetical protein,4mC,0,1,0.0,87.8,87.8,Gained,2.04,2.2757792949275656e-11,857.0,Up,Gained_Up
+SC_RS20135,SCO3600,helix-turn-helix domain-containing protein,4mC,1,1,69.6,55.4,-14.2,Decreased,-2.03,2.467216729464118e-07,54.5,Down,Decreased_Down
+SC_RS40100,SCO7580,SAM-dependent methyltransferase,4mC,0,1,0.0,75.4,75.4,Gained,2.01,5.78457878004568e-27,198.4,Up,Gained_Up
+SC_RS03785,SCO0375,MFS transporter,4mC,0,1,0.0,67.1,67.1,Gained,1.97,4.6966459956759076e-12,109.2,Up,Gained_Up
+SC_RS02455,SCO0089,LysR family transcriptional regulator,4mC,0,1,0.0,78.6,78.6,Gained,1.96,2.5249380577013426e-17,102.0,Up,Gained_Up
+SC_RS36560,SCO6872,hypothetical protein,4mC,0,1,0.0,65.6,65.6,Gained,1.96,0.0317780833429551,16.9,Up,Gained_Up
+SC_RS41150,SCO7801,hypothetical protein,4mC,0,1,0.0,71.6,71.6,Gained,1.92,0.0005194582811567678,19.8,Up,Gained_Up
+SC_RS36315,SCO6825,DedA family protein,6mA,0,1,0.0,58.2,58.2,Gained,1.9,7.875611483201597e-07,44.5,Up,Gained_Up
+SC_RS38905,SCO7338,glycogen debranching protein GlgX,4mC,0,1,0.0,65.0,65.0,Gained,1.9,4.517141778823967e-07,73.4,Up,Gained_Up
+SC_RS28555,SCO5274,aKG-HExxH-type peptide beta-hydroxylase,6mA,1,1,57.2,69.4,12.2,Increased,1.87,1.5514572893504203e-09,133.1,Up,Increased_Up
+SC_RS39380,SCO7435,MFS transporter,6mA,0,1,0.0,57.5,57.5,Gained,1.85,0.00015646103386865142,34.7,Up,Gained_Up
+SC_RS13305,SCO2256,3-methyl-2-oxobutanoate hydroxymethyltransferase,4mC,1,1,68.6,57.5,-11.1,Decreased,-1.84,6.74763057617099e-18,312.7,Down,Decreased_Down
+SC_RS20915,SCO3758,fatty acid desaturase family protein,4mC,1,0,54.2,0.0,-54.2,Lost,-1.84,9.18821342807732e-06,47.6,Down,Lost_Down
+SC_RS10560,SCO1709,MFS transporter,4mC,1,0,83.6,0.0,-83.6,Lost,-1.76,5.2893025422697196e-11,113.5,Down,Lost_Down
+SC_RS15980,SCO2779,acyl-CoA dehydrogenase family protein,6mA,1,0,50.3,0.0,-50.3,Lost,-1.75,2.613056857945819e-11,147.9,Down,Lost_Down
+SC_RS37340,SCO7023,hypothetical protein,6mA,1,1,50.9,62.7,11.8,Increased,1.75,1.0945938533782969e-07,69.5,Up,Increased_Up
+SC_RS27105,SCO4989,IclR family transcriptional regulator,4mC,1,0,53.4,0.0,-53.4,Lost,-1.72,7.190817694141732e-21,277.8,Down,Lost_Down
+SC_RS27855,SCO5139,succinyl-diaminopimelate desuccinylase,4mC,1,1,94.1,69.2,-24.9,Decreased,-1.7,2.5384830875627397e-22,346.7,Down,Decreased_Down
+SC_RS06310,SCO0877,helix-turn-helix transcriptional regulator,6mA,0,1,0.0,53.1,53.1,Gained,1.69,3.741050281151121e-24,654.9,Up,Gained_Up
+SC_RS40485,SCO7659,FAD-dependent oxidoreductase,4mC,0,1,0.0,82.1,82.1,Gained,1.67,1.4654283303575533e-11,1008.7,Up,Gained_Up
+SC_RS16855,SCO2950,HU family DNA-binding protein,4mC,1,0,50.7,0.0,-50.7,Lost,-1.65,2.827966405340166e-12,10732.9,Down,Lost_Down
+SC_RS09565,SCO1519,Holliday junction branch migration protein RuvA,4mC,1,0,62.9,0.0,-62.9,Lost,-1.64,7.914492555777168e-16,130.1,Down,Lost_Down
+SC_RS15485,SCO2681,FxSxx-COOH system tetratricopeptide repeat protein,6mA,1,0,50.4,0.0,-50.4,Lost,-1.63,2.0668006416906303e-08,170.1,Down,Lost_Down
+SC_RS05300,SCO0676,SpoIIE family protein phosphatase/ATP-binding protein,6mA,0,1,0.0,58.3,58.3,Gained,1.62,5.338315364504786e-20,671.1,Up,Gained_Up
+SC_RS39065,SCO7372,DoxX family protein,4mC,0,1,0.0,78.3,78.3,Gained,1.6,0.00019498903476604577,23.9,Up,Gained_Up
+SC_RS05370,SCO0690,FAD binding domain-containing protein,6mA,1,0,54.7,0.0,-54.7,Lost,-1.6,0.0095235671868863,22.0,Down,Lost_Down
+SC_RS24520,SCO4472,TlpA family protein disulfide reductase,4mC,1,0,66.6,0.0,-66.6,Lost,-1.59,4.361060461820157e-13,471.5,Down,Lost_Down
+SC_RS35240,SCO6608,phosphodiester glycosidase family protein,6mA,0,1,0.0,56.0,56.0,Gained,1.58,1.4322835938499535e-16,196.5,Up,Gained_Up
+SC_RS36115,SCO6787,long-chain specific acyl-CoA dehydrogenase,4mC,0,1,0.0,64.1,64.1,Gained,1.58,0.0110348767093606,22.6,Up,Gained_Up
+SC_RS35240,SCO6608,phosphodiester glycosidase family protein,4mC,0,1,0.0,72.8,72.8,Gained,1.58,1.4322835938499535e-16,196.5,Up,Gained_Up
+SC_RS29680,SCO5499,Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatA,4mC,1,1,92.2,75.4,-16.8,Decreased,-1.56,4.2522299073201654e-15,2985.0,Down,Decreased_Down
+SC_RS31180,SCO5788,class III extradiol dioxygenase subunit B-like domain-containing protein,4mC,2,0,66.1,0.0,-66.1,Lost,-1.55,1.7829803288102556e-18,205.9,Down,Lost_Down
+SC_RS32410,SCO6035,type III PLP-dependent enzyme,4mC,1,1,86.1,96.1,10.0,Increased,1.55,0.003708497371732,30.3,Up,Increased_Up
+SC_RS20960,SCO3768,twin-arginine translocase TatA/TatE family subunit,4mC,1,0,60.3,0.0,-60.3,Lost,-1.54,2.3252833102692478e-10,791.5,Down,Lost_Down
+SC_RS38610,SCO7279,helix-turn-helix domain-containing protein,4mC,0,1,0.0,65.6,65.6,Gained,1.51,2.7868803275573235e-09,213.2,Up,Gained_Up
+SC_RS37525,SCO7059,ferredoxin reductase,4mC,1,1,100.0,88.5,-11.5,Decreased,-1.49,2.5006890182046823e-14,158.3,Down,Decreased_Down
+SC_RS15835,SCO2750,sugar phosphate isomerase/epimerase family protein,4mC,1,2,80.3,63.3,-17.0,Decreased,-1.46,4.07674666278071e-06,51.2,Down,Decreased_Down
+SC_RS38955,SCO7350,MFS transporter,6mA,1,0,53.2,0.0,-53.2,Lost,-1.45,0.0017566646555742,35.2,Down,Lost_Down
+SC_RS04900,SCO0595,flavodoxin family protein,4mC,0,1,0.0,95.2,95.2,Gained,1.44,0.0103375678422322,17.2,Up,Gained_Up
+SC_RS33745,SCO6299,TetR/AcrR family transcriptional regulator,6mA,1,0,56.6,0.0,-56.6,Lost,-1.41,1.6258548905382441e-07,75.2,Down,Lost_Down
+SC_RS24840,SCO4537,hypothetical protein,4mC,1,1,80.2,67.3,-12.9,Decreased,-1.4,7.11605214530022e-10,149.3,Down,Decreased_Down
+SC_RS15445,SCO2673,FtsX-like permease family protein,4mC,1,1,94.9,78.6,-16.4,Decreased,-1.37,7.668282266797999e-14,270.0,Down,Decreased_Down
+SC_RS23185,SCO4200,DUF2516 family protein,4mC,0,1,0.0,60.1,60.1,Gained,1.36,3.356009241308248e-07,610.2,Up,Gained_Up
+SC_RS34380,SCO6437,ATP-grasp domain-containing protein,6mA,0,1,0.0,61.8,61.8,Gained,1.36,4.800348133099072e-05,83.3,Up,Gained_Up
+SC_RS22705,SCO4107,PP2C family protein-serine/threonine phosphatase,4mC,1,0,62.7,0.0,-62.7,Lost,-1.33,1.1252097539561648e-09,160.8,Down,Lost_Down
+SC_RS07655,SCO1141,secondary thiamine-phosphate synthase enzyme YjbQ,6mA,1,0,55.2,0.0,-55.2,Lost,-1.32,4.126498259708604e-06,51.5,Down,Lost_Down
+SC_RS29550,SCO5473,AAA family ATPase,6mA,1,0,56.6,0.0,-56.6,Lost,-1.31,1.0054629507682401e-07,631.9,Down,Lost_Down
+SC_RS17270,SCO3031,metallopeptidase family protein,6mA,1,0,50.4,0.0,-50.4,Lost,-1.3,1.2698064501841797e-06,78.9,Down,Lost_Down
+SC_RS20895,SCO3754,ABC transporter permease,4mC,1,1,84.8,64.8,-20.0,Decreased,-1.3,6.271131203398981e-05,78.4,Down,Decreased_Down
+SC_RS25280,SCO4624,RRQRL motif-containing zinc-binding protein,6mA,1,0,51.4,0.0,-51.4,Lost,-1.3,0.0347335841107909,9.8,Down,Lost_Down
+SC_RS24385,SCO4444,glutathione peroxidase,6mA,0,1,0.0,52.3,52.3,Gained,1.29,1.4360411411475346e-08,477.0,Up,Gained_Up
+SC_RS26965,SCO4960,sigma factor-like helix-turn-helix DNA-binding protein,6mA,1,0,54.1,0.0,-54.1,Lost,-1.27,1.1788458467230524e-08,155.0,Down,Lost_Down
+SC_RS24700,SCO4507,serine/threonine-protein kinase,4mC,1,0,54.7,0.0,-54.7,Lost,-1.26,4.6774854860958673e-14,739.9,Down,Lost_Down
+SC_RS34250,SCO6411,hydrolase,4mC,1,1,55.1,66.8,11.7,Increased,1.25,2.08447042458066e-09,119.1,Up,Increased_Up
+SC_RS16440,SCO2868,DUF6879 family protein,4mC,1,1,79.7,89.7,10.0,Increased,1.22,2.422790498558648e-07,108.4,Up,Increased_Up
+SC_RS12435,SCO2079,cell division protein SepF,4mC,0,1,0.0,58.6,58.6,Gained,1.22,1.0463417159162837e-07,1584.3,Up,Gained_Up
+SC_RS25370,SCO4639,TetR/AcrR family transcriptional regulator,6mA,1,0,55.0,0.0,-55.0,Lost,-1.21,2.4762759966205292e-09,156.7,Down,Lost_Down
+SC_RS41015,SCO7772,hypothetical protein,4mC,0,1,0.0,91.4,91.4,Gained,1.2,1.6099080359050222e-08,184.1,Up,Gained_Up
+SC_RS32440,SCO6040,DUF4349 domain-containing protein,6mA,1,1,61.5,51.1,-10.4,Decreased,-1.19,1.1742619347402644e-05,63.3,Down,Decreased_Down
+SC_RS35045,SCO6570,Gfo/Idh/MocA family protein,4mC,0,1,0.0,75.0,75.0,Gained,1.17,0.00019155222236162507,300.8,Up,Gained_Up
+SC_RS04100,SCO0438,pyroglutamyl-peptidase I,4mC,1,0,93.3,0.0,-93.3,Lost,-1.17,0.0010063165715781,35.3,Down,Lost_Down
+SC_RS12130,SCO2019,chorismate mutase,6mA,0,1,0.0,50.0,50.0,Gained,1.17,0.0002902767031044178,40.4,Up,Gained_Up
+SC_RS29545,SCO5472,glycine cleavage system aminomethyltransferase GcvT,6mA,1,0,56.6,0.0,-56.6,Lost,-1.16,5.525458342260256e-07,1413.5,Down,Lost_Down
+SC_RS14015,SCO2396,organic hydroperoxide resistance protein,4mC,1,0,56.6,0.0,-56.6,Lost,-1.15,7.538041462956722e-07,101.5,Down,Lost_Down
+SC_RS08470,SCO1301,exonuclease SbcCD subunit D,4mC,1,0,56.7,0.0,-56.7,Lost,-1.12,2.2298354842029672e-08,192.1,Down,Lost_Down
+SC_RS12685,SCO2128,ArsA family ATPase,6mA,1,0,52.6,0.0,-52.6,Lost,-1.11,0.002964878201015,68.3,Down,Lost_Down
+SC_RS03925,SCO0403,CGNR zinc finger domain-containing protein,4mC,0,1,0.0,52.8,52.8,Gained,1.11,5.969635233895051e-05,70.4,Up,Gained_Up
+SC_RS03390,SCO0294,CatB-related O-acetyltransferase,4mC,0,1,0.0,77.4,77.4,Gained,1.11,0.0107800859092979,25.7,Up,Gained_Up
+SC_RS08095,SCO1228,lysophospholipid acyltransferase family protein,4mC,0,1,0.0,87.8,87.8,Gained,1.09,1.5660078330717956e-07,216.1,Up,Gained_Up
+SC_RS35070,SCO6575,sugar phosphate isomerase/epimerase family protein,6mA,0,1,0.0,53.4,53.4,Gained,1.08,0.0458160422400173,31.1,Up,Gained_Up
+SC_RS10550,SCO1707,ABC transporter ATP-binding protein,6mA,0,1,0.0,54.8,54.8,Gained,1.06,0.0191880854010143,38.2,Up,Gained_Up
+SC_RS38680,SCO7293,AIM24 family protein,4mC,0,1,0.0,81.4,81.4,Gained,1.05,4.426910130918785e-06,187.1,Up,Gained_Up
+SC_RS29350,SCO5433,AfsR-like transcriptional regulator TcrA,6mA,0,1,0.0,51.9,51.9,Gained,1.04,3.683188120370881e-05,110.8,Up,Gained_Up
+SC_RS12135,SCO2020,hypothetical protein,6mA,0,1,0.0,50.0,50.0,Gained,1.04,3.426736083914226e-07,147.5,Up,Gained_Up
+SC_RS11195,SCO1833,DUF6286 domain-containing protein,6mA,0,1,0.0,56.9,56.9,Gained,1.03,3.116861250235776e-05,242.6,Up,Gained_Up
+SC_RS27255,SCO5018,hypothetical protein,4mC,1,1,68.8,80.9,12.1,Increased,1.0,0.0174091835754113,25.2,Up,Increased_Up

@@ -1,0 +1,7 @@
+tf_family	activation_count	repression_count	activation_pct	repression_pct	odds_ratio	p_value	enriched_in	functional_category	p_adj
+LacI	1	1	20.0	16.666666666666664	1.25	1.0	Activation	Metabolic	1.0
+LuxR	2	1	40.0	16.666666666666664	3.3333333333333335	0.5454545454545454	Activation	General	1.0
+LysR	0	1	0.0	16.666666666666664	0.0	1.0	Repression	Metabolic	1.0
+MarR	0	2	0.0	33.33333333333333	0.0	0.4545454545454546	Repression	Stress/development	1.0
+Sigma factor	2	0	40.0	0.0	inf	0.18181818181818182	Activation	Stress/development	1.0
+TetR	0	1	0.0	16.666666666666664	0.0	1.0	Repression	Defense/resistance	1.0

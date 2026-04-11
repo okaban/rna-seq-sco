@@ -1,0 +1,12 @@
+motif,expected_median,expected_min,expected_max,note
+CCGKCA,19712.0,9162.0,35723.0,Based on GC model only; true O/E requires actual genome sequences
+CGGCAACC,716.0,333.0,1289.0,Based on GC model only; true O/E requires actual genome sequences
+GAACCGG,2000.0,930.0,3545.0,Based on GC model only; true O/E requires actual genome sequences
+TGGCCGGC,1827.0,844.0,3432.0,Based on GC model only; true O/E requires actual genome sequences
+CCGG,139900.0,64750.0,261709.0,Based on GC model only; true O/E requires actual genome sequences
+AAGCCCG,2000.0,930.0,3545.0,Based on GC model only; true O/E requires actual genome sequences
+GATC,21549.0,10087.0,36904.0,Based on GC model only; true O/E requires actual genome sequences
+GCCG,279800.0,129501.0,523419.0,Based on GC model only; true O/E requires actual genome sequences
+CCGC,279800.0,129501.0,523419.0,Based on GC model only; true O/E requires actual genome sequences
+CCSGG,200775.0,92852.0,380525.0,Based on GC model only; true O/E requires actual genome sequences
+GCGC,139900.0,64750.0,261709.0,Based on GC model only; true O/E requires actual genome sequences

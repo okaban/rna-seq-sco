@@ -1,0 +1,4 @@
+methyl_type	JT_statistic	z_score	p_value	direction	p_bonferroni
+GCCGGC_4mC_T1	12783999.5	9.999	0.0	increasing	0.0
+AAGCCCG_6mA_T1	11920462.5	2.09	0.03661905321756764	increasing	0.10985715965270293
+All_4mC_T1	12998482.5	11.963	0.0	increasing	0.0

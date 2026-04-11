@@ -1,0 +1,133 @@
+BLASTP 2.17.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: M145_proteome
+           7,872 sequences; 2,583,023 total letters
+
+
+
+Query= QPA00148.1 M.Svi27968I DNA (cytosine-5-)-methyltransferase
+[Streptomyces violascens ATCC 27968] REBASE:RB455182 N4mC_at_GCCGGC
+
+Length=429
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+WP_254613693.1 MULTISPECIES: DNA cytosine methyltransferase [Stre...  36.2    0.007
+WP_011031229.1 MULTISPECIES: DNA cytosine methyltransferase [Stre...  33.5    0.047
+WP_011028829.1 MULTISPECIES: class II 3-deoxy-7-phosphoheptulonat...  33.1    0.076
+WP_011030310.1 MULTISPECIES: 16S rRNA (guanine(966)-N(2))-methylt...  28.9    0.97 
+WP_161270170.1 MULTISPECIES: class I SAM-dependent methyltransfer...  28.9    1.5  
+
+
+>WP_254613693.1 MULTISPECIES: DNA cytosine methyltransferase [Streptomyces]
+Length=324
+
+ Score = 36.2 bits (82),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 32/109 (29%), Positives = 45/109 (41%), Gaps = 23/109 (21%)
+
+Query  86   FTIAGKQLG--ATDERDLFAWAVNLAERVRPKALLLENVRGLSANRFA------------  131
+             ++AG++ G  A     L+         +RP  +++ENVRGL  +               
+Sbjct  8    VSVAGRRAGLNAQTRSGLWLHVARAVAALRPCLVVIENVRGLLTSPAGSPGDVEPCPWCL  67
+
+Query  132  -------AYRQ--NVLDTLQSAGYAAQWKLLHASDFGVPQLRPRFVLVA  171
+                   A R    VL +L   GY A+W +L ASD G P  R R  L A
+Sbjct  68   GDTAGQPALRALGAVLGSLADLGYDAKWLVLRASDVGAPHRRERTFLAA  116
+
+
+>WP_011031229.1 MULTISPECIES: DNA cytosine methyltransferase [Streptomyces]
+Length=423
+
+ Score = 33.5 bits (75),  Expect = 0.047, Method: Compositional matrix adjust.
+ Identities = 31/118 (26%), Positives = 49/118 (42%), Gaps = 29/118 (25%)
+
+Query  82   PCPPFTIAGKQLGATDERDLFAWAVNLAERVRPKALLLENVRGLSANRFAAYRQNVLDTL  141
+            PC  +++AGK+LG  D+  + A   +LA     +  LL   R    +  AA     L  L
+Sbjct  68   PCQAWSMAGKRLGLVDQPLVHAAVEDLAAGRDTRERLLSACRD-ERSLLAAEPMRYLYAL  126
+
+Query  142  QSA----------------------------GYAAQWKLLHASDFGVPQLRPRFVLVA  171
+             +                             G++  + +L+A+DFGVPQ R R +L+A
+Sbjct  127  NTVGEPDWVAMEEVPDVLPLWKQYAAVLRRWGFSVWYGILNAADFGVPQTRKRAILLA  184
+
+
+>WP_011028829.1 MULTISPECIES: class II 3-deoxy-7-phosphoheptulonate 
+synthase [Streptomyces]
+Length=484
+
+ Score = 33.1 bits (74),  Expect = 0.076, Method: Compositional matrix adjust.
+ Identities = 36/125 (29%), Positives = 52/125 (42%), Gaps = 12/125 (10%)
+
+Query  61   WTPEDYRTVNGEQLDLLAGGVPCPPFTIAGKQLGATDERDLFAWAVNLAERVRPKAL--L  118
+            W  +  R V+G  ++LLA GV  P     G  +G  D R+       L ER+ P      
+Sbjct  296  WIGDRTRRVDGAHVELLA-GVDNPVGVKVGPTMGVDDLRE-------LCERLDPDRAPGR  347
+
+Query  119  LENVRGLSANRFAAYRQNVLDTLQSAGYAAQWKL--LHASDFGVPQLRPRFVLVALLPEY  176
+            L  +  L A R A     +L  ++ AG+A  W    +H + F          L  +  E 
+Sbjct  348  LVLISRLGAGRGAELLPPLLRAVRDAGHAPVWACDPMHGNTFVSASGYKTRRLSDITTEV  407
+
+Query  177  AEYFA  181
+            AE+FA
+Sbjct  408  AEFFA  412
+
+
+>WP_011030310.1 MULTISPECIES: 16S rRNA (guanine(966)-N(2))-methyltransferase 
+RsmD [Streptomyces]
+Length=195
+
+ Score = 28.9 bits (63),  Expect = 0.97, Method: Compositional matrix adjust.
+ Identities = 17/40 (43%), Positives = 22/40 (55%), Gaps = 0/40 (0%)
+
+Query  5   HVVEICAGAGGQALGLERAGFEHALAVELDANAAATLRRN  44
+            V+++ AG+G   L     G  H L VE DA AA T+R N
+Sbjct  49  RVLDLYAGSGAVGLEALSRGAGHVLLVEADARAARTVRAN  88
+
+
+>WP_161270170.1 MULTISPECIES: class I SAM-dependent methyltransferase 
+[Streptomyces]
+Length=390
+
+ Score = 28.9 bits (63),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 14/30 (47%), Positives = 18/30 (60%), Gaps = 1/30 (3%)
+
+Query  5    HVVEICAGAGGQALGLERAGFEHALAVELD  34
+             V ++C G GG A+ L RAG    LAV+ D
+Sbjct  98   SVADLCCGIGGDAIALARAGI-RVLAVDRD  126
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.135    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 630934798
+
+
+  Database: M145_proteome
+    Posted date:  Feb 24, 2026  11:56 PM
+  Number of letters in database: 2,583,023
+  Number of sequences in database:  7,872
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

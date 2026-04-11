@@ -1,0 +1,2 @@
+VERDICT: REJECTED
+EVIDENCE: Lost genes do NOT show expected upregulation. Median LFC: Lost=-0.253, Never=+0.006.

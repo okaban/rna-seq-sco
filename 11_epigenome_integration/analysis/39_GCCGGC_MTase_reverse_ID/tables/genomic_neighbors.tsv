@@ -1,0 +1,49 @@
+target_locus	neighbor_locus	neighbor_product	neighbor_start	neighbor_end	neighbor_strand	neighbor_protein_id	rm_related
+SC_RS14810	SC_RS14785	ribonuclease Z	2746021	2746926	-	WP_011028422.1	True
+SC_RS14810	SC_RS14840	Uma2 family endonuclease	2757788	2758378	-	WP_016326184.1	True
+SC_RS11305	SC_RS11295	precorrin-2 C(20)-methyltransferase	1986075	1986806	+	WP_011028010.1	True
+SC_RS11305	SC_RS11310	precorrin-6y C5%2C15-methyltransferase (decarboxylating) subunit CbiE	1988460	1989701	+	WP_161270012.1	True
+SC_RS11305	SC_RS11315	precorrin-3B C(17)-methyltransferase	1989698	1991530	+	WP_161270013.1	True
+SC_RS11310	SC_RS11295	precorrin-2 C(20)-methyltransferase	1986075	1986806	+	WP_011028010.1	True
+SC_RS11310	SC_RS11305	precorrin-4 C(11)-methyltransferase	1987651	1988463	+	WP_161270011.1	True
+SC_RS11310	SC_RS11315	precorrin-3B C(17)-methyltransferase	1989698	1991530	+	WP_161270013.1	True
+SC_RS11315	SC_RS11295	precorrin-2 C(20)-methyltransferase	1986075	1986806	+	WP_011028010.1	True
+SC_RS11315	SC_RS11305	precorrin-4 C(11)-methyltransferase	1987651	1988463	+	WP_161270011.1	True
+SC_RS11315	SC_RS11310	precorrin-6y C5%2C15-methyltransferase (decarboxylating) subunit CbiE	1988460	1989701	+	WP_161270012.1	True
+SC_RS30050	SC_RS30045	ATP-dependent DNA helicase RecG	6064343	6066571	+	WP_003973428.1	True
+SC_RS30050	SC_RS30075	ribonuclease III	6069975	6070805	+	WP_003973423.1	True
+SC_RS12025	SC_RS11995	class I SAM-dependent methyltransferase	2129838	2130524	-	WP_011028084.1	True
+SC_RS12025	SC_RS12030	ATP-dependent helicase C-terminal domain-containing protein	2135883	2138879	+	WP_011028086.1	True
+SC_RS12500	SC_RS12530	methyltransferase	2255534	2256361	-	WP_030869367.1	True
+SC_RS12530	SC_RS12500	16S rRNA (cytosine(1402)-N(4))-methyltransferase RsmH	2247685	2248641	-	WP_078653284.1	True
+SC_RS12890	SC_RS12910	class I SAM-dependent methyltransferase	2337400	2338119	-	WP_037897775.1	True
+SC_RS27895	SC_RS27915	sec-independent translocase	5597613	5598098	+	WP_011030086.1	True
+SC_RS13615	SC_RS13590	class I SAM-dependent methyltransferase	2483598	2484278	+	WP_003976501.1	True
+SC_RS21570	SC_RS21550	ribonuclease P protein component	4273286	4273657	+	WP_011029288.1	True
+SC_RS29535	SC_RS29545	glycine cleavage system aminomethyltransferase GcvT	5957728	5958846	-	WP_003973526.1	True
+SC_RS29545	SC_RS29535	serine hydroxymethyltransferase	5955947	5957209	-	WP_003973528.1	True
+SC_RS17855	SC_RS17845	ABC-F family ATP-binding cassette domain-containing protein	3447175	3448989	-	WP_003975669.1	True
+SC_RS17855	SC_RS17875	16S rRNA (cytidine(1402)-2'-O)-methyltransferase	3453841	3454701	-	WP_003975663.1	True
+SC_RS17875	SC_RS17845	ABC-F family ATP-binding cassette domain-containing protein	3447175	3448989	-	WP_003975669.1	True
+SC_RS17875	SC_RS17855	16S rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase RsmA	3449961	3450821	-	WP_003975667.1	True
+SC_RS18690	SC_RS18645	SAM-dependent methyltransferase	3658635	3659537	-	WP_011028899.1	True
+SC_RS31750	SC_RS31720	SAM-dependent methyltransferase	6458306	6459394	+	WP_003973125.1	True
+SC_RS31750	SC_RS31790	type II toxin-antitoxin system death-on-curing family toxin	6474708	6474997	+		True
+SC_RS11295	SC_RS11305	precorrin-4 C(11)-methyltransferase	1987651	1988463	+	WP_161270011.1	True
+SC_RS11295	SC_RS11310	precorrin-6y C5%2C15-methyltransferase (decarboxylating) subunit CbiE	1988460	1989701	+	WP_161270012.1	True
+SC_RS11295	SC_RS11315	precorrin-3B C(17)-methyltransferase	1989698	1991530	+	WP_161270013.1	True
+SC_RS10265	SC_RS10235	endonuclease VII domain-containing protein	1759272	1759865	-	WP_011027898.1	True
+SC_RS10265	SC_RS10275	RecB family exonuclease	1768141	1769139	+	WP_161270001.1	True
+SC_RS25365	SC_RS25315	type IV restriction endonuclease McrA	5052984	5054666	-	WP_011029780.1	True
+SC_RS25365	SC_RS25410	preprotein translocase subunit SecE	5071396	5071680	+	WP_003974317.1	True
+SC_RS38280	SC_RS38275	methyltransferase type 11	8016858	8017022	+	WP_134112068.1	True
+SC_RS28985	SC_RS29000	serine hydroxymethyltransferase	5833806	5835062	+	WP_003973633.1	True
+SC_RS09775	SC_RS09780	uroporphyrinogen-III C-methyltransferase	1661473	1662705	-	WP_003977272.1	True
+SC_RS09775	SC_RS09790	precorrin-6y C5%2C15-methyltransferase (decarboxylating) subunit CbiE	1666903	1668129	-	WP_003977269.1	True
+SC_RS09780	SC_RS09775	TrmH family RNA methyltransferase	1660653	1661471	-	WP_003977273.1	True
+SC_RS09780	SC_RS09790	precorrin-6y C5%2C15-methyltransferase (decarboxylating) subunit CbiE	1666903	1668129	-	WP_003977269.1	True
+SC_RS17645	SC_RS17660	HNH endonuclease family protein	3403521	3404297	-	WP_011028771.1	True
+SC_RS17645	SC_RS17665	antitoxin	3404444	3404641	+	WP_003975703.1	True
+SC_RS03950	SC_RS03935	SAM-dependent methyltransferase	426015	426833	-	WP_011027090.1	True
+SC_RS35335	SC_RS35330	BREX system serine/threonine kinase PglW	7348537	7353210	+	WP_011031052.1	True
+SC_RS35335	SC_RS35370	BREX-2 system ATPase PglY	7362943	7366827	+	WP_011031061.1	True

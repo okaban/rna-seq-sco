@@ -1,0 +1,1 @@
+/Users/okaban/bioinfo/rna-seq/reports/260205_SC_RS17645_sequence_analysis_report.md

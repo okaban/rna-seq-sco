@@ -1,0 +1,11 @@
+locus_tag,product,in_rm_system,predicted_methyl_type,status,mean_T1,mean_T2,mean_T3,expression_trend
+SC_RS03950,class I SAM-dependent DNA methyltransferase,False,Unknown,ORPHAN,130.1891357231657,160.94446498203675,102.27900256142472,STABLE
+SC_RS17645,N-6 DNA methylase,True,Unknown,Assigned (restriction nearby: SC_RS17660),245.1053184178421,51.73774494986095,145.13814106419088,DOWN_sustained
+SC_RS19670,DNA-methyltransferase,False,Unknown,ORPHAN,3.7825582139960545,2.934884828407481,48.02974459760939,LATE_UP
+SC_RS19765,DNA cytosine methyltransferase,True,4mC/5mC,Assigned,,,,NO_DATA
+SC_RS19770,DNA cytosine methyltransferase,True,4mC/5mC,Assigned,11.043212392730561,4.593498996940218,62.12948389870852,DOWN_then_UP
+SC_RS24685,class I SAM-dependent DNA methyltransferase,False,Unknown,ORPHAN,324.80802529916514,33.84850611965863,66.10033450311492,DOWN_sustained
+SC_RS28835,BREX-2 system adenine-specific DNA-methyltransferase PglX,True,6mA,Assigned,604.2846826714166,395.1741142939586,381.6886995982897,DOWN_sustained
+SC_RS35335,BREX-2 system adenine-specific DNA-methyltransferase PglX,True,6mA,Assigned,1666.2580911243465,1989.2951319815174,979.8380238270425,STABLE
+SC_RS36410,DNA cytosine methyltransferase,True,4mC/5mC,Assigned,1.3465217677323842,4.245930040402993,64.9063069631264,UP_sustained
+SC_RS36625,DNA-methyltransferase,False,Unknown,ORPHAN,2.7178861011108766,3.9480583934013436,45.995400720688004,LATE_UP

@@ -1,0 +1,6 @@
+motif,description,count,total,percentage
+GATC,Dam methylase (E. coli),38,3248,1.1699507389162562
+GAATTC,EcoRI-like,0,3248,0.0
+GANTC,HinfI-like,0,3248,0.0
+CTAG,Type II R-M,2,3248,0.06157635467980296
+CAGCTG,PvuII-like,4,3248,0.12315270935960591

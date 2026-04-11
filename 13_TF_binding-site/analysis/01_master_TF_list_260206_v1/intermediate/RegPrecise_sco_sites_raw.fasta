@@ -1,0 +1,460 @@
+# TF - Rex: SCO3320
+>SCO5366(atpI) Score=5 Pos=-147 [Streptomyces coelicolor A3(2)]
+TTGTGATACGGTTCACGA
+>SCO3092(ndh) Score=4.6 Pos=-136 [Streptomyces coelicolor A3(2)]
+TTGTGAAGGGGCGCACGA
+>SCO3101(SCO3101) Score=4.5 Pos=-37 [Streptomyces coelicolor A3(2)]
+TTGTGCACCGTCGCACAA
+>SCO6168(SC6C5.04c) Score=4.7 Pos=-100 [Streptomyces coelicolor A3(2)]
+TTGTGAAAACTTTCACCC
+>SCO3320(rex) Score=5.8 Pos=-97 [Streptomyces coelicolor A3(2)]
+TTGTGCACGCGTTCACAA
+>SCO4562(nuoA) Score=5 Pos=-124 [Streptomyces coelicolor A3(2)]
+TTGTGACCTGCTTCACAT
+>SCO4472(resA) Score=4.9 Pos=-16 [Streptomyces coelicolor A3(2)]
+ATGCGAAACTTTTCACAT
+>SCO3547(hppA) Score=5 Pos=-224 [Streptomyces coelicolor A3(2)]
+AAGTGAATTCATTCACGA
+>SCO5240(whiB) Score=5.9 Pos=-61 [Streptomyces coelicolor A3(2)]
+TCGTGAAAGCGTTCACAT
+>SCO3945(cydA) Score=5.9 Pos=-109 [Streptomyces coelicolor A3(2)]
+ATGTGAACGCGTTCACAA
+# TF - PaaR: SCO3833
+>SCO3831(bkdA) Score=5.5 Pos=-78 [Streptomyces coelicolor A3(2)]
+GACGACCGAACAATCGGTAGGT
+>SCO7471(paaA) Score=5.3 Pos=-157 [Streptomyces coelicolor A3(2)]
+CCCGACCGACCATTCGGTTAGC
+>SCO7471(paaA) Score=5.3 Pos=-34 [Streptomyces coelicolor A3(2)]
+ACCGAACGAATGGTCGGTTGGG
+>SCO7470(paaI) Score=5 Pos=-152 [Streptomyces coelicolor A3(2)]
+CCCAACCGACCATTCGTTCGGT
+>SCO7470(paaI) Score=5.5 Pos=-29 [Streptomyces coelicolor A3(2)]
+GCTAACCGAATGGTCGGTCGGG
+>SCO3834(paaH) Score=6 Pos=-74 [Streptomyces coelicolor A3(2)]
+AGTAACCGAACGATCGGTCGGG
+>SCO3835(paaZ) Score=5.2 Pos=-106 [Streptomyces coelicolor A3(2)]
+CCCGACCGATCGTTCGGTTACT
+# TF - Zur: SCO2508
+>SCO0475(znuB2) Score=5.1 Pos=-34 [Streptomyces coelicolor A3(2)]
+TGTTGAACATGATTTTCATTG
+>SCO3429(rpmB2) Score=5.6 Pos=-62 [Streptomyces coelicolor A3(2)]
+TACTGAAAATGAATTCCATTA
+>SCO0436(rpmF2) Score=4.6 Pos=-56 [Streptomyces coelicolor A3(2)]
+ACATGAACATCGTTTTCATGT
+>SCO3428(rpmG2) Score=5.6 Pos=-31 [Streptomyces coelicolor A3(2)]
+TAATGGAATTCATTTTCAGTA
+>SCO2505(znuA) Score=5.2 Pos=-39 [Streptomyces coelicolor A3(2)]
+TGTTGACAACGGTTTCCATAT
+>SCO2505(znuA) Score=5.2 Pos=-17 [Streptomyces coelicolor A3(2)]
+TGTTGAAAATGAGTGTCATGA
+# RNA - TPP
+>SCO2107(thiO) Score=50.4 Pos=-108 [Streptomyces coelicolor A3(2)]
+AAGGCACTCGCGGGAGCCCGGACGCACCGGGCTGAGAGGGAGGCTGGCGGCCTCCGACCGTACGAACCTGATCCGGGTCATGCCGGCGAAGGGAGGGGCTGGACGCCCATGTC
+>SCO5646(thiB) Score=51.2 Pos=-184 [Streptomyces coelicolor A3(2)]
+TATTCCGACAGGGGAGCGCCACAGCGCTGAGAGTGCGGCACCGGCCGCAGACCCTCCGAACCTGGCCCAGGTCATTCTGGGTAGGGAGATCGGTCACCACTCGAGCT
+>SCO3928(thiC) Score=22.8 Pos=-54 [Streptomyces coelicolor A3(2)]
+TGCGTCGACCGCCGAACCTGTTACCGGGTAATGCCGGCGTAGGGAGTAGGTCTCATGACCATCA
+# RNA - FMN
+>SCO1443(ribE) Score=89.8 Pos=-280 [Streptomyces coelicolor A3(2)]
+GCAGCGCACTCCGGGGTCGGTGAAAGTCCGAACCGGCGGTTACAGTCCGCGACCCGGTCGCCTCCAGCGACCGGTTGACCAGGTGAAATTCCTGGACCGACGGTTAAAGTCCGGATGGGAGGCAGTGCGCGG
+# TF - NrdR: SCO5804
+>SCO5226(nrdA) Score=4.9 Pos=-314 [Streptomyces coelicolor A3(2)]
+ACACAACATCTGGGGG
+>SCO5226(nrdA) Score=3.5 Pos=-283 [Streptomyces coelicolor A3(2)]
+GCACAAGATGTATGCT
+>SCO5804(nrdR) Score=4.8 Pos=-156 [Streptomyces coelicolor A3(2)]
+TCCCCACATCTAGTGG
+>SCO5804(nrdR) Score=3.7 Pos=-125 [Streptomyces coelicolor A3(2)]
+AGCCCACAAGTTGTGG
+# TF - CelR: SCO2794, SCO7554
+>SCO6665(lamA1) Score=5.7 Pos=-85 [Streptomyces coelicolor A3(2)]
+CTCTGAGAGCGCTCTCAGAA
+>SCO0643(SCO0643) Score=6.3 Pos=-74 [Streptomyces coelicolor A3(2)]
+CCTTGGGAGCGCTCCCATGC
+>SCO6548(cbhA) Score=5.1 Pos=-318 [Streptomyces coelicolor A3(2)]
+CAGTGGGAGCGGTTCCATCA
+>SCO2798(bglC2) Score=5.9 Pos=-16 [Streptomyces coelicolor A3(2)]
+CTATGGGAGCGCTTCCATGC
+>SCO1187(gunA2) Score=6 Pos=-87 [Streptomyces coelicolor A3(2)]
+AAGTGGGAGCGCTCCCATCA
+>SCO2794(celR) Score=6.6 Pos=-238 [Streptomyces coelicolor A3(2)]
+GTGTGGGAGCGCTCCCACAA
+>SCO7637(SCO7637) Score=6.2 Pos=29 [Streptomyces coelicolor A3(2)]
+CTTTGGGAGCGCTCCCATCG
+>SCO0765(cel1) Score=6 Pos=-54 [Streptomyces coelicolor A3(2)]
+ATTTGGGAGCGCTCCCATTC
+>SCO1187(gunA2) Score=5.3 Pos=-61 [Streptomyces coelicolor A3(2)]
+AGTTGGGAGCGCTCCCGCAC
+>SCO0716(SCO0716) Score=5.7 Pos=-53 [Streptomyces coelicolor A3(2)]
+GCGTGAGAGCGCTCTCAGGC
+>SCO7559(SCO7559) Score=5.4 Pos=-62 [Streptomyces coelicolor A3(2)]
+CGCTGAGAGCGCTCTCAGAA
+>SCO2795(cebE) Score=6.6 Pos=-147 [Streptomyces coelicolor A3(2)]
+TTGTGGGAGCGCTCCCACAC
+>SCO6546(cbhB) Score=6.5 Pos=-79 [Streptomyces coelicolor A3(2)]
+CTATGGGAGCGCTCCCACTG
+>SCO6546(cbhB) Score=5.1 Pos=-221 [Streptomyces coelicolor A3(2)]
+TGATGGAACCGCTCCCACTG
+# TF - SCO4158: SCO4158
+>SCO4334(guaT) Score=5 Pos=-140 [Streptomyces coelicolor A3(2)]
+GGTCTACGCGCGGAGATA
+>SCO4914(deoC) Score=6.5 Pos=-34 [Streptomyces coelicolor A3(2)]
+CCGCTACGCGCGTAGATA
+>SCO4917(pnp) Score=6.1 Pos=-39 [Streptomyces coelicolor A3(2)]
+CATCTACGCGCGTAGCCG
+# TF - ManR: SCO1078
+>SCO6234(manA2) Score=6.1 Pos=-49 [Streptomyces coelicolor A3(2)]
+GCGGGACAACGTTGTCAGGT
+>SCO6004(manA) Score=5.9 Pos=-42 [Streptomyces coelicolor A3(2)]
+ATTTGACAACGTTGTCCCAC
+>SCO6428(SCO6428) Score=6.4 Pos=-41 [Streptomyces coelicolor A3(2)]
+GCTTGACAACGTTGTCCACC
+>SCO1077(manK) Score=6.3 Pos=-135 [Streptomyces coelicolor A3(2)]
+CCTGGACAACGTTGTCAGAT
+>SCO1078(manR) Score=6.3 Pos=-125 [Streptomyces coelicolor A3(2)]
+ATCTGACAACGTTGTCCAGG
+# TF - RhaR: SCO0806
+>SCO0812(rhaI) Score=6.1 Pos=-68 [Streptomyces coelicolor A3(2)]
+GTTCTGAATCGTTTCACACA
+>SCO0811(rhaG) Score=6.1 Pos=-228 [Streptomyces coelicolor A3(2)]
+TGTGTGAAACGATTCAGAAC
+>SCO1539(rhiL) Score=4.8 Pos=-48 [Streptomyces coelicolor A3(2)]
+TACTTGAAACGATTCATGAG
+>SCO0372(rhmA2) Score=4.3 Pos=-53 [Streptomyces coelicolor A3(2)]
+GGATTGAATCGATTCAATCA
+>SCO0488(rhmA3) Score=4.9 Pos=22 [Streptomyces coelicolor A3(2)]
+CGGTTGAAACGTTTCAAGCG
+>SCO0371(SCF41.30c) Score=4 Pos=-41 [Streptomyces coelicolor A3(2)]
+CGAGTAAAACGATTCAATCG
+# TF - BgaR: SCO7411
+>SCO7411(bgaR) Score=7.1 Pos=-156 [Streptomyces coelicolor A3(2)]
+TGATGTTTACGTAAACATGA
+>SCO7411(bgaR) Score=6.9 Pos=-111 [Streptomyces coelicolor A3(2)]
+TTATGTTTACGTAAACATCT
+>SCO7410(bgaZ) Score=6.9 Pos=-101 [Streptomyces coelicolor A3(2)]
+AGATGTTTACGTAAACATAA
+>SCO7410(bgaZ) Score=7.1 Pos=-56 [Streptomyces coelicolor A3(2)]
+TCATGTTTACGTAAACATCA
+# TF - SCO2753: SCO2753
+>SCO2821(pel) Score=4.9 Pos=-89 [Streptomyces coelicolor A3(2)]
+CCGAGAAAGCGCTTTCCGCC
+>SCO2752(SCO2752) Score=6.5 Pos=-87 [Streptomyces coelicolor A3(2)]
+CATAGAAAGCGCTTGCTGTA
+>SCO2753(SCO2753) Score=6.5 Pos=-163 [Streptomyces coelicolor A3(2)]
+TACAGCAAGCGCTTTCTATG
+# TF - SCO5692: SCO5692
+>SCO5685(bglX) Score=6.7 Pos=-51 [Streptomyces coelicolor A3(2)]
+GCATCGAAGCGCTTCGACGT
+>SCO5685(bglX) Score=6.2 Pos=-160 [Streptomyces coelicolor A3(2)]
+GTGTCGAAGCGCTTCGATGT
+>SCO5686(SAV_2577) Score=6.3 Pos=-218 [Streptomyces coelicolor A3(2)]
+ACGTCGAAGCGCTTCGATGC
+>SCO5686(SAV_2577) Score=6.7 Pos=-109 [Streptomyces coelicolor A3(2)]
+ACATCGAAGCGCTTCGACAC
+>SCO5692(SCO5692) Score=6.9 Pos=-124 [Streptomyces coelicolor A3(2)]
+GAGTCGAAGCGCTTCGACGG
+# TF - RbsR: SCO2745
+>SCO2745(rbsR) Score=6.8 Pos=-35 [Streptomyces coelicolor A3(2)]
+CCGTGTAATCGATTCCACGA
+# TF - SCO1956: SCO1956
+>SCO1956(SCO1956) Score=7.7 Pos=-85 [Streptomyces coelicolor A3(2)]
+AAACGCTTGCGCAAGCGTTT
+# TF - PdxW: SCO1360
+>SCO1360(pdxW) Score=4.6 Pos=-3 [Streptomyces coelicolor A3(2)]
+TTTGTGCTAGGAGAGT
+>SCO1360(pdxW) Score=5.2 Pos=-25 [Streptomyces coelicolor A3(2)]
+ATTGCACTAGTGCATA
+>SCO1361(pdxO) Score=4.6 Pos=-48 [Streptomyces coelicolor A3(2)]
+ACTCTCCTAGCACAAA
+>SCO1361(pdxO) Score=5.2 Pos=-26 [Streptomyces coelicolor A3(2)]
+TATGCACTAGTGCAAT
+# TF - LndYR: SCO0823
+>SCO0823(lndYR) Score=5.4 Pos=-25 [Streptomyces coelicolor A3(2)]
+CTTCTACTAATGAATTAATGAAAG
+# TF - Nur: SCO4180
+>SCO6451(nikA) Score=5.5 Pos=-51 [Streptomyces coelicolor A3(2)]
+ATTGCGAGTGATGTGCAAT
+>SCO3159(nikMN) Score=5.5 Pos=-38 [Streptomyces coelicolor A3(2)]
+CTTGCGAACGAGTTGCAAC
+>SCO2633(sodF) Score=5.8 Pos=-41 [Streptomyces coelicolor A3(2)]
+GTTGCAAGGCTTTTGCAAT
+# TF - SCO1410: SCO1410
+>SCO0440(SCF51A.18c) Score=5.7 Pos=-131 [Streptomyces coelicolor A3(2)]
+GATCGTTCAACGATC
+>SCO1410(SCO1410) Score=5.7 Pos=-65 [Streptomyces coelicolor A3(2)]
+GATCGTTCAACGATC
+>SCO0440(SCF51A.18c) Score=5.7 Pos=-251 [Streptomyces coelicolor A3(2)]
+GATCGTTGAACGATC
+>SCO0441(COG1540) Score=5.7 Pos=-150 [Streptomyces coelicolor A3(2)]
+GATCGTTGAACGATC
+>SCO1411(COG2814) Score=5.7 Pos=-87 [Streptomyces coelicolor A3(2)]
+GATCGTTGAACGATC
+>SCO0441(COG1540) Score=5.7 Pos=-30 [Streptomyces coelicolor A3(2)]
+GATCGTTCAACGATC
+# TF - PdxR3: SCO1417
+>SCO1418(COG2364) Score=5.6 Pos=-95 [Streptomyces coelicolor A3(2)]
+AGTCCACCTTCCCCAAATTGGCCA
+>SCO1417(pdxR3) Score=5.6 Pos=-31 [Streptomyces coelicolor A3(2)]
+TGGCCAATTTGGGGAAGGTGGACT
+# TF - SCO3812: SCO3812
+>SCO3812(SCO3812) Score=5.5 Pos=-22 [Streptomyces coelicolor A3(2)]
+TGGTGATAGTTTCATTAGCACCA
+# TF - IolR: SCO6974, SCO6256
+>SCO6256(iolR) Score=5.4 Pos=-91 [Streptomyces coelicolor A3(2)]
+CGTATGTCCGGACAATCG
+>SCO6257(iolTA) Score=4.9 Pos=-153 [Streptomyces coelicolor A3(2)]
+GCAATGTCCGGACAATGT
+>SCO6979(iolTA2) Score=4.8 Pos=-148 [Streptomyces coelicolor A3(2)]
+ATGATGTCTTGACAAAGT
+>SCO6979(iolTA2) Score=4.6 Pos=-180 [Streptomyces coelicolor A3(2)]
+ACTTTGTACTTACATTCG
+>SCO6255(iolG) Score=5.4 Pos=-55 [Streptomyces coelicolor A3(2)]
+CGATTGTCCGGACATACG
+>SCO6986(iolR2) Score=4.9 Pos=-90 [Streptomyces coelicolor A3(2)]
+TTCTTGTCCTGACAAACG
+>SCO6978(iolC) Score=4.8 Pos=-123 [Streptomyces coelicolor A3(2)]
+ACTTTGTCAAGACATCAT
+>SCO6978(iolC) Score=4.6 Pos=-91 [Streptomyces coelicolor A3(2)]
+CGAATGTAAGTACAAAGT
+>SCO2727(iolD) Score=5.1 Pos=-86 [Streptomyces coelicolor A3(2)]
+CGAATGTCCGGACAAAAC
+>SCO6985(SCO6985) Score=4.9 Pos=-57 [Streptomyces coelicolor A3(2)]
+CGTTTGTCAGGACAAGAA
+>SCO6988(iolG3) Score=4.6 Pos=-103 [Streptomyces coelicolor A3(2)]
+TCTTTGTCCTGTCAAAAG
+>SCO6257(iolTA2) Score=4.9 Pos=-153 [Streptomyces coelicolor A3(2)]
+GCAATGTCCGGACAATGT
+# TF - SCO4836: SCO4836, SCO1289
+>SCO4835(pcaC2) Score=8.7 Pos=-70 [Streptomyces coelicolor A3(2)]
+AGAGTGGCCCAG------------GAAATGGACCAT
+>SCO7394(PF00892) Score=8.1 Pos=-70 [Streptomyces coelicolor A3(2)]
+GGATTGGTCCCC------------GAAGTGGACCCC
+# TF - NrtR: SCO1767, SCO5817
+>SCO1767(nrtR1) Score=6.4 Pos=-36 [Streptomyces coelicolor A3(2)]
+TTATAGTCGCAGTGACTATTA
+>SCO2238(nadE) Score=4.4 Pos=41 [Streptomyces coelicolor A3(2)]
+ATTGCGTCGTTCTGACGATTA
+# TF - HrcA: SCO2555
+>SCO2555(hrcA) Score=6.2 Pos=-110 [Streptomyces coelicolor A3(2)]
+CTGGCACTCGCGAGCCATGAGTGCCAG
+>SCO4761(groS) Score=6.6 Pos=-173 [Streptomyces coelicolor A3(2)]
+TTGGCACTCCGCTTGACCGAGTGCTAA
+>SCO4761(groS) Score=7.1 Pos=-126 [Streptomyces coelicolor A3(2)]
+CTGGCACTCCCCACTGGAGAGTGCCAA
+>SCO4296(groL2) Score=6.5 Pos=-189 [Streptomyces coelicolor A3(2)]
+CTTGCACTCGACCATGCCGAGTGCTAA
+>SCO4296(groL2) Score=6.7 Pos=-153 [Streptomyces coelicolor A3(2)]
+TTAGCACTCTGAAGGTGAGAGTGACAA
+>SCO3187(COG2331) Score=6.6 Pos=-37 [Streptomyces coelicolor A3(2)]
+TTAGCACTCATCGAGTGAGAGTGCCAG
+# TF - LexA: SCO5803
+>SCO5769(recA) Score=4 Pos=-178 [Streptomyces coelicolor A3(2)]
+TCGAACATCCATTCTT
+>SCO7302(alkB) Score=4.2 Pos=-36 [Streptomyces coelicolor A3(2)]
+TAGAACAGACTTTCGA
+>SCP1.321 (deprecated)(dinP) Score=4.4 Pos=-27 [Streptomyces coelicolor A3(2)]
+TCGAATTCCTGTTCGA
+>SCO5822(gyrB) Score=4.9 Pos=-152 [Streptomyces coelicolor A3(2)]
+TCGAACAGGCATGCGA
+>SCO1739(dnaE2) Score=5.1 Pos=-116 [Streptomyces coelicolor A3(2)]
+TCGCACACACATTCGA
+>SCO1739(dnaE2) Score=3.9 Pos=-72 [Streptomyces coelicolor A3(2)]
+GGGAACAGACGTTCGA
+>SCP1.33c (deprecated)(dinP) Score=4.4 Pos=-27 [Streptomyces coelicolor A3(2)]
+TCGAATTCCTGTTCGA
+>SCO5803(lexA) Score=4.8 Pos=-150 [Streptomyces coelicolor A3(2)]
+TCGAACGTGTGTTTGG
+>SCO1958(uvrA) Score=4.8 Pos=-164 [Streptomyces coelicolor A3(2)]
+TCGAATGCACGTGCTA
+# TF - ArgR: SCO1576
+>SCO1570(argH) Score=3.9 Pos=-59 [Streptomyces coelicolor A3(2)]
+ACATGCAGAGTTCTGCATAC
+>SCO1570(argH) Score=5.3 Pos=-49 [Streptomyces coelicolor A3(2)]
+TTCTGCATACTCATGCATGA
+>SCO7036(argG) Score=5.3 Pos=-37 [Streptomyces coelicolor A3(2)]
+CTTTGCATGGTCATGCGTAA
+>SCO7036(argG) Score=4.3 Pos=-27 [Streptomyces coelicolor A3(2)]
+TCATGCGTAATGATGCATAC
+>SCO2015(cpdB) Score=3.6 Pos=-178 [Streptomyces coelicolor A3(2)]
+CCACGCATGACCACTCAACA
+>SCO2686(SCO2628) Score=5.1 Pos=-42 [Streptomyces coelicolor A3(2)]
+TGTGGCATGATCATGCATTG
+>SCO1086(SCO1086) Score=4.9 Pos=-44 [Streptomyces coelicolor A3(2)]
+CACTGCATAGGTATGCGTTC
+>SCO1580(argC) Score=4.5 Pos=-57 [Streptomyces coelicolor A3(2)]
+CATTGCATAAACGTGCATCG
+>SCO1580(argC) Score=4.1 Pos=-37 [Streptomyces coelicolor A3(2)]
+GCACGTATAGTCATGCTCTC
+# TF - PdxQ: SCO1587
+>SCO1588(PF00892) Score=7.9 Pos=-16 [Streptomyces coelicolor A3(2)]
+GCTGCTACGCT---------------AGAGTAGCGCT
+>SCO1587(pdxQ) Score=7.9 Pos=-55 [Streptomyces coelicolor A3(2)]
+AGCGCTACTCT---------------AGCGTAGCAGC
+# TF - DasR: SCO5231
+>SCO6300(hex5) Score=4.4 Pos=-130 [Streptomyces coelicolor A3(2)]
+TTTTGTCTAGACCTAT
+>SCO5232(dasA) Score=4.9 Pos=-322 [Streptomyces coelicolor A3(2)]
+CTTGGTCTAGTCCATA
+>SCO5232(dasA) Score=4.9 Pos=-130 [Streptomyces coelicolor A3(2)]
+ATTGGTCTGGGCCAAG
+>SCO2946(SCO2946) Score=4.7 Pos=-111 [Streptomyces coelicolor A3(2)]
+ATTGGTTCAGACCTCT
+>SCO7263(chiF) Score=4.5 Pos=-155 [Streptomyces coelicolor A3(2)]
+ACTGGTACAGACCAAA
+>SCO7263(chiF) Score=4.4 Pos=-172 [Streptomyces coelicolor A3(2)]
+ACTGGTCTACACCCTT
+>SCO5232(dasA) Score=4.9 Pos=-106 [Streptomyces coelicolor A3(2)]
+ACTGGTCTACACCATT
+>SCO5239(pdtaS) Score=5.3 Pos=-335 [Streptomyces coelicolor A3(2)]
+AGTGGTCTAGTCCACA
+>SCO4286(SCO4286) Score=5.2 Pos=-81 [Streptomyces coelicolor A3(2)]
+AGAGGTCTAGTCCACT
+>SCO4286(SCO4286) Score=4.3 Pos=-63 [Streptomyces coelicolor A3(2)]
+GGTGGTGTAGACCTTA
+>SCO4285(nagK) Score=4.3 Pos=-100 [Streptomyces coelicolor A3(2)]
+TAAGGTCTACACCACC
+>SCO4285(nagK) Score=5.2 Pos=-82 [Streptomyces coelicolor A3(2)]
+AGTGGACTAGACCTCT
+>SCO4240(SCO4240) Score=4.6 Pos=-74 [Streptomyces coelicolor A3(2)]
+TGTGGACTACACCACC
+>SCO5003(chiA) Score=3.9 Pos=-107 [Streptomyces coelicolor A3(2)]
+CTTGGTCCGTACCTAC
+>SCO5003(chiA) Score=5.2 Pos=-76 [Streptomyces coelicolor A3(2)]
+ATTGGTCTGGACCACC
+>SCO6012(SCO6012) Score=4.8 Pos=-110 [Streptomyces coelicolor A3(2)]
+TCTGGTCCAGACCATT
+>SCO5673(chiA) Score=5.1 Pos=-63 [Streptomyces coelicolor A3(2)]
+ATTGGTCTGGACCAAA
+>SCO5236(nagB) Score=5.1 Pos=-67 [Streptomyces coelicolor A3(2)]
+ATTGGTCTAAACCACA
+>SCO2905(nagF) Score=4.8 Pos=-133 [Streptomyces coelicolor A3(2)]
+ACTGGTGTAGACCAGT
+>SCO5376(chiC) Score=5.1 Pos=-108 [Streptomyces coelicolor A3(2)]
+ATTGGTCCAGACCTAT
+>SCO5376(chiC) Score=4.6 Pos=-87 [Streptomyces coelicolor A3(2)]
+TATGGTCCAGACCTTT
+>SCO1444(chiD) Score=5 Pos=-53 [Streptomyces coelicolor A3(2)]
+ACTGGTCTAGTCCTCT
+>SCO6012(SCO6012) Score=4.7 Pos=-183 [Streptomyces coelicolor A3(2)]
+GGTGGTCCAGTCCACC
+>SCO6012(SCO6012) Score=5 Pos=-126 [Streptomyces coelicolor A3(2)]
+ATTGGTCTAGTCCCAT
+>SCO1444(chiD) Score=4.7 Pos=-75 [Streptomyces coelicolor A3(2)]
+ATTGGTCCATACCTAT
+>SCO2907(nagE2) Score=4.7 Pos=-49 [Streptomyces coelicolor A3(2)]
+ACAGGTCTACACCACT
+>SCO2906(nagE) Score=4.8 Pos=-41 [Streptomyces coelicolor A3(2)]
+ACTGGTCTACACCAGT
+>SCO1390(ptsA) Score=5.2 Pos=-130 [Streptomyces coelicolor A3(2)]
+TGTGGTCTAGACCTCT
+>SCO5231(dasR) Score=4.9 Pos=-365 [Streptomyces coelicolor A3(2)]
+AATGGTGTAGACCAGT
+>SCO5231(dasR) Score=4.9 Pos=-341 [Streptomyces coelicolor A3(2)]
+CTTGGCCCAGACCAAT
+>SCO5231(dasR) Score=4.9 Pos=-149 [Streptomyces coelicolor A3(2)]
+TATGGACTAGACCAAG
+>SCO2907(nagE2) Score=5.1 Pos=-32 [Streptomyces coelicolor A3(2)]
+AGTGGTGTAGACCACC
+>SCO1262(SCO1262) Score=4.8 Pos=-112 [Streptomyces coelicolor A3(2)]
+ATTGGTCTTGACCAAG
+>SCO5841(ptsH) Score=4.2 Pos=-65 [Streptomyces coelicolor A3(2)]
+ACTGGTCTAGACAAGA
+>SCO5841(ptsH) Score=4.8 Pos=-50 [Streptomyces coelicolor A3(2)]
+ACTGGTCTAGACAACT
+>SCO7069(SCO7069) Score=4.5 Pos=-60 [Streptomyces coelicolor A3(2)]
+ATTGGTCCGGACCTGT
+>SCO2833(chb) Score=4.7 Pos=-69 [Streptomyces coelicolor A3(2)]
+CTTGGTCTAGACCTGC
+>SCO6005(SCO6005) Score=4.6 Pos=-334 [Streptomyces coelicolor A3(2)]
+AGTGGACTATACCTGT
+>SCO6300(hex5) Score=4.4 Pos=-115 [Streptomyces coelicolor A3(2)]
+TTTTGTCTAGACCTCT
+>SCO0481(chb2) Score=4.9 Pos=-201 [Streptomyces coelicolor A3(2)]
+TATGGTCTAGTCCAAC
+>SCO2786(hex3) Score=3.8 Pos=-69 [Streptomyces coelicolor A3(2)]
+AGTGGTCCGCACCCGT
+>SCO1429(chiE) Score=4.4 Pos=-118 [Streptomyces coelicolor A3(2)]
+AATGGTCCGAACCATT
+>SCO1429(chiE) Score=4.7 Pos=-96 [Streptomyces coelicolor A3(2)]
+ACTGGTCTAGTCCTCC
+>SCO0914(SCO0914) Score=4.6 Pos=-126 [Streptomyces coelicolor A3(2)]
+AATGGTCCATACCAAA
+>SCO5954(chiA3) Score=4.7 Pos=-95 [Streptomyces coelicolor A3(2)]
+ATTGGTCCAGACCTTC
+>SCO7225(chb3) Score=4.5 Pos=-168 [Streptomyces coelicolor A3(2)]
+CCTTGTCTAGACCAAT
+>SCO7225(chb3) Score=4.5 Pos=-55 [Streptomyces coelicolor A3(2)]
+TATGGTCTAGACCTGA
+>SCO7225(chb3) Score=4.3 Pos=-34 [Streptomyces coelicolor A3(2)]
+TCAGGTCTAGACCTGT
+>SCO6345(chb3) Score=4.2 Pos=-114 [Streptomyces coelicolor A3(2)]
+TAAGGTCTAGACCTGC
+>SCO6345(chb3) Score=4.3 Pos=-94 [Streptomyces coelicolor A3(2)]
+GTAGGTCTAGACCTGC
+>SCO2503(chiB) Score=4.9 Pos=-99 [Streptomyces coelicolor A3(2)]
+CTTGGTCCAGACCTCT
+>SCO2503(chiB) Score=4.7 Pos=-78 [Streptomyces coelicolor A3(2)]
+AAAGGTCTGGACCACA
+>SCO6032(hex4) Score=5.2 Pos=-153 [Streptomyces coelicolor A3(2)]
+AATGGACTAGACCAAG
+>SCO6032(hex4) Score=4.9 Pos=-39 [Streptomyces coelicolor A3(2)]
+CTTGGTCTATACCAAG
+# TF - QorR: SCO4014
+>SCO4014(qorR) Score=5.5 Pos=-38 [Streptomyces coelicolor A3(2)]
+GCACTCACTCATGGTGAGCGC
+>SCO4593(qorD) Score=5.2 Pos=-69 [Streptomyces coelicolor A3(2)]
+GCACTATCCTCTGGTTAGCGC
+# TF - Zur: SCO2508
+>SCO0436(rpmF2) Score=5 Pos=-56 [Streptomyces coelicolor A3(2)]
+ACATGAACATCGTTTTCATGT
+>SCO0475(znuB2) Score=4.9 Pos=-34 [Streptomyces coelicolor A3(2)]
+TGTTGAACATGATTTTCATTG
+>SCO3429(rpmB2) Score=5.9 Pos=-62 [Streptomyces coelicolor A3(2)]
+TACTGAAAATGAATTCCATTA
+>SCO3428(rpmG2) Score=5.9 Pos=-31 [Streptomyces coelicolor A3(2)]
+TAATGGAATTCATTTTCAGTA
+>SCO2505(znuA) Score=4.6 Pos=-17 [Streptomyces coelicolor A3(2)]
+TGTTGAAAATGAGTGTCATGA
+>SCO2505(znuA) Score=5 Pos=-39 [Streptomyces coelicolor A3(2)]
+TGTTGACAACGGTTTCCATAT
+# TF - PaaR: SCO3833
+>SCO7471(paaA) Score=5.6 Pos=-157 [Streptomyces coelicolor A3(2)]
+CCCGACCGACCATTCGGTTAGC
+>SCO7470(paaI) Score=5.5 Pos=-152 [Streptomyces coelicolor A3(2)]
+CCCAACCGACCATTCGTTCGGT
+>SCO3835(paaZ) Score=5.8 Pos=-106 [Streptomyces coelicolor A3(2)]
+CCCGACCGATCGTTCGGTTACT
+>SCO3834(paaH) Score=5.8 Pos=-74 [Streptomyces coelicolor A3(2)]
+AGTAACCGAACGATCGGTCGGG
+>SCO3831(bkdA) Score=5.6 Pos=-78 [Streptomyces coelicolor A3(2)]
+GACGACCGAACAATCGGTAGGT
+>SCO7471(paaA) Score=5.5 Pos=-34 [Streptomyces coelicolor A3(2)]
+ACCGAACGAATGGTCGGTTGGG
+>SCO7470(paaI) Score=5.6 Pos=-29 [Streptomyces coelicolor A3(2)]
+GCTAACCGAATGGTCGGTCGGG
+# TF - Rex: SCO3320
+>SCO5240(whiE) Score=5.5 Pos=-61 [Streptomyces coelicolor A3(2)]
+TCGTGAAAGCGTTCACAT
+>SCO5366(atpI) Score=5.1 Pos=-147 [Streptomyces coelicolor A3(2)]
+TTGTGATACGGTTCACGA
+>SCO3101(SCO3101) Score=4.8 Pos=-37 [Streptomyces coelicolor A3(2)]
+TTGTGCACCGTCGCACAA
+>SCO3547(hppA) Score=4.5 Pos=-224 [Streptomyces coelicolor A3(2)]
+AAGTGAATTCATTCACGA
+>SCO4472(resA) Score=3.9 Pos=-16 [Streptomyces coelicolor A3(2)]
+ATGCGAAACTTTTCACAT
+>SCO3945(cydA) Score=6 Pos=-109 [Streptomyces coelicolor A3(2)]
+ATGTGAACGCGTTCACAA
+>SCO3320(rex) Score=6 Pos=-97 [Streptomyces coelicolor A3(2)]
+TTGTGCACGCGTTCACAA
+>SCO3092(ndh) Score=5.2 Pos=-136 [Streptomyces coelicolor A3(2)]
+TTGTGAAGGGGCGCACGA
+>SCO6168(SCO6168) Score=4.2 Pos=-100 [Streptomyces coelicolor A3(2)]
+TTGTGAAAACTTTCACCC
+>SCO4562(nuoA) Score=5.4 Pos=-124 [Streptomyces coelicolor A3(2)]
+TTGTGACCTGCTTCACAT
+# TF - LtbR: SCO5552
+>SCO5553(leuC) Score=6.8 Pos=-184 [Streptomyces coelicolor A3(2)]
+CGTCTCACTCTGTGAAACG
+>SCO5552(ltbR) Score=6.8 Pos=-32 [Streptomyces coelicolor A3(2)]
+CGTTTCACAGAGTGAGACG

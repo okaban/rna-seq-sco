@@ -1,0 +1,1 @@
+/Users/okaban/bioinfo/rna-seq/reports/260226_H14_defense_island_GCCGGC_report.md

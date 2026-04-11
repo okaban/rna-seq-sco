@@ -1,0 +1,11 @@
+rank,pdb_id,chain,description,organism,rm_type,seq_identity_pct,evalue,prob,query_range,target_len
+1,7VS4,A,PacII M1M2S-DNA(m6A)-SAH complex,Providencia alcalifaciens,Type I,24.1,4.2e-22,1.0,103-482,495
+2,7VRU,A,PacII M1M2S-DNA-SAH complex,Providencia alcalifaciens,Type I,21.2,1.4e-21,1.0,67-482,497
+3,7EEW,A,Intact MTase with Ocr and SAH,Vibrio vulnificus,Type I,16.1,1.7e-21,1.0,67-676,610
+4,3KHK,B,Type I R-M system M subunit (MM_0429),Methanosarchina mazei,Type I,20.6,3.1e-17,1.0,111-453,487
+5,3LKD,A,Type I R-M system MTase subunit,Streptococcus thermophilus,Type I,19.0,9.6e-18,1.0,48-453,468
+6,2OKC,A,Type I RE StySJI M protein,Bacteroides thetaiotaomicron,Type I,20.3,2.9e-15,1.0,67-447,424
+7,7BTO,A,EcoR124I in Translocation State,Escherichia coli,Type I,18.0,5e-14,1.0,69-484,487
+8,5YBB,B,Type I R-M complex assembly,Escherichia coli,Type I,21.1,4.3e-14,1.0,82-482,477
+9,3S1S,A,Type IIG RE BpuSI,Bacillus pumilus,Type IIG,11.3,1.4e-14,1.0,51-659,791
+10,2ADM,B,Adenine-N6-DNA-MTase M.TaqI,Thermus aquaticus,Type II,15.9,3e-11,1.0,187-630,496

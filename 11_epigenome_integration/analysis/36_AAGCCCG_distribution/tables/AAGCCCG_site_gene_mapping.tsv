@@ -1,0 +1,1526 @@
+position	site_strand	locus_tag	old_locus_tag	gene_name	gene_start	gene_end	gene_strand	product	distance	location	within_500bp	within_2kb	timepoint	region
+7328	-	SC_RS02080	SCO0003		3869	6220	+	Helicase associated domain protein	1108	downstream_far	False	True	T1	arm
+7328	-	SC_RS00040	SCP1.08c		4919	5440	-	hypothetical protein	1888	upstream	False	True	T1	arm
+7328	-	SC_RS01885			5312	5449	-	hypothetical protein	1879	upstream	False	True	T1	arm
+7328	-	SC_RS00045	SCP1.09c		5516	6181	-	hypothetical protein	1147	upstream	False	True	T1	arm
+7328	-	SC_RS01890	SCP2.06		5617	5886	+	hypothetical protein	1442	downstream_far	False	True	T1	arm
+7328	-	SC_RS01895	SCP2.07c		5935	7050	-	site-specific integrase	278	promoter	True	True	T1	arm
+7328	-	SC_RS02085	SCO0004		6346	7173	+	TnsA-like heteromeric transposase endonuclease subunit	155	downstream	True	True	T1	arm
+7328	-	SC_RS00050	SCP1.10		6777	7271	+	hypothetical protein	57	downstream	True	True	T1	arm
+7328	-	SC_RS02090	SCO0005		7154	9307	+	Mu transposase C-terminal domain-containing protein	0	gene_body	True	True	T1	arm
+7328	-	SC_RS01900	SCP2.08		7201	7386	+	hypothetical protein	0	gene_body	True	True	T1	arm
+7328	-	SC_RS00055	SCP1.11c		7395	8243	-	endonuclease VII domain-containing protein	67	downstream	True	True	T1	arm
+7328	-	SC_RS01905	SCP2.09c		7612	7749	-	TIGR02391 family protein	284	downstream	True	True	T1	arm
+7328	-	SC_RS01910			7832	8431	+	hypothetical protein	504	upstream	False	True	T1	arm
+7328	-	SC_RS00060	SCP1.12c		8135	8578	-	hypothetical protein	807	downstream_far	False	True	T1	arm
+7328	-	SC_RS01915	SCP2.10c		8441	9286	-	IS5 family transposase	1113	downstream_far	False	True	T1	arm
+7328	-	SC_RS00065	SCP1.13c		8633	10183	-	AbiJ-related protein	1305	downstream_far	False	True	T1	arm
+7328	-	SC_RS01920	SCP2.11c		9304	9726	-	hypothetical protein	1976	downstream_far	False	True	T1	arm
+31832	-	SC_RS02210	SCO0035		29605	30054	-	hypothetical protein	1778	upstream	False	True	T1	arm
+31832	-	SC_RS00150	SCP1.32c		29839	30219	-	hypothetical protein	1613	upstream	False	True	T1	arm
+31832	-	SC_RS00155	SCP1.33c		30246	31238	-	DNA polymerase Y family protein	594	upstream	False	True	T1	arm
+31832	-	SC_RS01865			30883	31425	+	hypothetical protein	407	downstream	True	True	T1	arm
+31832	-	SC_RS00160	SCP1.34		31461	32399	+	SpoIIE family protein phosphatase	0	gene_body	True	True	T1	arm
+31832	-	SC_RS02225	SCO0039		31625	32137	+	patatin-like phospholipase family protein	0	gene_body	True	True	T1	arm
+31832	-	SC_RS02230	SCO0040		32134	33357	+	glycosyltransferase	302	promoter	True	True	T1	arm
+31832	-	SC_RS00165	SCP1.35		32556	32855	+	hypothetical protein	724	upstream	False	True	T1	arm
+31832	-	SC_RS00170	SCP1.36c		33166	34080	-	AraC family transcriptional regulator	1334	downstream_far	False	True	T1	arm
+31832	-	SC_RS02235	SCO0041		33360	33845	+	hypothetical protein	1528	upstream	False	True	T1	arm
+82127	-	SC_RS00430	SCP1.81		79999	80421	+	hypothetical protein	1706	downstream_far	False	True	T1	arm
+82127	-	SC_RS00435	SCP1.82		80439	81284	+	IS5 family transposase	843	downstream_far	False	True	T1	arm
+82127	-	SC_RS02480	SCO0097		80845	81165	-	hypothetical protein	962	upstream	False	True	T1	arm
+82127	-	SC_RS00440			81294	81893	-	hypothetical protein	234	promoter	True	True	T1	arm
+82127	-	SC_RS02485	SCO0098		81602	82441	-	IS5-like element ISSco3 family transposase	0	gene_body	True	True	T1	arm
+82127	-	SC_RS00445			81921	82391	-	hypothetical protein	0	gene_body	True	True	T1	arm
+82127	-	SC_RS00450	SCP1.85		82970	83170	+	hypothetical protein	843	upstream	False	True	T1	arm
+82127	-	SC_RS00455	SCP1.85c		83371	84690	-	hypothetical protein	1244	downstream_far	False	True	T1	arm
+82127	-	SC_RS02495	SCO0101		83516	84235	-	DUF2625 domain-containing protein	1389	downstream_far	False	True	T1	arm
+82128	-	SC_RS00430	SCP1.81		79999	80421	+	hypothetical protein	1707	downstream_far	False	True	T1	arm
+82128	-	SC_RS00435	SCP1.82		80439	81284	+	IS5 family transposase	844	downstream_far	False	True	T1	arm
+82128	-	SC_RS02480	SCO0097		80845	81165	-	hypothetical protein	963	upstream	False	True	T1	arm
+82128	-	SC_RS00440			81294	81893	-	hypothetical protein	235	promoter	True	True	T1	arm
+82128	-	SC_RS02485	SCO0098		81602	82441	-	IS5-like element ISSco3 family transposase	0	gene_body	True	True	T1	arm
+82128	-	SC_RS00445			81921	82391	-	hypothetical protein	0	gene_body	True	True	T1	arm
+82128	-	SC_RS00450	SCP1.85		82970	83170	+	hypothetical protein	842	upstream	False	True	T1	arm
+82128	-	SC_RS00455	SCP1.85c		83371	84690	-	hypothetical protein	1243	downstream_far	False	True	T1	arm
+82128	-	SC_RS02495	SCO0101		83516	84235	-	DUF2625 domain-containing protein	1388	downstream_far	False	True	T1	arm
+82886	-	SC_RS00435	SCP1.82		80439	81284	+	IS5 family transposase	1602	downstream_far	False	True	T1	arm
+82886	-	SC_RS02480	SCO0097		80845	81165	-	hypothetical protein	1721	upstream	False	True	T1	arm
+82886	-	SC_RS00440			81294	81893	-	hypothetical protein	993	upstream	False	True	T1	arm
+82886	-	SC_RS02485	SCO0098		81602	82441	-	IS5-like element ISSco3 family transposase	445	promoter	True	True	T1	arm
+82886	-	SC_RS00445			81921	82391	-	hypothetical protein	495	promoter	True	True	T1	arm
+82886	-	SC_RS00450	SCP1.85		82970	83170	+	hypothetical protein	84	promoter	True	True	T1	arm
+82886	-	SC_RS00455	SCP1.85c		83371	84690	-	hypothetical protein	485	downstream	True	True	T1	arm
+82886	-	SC_RS02495	SCO0101		83516	84235	-	DUF2625 domain-containing protein	630	downstream_far	False	True	T1	arm
+127250	-	SC_RS02625	SCO0132		122743	125502	+	helix-turn-helix transcriptional regulator	1748	downstream_far	False	True	T1	arm
+127250	-	SC_RS00710	SCP1.136		125422	127911	+	helicase associated domain-containing protein	0	gene_body	True	True	T1	arm
+127250	-	SC_RS02630	SCO0133		125625	126005	-	hypothetical protein	1245	upstream	False	True	T1	arm
+127250	-	SC_RS02635	SCO0135		127571	128290	+	alpha/beta fold hydrolase	321	promoter	True	True	T1	arm
+127250	-	SC_RS02640	SCO0136		128634	130184	-	PTS ascorbate transporter subunit IIC	1384	downstream_far	False	True	T1	arm
+127250	-	SC_RS00715	SCP1.138		128828	130090	+	ParA family protein	1578	upstream	False	True	T1	arm
+173006	-	SC_RS00915	SCP1.176		169131	172742	+	LysM peptidoglycan-binding domain-containing protein	264	downstream	True	True	T1	arm
+173006	-	SC_RS00920	SCP1.177		173067	173675	+	hypothetical protein	61	promoter	True	True	T1	arm
+173006	-	SC_RS00925			173781	173927	-	hypothetical protein	775	downstream_far	False	True	T1	arm
+173006	-	SC_RS02875	SCO0185		173801	174946	+	polyprenyl synthetase family protein	795	upstream	False	True	T1	arm
+173006	-	SC_RS00930	SCP1.179		173994	174191	+	hypothetical protein	988	upstream	False	True	T1	arm
+173006	-	SC_RS00935	SCP1.180		174205	174516	+	hypothetical protein	1199	upstream	False	True	T1	arm
+173006	-	SC_RS00940			174626	175174	-	hypothetical protein	1620	downstream_far	False	True	T1	arm
+173006	-	SC_RS02880	SCO0186	crtI	174943	176514	+	phytoene desaturase family protein	1937	upstream	False	True	T1	arm
+229696	-	SC_RS01170	SCP1.224c	dnaE	224350	227952	-	DNA polymerase III subunit alpha	1744	upstream	False	True	T1	arm
+229696	-	SC_RS03125	SCO0239		227081	228154	-	protein kinase family protein	1542	upstream	False	True	T1	arm
+229696	-	SC_RS03130	SCO0240		228714	229649	-	oxidoreductase	47	promoter	True	True	T1	arm
+229696	-	SC_RS01175	SCP1.225		228863	229135	+	hypothetical protein	561	downstream_far	False	True	T1	arm
+229696	-	SC_RS01180	SCP1.226		229132	229518	+	PIN domain-containing protein	178	downstream	True	True	T1	arm
+229696	-	SC_RS01185	SCP1.227		229812	230153	+	hypothetical protein	116	promoter	True	True	T1	arm
+229696	-	SC_RS03135	SCO0241		229995	230669	+	TetR/AcrR family transcriptional regulator	299	promoter	True	True	T1	arm
+229696	-	SC_RS01190	SCP1.227c		230263	230826	-	Rossmann-fold NAD(P)-binding domain-containing protein	567	downstream_far	False	True	T1	arm
+229696	-	SC_RS01195			230887	231129	+	hypothetical protein	1191	upstream	False	True	T1	arm
+229696	-	SC_RS03140	SCO0242		231022	231465	+	VOC family protein	1326	upstream	False	True	T1	arm
+229696	-	SC_RS03145	SCO0243		231475	231654	+	hypothetical protein	1779	upstream	False	True	T1	arm
+229696	-	SC_RS01200	SCP1.228c		231676	232200	-	flavin reductase family protein	1980	downstream_far	False	True	T1	arm
+240265	-	SC_RS01240	SCP1.233B		238242	239240	+	beta-ketoacyl-ACP synthase III	1025	downstream_far	False	True	T1	arm
+240265	-	SC_RS03170	SCO0249		238280	239794	-	monooxygenase	471	promoter	True	True	T1	arm
+240265	-	SC_RS01245	SCP1.234		239304	239552	+	acyl carrier protein	713	downstream_far	False	True	T1	arm
+240265	-	SC_RS01250	SCP1.235		239676	240374	+	HAD-IB family hydrolase	0	gene_body	True	True	T1	arm
+240265	-	SC_RS03175	SCO0250		239858	240523	+	TetR/AcrR family transcriptional regulator	0	gene_body	True	True	T1	arm
+240265	-	SC_RS01255	SCP1.236		240371	240991	+	ATP/GTP-binding protein	106	promoter	True	True	T1	arm
+240265	-	SC_RS03180	SCO0252		240876	242123	-	FAD-dependent monooxygenase	611	downstream_far	False	True	T1	arm
+240265	-	SC_RS01260	SCP1.237c		241054	242481	-	MFS transporter	789	downstream_far	False	True	T1	arm
+240265	-	SC_RS03185	SCO0253		242203	242766	+	TetR/AcrR family transcriptional regulator C-terminal domain-containing protein	1938	upstream	False	True	T1	arm
+321885	-	SC_RS01685	SCP1.316		319607	320569	+	IS5-like element IS4811 family transposase	1316	downstream_far	False	True	T1	arm
+321885	-	SC_RS03515	SCO0320		320113	320583	+	zinc-binding dehydrogenase	1302	downstream_far	False	True	T1	arm
+321885	-	SC_RS03520	SCO0321		320720	322255	+	carboxylesterase/lipase family protein	0	gene_body	True	True	T1	arm
+321885	-	SC_RS01690	SCP1.317c		320862	321857	-	SDR family NAD(P)-dependent oxidoreductase	28	promoter	True	True	T1	arm
+321885	-	SC_RS01695	SCP1.318		321944	322858	+	AraC family transcriptional regulator	59	promoter	True	True	T1	arm
+321885	-	SC_RS03525	SCO0322		322244	323938	-	TlrC/CarA/OleB/SrmB family ABC-F type ribosomal protection protein	359	downstream	True	True	T1	arm
+321885	-	SC_RS01700	SCP1.319c		323169	323468	-	hypothetical protein	1284	downstream_far	False	True	T1	arm
+321885	-	SC_RS01705	SCP1.320c		323625	324563	-	SpoIIE family protein phosphatase	1740	downstream_far	False	True	T1	arm
+321886	-	SC_RS01685	SCP1.316		319607	320569	+	IS5-like element IS4811 family transposase	1317	downstream_far	False	True	T1	arm
+321886	-	SC_RS03515	SCO0320		320113	320583	+	zinc-binding dehydrogenase	1303	downstream_far	False	True	T1	arm
+321886	-	SC_RS03520	SCO0321		320720	322255	+	carboxylesterase/lipase family protein	0	gene_body	True	True	T1	arm
+321886	-	SC_RS01690	SCP1.317c		320862	321857	-	SDR family NAD(P)-dependent oxidoreductase	29	promoter	True	True	T1	arm
+321886	-	SC_RS01695	SCP1.318		321944	322858	+	AraC family transcriptional regulator	58	promoter	True	True	T1	arm
+321886	-	SC_RS03525	SCO0322		322244	323938	-	TlrC/CarA/OleB/SrmB family ABC-F type ribosomal protection protein	358	downstream	True	True	T1	arm
+321886	-	SC_RS01700	SCP1.319c		323169	323468	-	hypothetical protein	1283	downstream_far	False	True	T1	arm
+321886	-	SC_RS01705	SCP1.320c		323625	324563	-	SpoIIE family protein phosphatase	1739	downstream_far	False	True	T1	arm
+321887	-	SC_RS01685	SCP1.316		319607	320569	+	IS5-like element IS4811 family transposase	1318	downstream_far	False	True	T1	arm
+321887	-	SC_RS03515	SCO0320		320113	320583	+	zinc-binding dehydrogenase	1304	downstream_far	False	True	T1	arm
+321887	-	SC_RS03520	SCO0321		320720	322255	+	carboxylesterase/lipase family protein	0	gene_body	True	True	T1	arm
+321887	-	SC_RS01690	SCP1.317c		320862	321857	-	SDR family NAD(P)-dependent oxidoreductase	30	promoter	True	True	T1	arm
+321887	-	SC_RS01695	SCP1.318		321944	322858	+	AraC family transcriptional regulator	57	promoter	True	True	T1	arm
+321887	-	SC_RS03525	SCO0322		322244	323938	-	TlrC/CarA/OleB/SrmB family ABC-F type ribosomal protection protein	357	downstream	True	True	T1	arm
+321887	-	SC_RS01700	SCP1.319c		323169	323468	-	hypothetical protein	1282	downstream_far	False	True	T1	arm
+321887	-	SC_RS01705	SCP1.320c		323625	324563	-	SpoIIE family protein phosphatase	1738	downstream_far	False	True	T1	arm
+357890	+	SC_RS03665	SCO0351		355713	357158	+	hypothetical protein	732	downstream_far	False	True	T1	arm
+357890	+	SC_RS03670	SCO0352		357203	358477	+	ABC transporter substrate-binding protein	0	gene_body	True	True	T1	arm
+357890	+	SC_RS03675	SCO0353		358481	359392	+	carbohydrate ABC transporter permease	591	upstream	False	True	T1	arm
+357890	+	SC_RS03680	SCO0354		359389	360231	+	carbohydrate ABC transporter permease	1499	upstream	False	True	T1	arm
+467034	+	SC_RS04135	SCO0445		464207	465502	-	hypothetical protein	1532	upstream	False	True	T1	arm
+467034	+	SC_RS04140	SCO0446		465496	465849	-	hypothetical protein	1185	upstream	False	True	T1	arm
+467034	+	SC_RS04145	SCO0447		465990	466436	+	MarR family winged helix-turn-helix transcriptional regulator	598	downstream_far	False	True	T1	arm
+467034	+	SC_RS04150			466429	466764	+	MFS transporter	270	downstream	True	True	T1	arm
+467034	+	SC_RS04155	SCO0448		466758	467909	+	MFS transporter	0	gene_body	True	True	T1	arm
+467034	+	SC_RS04160	SCO0449	rhaS	468153	469232	+	rhamnose ABC transporter substrate-binding protein	1119	upstream	False	True	T1	arm
+493898	-	SC_RS04270	SCO0471		491901	492881	+	helix-turn-helix domain-containing protein	1017	downstream_far	False	True	T1	arm
+493898	-	SC_RS04275	SCO0472	aztD	493055	494263	-	zinc metallochaperone AztD	0	gene_body	True	True	T1	arm
+493898	-	SC_RS04280	SCO0473	aztC	494260	495249	-	zinc ABC transporter substrate-binding protein AztC	362	downstream	True	True	T1	arm
+493898	-	SC_RS04285	SCO0474		495246	496493	-	lipoprotein	1348	downstream_far	False	True	T1	arm
+580713	+	SC_RS04630	SCO0543		578092	579228	+	M23 family metallopeptidase	1485	downstream_far	False	True	T1	arm
+580713	+	SC_RS04635	SCO0544		579257	580789	+	CYTH and CHAD domain-containing protein	0	gene_body	True	True	T1	arm
+580713	+	SC_RS04640	SCO0545		580913	583459	+	discoidin domain-containing protein	200	promoter	True	True	T1	arm
+609829	+	SC_RS04740	SCO0564		606677	607837	-	oxygenase MpaB family protein	1992	upstream	False	True	T1	arm
+609829	+	SC_RS04745	SCO0565		607851	608909	-	polyprenyl synthetase family protein	920	upstream	False	True	T1	arm
+609829	+	SC_RS04750	SCO0566		608902	609186	-	hypothetical protein	643	upstream	False	True	T1	arm
+609829	+	SC_RS04755	SCO0567		609517	610356	+	IS5-like element ISSco3 family transposase	0	gene_body	True	True	T1	arm
+609829	+	SC_RS04760	SCO0568		610415	611488	-	polyprenyl synthetase family protein	586	downstream_far	False	True	T1	arm
+609829	+	SC_RS04765			611653	612003	+	hypothetical protein	1824	upstream	False	True	T1	arm
+631017	-	SC_RS04860	SCO0587		628600	629019	-	roadblock/LC7 domain-containing protein	1998	upstream	False	True	T1	arm
+631017	-	SC_RS04865	SCO0588		629185	630912	-	sensor histidine kinase	105	promoter	True	True	T1	arm
+631017	-	SC_RS04870	SCO0589		631216	632103	-	LysR family transcriptional regulator	199	downstream	True	True	T1	arm
+631017	-	SC_RS04875	SCO0590		632189	633049	+	PhzF family phenazine biosynthesis isomerase	1172	upstream	False	True	T1	arm
+648235	+	SC_RS04955	SCO0606		646345	647319	+	hypothetical protein	916	downstream_far	False	True	T1	arm
+648235	+	SC_RS04960	SCO0607		647444	647731	+	SCO0607 family lipoprotein	504	downstream_far	False	True	T1	arm
+648235	+	SC_RS04965	SCO0608	slbR	647887	648765	+	gamma-butyrolactone-binding regulator SlbR	0	gene_body	True	True	T1	arm
+648235	+	SC_RS04970	SCO0609		648876	649739	+	DMT family transporter	641	upstream	False	True	T1	arm
+648235	+	SC_RS04975	SCO0610		649840	650610	+	GntR family transcriptional regulator	1605	upstream	False	True	T1	arm
+670858	-	SC_RS05055	SCO0627		667741	669870	-	hydantoinase/oxoprolinase family protein	988	upstream	False	True	T1	arm
+670858	-	SC_RS05060	SCO0628		669972	671570	-	FAD-dependent oxidoreductase	0	gene_body	True	True	T1	arm
+670858	-	SC_RS05065	SCO0629		671618	672727	-	LacI family DNA-binding transcriptional regulator	760	downstream_far	False	True	T1	arm
+735989	-	SC_RS05375	SCO0691		732005	734134	+	xanthine dehydrogenase family protein molybdopterin-binding subunit	1855	downstream_far	False	True	T1	arm
+735989	-	SC_RS05380	SCO0692		734210	735667	-	hypothetical protein	322	promoter	True	True	T1	arm
+735989	-	SC_RS05385	SCO0693		735872	736192	+	DUF1232 domain-containing protein	0	gene_body	True	True	T1	arm
+735989	-	SC_RS05390	SCO0694	tgmA	736312	736503	+	putative ATP-grasp-modified RiPP	323	promoter	True	True	T1	arm
+735989	-	SC_RS05395	SCO0695	tgmB	736520	737506	+	ATP-grasp ribosomal peptide maturase	531	upstream	False	True	T1	arm
+735989	-	SC_RS05400			737522	737737	-	hypothetical protein	1533	downstream_far	False	True	T1	arm
+735989	-	SC_RS05405	SCO0696		737846	738340	-	membrane protein	1857	downstream_far	False	True	T1	arm
+735990	-	SC_RS05375	SCO0691		732005	734134	+	xanthine dehydrogenase family protein molybdopterin-binding subunit	1856	downstream_far	False	True	T1	arm
+735990	-	SC_RS05380	SCO0692		734210	735667	-	hypothetical protein	323	promoter	True	True	T1	arm
+735990	-	SC_RS05385	SCO0693		735872	736192	+	DUF1232 domain-containing protein	0	gene_body	True	True	T1	arm
+735990	-	SC_RS05390	SCO0694	tgmA	736312	736503	+	putative ATP-grasp-modified RiPP	322	promoter	True	True	T1	arm
+735990	-	SC_RS05395	SCO0695	tgmB	736520	737506	+	ATP-grasp ribosomal peptide maturase	530	upstream	False	True	T1	arm
+735990	-	SC_RS05400			737522	737737	-	hypothetical protein	1532	downstream_far	False	True	T1	arm
+735990	-	SC_RS05405	SCO0696		737846	738340	-	membrane protein	1856	downstream_far	False	True	T1	arm
+767709	-	SC_RS05530	SCO0721		764216	766594	-	glycoside hydrolase family 65 protein	1115	upstream	False	True	T1	arm
+767709	-	SC_RS05535	SCO0722		766591	767331	-	beta-phosphoglucomutase family hydrolase	378	promoter	True	True	T1	arm
+767709	-	SC_RS05540	SCO0723		767385	768074	+	nucleoside/nucleotide kinase family protein	0	gene_body	True	True	T1	arm
+767709	-	SC_RS05545			768099	768272	-	hypothetical protein	390	downstream	True	True	T1	arm
+767709	-	SC_RS05550	SCO0724		768450	769367	+	MurR/RpiR family transcriptional regulator	741	upstream	False	True	T1	arm
+767709	-	SC_RS05555	SCO0725		769682	770065	+	hypothetical protein	1973	upstream	False	True	T1	arm
+942123	-	SC_RS06410	SCO0894		939627	941063	+	FAD-dependent oxidoreductase	1060	downstream_far	False	True	T1	arm
+942123	-	SC_RS06415	SCO0895		941071	942090	-	sigma-70 family RNA polymerase sigma factor	33	promoter	True	True	T1	arm
+942123	-	SC_RS06420			942116	942370	-	DUF6343 family protein	0	gene_body	True	True	T1	arm
+942123	-	SC_RS06425	SCO0896		942453	942878	-	CBS domain-containing protein	330	downstream	True	True	T1	arm
+942123	-	SC_RS06430	SCO0897		942974	943408	-	PPC domain-containing DNA-binding protein	851	downstream_far	False	True	T1	arm
+942123	-	SC_RS06435	SCO0898		943851	945833	-	AfsR/SARP family transcriptional regulator	1728	downstream_far	False	True	T1	arm
+942124	-	SC_RS06410	SCO0894		939627	941063	+	FAD-dependent oxidoreductase	1061	downstream_far	False	True	T1	arm
+942124	-	SC_RS06415	SCO0895		941071	942090	-	sigma-70 family RNA polymerase sigma factor	34	promoter	True	True	T1	arm
+942124	-	SC_RS06420			942116	942370	-	DUF6343 family protein	0	gene_body	True	True	T1	arm
+942124	-	SC_RS06425	SCO0896		942453	942878	-	CBS domain-containing protein	329	downstream	True	True	T1	arm
+942124	-	SC_RS06430	SCO0897		942974	943408	-	PPC domain-containing DNA-binding protein	850	downstream_far	False	True	T1	arm
+942124	-	SC_RS06435	SCO0898		943851	945833	-	AfsR/SARP family transcriptional regulator	1727	downstream_far	False	True	T1	arm
+946273	+	SC_RS06435	SCO0898		943851	945833	-	AfsR/SARP family transcriptional regulator	440	promoter	True	True	T1	arm
+946273	+	SC_RS06440	SCO0899		946063	946941	+	alpha/beta fold hydrolase	0	gene_body	True	True	T1	arm
+946273	+	SC_RS06445	SCO0900		947027	948310	+	MFS transporter	754	upstream	False	True	T1	arm
+959397	-	SC_RS06510	SCO0912	egtC	957204	958019	+	ergothioneine biosynthesis protein EgtC	1378	downstream_far	False	True	T1	arm
+959397	-	SC_RS06515	SCO0913	egtD	958016	958987	+	L-histidine N(alpha)-methyltransferase	410	downstream	True	True	T1	arm
+959397	-	SC_RS06520	SCO0914		959024	960292	-	extracellular solute-binding protein	0	gene_body	True	True	T1	arm
+959397	-	SC_RS06525	SCO0915		960543	960758	+	dodecin	1146	upstream	False	True	T1	arm
+959397	-	SC_RS06530	SCO0916		960792	961283	-	phosphatase domain-containing protein	1395	downstream_far	False	True	T1	arm
+977528	-	SC_RS06590	SCO0928	rmdA	974312	976456	-	cyclic Di-GMP phosphodiesterase RmdA	1072	upstream	False	True	T1	arm
+977528	-	SC_RS06595	SCO0929		976453	977265	-	SAM-dependent methyltransferase	263	promoter	True	True	T1	arm
+977528	-	SC_RS06600	SCO0930		977491	978444	-	SCO0930 family lipoprotein	0	gene_body	True	True	T1	arm
+977528	-	SC_RS06605	SCO0931		978767	979324	+	hypothetical protein	1239	upstream	False	True	T1	arm
+977528	-	SC_RS06610	SCO0932		979340	980104	+	bestrophin-like domain	1812	upstream	False	True	T1	arm
+1001429	-	SC_RS06700	SCO0950		999242	1000162	-	carbohydrate ABC transporter permease	1267	upstream	False	True	T1	arm
+1001429	-	SC_RS06705	SCO0951		1000159	1001091	-	carbohydrate ABC transporter permease	338	promoter	True	True	T1	arm
+1001429	-	SC_RS06710	SCO0952		1001098	1002390	-	ABC transporter substrate-binding protein	0	gene_body	True	True	T1	arm
+1001429	-	SC_RS06715	SCO0953		1002624	1003673	+	LacI family DNA-binding transcriptional regulator	1195	upstream	False	True	T1	arm
+1014706	-	SC_RS06755	SCO0960		1011212	1013830	-	glycoside hydrolase family 2	876	upstream	False	True	T1	arm
+1014706	-	SC_RS06760	SCO0961	glgC	1014030	1015250	-	glucose-1-phosphate adenylyltransferase	0	gene_body	True	True	T1	arm
+1014706	-	SC_RS06765	SCO0962	glgA	1015300	1016463	-	glycogen synthase	594	downstream_far	False	True	T1	arm
+1014706	-	SC_RS06770	SCO0963		1016501	1017394	-	(2Fe-2S)-binding protein	1795	downstream_far	False	True	T1	arm
+1025655	+	SC_RS06810	SCO0971		1023053	1023964	+	LysR family transcriptional regulator	1691	downstream_far	False	True	T1	arm
+1025655	+	SC_RS06815	SCO0972		1024039	1024383	+	transposase	1272	downstream_far	False	True	T1	arm
+1025655	+	SC_RS06820	SCO0973		1024508	1025767	+	DMT family transporter	0	gene_body	True	True	T1	arm
+1025655	+	SC_RS06825	SCO0974	rpfD	1025757	1027076	-	resuscitation-promoting factor protein RpfD	102	downstream	True	True	T1	arm
+1025655	+	SC_RS06830	SCO0975	gndA	1027393	1028832	+	NADP-dependent phosphogluconate dehydrogenase	1738	upstream	False	True	T1	arm
+1028664	-	SC_RS06825	SCO0974	rpfD	1025757	1027076	-	resuscitation-promoting factor protein RpfD	1588	upstream	False	True	T1	arm
+1028664	-	SC_RS06830	SCO0975	gndA	1027393	1028832	+	NADP-dependent phosphogluconate dehydrogenase	0	gene_body	True	True	T1	arm
+1028664	-	SC_RS06840	SCO0977		1029991	1030335	-	GNAT family N-acetyltransferase	1327	downstream_far	False	True	T1	arm
+1028664	-	SC_RS06845	SCO0978	panD	1030387	1030806	-	aspartate 1-decarboxylase	1723	downstream_far	False	True	T1	arm
+1043761	-	SC_RS06895	SCO0987		1041692	1043245	+	PepSY-associated TM helix domain-containing protein	516	downstream_far	False	True	T1	arm
+1043761	-	SC_RS06900	SCO0988		1043385	1043969	+	GNAT family N-acetyltransferase	0	gene_body	True	True	T1	arm
+1043761	-	SC_RS06905	SCO0989		1043990	1044382	-	(2Fe-2S) ferredoxin domain-containing protein	229	downstream	True	True	T1	arm
+1043761	-	SC_RS06910	SCO0990		1044679	1045668	-	ferric reductase-like transmembrane domain-containing protein	918	downstream_far	False	True	T1	arm
+1045181	+	SC_RS06895	SCO0987		1041692	1043245	+	PepSY-associated TM helix domain-containing protein	1936	downstream_far	False	True	T1	arm
+1045181	+	SC_RS06900	SCO0988		1043385	1043969	+	GNAT family N-acetyltransferase	1212	downstream_far	False	True	T1	arm
+1045181	+	SC_RS06905	SCO0989		1043990	1044382	-	(2Fe-2S) ferredoxin domain-containing protein	799	upstream	False	True	T1	arm
+1045181	+	SC_RS06910	SCO0990		1044679	1045668	-	ferric reductase-like transmembrane domain-containing protein	0	gene_body	True	True	T1	arm
+1045181	+	SC_RS06915	SCO0991		1046251	1047114	+	GHMP family kinase ATP-binding protein	1070	upstream	False	True	T1	arm
+1045181	+	SC_RS06920	SCO0992		1047111	1048133	+	cysteine synthase family protein	1930	upstream	False	True	T1	arm
+1073789	-	SC_RS07035			1071616	1072620	+	O-antigen ligase family protein	1169	downstream_far	False	True	T1	arm
+1073789	-	SC_RS07040	SCO1017		1072677	1073219	-	lipoprotein	570	upstream	False	True	T1	arm
+1073789	-	SC_RS07045	SCO1018		1073299	1074084	-	glutamate racemase	0	gene_body	True	True	T1	arm
+1073789	-	SC_RS07050	SCO1019		1074124	1075377	+	glycosyltransferase	335	promoter	True	True	T1	arm
+1073789	-	SC_RS07055	SCO1020		1075397	1076719	-	TerD family protein	1608	downstream_far	False	True	T1	arm
+1107141	-	SC_RS07200	SCO1049		1105031	1106194	-	Gfo/Idh/MocA family protein	947	upstream	False	True	T1	arm
+1107141	-	SC_RS07205	SCO1050		1106404	1107006	+	Dps family protein	135	downstream	True	True	T1	arm
+1107141	-	SC_RS07210	SCO1051		1107018	1108091	+	ABC-2 transporter permease	0	gene_body	True	True	T1	arm
+1107141	-	SC_RS07215	SCO1052		1108110	1108778	-	helix-turn-helix domain-containing protein	969	downstream_far	False	True	T1	arm
+1147604	-	SC_RS07380	SCO1085		1145088	1145816	+	lysophospholipid acyltransferase family protein	1788	downstream_far	False	True	T1	arm
+1147604	-	SC_RS07385	SCO1086		1145827	1146399	-	transglutaminase domain-containing protein	1205	upstream	False	True	T1	arm
+1147604	-	SC_RS07390	SCO1087		1146486	1147556	-	threonine aldolase family protein	48	promoter	True	True	T1	arm
+1147604	-	SC_RS07395	SCO1088		1147553	1148299	-	SDR family oxidoreductase	0	gene_body	True	True	T1	arm
+1147604	-	SC_RS07400	SCO1089		1148368	1149771	-	DUF6421 family protein	764	downstream_far	False	True	T1	arm
+1147605	-	SC_RS07380	SCO1085		1145088	1145816	+	lysophospholipid acyltransferase family protein	1789	downstream_far	False	True	T1	arm
+1147605	-	SC_RS07385	SCO1086		1145827	1146399	-	transglutaminase domain-containing protein	1206	upstream	False	True	T1	arm
+1147605	-	SC_RS07390	SCO1087		1146486	1147556	-	threonine aldolase family protein	49	promoter	True	True	T1	arm
+1147605	-	SC_RS07395	SCO1088		1147553	1148299	-	SDR family oxidoreductase	0	gene_body	True	True	T1	arm
+1147605	-	SC_RS07400	SCO1089		1148368	1149771	-	DUF6421 family protein	763	downstream_far	False	True	T1	arm
+1157919	-	SC_RS07440	SCO1098		1155717	1156292	-	MarR family winged helix-turn-helix transcriptional regulator	1627	upstream	False	True	T1	arm
+1157919	-	SC_RS07445	SCO1099		1156289	1158016	-	FUSC family protein	0	gene_body	True	True	T1	arm
+1157919	-	SC_RS07450	SCO1100		1158218	1158796	+	DUF5134 domain-containing protein	299	promoter	True	True	T1	arm
+1157919	-	SC_RS07455	SCO1101		1158944	1159879	+	M56 family metallopeptidase	1025	upstream	False	True	T1	arm
+1210904	-	SC_RS07690	SCO1148		1207772	1209553	+	ABC transporter ATP-binding protein	1351	downstream_far	False	True	T1	arm
+1210904	-	SC_RS07695	SCO1149		1209788	1210258	+	DUF5709 domain-containing protein	646	downstream_far	False	True	T1	arm
+1210904	-	SC_RS07700	SCO1150		1210322	1210594	+	type B 50S ribosomal protein L31	310	downstream	True	True	T1	arm
+1210904	-	SC_RS07705	SCO1151		1210615	1211409	-	metal-dependent hydrolase	0	gene_body	True	True	T1	arm
+1210904	-	SC_RS07710	SCO1152		1211555	1214068	+	DEAD/DEAH box helicase	651	upstream	False	True	T1	arm
+1282748	+	SC_RS08000	SCO1209		1280487	1281713	-	acyl-CoA dehydrogenase family protein	1035	upstream	False	True	T1	arm
+1282748	+	SC_RS08005	SCO1210		1281884	1282540	+	TetR family transcriptional regulator	208	downstream	True	True	T1	arm
+1282748	+	SC_RS08010	SCO1211	def	1282582	1283121	-	peptide deformylase	0	gene_body	True	True	T1	arm
+1282748	+	SC_RS08015	SCO1212		1283300	1284538	+	Mur ligase family protein	552	upstream	False	True	T1	arm
+1282748	+	SC_RS08020	SCO1213		1284562	1285290	+	type 1 glutamine amidotransferase	1814	upstream	False	True	T1	arm
+1432374	-	SC_RS08725	SCO1352		1429057	1430469	-	aminopeptidase P family protein	1905	upstream	False	True	T1	arm
+1432374	-	SC_RS08730	SCO1353		1430593	1431576	+	helix-turn-helix domain-containing protein	798	downstream_far	False	True	T1	arm
+1432374	-	SC_RS08735	SCO1354		1431662	1432225	-	hypothetical protein	149	promoter	True	True	T1	arm
+1432374	-	SC_RS08740	SCO1355		1432286	1433899	-	serine protease	0	gene_body	True	True	T1	arm
+1432374	-	SC_RS08745	SCO1356		1434218	1434715	+	Rieske (2Fe-2S) protein	1844	upstream	False	True	T1	arm
+1455585	-	SC_RS08845	SCO1376		1453090	1454160	+	LacI family DNA-binding transcriptional regulator	1425	downstream_far	False	True	T1	arm
+1455585	-	SC_RS08850	SCO1377		1454293	1454712	+	TOBE domain-containing protein	873	downstream_far	False	True	T1	arm
+1455585	-	SC_RS08855	SCO1378	gcvP	1454780	1457665	-	aminomethyl-transferring glycine dehydrogenase	0	gene_body	True	True	T1	arm
+1459341	-	SC_RS08855	SCO1378	gcvP	1454780	1457665	-	aminomethyl-transferring glycine dehydrogenase	1676	upstream	False	True	T1	arm
+1459341	-	SC_RS08860	SCO1379		1458090	1458473	+	PRC-barrel domain-containing protein	868	downstream_far	False	True	T1	arm
+1459341	-	SC_RS08865	SCO1380		1458383	1459822	-	DNA polymerase IV	0	gene_body	True	True	T1	arm
+1459341	-	SC_RS08870	SCO1381		1459887	1460573	-	MerR family transcriptional regulator	546	downstream_far	False	True	T1	arm
+1459341	-	SC_RS08875	SCO1382		1460736	1461209	-	bifunctional nuclease family protein	1395	downstream_far	False	True	T1	arm
+1459341	-	SC_RS08880	SCO1383	ftsR	1461293	1462033	-	transcriptional regulator FtsR	1952	downstream_far	False	True	T1	arm
+1488563	-	SC_RS08975	SCO1400		1486339	1486734	-	DUF742 domain-containing protein	1829	upstream	False	True	T1	arm
+1488563	-	SC_RS08980	SCO1401		1486745	1487179	-	roadblock/LC7 domain-containing protein	1384	upstream	False	True	T1	arm
+1488563	-	SC_RS08985	SCO1402		1487176	1490007	-	nitrate- and nitrite sensing domain-containing protein	0	gene_body	True	True	T1	arm
+1488563	-	SC_RS08990	SCO1403		1490427	1490969	+	hypothetical protein	1864	upstream	False	True	T1	arm
+1497537	-	SC_RS09000	SCO1405		1494024	1495871	-	HSP90 family protein	1666	upstream	False	True	T1	arm
+1497537	-	SC_RS09005	SCO1406		1495964	1496950	-	hypothetical protein	587	upstream	False	True	T1	arm
+1497537	-	SC_RS09010	SCO1407		1497056	1501717	-	coiled-coil domain-containing protein	0	gene_body	True	True	T1	arm
+1535444	-	SC_RS09155	SCO1436		1532832	1534163	-	hemolysin family protein	1281	upstream	False	True	T1	core
+1535444	-	SC_RS09160	SCO1437		1534368	1534838	-	PH domain-containing protein	606	upstream	False	True	T1	core
+1535444	-	SC_RS09165	SCO1438	hisG	1534876	1535733	-	ATP phosphoribosyltransferase	0	gene_body	True	True	T1	core
+1535444	-	SC_RS09170	SCO1439		1535782	1536054	-	phosphoribosyl-ATP diphosphatase	338	downstream	True	True	T1	core
+1535444	-	SC_RS09175	SCO1440	ribH	1536089	1536574	-	6%2C7-dimethyl-8-ribityllumazine synthase	645	downstream_far	False	True	T1	core
+1535444	-	SC_RS09180	SCO1441		1536596	1537885	-	bifunctional 3%2C4-dihydroxy-2-butanone-4-phosphate synthase/GTP cyclohydrolase II	1152	downstream_far	False	True	T1	core
+1543315	-	SC_RS09195	SCO1444		1539609	1541984	+	chitinase C-terminal domain-containing protein	1331	downstream_far	False	True	T1	core
+1543315	-	SC_RS09200	SCO1445		1542226	1542993	+	SDR family oxidoreductase	322	downstream	True	True	T1	core
+1543315	-	SC_RS09205	SCO1446		1543064	1543432	+	hypothetical protein	0	gene_body	True	True	T1	core
+1543315	-	SC_RS09210	SCO1447		1543454	1544653	-	ROK family transcriptional regulator	139	downstream	True	True	T1	core
+1543315	-	SC_RS09215	SCO1448		1544766	1545977	+	MFS transporter	1451	upstream	False	True	T1	core
+1550490	-	SC_RS09230	SCO1451		1547982	1549133	-	glycoside hydrolase family 6 protein	1357	upstream	False	True	T1	core
+1550490	-	SC_RS09235	SCO1452		1549307	1550002	+	DUF5995 family protein	488	downstream	True	True	T1	core
+1550490	-	SC_RS09240	SCO1453		1550134	1551066	+	LLM class F420-dependent oxidoreductase	0	gene_body	True	True	T1	core
+1550490	-	SC_RS09245	SCO1454		1551086	1552783	-	flavin monoamine oxidase family protein	596	downstream_far	False	True	T1	core
+1561817	-	SC_RS09280	SCO1461		1558380	1559822	-	GuaB1 family IMP dehydrogenase-related protein	1995	upstream	False	True	T1	core
+1561817	-	SC_RS09285	SCO1462		1559931	1560284	-	barstar family protein	1533	upstream	False	True	T1	core
+1561817	-	SC_RS09290	SCO1463		1560350	1561393	-	sugar-binding transcriptional regulator	424	promoter	True	True	T1	core
+1561817	-	SC_RS09295	SCO1464	rpe	1561471	1562157	-	ribulose-phosphate 3-epimerase	0	gene_body	True	True	T1	core
+1561817	-	SC_RS09300	SCO1465		1562315	1563520	-	ABC transporter substrate-binding protein	498	downstream	True	True	T1	core
+1561817	-	SC_RS09305	SCO1466		1563517	1564455	-	hypothetical protein	1700	downstream_far	False	True	T1	core
+1589339	-	SC_RS09390	SCO1483	carB	1584104	1587412	-	carbamoyl-phosphate synthase large subunit	1927	upstream	False	True	T1	core
+1589339	-	SC_RS09395	SCO1484	carA	1587405	1588547	-	glutamine-hydrolyzing carbamoyl-phosphate synthase small subunit	792	upstream	False	True	T1	core
+1589339	-	SC_RS09400	SCO1485		1588544	1589119	-	PH-like domain-containing protein	220	promoter	True	True	T1	core
+1589339	-	SC_RS09405	SCO1486		1589116	1590402	-	dihydroorotase	0	gene_body	True	True	T1	core
+1589339	-	SC_RS09410	SCO1487		1590407	1591387	-	aspartate carbamoyltransferase catalytic subunit	1068	downstream_far	False	True	T1	core
+1619085	-	SC_RS09535	SCO1513	relA	1616607	1619150	-	GTP pyrophosphokinase	0	gene_body	True	True	T1	core
+1619085	-	SC_RS09540	SCO1514		1619334	1619882	-	adenine phosphoribosyltransferase	249	downstream	True	True	T1	core
+1619085	-	SC_RS09545	SCO1515	secF	1619879	1621000	-	protein translocase subunit SecF	794	downstream_far	False	True	T1	core
+1619085	-	SC_RS09550	SCO1516	secD	1621004	1622815	-	protein translocase subunit SecD	1919	downstream_far	False	True	T1	core
+1619086	-	SC_RS09535	SCO1513	relA	1616607	1619150	-	GTP pyrophosphokinase	0	gene_body	True	True	T1	core
+1619086	-	SC_RS09540	SCO1514		1619334	1619882	-	adenine phosphoribosyltransferase	248	downstream	True	True	T1	core
+1619086	-	SC_RS09545	SCO1515	secF	1619879	1621000	-	protein translocase subunit SecF	793	downstream_far	False	True	T1	core
+1619086	-	SC_RS09550	SCO1516	secD	1621004	1622815	-	protein translocase subunit SecD	1918	downstream_far	False	True	T1	core
+1619116	-	SC_RS09535	SCO1513	relA	1616607	1619150	-	GTP pyrophosphokinase	0	gene_body	True	True	T1	core
+1619116	-	SC_RS09540	SCO1514		1619334	1619882	-	adenine phosphoribosyltransferase	218	downstream	True	True	T1	core
+1619116	-	SC_RS09545	SCO1515	secF	1619879	1621000	-	protein translocase subunit SecF	763	downstream_far	False	True	T1	core
+1619116	-	SC_RS09550	SCO1516	secD	1621004	1622815	-	protein translocase subunit SecD	1888	downstream_far	False	True	T1	core
+1622772	-	SC_RS09545	SCO1515	secF	1619879	1621000	-	protein translocase subunit SecF	1772	upstream	False	True	T1	core
+1622772	-	SC_RS09550	SCO1516	secD	1621004	1622815	-	protein translocase subunit SecD	0	gene_body	True	True	T1	core
+1622772	-	SC_RS09555	SCO1517	yajC	1622951	1623460	-	preprotein translocase subunit YajC	179	downstream	True	True	T1	core
+1622772	-	SC_RS09560	SCO1518	ruvB	1623636	1624709	-	Holliday junction branch migration DNA helicase RuvB	864	downstream_far	False	True	T1	core
+1622772	-	SC_RS09565	SCO1519	ruvA	1624756	1625361	-	Holliday junction branch migration protein RuvA	1984	downstream_far	False	True	T1	core
+1625512	-	SC_RS09560	SCO1518	ruvB	1623636	1624709	-	Holliday junction branch migration DNA helicase RuvB	803	upstream	False	True	T1	core
+1625512	-	SC_RS09565	SCO1519	ruvA	1624756	1625361	-	Holliday junction branch migration protein RuvA	151	promoter	True	True	T1	core
+1625512	-	SC_RS09570	SCO1520	ruvC	1625358	1625924	-	crossover junction endodeoxyribonuclease RuvC	0	gene_body	True	True	T1	core
+1625512	-	SC_RS09575	SCO1521		1626033	1626785	-	YebC/PmpR family DNA-binding transcriptional regulator	521	downstream_far	False	True	T1	core
+1625512	-	SC_RS09580	SCO1522	pdxT	1626835	1627443	-	pyridoxal 5'-phosphate synthase glutaminase subunit PdxT	1323	downstream_far	False	True	T1	core
+1625512	-	SC_RS09585	SCO1523	pdxS	1627456	1628367	-	pyridoxal 5'-phosphate synthase lyase subunit PdxS	1944	downstream_far	False	True	T1	core
+1660894	+	SC_RS09770	SCO1551		1659174	1660625	+	serine/threonine-protein kinase	269	downstream	True	True	T1	core
+1660894	+	SC_RS09775	SCO1552		1660653	1661471	-	TrmH family RNA methyltransferase	0	gene_body	True	True	T1	core
+1660894	+	SC_RS09780	SCO1553	cobA	1661473	1662705	-	uroporphyrinogen-III C-methyltransferase	579	downstream_far	False	True	T1	core
+1660894	+	SC_RS09785	SCO1554	cobT	1662892	1666530	-	nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase	1998	downstream_far	False	True	T1	core
+1672407	-	SC_RS09805	SCO1558		1669950	1670687	-	methionine ABC transporter permease	1720	upstream	False	True	T1	core
+1672407	-	SC_RS09810	SCO1559		1670684	1671739	-	methionine ABC transporter ATP-binding protein	668	upstream	False	True	T1	core
+1672407	-	SC_RS09815	SCO1560		1672166	1672816	-	HAD family hydrolase	0	gene_body	True	True	T1	core
+1672407	-	SC_RS09820	SCO1561		1672877	1673236	+	hypothetical protein	470	promoter	True	True	T1	core
+1672407	-	SC_RS09825	SCO1562		1673238	1673654	+	hypothetical protein	831	upstream	False	True	T1	core
+1672407	-	SC_RS09830	SCO1563		1673718	1674215	-	GNAT family N-acetyltransferase	1311	downstream_far	False	True	T1	core
+1672407	-	SC_RS09835	SCO1564		1674273	1674773	-	sigma-70 family RNA polymerase sigma factor	1866	downstream_far	False	True	T1	core
+1689086	-	SC_RS09895	SCO1576		1686616	1687155	-	arginine repressor	1931	upstream	False	True	T1	core
+1689086	-	SC_RS09900	SCO1577		1687163	1688371	-	acetylornithine transaminase	715	upstream	False	True	T1	core
+1689086	-	SC_RS09905	SCO1578	argB	1688368	1689288	-	acetylglutamate kinase	0	gene_body	True	True	T1	core
+1689086	-	SC_RS09910	SCO1579	argJ	1689285	1690436	-	bifunctional glutamate N-acetyltransferase/amino-acid acetyltransferase ArgJ	199	downstream	True	True	T1	core
+1689086	-	SC_RS09915	SCO1580	argC	1690433	1691461	-	N-acetyl-gamma-glutamyl-phosphate reductase	1347	downstream_far	False	True	T1	core
+1724206	-	SC_RS10060	SCO1610		1721502	1722461	-	DUF2510 domain-containing protein	1745	upstream	False	True	T1	core
+1724206	-	SC_RS10065	SCO1611		1722499	1723281	-	3-oxoacyl-ACP reductase	925	upstream	False	True	T1	core
+1724206	-	SC_RS10070	SCO1612		1723278	1724717	-	aldehyde dehydrogenase family protein	0	gene_body	True	True	T1	core
+1724206	-	SC_RS10075	SCO1613	glnA4	1724726	1726084	-	gamma-glutamylethanolamide synthetase GlnA4	520	downstream_far	False	True	T1	core
+1724206	-	SC_RS10080	SCO1614		1726192	1726902	+	FadR/GntR family transcriptional regulator	1986	upstream	False	True	T1	core
+1730347	-	SC_RS10090	SCO1616		1728427	1729404	-	LysR family transcriptional regulator	943	upstream	False	True	T1	core
+1730347	-	SC_RS10095	SCO1617		1729475	1730659	+	TDT family transporter	0	gene_body	True	True	T1	core
+1730347	-	SC_RS10100	SCO1618		1730586	1731305	-	helical backbone metal receptor	239	downstream	True	True	T1	core
+1730347	-	SC_RS10105	SCO1619		1731316	1731885	-	helix-turn-helix domain-containing protein	969	downstream_far	False	True	T1	core
+1730347	-	SC_RS10110	SCO1620		1732259	1734874	-	ABC transporter permease/substrate binding protein	1912	downstream_far	False	True	T1	core
+1741259	-	SC_RS10135	SCO1625		1739097	1740071	+	RluA family pseudouridine synthase	1188	downstream_far	False	True	T1	core
+1741259	-	SC_RS10140	SCO1626		1740065	1741561	-	cytochrome P450	0	gene_body	True	True	T1	core
+1741259	-	SC_RS10145	SCO1627		1741637	1742257	-	GTP-binding protein	378	downstream	True	True	T1	core
+1741259	-	SC_RS10150	SCO1628		1742238	1742654	-	DUF742 domain-containing protein	979	downstream_far	False	True	T1	core
+1741259	-	SC_RS10155	SCO1629		1742651	1743028	-	roadblock/LC7 domain-containing protein	1392	downstream_far	False	True	T1	core
+1741259	-	SC_RS10160	SCO1630		1743055	1744680	-	sensor histidine kinase	1796	downstream_far	False	True	T1	core
+1741260	-	SC_RS10135	SCO1625		1739097	1740071	+	RluA family pseudouridine synthase	1189	downstream_far	False	True	T1	core
+1741260	-	SC_RS10140	SCO1626		1740065	1741561	-	cytochrome P450	0	gene_body	True	True	T1	core
+1741260	-	SC_RS10145	SCO1627		1741637	1742257	-	GTP-binding protein	377	downstream	True	True	T1	core
+1741260	-	SC_RS10150	SCO1628		1742238	1742654	-	DUF742 domain-containing protein	978	downstream_far	False	True	T1	core
+1741260	-	SC_RS10155	SCO1629		1742651	1743028	-	roadblock/LC7 domain-containing protein	1391	downstream_far	False	True	T1	core
+1741260	-	SC_RS10160	SCO1630		1743055	1744680	-	sensor histidine kinase	1795	downstream_far	False	True	T1	core
+1806806	-	SC_RS10435	SCO1684		1804126	1805076	-	tetratricopeptide repeat protein	1730	upstream	False	True	T1	core
+1806806	-	SC_RS10440	SCO1685		1805384	1806277	+	DMT family transporter	529	downstream_far	False	True	T1	core
+1806806	-	SC_RS10445	SCO1686		1806309	1806842	+	NUDIX hydrolase	0	gene_body	True	True	T1	core
+1806806	-	SC_RS10450	SCO1687		1807505	1807897	+	YidH family protein	699	upstream	False	True	T1	core
+1806806	-	SC_RS10455	SCO1688		1807900	1808241	+	DUF202 domain-containing protein	1094	upstream	False	True	T1	core
+1806806	-	SC_RS10460	SCO1689		1808375	1809400	+	phosphotransferase family protein	1569	upstream	False	True	T1	core
+1826518	-	SC_RS10540	SCO1705		1824517	1825614	-	Zn-dependent alcohol dehydrogenase	904	upstream	False	True	T1	core
+1826518	-	SC_RS10545	SCO1706		1825638	1827026	-	aldehyde dehydrogenase family protein	0	gene_body	True	True	T1	core
+1826518	-	SC_RS10550	SCO1707		1827151	1828488	-	ABC transporter ATP-binding protein	633	downstream_far	False	True	T1	core
+1879814	-	SC_RS10790	SCO1756		1877577	1878374	+	hypothetical protein	1440	downstream_far	False	True	T1	core
+1879814	-	SC_RS10795	SCO1757		1878448	1878741	+	hypothetical protein	1073	downstream_far	False	True	T1	core
+1879814	-	SC_RS10800	SCO1758	der	1878820	1880298	-	ribosome biogenesis GTPase Der	0	gene_body	True	True	T1	core
+1879814	-	SC_RS10805	SCO1759		1880373	1881035	-	lysophospholipid acyltransferase family protein	559	downstream_far	False	True	T1	core
+1879814	-	SC_RS10810	SCO1760	cmk	1881032	1881727	-	(d)CMP kinase	1218	downstream_far	False	True	T1	core
+1881513	-	SC_RS10800	SCO1758	der	1878820	1880298	-	ribosome biogenesis GTPase Der	1215	upstream	False	True	T1	core
+1881513	-	SC_RS10805	SCO1759		1880373	1881035	-	lysophospholipid acyltransferase family protein	478	promoter	True	True	T1	core
+1881513	-	SC_RS10810	SCO1760	cmk	1881032	1881727	-	(d)CMP kinase	0	gene_body	True	True	T1	core
+1881513	-	SC_RS10815	SCO1761		1882015	1883100	-	prephenate dehydrogenase	502	downstream_far	False	True	T1	core
+1881513	-	SC_RS10820	SCO1762	aroH	1883097	1883459	-	chorismate mutase	1584	downstream_far	False	True	T1	core
+1981066	-	SC_RS11275	SCO1849	cobN	1978354	1982007	+	cobaltochelatase subunit CobN	0	gene_body	True	True	T1	core
+1981066	-	SC_RS11280	SCO1850		1982004	1984022	+	putative cobaltochelatase	938	upstream	False	True	T1	core
+1981132	-	SC_RS11275	SCO1849	cobN	1978354	1982007	+	cobaltochelatase subunit CobN	0	gene_body	True	True	T1	core
+1981132	-	SC_RS11280	SCO1850		1982004	1984022	+	putative cobaltochelatase	872	upstream	False	True	T1	core
+2005277	-	SC_RS11375	SCO1869		2003040	2003753	-	DsbA family oxidoreductase	1524	upstream	False	True	T1	core
+2005277	-	SC_RS11380	SCO1870		2003846	2004454	-	DUF1349 domain-containing protein	823	upstream	False	True	T1	core
+2005277	-	SC_RS11385	SCO1871		2004598	2006127	-	aldehyde dehydrogenase (NADP(+))	0	gene_body	True	True	T1	core
+2005277	-	SC_RS11390	SCO1872		2006250	2007023	+	IclR family transcriptional regulator	973	upstream	False	True	T1	core
+2005277	-	SC_RS11395	SCO1873		2007027	2007497	+	GNAT family N-acetyltransferase	1750	upstream	False	True	T1	core
+2054745	-	SC_RS11630	SCO1919		2052555	2052887	-	metal-sulfur cluster assembly factor	1858	upstream	False	True	T1	core
+2054745	-	SC_RS11635	SCO1920	sufU	2052884	2053354	-	Fe-S cluster assembly sulfur transfer protein SufU	1391	upstream	False	True	T1	core
+2054745	-	SC_RS11640	SCO1921		2053372	2054628	-	cysteine desulfurase	117	promoter	True	True	T1	core
+2054745	-	SC_RS11645	SCO1922	sufC	2054625	2055389	-	Fe-S cluster assembly ATPase SufC	0	gene_body	True	True	T1	core
+2054745	-	SC_RS11650	SCO1923		2055397	2055714	-	non-heme iron oxygenase ferredoxin subunit	652	downstream_far	False	True	T1	core
+2054745	-	SC_RS11655	SCO1924	sufD	2055711	2056895	-	Fe-S cluster assembly protein SufD	966	downstream_far	False	True	T1	core
+2054746	-	SC_RS11630	SCO1919		2052555	2052887	-	metal-sulfur cluster assembly factor	1859	upstream	False	True	T1	core
+2054746	-	SC_RS11635	SCO1920	sufU	2052884	2053354	-	Fe-S cluster assembly sulfur transfer protein SufU	1392	upstream	False	True	T1	core
+2054746	-	SC_RS11640	SCO1921		2053372	2054628	-	cysteine desulfurase	118	promoter	True	True	T1	core
+2054746	-	SC_RS11645	SCO1922	sufC	2054625	2055389	-	Fe-S cluster assembly ATPase SufC	0	gene_body	True	True	T1	core
+2054746	-	SC_RS11650	SCO1923		2055397	2055714	-	non-heme iron oxygenase ferredoxin subunit	651	downstream_far	False	True	T1	core
+2054746	-	SC_RS11655	SCO1924	sufD	2055711	2056895	-	Fe-S cluster assembly protein SufD	965	downstream_far	False	True	T1	core
+2070118	-	SC_RS11710	SCO1935	tkt	2066713	2068800	+	transketolase	1318	downstream_far	False	True	T1	core
+2070118	-	SC_RS11715	SCO1936	tal	2068835	2069953	+	transaldolase	165	downstream	True	True	T1	core
+2070118	-	SC_RS11720	SCO1937	zwf	2069957	2071480	+	glucose-6-phosphate dehydrogenase	0	gene_body	True	True	T1	core
+2070118	-	SC_RS11725	SCO1938	opcA	2071477	2072532	+	glucose-6-phosphate dehydrogenase assembly protein OpcA	1359	upstream	False	True	T1	core
+2070119	-	SC_RS11710	SCO1935	tkt	2066713	2068800	+	transketolase	1319	downstream_far	False	True	T1	core
+2070119	-	SC_RS11715	SCO1936	tal	2068835	2069953	+	transaldolase	166	downstream	True	True	T1	core
+2070119	-	SC_RS11720	SCO1937	zwf	2069957	2071480	+	glucose-6-phosphate dehydrogenase	0	gene_body	True	True	T1	core
+2070119	-	SC_RS11725	SCO1938	opcA	2071477	2072532	+	glucose-6-phosphate dehydrogenase assembly protein OpcA	1358	upstream	False	True	T1	core
+2094314	-	SC_RS11810	SCO1956		2091825	2092931	+	LacI family DNA-binding transcriptional regulator	1383	downstream_far	False	True	T1	core
+2094314	-	SC_RS11815	SCO1957		2092928	2093836	+	carbohydrate kinase family protein	478	downstream	True	True	T1	core
+2094314	-	SC_RS11820	SCO1958	uvrA	2094274	2097318	-	excinuclease ABC subunit UvrA	0	gene_body	True	True	T1	core
+2123463	-	SC_RS11950	SCO1984		2121378	2122775	-	amidohydrolase	688	upstream	False	True	T1	core
+2123463	-	SC_RS11955	SCO1985		2122775	2124631	-	FUSC family protein	0	gene_body	True	True	T1	core
+2123463	-	SC_RS11960	SCO1986		2124799	2125581	-	nucleotidyltransferase domain-containing protein	1336	downstream_far	False	True	T1	core
+2140386	-	SC_RS12030	SCO2000		2135883	2138879	+	ATP-dependent helicase C-terminal domain-containing protein	1507	downstream_far	False	True	T1	core
+2140386	-	SC_RS12035	SCO2001		2138930	2140723	-	lytic transglycosylase domain-containing protein	0	gene_body	True	True	T1	core
+2140386	-	SC_RS12040	SCO2002		2141042	2141410	-	hypothetical protein	656	downstream_far	False	True	T1	core
+2140386	-	SC_RS12045	SCO2003	polA	2141659	2144382	-	DNA polymerase I	1273	downstream_far	False	True	T1	core
+2173524	-	SC_RS12160	SCO2025		2170384	2171847	-	glutamate synthase subunit beta	1677	upstream	False	True	T1	core
+2173524	-	SC_RS12165	SCO2026	gltB	2171840	2176384	-	glutamate synthase large subunit	0	gene_body	True	True	T1	core
+2229757	-	SC_RS12420	SCO2076	ileS	2227237	2230380	+	isoleucine--tRNA ligase	0	gene_body	True	True	T1	core
+2229757	-	SC_RS12425	SCO2077	divIVA	2230582	2231778	-	apical growth/hyphal branching protein DivIVA	825	downstream_far	False	True	T1	core
+2240356	-	SC_RS12465	SCO2085	ftsW	2237830	2239200	-	putative lipid II flippase FtsW	1156	upstream	False	True	T1	core
+2240356	-	SC_RS12470	SCO2086	murD	2239278	2240693	-	UDP-N-acetylmuramoyl-L-alanine--D-glutamate ligase	0	gene_body	True	True	T1	core
+2240356	-	SC_RS12475	SCO2087	mraY	2240702	2241793	-	phospho-N-acetylmuramoyl-pentapeptide-transferase	346	downstream	True	True	T1	core
+2240356	-	SC_RS12480	SCO2088		2241793	2243208	-	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase	1437	downstream_far	False	True	T1	core
+2262284	-	SC_RS12550	SCO2102		2259944	2260936	-	SCO2102 family sporulation regulator	1348	upstream	False	True	T1	core
+2262284	-	SC_RS12555	SCO2103	metF	2260993	2261916	-	methylenetetrahydrofolate reductase [NAD(P)H]	368	promoter	True	True	T1	core
+2262284	-	SC_RS12560	SCO2104	thiE	2262055	2262726	-	thiamine phosphate synthase	0	gene_body	True	True	T1	core
+2262284	-	SC_RS12565	SCO2105		2262881	2263246	-	Rv2175c family DNA-binding protein	597	downstream_far	False	True	T1	core
+2262284	-	SC_RS12570	SCO2106		2263288	2264592	-	NAD(P)/FAD-dependent oxidoreductase	1004	downstream_far	False	True	T1	core
+2315383	-	SC_RS12795	SCO2150	qcrC	2312739	2313548	-	cytochrome bc1 complex diheme cytochrome c subunit	1835	upstream	False	True	T1	core
+2315383	-	SC_RS12800	SCO2151	ctaE	2313623	2314243	-	aa3-type cytochrome oxidase subunit III	1140	upstream	False	True	T1	core
+2315383	-	SC_RS12805	SCO2152		2314453	2314854	+	response regulator	529	downstream_far	False	True	T1	core
+2315383	-	SC_RS12810	SCO2153		2314942	2316216	-	L%2CD-transpeptidase	0	gene_body	True	True	T1	core
+2315383	-	SC_RS12815	SCO2154		2316363	2316761	-	cytochrome c oxidase subunit 4	980	downstream_far	False	True	T1	core
+2315383	-	SC_RS12820	SCO2155	ctaD	2316758	2318494	-	aa3-type cytochrome oxidase subunit I	1375	downstream_far	False	True	T1	core
+2315384	-	SC_RS12795	SCO2150	qcrC	2312739	2313548	-	cytochrome bc1 complex diheme cytochrome c subunit	1836	upstream	False	True	T1	core
+2315384	-	SC_RS12800	SCO2151	ctaE	2313623	2314243	-	aa3-type cytochrome oxidase subunit III	1141	upstream	False	True	T1	core
+2315384	-	SC_RS12805	SCO2152		2314453	2314854	+	response regulator	530	downstream_far	False	True	T1	core
+2315384	-	SC_RS12810	SCO2153		2314942	2316216	-	L%2CD-transpeptidase	0	gene_body	True	True	T1	core
+2315384	-	SC_RS12815	SCO2154		2316363	2316761	-	cytochrome c oxidase subunit 4	979	downstream_far	False	True	T1	core
+2315384	-	SC_RS12820	SCO2155	ctaD	2316758	2318494	-	aa3-type cytochrome oxidase subunit I	1374	downstream_far	False	True	T1	core
+2315801	-	SC_RS12800	SCO2151	ctaE	2313623	2314243	-	aa3-type cytochrome oxidase subunit III	1558	upstream	False	True	T1	core
+2315801	-	SC_RS12805	SCO2152		2314453	2314854	+	response regulator	947	downstream_far	False	True	T1	core
+2315801	-	SC_RS12810	SCO2153		2314942	2316216	-	L%2CD-transpeptidase	0	gene_body	True	True	T1	core
+2315801	-	SC_RS12815	SCO2154		2316363	2316761	-	cytochrome c oxidase subunit 4	562	downstream_far	False	True	T1	core
+2315801	-	SC_RS12820	SCO2155	ctaD	2316758	2318494	-	aa3-type cytochrome oxidase subunit I	957	downstream_far	False	True	T1	core
+2390763	-	SC_RS13155	SCO2225		2388485	2388844	-	5-carboxymethyl-2-hydroxymuconate Delta-isomerase	1919	upstream	False	True	T1	core
+2390763	-	SC_RS13160	SCO2226	pulA	2388900	2394314	-	pullulanase-type alpha-1%2C6-glucosidase	0	gene_body	True	True	T1	core
+2390764	-	SC_RS13155	SCO2225		2388485	2388844	-	5-carboxymethyl-2-hydroxymuconate Delta-isomerase	1920	upstream	False	True	T1	core
+2390764	-	SC_RS13160	SCO2226	pulA	2388900	2394314	-	pullulanase-type alpha-1%2C6-glucosidase	0	gene_body	True	True	T1	core
+2484553	+	SC_RS13585	SCO2311		2481918	2483546	+	IS200/IS605 family element transposase accessory protein TnpB	1007	downstream_far	False	True	T1	core
+2484553	+	SC_RS13590	SCO2312		2483598	2484278	+	class I SAM-dependent methyltransferase	275	downstream	True	True	T1	core
+2484553	+	SC_RS13595	SCO2313		2484289	2485299	+	N-acetylmuramoyl-L-alanine amidase	0	gene_body	True	True	T1	core
+2484553	+	SC_RS13600	SCO2314		2485458	2486327	+	DUF5336 domain-containing protein	905	upstream	False	True	T1	core
+2484553	+	SC_RS13605	SCO2315		2486429	2486722	+	hypothetical protein	1876	upstream	False	True	T1	core
+2488224	-	SC_RS13600	SCO2314		2485458	2486327	+	DUF5336 domain-containing protein	1897	downstream_far	False	True	T1	core
+2488224	-	SC_RS13605	SCO2315		2486429	2486722	+	hypothetical protein	1502	downstream_far	False	True	T1	core
+2488224	-	SC_RS13610	SCO2316		2486736	2487833	-	prenyltransferase/squalene oxidase repeat-containing protein	391	promoter	True	True	T1	core
+2488224	-	SC_RS13615	SCO2317		2487830	2488564	-	class I SAM-dependent methyltransferase	0	gene_body	True	True	T1	core
+2488224	-	SC_RS13620	SCO2318		2488558	2490054	-	glycosyltransferase family 4 protein	334	downstream	True	True	T1	core
+2496849	-	SC_RS13645	SCO2323		2493924	2495063	+	CbiQ family ECF transporter T component	1786	downstream_far	False	True	T1	core
+2496849	-	SC_RS13650	SCO2324		2495060	2496751	+	ABC transporter ATP-binding protein	98	downstream	True	True	T1	core
+2496849	-	SC_RS13655	SCO2325		2496748	2497599	+	ECF transporter S component	0	gene_body	True	True	T1	core
+2496849	-	SC_RS13660	SCO2326		2497855	2498268	+	aggregation-promoting factor C-terminal-like domain-containing protein	1006	upstream	False	True	T1	core
+2496849	-	SC_RS13665	SCO2327		2498289	2498675	-	PIN domain-containing protein	1440	downstream_far	False	True	T1	core
+2516233	-	SC_RS13750	SCO2344		2512483	2514552	-	MDR family MFS transporter	1681	upstream	False	True	T1	core
+2516233	-	SC_RS13755	SCO2345		2514718	2515959	+	peptidoglycan-binding domain-containing protein	274	downstream	True	True	T1	core
+2516233	-	SC_RS13760	SCO2346		2515998	2516663	-	HAD family hydrolase	0	gene_body	True	True	T1	core
+2516233	-	SC_RS13765	SCO2347		2516812	2517393	-	TMEM165/GDT1 family protein	579	downstream_far	False	True	T1	core
+2516233	-	SC_RS13770	SCO2348		2517893	2518537	+	HNH endonuclease family protein	1660	upstream	False	True	T1	core
+2529760	-	SC_RS13830	SCO2359		2526699	2527841	-	sensor histidine kinase	1919	upstream	False	True	T1	core
+2529760	-	SC_RS13835	SCO2360		2527974	2528804	+	DedA family protein	956	downstream_far	False	True	T1	core
+2529760	-	SC_RS13840	SCO2361		2528722	2529534	-	HAD family hydrolase	226	promoter	True	True	T1	core
+2529760	-	SC_RS13845	SCO2362		2529534	2532053	-	phosphoribosyltransferase	0	gene_body	True	True	T1	core
+2611800	-	SC_RS14190	SCO2431	arfA	2608364	2609869	-	arabinosylfuranosidase ArfA	1931	upstream	False	True	T1	core
+2611800	-	SC_RS14195	SCO2432		2609897	2610760	-	carbohydrate ABC transporter permease	1040	upstream	False	True	T1	core
+2611800	-	SC_RS14200	SCO2433		2610757	2611698	-	carbohydrate ABC transporter permease	102	promoter	True	True	T1	core
+2611800	-	SC_RS14205	SCO2434		2611695	2613053	-	extracellular solute-binding protein	0	gene_body	True	True	T1	core
+2611800	-	SC_RS14210	SCO2435		2613322	2613849	+	hypothetical protein	1522	upstream	False	True	T1	core
+2628132	-	SC_RS14265	SCO2446		2625671	2629333	-	S8 family serine peptidase	0	gene_body	True	True	T1	core
+2628132	-	SC_RS14270	SCO2447		2629560	2629973	+	CU044_2847 family protein	1428	upstream	False	True	T1	core
+2628132	-	SC_RS14275	SCO2448		2629970	2631634	+	VMAP-C domain-containing protein	1838	upstream	False	True	T1	core
+2712072	+	SC_RS14615	SCO2513		2709485	2710318	+	helix-turn-helix domain-containing protein	1754	downstream_far	False	True	T1	core
+2712072	+	SC_RS14620	SCO2514		2710300	2710590	+	DUF397 domain-containing protein	1482	downstream_far	False	True	T1	core
+2712072	+	SC_RS14625	SCO2515		2710619	2711158	+	lipoprotein	914	downstream_far	False	True	T1	core
+2712072	+	SC_RS14630	SCO2516		2711253	2712752	+	alpha/beta hydrolase	0	gene_body	True	True	T1	core
+2712072	+	SC_RS14635	SCO2517		2712740	2713435	-	response regulator	668	downstream_far	False	True	T1	core
+2712072	+	SC_RS14640	SCO2518		2713432	2714709	-	sensor histidine kinase	1360	downstream_far	False	True	T1	core
+2811132	-	SC_RS15025	SCO2594		2808791	2810599	-	stealth family protein	533	upstream	False	True	T1	core
+2811132	-	SC_RS15030	SCO2595	obgE	2810811	2812247	-	GTPase ObgE	0	gene_body	True	True	T1	core
+2811132	-	SC_RS15035	SCO2596	rpmA	2812358	2812612	-	50S ribosomal protein L27	1226	downstream_far	False	True	T1	core
+2811132	-	SC_RS15040	SCO2597	rplU	2812627	2812947	-	50S ribosomal protein L21	1495	downstream_far	False	True	T1	core
+2811133	-	SC_RS15025	SCO2594		2808791	2810599	-	stealth family protein	534	upstream	False	True	T1	core
+2811133	-	SC_RS15030	SCO2595	obgE	2810811	2812247	-	GTPase ObgE	0	gene_body	True	True	T1	core
+2811133	-	SC_RS15035	SCO2596	rpmA	2812358	2812612	-	50S ribosomal protein L27	1225	downstream_far	False	True	T1	core
+2811133	-	SC_RS15040	SCO2597	rplU	2812627	2812947	-	50S ribosomal protein L21	1494	downstream_far	False	True	T1	core
+2812033	-	SC_RS15025	SCO2594		2808791	2810599	-	stealth family protein	1434	upstream	False	True	T1	core
+2812033	-	SC_RS15030	SCO2595	obgE	2810811	2812247	-	GTPase ObgE	0	gene_body	True	True	T1	core
+2812033	-	SC_RS15035	SCO2596	rpmA	2812358	2812612	-	50S ribosomal protein L27	325	downstream	True	True	T1	core
+2812033	-	SC_RS15040	SCO2597	rplU	2812627	2812947	-	50S ribosomal protein L21	594	downstream_far	False	True	T1	core
+2812033	-	SC_RS15045	SCO2598		2813146	2814207	-	iron-containing alcohol dehydrogenase family protein	1113	downstream_far	False	True	T1	core
+2827808	-	SC_RS15085	SCO2604		2825348	2826283	-	hypothetical protein	1525	upstream	False	True	T1	core
+2827808	-	SC_RS15090	SCO2605		2826447	2827148	+	hypothetical protein	660	downstream_far	False	True	T1	core
+2827808	-	SC_RS15095			2827188	2827373	-	hypothetical protein	435	promoter	True	True	T1	core
+2827808	-	SC_RS15100	SCO2606		2827396	2829345	-	TIGR03960 family B12-binding radical SAM protein	0	gene_body	True	True	T1	core
+2827808	-	SC_RS15105	SCO2607	rodA	2829460	2830656	-	rod shape-determining protein RodA	1652	downstream_far	False	True	T1	core
+2893663	+	SC_RS15370	SCO2659		2890945	2891889	+	carbohydrate ABC transporter permease	1774	downstream_far	False	True	T1	core
+2893663	+	SC_RS15375	SCO2660		2891886	2892797	+	carbohydrate ABC transporter permease	866	downstream_far	False	True	T1	core
+2893663	+	SC_RS15380	SCO2661		2892805	2894070	+	6-phospho-beta-glucosidase	0	gene_body	True	True	T1	core
+2893663	+	SC_RS15385	SCO2662		2894061	2895032	+	N-acetylglucosamine kinase	398	promoter	True	True	T1	core
+2893663	+	SC_RS15390	SCO2663		2895187	2896551	+	hypothetical protein	1524	upstream	False	True	T1	core
+2957837	-	SC_RS15645	SCO2712		2955547	2956266	+	YveK family protein	1571	downstream_far	False	True	T1	core
+2957837	-	SC_RS15650	SCO2713		2956263	2957411	+	GNAT family N-acetyltransferase	426	downstream	True	True	T1	core
+2957837	-	SC_RS15655	SCO2714		2957449	2958636	-	glycoside hydrolase family 26 protein	0	gene_body	True	True	T1	core
+2957837	-	SC_RS15660	SCO2715		2958781	2960079	+	carboxylate--amine ligase	944	upstream	False	True	T1	core
+3032599	+	SC_RS15970	SCO2777		3029169	3031109	+	acetyl/propionyl/methylcrotonyl-CoA carboxylase subunit alpha	1490	downstream_far	False	True	T1	core
+3032599	+	SC_RS15975	SCO2778		3031106	3032059	+	hydroxymethylglutaryl-CoA lyase	540	downstream_far	False	True	T1	core
+3032599	+	SC_RS15980	SCO2779		3032065	3033225	+	acyl-CoA dehydrogenase family protein	0	gene_body	True	True	T1	core
+3032599	+	SC_RS15985	SCO2780	desE	3033355	3034404	+	siderophore-binding protein DesE	756	upstream	False	True	T1	core
+3032656	-	SC_RS15970	SCO2777		3029169	3031109	+	acetyl/propionyl/methylcrotonyl-CoA carboxylase subunit alpha	1547	downstream_far	False	True	T1	core
+3032656	-	SC_RS15975	SCO2778		3031106	3032059	+	hydroxymethylglutaryl-CoA lyase	597	downstream_far	False	True	T1	core
+3032656	-	SC_RS15980	SCO2779		3032065	3033225	+	acyl-CoA dehydrogenase family protein	0	gene_body	True	True	T1	core
+3032656	-	SC_RS15985	SCO2780	desE	3033355	3034404	+	siderophore-binding protein DesE	699	upstream	False	True	T1	core
+3032656	-	SC_RS15990	SCO2781		3034632	3035477	+	siderophore-interacting protein	1976	upstream	False	True	T1	core
+3038105	+	SC_RS15995	SCO2782	desA	3035641	3037083	+	lysine decarboxylase DesA	1022	downstream_far	False	True	T1	core
+3038105	+	SC_RS16000	SCO2783		3037067	3038347	+	lysine N(6)-hydroxylase/L-ornithine N(5)-oxygenase family protein	0	gene_body	True	True	T1	core
+3038105	+	SC_RS16005	SCO2784		3038344	3038898	+	GNAT family N-acetyltransferase	239	promoter	True	True	T1	core
+3038105	+	SC_RS16010	SCO2785	desD	3038895	3040682	+	desferrioxamine E synthetase DesD	790	upstream	False	True	T1	core
+3088823	-	SC_RS16225	SCO2826		3086668	3087165	+	hypothetical protein	1658	downstream_far	False	True	T1	core
+3088823	-	SC_RS16230	SCO2827		3087146	3087640	-	DUF3830 family protein	1183	upstream	False	True	T1	core
+3088823	-	SC_RS16235	SCO2828	ehuB	3087748	3088677	+	ectoine/hydroxyectoine ABC transporter substrate-binding protein EhuB	146	downstream	True	True	T1	core
+3088823	-	SC_RS16240	SCO2829	ehuC	3088674	3089375	+	ectoine/hydroxyectoine ABC transporter permease subunit EhuC	0	gene_body	True	True	T1	core
+3088823	-	SC_RS16245	SCO2830	ehuD	3089372	3090022	+	ectoine/hydroxyectoine ABC transporter permease subunit EhuD	549	upstream	False	True	T1	core
+3088823	-	SC_RS16250	SCO2831	ehuA	3090012	3090797	+	ectoine/hydroxyectoine ABC transporter ATP-binding protein EhuA	1189	upstream	False	True	T1	core
+3170105	-	SC_RS16685	SCO2917		3166796	3168142	+	nicotinate phosphoribosyltransferase	1963	downstream_far	False	True	T1	core
+3170105	-	SC_RS16690	SCO2918		3168248	3168835	+	nicotinamidase	1270	downstream_far	False	True	T1	core
+3170105	-	SC_RS16695	SCO2919		3168848	3169192	-	hypothetical protein	913	upstream	False	True	T1	core
+3170105	-	SC_RS16700	SCO2920		3169339	3171684	-	immune inhibitor A domain-containing protein	0	gene_body	True	True	T1	core
+3180920	-	SC_RS16735	SCO2927	hppD	3178620	3179765	-	4-hydroxyphenylpyruvate dioxygenase	1155	upstream	False	True	T1	core
+3180920	-	SC_RS16740	SCO2928		3179891	3180382	+	Lrp/AsnC family transcriptional regulator	538	downstream_far	False	True	T1	core
+3180920	-	SC_RS16745	SCO2929		3180504	3181553	-	RNA-guided endonuclease InsQ/TnpB family protein	0	gene_body	True	True	T1	core
+3180920	-	SC_RS16750	SCO2930		3181757	3182404	+	ABC transporter permease	837	upstream	False	True	T1	core
+3180920	-	SC_RS16755	SCO2931		3182412	3183686	+	betaine/proline/choline family ABC transporter ATP-binding protein	1492	upstream	False	True	T1	core
+3202935	-	SC_RS16825	SCO2944		3200405	3201250	-	carbohydrate ABC transporter permease	1685	upstream	False	True	T1	core
+3202935	-	SC_RS16830	SCO2945		3201247	3202197	-	carbohydrate ABC transporter permease	738	upstream	False	True	T1	core
+3202935	-	SC_RS16835	SCO2946		3202209	3203507	-	extracellular solute-binding protein	0	gene_body	True	True	T1	core
+3202935	-	SC_RS16840	SCO2947		3203751	3204035	-	DUF3039 domain-containing protein	816	downstream_far	False	True	T1	core
+3202935	-	SC_RS16845	SCO2948		3204066	3204638	-	YqgE/AlgH family protein	1131	downstream_far	False	True	T1	core
+3202935	-	SC_RS16850	SCO2949	murA	3204872	3206218	+	UDP-N-acetylglucosamine 1-carboxyvinyltransferase	1937	upstream	False	True	T1	core
+3221250	-	SC_RS16905	SCO2961		3218973	3220205	-	acyltransferase family protein	1045	upstream	False	True	T1	core
+3221250	-	SC_RS16910	SCO2962		3220316	3222520	-	polysaccharide deacetylase family protein	0	gene_body	True	True	T1	core
+3221250	-	SC_RS16915	SCO2963		3222520	3223782	-	hypothetical protein	1270	downstream_far	False	True	T1	core
+3303926	-	SC_RS17215	SCO3020		3302319	3303326	-	stage II sporulation protein M	600	upstream	False	True	T1	core
+3303926	-	SC_RS17220	SCO3021		3303453	3304409	+	RDD family protein	0	gene_body	True	True	T1	core
+3303926	-	SC_RS17225	SCO3022		3304430	3305044	-	hypothetical protein	504	downstream_far	False	True	T1	core
+3303926	-	SC_RS17230	SCO3023	ahcY	3305155	3306612	-	adenosylhomocysteinase	1229	downstream_far	False	True	T1	core
+3341982	-	SC_RS17355	SCO3048		3339882	3341165	-	LCP family protein	817	upstream	False	True	T1	core
+3341982	-	SC_RS17360	SCO3049		3341286	3341852	+	acyl-CoA thioesterase	130	downstream	True	True	T1	core
+3341982	-	SC_RS17365	SCO3050		3341888	3342928	-	vWA domain-containing protein	0	gene_body	True	True	T1	core
+3341982	-	SC_RS17370	SCO3051		3343070	3344227	-	acyl-CoA dehydrogenase	1088	downstream_far	False	True	T1	core
+3385360	-	SC_RS17575	SCO3090		3382330	3384861	+	ABC transporter permease	499	downstream	True	True	T1	core
+3385360	-	SC_RS17580	SCO3091		3384933	3386249	-	SAM-dependent methyltransferase	0	gene_body	True	True	T1	core
+3385360	-	SC_RS17585	SCO3092		3386513	3387937	-	NAD(P)/FAD-dependent oxidoreductase	1153	downstream_far	False	True	T1	core
+3392297	-	SC_RS17600	SCO3095	divIC	3389963	3390445	-	cell division protein DivIC	1852	upstream	False	True	T1	core
+3392297	-	SC_RS17605	SCO3096	eno	3390541	3391821	-	phosphopyruvate hydratase	476	promoter	True	True	T1	core
+3392297	-	SC_RS17610	SCO3097	rpfA	3392083	3392817	-	resuscitation-promoting factor protein RpfA	0	gene_body	True	True	T1	core
+3392297	-	SC_RS17615	SCO3098	rpfC	3393171	3394196	-	resuscitation-promoting factor protein RpfC	874	downstream_far	False	True	T1	core
+3446536	-	SC_RS17835	SCO3145		3443196	3445013	-	outer membrane protein assembly factor BamB family protein	1523	upstream	False	True	T1	core
+3446536	-	SC_RS17840	SCO3146		3445110	3446915	-	outer membrane protein assembly factor BamB family protein	0	gene_body	True	True	T1	core
+3446536	-	SC_RS17845	SCO3147		3447175	3448989	-	ABC-F family ATP-binding cassette domain-containing protein	639	downstream_far	False	True	T1	core
+3447415	-	SC_RS17840	SCO3146		3445110	3446915	-	outer membrane protein assembly factor BamB family protein	500	promoter	True	True	T1	core
+3447415	-	SC_RS17845	SCO3147		3447175	3448989	-	ABC-F family ATP-binding cassette domain-containing protein	0	gene_body	True	True	T1	core
+3447415	-	SC_RS17850	SCO3148		3449047	3449946	-	4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase	1632	downstream_far	False	True	T1	core
+3447416	-	SC_RS17840	SCO3146		3445110	3446915	-	outer membrane protein assembly factor BamB family protein	501	upstream	False	True	T1	core
+3447416	-	SC_RS17845	SCO3147		3447175	3448989	-	ABC-F family ATP-binding cassette domain-containing protein	0	gene_body	True	True	T1	core
+3447416	-	SC_RS17850	SCO3148		3449047	3449946	-	4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase	1631	downstream_far	False	True	T1	core
+3468459	-	SC_RS17930	SCO3164		3465682	3466527	-	DMT family transporter	1932	upstream	False	True	T1	core
+3468459	-	SC_RS17935	SCO3165		3466524	3467063	-	YbaK/EbsC family protein	1396	upstream	False	True	T1	core
+3468459	-	SC_RS17940	SCO3166		3467222	3469459	-	MMPL family transporter	0	gene_body	True	True	T1	core
+3468459	-	SC_RS17945	SCO3167		3469606	3470205	-	TetR/AcrR family transcriptional regulator	1147	downstream_far	False	True	T1	core
+3468459	-	SC_RS17950	SCO3168		3470375	3473869	+	S41 family peptidase	1916	upstream	False	True	T1	core
+3589602	-	SC_RS18290	SCO3235		3585800	3587647	-	ABC transporter ATP-binding protein	1955	upstream	False	True	T1	core
+3589602	-	SC_RS18295	SCO3236	asnO	3587687	3588688	-	L-asparagine oxygenase	914	upstream	False	True	T1	core
+3589602	-	SC_RS18300	SCO3237		3588746	3590149	-	alkaline phosphatase family protein	0	gene_body	True	True	T1	core
+3589602	-	SC_RS18305	SCO3238	eboE	3590146	3591306	-	metabolite traffic protein EboE	544	downstream_far	False	True	T1	core
+3589602	-	SC_RS18310	SCO3239		3591313	3592182	-	TatD family hydrolase	1711	downstream_far	False	True	T1	core
+3715071	+	SC_RS18880	SCO3352	disA	3712179	3713303	+	DNA integrity scanning diadenylate cyclase DisA	1768	downstream_far	False	True	T1	core
+3715071	+	SC_RS18885			3713340	3714179	-	hypothetical protein	892	upstream	False	True	T1	core
+3715071	+	SC_RS18890	SCO3355		3714378	3715304	+	HhH-GPD family protein	0	gene_body	True	True	T1	core
+3715071	+	SC_RS18895	SCO3356		3715604	3716137	+	SigE family RNA polymerase sigma factor	533	upstream	False	True	T1	core
+3715071	+	SC_RS18900	SCO3357		3716125	3716802	+	hypothetical protein	1054	upstream	False	True	T1	core
+3715071	+	SC_RS18905	SCO3358	cseB	3716926	3717630	+	two-component system response regulator CseB	1855	upstream	False	True	T1	core
+3742024	-	SC_RS18995	SCO3374		3739398	3740099	+	SCO3374 family protein	1925	downstream_far	False	True	T1	core
+3742024	-	SC_RS19000	SCO3375		3740100	3740435	-	histone-like nucleoid-structuring protein Lsr2	1589	upstream	False	True	T1	core
+3742024	-	SC_RS19005	SCO3376		3740711	3741220	-	amino-acid N-acetyltransferase	804	upstream	False	True	T1	core
+3742024	-	SC_RS19010	SCO3377		3741230	3741628	-	BlaI/MecI/CopY family transcriptional regulator	396	promoter	True	True	T1	core
+3742024	-	SC_RS19015	SCO3378		3741763	3741942	-	membrane protein	82	promoter	True	True	T1	core
+3742024	-	SC_RS19020	SCO3379		3741966	3742592	-	hypothetical protein	0	gene_body	True	True	T1	core
+3742024	-	SC_RS19025	SCO3380		3743026	3743823	-	type III pantothenate kinase	1002	downstream_far	False	True	T1	core
+3742024	-	SC_RS19030	SCO3381	nadC	3743829	3744818	-	carboxylating nicotinate-nucleotide diphosphorylase	1805	downstream_far	False	True	T1	core
+3742116	-	SC_RS19000	SCO3375		3740100	3740435	-	histone-like nucleoid-structuring protein Lsr2	1681	upstream	False	True	T1	core
+3742116	-	SC_RS19005	SCO3376		3740711	3741220	-	amino-acid N-acetyltransferase	896	upstream	False	True	T1	core
+3742116	-	SC_RS19010	SCO3377		3741230	3741628	-	BlaI/MecI/CopY family transcriptional regulator	488	promoter	True	True	T1	core
+3742116	-	SC_RS19015	SCO3378		3741763	3741942	-	membrane protein	174	promoter	True	True	T1	core
+3742116	-	SC_RS19020	SCO3379		3741966	3742592	-	hypothetical protein	0	gene_body	True	True	T1	core
+3742116	-	SC_RS19025	SCO3380		3743026	3743823	-	type III pantothenate kinase	910	downstream_far	False	True	T1	core
+3742116	-	SC_RS19030	SCO3381	nadC	3743829	3744818	-	carboxylating nicotinate-nucleotide diphosphorylase	1713	downstream_far	False	True	T1	core
+3742117	-	SC_RS19000	SCO3375		3740100	3740435	-	histone-like nucleoid-structuring protein Lsr2	1682	upstream	False	True	T1	core
+3742117	-	SC_RS19005	SCO3376		3740711	3741220	-	amino-acid N-acetyltransferase	897	upstream	False	True	T1	core
+3742117	-	SC_RS19010	SCO3377		3741230	3741628	-	BlaI/MecI/CopY family transcriptional regulator	489	promoter	True	True	T1	core
+3742117	-	SC_RS19015	SCO3378		3741763	3741942	-	membrane protein	175	promoter	True	True	T1	core
+3742117	-	SC_RS19020	SCO3379		3741966	3742592	-	hypothetical protein	0	gene_body	True	True	T1	core
+3742117	-	SC_RS19025	SCO3380		3743026	3743823	-	type III pantothenate kinase	909	downstream_far	False	True	T1	core
+3742117	-	SC_RS19030	SCO3381	nadC	3743829	3744818	-	carboxylating nicotinate-nucleotide diphosphorylase	1712	downstream_far	False	True	T1	core
+3767450	-	SC_RS19120	SCO3399		3765006	3765509	+	nuclear transport factor 2 family protein	1941	downstream_far	False	True	T1	core
+3767450	-	SC_RS19125	SCO3400	folB	3765814	3766173	+	dihydroneopterin aldolase	1277	downstream_far	False	True	T1	core
+3767450	-	SC_RS19130	SCO3401	folK	3766170	3766781	+	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase	669	downstream_far	False	True	T1	core
+3767450	-	SC_RS19135	SCO3402		3766852	3767340	+	DUF3180 domain-containing protein	110	downstream	True	True	T1	core
+3767450	-	SC_RS19140	SCO3403	folE	3767356	3767961	-	GTP cyclohydrolase I FolE	0	gene_body	True	True	T1	core
+3767450	-	SC_RS19145	SCO3404	ftsH	3768093	3770132	-	ATP-dependent zinc metalloprotease FtsH	643	downstream_far	False	True	T1	core
+3773896	-	SC_RS19155	SCO3406	tilS	3770964	3772022	-	tRNA lysidine(34) synthetase TilS	1874	upstream	False	True	T1	core
+3773896	-	SC_RS19160	SCO3407		3772215	3773342	-	zinc-dependent metalloprotease	554	upstream	False	True	T1	core
+3773896	-	SC_RS19165	SCO3408	dacB	3773464	3775065	-	D-alanyl-D-alanine carboxypeptidase/D-alanyl-D-alanine endopeptidase	0	gene_body	True	True	T1	core
+3773896	-	SC_RS19170	SCO3409		3775145	3775636	+	inorganic diphosphatase	1249	upstream	False	True	T1	core
+3773896	-	SC_RS19175	SCO3410		3775750	3777459	+	threonine/serine exporter family protein	1854	upstream	False	True	T1	core
+3773897	-	SC_RS19155	SCO3406	tilS	3770964	3772022	-	tRNA lysidine(34) synthetase TilS	1875	upstream	False	True	T1	core
+3773897	-	SC_RS19160	SCO3407		3772215	3773342	-	zinc-dependent metalloprotease	555	upstream	False	True	T1	core
+3773897	-	SC_RS19165	SCO3408	dacB	3773464	3775065	-	D-alanyl-D-alanine carboxypeptidase/D-alanyl-D-alanine endopeptidase	0	gene_body	True	True	T1	core
+3773897	-	SC_RS19170	SCO3409		3775145	3775636	+	inorganic diphosphatase	1248	upstream	False	True	T1	core
+3773897	-	SC_RS19175	SCO3410		3775750	3777459	+	threonine/serine exporter family protein	1853	upstream	False	True	T1	core
+3785243	-	SC_RS19210	SCO3417		3782903	3783658	-	ABC transporter permease	1585	upstream	False	True	T1	core
+3785243	-	SC_RS19215	SCO3418		3783682	3784623	-	ATP-binding cassette domain-containing protein	620	upstream	False	True	T1	core
+3785243	-	SC_RS19220	SCO3419		3784717	3785358	-	PadR family transcriptional regulator	0	gene_body	True	True	T1	core
+3785243	-	SC_RS19225	SCO3420		3785441	3786901	-	aldehyde dehydrogenase family protein	198	downstream	True	True	T1	core
+3785243	-	SC_RS19230	SCO3421		3786977	3787801	-	helix-turn-helix domain-containing protein	1734	downstream_far	False	True	T1	core
+3825683	+	SC_RS19445	SCO3464		3823635	3824309	+	TIGR04282 family arsenosugar biosynthesis glycosyltransferase	1374	downstream_far	False	True	T1	core
+3825683	+	SC_RS19450	SCO3465		3824306	3825016	+	TIGR04283 family arsenosugar biosynthesis glycosyltransferase	667	downstream_far	False	True	T1	core
+3825683	+	SC_RS19455	SCO3466		3825371	3826210	+	IS5-like element ISSco3 family transposase	0	gene_body	True	True	T1	core
+3825683	+	SC_RS19460	SCO3467		3826473	3827312	+	IS5-like element ISSco3 family transposase	790	upstream	False	True	T1	core
+3825683	+	SC_RS19465	SCO3468		3827427	3828962	+	ISL3-like element IS469 family transposase	1744	upstream	False	True	T1	core
+3826785	+	SC_RS19450	SCO3465		3824306	3825016	+	TIGR04283 family arsenosugar biosynthesis glycosyltransferase	1769	downstream_far	False	True	T1	core
+3826785	+	SC_RS19455	SCO3466		3825371	3826210	+	IS5-like element ISSco3 family transposase	575	downstream_far	False	True	T1	core
+3826785	+	SC_RS19460	SCO3467		3826473	3827312	+	IS5-like element ISSco3 family transposase	0	gene_body	True	True	T1	core
+3826785	+	SC_RS19465	SCO3468		3827427	3828962	+	ISL3-like element IS469 family transposase	642	upstream	False	True	T1	core
+3907581	+	SC_RS19810	SCO3537		3904869	3905723	-	ImmA/IrrE family metallo-endopeptidase	1858	upstream	False	True	T1	core
+3907581	+	SC_RS19820	SCO3538		3906058	3906735	-	hypothetical protein	846	upstream	False	True	T1	core
+3907581	+	SC_RS19825	SCO3539		3907269	3908108	+	IS5-like element ISSco3 family transposase	0	gene_body	True	True	T1	core
+3907581	+	SC_RS19835	SCO3540		3908520	3910139	-	alpha/beta hydrolase	939	downstream_far	False	True	T1	core
+3909841	-	SC_RS19825	SCO3539		3907269	3908108	+	IS5-like element ISSco3 family transposase	1733	downstream_far	False	True	T1	core
+3909841	-	SC_RS19835	SCO3540		3908520	3910139	-	alpha/beta hydrolase	0	gene_body	True	True	T1	core
+3909841	-	SC_RS19840	SCO3541		3910252	3911457	-	DNA polymerase III subunit delta'	411	downstream	True	True	T1	core
+3909841	-	SC_RS19845	SCO3542	tmk	3911610	3914879	-	dTMP kinase	1769	downstream_far	False	True	T1	core
+3910244	-	SC_RS19835	SCO3540		3908520	3910139	-	alpha/beta hydrolase	105	promoter	True	True	T1	core
+3910244	-	SC_RS19840	SCO3541		3910252	3911457	-	DNA polymerase III subunit delta'	8	downstream	True	True	T1	core
+3910244	-	SC_RS19845	SCO3542	tmk	3911610	3914879	-	dTMP kinase	1366	downstream_far	False	True	T1	core
+3918012	+	SC_RS19850	SCO3543	topA	3915027	3917885	-	type I DNA topoisomerase	127	promoter	True	True	T1	core
+3918012	+	SC_RS19855			3918154	3918351	-	hypothetical protein	142	downstream	True	True	T1	core
+3918012	+	SC_RS19860	SCO3545		3918572	3920089	-	DUF7059 domain-containing protein	560	downstream_far	False	True	T1	core
+3960370	+	SC_RS20035	SCO3580		3958243	3960513	+	transglycosylase domain-containing protein	0	gene_body	True	True	T1	core
+3960370	+	SC_RS20040	SCO3581		3960641	3961105	-	GatB/YqeY domain-containing protein	271	downstream	True	True	T1	core
+3960370	+	SC_RS20045	SCO3582		3961226	3962155	+	metallophosphoesterase	856	upstream	False	True	T1	core
+3960370	+	SC_RS20050	SCO3583		3962279	3963043	+	Pr6Pr family membrane protein	1909	upstream	False	True	T1	core
+4088376	+	SC_RS20685	SCO3710		4086039	4087673	+	PH domain-containing protein	703	downstream_far	False	True	T1	core
+4088376	+	SC_RS20690	SCO3711		4087658	4088053	+	hypothetical protein	323	downstream	True	True	T1	core
+4088376	+	SC_RS20695	SCO3712		4088208	4088984	+	polysaccharide deacetylase family protein	0	gene_body	True	True	T1	core
+4088376	+	SC_RS20705	SCO3714		4089285	4090508	-	RNA-guided endonuclease InsQ/TnpB family protein	909	downstream_far	False	True	T1	core
+4114600	-	SC_RS20830	SCO3740		4111533	4112645	-	sensor histidine kinase	1955	upstream	False	True	T1	core
+4114600	-	SC_RS20835	SCO3741		4112648	4113550	-	response regulator transcription factor	1050	upstream	False	True	T1	core
+4114600	-	SC_RS20840	SCO3742		4113665	4114393	+	glycosyltransferase family 2 protein	207	downstream	True	True	T1	core
+4114600	-	SC_RS20845	SCO3743		4114399	4115031	+	TIGR04282 family arsenosugar biosynthesis glycosyltransferase	0	gene_body	True	True	T1	core
+4114600	-	SC_RS20850	SCO3744		4115028	4115813	+	class I SAM-dependent methyltransferase	428	promoter	True	True	T1	core
+4114600	-	SC_RS20855	SCO3746		4116154	4117392	-	molybdopterin-dependent oxidoreductase	1554	downstream_far	False	True	T1	core
+4127932	-	SC_RS20895	SCO3754		4125465	4127978	-	ABC transporter permease	0	gene_body	True	True	T1	core
+4127932	-	SC_RS20900	SCO3755		4127975	4128817	-	ABC transporter ATP-binding protein	43	downstream	True	True	T1	core
+4127932	-	SC_RS20905	SCO3756		4128978	4129652	-	response regulator	1046	downstream_far	False	True	T1	core
+4127932	-	SC_RS20910	SCO3757		4129649	4130926	-	sensor histidine kinase	1717	downstream_far	False	True	T1	core
+4129198	-	SC_RS20895	SCO3754		4125465	4127978	-	ABC transporter permease	1220	upstream	False	True	T1	core
+4129198	-	SC_RS20900	SCO3755		4127975	4128817	-	ABC transporter ATP-binding protein	381	promoter	True	True	T1	core
+4129198	-	SC_RS20905	SCO3756		4128978	4129652	-	response regulator	0	gene_body	True	True	T1	core
+4129198	-	SC_RS20910	SCO3757		4129649	4130926	-	sensor histidine kinase	451	downstream	True	True	T1	core
+4129198	-	SC_RS20915	SCO3758		4131008	4132060	-	fatty acid desaturase family protein	1810	downstream_far	False	True	T1	core
+4173642	-	SC_RS21085	SCO3793		4171328	4171693	+	PH domain-containing protein	1949	downstream_far	False	True	T1	core
+4173642	-	SC_RS21095	SCO3794		4171889	4172662	-	glycosyltransferase family 2 protein	980	upstream	False	True	T1	core
+4173642	-	SC_RS21100	SCO3795	aspS	4172747	4174510	-	aspartate--tRNA ligase	0	gene_body	True	True	T1	core
+4173642	-	SC_RS21105	SCO3796		4174717	4176885	+	ATP-binding SpoIIE family protein phosphatase	1075	upstream	False	True	T1	core
+4209710	-	SC_RS21260	SCO3826		4207170	4208267	-	potassium channel family protein	1443	upstream	False	True	T1	core
+4209710	-	SC_RS21265	SCO3827		4208264	4209661	-	molybdopterin-binding protein	49	promoter	True	True	T1	core
+4209710	-	SC_RS21270	SCO3828		4209661	4210671	-	NTP transferase domain-containing protein	0	gene_body	True	True	T1	core
+4209710	-	SC_RS21275	SCO3829		4210796	4212271	-	dihydrolipoamide acetyltransferase family protein	1086	downstream_far	False	True	T1	core
+4226868	-	SC_RS21335	SCO3841		4223858	4225387	-	DUF2252 domain-containing protein	1481	upstream	False	True	T1	core
+4226868	-	SC_RS21340	SCO3842		4225790	4226674	+	carbohydrate-binding protein	194	downstream	True	True	T1	core
+4226868	-	SC_RS21350	SCO3843	fhaA	4227374	4228246	+	antibiotic biosynthesis regulator FhaA	506	upstream	False	True	T1	core
+4226868	-	SC_RS21355	SCO3844	fhaB	4228257	4228775	+	antibiotic biosynthesis regulator FhaB	1389	upstream	False	True	T1	core
+4237139	-	SC_RS21375	SCO3848	pknB	4233591	4235612	+	Stk1 family PASTA domain-containing Ser/Thr kinase	1527	downstream_far	False	True	T1	core
+4237139	-	SC_RS21380	SCO3849		4235691	4236452	-	class E sortase	687	upstream	False	True	T1	core
+4237139	-	SC_RS21385	SCO3850		4236466	4237524	-	class E sortase	0	gene_body	True	True	T1	core
+4237139	-	SC_RS21390	SCO3851		4237521	4238159	-	aminodeoxychorismate/anthranilate synthase component II	382	downstream	True	True	T1	core
+4237139	-	SC_RS21395	SCO3852		4238156	4238317	-	hypothetical protein	1017	downstream_far	False	True	T1	core
+4237139	-	SC_RS21400	SCO3853		4238399	4239178	-	DUF881 domain-containing protein	1260	downstream_far	False	True	T1	core
+4256583	+	SC_RS21485	SCO3869		4252857	4257887	+	nSTAND1 domain-containing NTPase	0	gene_body	True	True	T1	core
+4256583	+	SC_RS21490	SCO3870		4258228	4258428	-	SCO3870 family protein	1645	downstream_far	False	True	T1	core
+4263175	-	SC_RS21510	SCO3873	gyrA	4260741	4263335	-	DNA gyrase subunit A	0	gene_body	True	True	T1	core
+4263175	-	SC_RS21515	SCO3874	gyrB	4263378	4265438	-	DNA topoisomerase (ATP-hydrolyzing) subunit B	203	downstream	True	True	T1	core
+4282692	-	SC_RS21595	SCO3890	trxB	4280583	4281551	-	thioredoxin-disulfide reductase	1141	upstream	False	True	T1	core
+4282692	-	SC_RS21600	SCO3891		4281711	4282559	-	anti-sigma factor family protein	133	promoter	True	True	T1	core
+4282692	-	SC_RS21605	SCO3892	sigM	4282577	4283287	-	RNA polymerase sigma factor SigM	0	gene_body	True	True	T1	core
+4282692	-	SC_RS21610	SCO3893		4283316	4285007	-	protein kinase family protein	624	downstream_far	False	True	T1	core
+4317756	-	SC_RS21745	SCO3920		4315547	4316725	-	cystathionine gamma-lyase	1031	upstream	False	True	T1	core
+4317756	-	SC_RS21750	SCO3921		4316722	4317216	-	low molecular weight protein-tyrosine-phosphatase	540	upstream	False	True	T1	core
+4317756	-	SC_RS21755	SCO3922		4317222	4317599	-	phage holin family protein	157	promoter	True	True	T1	core
+4317756	-	SC_RS21760	SCO3923		4317659	4317976	+	cupin domain-containing protein	0	gene_body	True	True	T1	core
+4317756	-	SC_RS21765	SCO3924		4318118	4318330	+	DUF5326 family protein	362	promoter	True	True	T1	core
+4317756	-	SC_RS21770	SCO3925		4318648	4319373	+	IclR family transcriptional regulator	892	upstream	False	True	T1	core
+4317756	-	SC_RS21775	SCO3926		4319474	4319911	+	SsgA family sporulation/cell division regulator	1718	upstream	False	True	T1	core
+4327022	-	SC_RS21790	SCO3929		4324441	4325793	-	hypothetical protein	1229	upstream	False	True	T1	core
+4327022	-	SC_RS21795	SCO3930		4325990	4326556	+	ATP-binding protein	466	downstream	True	True	T1	core
+4327022	-	SC_RS21800	SCO3931		4326866	4327165	+	hypothetical protein	0	gene_body	True	True	T1	core
+4327022	-	SC_RS21805	SCO3932		4327576	4328355	-	GntR family transcriptional regulator	554	downstream_far	False	True	T1	core
+4327022	-	SC_RS21810	SCO3933		4328521	4328871	+	SCO3933 family regulatory protein	1499	upstream	False	True	T1	core
+4327022	-	SC_RS21815	SCO3934		4328871	4330172	+	FtsK/SpoIIIE domain-containing protein	1849	upstream	False	True	T1	core
+4367845	-	SC_RS21960	SCO3964		4364694	4366736	-	copper resistance CopC/CopD family protein	1109	upstream	False	True	T1	core
+4367845	-	SC_RS21965	SCO3965		4366750	4367286	-	copper chaperone PCu(A)C	559	upstream	False	True	T1	core
+4367845	-	SC_RS21970	SCO3966		4367283	4367933	-	SCO family protein	0	gene_body	True	True	T1	core
+4367845	-	SC_RS21975	SCO3967		4368066	4368827	-	YcnI family copper-binding membrane protein	221	downstream	True	True	T1	core
+4367845	-	SC_RS21980	SCO3968		4368955	4369809	-	hypothetical protein	1110	downstream_far	False	True	T1	core
+4397561	-	SC_RS22120	SCO4000		4395100	4395579	-	hypothetical protein	1982	upstream	False	True	T1	core
+4397561	-	SC_RS22125	SCO4001		4395671	4396546	-	bifunctional DNA primase/polymerase	1015	upstream	False	True	T1	core
+4397561	-	SC_RS22130	SCO4002		4396912	4397238	+	hypothetical protein	323	downstream	True	True	T1	core
+4397561	-	SC_RS22135	SCO4005		4397767	4398372	+	SigE family RNA polymerase sigma factor	206	promoter	True	True	T1	core
+4397561	-	SC_RS22140	SCO4006		4398501	4400177	+	long-chain fatty acid--CoA ligase	940	upstream	False	True	T1	core
+4436216	-	SC_RS22320	SCO4039		4434208	4434756	-	tRNA adenosine deaminase-associated protein	1460	upstream	False	True	T1	core
+4436216	-	SC_RS22325			4435097	4435339	-	hypothetical protein	877	upstream	False	True	T1	core
+4436216	-	SC_RS22330	SCO4041	upp	4435478	4436113	+	uracil phosphoribosyltransferase	103	downstream	True	True	T1	core
+4436216	-	SC_RS22335	SCO4042		4436138	4436752	-	LytR C-terminal domain-containing protein	0	gene_body	True	True	T1	core
+4436216	-	SC_RS22340	SCO4043		4436888	4437184	-	type II toxin-antitoxin system VapB family antitoxin	672	downstream_far	False	True	T1	core
+4436216	-	SC_RS22345			4437354	4437488	-	hypothetical protein	1138	downstream_far	False	True	T1	core
+4436216	-	SC_RS22350			4437558	4437887	-	hypothetical protein	1342	downstream_far	False	True	T1	core
+4436216	-	SC_RS22355	SCO4045		4437969	4438649	-	HdeD family acid-resistance protein	1753	downstream_far	False	True	T1	core
+4485795	-	SC_RS22585	SCO4090		4483978	4484829	+	hypothetical protein	966	downstream_far	False	True	T1	core
+4485795	-	SC_RS22590	SCO4091	bldC	4485363	4485569	+	developmental transcriptional regulator BldC	226	downstream	True	True	T1	core
+4485795	-	SC_RS22595			4486028	4486222	-	DUF6274 family protein	233	downstream	True	True	T1	core
+4485795	-	SC_RS22605	SCO4092	hrpA	4486639	4490622	-	ATP-dependent RNA helicase HrpA	844	downstream_far	False	True	T1	core
+4586817	-	SC_RS23035	SCO4169		4584106	4584870	+	glucose 1-dehydrogenase	1947	downstream_far	False	True	T1	core
+4586817	-	SC_RS23040	SCO4170		4584983	4585840	+	hypothetical protein	977	downstream_far	False	True	T1	core
+4586817	-	SC_RS23045	SCO4171		4585837	4586589	+	hypothetical protein	228	downstream	True	True	T1	core
+4586817	-	SC_RS23050	SCO4172		4586586	4587461	+	hypothetical protein	0	gene_body	True	True	T1	core
+4586817	-	SC_RS23055	SCO4173		4587481	4587843	-	DsrE family protein	664	downstream_far	False	True	T1	core
+4586817	-	SC_RS23060	SCO4174		4587872	4588123	-	hypothetical protein	1055	downstream_far	False	True	T1	core
+4586817	-	SC_RS23065	SCO4175		4588120	4588512	-	hypothetical protein	1303	downstream_far	False	True	T1	core
+4586817	-	SC_RS23070	SCO4176		4588684	4589526	+	helix-turn-helix domain-containing protein	1867	upstream	False	True	T1	core
+4655990	-	SC_RS23420	SCO4246		4652844	4654775	-	VgrG-related protein	1215	upstream	False	True	T1	core
+4655990	-	SC_RS23425	SCO4247		4654775	4655497	-	CIS tube protein	493	promoter	True	True	T1	core
+4655990	-	SC_RS23430	SCO4248		4655526	4655948	-	phage tail protein	42	promoter	True	True	T1	core
+4655990	-	SC_RS23435			4656039	4656887	-	hypothetical protein	49	downstream	True	True	T1	core
+4656583	-	SC_RS23420	SCO4246		4652844	4654775	-	VgrG-related protein	1808	upstream	False	True	T1	core
+4656583	-	SC_RS23425	SCO4247		4654775	4655497	-	CIS tube protein	1086	upstream	False	True	T1	core
+4656583	-	SC_RS23430	SCO4248		4655526	4655948	-	phage tail protein	635	upstream	False	True	T1	core
+4656583	-	SC_RS23435			4656039	4656887	-	hypothetical protein	0	gene_body	True	True	T1	core
+4661382	-	SC_RS23440			4660125	4660283	-	DUF6760 family protein	1099	upstream	False	True	T1	core
+4661382	-	SC_RS23445	SCO4251		4660280	4660813	-	hypothetical protein	569	upstream	False	True	T1	core
+4661382	-	SC_RS23450	SCO4252		4660813	4661262	-	phage tail protein	120	promoter	True	True	T1	core
+4661382	-	SC_RS23455	SCO4253		4661315	4662919	-	phage tail sheath subtilisin-like domain-containing protein	0	gene_body	True	True	T1	core
+4661382	-	SC_RS23460	SCO4254		4663249	4666119	+	hypothetical protein	1867	upstream	False	True	T1	core
+4671074	+	SC_RS23475	SCO4257		4668591	4670033	+	RICIN domain-containing protein	1041	downstream_far	False	True	T1	core
+4671074	+	SC_RS23480	SCO4258		4670132	4671589	+	RICIN domain-containing protein	0	gene_body	True	True	T1	core
+4671074	+	SC_RS23485	SCO4259		4671614	4673686	-	ATP-binding protein	540	downstream_far	False	True	T1	core
+4824047	-	SC_RS24185	SCO4403	purU	4821748	4822641	+	formyltetrahydrofolate deformylase	1406	downstream_far	False	True	T1	core
+4824047	-	SC_RS24190	SCO4404		4822683	4823471	-	ABC transporter permease	576	upstream	False	True	T1	core
+4824047	-	SC_RS24195	SCO4405		4823468	4824442	-	daunorubicin resistance protein DrrA family ABC transporter ATP-binding protein	0	gene_body	True	True	T1	core
+4824047	-	SC_RS24200	SCO4406		4824455	4825120	-	DUF4097 family beta strand repeat-containing protein	408	downstream	True	True	T1	core
+4824047	-	SC_RS24205	SCO4407		4825352	4826125	+	GbsR/MarR family transcriptional regulator	1305	upstream	False	True	T1	core
+4824048	-	SC_RS24185	SCO4403	purU	4821748	4822641	+	formyltetrahydrofolate deformylase	1407	downstream_far	False	True	T1	core
+4824048	-	SC_RS24190	SCO4404		4822683	4823471	-	ABC transporter permease	577	upstream	False	True	T1	core
+4824048	-	SC_RS24195	SCO4405		4823468	4824442	-	daunorubicin resistance protein DrrA family ABC transporter ATP-binding protein	0	gene_body	True	True	T1	core
+4824048	-	SC_RS24200	SCO4406		4824455	4825120	-	DUF4097 family beta strand repeat-containing protein	407	downstream	True	True	T1	core
+4824048	-	SC_RS24205	SCO4407		4825352	4826125	+	GbsR/MarR family transcriptional regulator	1304	upstream	False	True	T1	core
+4839519	-	SC_RS24270	SCO4421		4837557	4838192	-	TetR family transcriptional regulator	1327	upstream	False	True	T1	core
+4839519	-	SC_RS24275	SCO4422		4838327	4839085	+	VOC family protein	434	downstream	True	True	T1	core
+4839519	-	SC_RS24280	SCO4423		4839304	4841703	+	outer membrane protein assembly factor BamB family protein	0	gene_body	True	True	T1	core
+4839520	-	SC_RS24270	SCO4421		4837557	4838192	-	TetR family transcriptional regulator	1328	upstream	False	True	T1	core
+4839520	-	SC_RS24275	SCO4422		4838327	4839085	+	VOC family protein	435	downstream	True	True	T1	core
+4839520	-	SC_RS24280	SCO4423		4839304	4841703	+	outer membrane protein assembly factor BamB family protein	0	gene_body	True	True	T1	core
+4840210	+	SC_RS24275	SCO4422		4838327	4839085	+	VOC family protein	1125	downstream_far	False	True	T1	core
+4840210	+	SC_RS24280	SCO4423		4839304	4841703	+	outer membrane protein assembly factor BamB family protein	0	gene_body	True	True	T1	core
+4840210	+	SC_RS24285	SCO4424		4841760	4842290	+	hypothetical protein	1550	upstream	False	True	T1	core
+4861416	-	SC_RS24355	SCO4438		4857727	4859604	-	MFS transporter	1812	upstream	False	True	T1	core
+4861416	-	SC_RS24360	SCO4439		4859813	4862452	-	D-alanyl-D-alanine carboxypeptidase	0	gene_body	True	True	T1	core
+4861416	-	SC_RS24365	SCO4440		4862642	4863400	+	GOLPH3/VPS74 family protein	1226	upstream	False	True	T1	core
+4885758	-	SC_RS24475	SCO4462		4882715	4883962	+	MFS transporter	1796	downstream_far	False	True	T1	core
+4885758	-	SC_RS24480	SCO4463		4883980	4884108	+	DMT family transporter	1650	downstream_far	False	True	T1	core
+4885758	-	SC_RS24485	SCO4464		4884219	4884893	-	cysteine hydrolase family protein	865	upstream	False	True	T1	core
+4885758	-	SC_RS24490	SCO4465		4884950	4885462	+	PadR family transcriptional regulator	296	downstream	True	True	T1	core
+4885758	-	SC_RS24495	SCO4466		4885528	4886016	-	hypothetical protein	0	gene_body	True	True	T1	core
+4885758	-	SC_RS24500	SCO4467		4886067	4886504	-	hypothetical protein	309	downstream	True	True	T1	core
+4885758	-	SC_RS24505	SCO4469	hemL	4886990	4888306	+	glutamate-1-semialdehyde 2%2C1-aminomutase	1232	upstream	False	True	T1	core
+4885759	-	SC_RS24475	SCO4462		4882715	4883962	+	MFS transporter	1797	downstream_far	False	True	T1	core
+4885759	-	SC_RS24480	SCO4463		4883980	4884108	+	DMT family transporter	1651	downstream_far	False	True	T1	core
+4885759	-	SC_RS24485	SCO4464		4884219	4884893	-	cysteine hydrolase family protein	866	upstream	False	True	T1	core
+4885759	-	SC_RS24490	SCO4465		4884950	4885462	+	PadR family transcriptional regulator	297	downstream	True	True	T1	core
+4885759	-	SC_RS24495	SCO4466		4885528	4886016	-	hypothetical protein	0	gene_body	True	True	T1	core
+4885759	-	SC_RS24500	SCO4467		4886067	4886504	-	hypothetical protein	308	downstream	True	True	T1	core
+4885759	-	SC_RS24505	SCO4469	hemL	4886990	4888306	+	glutamate-1-semialdehyde 2%2C1-aminomutase	1231	upstream	False	True	T1	core
+4898789	-	SC_RS24545	SCO4477		4896795	4897511	-	MerR family transcriptional regulator	1278	upstream	False	True	T1	core
+4898789	-	SC_RS24550	SCO4478		4897553	4898155	+	O-methyltransferase	634	downstream_far	False	True	T1	core
+4898789	-	SC_RS24555	SCO4479		4898224	4899117	-	alpha/beta fold hydrolase	0	gene_body	True	True	T1	core
+4898789	-	SC_RS24560	SCO4480		4899301	4899900	-	TetR/AcrR family transcriptional regulator	512	downstream_far	False	True	T1	core
+4898789	-	SC_RS24565	SCO4481		4900077	4901975	+	serine/threonine-protein kinase	1288	upstream	False	True	T1	core
+4942202	-	SC_RS24745	SCO4518		4939512	4940861	-	AAA family ATPase	1341	upstream	False	True	T1	core
+4942202	-	SC_RS24750	SCO4519		4940966	4941562	+	hypothetical protein	640	downstream_far	False	True	T1	core
+4942202	-	SC_RS24755	SCO4520		4941567	4941872	-	hypothetical protein	330	promoter	True	True	T1	core
+4942202	-	SC_RS24760	SCO4521		4941895	4942980	-	hypothetical protein	0	gene_body	True	True	T1	core
+4942202	-	SC_RS24770	SCO4523		4943703	4944296	+	membrane protein	1501	upstream	False	True	T1	core
+4958840	-	SC_RS24850	SCO4539		4956659	4957264	-	hypothetical protein	1576	upstream	False	True	T1	core
+4958840	-	SC_RS24855			4957302	4957697	-	hypothetical protein	1143	upstream	False	True	T1	core
+4958840	-	SC_RS24860	SCO4541		4957723	4959303	-	putative T7SS-secreted protein	0	gene_body	True	True	T1	core
+4958840	-	SC_RS24865	SCO4542		4959382	4959573	-	DUF397 domain-containing protein	542	downstream_far	False	True	T1	core
+4958840	-	SC_RS24870	SCO4543	whiJ	4959584	4960435	-	transcriptional regulator WhiJ	744	downstream_far	False	True	T1	core
+4958840	-	SC_RS24875	SCO4544		4960649	4961074	+	ATP-binding protein	1809	upstream	False	True	T1	core
+4975776	-	SC_RS24930	SCO4555		4973632	4974723	+	acyltransferase family protein	1053	downstream_far	False	True	T1	core
+4975776	-	SC_RS24935	SCO4556		4974767	4975462	+	demethylmenaquinone methyltransferase	314	downstream	True	True	T1	core
+4975776	-	SC_RS24940	SCO4557		4975449	4975796	-	PASTA domain-containing protein	0	gene_body	True	True	T1	core
+4975776	-	SC_RS24945	SCO4558		4975855	4976418	-	GNAT family N-acetyltransferase	79	downstream	True	True	T1	core
+4975776	-	SC_RS24950	SCO4559		4976516	4977808	+	geranylgeranyl reductase family protein	740	upstream	False	True	T1	core
+4987415	+	SC_RS24990	SCO4567	nuoF	4984137	4985486	+	NADH-quinone oxidoreductase subunit NuoF	1929	downstream_far	False	True	T1	core
+4987415	+	SC_RS24995	SCO4568		4985483	4988014	+	NADH-quinone oxidoreductase subunit G	0	gene_body	True	True	T1	core
+4987415	+	SC_RS25000	SCO4569	nuoH	4988011	4989414	+	NADH-quinone oxidoreductase subunit NuoH	596	upstream	False	True	T1	core
+4987415	+	SC_RS25005	SCO4570	nuoI	4989407	4990084	+	NADH-quinone oxidoreductase subunit NuoI	1992	upstream	False	True	T1	core
+5092064	-	SC_RS25485	SCO4661	fusA	5089830	5091956	+	elongation factor G	108	downstream	True	True	T1	core
+5092064	-	SC_RS25490	SCO4662	tuf	5092130	5093323	+	elongation factor Tu	66	promoter	True	True	T1	core
+5092064	-	SC_RS25495	SCO4663		5093313	5093666	-	AfsR/SARP family transcriptional regulator	1249	downstream_far	False	True	T1	core
+5106232	+	SC_RS25535	SCO4672		5103076	5104845	-	NlpC/P60 family protein	1387	upstream	False	True	T1	core
+5106232	+	SC_RS25540	SCO4673		5104850	5105851	-	helix-turn-helix transcriptional regulator	381	promoter	True	True	T1	core
+5106232	+	SC_RS25545	SCO4674		5105926	5106318	+	VOC family protein	0	gene_body	True	True	T1	core
+5106232	+	SC_RS25550	SCO4675		5106331	5107239	-	RpnC/YadD family protein	99	downstream	True	True	T1	core
+5106232	+	SC_RS25555	SCO4676		5107257	5108129	-	helix-turn-helix domain-containing protein	1025	downstream_far	False	True	T1	core
+5146697	-	SC_RS25815	SCO4731	truA	5144190	5145044	+	tRNA pseudouridine(38-40) synthase TruA	1653	downstream_far	False	True	T1	core
+5146697	-	SC_RS25820	SCO4732		5145064	5145963	-	hypothetical protein	734	upstream	False	True	T1	core
+5146697	-	SC_RS25825	SCO4733		5146038	5147243	+	glycosyltransferase family 87 protein	0	gene_body	True	True	T1	core
+5146697	-	SC_RS25830	SCO4734	rplM	5147451	5147894	+	50S ribosomal protein L13	754	upstream	False	True	T1	core
+5146697	-	SC_RS25835	SCO4735	rpsI	5147937	5148449	+	30S ribosomal protein S9	1240	upstream	False	True	T1	core
+5146697	-	SC_RS25840	SCO4736	glmM	5148674	5150032	+	phosphoglucosamine mutase	1977	upstream	False	True	T1	core
+5146698	-	SC_RS25815	SCO4731	truA	5144190	5145044	+	tRNA pseudouridine(38-40) synthase TruA	1654	downstream_far	False	True	T1	core
+5146698	-	SC_RS25820	SCO4732		5145064	5145963	-	hypothetical protein	735	upstream	False	True	T1	core
+5146698	-	SC_RS25825	SCO4733		5146038	5147243	+	glycosyltransferase family 87 protein	0	gene_body	True	True	T1	core
+5146698	-	SC_RS25830	SCO4734	rplM	5147451	5147894	+	50S ribosomal protein L13	753	upstream	False	True	T1	core
+5146698	-	SC_RS25835	SCO4735	rpsI	5147937	5148449	+	30S ribosomal protein S9	1239	upstream	False	True	T1	core
+5146698	-	SC_RS25840	SCO4736	glmM	5148674	5150032	+	phosphoglucosamine mutase	1976	upstream	False	True	T1	core
+5209389	-	SC_RS26095	SCO4787		5207363	5208166	+	class II aldolase/adducin family protein	1223	downstream_far	False	True	T1	core
+5209389	-	SC_RS26100	SCO4788		5208328	5209623	+	membrane protein	0	gene_body	True	True	T1	core
+5209389	-	SC_RS26105	SCO4789		5209763	5210290	+	DoxX family protein	374	promoter	True	True	T1	core
+5209389	-	SC_RS26110			5210287	5210514	-	hypothetical protein	898	downstream_far	False	True	T1	core
+5209389	-	SC_RS26115	SCO4790		5210501	5211922	-	PspC domain-containing protein	1112	downstream_far	False	True	T1	core
+5231642	-	SC_RS26185	SCO4804		5229309	5231756	+	DUF5682 family protein	0	gene_body	True	True	T1	core
+5231642	-	SC_RS26190	SCO4805		5231885	5233081	+	vWA domain-containing protein	243	promoter	True	True	T1	core
+5231642	-	SC_RS26195	SCO4806		5233252	5234196	+	hypothetical protein	1610	upstream	False	True	T1	core
+5233154	-	SC_RS26185	SCO4804		5229309	5231756	+	DUF5682 family protein	1398	downstream_far	False	True	T1	core
+5233154	-	SC_RS26190	SCO4805		5231885	5233081	+	vWA domain-containing protein	73	downstream	True	True	T1	core
+5233154	-	SC_RS26195	SCO4806		5233252	5234196	+	hypothetical protein	98	promoter	True	True	T1	core
+5233154	-	SC_RS26200	SCO4808	sucC	5234993	5236177	+	ADP-forming succinate--CoA ligase subunit beta	1839	upstream	False	True	T1	core
+5329807	+	SC_RS26625	SCO4893		5327081	5328004	-	AEC family transporter	1803	upstream	False	True	T1	core
+5329807	+	SC_RS26630			5328139	5328525	+	STAS domain-containing protein	1282	downstream_far	False	True	T1	core
+5329807	+	SC_RS26635	SCO4895		5328418	5329422	-	sigma-70 family RNA polymerase sigma factor	385	promoter	True	True	T1	core
+5329807	+	SC_RS26640	SCO4896		5329530	5330840	-	MFS transporter	0	gene_body	True	True	T1	core
+5329807	+	SC_RS26645	SCO4897		5330904	5331857	+	LysR family transcriptional regulator	1097	upstream	False	True	T1	core
+5362918	-	SC_RS26795	SCO4927		5360721	5361596	+	biotin--[acetyl-CoA-carboxylase] ligase	1322	downstream_far	False	True	T1	core
+5362918	-	SC_RS26800	SCO4928		5361712	5362857	+	adenylate/guanylate cyclase domain-containing protein	61	downstream	True	True	T1	core
+5362918	-	SC_RS26805	SCO4929		5362921	5363586	-	hypothetical protein	3	downstream	True	True	T1	core
+5362918	-	SC_RS26810	SCO4930		5363797	5364597	+	enoyl-CoA hydratase/isomerase family protein	879	upstream	False	True	T1	core
+5362918	-	SC_RS26815	SCO4931		5364697	5365845	+	GGDEF domain-containing protein	1779	upstream	False	True	T1	core
+5437964	-	SC_RS27140	SCO4996		5435560	5436069	-	SigE family RNA polymerase sigma factor	1895	upstream	False	True	T1	core
+5437964	-	SC_RS27145	SCO4997		5436168	5436359	-	hypothetical protein	1605	upstream	False	True	T1	core
+5437964	-	SC_RS27150	SCO4998		5436371	5437222	-	helix-turn-helix domain-containing protein	742	upstream	False	True	T1	core
+5437964	-	SC_RS27155	SCO4999		5437435	5437923	+	hypothetical protein	41	downstream	True	True	T1	core
+5437964	-	SC_RS27165	SCO5000		5438306	5438614	+	hypothetical protein	342	promoter	True	True	T1	core
+5437964	-	SC_RS27170	SCO5001		5438710	5439252	+	hypothetical protein	746	upstream	False	True	T1	core
+5437964	-	SC_RS27175	SCO5002		5439185	5439847	-	hypothetical protein	1221	downstream_far	False	True	T1	core
+5437964	-	SC_RS27180	SCO5003		5439963	5441678	-	chitinase	1999	downstream_far	False	True	T1	core
+5462058	-	SC_RS27295	SCO5026		5459908	5460726	+	class I SAM-dependent methyltransferase	1332	downstream_far	False	True	T1	core
+5462058	-	SC_RS27300	SCO5027		5460757	5461950	-	winged helix DNA-binding domain-containing protein	108	promoter	True	True	T1	core
+5462058	-	SC_RS27305	SCO5028		5463012	5464337	+	PhoH family protein	954	upstream	False	True	T1	core
+5577919	+	SC_RS27800	SCO5128		5574738	5577065	+	hypothetical protein	854	downstream_far	False	True	T1	core
+5577919	+	SC_RS27805	SCO5129		5577212	5578168	+	ABC transporter ATP-binding protein	0	gene_body	True	True	T1	core
+5577919	+	SC_RS27810	SCO5130		5578165	5578905	+	ABC transporter permease	246	promoter	True	True	T1	core
+5577919	+	SC_RS27815	SCO5131		5578902	5580068	+	sensor histidine kinase	983	upstream	False	True	T1	core
+5577931	+	SC_RS27800	SCO5128		5574738	5577065	+	hypothetical protein	866	downstream_far	False	True	T1	core
+5577931	+	SC_RS27805	SCO5129		5577212	5578168	+	ABC transporter ATP-binding protein	0	gene_body	True	True	T1	core
+5577931	+	SC_RS27810	SCO5130		5578165	5578905	+	ABC transporter permease	234	promoter	True	True	T1	core
+5577931	+	SC_RS27815	SCO5131		5578902	5580068	+	sensor histidine kinase	971	upstream	False	True	T1	core
+5614302	-	SC_RS27995	SCO5166		5612300	5614939	-	DEAD/DEAH box helicase	0	gene_body	True	True	T1	core
+5614302	-	SC_RS28000	SCO5167		5615432	5616214	+	ferritin-like domain-containing protein	1130	upstream	False	True	T1	core
+5649596	-	SC_RS28115	SCO5190		5647747	5648115	+	WhiB family transcriptional regulator	1481	downstream_far	False	True	T1	core
+5649596	-	SC_RS28120	SCO5191		5648112	5648435	+	hypothetical protein	1161	downstream_far	False	True	T1	core
+5649596	-	SC_RS28125	SCO5192		5648569	5649978	-	ABC1 kinase family protein	0	gene_body	True	True	T1	core
+5649596	-	SC_RS28130	SCO5193		5649971	5651185	-	TOMM precursor leader peptide-binding protein	375	downstream	True	True	T1	core
+5649596	-	SC_RS28135	SCO5194		5651416	5652012	+	M48 metallopeptidase family protein	1820	upstream	False	True	T1	core
+5652736	-	SC_RS28130	SCO5193		5649971	5651185	-	TOMM precursor leader peptide-binding protein	1551	upstream	False	True	T1	core
+5652736	-	SC_RS28135	SCO5194		5651416	5652012	+	M48 metallopeptidase family protein	724	downstream_far	False	True	T1	core
+5652736	-	SC_RS28140	SCO5195		5652152	5653906	+	TerD family protein	0	gene_body	True	True	T1	core
+5652736	-	SC_RS28145	SCO5196		5653920	5654600	+	AIM24 family protein	1184	upstream	False	True	T1	core
+5652736	-	SC_RS28150	SCO5197		5654618	5655373	+	AIM24 family protein	1882	upstream	False	True	T1	core
+5697997	-	SC_RS28355	SCO5235		5695480	5696970	+	glycoside hydrolase family 3 protein	1027	downstream_far	False	True	T1	core
+5697997	-	SC_RS28360	SCO5236	nagB	5697291	5698076	-	glucosamine-6-phosphate deaminase	0	gene_body	True	True	T1	core
+5697997	-	SC_RS28365	SCO5237		5698211	5698963	-	SDR family oxidoreductase	214	downstream	True	True	T1	core
+5697997	-	SC_RS28370	SCO5238		5699058	5699702	+	TetR/AcrR family transcriptional regulator	1061	upstream	False	True	T1	core
+5724200	-	SC_RS28490	SCO5262		5721695	5722660	+	zinc-binding dehydrogenase	1540	downstream_far	False	True	T1	core
+5724200	-	SC_RS28495			5722789	5722998	+	helix-turn-helix domain-containing protein	1202	downstream_far	False	True	T1	core
+5724200	-	SC_RS28500	SCO5263		5722998	5723564	+	Clp protease N-terminal domain-containing protein	636	downstream_far	False	True	T1	core
+5724200	-	SC_RS28505	SCO5264		5723633	5724715	-	PadR family transcriptional regulator	0	gene_body	True	True	T1	core
+5724200	-	SC_RS28510	SCO5265		5724717	5725667	-	DUF4097 family beta strand repeat-containing protein	517	downstream_far	False	True	T1	core
+5724200	-	SC_RS28515	SCO5266		5725804	5726637	+	hypothetical protein	1604	upstream	False	True	T1	core
+5753297	-	SC_RS28590	SCO5281		5749846	5753664	-	multifunctional oxoglutarate decarboxylase/oxoglutarate dehydrogenase thiamine pyrophosphate-binding subunit/dihydrolipoyllysine-residue succinyltransferase subunit	0	gene_body	True	True	T1	core
+5753297	-	SC_RS28595	SCO5282		5753949	5755076	-	sensor histidine kinase	652	downstream_far	False	True	T1	core
+5753297	-	SC_RS28600	SCO5283		5755073	5755807	-	response regulator transcription factor	1776	downstream_far	False	True	T1	core
+5753341	-	SC_RS28590	SCO5281		5749846	5753664	-	multifunctional oxoglutarate decarboxylase/oxoglutarate dehydrogenase thiamine pyrophosphate-binding subunit/dihydrolipoyllysine-residue succinyltransferase subunit	0	gene_body	True	True	T1	core
+5753341	-	SC_RS28595	SCO5282		5753949	5755076	-	sensor histidine kinase	608	downstream_far	False	True	T1	core
+5753341	-	SC_RS28600	SCO5283		5755073	5755807	-	response regulator transcription factor	1732	downstream_far	False	True	T1	core
+5753342	-	SC_RS28590	SCO5281		5749846	5753664	-	multifunctional oxoglutarate decarboxylase/oxoglutarate dehydrogenase thiamine pyrophosphate-binding subunit/dihydrolipoyllysine-residue succinyltransferase subunit	0	gene_body	True	True	T1	core
+5753342	-	SC_RS28595	SCO5282		5753949	5755076	-	sensor histidine kinase	607	downstream_far	False	True	T1	core
+5753342	-	SC_RS28600	SCO5283		5755073	5755807	-	response regulator transcription factor	1731	downstream_far	False	True	T1	core
+5753480	-	SC_RS28590	SCO5281		5749846	5753664	-	multifunctional oxoglutarate decarboxylase/oxoglutarate dehydrogenase thiamine pyrophosphate-binding subunit/dihydrolipoyllysine-residue succinyltransferase subunit	0	gene_body	True	True	T1	core
+5753480	-	SC_RS28595	SCO5282		5753949	5755076	-	sensor histidine kinase	469	downstream	True	True	T1	core
+5753480	-	SC_RS28600	SCO5283		5755073	5755807	-	response regulator transcription factor	1593	downstream_far	False	True	T1	core
+5792804	-	SC_RS28780	SCO5320		5790104	5791297	-	SchA/CurD-like domain-containing protein	1507	upstream	False	True	T1	core
+5792804	-	SC_RS28785	SCO5321		5791641	5793524	+	FAD-dependent oxidoreductase	0	gene_body	True	True	T1	core
+5792804	-	SC_RS28790	SCO5322		5793622	5794470	+	patatin-like phospholipase family protein	818	upstream	False	True	T1	core
+5792804	-	SC_RS28795	SCO5323		5794528	5795022	-	Lrp/AsnC family transcriptional regulator	1724	downstream_far	False	True	T1	core
+5792805	-	SC_RS28780	SCO5320		5790104	5791297	-	SchA/CurD-like domain-containing protein	1508	upstream	False	True	T1	core
+5792805	-	SC_RS28785	SCO5321		5791641	5793524	+	FAD-dependent oxidoreductase	0	gene_body	True	True	T1	core
+5792805	-	SC_RS28790	SCO5322		5793622	5794470	+	patatin-like phospholipase family protein	817	upstream	False	True	T1	core
+5792805	-	SC_RS28795	SCO5323		5794528	5795022	-	Lrp/AsnC family transcriptional regulator	1723	downstream_far	False	True	T1	core
+5861379	-	SC_RS29130	SCO5390		5858868	5859896	-	LLM class flavin-dependent oxidoreductase	1483	upstream	False	True	T1	core
+5861379	-	SC_RS29135	SCO5391		5860153	5860485	+	ATP/GTP-binding protein	894	downstream_far	False	True	T1	core
+5861379	-	SC_RS29140	SCO5392		5860494	5861363	-	ABC transporter permease subunit	16	promoter	True	True	T1	core
+5861379	-	SC_RS29145	SCO5393		5861360	5862631	-	ABC transporter ATP-binding protein	0	gene_body	True	True	T1	core
+5861379	-	SC_RS29150	SCO5394		5862780	5863556	-	ABC transporter permease	1401	downstream_far	False	True	T1	core
+5902394	-	SC_RS29320	SCO5428		5899804	5900694	-	carbohydrate ABC transporter permease	1700	upstream	False	True	T1	core
+5902394	-	SC_RS29325	SCO5429		5900696	5901637	-	carbohydrate ABC transporter permease	757	upstream	False	True	T1	core
+5902394	-	SC_RS29330	SCO5430		5901634	5903016	-	extracellular solute-binding protein	0	gene_body	True	True	T1	core
+5902394	-	SC_RS29340	SCO5431		5903536	5904399	-	5'-methylthioadenosine/S-adenosylhomocysteine nucleosidase family protein	1142	downstream_far	False	True	T1	core
+5974530	+	SC_RS29615	SCO5486		5971928	5973097	+	cysteine desulfurase family protein	1433	downstream_far	False	True	T1	core
+5974530	+	SC_RS29620	SCO5487		5973134	5973862	-	N-acetylmuramoyl-L-alanine amidase	668	upstream	False	True	T1	core
+5974530	+	SC_RS29625	SCO5488	mnmA	5973924	5975054	+	tRNA 2-thiouridine(34) synthase MnmA	0	gene_body	True	True	T1	core
+5974530	+	SC_RS29630	SCO5489		5974936	5975880	-	alpha/beta fold hydrolase	406	downstream	True	True	T1	core
+5974530	+	SC_RS29635	SCO5490		5975918	5976259	-	DUF427 domain-containing protein	1388	downstream_far	False	True	T1	core
+5974530	+	SC_RS29640	SCO5491		5976351	5976890	+	LOG family protein	1821	upstream	False	True	T1	core
+6056054	-	SC_RS29985	SCO5555		6054328	6054558	+	SCO5555 family protein	1496	downstream_far	False	True	T1	core
+6056054	-	SC_RS29990	SCO5556		6054696	6055352	+	HU family DNA-binding protein	702	downstream_far	False	True	T1	core
+6056054	-	SC_RS29995	SCO5557		6055467	6055700	-	hypothetical protein	354	promoter	True	True	T1	core
+6056054	-	SC_RS30000	SCO5557a	cofC	6055710	6056348	-	2-phospho-L-lactate guanylyltransferase	0	gene_body	True	True	T1	core
+6056054	-	SC_RS30005	SCO5558		6056492	6057286	+	lysophospholipid acyltransferase family protein	438	promoter	True	True	T1	core
+6056054	-	SC_RS30010	SCO5559		6057283	6058293	+	NAD(P)H-dependent glycerol-3-phosphate dehydrogenase	1229	upstream	False	True	T1	core
+6056055	-	SC_RS29985	SCO5555		6054328	6054558	+	SCO5555 family protein	1497	downstream_far	False	True	T1	core
+6056055	-	SC_RS29990	SCO5556		6054696	6055352	+	HU family DNA-binding protein	703	downstream_far	False	True	T1	core
+6056055	-	SC_RS29995	SCO5557		6055467	6055700	-	hypothetical protein	355	promoter	True	True	T1	core
+6056055	-	SC_RS30000	SCO5557a	cofC	6055710	6056348	-	2-phospho-L-lactate guanylyltransferase	0	gene_body	True	True	T1	core
+6056055	-	SC_RS30005	SCO5558		6056492	6057286	+	lysophospholipid acyltransferase family protein	437	promoter	True	True	T1	core
+6056055	-	SC_RS30010	SCO5559		6057283	6058293	+	NAD(P)H-dependent glycerol-3-phosphate dehydrogenase	1228	upstream	False	True	T1	core
+6129444	-	SC_RS30365	SCO5628		6127060	6128235	+	phosphatidate cytidylyltransferase	1209	downstream_far	False	True	T1	core
+6129444	-	SC_RS30370	SCO5629	fxsT	6128360	6131020	-	FxSxx-COOH system tetratricopeptide repeat protein	0	gene_body	True	True	T1	core
+6129445	-	SC_RS30365	SCO5628		6127060	6128235	+	phosphatidate cytidylyltransferase	1210	downstream_far	False	True	T1	core
+6129445	-	SC_RS30370	SCO5629	fxsT	6128360	6131020	-	FxSxx-COOH system tetratricopeptide repeat protein	0	gene_body	True	True	T1	core
+6130226	-	SC_RS30365	SCO5628		6127060	6128235	+	phosphatidate cytidylyltransferase	1991	downstream_far	False	True	T1	core
+6130226	-	SC_RS30370	SCO5629	fxsT	6128360	6131020	-	FxSxx-COOH system tetratricopeptide repeat protein	0	gene_body	True	True	T1	core
+6130226	-	SC_RS30375	SCO5630		6131534	6132414	-	IS5-like element IS1648 family transposase	1308	downstream_far	False	True	T1	core
+6130227	-	SC_RS30365	SCO5628		6127060	6128235	+	phosphatidate cytidylyltransferase	1992	downstream_far	False	True	T1	core
+6130227	-	SC_RS30370	SCO5629	fxsT	6128360	6131020	-	FxSxx-COOH system tetratricopeptide repeat protein	0	gene_body	True	True	T1	core
+6130227	-	SC_RS30375	SCO5630		6131534	6132414	-	IS5-like element IS1648 family transposase	1307	downstream_far	False	True	T1	core
+6143025	+	SC_RS30430	SCO5642		6140819	6141571	-	toll/interleukin-1 receptor domain-containing protein	1454	upstream	False	True	T1	core
+6143025	+	SC_RS30435	SCO5644		6142261	6142887	+	hypothetical protein	138	downstream	True	True	T1	core
+6143025	+	SC_RS30440	SCO5645	rlmN	6143019	6144125	+	23S rRNA (adenine(2503)-C(2))-methyltransferase RlmN	0	gene_body	True	True	T1	core
+6143025	+	SC_RS30445	SCO5646		6144424	6145470	+	thiamine ABC transporter substrate-binding protein	1399	upstream	False	True	T1	core
+6172438	-	SC_RS30565	SCO5670		6169818	6170618	+	ABC transporter permease	1820	downstream_far	False	True	T1	core
+6172438	-	SC_RS30570	SCO5671		6170654	6172081	+	NAD(P)/FAD-dependent oxidoreductase	357	downstream	True	True	T1	core
+6172438	-	SC_RS30575	SCO5672		6172204	6172662	+	hypothetical protein	0	gene_body	True	True	T1	core
+6172438	-	SC_RS30580	SCO5673		6172819	6174636	+	chitinase	381	promoter	True	True	T1	core
+6216859	+	SC_RS30730	SCO5703	rimP	6214338	6214871	+	ribosome maturation factor RimP	1988	downstream_far	False	True	T1	core
+6216859	+	SC_RS30735	SCO5704	nusA	6214874	6215896	+	transcription termination factor NusA	963	downstream_far	False	True	T1	core
+6216859	+	SC_RS30740	SCO5705		6215999	6216304	+	YlxR family protein	555	downstream_far	False	True	T1	core
+6216859	+	SC_RS30745	SCO5706	infB	6216466	6219567	+	translation initiation factor IF-2	0	gene_body	True	True	T1	core
+6223688	-	SC_RS30765	SCO5710		6221737	6225837	+	trypsin-like peptidase domain-containing protein	0	gene_body	True	True	T1	core
+6223689	-	SC_RS30765	SCO5710		6221737	6225837	+	trypsin-like peptidase domain-containing protein	0	gene_body	True	True	T1	core
+6233236	-	SC_RS30790	SCO5715		6230271	6231317	-	ABC transporter permease	1919	upstream	False	True	T1	core
+6233236	-	SC_RS30795	SCO5716		6231310	6233175	-	ABC transporter substrate-binding protein	61	promoter	True	True	T1	core
+6233236	-	SC_RS30800	SCO5717		6233478	6236729	-	SCO5717 family growth-regulating ATPase	242	downstream	True	True	T1	core
+6245325	-	SC_RS30825	SCO5722	mycP	6242668	6243909	+	type VII secretion-associated serine protease mycosin	1416	downstream_far	False	True	T1	core
+6245325	-	SC_RS30830	SCO5723		6243938	6244234	-	DUF397 domain-containing protein	1091	upstream	False	True	T1	core
+6245325	-	SC_RS30835	SCO5724		6244580	6244912	+	WXG100 family type VII secretion target	413	downstream	True	True	T1	core
+6245325	-	SC_RS30840	SCO5725		6244949	6245260	+	WXG100 family type VII secretion target	65	downstream	True	True	T1	core
+6245325	-	SC_RS30845	SCO5727		6245884	6246486	+	hypothetical protein	559	upstream	False	True	T1	core
+6245325	-	SC_RS30850	SCO5728		6246517	6247155	-	hypothetical protein	1192	downstream_far	False	True	T1	core
+6245325	-	SC_RS30855	SCO5729		6247184	6249421	-	DUF6571 family protein	1859	downstream_far	False	True	T1	core
+6337175	-	SC_RS31220	SCO5796	hflX	6334502	6335995	+	GTPase HflX	1180	downstream_far	False	True	T1	core
+6337175	-	SC_RS31225	SCO5797		6336091	6337308	-	trypsin-like serine peptidase	0	gene_body	True	True	T1	core
+6337175	-	SC_RS31230	SCO5798		6337406	6338635	-	trypsin-like serine peptidase	231	downstream	True	True	T1	core
+6337175	-	SC_RS31235	SCO5799		6338949	6340547	+	aminotransferase class III-fold pyridoxal phosphate-dependent enzyme	1774	upstream	False	True	T1	core
+6337530	-	SC_RS31220	SCO5796	hflX	6334502	6335995	+	GTPase HflX	1535	downstream_far	False	True	T1	core
+6337530	-	SC_RS31225	SCO5797		6336091	6337308	-	trypsin-like serine peptidase	222	promoter	True	True	T1	core
+6337530	-	SC_RS31230	SCO5798		6337406	6338635	-	trypsin-like serine peptidase	0	gene_body	True	True	T1	core
+6337530	-	SC_RS31235	SCO5799		6338949	6340547	+	aminotransferase class III-fold pyridoxal phosphate-dependent enzyme	1419	upstream	False	True	T1	core
+6337641	-	SC_RS31220	SCO5796	hflX	6334502	6335995	+	GTPase HflX	1646	downstream_far	False	True	T1	core
+6337641	-	SC_RS31225	SCO5797		6336091	6337308	-	trypsin-like serine peptidase	333	promoter	True	True	T1	core
+6337641	-	SC_RS31230	SCO5798		6337406	6338635	-	trypsin-like serine peptidase	0	gene_body	True	True	T1	core
+6337641	-	SC_RS31235	SCO5799		6338949	6340547	+	aminotransferase class III-fold pyridoxal phosphate-dependent enzyme	1308	upstream	False	True	T1	core
+6363780	-	SC_RS31320	SCO5816		6361399	6363003	+	DUF4192 domain-containing protein	777	downstream_far	False	True	T1	core
+6363780	-	SC_RS31325	SCO5817		6363135	6363893	+	NUDIX hydrolase	0	gene_body	True	True	T1	core
+6363780	-	SC_RS31330	SCO5818		6363949	6366183	+	ABC transporter ATP-binding protein	169	promoter	True	True	T1	core
+6725221	-	SC_RS32830	SCO6117		6722506	6723300	+	copper homeostasis protein CutC	1921	downstream_far	False	True	T1	core
+6725221	-	SC_RS32835	SCO6118		6723358	6724296	+	AraC family transcriptional regulator	925	downstream_far	False	True	T1	core
+6725221	-	SC_RS32840	SCO6119		6724307	6724990	+	helix-turn-helix transcriptional regulator	231	downstream	True	True	T1	core
+6725221	-	SC_RS32845	SCO6120		6725136	6725624	+	DinB family protein	0	gene_body	True	True	T1	core
+6725221	-	SC_RS32850	SCO6121		6725692	6726270	-	TetR/AcrR family transcriptional regulator	471	downstream	True	True	T1	core
+6725221	-	SC_RS32855	SCO6122		6726363	6726809	+	anthrone oxygenase family protein	1142	upstream	False	True	T1	core
+6725221	-	SC_RS32860	SCO6123		6726883	6727275	-	VOC family protein	1662	downstream_far	False	True	T1	core
+6751519	-	SC_RS32990	SCO6148		6748555	6749883	+	radical SAM protein	1636	downstream_far	False	True	T1	core
+6751519	-	SC_RS32995	SCO6149	rsgA	6750131	6751231	+	ribosome small subunit-dependent GTPase A	288	downstream	True	True	T1	core
+6751519	-	SC_RS33000	SCO6150		6751253	6752737	+	DNA-3-methyladenine glycosylase 2 family protein	0	gene_body	True	True	T1	core
+6751519	-	SC_RS33005	SCO6151		6752734	6753294	+	methylated-DNA--[protein]-cysteine S-methyltransferase	1215	upstream	False	True	T1	core
+6751519	-	SC_RS33010	SCO6152		6753257	6753739	-	DUF456 domain-containing protein	1738	downstream_far	False	True	T1	core
+6751520	-	SC_RS32990	SCO6148		6748555	6749883	+	radical SAM protein	1637	downstream_far	False	True	T1	core
+6751520	-	SC_RS32995	SCO6149	rsgA	6750131	6751231	+	ribosome small subunit-dependent GTPase A	289	downstream	True	True	T1	core
+6751520	-	SC_RS33000	SCO6150		6751253	6752737	+	DNA-3-methyladenine glycosylase 2 family protein	0	gene_body	True	True	T1	core
+6751520	-	SC_RS33005	SCO6151		6752734	6753294	+	methylated-DNA--[protein]-cysteine S-methyltransferase	1214	upstream	False	True	T1	core
+6751520	-	SC_RS33010	SCO6152		6753257	6753739	-	DUF456 domain-containing protein	1737	downstream_far	False	True	T1	core
+6764648	-	SC_RS33050	SCO6160	secD	6762662	6765049	-	protein translocase subunit SecD	0	gene_body	True	True	T1	core
+6764648	-	SC_RS33055	SCO6161		6765129	6765518	-	hypothetical protein	481	downstream	True	True	T1	core
+6764648	-	SC_RS33060	SCO6162		6765623	6766405	-	response regulator	975	downstream_far	False	True	T1	core
+6764648	-	SC_RS33065	SCO6163		6766414	6767361	-	HAMP domain-containing sensor histidine kinase	1766	downstream_far	False	True	T1	core
+6794677	-	SC_RS33185	SCO6187	rfaE2	6792490	6793869	+	D-glycero-beta-D-manno-heptose 1-phosphate adenylyltransferase	808	downstream_far	False	True	T1	core
+6794677	-	SC_RS33190			6794550	6795566	+	glycosyltransferase family 9 protein	0	gene_body	True	True	T1	core
+6794677	-	SC_RS33195	SCO6189		6795563	6796516	+	glycosyltransferase family 2 protein	886	upstream	False	True	T1	core
+6794677	-	SC_RS33200	SCO6190		6796513	6797409	+	glycosyltransferase family 2 protein	1836	upstream	False	True	T1	core
+6857841	-	SC_RS33410	SCO6232		6854701	6857163	+	glycoside hydrolase family 2 protein	678	downstream_far	False	True	T1	core
+6857841	-	SC_RS33415	SCO6233		6857160	6858188	+	LacI family DNA-binding transcriptional regulator	0	gene_body	True	True	T1	core
+6857841	-	SC_RS33420	SCO6234		6858440	6859594	+	cellulase family glycosylhydrolase	599	upstream	False	True	T1	core
+6857841	-	SC_RS33425	SCO6235		6859658	6859903	-	DUF397 domain-containing protein	1817	downstream_far	False	True	T1	core
+6907097	-	SC_RS33615	SCO6273		6900898	6907317	-	thioester reductase domain-containing protein	0	gene_body	True	True	T1	core
+6941576	+	SC_RS33650	SCO6280		6938024	6939643	+	AfsR/SARP family transcriptional regulator	1933	downstream_far	False	True	T1	core
+6941576	+	SC_RS33655	SCO6281		6939907	6941544	+	FAD-binding oxidoreductase	32	downstream	True	True	T1	core
+6941576	+	SC_RS33660	SCO6282		6941746	6942516	-	SDR family oxidoreductase	170	downstream	True	True	T1	core
+6941576	+	SC_RS33665	SCO6283		6942661	6943506	+	NAD(P)H-binding protein	1085	upstream	False	True	T1	core
+6965962	-	SC_RS33765	SCO6304		6963368	6964300	-	VOC family protein	1662	upstream	False	True	T1	core
+6965962	-	SC_RS33770	SCO6305		6964306	6965304	-	amidohydrolase family protein	658	upstream	False	True	T1	core
+6965962	-	SC_RS33775	SCO6306		6965355	6966485	-	FAD-dependent oxidoreductase	0	gene_body	True	True	T1	core
+6965962	-	SC_RS33780	SCO6307		6966512	6967474	-	cyclase family protein	550	downstream_far	False	True	T1	core
+6965962	-	SC_RS33785	SCO6308		6967471	6968472	-	fumarylacetoacetate hydrolase family protein	1509	downstream_far	False	True	T1	core
+6993087	-	SC_RS33890	SCO6333		6990876	6991409	-	hypothetical protein	1678	upstream	False	True	T1	core
+6993087	-	SC_RS33895	SCO6334		6991755	6994433	-	LuxR C-terminal-related transcriptional regulator	0	gene_body	True	True	T1	core
+6993087	-	SC_RS33900			6994439	6994627	-	hypothetical protein	1352	downstream_far	False	True	T1	core
+7039493	-	SC_RS34085	SCO6375		7037737	7038399	-	fasciclin domain-containing protein	1094	upstream	False	True	T1	core
+7039493	-	SC_RS34090	SCO6376		7038757	7039656	+	hypothetical protein	0	gene_body	True	True	T1	core
+7039493	-	SC_RS34095	SCO6377		7039699	7040895	-	ricin-type beta-trefoil lectin domain protein	206	downstream	True	True	T1	core
+7119124	-	SC_RS34365	SCO6434		7116513	7117874	+	lysine N(6)-hydroxylase/L-ornithine N(5)-oxygenase family protein	1250	downstream_far	False	True	T1	core
+7119124	-	SC_RS34370	SCO6435		7117871	7118257	+	cupin domain-containing protein	867	downstream_far	False	True	T1	core
+7119124	-	SC_RS34375	SCO6436		7118254	7119774	+	class I tRNA ligase family protein	0	gene_body	True	True	T1	core
+7119124	-	SC_RS34380	SCO6437		7119848	7121122	+	ATP-grasp domain-containing protein	724	upstream	False	True	T1	core
+7122007	+	SC_RS34380	SCO6437		7119848	7121122	+	ATP-grasp domain-containing protein	885	downstream_far	False	True	T1	core
+7122007	+	SC_RS34385	SCO6438	lysA	7121125	7122447	+	diaminopimelate decarboxylase	0	gene_body	True	True	T1	core
+7122007	+	SC_RS34390	SCO6439		7122416	7122844	-	cold-shock protein	409	downstream	True	True	T1	core
+7122007	+	SC_RS34395	SCO6440		7123131	7123883	+	(5-formylfuran-3-yl)methyl phosphate synthase	1124	upstream	False	True	T1	core
+7122007	+	SC_RS34400	SCO6441		7123886	7125292	+	aldehyde dehydrogenase family protein	1879	upstream	False	True	T1	core
+7126992	-	SC_RS34400	SCO6441		7123886	7125292	+	aldehyde dehydrogenase family protein	1700	downstream_far	False	True	T1	core
+7126992	-	SC_RS34405	SCO6442		7125293	7126396	+	NAD(P)-dependent alcohol dehydrogenase	596	downstream_far	False	True	T1	core
+7126992	-	SC_RS34410	SCO6443		7126477	7127388	+	class I SAM-dependent methyltransferase	0	gene_body	True	True	T1	core
+7126992	-	SC_RS34415	SCO6444		7127545	7129407	+	gamma-glutamyltransferase family protein	553	upstream	False	True	T1	core
+7188374	+	SC_RS34655	SCO6492		7184832	7186829	+	DUF5107 domain-containing protein	1545	downstream_far	False	True	T1	arm
+7188374	+	SC_RS34660	SCO6493		7186861	7187208	-	VOC family protein	1166	upstream	False	True	T1	arm
+7188374	+	SC_RS34665	SCO6494		7187289	7187840	+	phage holin family protein	534	downstream_far	False	True	T1	arm
+7188374	+	SC_RS34670	SCO6495		7187926	7188888	-	LLM class F420-dependent oxidoreductase	0	gene_body	True	True	T1	arm
+7188374	+	SC_RS34675	SCO6496		7189075	7190964	+	FAD-dependent oxidoreductase	701	upstream	False	True	T1	arm
+7272284	+	SC_RS35030	SCO6567		7269589	7271106	+	sugar ABC transporter ATP-binding protein	1178	downstream_far	False	True	T1	arm
+7272284	+	SC_RS35035	SCO6568		7271103	7272122	+	ABC transporter permease	162	downstream	True	True	T1	arm
+7272284	+	SC_RS35040	SCO6569		7272140	7273186	+	substrate-binding domain-containing protein	0	gene_body	True	True	T1	arm
+7272284	+	SC_RS35045	SCO6570		7273272	7274564	+	Gfo/Idh/MocA family protein	988	upstream	False	True	T1	arm
+7294986	-	SC_RS35110	SCO6583	frc	7292271	7293503	-	formyl-CoA transferase	1483	upstream	False	True	T1	arm
+7294986	-	SC_RS35115	SCO6584		7293515	7295197	-	thiamine pyrophosphate-binding protein	0	gene_body	True	True	T1	arm
+7294986	-	SC_RS35120	SCO6585	sucC	7295341	7296492	+	ADP-forming succinate--CoA ligase subunit beta	355	promoter	True	True	T1	arm
+7294986	-	SC_RS35125	SCO6586	sucD	7296507	7297433	+	succinate--CoA ligase subunit alpha	1521	upstream	False	True	T1	arm
+7380014	+	SC_RS35405	SCO6643		7378334	7378888	+	GNAT family N-acetyltransferase	1126	downstream_far	False	True	T1	arm
+7380014	+	SC_RS35410	SCO6644		7378997	7380508	+	ABC transporter substrate-binding protein	0	gene_body	True	True	T1	arm
+7380014	+	SC_RS35415	SCO6645		7380512	7382317	+	ABC transporter permease subunit	498	promoter	True	True	T1	arm
+7394599	-	SC_RS35470	SCO6657		7392553	7394076	-	membrane-associated oxidoreductase	523	upstream	False	True	T1	arm
+7394599	-	SC_RS35475	SCO6658	gnd	7394148	7395029	-	phosphogluconate dehydrogenase (NAD(+)-dependent%2C decarboxylating)	0	gene_body	True	True	T1	arm
+7394599	-	SC_RS35480	SCO6659	pgi	7395031	7396683	-	glucose-6-phosphate isomerase	432	downstream	True	True	T1	arm
+7487450	-	SC_RS35850	SCO6732		7485381	7487561	+	3-hydroxyacyl-CoA dehydrogenase NAD-binding domain-containing protein	0	gene_body	True	True	T1	arm
+7487450	-	SC_RS35855	SCO6733		7487571	7488326	-	MerR family transcriptional regulator	121	downstream	True	True	T1	arm
+7487450	-	SC_RS35860	SCO6734		7488549	7490018	+	amino acid permease	1099	upstream	False	True	T1	arm
+7489808	-	SC_RS35855	SCO6733		7487571	7488326	-	MerR family transcriptional regulator	1482	upstream	False	True	T1	arm
+7489808	-	SC_RS35860	SCO6734		7488549	7490018	+	amino acid permease	0	gene_body	True	True	T1	arm
+7489808	-	SC_RS35865	SCO6735		7490061	7490546	+	macro domain-containing protein	253	promoter	True	True	T1	arm
+7489808	-	SC_RS35870	SCO6736		7490559	7492055	-	M1 family metallopeptidase	751	downstream_far	False	True	T1	arm
+7559499	-	SC_RS36155	SCO6795		7557438	7557872	+	roadblock/LC7 domain-containing protein	1627	downstream_far	False	True	T1	arm
+7559499	-	SC_RS36160	SCO6796		7557875	7558249	+	DUF742 domain-containing protein	1250	downstream_far	False	True	T1	arm
+7559499	-	SC_RS36165	SCO6797		7558227	7558856	+	GTP-binding protein	643	downstream_far	False	True	T1	arm
+7559499	-	SC_RS36170	SCO6798		7558853	7559428	+	GAF domain-containing protein	71	downstream	True	True	T1	arm
+7559499	-	SC_RS36175	SCO6799	tdh	7559630	7560658	+	L-threonine 3-dehydrogenase	131	promoter	True	True	T1	arm
+7559499	-	SC_RS36180	SCO6800		7560698	7561891	+	glycine C-acetyltransferase	1199	upstream	False	True	T1	arm
+7560764	+	SC_RS36165	SCO6797		7558227	7558856	+	GTP-binding protein	1908	downstream_far	False	True	T1	arm
+7560764	+	SC_RS36170	SCO6798		7558853	7559428	+	GAF domain-containing protein	1336	downstream_far	False	True	T1	arm
+7560764	+	SC_RS36175	SCO6799	tdh	7559630	7560658	+	L-threonine 3-dehydrogenase	106	downstream	True	True	T1	arm
+7560764	+	SC_RS36180	SCO6800		7560698	7561891	+	glycine C-acetyltransferase	0	gene_body	True	True	T1	arm
+7560764	+	SC_RS36185	SCO6801		7561923	7562825	+	LysR family transcriptional regulator	1159	upstream	False	True	T1	arm
+7615297	-	SC_RS36395	SCO6841		7613491	7614387	+	DUF5655 domain-containing protein	910	downstream_far	False	True	T1	arm
+7615297	-	SC_RS36400	SCO6842		7614564	7615928	-	SPDY domain-containing protein	0	gene_body	True	True	T1	arm
+7615297	-	SC_RS36405	SCO6843		7615994	7617112	-	DnaB-like helicase N-terminal domain-containing protein	697	downstream_far	False	True	T1	arm
+7615297	-	SC_RS36410	SCO6844		7617112	7618383	-	DNA cytosine methyltransferase	1815	downstream_far	False	True	T1	arm
+7620816	-	SC_RS36415			7618380	7619342	-	adenine nucleotide alpha hydrolase family protein	1474	upstream	False	True	T1	arm
+7620816	-	SC_RS36420	SCO6846		7619557	7619847	-	SPDY domain-containing protein	969	upstream	False	True	T1	arm
+7620816	-	SC_RS36430	SCO6847		7620290	7620910	-	hypothetical protein	0	gene_body	True	True	T1	arm
+7620816	-	SC_RS36435	SCO6848		7621003	7621461	-	XF1762 family protein	187	downstream	True	True	T1	arm
+7620816	-	SC_RS36440	SCO6849		7621458	7623257	-	type IV secretory system conjugative DNA transfer family protein	642	downstream_far	False	True	T1	arm
+7634345	-	SC_RS36500	SCO6861		7631006	7632703	-	caspase%2C EACC1-associated type	1642	upstream	False	True	T1	arm
+7634345	-	SC_RS36505	SCO6862		7632712	7633056	-	effector-associated constant component EACC1	1289	upstream	False	True	T1	arm
+7634345	-	SC_RS36510	SCO6863		7633190	7633681	-	hypothetical protein	664	upstream	False	True	T1	arm
+7634345	-	SC_RS36515	SCO6864		7633888	7635678	-	vWA domain-containing protein	0	gene_body	True	True	T1	arm
+7634345	-	SC_RS36520	SCO6865		7635675	7636820	-	AAA family ATPase	1330	downstream_far	False	True	T1	arm
+7652660	-	SC_RS36605	SCO6881		7649943	7651331	-	SCO6881 family protein	1329	upstream	False	True	T1	arm
+7652660	-	SC_RS36610	SCO6882		7651368	7652060	-	hypothetical protein	600	upstream	False	True	T1	arm
+7652660	-	SC_RS36615	SCO6883		7652060	7652374	-	DUF6112 family protein	286	promoter	True	True	T1	arm
+7652660	-	SC_RS36620	SCO6884		7652497	7653630	-	C40 family peptidase	0	gene_body	True	True	T1	arm
+7652660	-	SC_RS36625	SCO6885		7654146	7654901	+	DNA-methyltransferase	1486	upstream	False	True	T1	arm
+7663067	+	SC_RS36680	SCO6896		7660990	7662225	+	MFS transporter	842	downstream_far	False	True	T1	arm
+7663067	+	SC_RS36685	SCO6897		7662267	7662569	+	hypothetical protein	498	downstream	True	True	T1	arm
+7663067	+	SC_RS36690	SCO6898		7662605	7663855	+	ATP-binding protein	0	gene_body	True	True	T1	arm
+7663067	+	SC_RS36695	SCO6899		7663852	7665003	+	MFS transporter	785	upstream	False	True	T1	arm
+7663067	+	SC_RS36700	SCO6900		7665000	7665629	+	HAD family hydrolase	1933	upstream	False	True	T1	arm
+7674620	-	SC_RS36740	SCO6908		7672687	7673991	-	hypothetical protein	629	upstream	False	True	T1	arm
+7674620	-	SC_RS36745	SCO6909		7674846	7675178	+	hypothetical protein	226	promoter	True	True	T1	arm
+7674620	-	SC_RS36750	SCO6910		7675634	7676473	-	IS5-like element ISSco3 family transposase	1014	downstream_far	False	True	T1	arm
+7676159	-	SC_RS36745	SCO6909		7674846	7675178	+	hypothetical protein	981	downstream_far	False	True	T1	arm
+7676159	-	SC_RS36750	SCO6910		7675634	7676473	-	IS5-like element ISSco3 family transposase	0	gene_body	True	True	T1	arm
+7676159	-	SC_RS36755	SCO6911		7676742	7677550	+	IS5-like element IS1647 family transposase	583	upstream	False	True	T1	arm
+7676159	-	SC_RS36760	SCO6913		7677996	7678349	+	SPDY domain-containing protein	1837	upstream	False	True	T1	arm
+7676160	-	SC_RS36745	SCO6909		7674846	7675178	+	hypothetical protein	982	downstream_far	False	True	T1	arm
+7676160	-	SC_RS36750	SCO6910		7675634	7676473	-	IS5-like element ISSco3 family transposase	0	gene_body	True	True	T1	arm
+7676160	-	SC_RS36755	SCO6911		7676742	7677550	+	IS5-like element IS1647 family transposase	582	upstream	False	True	T1	arm
+7676160	-	SC_RS36760	SCO6913		7677996	7678349	+	SPDY domain-containing protein	1836	upstream	False	True	T1	arm
+7783699	+	SC_RS37260	SCO7007		7781548	7782447	-	lysylphosphatidylglycerol synthase transmembrane domain-containing protein	1252	upstream	False	True	T1	arm
+7783699	+	SC_RS37265	SCO7008		7782661	7784535	+	ABC transporter ATP-binding protein	0	gene_body	True	True	T1	arm
+7783699	+	SC_RS37270	SCO7009		7784586	7786367	-	ATP-binding SpoIIE family protein phosphatase	887	downstream_far	False	True	T1	arm
+7837660	-	SC_RS37440	SCO7043		7835428	7835715	+	helix-turn-helix domain-containing protein	1945	downstream_far	False	True	T1	arm
+7837660	-	SC_RS37445	SCO7044	crcB	7835928	7836392	+	fluoride efflux transporter CrcB	1268	downstream_far	False	True	T1	arm
+7837660	-	SC_RS37450	SCO7045		7836389	7836733	+	DUF190 domain-containing protein	927	downstream_far	False	True	T1	arm
+7837660	-	SC_RS37455	SCO7046	crcB	7836730	7837104	+	fluoride efflux transporter CrcB	556	downstream_far	False	True	T1	arm
+7837660	-	SC_RS37460	SCO7047		7837144	7837980	+	undecaprenyl-diphosphate phosphatase	0	gene_body	True	True	T1	arm
+7837660	-	SC_RS37465	SCO7048		7838003	7839061	-	fatty acid desaturase family protein	343	downstream	True	True	T1	arm
+7837660	-	SC_RS37470	SCO7049		7839198	7840130	+	glutaminase	1538	upstream	False	True	T1	arm
+7921343	-	SC_RS37860	SCO7127		7919133	7919627	-	cupin domain-containing protein	1716	upstream	False	True	T1	arm
+7921343	-	SC_RS37865	SCO7128		7919673	7921208	-	MFS transporter	135	promoter	True	True	T1	arm
+7921343	-	SC_RS37870	SCO7129		7921324	7921794	-	carboxymuconolactone decarboxylase family protein	0	gene_body	True	True	T1	arm
+7921343	-	SC_RS37875	SCO7130		7922097	7922885	+	DUF427 domain-containing protein	754	upstream	False	True	T1	arm
+7921343	-	SC_RS37880	SCO7131		7922986	7923936	+	alpha/beta hydrolase	1643	upstream	False	True	T1	arm
+7992334	-	SC_RS38155	SCO7188		7988871	7992590	-	S8 family serine peptidase	0	gene_body	True	True	T1	arm
+7992334	-	SC_RS38160	SCO7189		7992891	7993154	-	DUF2630 family protein	557	downstream_far	False	True	T1	arm
+7992334	-	SC_RS38165	SCO7190		7993470	7994357	+	aromatic prenyltransferase	1136	upstream	False	True	T1	arm
+8002470	-	SC_RS38200	SCO7196		7999751	8000539	-	potassium channel family protein	1931	upstream	False	True	T1	arm
+8002470	-	SC_RS38205	SCO7197		8000799	8002337	-	alanine/glycine:cation symporter family protein	133	promoter	True	True	T1	arm
+8002470	-	SC_RS38210	SCO7198		8002667	8003038	-	hypothetical protein	197	downstream	True	True	T1	arm
+8002470	-	SC_RS38215	SCO7200		8003571	8004116	-	nitroreductase family deazaflavin-dependent oxidoreductase	1101	downstream_far	False	True	T1	arm
+8002470	-	SC_RS38220	SCO7201		8004242	8004748	+	MarR family winged helix-turn-helix transcriptional regulator	1772	upstream	False	True	T1	arm
+8030244	+	SC_RS38325	SCO7222		8027802	8028512	-	TetR/AcrR family transcriptional regulator	1732	upstream	False	True	T1	arm
+8030244	+	SC_RS38330	SCO7223		8028659	8029780	+	FAD-dependent oxidoreductase	464	downstream	True	True	T1	arm
+8030244	+	SC_RS38335	SCO7224		8029922	8030377	-	DoxX family protein	0	gene_body	True	True	T1	arm
+8030244	+	SC_RS38340	SCO7225		8030688	8031422	+	lytic polysaccharide monooxygenase	444	promoter	True	True	T1	arm
+8030244	+	SC_RS38345	SCO7226		8031554	8031985	+	NfeD family protein	1310	upstream	False	True	T1	arm
+8030244	+	SC_RS38350	SCO7227		8031988	8033013	+	SPFH domain-containing protein	1744	upstream	False	True	T1	arm
+8046704	-	SC_RS38395	SCO7236	qcrB	8043825	8045489	-	cytochrome bc1 complex cytochrome b subunit	1215	upstream	False	True	T1	arm
+8046704	-	SC_RS38400	SCO7237		8045564	8045923	-	DUF6479 family protein	781	upstream	False	True	T1	arm
+8046704	-	SC_RS38405	SCO7238		8046083	8046460	+	four-helix bundle copper-binding protein	244	downstream	True	True	T1	arm
+8046704	-	SC_RS38410	SCO7239		8046501	8047403	+	oxygenase MpaB family protein	0	gene_body	True	True	T1	arm
+8046704	-	SC_RS38415	SCO7240		8047425	8049662	+	serine/threonine-protein kinase	721	upstream	False	True	T1	arm
+8127347	-	SC_RS38810	SCO7319		8125470	8126846	-	NAD(P)/FAD-dependent oxidoreductase	501	upstream	False	True	T1	arm
+8127347	-	SC_RS38815	SCO7320		8127055	8128797	-	PP2C family protein-serine/threonine phosphatase	0	gene_body	True	True	T1	arm
+8127347	-	SC_RS38820	SCO7321		8128794	8129858	-	SpoIIE family protein phosphatase	1447	downstream_far	False	True	T1	arm
+8157647	-	SC_RS38920	SCO7341		8154965	8155756	-	SigB/SigF/SigG family RNA polymerase sigma factor	1891	upstream	False	True	T1	arm
+8157647	-	SC_RS38925	SCO7342		8156060	8156584	+	hypothetical protein	1063	downstream_far	False	True	T1	arm
+8157647	-	SC_RS38930	SCO7343	hemC	8156604	8157545	-	hydroxymethylbilane synthase	102	promoter	True	True	T1	arm
+8157647	-	SC_RS38935	SCO7344		8157613	8158389	-	NPP1 family protein	0	gene_body	True	True	T1	arm
+8157647	-	SC_RS38940	SCO7345		8158531	8159511	-	ATP-dependent DNA ligase	884	downstream_far	False	True	T1	arm
+8157647	-	SC_RS38945	SCO7346		8159608	8161062	-	MFS transporter	1961	downstream_far	False	True	T1	arm
+8207949	-	SC_RS39175	SCO7394		8205523	8206461	+	DMT family transporter	1488	downstream_far	False	True	T1	arm
+8207949	-	SC_RS39180	SCO7395	proP	8206425	8207912	-	glycine betaine/L-proline transporter ProP	37	promoter	True	True	T1	arm
+8207949	-	SC_RS39185	SCO7396		8208050	8209387	-	lipase family protein	101	downstream	True	True	T1	arm
+8207949	-	SC_RS39190	SCO7397		8209545	8210141	-	3'-5' exonuclease	1596	downstream_far	False	True	T1	arm
+8233758	-	SC_RS39280	SCO7415		8230865	8232022	+	enolase C-terminal domain-like protein	1736	downstream_far	False	True	T1	arm
+8233758	-	SC_RS39285	SCO7416		8232052	8232456	-	hypothetical protein	1302	upstream	False	True	T1	arm
+8233758	-	SC_RS39290	SCO7417		8232555	8233778	-	cytochrome P450 family protein	0	gene_body	True	True	T1	arm
+8233758	-	SC_RS39295	SCO7418		8233775	8235016	-	cytochrome P450	17	downstream	True	True	T1	arm
+8233758	-	SC_RS39300	SCO7419		8235013	8235654	-	GTP-binding protein	1255	downstream_far	False	True	T1	arm
+8233758	-	SC_RS39305	SCO7420		8235635	8235982	-	DUF742 domain-containing protein	1877	downstream_far	False	True	T1	arm
+8373023	-	SC_RS39935	SCO7547		8369673	8371214	+	sulfatase-like hydrolase/transferase	1809	downstream_far	False	True	T1	arm
+8373023	-	SC_RS39940	SCO7548		8371247	8372236	+	formylglycine-generating enzyme family protein	787	downstream_far	False	True	T1	arm
+8373023	-	SC_RS39945	SCO7549		8372211	8372555	-	hypothetical protein	468	promoter	True	True	T1	arm
+8373023	-	SC_RS39950	SCO7550		8372680	8373498	-	glycerophosphodiester phosphodiesterase	0	gene_body	True	True	T1	arm
+8373023	-	SC_RS39955	SCO7551		8373704	8373907	-	hypothetical protein	681	downstream_far	False	True	T1	arm
+8373023	-	SC_RS39960	SCO7552		8373973	8374590	-	TetR/AcrR family transcriptional regulator	950	downstream_far	False	True	T1	arm
+8373023	-	SC_RS39965	SCO7553		8374690	8375652	+	zinc-binding dehydrogenase	1667	upstream	False	True	T1	arm
+8450515	-	SC_RS40305	SCO7622	pntB	8447193	8448653	-	Re/Si-specific NAD(P)(+) transhydrogenase subunit beta	1862	upstream	False	True	T1	arm
+8450515	-	SC_RS40310	SCO7623		8448650	8450224	-	Re/Si-specific NAD(P)(+) transhydrogenase subunit alpha	291	promoter	True	True	T1	arm
+8450515	-	SC_RS40315	SCO7624		8450331	8451026	-	TetR/AcrR family transcriptional regulator	0	gene_body	True	True	T1	arm
+8450515	-	SC_RS40320	SCO7625		8451080	8452201	+	FAD-dependent oxidoreductase	565	upstream	False	True	T1	arm
+8450515	-	SC_RS40325	SCO7626		8452226	8453704	-	FAD-dependent monooxygenase	1711	downstream_far	False	True	T1	arm
+8509637	-	SC_RS40600	SCO7682		8506283	8512972	+	non-ribosomal peptide synthetase	0	gene_body	True	True	T1	arm
+8523051	-	SC_RS40615	SCO7685		8519642	8521675	+	Gfo/Idh/MocA family oxidoreductase	1376	downstream_far	False	True	T1	arm
+8523051	-	SC_RS40620	SCO7686		8521684	8522919	+	cytochrome P450	132	downstream	True	True	T1	arm
+8523051	-	SC_RS40625	SCO7687		8522916	8523749	+	thioesterase II family protein	0	gene_body	True	True	T1	arm
+8523051	-	SC_RS40630	SCO7688		8523760	8524488	+	class I SAM-dependent methyltransferase	709	upstream	False	True	T1	arm
+8523051	-	SC_RS40635	SCO7689		8524485	8526347	+	ABC transporter ATP-binding protein	1434	upstream	False	True	T1	arm
+8568965	+	SC_RS40845	SCO7732		8566732	8567118	+	hypothetical protein	1847	downstream_far	False	True	T1	arm
+8568965	+	SC_RS40850	SCO7733	tap	8567132	8569351	+	telomere-associated protein Tap	0	gene_body	True	True	T1	arm
+8568965	+	SC_RS40855	SCO7734	tpg	8569361	8569918	+	telomere-protecting terminal protein Tpg	396	promoter	True	True	T1	arm
+8568965	+	SC_RS40860	SCO7735		8569962	8570174	+	AraC family transcriptional regulator	997	upstream	False	True	T1	arm
+8568965	+	SC_RS40865	SCO7736		8570209	8572470	-	FUSC family protein	1244	downstream_far	False	True	T1	arm
+8571413	-	SC_RS40855	SCO7734	tpg	8569361	8569918	+	telomere-protecting terminal protein Tpg	1495	downstream_far	False	True	T1	arm
+8571413	-	SC_RS40860	SCO7735		8569962	8570174	+	AraC family transcriptional regulator	1239	downstream_far	False	True	T1	arm
+8571413	-	SC_RS40865	SCO7736		8570209	8572470	-	FUSC family protein	0	gene_body	True	True	T1	arm
+8571413	-	SC_RS40870			8572975	8573685	-	hypothetical protein	1562	downstream_far	False	True	T1	arm
+8630724	-	SC_RS41190	SCO7809		8628356	8628988	-	TetR/AcrR family transcriptional regulator	1736	upstream	False	True	T1	arm
+8630724	-	SC_RS41195	SCO7810		8629028	8629804	+	SDR family oxidoreductase	920	downstream_far	False	True	T1	arm
+8630724	-	SC_RS41200	SCO7811		8630050	8630394	-	DUF998 domain-containing protein	330	promoter	True	True	T1	arm
+8630724	-	SC_RS41205	SCO7812		8630427	8631482	-	transposase	0	gene_body	True	True	T1	arm
+8630724	-	SC_RS41210	SCO7813		8631557	8632408	+	class I SAM-dependent methyltransferase	833	upstream	False	True	T1	arm
+52710	+	SC_RS02335	SCO0064		49821	51539	-	class I mannose-6-phosphate isomerase	1171	upstream	False	True	T2	arm
+52710	+	SC_RS00260	SCP1.48c		50418	51074	-	PIG-L deacetylase family protein	1636	upstream	False	True	T2	arm
+52710	+	SC_RS00265	SCP1.49c		51118	52008	-	aminoglycoside phosphotransferase family protein	702	upstream	False	True	T2	arm
+52710	+	SC_RS02340	SCO0065		51831	53144	+	ABC transporter substrate-binding protein	0	gene_body	True	True	T2	arm
+52710	+	SC_RS00270	SCP1.50c		52099	53301	-	GNAT family N-acetyltransferase	0	gene_body	True	True	T2	arm
+52710	+	SC_RS02345	SCO0066		53141	54100	+	carbohydrate ABC transporter permease	431	promoter	True	True	T2	arm
+52710	+	SC_RS00275	SCP1.51c		53318	53842	-	MaoC family dehydratase	608	downstream_far	False	True	T2	arm
+52710	+	SC_RS00280	SCP1.52c		53839	54702	-	HpcH/HpaI aldolase/citrate lyase family protein	1129	downstream_far	False	True	T2	arm
+52710	+	SC_RS02350	SCO0067		54103	54918	+	carbohydrate ABC transporter permease	1393	upstream	False	True	T2	arm
+52710	+	SC_RS00285	SCP1.53c	dmpG	54699	55715	-	4-hydroxy-2-oxovalerate aldolase	1989	downstream_far	False	True	T2	arm
+232457	+	SC_RS03135	SCO0241		229995	230669	+	TetR/AcrR family transcriptional regulator	1788	downstream_far	False	True	T2	arm
+232457	+	SC_RS01190	SCP1.227c		230263	230826	-	Rossmann-fold NAD(P)-binding domain-containing protein	1631	upstream	False	True	T2	arm
+232457	+	SC_RS01195			230887	231129	+	hypothetical protein	1328	downstream_far	False	True	T2	arm
+232457	+	SC_RS03140	SCO0242		231022	231465	+	VOC family protein	992	downstream_far	False	True	T2	arm
+232457	+	SC_RS03145	SCO0243		231475	231654	+	hypothetical protein	803	downstream_far	False	True	T2	arm
+232457	+	SC_RS01200	SCP1.228c		231676	232200	-	flavin reductase family protein	257	promoter	True	True	T2	arm
+232457	+	SC_RS01205	SCP1.229c		232231	232692	-	nuclear transport factor 2 family protein	0	gene_body	True	True	T2	arm
+232457	+	SC_RS03150	SCO0244		232508	233518	+	serine hydrolase	51	promoter	True	True	T2	arm
+232457	+	SC_RS01210	SCP1.230		232923	233864	+	helix-turn-helix transcriptional regulator	466	promoter	True	True	T2	arm
+232457	+	SC_RS03155	SCO0245		233854	234873	-	hemolysin family protein	1397	downstream_far	False	True	T2	arm
+232457	+	SC_RS01215	SCP1.231		233951	234604	+	NADPH-dependent F420 reductase	1494	upstream	False	True	T2	arm
+281968	-	SC_RS01450	SCP1.276		279323	280864	+	ISL3-like element IS466 family transposase	1104	downstream_far	False	True	T2	arm
+281968	-	SC_RS03355	SCO0287		279691	280695	+	AraC-like ligand-binding domain-containing protein	1273	downstream_far	False	True	T2	arm
+281968	-	SC_RS03360	SCO0288		280692	281132	-	hypothetical protein	836	upstream	False	True	T2	arm
+281968	-	SC_RS01455	SCP1.277		280963	281178	+	hypothetical protein	790	downstream_far	False	True	T2	arm
+281968	-	SC_RS03365	SCO0289		281129	282157	-	LacI family DNA-binding transcriptional regulator	0	gene_body	True	True	T2	arm
+281968	-	SC_RS01460			281757	281954	+	toxin-antitoxin system HicB family antitoxin	14	downstream	True	True	T2	arm
+281968	-	SC_RS01465	SCP1.278		281951	282247	+	hypothetical protein	0	gene_body	True	True	T2	arm
+281968	-	SC_RS03370	SCO0290		282491	283801	+	extracellular solute-binding protein	523	upstream	False	True	T2	arm
+281968	-	SC_RS01470	SCP1.279c		282655	283740	-	hypothetical protein	687	downstream_far	False	True	T2	arm
+281968	-	SC_RS03375	SCO0291		283798	284700	+	carbohydrate ABC transporter permease	1830	upstream	False	True	T2	arm
+281968	-	SC_RS01475	SCP1.280		283966	285579	+	hypothetical protein	1998	upstream	False	True	T2	arm
+409396	+	SC_RS03850	SCO0388		407247	409214	+	heparinase II/III family protein	182	downstream	True	True	T2	arm
+409396	+	SC_RS03855	SCO0389		409237	410772	+	right-handed parallel beta-helix repeat-containing protein	0	gene_body	True	True	T2	arm
+409396	+	SC_RS03860	SCO0390		410774	412006	+	membrane protein	1378	upstream	False	True	T2	arm
+493899	-	SC_RS04270	SCO0471		491901	492881	+	helix-turn-helix domain-containing protein	1018	downstream_far	False	True	T2	arm
+493899	-	SC_RS04275	SCO0472	aztD	493055	494263	-	zinc metallochaperone AztD	0	gene_body	True	True	T2	arm
+493899	-	SC_RS04280	SCO0473	aztC	494260	495249	-	zinc ABC transporter substrate-binding protein AztC	361	downstream	True	True	T2	arm
+493899	-	SC_RS04285	SCO0474		495246	496493	-	lipoprotein	1347	downstream_far	False	True	T2	arm
+623420	-	SC_RS04825	SCO0580		620891	622672	-	dihydroxyacetone kinase family protein	748	upstream	False	True	T2	arm
+623420	-	SC_RS04830	SCO0581		622669	624036	-	MFS transporter	0	gene_body	True	True	T2	arm
+623420	-	SC_RS04835	SCO0582		624273	625034	+	FadR/GntR family transcriptional regulator	853	upstream	False	True	T2	arm
+623420	-	SC_RS04840	SCO0583		625127	626350	+	cytochrome P450	1707	upstream	False	True	T2	arm
+648247	+	SC_RS04955	SCO0606		646345	647319	+	hypothetical protein	928	downstream_far	False	True	T2	arm
+648247	+	SC_RS04960	SCO0607		647444	647731	+	SCO0607 family lipoprotein	516	downstream_far	False	True	T2	arm
+648247	+	SC_RS04965	SCO0608	slbR	647887	648765	+	gamma-butyrolactone-binding regulator SlbR	0	gene_body	True	True	T2	arm
+648247	+	SC_RS04970	SCO0609		648876	649739	+	DMT family transporter	629	upstream	False	True	T2	arm
+648247	+	SC_RS04975	SCO0610		649840	650610	+	GntR family transcriptional regulator	1593	upstream	False	True	T2	arm
+694060	-	SC_RS05175	SCO0651		691829	692614	+	GvpL/GvpF family gas vesicle protein	1446	downstream_far	False	True	T2	arm
+694060	-	SC_RS05180	SCO0652		692619	692897	+	gas vesicle protein GvpG	1163	downstream_far	False	True	T2	arm
+694060	-	SC_RS05185	SCO0653		692894	693445	+	hypothetical protein	615	downstream_far	False	True	T2	arm
+694060	-	SC_RS05190	SCO0654		693442	694416	+	SRPBCC family protein	0	gene_body	True	True	T2	arm
+694060	-	SC_RS05195	SCO0655		694441	694785	+	gas vesicle protein	381	promoter	True	True	T2	arm
+694060	-	SC_RS05200	SCO0656		694782	695624	+	GvpL/GvpF family gas vesicle protein	722	upstream	False	True	T2	arm
+694060	-	SC_RS05205	SCO0657		695621	695869	+	gas vesicle protein	1561	upstream	False	True	T2	arm
+694060	-	SC_RS05210	SCO0658		695866	696168	+	gas vesicle protein K	1806	upstream	False	True	T2	arm
+877489	+	SC_RS06065	SCO0827		875388	875693	-	hypothetical protein	1796	upstream	False	True	T2	arm
+877489	+	SC_RS06070	SCO0828		875839	877500	+	alkaline phosphatase D family protein	0	gene_body	True	True	T2	arm
+877489	+	SC_RS06075	SCO0829		877702	879078	+	alpha-lytic protease prodomain-containing protein	213	promoter	True	True	T2	arm
+877489	+	SC_RS06080	SCO0830		879140	880219	-	serine hydrolase domain-containing protein	1651	downstream_far	False	True	T2	arm
+990841	-	SC_RS06665	SCO0943		988826	989341	+	hypothetical protein	1500	downstream_far	False	True	T2	arm
+990841	-	SC_RS06670	SCO0944		989560	990210	+	zf-HC2 domain-containing protein	631	downstream_far	False	True	T2	arm
+990841	-	SC_RS06675	SCO0945		990249	991112	-	Fpg/Nei family DNA glycosylase	0	gene_body	True	True	T2	arm
+990841	-	SC_RS06680	SCO0946		991153	993243	-	SpoIIE family protein phosphatase	312	downstream	True	True	T2	arm
+1012524	-	SC_RS06750	SCO0959		1008835	1011153	-	GH92 family glycosyl hydrolase	1371	upstream	False	True	T2	arm
+1012524	-	SC_RS06755	SCO0960		1011212	1013830	-	glycoside hydrolase family 2	0	gene_body	True	True	T2	arm
+1012524	-	SC_RS06760	SCO0961	glgC	1014030	1015250	-	glucose-1-phosphate adenylyltransferase	1506	downstream_far	False	True	T2	arm
+1095016	-	SC_RS07130	SCO1035		1092908	1093495	+	DUF4865 family protein	1521	downstream_far	False	True	T2	arm
+1095016	-	SC_RS07135	SCO1036		1093492	1094400	+	phosphotriesterase family protein	616	downstream_far	False	True	T2	arm
+1095016	-	SC_RS07140	SCO1037		1094465	1094866	+	tautomerase family protein	150	downstream	True	True	T2	arm
+1095016	-	SC_RS07145	SCO1038		1094860	1095258	+	VOC family protein	0	gene_body	True	True	T2	arm
+1095016	-	SC_RS07150	SCO1039		1095280	1096518	-	ROK family protein	264	downstream	True	True	T2	arm
+1095016	-	SC_RS07155	SCO1040		1096556	1097206	-	alpha-ketoglutarate-dependent dioxygenase AlkB family protein	1540	downstream_far	False	True	T2	arm
+1095017	-	SC_RS07130	SCO1035		1092908	1093495	+	DUF4865 family protein	1522	downstream_far	False	True	T2	arm
+1095017	-	SC_RS07135	SCO1036		1093492	1094400	+	phosphotriesterase family protein	617	downstream_far	False	True	T2	arm
+1095017	-	SC_RS07140	SCO1037		1094465	1094866	+	tautomerase family protein	151	downstream	True	True	T2	arm
+1095017	-	SC_RS07145	SCO1038		1094860	1095258	+	VOC family protein	0	gene_body	True	True	T2	arm
+1095017	-	SC_RS07150	SCO1039		1095280	1096518	-	ROK family protein	263	downstream	True	True	T2	arm
+1095017	-	SC_RS07155	SCO1040		1096556	1097206	-	alpha-ketoglutarate-dependent dioxygenase AlkB family protein	1539	downstream_far	False	True	T2	arm
+1488562	-	SC_RS08975	SCO1400		1486339	1486734	-	DUF742 domain-containing protein	1828	upstream	False	True	T2	arm
+1488562	-	SC_RS08980	SCO1401		1486745	1487179	-	roadblock/LC7 domain-containing protein	1383	upstream	False	True	T2	arm
+1488562	-	SC_RS08985	SCO1402		1487176	1490007	-	nitrate- and nitrite sensing domain-containing protein	0	gene_body	True	True	T2	arm
+1488562	-	SC_RS08990	SCO1403		1490427	1490969	+	hypothetical protein	1865	upstream	False	True	T2	arm
+1561816	-	SC_RS09280	SCO1461		1558380	1559822	-	GuaB1 family IMP dehydrogenase-related protein	1994	upstream	False	True	T2	core
+1561816	-	SC_RS09285	SCO1462		1559931	1560284	-	barstar family protein	1532	upstream	False	True	T2	core
+1561816	-	SC_RS09290	SCO1463		1560350	1561393	-	sugar-binding transcriptional regulator	423	promoter	True	True	T2	core
+1561816	-	SC_RS09295	SCO1464	rpe	1561471	1562157	-	ribulose-phosphate 3-epimerase	0	gene_body	True	True	T2	core
+1561816	-	SC_RS09300	SCO1465		1562315	1563520	-	ABC transporter substrate-binding protein	499	downstream	True	True	T2	core
+1561816	-	SC_RS09305	SCO1466		1563517	1564455	-	hypothetical protein	1701	downstream_far	False	True	T2	core
+1690721	-	SC_RS09905	SCO1578	argB	1688368	1689288	-	acetylglutamate kinase	1433	upstream	False	True	T2	core
+1690721	-	SC_RS09910	SCO1579	argJ	1689285	1690436	-	bifunctional glutamate N-acetyltransferase/amino-acid acetyltransferase ArgJ	285	promoter	True	True	T2	core
+1690721	-	SC_RS09915	SCO1580	argC	1690433	1691461	-	N-acetyl-gamma-glutamyl-phosphate reductase	0	gene_body	True	True	T2	core
+1690721	-	SC_RS09920	SCO1581		1691594	1692058	+	hypothetical protein	873	upstream	False	True	T2	core
+1690721	-	SC_RS09925	SCO1582		1692048	1692572	-	AAA family ATPase	1327	downstream_far	False	True	T2	core
+1690721	-	SC_RS09930	SCO1583		1692635	1695109	-	alpha-L-arabinofuranosidase C-terminal domain-containing protein	1914	downstream_far	False	True	T2	core
+1752628	-	SC_RS10190	SCO1636		1750078	1751160	-	helix-turn-helix transcriptional regulator	1468	upstream	False	True	T2	core
+1752628	-	SC_RS10195	SCO1637		1751179	1752132	-	helix-turn-helix transcriptional regulator	496	promoter	True	True	T2	core
+1752628	-	SC_RS10200	SCO1638		1752270	1752641	-	FKBP-type peptidyl-prolyl cis-trans isomerase	0	gene_body	True	True	T2	core
+1752628	-	SC_RS10205	SCO1639		1752701	1753708	-	FKBP-type peptidyl-prolyl cis-trans isomerase	73	downstream	True	True	T2	core
+1752628	-	SC_RS10210	SCO1640	pafA	1753890	1755251	-	Pup--protein ligase	1262	downstream_far	False	True	T2	core
+1826517	-	SC_RS10540	SCO1705		1824517	1825614	-	Zn-dependent alcohol dehydrogenase	903	upstream	False	True	T2	core
+1826517	-	SC_RS10545	SCO1706		1825638	1827026	-	aldehyde dehydrogenase family protein	0	gene_body	True	True	T2	core
+1826517	-	SC_RS10550	SCO1707		1827151	1828488	-	ABC transporter ATP-binding protein	634	downstream_far	False	True	T2	core
+1889019	-	SC_RS10845	SCO1767		1886499	1887218	-	NUDIX hydrolase	1801	upstream	False	True	T2	core
+1889019	-	SC_RS10850	SCO1768		1887312	1888427	-	pseudouridine synthase	592	upstream	False	True	T2	core
+1889019	-	SC_RS10855	SCO1769	scpB	1888427	1889098	-	SMC-Scp complex subunit ScpB	0	gene_body	True	True	T2	core
+1889019	-	SC_RS10860			1889095	1890402	-	segregation and condensation protein A	76	downstream	True	True	T2	core
+1889019	-	SC_RS10865	SCO1771		1890421	1890990	-	hypothetical protein	1402	downstream_far	False	True	T2	core
+1889019	-	SC_RS10870	SCO1772		1890975	1892105	-	ParA family protein	1956	downstream_far	False	True	T2	core
+1952094	-	SC_RS11125	SCO1820		1950356	1950754	+	DUF3099 domain-containing protein	1340	downstream_far	False	True	T2	core
+1952094	-	SC_RS11130			1950978	1951208	+	hypothetical protein	886	downstream_far	False	True	T2	core
+1952094	-	SC_RS11135	SCO1821	moaA	1951220	1952209	-	GTP 3'%2C8-cyclase MoaA	0	gene_body	True	True	T2	core
+1952094	-	SC_RS11140	SCO1822		1952378	1954012	-	solute symporter family protein	284	downstream	True	True	T2	core
+1952094	-	SC_RS11145	SCO1823		1954009	1954383	-	DUF485 domain-containing protein	1915	downstream_far	False	True	T2	core
+1962697	-	SC_RS11180	SCO1830		1960424	1962211	+	glycoside hydrolase family 15 protein	486	downstream	True	True	T2	core
+1962697	-	SC_RS11185	SCO1831		1962217	1962972	+	SDR family oxidoreductase	0	gene_body	True	True	T2	core
+1962697	-	SC_RS11190	SCO1832	amaP	1963007	1963594	-	alkaline shock response membrane anchor protein AmaP	310	downstream	True	True	T2	core
+1962697	-	SC_RS11195	SCO1833		1963591	1964271	-	DUF6286 domain-containing protein	894	downstream_far	False	True	T2	core
+1962697	-	SC_RS11200	SCO1834		1964268	1964651	-	hypothetical protein	1571	downstream_far	False	True	T2	core
+1962697	-	SC_RS11205	SCO1835		1964648	1964833	-	hypothetical protein	1951	downstream_far	False	True	T2	core
+2005472	+	SC_RS11375	SCO1869		2003040	2003753	-	DsbA family oxidoreductase	1719	upstream	False	True	T2	core
+2005472	+	SC_RS11380	SCO1870		2003846	2004454	-	DUF1349 domain-containing protein	1018	upstream	False	True	T2	core
+2005472	+	SC_RS11385	SCO1871		2004598	2006127	-	aldehyde dehydrogenase (NADP(+))	0	gene_body	True	True	T2	core
+2005472	+	SC_RS11390	SCO1872		2006250	2007023	+	IclR family transcriptional regulator	778	upstream	False	True	T2	core
+2005472	+	SC_RS11395	SCO1873		2007027	2007497	+	GNAT family N-acetyltransferase	1555	upstream	False	True	T2	core
+2139757	-	SC_RS12030	SCO2000		2135883	2138879	+	ATP-dependent helicase C-terminal domain-containing protein	878	downstream_far	False	True	T2	core
+2139757	-	SC_RS12035	SCO2001		2138930	2140723	-	lytic transglycosylase domain-containing protein	0	gene_body	True	True	T2	core
+2139757	-	SC_RS12040	SCO2002		2141042	2141410	-	hypothetical protein	1285	downstream_far	False	True	T2	core
+2139757	-	SC_RS12045	SCO2003	polA	2141659	2144382	-	DNA polymerase I	1902	downstream_far	False	True	T2	core
+2165072	-	SC_RS12125	SCO2018	pepN	2162746	2165244	-	aminopeptidase N	0	gene_body	True	True	T2	core
+2165072	-	SC_RS12130	SCO2019		2165374	2165724	-	chorismate mutase	302	downstream	True	True	T2	core
+2165072	-	SC_RS12135	SCO2020		2165859	2166758	+	hypothetical protein	787	upstream	False	True	T2	core
+2165072	-	SC_RS12140	SCO2021		2166799	2167428	+	SIMPL domain-containing protein	1727	upstream	False	True	T2	core
+2236993	+	SC_RS12450	SCO2082	ftsZ	2234421	2235620	-	cell division protein FtsZ	1373	upstream	False	True	T2	core
+2236993	+	SC_RS12455	SCO2083	ftsQ	2235909	2236703	-	cell division protein FtsQ	290	promoter	True	True	T2	core
+2236993	+	SC_RS12460	SCO2084	murG	2236729	2237823	-	undecaprenyldiphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase	0	gene_body	True	True	T2	core
+2236993	+	SC_RS12465	SCO2085	ftsW	2237830	2239200	-	putative lipid II flippase FtsW	837	downstream_far	False	True	T2	core
+2378798	-	SC_RS13095	SCO2213		2376676	2377257	+	winged helix-turn-helix domain-containing protein	1541	downstream_far	False	True	T2	core
+2378798	-	SC_RS13100	SCO2214		2377328	2378362	+	SDR family oxidoreductase	436	downstream	True	True	T2	core
+2378798	-	SC_RS13105	SCO2215		2378415	2379692	+	sensor histidine kinase	0	gene_body	True	True	T2	core
+2378798	-	SC_RS13110	SCO2216		2379677	2380330	+	response regulator transcription factor	879	upstream	False	True	T2	core
+2378798	-	SC_RS13115	SCO2217		2380490	2381995	+	DUF1996 domain-containing protein	1692	upstream	False	True	T2	core
+2611801	-	SC_RS14190	SCO2431	arfA	2608364	2609869	-	arabinosylfuranosidase ArfA	1932	upstream	False	True	T2	core
+2611801	-	SC_RS14195	SCO2432		2609897	2610760	-	carbohydrate ABC transporter permease	1041	upstream	False	True	T2	core
+2611801	-	SC_RS14200	SCO2433		2610757	2611698	-	carbohydrate ABC transporter permease	103	promoter	True	True	T2	core
+2611801	-	SC_RS14205	SCO2434		2611695	2613053	-	extracellular solute-binding protein	0	gene_body	True	True	T2	core
+2611801	-	SC_RS14210	SCO2435		2613322	2613849	+	hypothetical protein	1521	upstream	False	True	T2	core
+2767857	-	SC_RS14860	SCO2562	lepA	2764588	2766456	-	translation elongation factor 4	1401	upstream	False	True	T2	core
+2767857	-	SC_RS14865	SCO2563	rpsT	2766694	2766960	+	30S ribosomal protein S20	897	downstream_far	False	True	T2	core
+2767857	-	SC_RS14870	SCO2564	holA	2767268	2768257	-	DNA polymerase III subunit delta	0	gene_body	True	True	T2	core
+2767857	-	SC_RS14875	SCO2565		2768323	2768568	-	hypothetical protein	466	downstream	True	True	T2	core
+2767857	-	SC_RS14880	SCO2566		2768600	2769481	-	YceI family protein	743	downstream_far	False	True	T2	core
+2864458	-	SC_RS15250	SCO2635	pepN	2861630	2864203	+	aminopeptidase N	255	downstream	True	True	T2	core
+2864458	-	SC_RS15255	SCO2636		2864527	2865597	+	hypothetical protein	69	promoter	True	True	T2	core
+2864458	-	SC_RS15260	SCO2637		2865913	2869209	+	S8 family serine peptidase	1455	upstream	False	True	T2	core
+2957836	-	SC_RS15645	SCO2712		2955547	2956266	+	YveK family protein	1570	downstream_far	False	True	T2	core
+2957836	-	SC_RS15650	SCO2713		2956263	2957411	+	GNAT family N-acetyltransferase	425	downstream	True	True	T2	core
+2957836	-	SC_RS15655	SCO2714		2957449	2958636	-	glycoside hydrolase family 26 protein	0	gene_body	True	True	T2	core
+2957836	-	SC_RS15660	SCO2715		2958781	2960079	+	carboxylate--amine ligase	945	upstream	False	True	T2	core
+3088824	-	SC_RS16225	SCO2826		3086668	3087165	+	hypothetical protein	1659	downstream_far	False	True	T2	core
+3088824	-	SC_RS16230	SCO2827		3087146	3087640	-	DUF3830 family protein	1184	upstream	False	True	T2	core
+3088824	-	SC_RS16235	SCO2828	ehuB	3087748	3088677	+	ectoine/hydroxyectoine ABC transporter substrate-binding protein EhuB	147	downstream	True	True	T2	core
+3088824	-	SC_RS16240	SCO2829	ehuC	3088674	3089375	+	ectoine/hydroxyectoine ABC transporter permease subunit EhuC	0	gene_body	True	True	T2	core
+3088824	-	SC_RS16245	SCO2830	ehuD	3089372	3090022	+	ectoine/hydroxyectoine ABC transporter permease subunit EhuD	548	upstream	False	True	T2	core
+3088824	-	SC_RS16250	SCO2831	ehuA	3090012	3090797	+	ectoine/hydroxyectoine ABC transporter ATP-binding protein EhuA	1188	upstream	False	True	T2	core
+3187599	-	SC_RS16770	SCO2934		3185545	3186324	-	S16 family serine protease	1275	upstream	False	True	T2	core
+3187599	-	SC_RS16775	SCO2935		3186380	3187042	-	IclR family transcriptional regulator	557	upstream	False	True	T2	core
+3187599	-	SC_RS16780	SCO2936		3187344	3189140	-	DEAD/DEAH box helicase	0	gene_body	True	True	T2	core
+3187599	-	SC_RS16785	SCO2937		3189296	3190747	-	MFS transporter	1697	downstream_far	False	True	T2	core
+3352873	-	SC_RS17400	SCO3057		3349758	3350888	-	dipeptidase	1985	upstream	False	True	T2	core
+3352873	-	SC_RS17405	SCO3058		3351008	3352210	-	dipeptidase	663	upstream	False	True	T2	core
+3352873	-	SC_RS17410	SCO3059	purE	3352225	3352767	-	5-(carboxyamino)imidazole ribonucleotide mutase	106	promoter	True	True	T2	core
+3352873	-	SC_RS17415	SCO3060		3352764	3353999	-	5-(carboxyamino)imidazole ribonucleotide synthase	0	gene_body	True	True	T2	core
+3352873	-	SC_RS17420	SCO3061		3354084	3354656	+	GtrA family protein	1211	upstream	False	True	T2	core
+3352873	-	SC_RS17425	SCO3062	draK	3354681	3355955	-	two-component system sensor histidine kinase DraK	1808	downstream_far	False	True	T2	core
+3738900	-	SC_RS18990	SCO3373		3736431	3738956	-	ATP-dependent Clp protease ATP-binding subunit	0	gene_body	True	True	T2	core
+3738900	-	SC_RS18995	SCO3374		3739398	3740099	+	SCO3374 family protein	498	promoter	True	True	T2	core
+3738900	-	SC_RS19000	SCO3375		3740100	3740435	-	histone-like nucleoid-structuring protein Lsr2	1200	downstream_far	False	True	T2	core
+3738900	-	SC_RS19005	SCO3376		3740711	3741220	-	amino-acid N-acetyltransferase	1811	downstream_far	False	True	T2	core
+3758271	-	SC_RS19085	SCO3392		3755656	3756807	-	NADH-quinone oxidoreductase subunit D	1464	upstream	False	True	T2	core
+3758271	-	SC_RS19090	SCO3393		3756839	3757396	+	PH domain-containing protein	875	downstream_far	False	True	T2	core
+3758271	-	SC_RS19095	SCO3394		3757786	3759117	+	PH domain-containing protein	0	gene_body	True	True	T2	core
+3758271	-	SC_RS19100	SCO3395		3759147	3760436	-	hypothetical protein	876	downstream_far	False	True	T2	core
+4119810	+	SC_RS20860	SCO3747		4117506	4118876	+	glycosyltransferase family 39 protein	934	downstream_far	False	True	T2	core
+4119810	+	SC_RS20865	SCO3748		4118957	4119160	-	cold-shock protein	650	upstream	False	True	T2	core
+4119810	+	SC_RS20870	SCO3749		4119416	4120072	-	hypothetical protein	0	gene_body	True	True	T2	core
+4119810	+	SC_RS20875	SCO3750		4120212	4121462	-	sensor histidine kinase	402	downstream	True	True	T2	core
+4119810	+	SC_RS20880	SCO3751		4121664	4121933	+	hypothetical protein	1854	upstream	False	True	T2	core
+4387529	-	SC_RS22070	SCO3986		4385486	4386217	+	GntR family transcriptional regulator	1312	downstream_far	False	True	T2	core
+4387529	-	SC_RS22075	SCO3987		4386214	4386522	+	hypothetical protein	1007	downstream_far	False	True	T2	core
+4387529	-	SC_RS22080	SCO3988		4386621	4386899	+	hypothetical protein	630	downstream_far	False	True	T2	core
+4387529	-	SC_RS22085	SCO3989		4387240	4387509	+	barstar family protein	20	downstream	True	True	T2	core
+4387529	-	SC_RS22090	SCO3991		4388129	4389009	-	IS5-like element IS1648 family transposase	600	downstream_far	False	True	T2	core
+5155289	+	SC_RS25860	SCO4740	glmS	5153334	5155181	+	glutamine--fructose-6-phosphate transaminase (isomerizing)	108	downstream	True	True	T2	core
+5155289	+	SC_RS25865	SCO4741		5155213	5155785	-	ASCH domain-containing protein	0	gene_body	True	True	T2	core
+5155289	+	SC_RS25870	SCO4742		5155831	5157288	-	bifunctional ADP-dependent NAD(P)H-hydrate dehydratase/NAD(P)H-hydrate epimerase	542	downstream_far	False	True	T2	core
+5190163	+	SC_RS26030	SCO4774		5187291	5188997	+	glycerol-3-phosphate dehydrogenase/oxidase	1166	downstream_far	False	True	T2	core
+5190163	+	SC_RS26035	SCO4775		5189098	5191251	+	serine/threonine-protein kinase	0	gene_body	True	True	T2	core
+5190163	+	SC_RS26040	SCO4776		5191425	5194364	+	protein kinase	1262	upstream	False	True	T2	core
+5231643	-	SC_RS26185	SCO4804		5229309	5231756	+	DUF5682 family protein	0	gene_body	True	True	T2	core
+5231643	-	SC_RS26190	SCO4805		5231885	5233081	+	vWA domain-containing protein	242	promoter	True	True	T2	core
+5231643	-	SC_RS26195	SCO4806		5233252	5234196	+	hypothetical protein	1609	upstream	False	True	T2	core
+5279592	-	SC_RS26385	SCO4845		5277146	5277619	+	GtrA family protein	1973	downstream_far	False	True	T2	core
+5279592	-	SC_RS26390	SCO4846		5277607	5278539	+	YihY/virulence factor BrkB family protein	1053	downstream_far	False	True	T2	core
+5279592	-	SC_RS26395	SCO4847		5278487	5279914	-	D-alanyl-D-alanine carboxypeptidase	0	gene_body	True	True	T2	core
+5279592	-	SC_RS26400	SCO4848		5279853	5280092	+	SCO4848 family membrane protein	261	promoter	True	True	T2	core
+5279592	-	SC_RS26405	SCO4849		5280147	5281457	+	metallophosphoesterase	555	upstream	False	True	T2	core
+5279592	-	SC_RS26410	SCO4850		5281448	5282203	-	TetR/AcrR family transcriptional regulator	1856	downstream_far	False	True	T2	core
+5417248	-	SC_RS27050	SCO4978	trhA	5415297	5416001	-	PAQR family membrane homeostasis protein TrhA	1247	upstream	False	True	T2	core
+5417248	-	SC_RS27055	SCO4979		5416288	5418117	+	phosphoenolpyruvate carboxykinase (GTP)	0	gene_body	True	True	T2	core
+5417248	-	SC_RS27060	SCO4980		5418400	5419350	-	SMI1/KNR4 family protein	1152	downstream_far	False	True	T2	core
+5472920	-	SC_RS27335	SCO5034		5469633	5471975	-	ABC transporter permease	945	upstream	False	True	T2	core
+5472920	-	SC_RS27340	SCO5035		5471972	5472661	-	ABC transporter ATP-binding protein	259	promoter	True	True	T2	core
+5472920	-	SC_RS27345	SCO5036		5472658	5473182	-	PadR family transcriptional regulator	0	gene_body	True	True	T2	core
+5472920	-	SC_RS27350	SCO5037		5473366	5473671	-	type II toxin-antitoxin system antitoxin	446	downstream	True	True	T2	core
+5472920	-	SC_RS27355	SCO5038		5473668	5474606	-	SPFH domain-containing protein	748	downstream_far	False	True	T2	core
+5472920	-	SC_RS27360	SCO5039		5474855	5477176	+	transglycosylase domain-containing protein	1935	upstream	False	True	T2	core
+5587984	-	SC_RS27850	SCO5138		5585424	5586392	-	hypothetical protein	1592	upstream	False	True	T2	core
+5587984	-	SC_RS27855	SCO5139	dapE	5586476	5587555	+	succinyl-diaminopimelate desuccinylase	429	downstream	True	True	T2	core
+5587984	-	SC_RS27860	SCO5140		5587673	5588431	+	LOG family protein	0	gene_body	True	True	T2	core
+5587984	-	SC_RS27865	SCO5141	folP	5588682	5589542	-	dihydropteroate synthase	698	downstream_far	False	True	T2	core
+5587984	-	SC_RS27870	SCO5142		5589711	5590070	+	DivIVA domain-containing protein	1727	upstream	False	True	T2	core
+5598024	+	SC_RS27910	SCO5149		5595442	5597466	+	trypsin-like peptidase domain-containing protein	558	downstream_far	False	True	T2	core
+5598024	+	SC_RS27915	SCO5150		5597613	5598098	+	sec-independent translocase	0	gene_body	True	True	T2	core
+5598024	+	SC_RS27920	SCO5151		5598330	5599001	+	hypothetical protein	306	promoter	True	True	T2	core
+5598024	+	SC_RS27925	SCO5152		5599076	5600209	-	Mrp/NBP35 family ATP-binding protein	1052	downstream_far	False	True	T2	core
+5598033	+	SC_RS27910	SCO5149		5595442	5597466	+	trypsin-like peptidase domain-containing protein	567	downstream_far	False	True	T2	core
+5598033	+	SC_RS27915	SCO5150		5597613	5598098	+	sec-independent translocase	0	gene_body	True	True	T2	core
+5598033	+	SC_RS27920	SCO5151		5598330	5599001	+	hypothetical protein	297	promoter	True	True	T2	core
+5598033	+	SC_RS27925	SCO5152		5599076	5600209	-	Mrp/NBP35 family ATP-binding protein	1043	downstream_far	False	True	T2	core
+5769263	-	SC_RS28650	SCO5293		5766796	5768058	+	styrene monooxygenase/indole monooxygenase family protein	1205	downstream_far	False	True	T2	core
+5769263	-	SC_RS28655	SCO5294		5768022	5769197	-	C40 family peptidase	66	promoter	True	True	T2	core
+5769263	-	SC_RS28660	SCO5295		5769301	5769624	-	hypothetical protein	38	downstream	True	True	T2	core
+5769263	-	SC_RS28665	SCO5296		5769695	5770348	-	TetR/AcrR family transcriptional regulator	432	downstream	True	True	T2	core
+5769263	-	SC_RS28670	SCO5297		5770678	5771510	+	IS5-like element IS1650 family transposase	1415	upstream	False	True	T2	core
+5956878	-	SC_RS29530	SCO5469		5954478	5955845	-	L-serine ammonia-lyase	1033	upstream	False	True	T2	core
+5956878	-	SC_RS29535	SCO5470	glyA	5955947	5957209	-	serine hydroxymethyltransferase	0	gene_body	True	True	T2	core
+5956878	-	SC_RS29540	SCO5471	gcvH	5957224	5957601	-	glycine cleavage system protein GcvH	346	downstream	True	True	T2	core
+5956878	-	SC_RS29545	SCO5472	gcvT	5957728	5958846	-	glycine cleavage system aminomethyltransferase GcvT	850	downstream_far	False	True	T2	core
+6350486	+	SC_RS31265	SCO5805		6347744	6350647	+	vitamin B12-dependent ribonucleotide reductase	0	gene_body	True	True	T2	core
+6350486	+	SC_RS31270	SCO5806		6350725	6351258	-	TerD family protein	239	downstream	True	True	T2	core
+6350486	+	SC_RS31275	SCO5807		6351419	6352033	+	YdbC family protein	933	upstream	False	True	T2	core
+6350486	+	SC_RS31280	SCO5808		6352147	6352806	+	histidine phosphatase family protein	1661	upstream	False	True	T2	core
+6762519	-	SC_RS33040	SCO6158		6760581	6761426	-	(2Fe-2S)-binding protein	1093	upstream	False	True	T2	core
+6762519	-	SC_RS33045	SCO6159		6761595	6762416	+	GntR family transcriptional regulator	103	downstream	True	True	T2	core
+6762519	-	SC_RS33050	SCO6160	secD	6762662	6765049	-	protein translocase subunit SecD	143	downstream	True	True	T2	core
+6762520	-	SC_RS33040	SCO6158		6760581	6761426	-	(2Fe-2S)-binding protein	1094	upstream	False	True	T2	core
+6762520	-	SC_RS33045	SCO6159		6761595	6762416	+	GntR family transcriptional regulator	104	downstream	True	True	T2	core
+6762520	-	SC_RS33050	SCO6160	secD	6762662	6765049	-	protein translocase subunit SecD	142	downstream	True	True	T2	core
+6794678	-	SC_RS33185	SCO6187	rfaE2	6792490	6793869	+	D-glycero-beta-D-manno-heptose 1-phosphate adenylyltransferase	809	downstream_far	False	True	T2	core
+6794678	-	SC_RS33190			6794550	6795566	+	glycosyltransferase family 9 protein	0	gene_body	True	True	T2	core
+6794678	-	SC_RS33195	SCO6189		6795563	6796516	+	glycosyltransferase family 2 protein	885	upstream	False	True	T2	core
+6794678	-	SC_RS33200	SCO6190		6796513	6797409	+	glycosyltransferase family 2 protein	1835	upstream	False	True	T2	core
+7102893	-	SC_RS34335	SCO6428		7097567	7104511	-	glycoside hydrolase domain-containing protein	0	gene_body	True	True	T2	core
+7135547	+	SC_RS34440	SCO6449		7133238	7134647	+	phytoene desaturase family protein	900	downstream_far	False	True	T2	core
+7135547	+	SC_RS34445	SCO6450		7134644	7135153	+	O-acetyl-ADP-ribose deacetylase	394	downstream	True	True	T2	core
+7135547	+	SC_RS34450	SCO6451		7135277	7136905	+	ABC transporter substrate-binding protein	0	gene_body	True	True	T2	core
+7135547	+	SC_RS34455	SCO6452		7136938	7137906	+	ABC transporter permease	1391	upstream	False	True	T2	core
+7165087	-	SC_RS34560	SCO6473	ccrA	7161921	7163258	-	crotonyl-CoA carboxylase/reductase	1829	upstream	False	True	T2	core
+7165087	-	SC_RS34565	SCO6474		7163600	7164418	-	TetR family transcriptional regulator	669	upstream	False	True	T2	core
+7165087	-	SC_RS34570	SCO6475		7164555	7166360	-	3-hydroxyacyl-CoA dehydrogenase family protein	0	gene_body	True	True	T2	core
+7165087	-	SC_RS34575	SCO6476		7166743	7167336	+	adenylosuccinate lyase	1656	upstream	False	True	T2	core
+7259111	-	SC_RS34975	SCO6557		7255596	7257542	-	exo-alpha-sialidase	1569	upstream	False	True	T2	arm
+7259111	-	SC_RS34980	SCO6558	fdhD	7257738	7258586	-	formate dehydrogenase accessory sulfurtransferase FdhD	525	upstream	False	True	T2	arm
+7259111	-	SC_RS34985	SCO6559		7258619	7259479	-	2Fe-2S iron-sulfur cluster-binding protein	0	gene_body	True	True	T2	arm
+7259111	-	SC_RS34990	SCO6560		7259476	7261467	-	NAD(P)H-dependent oxidoreductase subunit E	365	downstream	True	True	T2	arm
+7441179	+	SC_RS35635	SCO6690		7438926	7440227	-	MFS transporter	952	upstream	False	True	T2	arm
+7441179	+	SC_RS35640	SCO6691		7440399	7442462	+	phosphocholine-specific phospholipase C	0	gene_body	True	True	T2	arm
+7441179	+	SC_RS35645	SCO6692		7442516	7443469	-	DMT family protein	1337	downstream_far	False	True	T2	arm
+7522965	-	SC_RS36005	SCO6764	shc	7520716	7522758	+	squalene--hopene cyclase	207	downstream	True	True	T2	arm
+7522965	-	SC_RS36010	SCO6765		7522758	7523399	+	lipoprotein	0	gene_body	True	True	T2	arm
+7522965	-	SC_RS36015	SCO6766	hpnH	7523406	7524428	+	adenosyl-hopene transferase HpnH	441	promoter	True	True	T2	arm
+7522965	-	SC_RS36020	SCO6767	ispG	7524433	7525587	+	flavodoxin-dependent (E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase	1468	upstream	False	True	T2	arm
+7959397	-	SC_RS38030	SCO7161		7956843	7957625	-	SDR family NAD(P)-dependent oxidoreductase	1772	upstream	False	True	T2	arm
+7959397	-	SC_RS38035	SCO7162		7957724	7958665	-	aldo/keto reductase	732	upstream	False	True	T2	arm
+7959397	-	SC_RS38040	SCO7163		7958644	7959462	-	RraA family protein	0	gene_body	True	True	T2	arm
+7959397	-	SC_RS38045	SCO7164		7959459	7961477	-	hypothetical protein	62	downstream	True	True	T2	arm
+7959398	-	SC_RS38030	SCO7161		7956843	7957625	-	SDR family NAD(P)-dependent oxidoreductase	1773	upstream	False	True	T2	arm
+7959398	-	SC_RS38035	SCO7162		7957724	7958665	-	aldo/keto reductase	733	upstream	False	True	T2	arm
+7959398	-	SC_RS38040	SCO7163		7958644	7959462	-	RraA family protein	0	gene_body	True	True	T2	arm
+7959398	-	SC_RS38045	SCO7164		7959459	7961477	-	hypothetical protein	61	downstream	True	True	T2	arm
+8176867	+	SC_RS39010	SCO7361		8173887	8175416	+	helix-turn-helix domain-containing protein	1451	downstream_far	False	True	T2	arm
+8176867	+	SC_RS39015	SCO7362		8175571	8176611	-	NAD(P)-dependent alcohol dehydrogenase	256	promoter	True	True	T2	arm
+8176867	+	SC_RS39020	SCO7363		8176680	8177471	-	SDR family NAD(P)-dependent oxidoreductase	0	gene_body	True	True	T2	arm
+8176867	+	SC_RS39025	SCO7364		8177482	8178147	-	TetR/AcrR family transcriptional regulator	615	downstream_far	False	True	T2	arm
+8176867	+	SC_RS39030	SCO7365		8178292	8178615	+	hypothetical protein	1425	upstream	False	True	T2	arm
+8176867	+	SC_RS39035	SCO7366		8178701	8179468	+	maleylpyruvate isomerase family mycothiol-dependent enzyme	1834	upstream	False	True	T2	arm
+8268395	-	SC_RS39460	SCO7451		8266048	8267244	+	SchA/CurD-like domain-containing protein	1151	downstream_far	False	True	T2	arm
+8268395	-	SC_RS39465	SCO7452		8267283	8268311	-	methyltransferase	84	promoter	True	True	T2	arm
+8268395	-	SC_RS39470	SCO7453		8268376	8269446	-	right-handed parallel beta-helix repeat-containing protein	0	gene_body	True	True	T2	arm
+8268395	-	SC_RS39475	SCO7454		8269590	8270384	+	restriction endonuclease	1195	upstream	False	True	T2	arm
+8523050	-	SC_RS40615	SCO7685		8519642	8521675	+	Gfo/Idh/MocA family oxidoreductase	1375	downstream_far	False	True	T2	arm
+8523050	-	SC_RS40620	SCO7686		8521684	8522919	+	cytochrome P450	131	downstream	True	True	T2	arm
+8523050	-	SC_RS40625	SCO7687		8522916	8523749	+	thioesterase II family protein	0	gene_body	True	True	T2	arm
+8523050	-	SC_RS40630	SCO7688		8523760	8524488	+	class I SAM-dependent methyltransferase	710	upstream	False	True	T2	arm
+8523050	-	SC_RS40635	SCO7689		8524485	8526347	+	ABC transporter ATP-binding protein	1435	upstream	False	True	T2	arm
+8587521	-	SC_RS40935	SCO7752		8585463	8586017	-	DUF6328 family protein	1504	upstream	False	True	T2	arm
+8587521	-	SC_RS40940	SCO7753		8586108	8586491	-	helix-turn-helix transcriptional regulator	1030	upstream	False	True	T2	arm
+8587521	-	SC_RS40945	SCO7754		8586637	8586975	+	STAS domain-containing protein	546	downstream_far	False	True	T2	arm
+8587521	-	SC_RS40950	SCO7755		8587133	8587375	+	DUF5133 domain-containing protein	146	downstream	True	True	T2	arm
+8587521	-	SC_RS40955	SCO7757		8588247	8589079	-	IS5-like element IS1650 family transposase	726	downstream_far	False	True	T2	arm
+8587521	-	SC_RS40960	SCO7759		8589159	8590784	+	SpoIIE family protein phosphatase	1638	upstream	False	True	T2	arm

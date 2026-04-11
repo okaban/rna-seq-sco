@@ -1,0 +1,7 @@
+evidence	observation	supports_H9	note
+C position in CCGG	C2=1717 (84.5%), C1=162 (8.0%)	YES	C2 is the Dcm target position
+Mod frequency (CCGG vs non-CCGG 4mC)	CCGG=82.7% vs non-CCGG=76.6%, p=9.41e-02	NO	Lower frequency suggests weaker/misclassified signal
+Replicate consistency (n_reps)	CCGG=3.00 vs non-CCGG=3.00 mean reps, p=1.00e+00	NO	Lower consistency suggests stochastic/artifactual detection
+Temporal site overlap	Jaccard=0.000 between T1 and T2 (from H7)	YES	Complete lack of positional overlap is inconsistent with enzymatic methylation
+MTase expression	No identified cytosine MTase with adequate T1 expression (from H7)	YES	If sites are artifacts, no MTase needed
+TGGCCGGC C position	C2 of CCGG (Dcm target): 0 (0.0%)	NO	High C2 fraction supports 5mC at Dcm target misread as 4mC

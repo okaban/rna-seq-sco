@@ -1,0 +1,5 @@
+motif	T1_total	T2_total	T3_total	T1_only	T2_only	T3_only	T1_T2_overlap	T1_T3_overlap	T2_T3_overlap	all_three_overlap	T1_T2_jaccard	T1_T3_jaccard
+TGGCCGGC	1289	407	21	1289	407	21	0	0	0	0	0.0	0.0
+CCGG	101	39	6	101	39	6	0	0	0	0	0.0	0.0
+GGCCGG	10	6	0	10	6	0	0	0	0	0	0.0	0.0
+CCGC	116	34	3	116	34	3	0	0	0	0	0.0	0.0

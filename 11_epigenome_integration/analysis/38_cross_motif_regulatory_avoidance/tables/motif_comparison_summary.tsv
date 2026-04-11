@@ -1,0 +1,51 @@
+motif_group	n_sites	category	fold_enrichment	odds_ratio	p_bonferroni	direction	significant
+AAGCCCG_6mA_T1	260	Regulatory/TF	0.43	0.409	0.017452263343379917	depleted	True
+AAGCCCG_6mA_T1	260	Hypothetical	0.52	0.485	0.019291521703793633	depleted	True
+AAGCCCG_6mA_T1	260	Primary metabolism	1.15	1.2	1.0	enriched	False
+AAGCCCG_6mA_T1	260	Other	1.11	1.168	1.0	enriched	False
+AAGCCCG_6mA_T1	260	Transport	0.97	0.969	1.0	depleted	False
+AAGCCCG_6mA_T1	260	DNA/RNA metabolism	1.41	1.439	1.0	enriched	False
+AAGCCCG_6mA_T1	260	Stress/Defense	1.96	2.023	0.11792315901868156	enriched	False
+AAGCCCG_6mA_T1	260	Secondary metabolism	0.73	0.723	1.0	depleted	False
+AAGCCCG_6mA_T1	260	Translation	0.96	0.961	1.0	depleted	False
+AAGCCCG_6mA_T1	260	Membrane/Cell wall	2.14	2.158	0.9483210319388481	enriched	False
+GCCGGC_4mC_T1	1299	Regulatory/TF	0.61	0.583	3.938490530764812e-05	depleted	True
+GCCGGC_4mC_T1	1299	Hypothetical	0.56	0.526	4.86108421673312e-09	depleted	True
+GCCGGC_4mC_T1	1299	Primary metabolism	1.22	1.31	0.0008166631664957444	enriched	True
+GCCGGC_4mC_T1	1299	Other	0.93	0.9	1.0	depleted	False
+GCCGGC_4mC_T1	1299	Transport	1.45	1.516	0.00018840083609441796	enriched	True
+GCCGGC_4mC_T1	1299	DNA/RNA metabolism	1.22	1.236	1.0	enriched	False
+GCCGGC_4mC_T1	1299	Stress/Defense	1.13	1.133	1.0	enriched	False
+GCCGGC_4mC_T1	1299	Secondary metabolism	1.58	1.6	0.0383956941895406	enriched	True
+GCCGGC_4mC_T1	1299	Translation	0.58	0.574	1.0	depleted	False
+GCCGGC_4mC_T1	1299	Membrane/Cell wall	1.71	1.721	0.47420755059626574	enriched	False
+CCGG_other_4mC_T1	101	Regulatory/TF	0.71	0.689	1.0	depleted	False
+CCGG_other_4mC_T1	101	Hypothetical	0.45	0.411	0.26166136739883994	depleted	False
+CCGG_other_4mC_T1	101	Primary metabolism	1.15	1.198	1.0	enriched	False
+CCGG_other_4mC_T1	101	Other	1.04	1.058	1.0	enriched	False
+CCGG_other_4mC_T1	101	Transport	0.36	0.337	0.6514126349407602	depleted	False
+CCGG_other_4mC_T1	101	DNA/RNA metabolism	2.82	3.113	0.004902688713389482	enriched	True
+CCGG_other_4mC_T1	101	Stress/Defense	1.89	1.949	1.0	enriched	False
+CCGG_other_4mC_T1	101	Secondary metabolism	0.75	0.745	1.0	depleted	False
+CCGG_other_4mC_T1	101	Translation	1.65	1.662	1.0	enriched	False
+CCGG_other_4mC_T1	101	Membrane/Cell wall	0.0	0.0	1.0	depleted	False
+AAGCCCG_4mC_T1	587	Regulatory/TF	0.61	0.587	0.016769993367285158	depleted	True
+AAGCCCG_4mC_T1	587	Hypothetical	0.56	0.528	0.00023357079564984877	depleted	True
+AAGCCCG_4mC_T1	587	Primary metabolism	1.07	1.093	1.0	enriched	False
+AAGCCCG_4mC_T1	587	Other	1.03	1.047	1.0	enriched	False
+AAGCCCG_4mC_T1	587	Transport	1.25	1.278	0.9040070904672701	enriched	False
+AAGCCCG_4mC_T1	587	DNA/RNA metabolism	1.18	1.189	1.0	enriched	False
+AAGCCCG_4mC_T1	587	Stress/Defense	1.68	1.72	0.0793149068328647	enriched	False
+AAGCCCG_4mC_T1	587	Secondary metabolism	1.16	1.167	1.0	enriched	False
+AAGCCCG_4mC_T1	587	Translation	1.84	1.864	0.520273825432217	enriched	False
+AAGCCCG_4mC_T1	587	Membrane/Cell wall	1.51	1.521	1.0	enriched	False
+All_4mC_T1	1987	Regulatory/TF	0.62	0.6	1.3890874793160767e-06	depleted	True
+All_4mC_T1	1987	Hypothetical	0.54	0.509	8.056461496151928e-14	depleted	True
+All_4mC_T1	1987	Primary metabolism	1.18	1.238	0.0023164499559105403	enriched	True
+All_4mC_T1	1987	Other	0.97	0.952	1.0	depleted	False
+All_4mC_T1	1987	Transport	1.33	1.366	0.0020668365630957474	enriched	True
+All_4mC_T1	1987	DNA/RNA metabolism	1.3	1.321	0.09408253227536965	enriched	False
+All_4mC_T1	1987	Stress/Defense	1.33	1.345	0.2547890053325794	enriched	False
+All_4mC_T1	1987	Secondary metabolism	1.41	1.427	0.12755798596606205	enriched	False
+All_4mC_T1	1987	Translation	1.05	1.049	1.0	enriched	False
+All_4mC_T1	1987	Membrane/Cell wall	1.56	1.573	0.5774215642903944	enriched	False

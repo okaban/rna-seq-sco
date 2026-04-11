@@ -1,0 +1,7 @@
+rank,motif,mod,sites_4mC,sites_6mA,pct_4mC,pct_6mA,rebase,novel,note
+1,CCGG/GGCCGG/TGGCCGGC,4mC,2034,175,75.9%,5.4%,YES (MspI/HpaII-type),No,Dominant 4mC motif; true recognition context is GGCCGG/TGGCCGGC (8bp palindrome)
+2,AAGCCCG,4mC+6mA (DUAL),976,362,36.2%,11.1%,NO (0/82 species),YES,*** DUAL MODIFICATION: both 4mC on C and 6mA on A at same motif ***
+3,CCGKCA (MEME-2 core),6mA,0,TBD from census,-,TBD,CHECK NEEDED,Possibly,From 6mA MEME-2 (954 MEME sites); core CCG[GT]CA; possible BREX-2 target
+4,GATC,6mA,0,37,-,1.2%,YES (Dam-like),No,Dam-type methylation; minor but increasing at T3
+5,CGGCAACC,6mA,0,from STREME-3,-,~9.5%,CHECK NEEDED,Possibly,From STREME-3 (305 sites); novel pattern
+6,GCGC,4mC,0,40,0%*,1.2%,YES (HhaI-type),No,*Center-aware: 0 for 4mC; may be flanking context artifact

@@ -1,0 +1,14 @@
+Genus-wide Streptomyces Motif Conservation Analysis
+REBASE entries: 224
+Representative species: 833
+Genomes processed: 833
+Motifs analyzed: 7
+
+Conservation rates:
+  CCGG: 18/82 (22.0%)
+  AAGCCCG: 0/82 (0.0%)
+  GATC: 11/82 (13.4%)
+  GGCCGG: 2/82 (2.4%)
+  GCCCG: 4/82 (4.9%)
+  GCGG: 19/82 (23.2%)
+  CGACNNNCTCC: 1/82 (1.2%)

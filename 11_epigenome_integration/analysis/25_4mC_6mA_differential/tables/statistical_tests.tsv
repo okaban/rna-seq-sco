@@ -1,0 +1,4 @@
+test	statistic	p_value	note
+Fisher_exact_promoter	0.8820572584827975	0.0028791241210904973	4mC promoter: 1392/6080 (22.9%); 6mA promoter: 1599/6349 (25.2%)
+Chi2_promoter	8.79060002950452	0.0030278664184637625	dof=1
+Chi2_all_regions	70.7778583049803	1.5550795993996604e-14	"dof=4, regions: ['Promoter', ""5' gene body"", 'Mid gene body', ""3' gene body"", 'Intergenic']"

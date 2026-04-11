@@ -1,0 +1,4 @@
+Comparison,Total_genes,DEGs,DEGs_up,DEGs_down,DMGs,DMGs_hyper,DMGs_hypo,Overlap_DEG_DMG,DEG_only,DMG_only,Neither,Odds_ratio,P_value,Significant,Interpretation
+T2vsT1,8083,3848,2003,1845,566,336,237,267,3581,299,4012,1.000452966651381,1.0,False,No significant association
+T3vsT1,8083,4841,2766,2075,619,281,348,407,4434,212,3126,1.3534799703832308,0.0005620829135639773,True,Significant positive association (DEGs enriched in DMGs)
+T3vsT2,8083,3507,2014,1493,648,250,411,301,3206,347,4303,1.1642462529730817,0.06877612209462167,False,No significant association

@@ -1,0 +1,19 @@
+rank,accession,organism,description,pct_identity,qcov_pct,evalue,bit_score
+1,WP_011028768,Streptomyces (MULTISPECIES),N-6 DNA methylase,100.0,100,0.0,1302
+2,WP_093456308,Streptomyces sp. 2114.2,N-6 DNA methylase,99.9,100,0.0,1302
+3,WP_359571097,Streptomyces anthocyanicus,N-6 DNA methylase,99.7,100,0.0,1300
+4,WP_210984784,Streptomyces sp. RK76,N-6 DNA methylase,99.7,100,0.0,1298
+5,WP_189284310,Streptomyces violaceoruber group,N-6 DNA methylase,99.7,100,0.0,1298
+6,WP_332056517,Streptomyces violaceoruber,N-6 DNA methylase,99.4,100,0.0,1295
+7,EFD68789,Streptomyces lividans TK24,Type II R-M system DNA adenine-specific methylase,99.1,100,0.0,1290
+8,WP_382820331,Streptomyces rubrogriseus,N-6 DNA methylase,98.5,100,0.0,1283
+9,WP_042799561,Streptomyces lividans,N-6 DNA methylase,98.1,100,0.0,1272
+10,EOY48171,Streptomyces lividans 1326,"Type I R-M system, DNA-MTase subunit M",97.9,99,0.0,1254
+11,WP_386904923,Streptomyces sp. NPDC127039,N-6 DNA methylase,97.8,100,0.0,1273
+12,WP_385359592,Streptomyces sp. NPDC059906,N-6 DNA methylase,97.6,100,0.0,1272
+13,WP_356859319,Streptomyces sp. NPDC006617,N-6 DNA methylase,97.2,100,0.0,1267
+14,WP_398328706,Streptomyces sp. NPDC018026,N-6 DNA methylase,96.8,100,0.0,1265
+15,WP_388523046,Streptomyces sp. NPDC001599,N-6 DNA methylase,96.8,100,0.0,1261
+16,WP_381565166,Streptomyces coelicoflavus,N-6 DNA methylase,93.4,100,0.0,1198
+17,WP_385935194,Streptomyces tendae,N-6 DNA methylase,93.4,100,0.0,1193
+18,XKK58901,Streptomyces sp. ARC32,N-6 DNA methylase,92.6,100,0.0,1193

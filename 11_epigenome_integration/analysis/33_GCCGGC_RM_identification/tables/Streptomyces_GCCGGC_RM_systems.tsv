@@ -1,0 +1,29 @@
+enzyme_name	enzyme_type	accession	organism	recognition_raw	methylation_raw	recognition_seq	methyl_type
+SacAI	R2	RB01577	Streptomyces achromogenes	GCCGGC, ?;		GCCGGC	
+SalCI	R2	RB01585	Streptomyces albus	GCCGGC, ?;		GCCGGC	
+SaoI	R2	RB01592	Streptomyces albofaciens	GCCGGC, ?;		GCCGGC	
+SauAI	R2	RB01608	Streptomyces aureofaciens	GCCGGC, ?;		GCCGGC	
+SauBMKI	R2	RB01610	Streptomyces aureofaciens strain BM-K	GCCGGC, 3;		GCCGGC	
+SauHPI	R2	RB02193	Streptomyces aureofaciens R8/26	GCCGGC, 3;		GCCGGC	
+SauLPI	R2	RB02190	Streptomyces aureofaciens B-96	GCCGGC, 3;		GCCGGC	
+M.SauLPI	M2	RB03539	Streptomyces aureofaciens B-96	GCCGGC, ?;	2(m5C);	GCCGGC	m5C
+SauNI	R2	RB02191	Streptomyces aureofaciens NMU	GCCGGC, 3;		GCCGGC	
+SauSI	R2	RB02192	Streptomyces aureofaciens 16	GCCGGC, 3;		GCCGGC	
+M.Sfr10745III	M2	RB374532	Streptomyces fradiae ATCC 10745 = DSM 40063	GCCGGC, ?;	2(m5C);	GCCGGC	m5C
+SghWII	R2	RB51041	Streptomyces ghanaensis	GCCGGC, ?;		GCCGGC	
+M.SghWII	M2	RB24115	Streptomyces ghanaensis	GCCGGC, ?;	?(m5C);	GCCGGC	m5C
+M1.Sgr13350II	M2	RB17733	Streptomyces griseus subsp. griseus NBRC 13350	GCCGGC, ?;	2(m5C);	GCCGGC	m5C
+SkaI	R2	RB01692	Streptomyces karnatakensis	GCCGGC, ?;		GCCGGC	
+M1.Slo00643I	M2	RB798229	Streptomyces longwoodensis NBC 00643	GCCGGC, ?;	3(m5C);	GCCGGC	m5C
+M2.Slo00643I	M2	RB798228	Streptomyces longwoodensis NBC 00643	GCCGGC, ?;	3(m5C);	GCCGGC	m5C
+Slu1777I	R2	RB01698	Streptomyces lusitanus 1777	GCCGGC, 3;		GCCGGC	
+Smo40529I	R2	RB01705	Streptomyces moderatus	GCCGGC, ?;		GCCGGC	
+Sse232I	R2	RB03831	Streptomyces species RH232	CGCCGGCG, 2;		CGCCGGCG	
+M1.Ssp281I	M2	RB797523	Streptomyces species NBC_01281	GCCGGC, ?;	3(m5C);	GCCGGC	m5C
+M2.Ssp281I	M2	RB797524	Streptomyces species NBC_01281	GCCGGC, ?;	3(m5C);	GCCGGC	m5C
+SspCI	R2	RB07122	Streptomyces species	GCCGGC, 3;		GCCGGC	
+M1.SspSAT1I	M2	RB151232	Streptomyces species SAT1	GCCGGC, ?;	?(m5C);	GCCGGC	m5C
+M2.SspSAT1I	M2	RB151231	Streptomyces species SAT1	GCCGGC, ?;	?(m5C);	GCCGGC	m5C
+M.Svi27968I	M2	RB455182	Streptomyces violascens ATCC 27968	GCCGGC, ?;	2(Nm4C);	GCCGGC	
+Sxa3845I	R2	RB891662	Streptomyces xanthophaeus KPP03845	GCCGGC, ?;		GCCGGC	
+M.Sxa3845I	M2	RB688736	Streptomyces xanthophaeus KPP03845	GCCGGC, ?;	?(m5C);	GCCGGC	m5C

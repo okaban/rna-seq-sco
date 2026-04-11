@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "sviolascens_prot",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "S_violascens_ATCC27968",
+  "number-of-letters": 1598013,
+  "number-of-sequences": 5008,
+  "last-updated": "2026-02-24T23:58:00",
+  "number-of-volumes": 1,
+  "bytes-total": 2526773,
+  "bytes-to-cache": 1643198,
+  "files": [
+    "sviolascens_prot.pdb",
+    "sviolascens_prot.phr",
+    "sviolascens_prot.pin",
+    "sviolascens_prot.pot",
+    "sviolascens_prot.psq",
+    "sviolascens_prot.ptf",
+    "sviolascens_prot.pto"
+  ]
+}

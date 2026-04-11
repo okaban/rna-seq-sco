@@ -1,0 +1,9 @@
+timepoint	bgc_name	sites_in_bgc	bgc_size_kb	bgc_n_genes	total_sites
+T1	act	0	21.282	22	260
+T1	red	0	31.394	22	260
+T1	cda	1	82.871	40	260
+T1	cpk	2	47.516	16	260
+T2	act	0	21.282	22	64
+T2	red	0	31.394	22	64
+T2	cda	0	82.871	40	64
+T2	cpk	0	47.516	16	64

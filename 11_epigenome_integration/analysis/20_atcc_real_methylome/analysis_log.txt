@@ -1,0 +1,50 @@
+======================================================================
+REBASE Comparative Methylome Analysis — Real Data
+======================================================================
+
+[Phase 1] Parsing REBASE Bairoch data...
+  Total REBASE records: 17500
+  Streptomyces entries: 224
+  Unique organisms: 153
+  Saved: /Users/okaban/bioinfo/rna-seq/11_epigenome_integration/data/rebase/streptomyces_rm_systems.csv
+
+[Phase 1b] Matching 37 ATCC strains to REBASE...
+  Matched: 36/37 strains
+  No data: 1 strains
+
+[Phase 1c] Computing motif conservation...
+  Saved: /Users/okaban/bioinfo/rna-seq/11_epigenome_integration/data/rebase/motif_conservation_matrix.csv
+  CCGG: 9/36 (25.0%)
+  AAGCCCG: 0/36 (0.0%)
+  GATC: 6/36 (16.7%)
+
+[Phase 2] Downloading NCBI RefSeq genomes...
+  Genomes available: 33/37
+
+[Phase 2b] Computing M145 density...
+  M145 genome: 9.05 Mb
+  M145 CCGG: 156516 sites (17285.3 sites/Mb)
+  M145 AAGCCCG: 1414 sites (156.2 sites/Mb)
+  M145 GATC: 45569 sites (5032.6 sites/Mb)
+
+[Phase 2c] Computing density for downloaded genomes...
+  Processed: 33 genomes
+
+[Phase 3] Generating figures...
+
+======================================================================
+Analysis complete!
+Output directory: /Users/okaban/bioinfo/rna-seq/11_epigenome_integration/analysis/20_atcc_real_methylome
+Files:
+  analysis_log.txt (0.0 KB)
+  motif_conservation_rebase.pdf (25.4 KB)
+  motif_conservation_rebase.svg (49.7 KB)
+  motif_site_density_boxplot.pdf (26.9 KB)
+  motif_site_density_boxplot.svg (71.5 KB)
+  rm_system_heatmap.pdf (24.8 KB)
+  rm_system_heatmap.svg (146.9 KB)
+  rm_type_distribution.pdf (24.9 KB)
+  rm_type_distribution.svg (46.7 KB)
+  simulated_vs_real_comparison.pdf (24.4 KB)
+  simulated_vs_real_comparison.svg (46.1 KB)
+======================================================================

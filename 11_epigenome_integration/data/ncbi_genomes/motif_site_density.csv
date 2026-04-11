@@ -1,0 +1,34 @@
+strain,genome_size_mb,CCGG_count,CCGG_density,AAGCCCG_count,AAGCCCG_density,GATC_count,GATC_density
+Streptomyces albus,8.03,149263,18580.3,1227,152.7,34250,4263.4
+Streptomyces ambofaciens,8.39,146194,17417.3,1282,152.7,41417,4934.4
+Streptomyces aureofaciens,8.32,167728,20150.2,1383,166.1,47914,5756.2
+Streptomyces avermitilis,9.12,137673,15095.9,1610,176.5,51993,5701.1
+Streptomyces bikiniensis,7.39,140520,19012.3,1280,173.2,38606,5223.4
+Streptomyces californicus,8.03,151502,18863.0,1445,179.9,44492,5539.6
+Streptomyces canus,10.83,160953,14867.6,1846,170.5,64979,6002.3
+Streptomyces cattleya,8.09,170474,21065.5,946,116.9,41360,5110.9
+Streptomyces clavuligerus,8.54,171204,20037.7,1361,159.3,48208,5642.3
+Streptomyces coelescens,8.88,155041,17466.6,1339,150.8,44701,5035.9
+Streptomyces diastatochromogenes,10.52,168158,15984.5,1716,163.1,59750,5679.6
+Streptomyces fulvissimus,8.45,147647,17467.7,1441,170.5,48586,5748.1
+Streptomyces globisporus subsp. globisporus,7.78,137058,17608.6,1512,194.3,46428,5964.8
+Streptomyces griseorubiginosus,9.51,149410,15706.9,1592,167.4,54462,5725.4
+Streptomyces griseus subsp. griseus,8.33,152867,18355.7,1519,182.4,50142,6020.9
+Streptomyces hygroscopicus subsp. hygroscopicus,9.68,180298,18620.3,1481,153.0,55477,5729.4
+Streptomyces lavendulae subsp. lavendulae,8.93,163039,18251.7,1621,181.5,48443,5423.1
+Streptomyces lydicus,8.24,153951,18676.2,1250,151.6,44639,5415.3
+Streptomyces natalensis,8.65,137460,15888.2,1388,160.4,49580,5730.6
+Streptomyces netropsis,8.14,133564,16400.3,1733,212.8,44299,5439.5
+Streptomyces nodosus,7.77,133620,17191.2,1241,159.7,47618,6126.4
+Streptomyces noursei,9.86,178427,18100.6,1388,140.8,55629,5643.3
+Streptomyces peucetius subsp. caesius,9.53,166268,17449.3,1651,173.3,46749,4906.1
+Streptomyces platensis,8.5,153586,18066.8,1434,168.7,47874,5631.6
+Streptomyces prasinus,7.65,144236,18860.3,1210,158.2,40723,5324.9
+Streptomyces rimosus subsp. rimosus,9.64,168337,17455.3,1668,173.0,47012,4874.8
+Streptomyces roseofulvus,8.21,153842,18748.8,1332,162.3,43808,5338.9
+Streptomyces spectabilis,9.81,138921,14165.3,2134,217.6,45821,4672.2
+Streptomyces tsukubensis,8.02,165950,20693.2,1457,181.7,49426,6163.2
+Streptomyces venezuelae,8.22,145150,17650.6,1512,183.9,44761,5443.1
+Streptomyces violaceoruber,8.63,150686,17461.3,1311,151.9,43159,5001.2
+Streptomyces virginiae,8.59,151268,17612.4,1566,182.3,46976,5469.5
+Streptomyces viridochromogenes,7.83,134724,17211.1,1209,154.5,42033,5369.7

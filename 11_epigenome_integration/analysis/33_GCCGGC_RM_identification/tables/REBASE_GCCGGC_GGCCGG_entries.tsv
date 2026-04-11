@@ -1,0 +1,96 @@
+enzyme_name	enzyme_type_code	enzyme_type	accession	organism	recognition_seq	recognition_raw	methylation_raw	modification_type	motif_category	prototype
+Afa24RI	R2	Type II REase	RB00036	Acidiphilium facilis 24R	GCCGGC	GCCGGC, ?;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+M.AhdIII	M2	Type II MTase	RB163876	Aeromonas hydrophila	GCCGGC	GCCGGC, ?;	3(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+AmeII	R2	Type II REase	RB00071	Aquaspirillum metamorphum	GCCGGC	GCCGGC, ?;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+AniMI	R2	Type II REase	RB00073	Arthrobacter nicotianae	GCCGGC	GCCGGC, ?;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+ApeAI	R2	Type II REase	RB00087	Aquaspirillum peregrinum	GCCGGC	GCCGGC, ?;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+AprI	R2	Type II REase	RB00090	Actinosynnema pretiosum	GCCGGC	GCCGGC, ?;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+BheI	R2	Type II REase	RB02518	Brevibacterium helvolum	GCCGGC	GCCGGC, ?;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+CcoI	R2	Type II REase	RB02603	Clostridium coccoides B-2	GCCGGC	GCCGGC, 3;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+M.CcrNAV	M2	Type II MTase	RB19989	Caulobacter crescentus NA1000	YGCCGGCR	YGCCGGCR, ?;	3(m5C);	5-methylcytosine (m5C)	YGCCGGCR (CcrNAV)	M.CcrNAV
+M.Cje11917III	M2	Type II MTase	RB429670	Corynebacterium jeikeium NCTC11917	GCCGGC	GCCGGC, ?;	?(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+M.CsiFSMII	M2	Type II MTase	RB114183	Corynebacterium simulans Foot Skin Metagenome	GCCGGC	GCCGGC, ?;	2(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+M.CspCB13V	M2	Type II MTase	RB1014291	Caulobacter sp CB13	YGCCGGCR	YGCCGGCR, ?;	4(m5C);	5-methylcytosine (m5C)	YGCCGGCR (CcrNAV)	M.CcrNAV
+M.CspFA1I	M2	Type II MTase	RB125555	Cellulomonas species FA1	GCCGGC	GCCGGC, ?;	?(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+M.Ecl50II	M2	Type II MTase	RB204896	Enterobacter cloacae AR_0050	GCCGGC	GCCGGC, ?;	?(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+Eco56I	R2	Type II REase	RB00940	Escherichia coli RFL56	GCCGGC	GCCGGC, 1;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+M.Eco56I	M2	Type II MTase	RB03374	Escherichia coli RFL56	GCCGGC	GCCGGC, ?;	?(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+M.Eco1109II	M2	Type II MTase	RB310214	Escherichia coli NRRL B-1109	GCCGGC	GCCGGC, ?;	?(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+M.Eco3763II	M2	Type II MTase	RB91453	Escherichia coli O69:H11 07-3763	GCCGGC	GCCGGC, ?;	3(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+M.Eco4255I	M2	Type II MTase	RB91589	Escherichia coli O118:H16 07-4255	GCCGGC	GCCGGC, ?;	?(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+M.Eco9003II	M2	Type II MTase	RB435480	Escherichia coli NCTC9003	GCCGGC	GCCGGC, ?;	?(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+M.Eco9112II	M2	Type II MTase	RB290792	Escherichia coli NCTC9112	GCCGGC	GCCGGC, ?;	?(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+Esp5I	R2	Type II REase	RB01030	Erwinia species RFL5	GCCGGC	GCCGGC, ?;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+FseI	R2	Type II REase	RB01059	Frankia species Eul1b	GGCCGGCC	GGCCGGCC, 6;		Unknown (REase only)	GGCCGGCC (FseI)	FseI
+M.FseI	M2	Type II MTase	RB03406	Frankia species Eul1b	GGCCGGCC	GGCCGGCC, ?;	?(m5C);	5-methylcytosine (m5C)	GGCCGGCC (FseI)	FseI
+M.Gho11645I	M2	Type II MTase	RB421162	Grimontia hollisae NCTC11645	GCCGGC	GCCGGC, ?;	?(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+KroI	R2*	Type II REase (putative)	RB38425	Kocurea rosea 307	GCCGGC	GCCGGC, 1;		Unknown (REase only)	GCCGGC (NaeI)	KroI
+KroNI	R2	Type II REase	RB491208	Kocurea rosea 56	GCCGGC	GCCGGC, 3;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+MauAI	R2	Type II REase	RB01201	Micromonospora aurantiaca	GCCGGC	GCCGGC, ?;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+M.Mch10485II	M2	Type II MTase	RB288334	Mycolicibacterium chitae NCTC10485	GCCGGC	GCCGGC, ?;	?(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+M.MfoCT6IV	M2	Type II MTase	RB87244	Mycobacterium fortuitum CT6	GCCGGC	GCCGGC, ?;	2(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+MisI	R2	Type II REase	RB01219	Micrococcus species	GCCGGC	GCCGGC, ?;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+Mlu9273II	R2	Type II REase	RB02351	Micrococcus luteus	GCCGGC	GCCGGC, ?;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+MreI	R2	Type II REase	RB10918	Micromonospora rhodorangea RFL1	CGCCGGCG	CGCCGGCG, 2;		Unknown (REase only)	CGCCGGCG (Sse232I)	Sse232I
+MroNI	R2	Type II REase	RB02676	Micrococcus roseus N	GCCGGC	GCCGGC, 1;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+MspGI	R2	Type II REase	RB218866	Microbacterium species Gd 4-13	GCCGGC	GCCGGC, 5;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+NaeI	R2	Type II REase	RB01294	Nocardia aerocolonigenes	GCCGGC	GCCGGC, 3;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+M.NaeI	M2	Type II MTase	RB03452	Nocardia aerocolonigenes	GCCGGC	GCCGGC, ?;	?(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+NbaI	R2	Type II REase	RB01303	Nocardia brasiliensis	GCCGGC	GCCGGC, ?;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+NbrI	R2	Type II REase	RB01305	Nocardia brasiliensis	GCCGGC	GCCGGC, ?;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+NgoAIV	R2	Type II REase	RB01326	Neisseria gonorrhoeae FA 1090	GCCGGC	GCCGGC, 1;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+M.NgoAIV	M2	Type II MTase	RB03462	Neisseria gonorrhoeae FA 1090	GCCGGC	GCCGGC, ?;	2(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+NgoMIV	R2	Type II REase	RB01330	Neisseria gonorrhoeae MS11	GCCGGC	GCCGGC, 1;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+M.NgoMIV	M2	Type II MTase	RB03463	Neisseria gonorrhoeae MS11	GCCGGC	GCCGGC, ?;	2(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+NmuI	R2	Type II REase	RB01362	Neisseria mucosa	GCCGGC	GCCGGC, ?;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+NmuFI	R2	Type II REase	RB01361	Neisseria mucosa	GCCGGC	GCCGGC, ?;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+M.Nsp209IV	M2	Type II MTase	RB67411	Nocardia sp. BMG111209	GCCGGC	GCCGGC, ?;	3(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+NspWI	R2	Type II REase	RB01408	Nocardia species	GCCGGC	GCCGGC, ?;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+NtaSII	R2	Type II REase	RB01413	Nocardia tartaricans	GCCGGC	GCCGGC, ?;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+PdiI	R2	Type II REase	RB04109	Pseudomonas diminuta Mck 33-321	GCCGGC	GCCGGC, 3;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+M.PfrJS2V	M2	Type II MTase	RB177132	Propionibacterium freudenreichii JS2	GCCGGC	GCCGGC, ?;	3(Nm4C);	N4-methylcytosine (m4C)	GCCGGC (NaeI)	NaeI
+PglI	R2	Type II REase	RB01483	Pseudomonas glycinae	GCCGGC	GCCGGC, ?;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+M.PmeIV	M2	Type II MTase	RB237167	Pseudomonas mendocina	CGCCGGCG	CGCCGGCG, ?;	4(m5C);	5-methylcytosine (m5C)	CGCCGGCG (Sse232I)	Sse232I
+Psp61I	R2	Type II REase	RB01529	Pseudomonas species MS61	GCCGGC	GCCGGC, ?;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+M.Psp97II	M2	Type II MTase	RB166071	Phaeobacter porticola strain P97	GCCGGC	GCCGGC, ?;	?(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+RigI	R2	Type II REase	RB14596	Rhizobium yangligense	GGCCGGCC	GGCCGGCC, 6;		Unknown (REase only)	GGCCGGCC (FseI)	FseI
+RluI	R2	Type II REase	RB01557	Rhizobium lupini 1	GCCGGC	GCCGGC, ?;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+RrhJ1I	R2	Type II REase	RB16393	Rhodococcus rhodochrous J-1	GCCGGC	GCCGGC, 3;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+M.RrhJ1I	M2	Type II MTase	RB16394	Rhodococcus rhodochrous J-1	GCCGGC	GCCGGC, ?;	?(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+M.Rsp008II	M2	Type II MTase	RB152599	Rhodococcus species 008	GCCGGC	GCCGGC, ?;	?(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+M.Rtr1953IV	M2	Type II MTase	RB145457	Rathayibacter tritici NCPPB 1953	GCCGGC	GCCGGC, ?;	?(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+SacAI	R2	Type II REase	RB01577	Streptomyces achromogenes	GCCGGC	GCCGGC, ?;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+SalCI	R2	Type II REase	RB01585	Streptomyces albus	GCCGGC	GCCGGC, ?;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+SaoI	R2	Type II REase	RB01592	Streptomyces albofaciens	GCCGGC	GCCGGC, ?;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+SauAI	R2	Type II REase	RB01608	Streptomyces aureofaciens	GCCGGC	GCCGGC, ?;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+SauBMKI	R2	Type II REase	RB01610	Streptomyces aureofaciens strain BM-K	GCCGGC	GCCGGC, 3;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+SauHPI	R2	Type II REase	RB02193	Streptomyces aureofaciens R8/26	GCCGGC	GCCGGC, 3;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+SauLPI	R2	Type II REase	RB02190	Streptomyces aureofaciens B-96	GCCGGC	GCCGGC, 3;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+M.SauLPI	M2	Type II MTase	RB03539	Streptomyces aureofaciens B-96	GCCGGC	GCCGGC, ?;	2(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+SauNI	R2	Type II REase	RB02191	Streptomyces aureofaciens NMU	GCCGGC	GCCGGC, 3;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+SauSI	R2	Type II REase	RB02192	Streptomyces aureofaciens 16	GCCGGC	GCCGGC, 3;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+SceIII	R2	Type II REase	RB02593	Saccharomyces cerevisiae	GCCGGC	GCCGGC, 1;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+M.Sen58I	M2	Type II MTase	RB158234	Salmonella enterica CRJJGF_00058	GCCGGC	GCCGGC, ?;	?(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+M.Sfr10745III	M2	Type II MTase	RB374532	Streptomyces fradiae ATCC 10745 = DSM 40063	GCCGGC	GCCGGC, ?;	2(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+SghWII	R2	Type II REase	RB51041	Streptomyces ghanaensis	GCCGGC	GCCGGC, ?;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+M.SghWII	M2	Type II MTase	RB24115	Streptomyces ghanaensis	GCCGGC	GCCGGC, ?;	?(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+M1.Sgr13350II	M2	Type II MTase	RB17733	Streptomyces griseus subsp. griseus NBRC 13350	GCCGGC	GCCGGC, ?;	2(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+SkaI	R2	Type II REase	RB01692	Streptomyces karnatakensis	GCCGGC	GCCGGC, ?;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+M1.Slo00643I	M2	Type II MTase	RB798229	Streptomyces longwoodensis NBC 00643	GCCGGC	GCCGGC, ?;	3(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+M2.Slo00643I	M2	Type II MTase	RB798228	Streptomyces longwoodensis NBC 00643	GCCGGC	GCCGGC, ?;	3(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+Slu1777I	R2	Type II REase	RB01698	Streptomyces lusitanus 1777	GCCGGC	GCCGGC, 3;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+Smo40529I	R2	Type II REase	RB01705	Streptomyces moderatus	GCCGGC	GCCGGC, ?;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+SrlI	R2	Type II REase	RB03837	Selenomonas ruminantium subsp. lactilytica 84	GCCGGC	GCCGGC, 1;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+Srl77DI	R2	Type II REase	RB03976	Selenomonas ruminantium 77	GCCGGC	GCCGGC, ?;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+Sse232I	R2	Type II REase	RB03831	Streptomyces species RH232	CGCCGGCG	CGCCGGCG, 2;		Unknown (REase only)	CGCCGGCG (Sse232I)	Sse232I
+M1.Ssp281I	M2	Type II MTase	RB797523	Streptomyces species NBC_01281	GCCGGC	GCCGGC, ?;	3(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+M2.Ssp281I	M2	Type II MTase	RB797524	Streptomyces species NBC_01281	GCCGGC	GCCGGC, ?;	3(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+SspCI	R2	Type II REase	RB07122	Streptomyces species	GCCGGC	GCCGGC, 3;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+M1.SspSAT1I	M2	Type II MTase	RB151232	Streptomyces species SAT1	GCCGGC	GCCGGC, ?;	?(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+M2.SspSAT1I	M2	Type II MTase	RB151231	Streptomyces species SAT1	GCCGGC	GCCGGC, ?;	?(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+M.Svi27968I	M2	Type II MTase	RB455182	Streptomyces violascens ATCC 27968	GCCGGC	GCCGGC, ?;	2(Nm4C);	N4-methylcytosine (m4C)	GCCGGC (NaeI)	NaeI
+Sxa3845I	R2	Type II REase	RB891662	Streptomyces xanthophaeus KPP03845	GCCGGC	GCCGGC, ?;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+M.Sxa3845I	M2	Type II MTase	RB688736	Streptomyces xanthophaeus KPP03845	GCCGGC	GCCGGC, ?;	?(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+Uba1122I	R2	Type II REase	RB01856	Unidentified bacterium RFL1122	GCCGGC	GCCGGC, ?;		Unknown (REase only)	GCCGGC (NaeI)	NaeI
+M.Xfa6II	M2	Type II MTase	RB1067491	Xylella fastidiosa subsp. multiplex Dixon	GCCGGC	GCCGGC, ?;	2(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI
+M.XfaLM10III	M2	Type II MTase	RB401439	Xylella fastidiosa subsp. multiplex LM10	GCCGGC	GCCGGC, ?;	2(m5C);	5-methylcytosine (m5C)	GCCGGC (NaeI)	NaeI

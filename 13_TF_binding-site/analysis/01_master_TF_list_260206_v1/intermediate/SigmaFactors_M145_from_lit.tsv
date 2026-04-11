@@ -1,0 +1,81 @@
+SCO_ID	gene_name	sigma_group	description	source	gene_id
+SCO5820	hrdB	sigma70_group1	Principal sigma factor (sigA/hrdB)	literature_curated	SC_RS31340
+SCO3465	hrdA	sigma70_group2	Group 2 sigma factor HrdA	literature_curated	SC_RS19450
+SCO5683	hrdC	sigma70_group2	Group 2 sigma factor HrdC	literature_curated	SC_RS30630
+SCO0895	hrdD	sigma70_group2	Group 2 sigma factor HrdD	literature_curated	SC_RS06415
+SCO0600	sigB	sigma70_group3	Alternative sigma factor SigB (osmotic/oxidative stress, differentiation)	literature_curated	SC_RS04925
+SCO1541	sigF	sigma70_group3	Alternative sigma factor SigF (sporulation)	literature_curated	SC_RS09690
+SCO7341	sigG	sigma70_group3	Alternative sigma factor SigG	literature_curated	SC_RS38920
+SCO5243	sigH	sigma70_group3	Alternative sigma factor SigH (stress response)	literature_curated	SC_RS28395
+SCO3068	sigI	sigma70_group3	Alternative sigma factor SigI	literature_curated	SC_RS17455
+SCO6520	sigK	sigma70_group3	Alternative sigma factor SigK (differentiation)	literature_curated	SC_RS34795
+SCO7278	sigL	sigma70_group3	Alternative sigma factor SigL (osmotic stress)	literature_curated	SC_RS38605
+SCO7314	sigM	sigma70_group3	Alternative sigma factor SigM (osmotic stress)	literature_curated	SC_RS38785
+SCO4034	sigN	sigma70_group3	Alternative sigma factor SigN (differentiation, stress)	literature_curated	SC_RS22290
+SCO5621	whiG	sigma70_group3	Alternative sigma factor WhiG (sporulation)	literature_curated	SC_RS30330
+SCO5216	sigR	ECF	ECF sigma factor SigR (thiol-oxidative stress)	literature_curated	SC_RS28260
+SCO3356	sigE	ECF	ECF sigma factor SigE (cell wall stress)	literature_curated	SC_RS18895
+SCO2954	sigU	ECF	ECF sigma factor SigU	literature_curated	SC_RS16875
+SCO4908	bldN	ECF	ECF sigma factor BldN (aerial mycelium formation)	literature_curated	SC_RS26700
+SCO4005	sigT	ECF	ECF sigma factor SigT (nitrogen stress, actinorhodin)	literature_curated	SC_RS22135
+SCO7328	sigQ	ECF	ECF sigma factor SigQ	literature_curated	SC_RS38855
+SCO4895	litS	ECF	ECF sigma factor LitS (light-induced carotenogenesis)	literature_curated	SC_RS26635
+SCO0159		sigma70_unclassified	sigma-70 family RNA polymerase sigma factor	GFF_product_annotation	SC_RS02745
+SCO0194		sigma70_unclassified	sigma-70 family RNA polymerase sigma factor	GFF_product_annotation	SC_RS02920
+SCO0414	sigJ	ECF	RNA polymerase sigma factor SigJ	GFF_product_annotation	SC_RS03980
+SCO0599		ECF	anti-sigma factor RsbA family regulatory protein	GFF_product_annotation	SC_RS04920
+SCO0632		sigma70_unclassified	sigma-70 family RNA polymerase sigma factor	GFF_product_annotation	SC_RS05075
+SCO0633		ECF	anti-sigma factor	GFF_product_annotation	SC_RS05080
+SCO0781		ECF	anti-sigma factor antagonist	GFF_product_annotation	SC_RS05835
+SCO0803	sigJ	ECF	RNA polymerase sigma factor SigJ	GFF_product_annotation	SC_RS05945
+SCO0864		sigma70_unclassified	sigma-70 family RNA polymerase sigma factor	GFF_product_annotation	SC_RS06250
+SCO0866		sigma70_unclassified	sigma-70 family RNA polymerase sigma factor	GFF_product_annotation	SC_RS06260
+SCO0942		sigma70_unclassified	sigma-70 family RNA polymerase sigma factor	GFF_product_annotation	SC_RS06660
+SCO1263		sigma70_unclassified	RNA polymerase sigma-70 factor	GFF_product_annotation	SC_RS08275
+SCO1276		ECF	RNA polymerase sigma factor	GFF_product_annotation	SC_RS08340
+		ECF	RNA polymerase sigma factor	GFF_product_annotation	SC_RS01865
+SCO1564		sigma70_unclassified	sigma-70 family RNA polymerase sigma factor	GFF_product_annotation	SC_RS09835
+SCO1722		ECF	anti-sigma factor	GFF_product_annotation	SC_RS10620
+SCO1723		sigma70_unclassified	sigma-70 family RNA polymerase sigma factor	GFF_product_annotation	SC_RS10625
+SCO1876		ECF	SigE family RNA polymerase sigma factor	GFF_product_annotation	SC_RS11410
+SCO2465		ECF	RNA polymerase sigma factor	GFF_product_annotation	SC_RS14375
+SCO2639		ECF	RNA polymerase sigma factor	GFF_product_annotation	SC_RS15270
+SCO2742		sigma70_unclassified	RNA polymerase sigma-70 factor	GFF_product_annotation	SC_RS15795
+SCO3202		sigma70_unclassified	sigma-70 family RNA polymerase sigma factor	GFF_product_annotation	SC_RS18125
+SCO3323		ECF	ECF subfamily RNA polymerase sigma factor, BldN family	GFF_product_annotation	SC_RS18720
+SCO3449		ECF	anti-sigma factor family protein	GFF_product_annotation	SC_RS19370
+SCO3450		ECF	RNA polymerase sigma factor	GFF_product_annotation	SC_RS19375
+SCO3451		ECF	anti-sigma factor family protein	GFF_product_annotation	SC_RS19380
+SCO3549	bldG	ECF	anti-sigma factor antagonist BldG	GFF_product_annotation	SC_RS19880
+SCO3613		ECF	SigE family RNA polymerase sigma factor	GFF_product_annotation	SC_RS20200
+SCO3626		sigma70_unclassified	sigma-70 family RNA polymerase sigma factor	GFF_product_annotation	SC_RS20265
+SCO3709		ECF	SigE family RNA polymerase sigma factor	GFF_product_annotation	SC_RS20680
+SCO3736		ECF	RNA polymerase sigma factor	GFF_product_annotation	SC_RS20810
+SCO3891		ECF	anti-sigma factor family protein	GFF_product_annotation	SC_RS21600
+SCO3892	sigM	ECF	RNA polymerase sigma factor SigM	GFF_product_annotation	SC_RS21605
+SCO4035		ECF	RNA polymerase sigma factor SigF	GFF_product_annotation	SC_RS22295
+SCO4117		sigma70_unclassified	sigma-70 family RNA polymerase sigma factor	GFF_product_annotation	SC_RS22755
+SCO4146		ECF	RNA polymerase sigma factor	GFF_product_annotation	SC_RS22920
+SCO4409		sigma70_unclassified	sigma-70 family RNA polymerase sigma factor	GFF_product_annotation	SC_RS24215
+SCO4452		ECF	RNA polymerase sigma factor	GFF_product_annotation	SC_RS24425
+SCO4757		ECF	RNA polymerase sigma factor	GFF_product_annotation	SC_RS25945
+SCO4769		sigma70_unclassified	sigma-70 family RNA polymerase sigma factor	GFF_product_annotation	SC_RS26005
+SCO4864		ECF	RNA polymerase sigma factor	GFF_product_annotation	SC_RS26480
+SCO4866		ECF	RNA polymerase sigma factor	GFF_product_annotation	SC_RS26490
+SCO4938	sigJ	ECF	RNA polymerase sigma factor SigJ	GFF_product_annotation	SC_RS26855
+SCO4960		ECF	sigma factor-like helix-turn-helix DNA-binding protein	GFF_product_annotation	SC_RS26965
+SCO4996		ECF	SigE family RNA polymerase sigma factor	GFF_product_annotation	SC_RS27140
+SCO5147	sigE	ECF	RNA polymerase sigma factor SigE	GFF_product_annotation	SC_RS27900
+SCO5148		ECF	anti-sigma factor family protein	GFF_product_annotation	SC_RS27905
+SCO5934		ECF	RNA polymerase sigma factor	GFF_product_annotation	SC_RS31920
+SCO6239	sigJ	ECF	RNA polymerase sigma factor SigJ	GFF_product_annotation	SC_RS33445
+SCO6996		ECF	RNA polymerase sigma factor	GFF_product_annotation	SC_RS37205
+SCO7099		sigma70_unclassified	sigma-70 family RNA polymerase sigma factor family protein	GFF_product_annotation	SC_RS37720
+SCO7104		sigma70_unclassified	sigma-70 family RNA polymerase sigma factor family protein	GFF_product_annotation	SC_RS37745
+SCO7105		sigma70_unclassified	RNA polymerase sigma-70 factor	GFF_product_annotation	SC_RS37750
+SCO7112		sigma70_unclassified	RNA polymerase sigma-70 factor	GFF_product_annotation	SC_RS37785
+SCO7144		sigma70_unclassified	sigma-70 family RNA polymerase sigma factor	GFF_product_annotation	SC_RS37945
+SCO7192		ECF	sigma factor-like helix-turn-helix DNA-binding protein	GFF_product_annotation	SC_RS38175
+SCP1.116		ECF	RNA polymerase sigma factor	GFF_product_annotation	SC_RS00615
+SCP1.151c		ECF	RNA polymerase sigma factor	GFF_product_annotation	SC_RS00780
+SCP1.161c		sigma70_unclassified	sigma-70 family RNA polymerase sigma factor	GFF_product_annotation	SC_RS00830

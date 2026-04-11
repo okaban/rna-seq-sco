@@ -1,0 +1,16 @@
+metric	activation	repression	MW_p_value
+n_genes	7.0	0.0	
+n_with_phase_ratio	6.0	0.0	
+mean_phase_ratio	1.0404539156830712		nan
+median_phase_ratio	1.075488509436346		
+std_phase_ratio	0.31116930409822235		
+n_early	5.0	0.0	
+n_late	0.0	0.0	
+n_gradual	1.0	0.0	
+n_nonresponder	1.0	0.0	
+mean_T1_z	0.27814192091062495		
+mean_T2_z	0.14550971661284537		
+mean_T3_z	-0.4236516375234705		
+mean_LFC_T2vsT1	-0.24205389948133618		
+mean_LFC_T3vsT2	-0.23884491680865855		
+mean_LFC_T3vsT1	-0.48123885435746944		

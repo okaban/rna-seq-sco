@@ -1,0 +1,50 @@
+# =============================================================
+# S. coelicolor RNA-seq + Epigenome project .gitignore
+# =============================================================
+
+# --- Large sequencing data files ---
+*.bam
+*.bai
+*.sam
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.cram
+*.crai
+
+# --- Genome index files ---
+02_alignment/star_index/
+02_alignment/hisat2_index/
+*.ht2
+*.bt2
+*.bt2l
+
+# --- Large binary / intermediate files ---
+*.fna
+*.fa.gz
+*.fasta.gz
+
+# --- OS / editor junk ---
+.DS_Store
+**/.DS_Store
+*.swp
+*.swo
+*~
+.Rhistory
+.RData
+
+# --- Conda / Python environments ---
+.conda/
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# --- R session artifacts ---
+Rplots.pdf
+
+# --- Temporary files ---
+*.tmp
+*.temp
+*.log

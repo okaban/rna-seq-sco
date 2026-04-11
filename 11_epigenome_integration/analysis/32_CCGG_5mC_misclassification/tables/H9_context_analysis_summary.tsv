@@ -1,0 +1,14 @@
+analysis	metric	value	interpretation
+C position in CCGG	C2 (Dcm target) %	84.5% (1717/2032)	Consistent with Dcm-type modification target
+C position in CCGG	C1 %	8.0% (162/2032)	Minor fraction at non-canonical position
+C position in CCGG	not_in_CCGG %	7.5% (153/2032)	CCGC motif sites, different context
+TGGCCGGC deep dive	All at C2 of CCGG	100% (1717/1717)	Exclusive methylation at internal C of GCCGGC palindrome
+5mC signal check	Mean 5mC freq at CCGG 4mC sites	0.01% (26/18282 records >0)	Effectively zero 5mC signal; modkit does not detect 5mC here
+5mC signal check	4mC freq at same sites	79.9% mean	Very strong 4mC signal, not marginal
+Modification frequency	CCGG 4mC vs non-CCGG 4mC (T1)	82.7% vs 74.9%, p<0.001	CCGG 4mC has HIGHER frequency than other 4mC
+Modification frequency	CCGG 4mC vs 6mA (T1)	82.7% vs 59.2%, p<1e-300	CCGG 4mC has much HIGHER frequency than 6mA
+Replicate consistency	3-rep detection rate	100% for all groups	No difference; all HC sites have 3-rep support (MIN_REPS=3)
+CCWGG context	Sites in CCWGG context	0% (0/2032)	Not at Dcm substrate (CCWGG); sites are in CCGG/GCCGGC context
+Flanking context	Dominant 6bp context	GCCGGC: 91.4% (1717/1879)	GCCGGC palindrome is the recognition sequence
+Temporal overlap	T1-T2 Jaccard	0.000 (from H7)	Zero positional overlap between timepoints
+MTase expression	Candidate MTase at T1	None identified (from H7)	No cytosine MTase with adequate expression for 1516 T1 sites

@@ -1,0 +1,21 @@
+timepoint	category	observed	expected	fold_enrichment	odds_ratio	p_value	direction	p_bonferroni
+T1	Other	96	86.8	1.11	1.168	0.2563167175857658	enriched	1.0
+T1	Primary metabolism	67	58.3	1.15	1.2	0.20072466006545142	enriched	1.0
+T1	Hypothetical	18	34.6	0.52	0.485	0.0019291521703793633	depleted	0.03858304340758727
+T1	Regulatory/TF	11	25.4	0.43	0.409	0.0017452263343379916	depleted	0.034904526686759835
+T1	Transport	21	21.6	0.97	0.969	1.0	depleted	1.0
+T1	DNA/RNA metabolism	18	12.8	1.41	1.439	0.14614044147601962	enriched	1.0
+T1	Stress/Defense	16	8.2	1.96	2.023	0.011792315901868156	enriched	0.2358463180373631
+T1	Secondary metabolism	5	6.9	0.73	0.723	0.6904634067516774	depleted	1.0
+T1	Translation	3	3.1	0.96	0.961	1.0	depleted	1.0
+T1	Membrane/Cell wall	5	2.3	2.14	2.158	0.09483210319388481	enriched	1.0
+T2	Other	27	21.4	1.26	1.456	0.14450537694381485	enriched	1.0
+T2	Primary metabolism	17	14.4	1.18	1.25	0.4518985154302221	enriched	1.0
+T2	Hypothetical	3	8.5	0.35	0.32	0.04072773559807477	depleted	0.8145547119614954
+T2	Regulatory/TF	4	6.2	0.64	0.617	0.5220405441182411	depleted	1.0
+T2	Transport	4	5.3	0.75	0.735	0.8184517818934149	depleted	1.0
+T2	DNA/RNA metabolism	3	3.1	0.95	0.951	1.0	depleted	1.0
+T2	Stress/Defense	4	2.0	1.99	2.057	0.14374360824684135	enriched	1.0
+T2	Secondary metabolism	2	1.7	1.18	1.19	0.6866833670646607	enriched	1.0
+T2	Translation	0	0.8	0.0	0.0	1.0	depleted	1.0
+T2	Membrane/Cell wall	0	0.6	0.0	0.0	1.0	depleted	1.0

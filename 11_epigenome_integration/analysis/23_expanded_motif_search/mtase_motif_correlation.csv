@@ -1,0 +1,163 @@
+mtase,motif,pearson_r,p_value,mtase_trend,mtase_product
+SC_RS03950,4mC_CCGG,0.276,0.8223,STABLE,class I SAM-dependent DNA methyltransfer
+SC_RS03950,4mC_GGCCGG,0.273,0.8243,STABLE,class I SAM-dependent DNA methyltransfer
+SC_RS03950,4mC_AAGCCCG,0.317,0.7947,STABLE,class I SAM-dependent DNA methyltransfer
+SC_RS03950,4mC_GCCG,0.273,0.8241,STABLE,class I SAM-dependent DNA methyltransfer
+SC_RS03950,4mC_ACCG,0.201,0.8714,STABLE,class I SAM-dependent DNA methyltransfer
+SC_RS03950,4mC_CCGC,0.275,0.8227,STABLE,class I SAM-dependent DNA methyltransfer
+SC_RS03950,4mC_GCCGGC,0.27,0.8259,STABLE,class I SAM-dependent DNA methyltransfer
+SC_RS03950,4mC_CCGCGG,0.661,0.54,STABLE,class I SAM-dependent DNA methyltransfer
+SC_RS03950,6mA_CCGG,0.092,0.9413,STABLE,class I SAM-dependent DNA methyltransfer
+SC_RS03950,6mA_GGCCGG,0.414,0.7285,STABLE,class I SAM-dependent DNA methyltransfer
+SC_RS03950,6mA_AAGCCCG,0.079,0.9495,STABLE,class I SAM-dependent DNA methyltransfer
+SC_RS03950,6mA_GATC,-0.028,0.9822,STABLE,class I SAM-dependent DNA methyltransfer
+SC_RS03950,6mA_GCGC,0.176,0.8874,STABLE,class I SAM-dependent DNA methyltransfer
+SC_RS03950,6mA_GCCG,-0.072,0.9544,STABLE,class I SAM-dependent DNA methyltransfer
+SC_RS03950,6mA_ACCG,0.034,0.9781,STABLE,class I SAM-dependent DNA methyltransfer
+SC_RS03950,6mA_CCGC,-0.004,0.9977,STABLE,class I SAM-dependent DNA methyltransfer
+SC_RS03950,6mA_GCCGGC,0.028,0.9823,STABLE,class I SAM-dependent DNA methyltransfer
+SC_RS03950,6mA_CCGCGG,-0.028,0.9822,STABLE,class I SAM-dependent DNA methyltransfer
+SC_RS17645,4mC_CCGG,0.689,0.5164,DOWN_sustained,N-6 DNA methylase
+SC_RS17645,4mC_GGCCGG,0.691,0.5144,DOWN_sustained,N-6 DNA methylase
+SC_RS17645,4mC_AAGCCCG,0.657,0.544,DOWN_sustained,N-6 DNA methylase
+SC_RS17645,4mC_GCCG,0.691,0.5145,DOWN_sustained,N-6 DNA methylase
+SC_RS17645,4mC_ACCG,0.743,0.4672,DOWN_sustained,N-6 DNA methylase
+SC_RS17645,4mC_CCGC,0.689,0.516,DOWN_sustained,N-6 DNA methylase
+SC_RS17645,4mC_GCCGGC,0.693,0.5128,DOWN_sustained,N-6 DNA methylase
+SC_RS17645,4mC_CCGCGG,0.311,0.7987,DOWN_sustained,N-6 DNA methylase
+SC_RS17645,6mA_CCGG,0.811,0.3974,DOWN_sustained,N-6 DNA methylase
+SC_RS17645,6mA_GGCCGG,0.575,0.6102,DOWN_sustained,N-6 DNA methylase
+SC_RS17645,6mA_AAGCCCG,0.819,0.3892,DOWN_sustained,N-6 DNA methylase
+SC_RS17645,6mA_GATC,0.876,0.3209,DOWN_sustained,N-6 DNA methylase
+SC_RS17645,6mA_GCGC,0.759,0.4513,DOWN_sustained,N-6 DNA methylase
+SC_RS17645,6mA_GCCG,0.896,0.2931,DOWN_sustained,N-6 DNA methylase
+SC_RS17645,6mA_ACCG,0.844,0.3605,DOWN_sustained,N-6 DNA methylase
+SC_RS17645,6mA_CCGC,0.864,0.3364,DOWN_sustained,N-6 DNA methylase
+SC_RS17645,6mA_GCCGGC,0.847,0.3564,DOWN_sustained,N-6 DNA methylase
+SC_RS17645,6mA_CCGCGG,0.876,0.3209,DOWN_sustained,N-6 DNA methylase
+SC_RS19670,4mC_CCGG,-0.727,0.4816,LATE_UP,DNA-methyltransferase
+SC_RS19670,4mC_GGCCGG,-0.725,0.4836,LATE_UP,DNA-methyltransferase
+SC_RS19670,4mC_AAGCCCG,-0.756,0.454,LATE_UP,DNA-methyltransferase
+SC_RS19670,4mC_GCCG,-0.725,0.4834,LATE_UP,DNA-methyltransferase
+SC_RS19670,4mC_ACCG,-0.672,0.5308,LATE_UP,DNA-methyltransferase
+SC_RS19670,4mC_CCGC,-0.727,0.482,LATE_UP,DNA-methyltransferase
+SC_RS19670,4mC_GCCGGC,-0.723,0.4852,LATE_UP,DNA-methyltransferase
+SC_RS19670,4mC_CCGCGG,-0.951,0.1993,LATE_UP,DNA-methyltransferase
+SC_RS19670,6mA_CCGG,-0.587,0.6006,LATE_UP,DNA-methyltransferase
+SC_RS19670,6mA_GGCCGG,-0.82,0.3878,LATE_UP,DNA-methyltransferase
+SC_RS19670,6mA_AAGCCCG,-0.577,0.6088,LATE_UP,DNA-methyltransferase
+SC_RS19670,6mA_GATC,-0.486,0.6771,LATE_UP,DNA-methyltransferase
+SC_RS19670,6mA_GCGC,-0.653,0.5467,LATE_UP,DNA-methyltransferase
+SC_RS19670,6mA_GCCG,-0.447,0.7049,LATE_UP,DNA-methyltransferase
+SC_RS19670,6mA_ACCG,-0.539,0.6374,LATE_UP,DNA-methyltransferase
+SC_RS19670,6mA_CCGC,-0.507,0.6616,LATE_UP,DNA-methyltransferase
+SC_RS19670,6mA_GCCGGC,-0.534,0.6416,LATE_UP,DNA-methyltransferase
+SC_RS19670,6mA_CCGCGG,-0.486,0.6771,LATE_UP,DNA-methyltransferase
+SC_RS19770,4mC_CCGG,-0.666,0.5364,DOWN_then_UP,DNA cytosine methyltransferase
+SC_RS19770,4mC_GGCCGG,-0.663,0.5384,DOWN_then_UP,DNA cytosine methyltransferase
+SC_RS19770,4mC_AAGCCCG,-0.697,0.5088,DOWN_then_UP,DNA cytosine methyltransferase
+SC_RS19770,4mC_GCCG,-0.663,0.5382,DOWN_then_UP,DNA cytosine methyltransferase
+SC_RS19770,4mC_ACCG,-0.606,0.5855,DOWN_then_UP,DNA cytosine methyltransferase
+SC_RS19770,4mC_CCGC,-0.665,0.5368,DOWN_then_UP,DNA cytosine methyltransferase
+SC_RS19770,4mC_GCCGGC,-0.661,0.54,DOWN_then_UP,DNA cytosine methyltransferase
+SC_RS19770,4mC_CCGCGG,-0.921,0.2541,DOWN_then_UP,DNA cytosine methyltransferase
+SC_RS19770,6mA_CCGG,-0.515,0.6554,DOWN_then_UP,DNA cytosine methyltransferase
+SC_RS19770,6mA_GGCCGG,-0.768,0.4426,DOWN_then_UP,DNA cytosine methyltransferase
+SC_RS19770,6mA_AAGCCCG,-0.504,0.6636,DOWN_then_UP,DNA cytosine methyltransferase
+SC_RS19770,6mA_GATC,-0.409,0.7319,DOWN_then_UP,DNA cytosine methyltransferase
+SC_RS19770,6mA_GCGC,-0.586,0.6014,DOWN_then_UP,DNA cytosine methyltransferase
+SC_RS19770,6mA_GCCG,-0.369,0.7597,DOWN_then_UP,DNA cytosine methyltransferase
+SC_RS19770,6mA_ACCG,-0.465,0.6922,DOWN_then_UP,DNA cytosine methyltransferase
+SC_RS19770,6mA_CCGC,-0.431,0.7164,DOWN_then_UP,DNA cytosine methyltransferase
+SC_RS19770,6mA_GCCGGC,-0.459,0.6964,DOWN_then_UP,DNA cytosine methyltransferase
+SC_RS19770,6mA_CCGCGG,-0.409,0.7319,DOWN_then_UP,DNA cytosine methyltransferase
+SC_RS24685,4mC_CCGG,0.918,0.26,DOWN_sustained,class I SAM-dependent DNA methyltransfer
+SC_RS24685,4mC_GGCCGG,0.919,0.258,DOWN_sustained,class I SAM-dependent DNA methyltransfer
+SC_RS24685,4mC_AAGCCCG,0.9,0.2876,DOWN_sustained,class I SAM-dependent DNA methyltransfer
+SC_RS24685,4mC_GCCG,0.919,0.2582,DOWN_sustained,class I SAM-dependent DNA methyltransfer
+SC_RS24685,4mC_ACCG,0.946,0.2109,DOWN_sustained,class I SAM-dependent DNA methyltransfer
+SC_RS24685,4mC_CCGC,0.918,0.2596,DOWN_sustained,class I SAM-dependent DNA methyltransfer
+SC_RS24685,4mC_GCCGGC,0.92,0.2564,DOWN_sustained,class I SAM-dependent DNA methyltransfer
+SC_RS24685,4mC_CCGCGG,0.659,0.5423,DOWN_sustained,class I SAM-dependent DNA methyltransfer
+SC_RS24685,6mA_CCGG,0.976,0.141,DOWN_sustained,class I SAM-dependent DNA methyltransfer
+SC_RS24685,6mA_GGCCGG,0.85,0.3538,DOWN_sustained,class I SAM-dependent DNA methyltransfer
+SC_RS24685,6mA_AAGCCCG,0.978,0.1328,DOWN_sustained,class I SAM-dependent DNA methyltransfer
+SC_RS24685,6mA_GATC,0.995,0.0645,DOWN_sustained,class I SAM-dependent DNA methyltransfer
+SC_RS24685,6mA_GCGC,0.953,0.1949,DOWN_sustained,class I SAM-dependent DNA methyltransfer
+SC_RS24685,6mA_GCCG,0.998,0.0367,DOWN_sustained,class I SAM-dependent DNA methyltransfer
+SC_RS24685,6mA_ACCG,0.987,0.1042,DOWN_sustained,class I SAM-dependent DNA methyltransfer
+SC_RS24685,6mA_CCGC,0.992,0.08,DOWN_sustained,class I SAM-dependent DNA methyltransfer
+SC_RS24685,6mA_GCCGGC,0.988,0.1,DOWN_sustained,class I SAM-dependent DNA methyltransfer
+SC_RS24685,6mA_CCGCGG,0.995,0.0645,DOWN_sustained,class I SAM-dependent DNA methyltransfer
+SC_RS28835,4mC_CCGG,0.968,0.1611,DOWN_sustained,BREX-2 system adenine-specific DNA-methy
+SC_RS28835,4mC_GGCCGG,0.969,0.1591,DOWN_sustained,BREX-2 system adenine-specific DNA-methy
+SC_RS28835,4mC_AAGCCCG,0.956,0.1887,DOWN_sustained,BREX-2 system adenine-specific DNA-methy
+SC_RS28835,4mC_GCCG,0.969,0.1593,DOWN_sustained,BREX-2 system adenine-specific DNA-methy
+SC_RS28835,4mC_ACCG,0.985,0.112,DOWN_sustained,BREX-2 system adenine-specific DNA-methy
+SC_RS28835,4mC_CCGC,0.968,0.1607,DOWN_sustained,BREX-2 system adenine-specific DNA-methy
+SC_RS28835,4mC_GCCGGC,0.97,0.1575,DOWN_sustained,BREX-2 system adenine-specific DNA-methy
+SC_RS28835,4mC_CCGCGG,0.767,0.4434,DOWN_sustained,BREX-2 system adenine-specific DNA-methy
+SC_RS28835,6mA_CCGG,0.998,0.0421,DOWN_sustained,BREX-2 system adenine-specific DNA-methy
+SC_RS28835,6mA_GGCCGG,0.921,0.2549,DOWN_sustained,BREX-2 system adenine-specific DNA-methy
+SC_RS28835,6mA_AAGCCCG,0.999,0.0339,DOWN_sustained,BREX-2 system adenine-specific DNA-methy
+SC_RS28835,6mA_GATC,0.999,0.0344,DOWN_sustained,BREX-2 system adenine-specific DNA-methy
+SC_RS28835,6mA_GCGC,0.989,0.0961,DOWN_sustained,BREX-2 system adenine-specific DNA-methy
+SC_RS28835,6mA_GCCG,0.995,0.0622,DOWN_sustained,BREX-2 system adenine-specific DNA-methy
+SC_RS28835,6mA_ACCG,1.0,0.0053,DOWN_sustained,BREX-2 system adenine-specific DNA-methy
+SC_RS28835,6mA_CCGC,1.0,0.0189,DOWN_sustained,BREX-2 system adenine-specific DNA-methy
+SC_RS28835,6mA_GCCGGC,1.0,0.0011,DOWN_sustained,BREX-2 system adenine-specific DNA-methy
+SC_RS28835,6mA_CCGCGG,0.999,0.0344,DOWN_sustained,BREX-2 system adenine-specific DNA-methy
+SC_RS35335,4mC_CCGG,0.49,0.674,STABLE,BREX-2 system adenine-specific DNA-methy
+SC_RS35335,4mC_GGCCGG,0.487,0.676,STABLE,BREX-2 system adenine-specific DNA-methy
+SC_RS35335,4mC_AAGCCCG,0.527,0.6464,STABLE,BREX-2 system adenine-specific DNA-methy
+SC_RS35335,4mC_GCCG,0.487,0.6759,STABLE,BREX-2 system adenine-specific DNA-methy
+SC_RS35335,4mC_ACCG,0.421,0.7232,STABLE,BREX-2 system adenine-specific DNA-methy
+SC_RS35335,4mC_CCGC,0.489,0.6744,STABLE,BREX-2 system adenine-specific DNA-methy
+SC_RS35335,4mC_GCCGGC,0.485,0.6776,STABLE,BREX-2 system adenine-specific DNA-methy
+SC_RS35335,4mC_CCGCGG,0.817,0.3917,STABLE,BREX-2 system adenine-specific DNA-methy
+SC_RS35335,6mA_CCGG,0.319,0.793,STABLE,BREX-2 system adenine-specific DNA-methy
+SC_RS35335,6mA_GGCCGG,0.613,0.5802,STABLE,BREX-2 system adenine-specific DNA-methy
+SC_RS35335,6mA_AAGCCCG,0.307,0.8012,STABLE,BREX-2 system adenine-specific DNA-methy
+SC_RS35335,6mA_GATC,0.203,0.8695,STABLE,BREX-2 system adenine-specific DNA-methy
+SC_RS35335,6mA_GCGC,0.398,0.7391,STABLE,BREX-2 system adenine-specific DNA-methy
+SC_RS35335,6mA_GCCG,0.161,0.8973,STABLE,BREX-2 system adenine-specific DNA-methy
+SC_RS35335,6mA_ACCG,0.264,0.8299,STABLE,BREX-2 system adenine-specific DNA-methy
+SC_RS35335,6mA_CCGC,0.227,0.854,STABLE,BREX-2 system adenine-specific DNA-methy
+SC_RS35335,6mA_GCCGGC,0.258,0.834,STABLE,BREX-2 system adenine-specific DNA-methy
+SC_RS35335,6mA_CCGCGG,0.203,0.8695,STABLE,BREX-2 system adenine-specific DNA-methy
+SC_RS36410,4mC_CCGG,-0.765,0.4454,UP_sustained,DNA cytosine methyltransferase
+SC_RS36410,4mC_GGCCGG,-0.763,0.4474,UP_sustained,DNA cytosine methyltransferase
+SC_RS36410,4mC_AAGCCCG,-0.792,0.4178,UP_sustained,DNA cytosine methyltransferase
+SC_RS36410,4mC_GCCG,-0.763,0.4473,UP_sustained,DNA cytosine methyltransferase
+SC_RS36410,4mC_ACCG,-0.713,0.4946,UP_sustained,DNA cytosine methyltransferase
+SC_RS36410,4mC_CCGC,-0.765,0.4458,UP_sustained,DNA cytosine methyltransferase
+SC_RS36410,4mC_GCCGGC,-0.761,0.449,UP_sustained,DNA cytosine methyltransferase
+SC_RS36410,4mC_CCGCGG,-0.967,0.1631,UP_sustained,DNA cytosine methyltransferase
+SC_RS36410,6mA_CCGG,-0.632,0.5644,UP_sustained,DNA cytosine methyltransferase
+SC_RS36410,6mA_GGCCGG,-0.851,0.3516,UP_sustained,DNA cytosine methyltransferase
+SC_RS36410,6mA_AAGCCCG,-0.622,0.5726,UP_sustained,DNA cytosine methyltransferase
+SC_RS36410,6mA_GATC,-0.535,0.6409,UP_sustained,DNA cytosine methyltransferase
+SC_RS36410,6mA_GCGC,-0.695,0.5105,UP_sustained,DNA cytosine methyltransferase
+SC_RS36410,6mA_GCCG,-0.497,0.6687,UP_sustained,DNA cytosine methyltransferase
+SC_RS36410,6mA_ACCG,-0.586,0.6013,UP_sustained,DNA cytosine methyltransferase
+SC_RS36410,6mA_CCGC,-0.555,0.6254,UP_sustained,DNA cytosine methyltransferase
+SC_RS36410,6mA_GCCGGC,-0.581,0.6054,UP_sustained,DNA cytosine methyltransferase
+SC_RS36410,6mA_CCGCGG,-0.535,0.6409,UP_sustained,DNA cytosine methyltransferase
+SC_RS36625,4mC_CCGG,-0.755,0.4553,LATE_UP,DNA-methyltransferase
+SC_RS36625,4mC_GGCCGG,-0.753,0.4572,LATE_UP,DNA-methyltransferase
+SC_RS36625,4mC_AAGCCCG,-0.783,0.4276,LATE_UP,DNA-methyltransferase
+SC_RS36625,4mC_GCCG,-0.753,0.4571,LATE_UP,DNA-methyltransferase
+SC_RS36625,4mC_ACCG,-0.702,0.5044,LATE_UP,DNA-methyltransferase
+SC_RS36625,4mC_CCGC,-0.755,0.4557,LATE_UP,DNA-methyltransferase
+SC_RS36625,4mC_GCCGGC,-0.751,0.4588,LATE_UP,DNA-methyltransferase
+SC_RS36625,4mC_CCGCGG,-0.963,0.173,LATE_UP,DNA-methyltransferase
+SC_RS36625,6mA_CCGG,-0.62,0.5742,LATE_UP,DNA-methyltransferase
+SC_RS36625,6mA_GGCCGG,-0.843,0.3615,LATE_UP,DNA-methyltransferase
+SC_RS36625,6mA_AAGCCCG,-0.61,0.5824,LATE_UP,DNA-methyltransferase
+SC_RS36625,6mA_GATC,-0.521,0.6508,LATE_UP,DNA-methyltransferase
+SC_RS36625,6mA_GCGC,-0.684,0.5203,LATE_UP,DNA-methyltransferase
+SC_RS36625,6mA_GCCG,-0.484,0.6786,LATE_UP,DNA-methyltransferase
+SC_RS36625,6mA_ACCG,-0.574,0.6111,LATE_UP,DNA-methyltransferase
+SC_RS36625,6mA_CCGC,-0.542,0.6352,LATE_UP,DNA-methyltransferase
+SC_RS36625,6mA_GCCGGC,-0.568,0.6152,LATE_UP,DNA-methyltransferase
+SC_RS36625,6mA_CCGCGG,-0.521,0.6508,LATE_UP,DNA-methyltransferase

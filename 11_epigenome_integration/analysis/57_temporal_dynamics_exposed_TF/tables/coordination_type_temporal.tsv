@@ -1,0 +1,5 @@
+coordination_type	n_genes	n_with_phase_ratio	mean_phase_ratio	median_phase_ratio	std_phase_ratio	mean_LFC_T2vsT1	mean_LFC_T3vsT2	dominant_temporal_class
+discordant_gain_up	0	0						NA
+concordant_derepression	0	0						NA
+concordant_repression	0	0						NA
+discordant_loss_down	0	0						NA

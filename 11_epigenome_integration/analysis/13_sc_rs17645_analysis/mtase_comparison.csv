@@ -1,0 +1,6 @@
+name,organism,recognition,length_aa,uniprot,type,SC_RS17645_similarity
+Dam (E. coli),Escherichia coli,GATC,278,P0AEE8,Dam family,Low (different recognition)
+M.EcoKI,Escherichia coli K-12,AAC(N6)GTGC,529,P08957,Type I R-M,Low (different recognition)
+CcrM,Caulobacter crescentus,GANTC,358,P70960,Cell cycle-regulated,Possible (similar size)
+M.HinfI,Haemophilus influenzae,GANTC,327,P23176,Type II,Possible (adenine-specific)
+PglX (BREX),Multiple bacteria,Variable (5-6bp),~1200,,BREX system,Low (different system)

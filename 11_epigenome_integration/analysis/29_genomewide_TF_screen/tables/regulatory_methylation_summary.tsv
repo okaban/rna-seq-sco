@@ -1,0 +1,26 @@
+tf_family	n_genes	n_methylated	n_DEG	n_both_methyl_DEG	n_in_lit37	methylation_rate	DEG_rate
+TetR	178	26	106	15	0	14.6	59.6
+HTH (other)	163	28	97	22	1	17.2	59.5
+Other regulatory	126	21	90	17	3	16.7	71.4
+Sensor kinase	83	17	55	12	3	20.5	66.3
+Response regulator	81	12	52	10	4	14.8	64.2
+Sigma factor	78	15	52	10	11	19.2	66.7
+GntR	48	5	33	5	1	10.4	68.8
+MarR	46	3	23	2	0	6.5	50.0
+LysR	42	8	18	6	0	19.0	42.9
+LacI	35	7	20	3	0	20.0	57.1
+MerR	28	8	15	3	0	28.6	53.6
+ArsR	27	3	13	1	0	11.1	48.1
+ROK	23	5	14	3	0	21.7	60.9
+IclR	16	2	10	2	0	12.5	62.5
+Lrp	16	0	13	0	0	0.0	81.2
+WhiB	13	2	11	2	1	15.4	84.6
+AraC	12	2	4	0	0	16.7	33.3
+PadR	9	0	5	0	0	0.0	55.6
+Repressor	7	0	6	0	1	0.0	85.7
+SARP	7	0	6	0	4	0.0	85.7
+DeoR	6	1	4	1	0	16.7	66.7
+Activator	4	0	2	0	0	0.0	50.0
+Anti-sigma	3	0	2	0	0	0.0	66.7
+CRP/FNR	2	0	1	0	1	0.0	50.0
+XRE	2	0	2	0	0	0.0	100.0

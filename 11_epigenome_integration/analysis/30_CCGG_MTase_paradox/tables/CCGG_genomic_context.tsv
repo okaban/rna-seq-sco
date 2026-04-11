@@ -1,0 +1,2033 @@
+timepoint	position	strand	motif	frequency	location	nearest_gene	gene_product	genome_region
+T1	131	-	CCGC	69.97	intergenic	SC_RS01870	IS5-like element IS1648 family transposase	arm
+T1	86222	+	TGGCCGGC	98.04	intragenic	SC_RS02500	globin domain-containing protein	arm
+T1	108750	+	TGGCCGGC	89.56	intragenic	SC_RS02600	type I polyketide synthase	arm
+T1	131563	+	TGGCCGGC	94.66	intragenic	SC_RS02650	SDR family oxidoreductase	arm
+T1	139070	+	TGGCCGGC	91.11	intragenic	SC_RS02700	DUF2975 domain-containing protein	arm
+T1	140453	+	TGGCCGGC	76.59	intragenic	SC_RS02710	FAD-dependent monooxygenase	arm
+T1	149840	-	TGGCCGGC	92.21	intragenic	SC_RS02750	helix-turn-helix domain-containing protein	arm
+T1	175601	+	TGGCCGGC	78.31	intragenic	SC_RS02880	phytoene desaturase family protein	arm
+T1	178710	-	TGGCCGGC	92.59	intragenic	SC_RS02895	FAD-dependent oxidoreductase	arm
+T1	203228	-	TGGCCGGC	96.97	intragenic	SC_RS03010	nitrate/nitrite transporter	arm
+T1	241148	-	TGGCCGGC	94.12	intragenic	SC_RS03180	FAD-dependent monooxygenase	arm
+T1	242078	-	TGGCCGGC	92.16	intragenic	SC_RS03180	FAD-dependent monooxygenase	arm
+T1	251362	-	TGGCCGGC	78.89	intragenic	SC_RS03230	LysR family transcriptional regulator	arm
+T1	304667	-	TGGCCGGC	89.1	intragenic	SC_RS03455	hypothetical protein	arm
+T1	323419	-	TGGCCGGC	81.87	intragenic	SC_RS03525	TlrC/CarA/OleB/SrmB family ABC-F type ribosomal protection protein	arm
+T1	335038	+	TGGCCGGC	93.52	intragenic	SC_RS03580	carotenoid oxygenase family protein	arm
+T1	364738	-	TGGCCGGC	94.66	intragenic	SC_RS03710	LacI family DNA-binding transcriptional regulator	arm
+T1	372882	-	TGGCCGGC	93.27	intragenic	SC_RS03745	YoaK family protein	arm
+T1	381782	-	TGGCCGGC	92.86	intragenic	SC_RS03765	glycoside hydrolase family 127 protein	arm
+T1	406538	+	TGGCCGGC	100.0	intragenic	SC_RS03845	bi-domain-containing oxidoreductase	arm
+T1	419901	-	TGGCCGGC	97.44	intragenic	SC_RS03900	glycosyltransferase family 2 protein	arm
+T1	429275	+	TGGCCGGC	98.67	intragenic	SC_RS03950	class I SAM-dependent DNA methyltransferase	arm
+T1	436443	+	TGGCCGGC	91.61	intragenic	SC_RS04005	NAD(P)-dependent alcohol dehydrogenase	arm
+T1	441709	-	TGGCCGGC	81.94	intragenic	SC_RS04025	MMPL family transporter	arm
+T1	450269	+	TGGCCGGC	100.0	intragenic	SC_RS04070	S8 family serine peptidase	arm
+T1	459557	-	TGGCCGGC	93.33	intragenic	SC_RS04105	DUF979 domain-containing protein	arm
+T1	460130	-	TGGCCGGC	93.64	intragenic	SC_RS04105	DUF979 domain-containing protein	arm
+T1	476881	-	TGGCCGGC	97.78	intragenic	SC_RS04200	glycoside hydrolase 5 family protein	arm
+T1	489300	-	CCGG	78.7	intragenic	SC_RS04250	HD domain-containing protein	arm
+T1	491329	+	TGGCCGGC	87.22	intragenic	SC_RS04265	alpha/beta fold hydrolase	arm
+T1	585945	+	TGGCCGGC	100.0	intragenic	SC_RS04645	pyruvate carboxylase	arm
+T1	594828	-	TGGCCGGC	83.33	intragenic	SC_RS04690	cellulase family glycosylhydrolase	arm
+T1	613984	+	TGGCCGGC	89.1	intragenic	SC_RS04785	cytosine permease	arm
+T1	619692	-	TGGCCGGC	95.56	intragenic	SC_RS04815	triose-phosphate isomerase	arm
+T1	620836	+	TGGCCGGC	95.56	intragenic	SC_RS04820	ribose-5-phosphate isomerase	arm
+T1	647285	+	TGGCCGGC	88.37	intragenic	SC_RS04955	hypothetical protein	arm
+T1	663377	+	TGGCCGGC	95.24	intragenic	SC_RS05035	MDR family MFS transporter	arm
+T1	683994	-	TGGCCGGC	91.41	intragenic	SC_RS05130	hypothetical protein	arm
+T1	717308	-	TGGCCGGC	86.12	intragenic	SC_RS05300	SpoIIE family protein phosphatase/ATP-binding protein	arm
+T1	721152	-	TGGCCGGC	83.75	intragenic	SC_RS05310	CsbD family protein	arm
+T1	743049	-	TGGCCGGC	96.97	intragenic	SC_RS05435	ATP-binding protein	arm
+T1	746027	+	TGGCCGGC	85.53	intragenic	SC_RS05455	ABC transporter substrate-binding protein	arm
+T1	746405	-	TGGCCGGC	83.01	intragenic	SC_RS05455	ABC transporter substrate-binding protein	arm
+T1	749518	-	TGGCCGGC	92.96	intragenic	SC_RS05470	ABC transporter ATP-binding protein	arm
+T1	753689	-	TGGCCGGC	92.59	intragenic	SC_RS05485	helix-turn-helix transcriptional regulator	arm
+T1	778043	+	TGGCCGGC	80.68	intragenic	SC_RS05605	Gfo/Idh/MocA family protein	arm
+T1	778604	+	TGGCCGGC	92.91	intragenic	SC_RS05605	Gfo/Idh/MocA family protein	arm
+T1	801847	+	TGGCCGGC	57.78	intragenic	SC_RS05710	NHLP bacteriocin export ABC transporter permease/ATPase subunit	arm
+T1	826745	+	TGGCCGGC	66.11	intragenic	SC_RS05825	VOC family protein	arm
+T1	849568	-	TGGCCGGC	88.82	intragenic	SC_RS05940	pentapeptide repeat-containing protein	arm
+T1	862344	+	TGGCCGGC	96.97	intragenic	SC_RS05995	bifunctional rhamnulose-1-phosphate aldolase/short-chain dehydrogenase	arm
+T1	869966	+	TGGCCGGC	89.35	intergenic	SC_RS06030	cupin domain-containing protein	arm
+T1	899184	+	TGGCCGGC	92.06	intragenic	SC_RS06195	hypothetical protein	arm
+T1	901669	-	TGGCCGGC	100.0	intragenic	SC_RS06200	MXAN_6230/SCO0854 family RING domain-containing protein	arm
+T1	911132	+	TGGCCGGC	80.89	intergenic	SC_RS06245	PepSY-associated TM helix domain-containing protein	arm
+T1	912367	-	TGGCCGGC	90.28	intragenic	SC_RS06255	hypothetical protein	arm
+T1	956271	-	CCGC	76.54	intragenic	SC_RS06505	ergothioneine biosynthesis protein EgtB	arm
+T1	957009	-	CCGG	96.17	intragenic	SC_RS06505	ergothioneine biosynthesis protein EgtB	arm
+T1	961344	+	TGGCCGGC	89.17	intergenic	SC_RS06530	phosphatase domain-containing protein	arm
+T1	976908	-	TGGCCGGC	94.44	intragenic	SC_RS06595	SAM-dependent methyltransferase	arm
+T1	982073	+	TGGCCGGC	97.44	intragenic	SC_RS06625	class F sortase	arm
+T1	990837	-	CCGG	80.28	intragenic	SC_RS06675	Fpg/Nei family DNA glycosylase	arm
+T1	992016	+	TGGCCGGC	96.47	intragenic	SC_RS06680	SpoIIE family protein phosphatase	arm
+T1	995973	-	TGGCCGGC	93.75	intragenic	SC_RS06690	alpha-mannosidase	arm
+T1	997791	-	CCGC	85.76	intragenic	SC_RS06690	alpha-mannosidase	arm
+T1	1020345	-	TGGCCGGC	90.12	intragenic	SC_RS06790	NADPH-dependent F420 reductase	arm
+T1	1034866	+	TGGCCGGC	86.57	intragenic	SC_RS06870	isocitrate lyase	arm
+T1	1035686	-	TGGCCGGC	91.9	intragenic	SC_RS06875	malate synthase A	arm
+T1	1064554	+	TGGCCGGC	98.04	intergenic	SC_RS07005	helix-turn-helix domain-containing protein	arm
+T1	1064592	+	TGGCCGGC	85.28	intergenic	SC_RS07010	MFS transporter	arm
+T1	1087682	-	TGGCCGGC	85.77	intergenic	SC_RS07105	ATP-binding protein	arm
+T1	1090733	-	TGGCCGGC	77.04	intragenic	SC_RS07110	ABC transporter permease	arm
+T1	1094208	-	CCGC	85.72	intragenic	SC_RS07135	phosphotriesterase family protein	arm
+T1	1097919	-	TGGCCGGC	87.55	intragenic	SC_RS07160	methyltransferase	arm
+T1	1107099	+	TGGCCGGC	87.45	intragenic	SC_RS07210	ABC-2 transporter permease	arm
+T1	1107100	-	TGGCCGGC	100.0	intragenic	SC_RS07210	ABC-2 transporter permease	arm
+T1	1107137	-	CCGC	91.88	intragenic	SC_RS07210	ABC-2 transporter permease	arm
+T1	1109050	+	TGGCCGGC	81.9	intergenic	SC_RS07220	aspartate/glutamate racemase family protein	arm
+T1	1123645	-	TGGCCGGC	97.92	intragenic	SC_RS07270	carbohydrate ABC transporter permease	arm
+T1	1126539	+	TGGCCGGC	54.29	intragenic	SC_RS07285	LacI family DNA-binding transcriptional regulator	arm
+T1	1128572	+	TGGCCGGC	81.11	intragenic	SC_RS07290	MFS transporter	arm
+T1	1144627	-	TGGCCGGC	77.78	intragenic	SC_RS07375	TlpA family protein disulfide reductase	arm
+T1	1147601	-	CCGC	80.56	intragenic	SC_RS07395	SDR family oxidoreductase	arm
+T1	1157284	+	TGGCCGGC	93.75	intragenic	SC_RS07445	FUSC family protein	arm
+T1	1157915	-	CCGC	86.73	intragenic	SC_RS07445	FUSC family protein	arm
+T1	1190775	-	TGGCCGGC	94.44	intragenic	SC_RS07610	xanthine dehydrogenase family protein molybdopterin-binding subunit	arm
+T1	1195812	-	TGGCCGGC	57.67	intragenic	SC_RS07635	sensor histidine kinase	arm
+T1	1214206	+	TGGCCGGC	68.33	intragenic	SC_RS07715	acyl-CoA thioesterase	arm
+T1	1256056	+	TGGCCGGC	88.06	intragenic	SC_RS07875	vWA domain-containing protein	arm
+T1	1258403	-	TGGCCGGC	93.02	intragenic	SC_RS07885	LacI family DNA-binding transcriptional regulator	arm
+T1	1268932	-	TGGCCGGC	74.21	intragenic	SC_RS07940	acyl-CoA dehydrogenase family protein	arm
+T1	1280327	-	TGGCCGGC	94.26	intragenic	SC_RS07995	cupin domain-containing protein	arm
+T1	1293847	+	TGGCCGGC	96.08	intragenic	SC_RS08070	ornithine--oxo-acid transaminase	arm
+T1	1293962	-	CCGC	86.78	intragenic	SC_RS08070	ornithine--oxo-acid transaminase	arm
+T1	1320413	+	TGGCCGGC	96.55	intragenic	SC_RS08195	class I SAM-dependent methyltransferase	arm
+T1	1321503	-	CCGC	73.96	intragenic	SC_RS08210	GNAT family N-acetyltransferase	arm
+T1	1337911	-	TGGCCGGC	87.59	intragenic	SC_RS08295	acyl carrier protein	arm
+T1	1342816	-	TGGCCGGC	90.61	intragenic	SC_RS08325	thioester reductase domain-containing protein	arm
+T1	1365143	+	TGGCCGGC	67.92	intragenic	SC_RS08420	DUF7824 domain-containing protein	arm
+T1	1369369	-	TGGCCGGC	89.17	intragenic	SC_RS08430	trans-sulfuration enzyme family protein	arm
+T1	1369633	+	TGGCCGGC	90.0	intragenic	SC_RS08430	trans-sulfuration enzyme family protein	arm
+T1	1375940	+	TGGCCGGC	97.22	intragenic	SC_RS08465	AAA family ATPase	arm
+T1	1386475	+	TGGCCGGC	91.83	intragenic	SC_RS08505	4-hydroxybenzoate 3-monooxygenase	arm
+T1	1394427	-	TGGCCGGC	97.92	intragenic	SC_RS08560	membrane protein	arm
+T1	1394445	-	TGGCCGGC	100.0	intragenic	SC_RS08560	membrane protein	arm
+T1	1402389	+	TGGCCGGC	89.09	intergenic	SC_RS08600	PP2C family protein-serine/threonine phosphatase	arm
+T1	1403019	+	TGGCCGGC	94.44	intragenic	SC_RS08600	PP2C family protein-serine/threonine phosphatase	arm
+T1	1405945	-	TGGCCGGC	90.48	intergenic	SC_RS08615	class I adenylate-forming enzyme family protein	arm
+T1	1407732	+	TGGCCGGC	100.0	intragenic	SC_RS08620	LuxR C-terminal-related transcriptional regulator	arm
+T1	1422369	-	TGGCCGGC	59.44	intragenic	SC_RS08695	3-oxoacyl-ACP reductase FabG	arm
+T1	1423807	-	TGGCCGGC	78.85	intragenic	SC_RS08700	hypothetical protein	arm
+T1	1425376	-	TGGCCGGC	90.0	intergenic	SC_RS08710	HipA family kinase	arm
+T1	1432370	-	CCGC	64.96	intragenic	SC_RS08740	serine protease	arm
+T1	1435677	-	TGGCCGGC	91.85	intragenic	SC_RS08755	LysR family transcriptional regulator	arm
+T1	1436860	+	TGGCCGGC	74.92	intragenic	SC_RS08760	DMT family transporter	arm
+T1	1439599	-	TGGCCGGC	96.67	intragenic	SC_RS08770	pyridoxamine 5'-phosphate oxidase family protein	arm
+T1	1446658	-	TGGCCGGC	96.1	intragenic	SC_RS08810	sensor histidine kinase	arm
+T1	1455106	-	TGGCCGGC	85.55	intragenic	SC_RS08855	aminomethyl-transferring glycine dehydrogenase	arm
+T1	1456612	-	TGGCCGGC	87.71	intragenic	SC_RS08855	aminomethyl-transferring glycine dehydrogenase	arm
+T1	1458442	+	TGGCCGGC	84.13	intragenic	SC_RS08860	PRC-barrel domain-containing protein	arm
+T1	1468250	-	TGGCCGGC	81.3	intragenic	SC_RS08910	CDP-alcohol phosphatidyltransferase family protein	arm
+T1	1468404	-	TGGCCGGC	94.84	intragenic	SC_RS08910	CDP-alcohol phosphatidyltransferase family protein	arm
+T1	1480748	-	TGGCCGGC	89.41	intragenic	SC_RS08950	glycoside hydrolase family 31 protein	arm
+T1	1486220	-	TGGCCGGC	96.3	intragenic	SC_RS08970	GTP-binding protein	arm
+T1	1493354	+	TGGCCGGC	67.18	intragenic	SC_RS08995	hypothetical protein	arm
+T1	1493424	-	TGGCCGGC	90.42	intragenic	SC_RS08995	hypothetical protein	arm
+T1	1506714	-	TGGCCGGC	77.5	intragenic	SC_RS09035	putative hydro-lyase	core
+T1	1520671	+	TGGCCGGC	75.93	intragenic	SC_RS09095	amidohydrolase	core
+T1	1531204	+	TGGCCGGC	93.92	intragenic	SC_RS09145	AAA family ATPase	core
+T1	1532270	+	TGGCCGGC	55.7	intragenic	SC_RS09150	hemolysin family protein	core
+T1	1534652	-	TGGCCGGC	91.64	intragenic	SC_RS09160	PH domain-containing protein	core
+T1	1543367	+	TGGCCGGC	91.67	intragenic	SC_RS09205	hypothetical protein	core
+T1	1544968	+	TGGCCGGC	96.37	intragenic	SC_RS09215	MFS transporter	core
+T1	1548745	+	TGGCCGGC	97.78	intragenic	SC_RS09230	glycoside hydrolase family 6 protein	core
+T1	1549039	+	TGGCCGGC	82.78	intragenic	SC_RS09230	glycoside hydrolase family 6 protein	core
+T1	1550487	-	CCGC	67.27	intragenic	SC_RS09240	LLM class F420-dependent oxidoreductase	core
+T1	1551545	-	CCGC	70.22	intragenic	SC_RS09245	flavin monoamine oxidase family protein	core
+T1	1553159	-	TGGCCGGC	77.71	intragenic	SC_RS09250	carbon-nitrogen hydrolase family protein	core
+T1	1554331	-	TGGCCGGC	76.31	intragenic	SC_RS09260	MFS transporter	core
+T1	1561813	-	CCGC	82.46	intragenic	SC_RS09295	ribulose-phosphate 3-epimerase	core
+T1	1582778	-	TGGCCGGC	85.0	intragenic	SC_RS09380	orotidine-5'-phosphate decarboxylase	core
+T1	1589335	-	CCGC	71.48	intragenic	SC_RS09405	dihydroorotase	core
+T1	1593629	+	TGGCCGGC	70.72	intragenic	SC_RS09430	elongation factor P	core
+T1	1611109	-	CCGG	55.95	intragenic	SC_RS09505	replication-associated recombination protein A	core
+T1	1614758	+	TGGCCGGC	91.37	intragenic	SC_RS09525	peptidylprolyl isomerase	core
+T1	1622768	-	CCGG	72.03	intragenic	SC_RS09550	protein translocase subunit SecD	core
+T1	1625508	-	CCGC	62.91	intragenic	SC_RS09570	crossover junction endodeoxyribonuclease RuvC	core
+T1	1640520	+	TGGCCGGC	94.23	intragenic	SC_RS09635	DUF4365 domain-containing protein	core
+T1	1640571	+	TGGCCGGC	62.03	intragenic	SC_RS09635	DUF4365 domain-containing protein	core
+T1	1641368	+	TGGCCGGC	90.24	intragenic	SC_RS09640	3'-5' exonuclease	core
+T1	1650002	-	TGGCCGGC	94.07	intragenic	SC_RS09685	TIGR02611 family protein	core
+T1	1660352	+	TGGCCGGC	77.98	intragenic	SC_RS09770	serine/threonine-protein kinase	core
+T1	1661465	-	TGGCCGGC	80.0	intragenic	SC_RS09775	TrmH family RNA methyltransferase	core
+T1	1663079	+	TGGCCGGC	91.85	intragenic	SC_RS09785	nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase	core
+T1	1667535	-	TGGCCGGC	95.65	intragenic	SC_RS09790	precorrin-6y C5%2C15-methyltransferase (decarboxylating) subunit CbiE	core
+T1	1668039	-	TGGCCGGC	85.35	intragenic	SC_RS09790	precorrin-6y C5%2C15-methyltransferase (decarboxylating) subunit CbiE	core
+T1	1671520	-	TGGCCGGC	85.18	intragenic	SC_RS09810	methionine ABC transporter ATP-binding protein	core
+T1	1680069	-	TGGCCGGC	100.0	intragenic	SC_RS09860	aldo/keto reductase	core
+T1	1680671	-	TGGCCGGC	93.61	intragenic	SC_RS09865	argininosuccinate lyase	core
+T1	1682067	+	TGGCCGGC	87.21	intragenic	SC_RS09870	pyridoxamine 5'-phosphate oxidase family protein	core
+T1	1713976	+	TGGCCGGC	97.62	intragenic	SC_RS10030	IS110-like element IS117 family transposase	core
+T1	1716986	-	TGGCCGGC	94.59	intragenic	SC_RS10045	type VII secretion-associated serine protease mycosin	core
+T1	1717765	+	TGGCCGGC	89.43	intragenic	SC_RS10045	type VII secretion-associated serine protease mycosin	core
+T1	1717865	-	TGGCCGGC	72.92	intragenic	SC_RS10045	type VII secretion-associated serine protease mycosin	core
+T1	1723511	-	TGGCCGGC	73.49	intragenic	SC_RS10070	aldehyde dehydrogenase family protein	core
+T1	1724202	-	CCGC	75.02	intragenic	SC_RS10070	aldehyde dehydrogenase family protein	core
+T1	1724336	-	TGGCCGGC	92.53	intragenic	SC_RS10070	aldehyde dehydrogenase family protein	core
+T1	1724992	-	TGGCCGGC	92.45	intragenic	SC_RS10075	gamma-glutamylethanolamide synthetase GlnA4	core
+T1	1729534	-	TGGCCGGC	92.96	intragenic	SC_RS10095	TDT family transporter	core
+T1	1733935	-	TGGCCGGC	90.6	intragenic	SC_RS10110	ABC transporter permease/substrate binding protein	core
+T1	1735496	-	TGGCCGGC	73.89	intragenic	SC_RS10115	quaternary amine ABC transporter ATP-binding protein	core
+T1	1744614	+	TGGCCGGC	88.68	intragenic	SC_RS10160	sensor histidine kinase	core
+T1	1760304	-	TGGCCGGC	53.33	intragenic	SC_RS10245	depupylase/deamidase Dop	core
+T1	1760730	-	TGGCCGGC	96.02	intragenic	SC_RS10245	depupylase/deamidase Dop	core
+T1	1763623	-	TGGCCGGC	91.65	intragenic	SC_RS10250	proteasome ATPase	core
+T1	1767009	-	TGGCCGGC	76.31	intragenic	SC_RS10270	site-2 protease family protein	core
+T1	1796338	-	TGGCCGGC	84.21	intragenic	SC_RS10390	M20/M25/M40 family metallo-hydrolase	core
+T1	1797890	-	TGGCCGGC	83.33	intragenic	SC_RS10405	FadR/GntR family transcriptional regulator	core
+T1	1805538	+	TGGCCGGC	75.2	intragenic	SC_RS10440	DMT family transporter	core
+T1	1806802	-	CCGC	76.01	intragenic	SC_RS10445	NUDIX hydrolase	core
+T1	1808922	+	TGGCCGGC	83.12	intragenic	SC_RS10460	phosphotransferase family protein	core
+T1	1826514	-	CCGC	53.19	intragenic	SC_RS10545	aldehyde dehydrogenase family protein	core
+T1	1829820	-	TGGCCGGC	63.81	intragenic	SC_RS10560	MFS transporter	core
+T1	1830557	+	TGGCCGGC	83.55	intragenic	SC_RS10565	CitMHS family transporter	core
+T1	1835273	-	TGGCCGGC	83.41	intragenic	SC_RS10580	hypothetical protein	core
+T1	1844221	-	TGGCCGGC	91.9	intragenic	SC_RS10630	serine/threonine-protein kinase	core
+T1	1845486	+	TGGCCGGC	91.7	intragenic	SC_RS10635	SGNH family lipase	core
+T1	1852903	+	TGGCCGGC	82.08	intragenic	SC_RS10680	carbohydrate-binding protein CbpC	core
+T1	1857576	+	TGGCCGGC	94.75	intragenic	SC_RS10705	DNA polymerase III subunit alpha	core
+T1	1860286	-	TGGCCGGC	74.9	intragenic	SC_RS10710	DUF3533 domain-containing protein	core
+T1	1864750	+	TGGCCGGC	95.06	intragenic	SC_RS10730	sensor histidine kinase	core
+T1	1879101	-	TGGCCGGC	84.43	intragenic	SC_RS10800	ribosome biogenesis GTPase Der	core
+T1	1889015	-	CCGC	51.85	intragenic	SC_RS10855	SMC-Scp complex subunit ScpB	core
+T1	1891961	-	TGGCCGGC	81.25	intragenic	SC_RS10870	ParA family protein	core
+T1	1892829	-	CCGG	75.79	intragenic	SC_RS10875	alanine dehydrogenase	core
+T1	1897024	-	TGGCCGGC	100.0	intragenic	SC_RS10890	CTP synthase	core
+T1	1904510	+	TGGCCGGC	97.44	intragenic	SC_RS10910	DNA repair protein RecN	core
+T1	1921015	-	CCGG	79.1	intergenic	SC_RS10985	DNA-3-methyladenine glycosylase	core
+T1	1922223	-	TGGCCGGC	77.89	intragenic	SC_RS10985	DNA-3-methyladenine glycosylase	core
+T1	1929016	-	TGGCCGGC	51.03	intragenic	SC_RS11030	response regulator	core
+T1	1940460	-	TGGCCGGC	98.41	intragenic	SC_RS11070	SixA phosphatase family protein	core
+T1	1943198	+	TGGCCGGC	89.47	intragenic	SC_RS11090	FadR/GntR family transcriptional regulator	core
+T1	1955497	+	TGGCCGGC	72.53	intragenic	SC_RS11150	S8 family serine peptidase	core
+T1	1962693	-	CCGC	87.46	intragenic	SC_RS11185	SDR family oxidoreductase	core
+T1	1968495	-	TGGCCGGC	84.57	intragenic	SC_RS11230	ABC-F family ATP-binding cassette domain-containing protein	core
+T1	1974379	+	TGGCCGGC	76.15	intragenic	SC_RS11255	low-affinity phosphate transporter PitH	core
+T1	1985445	+	TGGCCGGC	63.62	intragenic	SC_RS11290	cobyrinate a%2Cc-diamide synthase	core
+T1	1987510	-	TGGCCGGC	97.1	intragenic	SC_RS11300	ZIP family metal transporter	core
+T1	2001324	-	CCGG	87.3	intragenic	SC_RS11365	ectoine hydroxylase	core
+T1	2005273	-	GGCCGG	87.54	intragenic	SC_RS11385	aldehyde dehydrogenase (NADP(+))	core
+T1	2008110	+	TGGCCGGC	92.07	intragenic	SC_RS11405	peptidoglycan D%2CD-transpeptidase FtsI family protein	core
+T1	2010240	+	TGGCCGGC	100.0	intragenic	SC_RS11415	hypothetical protein	core
+T1	2011434	+	TGGCCGGC	73.55	intragenic	SC_RS11420	HAD family acid phosphatase	core
+T1	2014269	+	TGGCCGGC	80.59	intragenic	SC_RS11435	rhamnogalacturonan acetylesterase	core
+T1	2016683	+	TGGCCGGC	94.44	intragenic	SC_RS11445	glycoside hydrolase family 43 protein	core
+T1	2017318	-	TGGCCGGC	59.3	intragenic	SC_RS11445	glycoside hydrolase family 43 protein	core
+T1	2018888	-	TGGCCGGC	70.24	intragenic	SC_RS11450	DUF6807 domain-containing protein	core
+T1	2019769	+	TGGCCGGC	62.72	intragenic	SC_RS11455	Gfo/Idh/MocA family protein	core
+T1	2020066	-	TGGCCGGC	89.71	intragenic	SC_RS11455	Gfo/Idh/MocA family protein	core
+T1	2020725	-	TGGCCGGC	95.45	intragenic	SC_RS11460	carbohydrate ABC transporter permease	core
+T1	2027745	+	TGGCCGGC	71.52	intragenic	SC_RS11495	VOC family protein	core
+T1	2031984	+	TGGCCGGC	91.96	intragenic	SC_RS11515	DeoR/GlpR family DNA-binding transcription regulator	core
+T1	2032645	-	TGGCCGGC	93.48	intragenic	SC_RS11520	ABC transporter substrate-binding protein	core
+T1	2037299	-	TGGCCGGC	91.89	intragenic	SC_RS11545	TerD family protein	core
+T1	2039688	-	TGGCCGGC	95.81	intragenic	SC_RS11555	TROVE domain-containing protein	core
+T1	2047814	-	TGGCCGGC	78.14	intragenic	SC_RS11590	phage holin family protein	core
+T1	2056153	+	TGGCCGGC	92.18	intragenic	SC_RS11655	Fe-S cluster assembly protein SufD	core
+T1	2061630	+	TGGCCGGC	75.68	intragenic	SC_RS11680	ABC transporter permease	core
+T1	2063526	+	TGGCCGGC	95.48	intragenic	SC_RS11690	nucleotidyltransferase domain-containing protein	core
+T1	2066633	+	TGGCCGGC	70.6	intergenic	SC_RS11710	transketolase	core
+T1	2076578	-	TGGCCGGC	93.93	intragenic	SC_RS11745	glucose-6-phosphate isomerase	core
+T1	2079588	-	TGGCCGGC	57.62	intragenic	SC_RS11765	phosphoglycerate kinase	core
+T1	2089244	-	TGGCCGGC	89.17	intragenic	SC_RS11795	excinuclease ABC subunit UvrC	core
+T1	2103449	+	TGGCCGGC	94.62	intragenic	SC_RS11850	TerD family protein	core
+T1	2104393	+	TGGCCGGC	96.67	intragenic	SC_RS11855	TerD family protein	core
+T1	2104477	-	TGGCCGGC	99.02	intragenic	SC_RS11855	TerD family protein	core
+T1	2115734	+	TGGCCGGC	94.81	intragenic	SC_RS11910	anthrone oxygenase family protein	core
+T1	2132384	+	TGGCCGGC	90.91	intragenic	SC_RS12015	PAC2 family protein	core
+T1	2133135	-	TGGCCGGC	79.17	intragenic	SC_RS12020	30S ribosomal protein S1	core
+T1	2140077	+	TGGCCGGC	98.48	intragenic	SC_RS12035	lytic transglycosylase domain-containing protein	core
+T1	2140382	-	CCGG	69.4	intragenic	SC_RS12035	lytic transglycosylase domain-containing protein	core
+T1	2143377	-	TGGCCGGC	81.2	intragenic	SC_RS12045	DNA polymerase I	core
+T1	2146411	-	CCGG	82.19	intragenic	SC_RS12050	FdhF/YdeP family oxidoreductase	core
+T1	2147721	-	CCGG	77.24	intergenic	SC_RS12055	hotdog fold thioesterase	core
+T1	2150144	+	TGGCCGGC	85.22	intragenic	SC_RS12070	branched-chain amino acid ABC transporter substrate-binding protein	core
+T1	2153661	-	TGGCCGGC	87.81	intragenic	SC_RS12085	ABC transporter ATP-binding protein	core
+T1	2163461	+	TGGCCGGC	88.89	intragenic	SC_RS12125	aminopeptidase N	core
+T1	2164041	-	TGGCCGGC	84.51	intragenic	SC_RS12125	aminopeptidase N	core
+T1	2169793	-	CCGG	87.96	intragenic	SC_RS12155	chitosanase	core
+T1	2172495	+	TGGCCGGC	98.41	intragenic	SC_RS12165	glutamate synthase large subunit	core
+T1	2178121	-	CCGC	73.77	intragenic	SC_RS12175	ADP-ribosylglycohydrolase family protein	core
+T1	2178642	+	TGGCCGGC	80.25	intragenic	SC_RS12175	ADP-ribosylglycohydrolase family protein	core
+T1	2180414	+	TGGCCGGC	69.05	intragenic	SC_RS12180	ADP-ribosylglycohydrolase family protein	core
+T1	2187345	-	TGGCCGGC	95.77	intragenic	SC_RS12215	tryptophan synthase subunit alpha	core
+T1	2188199	-	TGGCCGGC	58.93	intragenic	SC_RS12220	tryptophan synthase subunit beta	core
+T1	2191975	-	TGGCCGGC	86.6	intragenic	SC_RS12245	TIGR02234 family membrane protein	core
+T1	2196102	+	TGGCCGGC	97.78	intragenic	SC_RS12265	MFS transporter	core
+T1	2202774	-	TGGCCGGC	81.87	intragenic	SC_RS12315	hypothetical protein	core
+T1	2211642	-	TGGCCGGC	87.01	intragenic	SC_RS12360	DNA polymerase III subunit alpha	core
+T1	2212029	-	TGGCCGGC	78.38	intragenic	SC_RS12360	DNA polymerase III subunit alpha	core
+T1	2218444	+	TGGCCGGC	92.44	intergenic	SC_RS12375	DsbA family protein	core
+T1	2222677	+	TGGCCGGC	92.95	intragenic	SC_RS12395	Na+/H+ antiporter	core
+T1	2227901	+	TGGCCGGC	93.83	intragenic	SC_RS12420	isoleucine--tRNA ligase	core
+T1	2229753	-	CCGC	61.39	intragenic	SC_RS12420	isoleucine--tRNA ligase	core
+T1	2236130	-	TGGCCGGC	73.33	intragenic	SC_RS12455	cell division protein FtsQ	core
+T1	2238525	-	TGGCCGGC	66.47	intragenic	SC_RS12465	putative lipid II flippase FtsW	core
+T1	2241019	+	TGGCCGGC	91.83	intragenic	SC_RS12475	phospho-N-acetylmuramoyl-pentapeptide-transferase	core
+T1	2246196	-	TGGCCGGC	100.0	intragenic	SC_RS12490	cell division protein FtsI	core
+T1	2248740	-	TGGCCGGC	84.23	intergenic	SC_RS12500	16S rRNA (cytosine(1402)-N(4))-methyltransferase RsmH	core
+T1	2255844	+	TGGCCGGC	93.87	intragenic	SC_RS12530	methyltransferase	core
+T1	2262280	-	GGCCGG	51.83	intragenic	SC_RS12560	thiamine phosphate synthase	core
+T1	2269066	-	CCGC	95.94	intragenic	SC_RS12590	Stk1 family PASTA domain-containing Ser/Thr kinase	core
+T1	2269438	+	TGGCCGGC	89.39	intragenic	SC_RS12595	deoxyribonuclease IV	core
+T1	2269967	-	TGGCCGGC	98.85	intragenic	SC_RS12595	deoxyribonuclease IV	core
+T1	2270080	+	TGGCCGGC	86.62	intragenic	SC_RS12595	deoxyribonuclease IV	core
+T1	2274531	-	TGGCCGGC	94.03	intragenic	SC_RS12620	N-acetylmuramoyl-L-alanine amidase	core
+T1	2274821	+	TGGCCGGC	89.91	intragenic	SC_RS12620	N-acetylmuramoyl-L-alanine amidase	core
+T1	2275208	+	TGGCCGGC	95.6	intragenic	SC_RS12620	N-acetylmuramoyl-L-alanine amidase	core
+T1	2275487	+	TGGCCGGC	94.84	intragenic	SC_RS12620	N-acetylmuramoyl-L-alanine amidase	core
+T1	2279427	+	TGGCCGGC	97.32	intragenic	SC_RS12635	2-hydroxyacid dehydrogenase	core
+T1	2282416	-	TGGCCGGC	58.61	intragenic	SC_RS12650	MacS family sensor histidine kinase	core
+T1	2285061	+	TGGCCGGC	80.25	intergenic	SC_RS12665	hypothetical protein	core
+T1	2294401	+	TGGCCGGC	89.55	intragenic	SC_RS12710	glycosyltransferase family 87 protein	core
+T1	2295462	-	TGGCCGGC	62.75	intragenic	SC_RS12715	hypothetical protein	core
+T1	2300507	-	TGGCCGGC	89.7	intragenic	SC_RS12735	hypothetical protein	core
+T1	2303994	+	TGGCCGGC	70.87	intragenic	SC_RS12760	response regulator transcription factor	core
+T1	2304887	-	TGGCCGGC	80.16	intragenic	SC_RS12765	SLC13 family permease	core
+T1	2307759	-	TGGCCGGC	88.41	intragenic	SC_RS12775	aminotransferase class V-fold PLP-dependent enzyme	core
+T1	2307801	-	TGGCCGGC	97.11	intragenic	SC_RS12775	aminotransferase class V-fold PLP-dependent enzyme	core
+T1	2309036	-	TGGCCGGC	98.72	intragenic	SC_RS12780	anthranilate phosphoribosyltransferase	core
+T1	2309573	-	TGGCCGGC	64.57	intragenic	SC_RS12780	anthranilate phosphoribosyltransferase	core
+T1	2311303	-	TGGCCGGC	93.16	intragenic	SC_RS12785	cytochrome bc1 complex cytochrome b subunit	core
+T1	2315380	-	CCGG	91.26	intragenic	SC_RS12810	L%2CD-transpeptidase	core
+T1	2315797	-	CCGG	93.76	intragenic	SC_RS12810	L%2CD-transpeptidase	core
+T1	2316074	+	TGGCCGGC	97.78	intragenic	SC_RS12810	L%2CD-transpeptidase	core
+T1	2318937	-	TGGCCGGC	58.33	intragenic	SC_RS12825	aa3-type cytochrome oxidase subunit II	core
+T1	2327737	-	CCGG	90.28	intragenic	SC_RS12860	efflux RND transporter permease subunit	core
+T1	2329793	-	TGGCCGGC	91.77	intragenic	SC_RS12865	response regulator	core
+T1	2331157	-	TGGCCGGC	59.31	intragenic	SC_RS12870	sensor histidine kinase	core
+T1	2333803	-	CCGG	95.14	intergenic	SC_RS12890	class I SAM-dependent methyltransferase	core
+T1	2334011	+	TGGCCGGC	93.8	intragenic	SC_RS12890	class I SAM-dependent methyltransferase	core
+T1	2334012	-	TGGCCGGC	83.97	intragenic	SC_RS12890	class I SAM-dependent methyltransferase	core
+T1	2342068	+	TGGCCGGC	90.24	intragenic	SC_RS12930	endo alpha-1%2C4 polygalactosaminidase	core
+T1	2342799	+	TGGCCGGC	75.02	intragenic	SC_RS12935	leucyl aminopeptidase	core
+T1	2343352	-	TGGCCGGC	85.42	intragenic	SC_RS12935	leucyl aminopeptidase	core
+T1	2343384	+	TGGCCGGC	53.33	intragenic	SC_RS12935	leucyl aminopeptidase	core
+T1	2344597	+	TGGCCGGC	92.98	intragenic	SC_RS12940	dihydrolipoyl dehydrogenase	core
+T1	2347213	+	TGGCCGGC	97.92	intragenic	SC_RS12945	2-oxoglutarate dehydrogenase%2C E2 component%2C dihydrolipoamide succinyltransferase	core
+T1	2350889	-	TGGCCGGC	92.15	intragenic	SC_RS12955	pyruvate dehydrogenase (acetyl-transferring)%2C homodimeric type	core
+T1	2354773	+	TGGCCGGC	91.04	intragenic	SC_RS12975	MarP family serine protease	core
+T1	2354792	-	CCGC	66.03	intragenic	SC_RS12975	MarP family serine protease	core
+T1	2355371	+	TGGCCGGC	78.51	intragenic	SC_RS12975	MarP family serine protease	core
+T1	2356708	+	TGGCCGGC	64.26	intragenic	SC_RS12985	TIGR01777 family oxidoreductase	core
+T1	2365873	-	CCGG	95.56	intragenic	SC_RS13025	type I glutamate--ammonia ligase	core
+T1	2373228	-	TGGCCGGC	82.69	intragenic	SC_RS13075	alpha/beta fold hydrolase	core
+T1	2375338	-	TGGCCGGC	79.62	intragenic	SC_RS13085	glutamine synthetase	core
+T1	2389907	-	TGGCCGGC	81.48	intragenic	SC_RS13160	pullulanase-type alpha-1%2C6-glucosidase	core
+T1	2391951	-	CCGG	90.61	intragenic	SC_RS13160	pullulanase-type alpha-1%2C6-glucosidase	core
+T1	2395652	-	TGGCCGGC	96.96	intragenic	SC_RS13170	glycoside hydrolase family 13 protein	core
+T1	2400994	+	TGGCCGGC	73.49	intragenic	SC_RS13190	LacI family DNA-binding transcriptional regulator	core
+T1	2404283	-	CCGG	57.32	intragenic	SC_RS13200	bifunctional [glutamine synthetase] adenylyltransferase/[glutamine synthetase]-adenylyl-L-tyrosine phosphorylase	core
+T1	2404847	-	TGGCCGGC	95.54	intragenic	SC_RS13200	bifunctional [glutamine synthetase] adenylyltransferase/[glutamine synthetase]-adenylyl-L-tyrosine phosphorylase	core
+T1	2413467	+	TGGCCGGC	94.97	intragenic	SC_RS13250	WD40 repeat domain-containing serine/threonine protein kinase	core
+T1	2421683	+	TGGCCGGC	100.0	intragenic	SC_RS13295	MFS transporter	core
+T1	2422064	-	TGGCCGGC	56.32	intragenic	SC_RS13300	endonuclease/exonuclease/phosphatase family protein	core
+T1	2432011	+	TGGCCGGC	100.0	intragenic	SC_RS13335	NADPH-dependent F420 reductase	core
+T1	2436275	+	TGGCCGGC	71.33	intragenic	SC_RS13360	biliverdin-producing heme oxygenase	core
+T1	2440537	-	CCGC	60.56	intragenic	SC_RS13380	HtaA domain-containing protein	core
+T1	2454759	-	TGGCCGGC	84.97	intragenic	SC_RS13445	multidrug effflux MFS transporter	core
+T1	2458087	+	TGGCCGGC	80.88	intragenic	SC_RS13460	SDR family oxidoreductase	core
+T1	2463377	-	TGGCCGGC	75.22	intragenic	SC_RS13495	DMT family transporter	core
+T1	2469372	-	TGGCCGGC	87.14	intragenic	SC_RS13525	bifunctional RNase H/acid phosphatase	core
+T1	2473733	-	TGGCCGGC	95.37	intragenic	SC_RS13550	MaoC/PaaZ C-terminal domain-containing protein	core
+T1	2474379	+	TGGCCGGC	91.25	intragenic	SC_RS13555	ABC transporter ATP-binding protein	core
+T1	2474511	+	TGGCCGGC	82.78	intragenic	SC_RS13555	ABC transporter ATP-binding protein	core
+T1	2474766	+	TGGCCGGC	86.86	intragenic	SC_RS13555	ABC transporter ATP-binding protein	core
+T1	2486595	+	TGGCCGGC	82.75	intragenic	SC_RS13605	hypothetical protein	core
+T1	2488220	-	CCGG	88.57	intragenic	SC_RS13615	class I SAM-dependent methyltransferase	core
+T1	2490818	+	TGGCCGGC	81.19	intragenic	SC_RS13625	TetR family transcriptional regulator	core
+T1	2494983	+	TGGCCGGC	93.01	intragenic	SC_RS13645	CbiQ family ECF transporter T component	core
+T1	2495262	+	TGGCCGGC	92.33	intragenic	SC_RS13650	ABC transporter ATP-binding protein	core
+T1	2495871	+	TGGCCGGC	60.47	intragenic	SC_RS13650	ABC transporter ATP-binding protein	core
+T1	2496513	+	TGGCCGGC	75.14	intragenic	SC_RS13650	ABC transporter ATP-binding protein	core
+T1	2515398	-	CCGC	90.77	intragenic	SC_RS13755	peptidoglycan-binding domain-containing protein	core
+T1	2521672	+	TGGCCGGC	59.6	intragenic	SC_RS13785	DedA family protein	core
+T1	2525552	+	TGGCCGGC	69.72	intragenic	SC_RS13815	hypothetical protein	core
+T1	2527745	-	TGGCCGGC	92.82	intragenic	SC_RS13830	sensor histidine kinase	core
+T1	2529756	-	CCGG	98.15	intragenic	SC_RS13845	phosphoribosyltransferase	core
+T1	2543279	-	TGGCCGGC	87.17	intragenic	SC_RS13900	MFS transporter	core
+T1	2543375	-	TGGCCGGC	94.27	intragenic	SC_RS13900	MFS transporter	core
+T1	2543552	-	TGGCCGGC	92.78	intragenic	SC_RS13900	MFS transporter	core
+T1	2543594	-	TGGCCGGC	89.29	intragenic	SC_RS13900	MFS transporter	core
+T1	2544743	+	TGGCCGGC	61.89	intragenic	SC_RS13905	TetR family transcriptional regulator	core
+T1	2546354	+	TGGCCGGC	75.71	intragenic	SC_RS13910	alpha/beta hydrolase family protein	core
+T1	2547347	+	TGGCCGGC	81.57	intragenic	SC_RS13915	DUF4429 domain-containing protein	core
+T1	2559929	+	TGGCCGGC	55.56	intragenic	SC_RS13970	ACP S-malonyltransferase	core
+T1	2560675	-	CCGC	81.76	intragenic	SC_RS13975	ketoacyl-ACP synthase III	core
+T1	2580460	+	TGGCCGGC	92.59	intragenic	SC_RS14070	aldose epimerase family protein	core
+T1	2581243	+	TGGCCGGC	68.23	intragenic	SC_RS14075	pyridoxal phosphate-dependent aminotransferase	core
+T1	2582224	-	TGGCCGGC	90.9	intragenic	SC_RS14075	pyridoxal phosphate-dependent aminotransferase	core
+T1	2592644	+	TGGCCGGC	69.28	intragenic	SC_RS14130	MCE family protein	core
+T1	2593284	-	CCGG	77.38	intragenic	SC_RS14130	MCE family protein	core
+T1	2598013	+	TGGCCGGC	98.41	intragenic	SC_RS14155	DUF6801 domain-containing protein	core
+T1	2598901	-	TGGCCGGC	97.85	intragenic	SC_RS14155	DUF6801 domain-containing protein	core
+T1	2601300	-	TGGCCGGC	81.73	intragenic	SC_RS14165	helix-turn-helix domain-containing protein	core
+T1	2602775	+	TGGCCGGC	65.17	intergenic	SC_RS14175	substrate-binding domain-containing protein	core
+T1	2604321	-	CCGC	63.32	intragenic	SC_RS14175	substrate-binding domain-containing protein	core
+T1	2609980	-	TGGCCGGC	86.19	intragenic	SC_RS14195	carbohydrate ABC transporter permease	core
+T1	2609995	-	TGGCCGGC	95.0	intragenic	SC_RS14195	carbohydrate ABC transporter permease	core
+T1	2610388	-	TGGCCGGC	77.72	intragenic	SC_RS14195	carbohydrate ABC transporter permease	core
+T1	2630481	+	TGGCCGGC	70.03	intragenic	SC_RS14275	VMAP-C domain-containing protein	core
+T1	2634095	+	TGGCCGGC	90.26	intragenic	SC_RS14285	SAV_2336 N-terminal domain-related protein	core
+T1	2634096	-	TGGCCGGC	82.22	intragenic	SC_RS14285	SAV_2336 N-terminal domain-related protein	core
+T1	2636552	+	TGGCCGGC	86.43	intragenic	SC_RS14285	SAV_2336 N-terminal domain-related protein	core
+T1	2637928	-	CCGG	91.75	intragenic	SC_RS14290	rod shape-determining protein	core
+T1	2639916	+	TGGCCGGC	73.17	intergenic	SC_RS14305	MMPL family transporter	core
+T1	2643273	-	TGGCCGGC	84.51	intragenic	SC_RS14310	polyamine aminopropyltransferase	core
+T1	2644744	+	TGGCCGGC	72.22	intragenic	SC_RS14320	DUF4247 domain-containing protein	core
+T1	2648815	+	TGGCCGGC	55.79	intragenic	SC_RS14360	xylulokinase	core
+T1	2657782	+	TGGCCGGC	68.58	intragenic	SC_RS14390	DNA primase	core
+T1	2660063	+	TGGCCGGC	90.05	intragenic	SC_RS14400	deoxyguanosinetriphosphate triphosphohydrolase	core
+T1	2661328	-	TGGCCGGC	59.18	intragenic	SC_RS14405	sirohydrochlorin chelatase	core
+T1	2667118	+	TGGCCGGC	98.77	intragenic	SC_RS14425	LysR family transcriptional regulator	core
+T1	2668477	-	TGGCCGGC	95.81	intragenic	SC_RS14430	SDR family oxidoreductase	core
+T1	2675206	-	TGGCCGGC	78.81	intragenic	SC_RS14475	sulfite exporter TauE/SafE family protein	core
+T1	2697702	-	TGGCCGGC	86.39	intragenic	SC_RS14545	cation-translocating P-type ATPase	core
+T1	2726388	-	TGGCCGGC	83.67	intragenic	SC_RS14690	2-isopropylmalate synthase	core
+T1	2727797	-	TGGCCGGC	91.67	intragenic	SC_RS14695	M4 family metallopeptidase	core
+T1	2737842	-	TGGCCGGC	83.05	intragenic	SC_RS14750	carbohydrate kinase family protein	core
+T1	2737866	-	TGGCCGGC	94.61	intragenic	SC_RS14750	carbohydrate kinase family protein	core
+T1	2738932	+	TGGCCGGC	69.77	intragenic	SC_RS14755	MFS transporter	core
+T1	2743272	+	TGGCCGGC	82.41	intragenic	SC_RS14770	IclR family transcriptional regulator	core
+T1	2744648	+	TGGCCGGC	91.21	intragenic	SC_RS14775	MFS transporter	core
+T1	2747022	+	TGGCCGGC	85.95	intragenic	SC_RS14790	histidine triad nucleotide-binding protein	core
+T1	2751179	+	TGGCCGGC	75.0	intragenic	SC_RS14800	hypothetical protein	core
+T1	2753511	-	TGGCCGGC	92.04	intragenic	SC_RS14815	nitronate monooxygenase	core
+T1	2756814	+	TGGCCGGC	66.67	intragenic	SC_RS14830	MBL fold metallo-hydrolase	core
+T1	2768445	-	TGGCCGGC	99.12	intragenic	SC_RS14875	hypothetical protein	core
+T1	2770892	-	TGGCCGGC	75.87	intragenic	SC_RS14885	ComEC/Rec2 family competence protein	core
+T1	2780447	-	CCGC	64.45	intragenic	SC_RS14915	NADH-quinone oxidoreductase subunit NuoF family protein	core
+T1	2781061	+	TGGCCGGC	59.02	intragenic	SC_RS14915	NADH-quinone oxidoreductase subunit NuoF family protein	core
+T1	2788618	+	TGGCCGGC	73.08	intragenic	SC_RS14970	SCO2583 family membrane protein	core
+T1	2788619	-	TGGCCGGC	86.13	intragenic	SC_RS14970	SCO2583 family membrane protein	core
+T1	2792757	-	TGGCCGGC	98.77	intragenic	SC_RS14990	glutamate 5-kinase	core
+T1	2793646	-	TGGCCGGC	78.17	intergenic	SC_RS14990	glutamate 5-kinase	core
+T1	2798802	-	CCGG	95.55	intragenic	SC_RS15000	bifunctional glycosyltransferase/CDP-glycerol:glycerophosphate glycerophosphotransferase	core
+T1	2799811	+	TGGCCGGC	85.56	intragenic	SC_RS15005	bifunctional glycosyltransferase/CDP-glycerol:glycerophosphate glycerophosphotransferase	core
+T1	2812029	-	CCGG	88.2	intragenic	SC_RS15030	GTPase ObgE	core
+T1	2827804	-	CCGG	100.0	intragenic	SC_RS15100	TIGR03960 family B12-binding radical SAM protein	core
+T1	2828883	-	TGGCCGGC	92.38	intragenic	SC_RS15100	TIGR03960 family B12-binding radical SAM protein	core
+T1	2838443	-	TGGCCGGC	69.31	intragenic	SC_RS15140	bifunctional tetrahydrofolate synthase/dihydrofolate synthase	core
+T1	2847682	-	TGGCCGGC	90.67	intergenic	SC_RS15170	trigger factor	core
+T1	2850521	+	TGGCCGGC	83.59	intragenic	SC_RS15200	PP2C family protein-serine/threonine phosphatase	core
+T1	2864454	-	CCGC	70.61	intergenic	SC_RS15255	hypothetical protein	core
+T1	2870755	-	GGCCGG	74.24	intergenic	SC_RS15275	aspartate-semialdehyde dehydrogenase	core
+T1	2876660	-	TGGCCGGC	86.6	intragenic	SC_RS15295	LysR family transcriptional regulator	core
+T1	2879925	+	TGGCCGGC	65.39	intragenic	SC_RS15310	MarR family winged helix-turn-helix transcriptional regulator	core
+T1	2884771	+	TGGCCGGC	87.66	intragenic	SC_RS15340	class I SAM-dependent methyltransferase	core
+T1	2889007	+	TGGCCGGC	84.54	intragenic	SC_RS15360	ROK family transcriptional regulator	core
+T1	2889123	+	TGGCCGGC	86.73	intragenic	SC_RS15360	ROK family transcriptional regulator	core
+T1	2897265	+	TGGCCGGC	81.48	intragenic	SC_RS15395	glutamate ABC transporter substrate-binding protein	core
+T1	2901017	-	CCGC	56.07	intragenic	SC_RS15410	serine/threonine-protein kinase	core
+T1	2906252	-	TGGCCGGC	94.27	intragenic	SC_RS15425	FHA domain-containing protein	core
+T1	2911607	+	TGGCCGGC	94.94	intragenic	SC_RS15440	ABC transporter permease	core
+T1	2913612	+	TGGCCGGC	86.37	intragenic	SC_RS15445	FtsX-like permease family protein	core
+T1	2915338	+	TGGCCGGC	98.55	intragenic	SC_RS15450	ABC transporter ATP-binding protein	core
+T1	2918727	-	TGGCCGGC	69.4	intragenic	SC_RS15470	HAD domain-containing protein	core
+T1	2919098	-	TGGCCGGC	79.78	intragenic	SC_RS15470	HAD domain-containing protein	core
+T1	2926348	+	TGGCCGGC	81.14	intragenic	SC_RS15500	GTPase	core
+T1	2927962	-	TGGCCGGC	90.99	intragenic	SC_RS15505	dynamin family protein	core
+T1	2927993	-	TGGCCGGC	86.2	intragenic	SC_RS15505	dynamin family protein	core
+T1	2928557	+	TGGCCGGC	75.0	intragenic	SC_RS15505	dynamin family protein	core
+T1	2934310	+	TGGCCGGC	89.94	intragenic	SC_RS15540	MDR family MFS transporter	core
+T1	2935051	-	TGGCCGGC	69.63	intragenic	SC_RS15540	MDR family MFS transporter	core
+T1	2942021	-	TGGCCGGC	90.56	intragenic	SC_RS15570	D-2-hydroxyacid dehydrogenase family protein	core
+T1	2945348	-	TGGCCGGC	83.82	intragenic	SC_RS15595	hypothetical protein	core
+T1	2946180	-	TGGCCGGC	65.81	intragenic	SC_RS15605	hypothetical protein	core
+T1	2961070	-	TGGCCGGC	71.56	intergenic	SC_RS15670	chaplin ChpD	core
+T1	2964190	+	TGGCCGGC	65.2	intragenic	SC_RS15685	AMP-dependent synthetase/ligase	core
+T1	2971440	-	TGGCCGGC	87.23	intragenic	SC_RS15705	APC family permease	core
+T1	2976603	-	CCGC	80.58	intragenic	SC_RS15735	heavy-metal-associated domain-containing protein	core
+T1	2985271	-	CCGG	82.6	intragenic	SC_RS15770	SF1B family DNA helicase RecD2	core
+T1	2994535	-	CCGC	60.1	intragenic	SC_RS15820	ABC transporter permease/substrate-binding protein	core
+T1	2997515	+	TGGCCGGC	80.34	intragenic	SC_RS15840	dihydrodipicolinate synthase family protein	core
+T1	2998598	-	TGGCCGGC	63.97	intragenic	SC_RS15845	Gfo/Idh/MocA family protein	core
+T1	3000114	+	TGGCCGGC	57.79	intragenic	SC_RS15850	LacI family DNA-binding transcriptional regulator	core
+T1	3000735	+	TGGCCGGC	93.86	intragenic	SC_RS15850	LacI family DNA-binding transcriptional regulator	core
+T1	3012824	-	TGGCCGGC	73.89	intragenic	SC_RS15900	ABC transporter ATP-binding protein	core
+T1	3013751	+	TGGCCGGC	86.15	intragenic	SC_RS15900	ABC transporter ATP-binding protein	core
+T1	3016211	-	TGGCCGGC	62.78	intragenic	SC_RS15910	hypothetical protein	core
+T1	3017949	-	CCGG	87.13	intragenic	SC_RS15920	tetratricopeptide repeat protein	core
+T1	3024068	-	TGGCCGGC	84.54	intragenic	SC_RS15945	cation diffusion facilitator family transporter	core
+T1	3024503	-	TGGCCGGC	90.5	intragenic	SC_RS15945	cation diffusion facilitator family transporter	core
+T1	3028930	+	TGGCCGGC	72.11	intragenic	SC_RS15965	carboxyl transferase domain-containing protein	core
+T1	3032652	-	CCGG	89.35	intragenic	SC_RS15980	acyl-CoA dehydrogenase family protein	core
+T1	3037035	-	TGGCCGGC	95.95	intragenic	SC_RS15995	lysine decarboxylase DesA	core
+T1	3050855	-	TGGCCGGC	72.31	intragenic	SC_RS16060	LacI family DNA-binding transcriptional regulator	core
+T1	3051337	+	TGGCCGGC	100.0	intragenic	SC_RS16065	ABC transporter substrate-binding protein	core
+T1	3057581	-	TGGCCGGC	74.95	intragenic	SC_RS16085	glycoside hydrolase family 18 protein	core
+T1	3058257	-	TGGCCGGC	75.98	intragenic	SC_RS16090	sensor histidine kinase	core
+T1	3059426	-	TGGCCGGC	90.71	intragenic	SC_RS16095	response regulator transcription factor	core
+T1	3067139	+	TGGCCGGC	61.97	intragenic	SC_RS16135	hypothetical protein	core
+T1	3067961	+	TGGCCGGC	90.85	intragenic	SC_RS16135	hypothetical protein	core
+T1	3069604	+	TGGCCGGC	74.71	intragenic	SC_RS16140	AAA family ATPase	core
+T1	3074065	-	CCGG	76.05	intragenic	SC_RS16165	TetR/AcrR family transcriptional regulator	core
+T1	3075005	+	TGGCCGGC	55.71	intragenic	SC_RS16170	LLM class flavin-dependent oxidoreductase	core
+T1	3082963	-	TGGCCGGC	86.67	intragenic	SC_RS16205	maleate cis-trans isomerase family protein	core
+T1	3084783	+	TGGCCGGC	93.07	intragenic	SC_RS16215	D-2-hydroxyacid dehydrogenase	core
+T1	3091544	-	TGGCCGGC	60.99	intragenic	SC_RS16255	IclR family transcriptional regulator	core
+T1	3093632	+	TGGCCGGC	56.94	intragenic	SC_RS16270	SPFH domain-containing protein	core
+T1	3097001	+	TGGCCGGC	86.38	intragenic	SC_RS16285	glycosyltransferase family 2 protein	core
+T1	3102750	+	TGGCCGGC	92.31	intragenic	SC_RS16310	class F sortase	core
+T1	3103725	-	TGGCCGGC	70.35	intragenic	SC_RS16320	HAD-IIA family hydrolase	core
+T1	3108216	-	CCGC	79.43	intragenic	SC_RS16345	LLM class F420-dependent oxidoreductase	core
+T1	3112284	+	TGGCCGGC	91.11	intragenic	SC_RS16370	MFS transporter	core
+T1	3114330	+	TGGCCGGC	72.46	intragenic	SC_RS16375	SEC-C domain-containing protein	core
+T1	3122250	+	TGGCCGGC	67.18	intragenic	SC_RS16420	helix-turn-helix domain-containing protein	core
+T1	3123620	-	CCGG	79.7	intergenic	SC_RS16435	hypothetical protein	core
+T1	3129517	+	TGGCCGGC	98.33	intragenic	SC_RS16470	SDR family NAD(P)-dependent oxidoreductase	core
+T1	3129518	-	TGGCCGGC	74.3	intragenic	SC_RS16470	SDR family NAD(P)-dependent oxidoreductase	core
+T1	3133986	-	TGGCCGGC	64.45	intergenic	SC_RS16490	hypothetical protein	core
+T1	3137294	+	TGGCCGGC	58.81	intragenic	SC_RS16510	GTP-binding protein	core
+T1	3140842	+	TGGCCGGC	95.25	intragenic	SC_RS16530	alpha/beta fold hydrolase	core
+T1	3141094	+	TGGCCGGC	89.29	intragenic	SC_RS16530	alpha/beta fold hydrolase	core
+T1	3163948	-	TGGCCGGC	86.09	intragenic	SC_RS16670	amino acid permease	core
+T1	3165387	+	TGGCCGGC	75.43	intergenic	SC_RS16670	amino acid permease	core
+T1	3168458	+	TGGCCGGC	80.71	intragenic	SC_RS16690	nicotinamidase	core
+T1	3168474	+	TGGCCGGC	65.33	intragenic	SC_RS16690	nicotinamidase	core
+T1	3170101	-	CCGC	77.59	intragenic	SC_RS16700	immune inhibitor A domain-containing protein	core
+T1	3184329	+	TGGCCGGC	92.54	intragenic	SC_RS16760	ABC transporter permease	core
+T1	3185368	+	TGGCCGGC	96.26	intragenic	SC_RS16765	glycine betaine ABC transporter substrate-binding protein	core
+T1	3201404	+	TGGCCGGC	86.09	intragenic	SC_RS16830	carbohydrate ABC transporter permease	core
+T1	3210065	-	TGGCCGGC	70.61	intragenic	SC_RS16865	HelD family protein	core
+T1	3211953	-	TGGCCGGC	53.89	intragenic	SC_RS16870	anti-sigma U factor RsuA	core
+T1	3221246	-	CCGC	86.14	intragenic	SC_RS16910	polysaccharide deacetylase family protein	core
+T1	3223037	+	TGGCCGGC	92.78	intragenic	SC_RS16915	hypothetical protein	core
+T1	3225250	-	TGGCCGGC	54.44	intragenic	SC_RS16925	MFS transporter	core
+T1	3226415	-	TGGCCGGC	75.92	intragenic	SC_RS16925	MFS transporter	core
+T1	3233570	-	TGGCCGGC	89.8	intragenic	SC_RS16970	serine/threonine-protein kinase	core
+T1	3233975	-	TGGCCGGC	94.55	intragenic	SC_RS16970	serine/threonine-protein kinase	core
+T1	3234842	-	TGGCCGGC	94.05	intragenic	SC_RS16975	serine/threonine-protein kinase	core
+T1	3235904	+	TGGCCGGC	90.37	intragenic	SC_RS16975	serine/threonine-protein kinase	core
+T1	3242499	+	TGGCCGGC	89.67	intragenic	SC_RS16990	hypothetical protein	core
+T1	3245310	-	CCGC	54.26	intragenic	SC_RS17000	carbohydrate ABC transporter permease	core
+T1	3252894	-	TGGCCGGC	92.23	intragenic	SC_RS17020	bifunctional glycosyltransferase/CDP-glycerol:glycerophosphate glycerophosphotransferase	core
+T1	3255812	+	TGGCCGGC	94.19	intragenic	SC_RS17030	hypothetical protein	core
+T1	3256210	+	TGGCCGGC	79.43	intragenic	SC_RS17030	hypothetical protein	core
+T1	3270785	-	TGGCCGGC	97.87	intragenic	SC_RS17100	NAD-glutamate dehydrogenase	core
+T1	3276195	-	TGGCCGGC	96.3	intergenic	SC_RS17120	Rv3235 family protein	core
+T1	3278193	-	TGGCCGGC	88.33	intragenic	SC_RS17125	preprotein translocase subunit SecA	core
+T1	3280436	-	CCGC	95.0	intragenic	SC_RS17130	GNAT family N-acetyltransferase	core
+T1	3281296	+	TGGCCGGC	93.11	intragenic	SC_RS17135	winged helix-turn-helix domain-containing protein	core
+T1	3281617	+	TGGCCGGC	64.32	intragenic	SC_RS17135	winged helix-turn-helix domain-containing protein	core
+T1	3301174	-	CCGG	82.77	intergenic	SC_RS17215	stage II sporulation protein M	core
+T1	3305529	-	TGGCCGGC	60.88	intragenic	SC_RS17230	adenosylhomocysteinase	core
+T1	3307899	+	TGGCCGGC	86.1	intergenic	SC_RS17235	cation diffusion facilitator family transporter	core
+T1	3309515	-	TGGCCGGC	59.59	intragenic	SC_RS17245	SIS domain-containing protein	core
+T1	3310391	+	TGGCCGGC	87.86	intergenic	SC_RS17250	Trm112 family protein	core
+T1	3317882	-	TGGCCGGC	88.54	intragenic	SC_RS17280	glycosyltransferase family 2 protein	core
+T1	3336717	+	TGGCCGGC	56.84	intragenic	SC_RS17345	LCP family protein	core
+T1	3340217	-	TGGCCGGC	96.33	intragenic	SC_RS17355	LCP family protein	core
+T1	3347074	+	TGGCCGGC	98.41	intragenic	SC_RS17380	FG-GAP-like repeat-containing protein	core
+T1	3348495	-	TGGCCGGC	76.24	intragenic	SC_RS17385	CGNR zinc finger domain-containing protein	core
+T1	3352869	-	GGCCGG	79.04	intragenic	SC_RS17415	5-(carboxyamino)imidazole ribonucleotide synthase	core
+T1	3354644	-	TGGCCGGC	93.84	intragenic	SC_RS17420	GtrA family protein	core
+T1	3360811	-	CCGG	67.23	intragenic	SC_RS17455	RNA polymerase sigma factor SigF	core
+T1	3364273	-	TGGCCGGC	66.29	intragenic	SC_RS17470	formimidoylglutamate deiminase	core
+T1	3367956	-	TGGCCGGC	99.38	intragenic	SC_RS17485	hypothetical protein	core
+T1	3370635	-	CCGG	78.21	intragenic	SC_RS17500	cystathionine beta-synthase	core
+T1	3372731	+	TGGCCGGC	85.4	intragenic	SC_RS17505	SGNH/GDSL hydrolase family protein	core
+T1	3377667	-	TGGCCGGC	92.88	intragenic	SC_RS17535	4-hydroxybenzoate 3-monooxygenase	core
+T1	3383765	+	TGGCCGGC	79.92	intragenic	SC_RS17575	ABC transporter permease	core
+T1	3383766	-	TGGCCGGC	85.95	intragenic	SC_RS17575	ABC transporter permease	core
+T1	3384808	+	TGGCCGGC	69.29	intragenic	SC_RS17575	ABC transporter permease	core
+T1	3385356	-	CCGG	83.16	intragenic	SC_RS17580	SAM-dependent methyltransferase	core
+T1	3386051	-	TGGCCGGC	85.74	intragenic	SC_RS17580	SAM-dependent methyltransferase	core
+T1	3386594	-	CCGC	59.48	intragenic	SC_RS17585	NAD(P)/FAD-dependent oxidoreductase	core
+T1	3395991	-	TGGCCGGC	72.85	intragenic	SC_RS17625	nucleoside triphosphate pyrophosphohydrolase	core
+T1	3397812	+	TGGCCGGC	80.42	intragenic	SC_RS17635	serine/threonine protein kinase PkaE	core
+T1	3401573	+	TGGCCGGC	72.79	intragenic	SC_RS17645	N-6 DNA methylase	core
+T1	3404475	+	TGGCCGGC	91.18	intragenic	SC_RS17665	antitoxin	core
+T1	3408444	+	TGGCCGGC	86.12	intergenic	SC_RS17670	transcription-repair coupling factor	core
+T1	3412086	-	TGGCCGGC	89.87	intragenic	SC_RS17680	ABC transporter ATP-binding protein	core
+T1	3417037	-	TGGCCGGC	88.96	intragenic	SC_RS17705	SUKH-4 family immunity protein	core
+T1	3423184	+	TGGCCGGC	89.3	intragenic	SC_RS17735	bifunctional UDP-N-acetylglucosamine diphosphorylase/glucosamine-1-phosphate N-acetyltransferase GlmU	core
+T1	3425918	+	TGGCCGGC	78.55	intragenic	SC_RS17750	aminoacyl-tRNA hydrolase	core
+T1	3433860	-	TGGCCGGC	81.08	intragenic	SC_RS17785	trans-aconitate 2-methyltransferase	core
+T1	3436363	-	CCGG	85.97	intragenic	SC_RS17800	GNAT family N-acetyltransferase	core
+T1	3440408	+	TGGCCGGC	89.33	intragenic	SC_RS17820	sodium:solute symporter family protein	core
+T1	3440963	+	TGGCCGGC	55.16	intragenic	SC_RS17820	sodium:solute symporter family protein	core
+T1	3441357	-	CCGC	66.27	intragenic	SC_RS17820	sodium:solute symporter family protein	core
+T1	3441738	-	CCGC	70.19	intragenic	SC_RS17825	hypothetical protein	core
+T1	3444695	+	TGGCCGGC	81.91	intragenic	SC_RS17835	outer membrane protein assembly factor BamB family protein	core
+T1	3446532	-	CCGC	70.36	intragenic	SC_RS17840	outer membrane protein assembly factor BamB family protein	core
+T1	3453798	-	TGGCCGGC	68.21	intergenic	SC_RS17875	16S rRNA (cytidine(1402)-2'-O)-methyltransferase	core
+T1	3457054	+	TGGCCGGC	80.38	intragenic	SC_RS17885	hypothetical protein	core
+T1	3461251	-	CCGG	72.01	intergenic	SC_RS17900	SsgA family sporulation/cell division regulator	core
+T1	3462147	+	TGGCCGGC	85.1	intragenic	SC_RS17905	energy-coupling factor ABC transporter permease	core
+T1	3468455	-	CCGC	57.95	intragenic	SC_RS17940	MMPL family transporter	core
+T1	3472992	+	TGGCCGGC	93.7	intragenic	SC_RS17950	S41 family peptidase	core
+T1	3477141	+	TGGCCGGC	96.92	intragenic	SC_RS17970	flavin-containing monooxygenase	core
+T1	3477870	+	TGGCCGGC	80.71	intragenic	SC_RS17975	MerR family transcriptional regulator	core
+T1	3481531	-	TGGCCGGC	58.86	intragenic	SC_RS17990	hypothetical protein	core
+T1	3483724	-	TGGCCGGC	89.04	intragenic	SC_RS18005	GNAT family N-acetyltransferase	core
+T1	3483787	-	TGGCCGGC	95.19	intragenic	SC_RS18005	GNAT family N-acetyltransferase	core
+T1	3486246	+	TGGCCGGC	82.04	intragenic	SC_RS18020	molybdotransferase-like divisome protein Glp	core
+T1	3487389	+	TGGCCGGC	95.77	intragenic	SC_RS18025	UTP--glucose-1-phosphate uridylyltransferase GalU	core
+T1	3488743	+	TGGCCGGC	63.29	intragenic	SC_RS18035	penicillin acylase family protein	core
+T1	3492878	+	TGGCCGGC	91.67	intragenic	SC_RS18040	potassium/proton antiporter	core
+T1	3507160	-	TGGCCGGC	97.18	intragenic	SC_RS18110	MFS transporter	core
+T1	3513993	+	TGGCCGGC	68.49	intragenic	SC_RS18145	MFS transporter	core
+T1	3514878	-	TGGCCGGC	87.85	intragenic	SC_RS18145	MFS transporter	core
+T1	3518688	-	TGGCCGGC	70.6	intragenic	SC_RS18160	IclR family transcriptional regulator domain-containing protein	core
+T1	3520479	+	TGGCCGGC	84.07	intragenic	SC_RS18165	class II 3-deoxy-7-phosphoheptulonate synthase	core
+T1	3521870	-	TGGCCGGC	90.27	intragenic	SC_RS18175	anthranilate phosphoribosyltransferase	core
+T1	3522545	-	TGGCCGGC	79.18	intragenic	SC_RS18175	anthranilate phosphoribosyltransferase	core
+T1	3526687	+	TGGCCGGC	97.06	intragenic	SC_RS18195	HAD-IC family P-type ATPase	core
+T1	3529637	-	TGGCCGGC	89.56	intragenic	SC_RS18200	AfsR/SARP family transcriptional regulator	core
+T1	3530668	+	TGGCCGGC	85.3	intragenic	SC_RS18200	AfsR/SARP family transcriptional regulator	core
+T1	3533187	-	CCGG	54.07	intragenic	SC_RS18215	hypothetical protein	core
+T1	3533745	+	TGGCCGGC	87.11	intragenic	SC_RS18220	prephenate dehydrogenase	core
+T1	3533746	-	TGGCCGGC	85.94	intragenic	SC_RS18220	prephenate dehydrogenase	core
+T1	3539825	-	TGGCCGGC	83.43	intragenic	SC_RS18250	aminotransferase-like domain-containing protein	core
+T1	3545442	+	TGGCCGGC	68.05	intragenic	SC_RS18265	non-ribosomal peptide synthase/polyketide synthase	core
+T1	3550050	+	TGGCCGGC	72.29	intragenic	SC_RS18265	non-ribosomal peptide synthase/polyketide synthase	core
+T1	3583855	+	TGGCCGGC	90.93	intragenic	SC_RS18275	amino acid adenylation domain-containing protein	core
+T1	3584284	+	TGGCCGGC	87.12	intragenic	SC_RS18280	alpha/beta fold hydrolase	core
+T1	3588521	-	TGGCCGGC	85.69	intragenic	SC_RS18295	L-asparagine oxygenase	core
+T1	3589052	-	CCGG	92.1	intragenic	SC_RS18300	alkaline phosphatase family protein	core
+T1	3593344	-	TGGCCGGC	80.64	intragenic	SC_RS18320	sugar phosphate isomerase/epimerase family protein	core
+T1	3595700	+	TGGCCGGC	86.02	intragenic	SC_RS18330	inositol-3-phosphate synthase	core
+T1	3601358	+	TGGCCGGC	92.84	intragenic	SC_RS18355	beta-ketoacyl-[acyl-carrier-protein] synthase family protein	core
+T1	3602098	-	TGGCCGGC	85.84	intragenic	SC_RS18360	acyl carrier protein	core
+T1	3604228	+	TGGCCGGC	75.56	intragenic	SC_RS18380	replication initiator protein RepSA	core
+T1	3607978	+	TGGCCGGC	68.65	intragenic	SC_RS18405	FtsK/SpoIIIE domain-containing protein	core
+T1	3609600	-	CCGG	92.4	intragenic	SC_RS18415	GntR family transcriptional regulator	core
+T1	3617785	-	TGGCCGGC	93.29	intragenic	SC_RS18470	helix-turn-helix domain-containing protein	core
+T1	3619980	+	TGGCCGGC	80.51	intragenic	SC_RS18495	SulP family inorganic anion transporter	core
+T1	3620211	+	TGGCCGGC	90.56	intragenic	SC_RS18495	SulP family inorganic anion transporter	core
+T1	3621988	-	TGGCCGGC	72.34	intragenic	SC_RS18500	aminoglycoside phosphotransferase family protein	core
+T1	3622804	+	TGGCCGGC	94.95	intragenic	SC_RS18505	cation:proton antiporter	core
+T1	3629593	-	TGGCCGGC	59.44	intragenic	SC_RS18535	DNA repair ATPase	core
+T1	3631693	+	TGGCCGGC	57.78	intragenic	SC_RS18535	DNA repair ATPase	core
+T1	3632650	-	TGGCCGGC	56.83	intragenic	SC_RS18535	DNA repair ATPase	core
+T1	3638106	-	TGGCCGGC	95.95	intragenic	SC_RS18555	membrane protein	core
+T1	3639865	+	TGGCCGGC	74.52	intragenic	SC_RS18560	TIR domain-containing protein	core
+T1	3641279	+	TGGCCGGC	95.19	intragenic	SC_RS18565	macro domain-containing protein	core
+T1	3646715	-	TGGCCGGC	91.07	intragenic	SC_RS18600	SDR family NAD(P)-dependent oxidoreductase	core
+T1	3648808	+	TGGCCGGC	77.06	intragenic	SC_RS18610	hypothetical protein	core
+T1	3658730	-	TGGCCGGC	95.57	intragenic	SC_RS18645	SAM-dependent methyltransferase	core
+T1	3666058	+	TGGCCGGC	51.57	intragenic	SC_RS18675	NAD(P)-dependent alcohol dehydrogenase	core
+T1	3668349	+	TGGCCGGC	84.52	intragenic	SC_RS18690	bifunctional uroporphyrinogen-III C-methyltransferase/uroporphyrinogen-III synthase	core
+T1	3670927	-	TGGCCGGC	92.76	intragenic	SC_RS18700	glutamyl-tRNA reductase	core
+T1	3671380	-	TGGCCGGC	93.61	intragenic	SC_RS18700	glutamyl-tRNA reductase	core
+T1	3673765	-	TGGCCGGC	52.91	intergenic	SC_RS18710	glutaredoxin family protein	core
+T1	3685263	-	TGGCCGGC	60.9	intragenic	SC_RS18770	HAD family hydrolase	core
+T1	3689953	-	CCGG	78.81	intergenic	SC_RS18790	tryptophan--tRNA ligase	core
+T1	3692158	+	TGGCCGGC	83.07	intragenic	SC_RS18790	tryptophan--tRNA ligase	core
+T1	3693776	+	TGGCCGGC	86.71	intragenic	SC_RS18800	cysteine hydrolase family protein	core
+T1	3693989	+	TGGCCGGC	86.13	intragenic	SC_RS18800	cysteine hydrolase family protein	core
+T1	3696288	-	TGGCCGGC	92.94	intragenic	SC_RS18815	ABC transporter ATP-binding protein	core
+T1	3696485	+	TGGCCGGC	83.12	intragenic	SC_RS18815	ABC transporter ATP-binding protein	core
+T1	3698585	+	TGGCCGGC	95.48	intergenic	SC_RS18825	membrane protein	core
+T1	3699228	+	TGGCCGGC	79.03	intragenic	SC_RS18830	DUF4232 domain-containing protein	core
+T1	3700627	-	TGGCCGGC	82.5	intragenic	SC_RS18840	serine/threonine-protein kinase	core
+T1	3706514	-	TGGCCGGC	82.55	intragenic	SC_RS18860	Ppx/GppA family phosphatase	core
+T1	3708230	+	TGGCCGGC	68.69	intergenic	SC_RS18865	hypothetical protein	core
+T1	3708810	+	TGGCCGGC	81.18	intragenic	SC_RS18870	BACON domain-containing protein	core
+T1	3716228	+	TGGCCGGC	94.31	intragenic	SC_RS18900	hypothetical protein	core
+T1	3718837	-	GGCCGG	79.5	intragenic	SC_RS18910	two-component system sensor histidine kinase CseC	core
+T1	3723492	+	TGGCCGGC	92.88	intragenic	SC_RS18950	ATP-binding protein	core
+T1	3725142	-	TGGCCGGC	92.63	intragenic	SC_RS18955	MDR family MFS transporter	core
+T1	3725896	+	TGGCCGGC	70.4	intragenic	SC_RS18960	TetR/AcrR family transcriptional regulator	core
+T1	3740981	-	CCGG	88.09	intragenic	SC_RS19005	amino-acid N-acetyltransferase	core
+T1	3743216	+	TGGCCGGC	91.85	intragenic	SC_RS19025	type III pantothenate kinase	core
+T1	3744614	-	TGGCCGGC	73.43	intragenic	SC_RS19030	carboxylating nicotinate-nucleotide diphosphorylase	core
+T1	3758268	-	CCGC	62.15	intragenic	SC_RS19095	PH domain-containing protein	core
+T1	3761661	-	TGGCCGGC	80.84	intragenic	SC_RS19105	alpha/beta hydrolase	core
+T1	3764466	-	TGGCCGGC	84.63	intragenic	SC_RS19115	dihydropteroate synthase	core
+T1	3766880	+	TGGCCGGC	65.96	intragenic	SC_RS19135	DUF3180 domain-containing protein	core
+T1	3767446	-	CCGG	70.81	intragenic	SC_RS19140	GTP cyclohydrolase I FolE	core
+T1	3769553	+	TGGCCGGC	82.04	intragenic	SC_RS19145	ATP-dependent zinc metalloprotease FtsH	core
+T1	3773667	-	TGGCCGGC	90.25	intragenic	SC_RS19165	D-alanyl-D-alanine carboxypeptidase/D-alanyl-D-alanine endopeptidase	core
+T1	3773893	-	CCGC	70.29	intragenic	SC_RS19165	D-alanyl-D-alanine carboxypeptidase/D-alanyl-D-alanine endopeptidase	core
+T1	3779648	-	TGGCCGGC	90.49	intragenic	SC_RS19190	MerR family transcriptional regulator	core
+T1	3781081	+	TGGCCGGC	84.34	intragenic	SC_RS19200	alpha/beta hydrolase	core
+T1	3783905	+	TGGCCGGC	78.78	intragenic	SC_RS19215	ATP-binding cassette domain-containing protein	core
+T1	3785239	-	CCGG	93.54	intragenic	SC_RS19220	PadR family transcriptional regulator	core
+T1	3788646	-	CCGG	74.72	intergenic	SC_RS19235	ATP-binding protein	core
+T1	3789808	-	TGGCCGGC	87.23	intragenic	SC_RS19250	CobW family GTP-binding protein	core
+T1	3794027	-	TGGCCGGC	93.5	intragenic	SC_RS19290	Clp protease N-terminal domain-containing protein	core
+T1	3795607	+	TGGCCGGC	97.98	intragenic	SC_RS19295	bifunctional 3'-5' exonuclease/DNA polymerase	core
+T1	3795787	+	TGGCCGGC	81.02	intragenic	SC_RS19295	bifunctional 3'-5' exonuclease/DNA polymerase	core
+T1	3797032	+	TGGCCGGC	71.23	intragenic	SC_RS19300	LysR family transcriptional regulator	core
+T1	3803469	+	TGGCCGGC	95.66	intragenic	SC_RS19330	hypothetical protein	core
+T1	3808220	+	TGGCCGGC	83.47	intragenic	SC_RS19350	hypothetical protein	core
+T1	3816222	-	CCGC	93.49	intragenic	SC_RS19405	ABC transporter substrate-binding protein	core
+T1	3817306	+	TGGCCGGC	93.73	intragenic	SC_RS19410	CDP-alcohol phosphatidyltransferase family protein	core
+T1	3819482	-	TGGCCGGC	52.2	intergenic	SC_RS19425	dihydrolipoyl dehydrogenase family protein	core
+T1	3830899	-	CCGC	57.07	intragenic	SC_RS19475	IS5-like element IS470 family transposase	core
+T1	3834514	-	TGGCCGGC	59.38	intragenic	SC_RS19490	bifunctional 4-hydroxy-2-oxoglutarate aldolase/2-dehydro-3-deoxy-phosphogluconate aldolase	core
+T1	3857897	+	TGGCCGGC	60.88	intragenic	SC_RS19580	hypothetical protein	core
+T1	3862479	+	TGGCCGGC	91.6	intragenic	SC_RS19600	polysaccharide lyase 6 family protein	core
+T1	3864041	-	TGGCCGGC	80.47	intragenic	SC_RS19610	right-handed parallel beta-helix repeat-containing protein	core
+T1	3870353	-	TGGCCGGC	58.33	intragenic	SC_RS19635	carbohydrate ABC transporter permease	core
+T1	3870509	+	TGGCCGGC	84.31	intragenic	SC_RS19635	carbohydrate ABC transporter permease	core
+T1	3874035	-	GGCCGG	83.91	intragenic	SC_RS19650	LacI family DNA-binding transcriptional regulator	core
+T1	3878113	-	CCGC	59.21	intragenic	SC_RS19665	DUF5655 domain-containing protein	core
+T1	3881281	-	CCGG	67.14	intergenic	SC_RS19680	DUF6112 family protein	core
+T1	3883114	+	TGGCCGGC	88.78	intragenic	SC_RS19690	SCO6881 family protein	core
+T1	3884508	+	TGGCCGGC	82.17	intragenic	SC_RS19695	SCO6880 family protein	core
+T1	3886525	+	TGGCCGGC	85.07	intragenic	SC_RS19705	ATP-binding protein	core
+T1	3887655	+	TGGCCGGC	60.48	intragenic	SC_RS19710	hypothetical protein	core
+T1	3892534	-	TGGCCGGC	91.53	intragenic	SC_RS19740	hypothetical protein	core
+T1	3892886	+	TGGCCGGC	66.47	intragenic	SC_RS19745	hypothetical protein	core
+T1	3893627	-	TGGCCGGC	92.0	intragenic	SC_RS19750	type IV secretory system conjugative DNA transfer family protein	core
+T1	3895130	+	TGGCCGGC	85.9	intragenic	SC_RS19760	DnaB-like helicase N-terminal domain-containing protein	core
+T1	3909837	-	CCGC	89.1	intragenic	SC_RS19835	alpha/beta hydrolase	core
+T1	3910240	-	CCGG	66.04	intergenic	SC_RS19840	DNA polymerase III subunit delta'	core
+T1	3919615	-	TGGCCGGC	87.9	intragenic	SC_RS19860	DUF7059 domain-containing protein	core
+T1	3926930	-	CCGC	88.67	intragenic	SC_RS19885	DEAD/DEAH box helicase	core
+T1	3928586	-	TGGCCGGC	91.97	intragenic	SC_RS19905	type II secretion system F family protein	core
+T1	3929144	-	TGGCCGGC	78.06	intragenic	SC_RS19905	type II secretion system F family protein	core
+T1	3929422	-	TGGCCGGC	97.87	intragenic	SC_RS19910	type II secretion system F family protein	core
+T1	3930304	-	TGGCCGGC	81.09	intergenic	SC_RS19910	type II secretion system F family protein	core
+T1	3932051	-	TGGCCGGC	89.05	intragenic	SC_RS19920	septum site-determining protein Ssd	core
+T1	3932448	-	TGGCCGGC	84.45	intragenic	SC_RS19920	septum site-determining protein Ssd	core
+T1	3937990	-	CCGG	78.68	intragenic	SC_RS19940	polysaccharide deacetylase family protein	core
+T1	3939193	-	CCGG	87.24	intragenic	SC_RS19945	SulP family inorganic anion transporter	core
+T1	3943209	-	TGGCCGGC	87.0	intergenic	SC_RS19950	acetate--CoA ligase	core
+T1	3949775	+	TGGCCGGC	92.17	intragenic	SC_RS19985	endonuclease III	core
+T1	3951157	-	TGGCCGGC	97.98	intragenic	SC_RS19995	MBL fold metallo-hydrolase	core
+T1	3956015	-	TGGCCGGC	94.13	intragenic	SC_RS20025	ArsA family ATPase	core
+T1	3956438	-	CCGC	85.06	intragenic	SC_RS20025	ArsA family ATPase	core
+T1	3958334	+	TGGCCGGC	70.09	intragenic	SC_RS20035	transglycosylase domain-containing protein	core
+T1	3958937	+	TGGCCGGC	54.6	intragenic	SC_RS20035	transglycosylase domain-containing protein	core
+T1	3960646	-	TGGCCGGC	92.59	intragenic	SC_RS20040	GatB/YqeY domain-containing protein	core
+T1	3961929	+	TGGCCGGC	73.59	intragenic	SC_RS20045	metallophosphoesterase	core
+T1	3961930	-	TGGCCGGC	58.19	intragenic	SC_RS20045	metallophosphoesterase	core
+T1	3967325	+	TGGCCGGC	85.57	intragenic	SC_RS20080	VanSc-type vancomycin resistance histidine kinase VanS	core
+T1	3969402	+	TGGCCGGC	85.19	intragenic	SC_RS20095	teicoplanin resistance protein VanJ	core
+T1	3969689	+	TGGCCGGC	92.61	intragenic	SC_RS20095	teicoplanin resistance protein VanJ	core
+T1	3976757	-	TGGCCGGC	69.6	intragenic	SC_RS20130	alpha/beta hydrolase	core
+T1	3978105	+	TGGCCGGC	87.86	intragenic	SC_RS20145	cation:proton antiporter	core
+T1	3978735	-	TGGCCGGC	88.25	intragenic	SC_RS20145	cation:proton antiporter	core
+T1	3979155	-	TGGCCGGC	91.96	intragenic	SC_RS20145	cation:proton antiporter	core
+T1	3984650	+	TGGCCGGC	82.63	intragenic	SC_RS20170	flotillin family protein	core
+T1	3985059	-	TGGCCGGC	93.49	intragenic	SC_RS20170	flotillin family protein	core
+T1	3986843	+	TGGCCGGC	80.52	intragenic	SC_RS20180	NAD(P)-binding protein	core
+T1	3991928	+	TGGCCGGC	77.52	intragenic	SC_RS20195	hypothetical protein	core
+T1	3993845	-	TGGCCGGC	81.78	intragenic	SC_RS20205	aspartate-semialdehyde dehydrogenase	core
+T1	3995293	-	TGGCCGGC	74.31	intragenic	SC_RS20210	aspartate kinase	core
+T1	3996764	-	TGGCCGGC	78.13	intragenic	SC_RS20220	DUF5063 domain-containing protein	core
+T1	4003232	+	TGGCCGGC	82.19	intragenic	SC_RS20250	GntR family transcriptional regulator	core
+T1	4004137	+	TGGCCGGC	89.44	intragenic	SC_RS20255	hypothetical protein	core
+T1	4008065	+	TGGCCGGC	90.18	intragenic	SC_RS20280	adenylosuccinate synthase	core
+T1	4019994	-	TGGCCGGC	86.64	intragenic	SC_RS20350	acyltransferase family protein	core
+T1	4023371	-	TGGCCGGC	89.29	intragenic	SC_RS20365	kynureninase	core
+T1	4024324	+	TGGCCGGC	94.28	intragenic	SC_RS20365	kynureninase	core
+T1	4027485	-	TGGCCGGC	86.35	intragenic	SC_RS20380	MFS transporter	core
+T1	4029748	-	GGCCGG	83.51	intragenic	SC_RS20395	aldose epimerase family protein	core
+T1	4036934	-	TGGCCGGC	98.85	intragenic	SC_RS20430	pyridoxal phosphate-dependent aminotransferase	core
+T1	4037636	-	CCGC	80.11	intragenic	SC_RS20430	pyridoxal phosphate-dependent aminotransferase	core
+T1	4055295	+	TGGCCGGC	98.81	intragenic	SC_RS20500	(Fe-S)-binding protein	core
+T1	4058157	+	TGGCCGGC	86.6	intragenic	SC_RS20510	FG-GAP-like repeat-containing protein	core
+T1	4064212	-	TGGCCGGC	90.87	intragenic	SC_RS20535	SpoIIE family protein phosphatase	core
+T1	4077606	+	TGGCCGGC	73.73	intragenic	SC_RS20625	ACR3 family arsenite efflux transporter	core
+T1	4078056	-	TGGCCGGC	89.37	intragenic	SC_RS20625	ACR3 family arsenite efflux transporter	core
+T1	4078753	+	TGGCCGGC	63.91	intragenic	SC_RS20630	ArsR/SmtB family transcription factor	core
+T1	4079406	-	TGGCCGGC	96.19	intragenic	SC_RS20635	arsenate reductase ArsC	core
+T1	4087788	+	TGGCCGGC	93.22	intragenic	SC_RS20690	hypothetical protein	core
+T1	4094150	-	TGGCCGGC	78.65	intragenic	SC_RS20725	potassium-transporting ATPase subunit KdpA	core
+T1	4098166	+	TGGCCGGC	60.23	intragenic	SC_RS20745	GAF domain-containing SpoIIE family protein phosphatase	core
+T1	4100128	+	TGGCCGGC	81.45	intragenic	SC_RS20755	phosphatase PAP2 family protein	core
+T1	4101281	-	CCGC	82.09	intragenic	SC_RS20760	VOC family protein	core
+T1	4114596	-	CCGG	92.92	intragenic	SC_RS20845	TIGR04282 family arsenosugar biosynthesis glycosyltransferase	core
+T1	4123091	+	TGGCCGGC	71.98	intragenic	SC_RS20890	FtsX-like permease family protein	core
+T1	4123877	-	TGGCCGGC	91.73	intragenic	SC_RS20890	FtsX-like permease family protein	core
+T1	4125115	+	TGGCCGGC	82.9	intragenic	SC_RS20890	FtsX-like permease family protein	core
+T1	4127928	-	CCGC	84.82	intragenic	SC_RS20895	ABC transporter permease	core
+T1	4129194	-	CCGC	63.5	intragenic	SC_RS20905	response regulator	core
+T1	4134937	-	CCGC	53.31	intragenic	SC_RS20930	hypothetical protein	core
+T1	4138501	+	TGGCCGGC	82.44	intragenic	SC_RS20940	hemolysin family protein	core
+T1	4138944	-	TGGCCGGC	70.89	intragenic	SC_RS20945	hemolysin family protein	core
+T1	4146883	-	TGGCCGGC	92.44	intragenic	SC_RS20980	CE1 family esterase	core
+T1	4149380	+	TGGCCGGC	77.38	intragenic	SC_RS20990	serine hydrolase	core
+T1	4150242	-	TGGCCGGC	90.96	intragenic	SC_RS20995	right-handed parallel beta-helix repeat-containing protein	core
+T1	4156907	+	TGGCCGGC	79.46	intragenic	SC_RS21020	glycoside hydrolase family 13 protein	core
+T1	4162333	-	TGGCCGGC	80.77	intragenic	SC_RS21045	PP2C family protein-serine/threonine phosphatase	core
+T1	4163455	+	TGGCCGGC	89.85	intragenic	SC_RS21055	hypothetical protein	core
+T1	4164055	+	TGGCCGGC	65.61	intragenic	SC_RS21055	hypothetical protein	core
+T1	4165530	+	TGGCCGGC	94.8	intragenic	SC_RS21065	endonuclease/exonuclease/phosphatase family protein	core
+T1	4165905	+	TGGCCGGC	80.68	intragenic	SC_RS21070	PhoX family protein	core
+T1	4169425	+	TGGCCGGC	97.03	intragenic	SC_RS21075	VWA domain-containing protein	core
+T1	4170198	-	CCGG	93.5	intragenic	SC_RS21080	methionine--tRNA ligase	core
+T1	4170469	+	TGGCCGGC	93.95	intragenic	SC_RS21080	methionine--tRNA ligase	core
+T1	4171561	-	TGGCCGGC	96.83	intragenic	SC_RS21085	PH domain-containing protein	core
+T1	4171755	+	TGGCCGGC	97.96	intragenic	SC_RS21090	IS481 family transposase	core
+T1	4173267	+	TGGCCGGC	72.78	intragenic	SC_RS21100	aspartate--tRNA ligase	core
+T1	4178497	+	TGGCCGGC	93.33	intragenic	SC_RS21115	pirin family protein	core
+T1	4181994	+	TGGCCGGC	67.4	intragenic	SC_RS21130	M18 family aminopeptidase	core
+T1	4191051	+	TGGCCGGC	68.7	intragenic	SC_RS21185	GntR family transcriptional regulator	core
+T1	4199916	+	TGGCCGGC	94.82	intragenic	SC_RS21225	protein kinase domain-containing protein	core
+T1	4200147	-	TGGCCGGC	94.72	intragenic	SC_RS21225	protein kinase domain-containing protein	core
+T1	4204774	+	TGGCCGGC	86.82	intragenic	SC_RS21245	NAD(P)H-quinone oxidoreductase	core
+T1	4207214	+	TGGCCGGC	63.34	intragenic	SC_RS21260	potassium channel family protein	core
+T1	4209237	+	TGGCCGGC	91.78	intragenic	SC_RS21265	molybdopterin-binding protein	core
+T1	4213251	+	TGGCCGGC	86.17	intragenic	SC_RS21280	alpha-ketoacid dehydrogenase subunit beta	core
+T1	4226864	-	CCGG	66.17	intergenic	SC_RS21340	carbohydrate-binding protein	core
+T1	4227618	+	TGGCCGGC	55.56	intragenic	SC_RS21350	antibiotic biosynthesis regulator FhaA	core
+T1	4230694	+	TGGCCGGC	79.03	intragenic	SC_RS21365	FtsW/RodA/SpoVE family cell cycle protein	core
+T1	4230958	+	TGGCCGGC	87.22	intragenic	SC_RS21365	FtsW/RodA/SpoVE family cell cycle protein	core
+T1	4234012	-	TGGCCGGC	94.43	intragenic	SC_RS21375	Stk1 family PASTA domain-containing Ser/Thr kinase	core
+T1	4235818	+	TGGCCGGC	94.34	intragenic	SC_RS21380	class E sortase	core
+T1	4236074	-	TGGCCGGC	84.15	intragenic	SC_RS21380	class E sortase	core
+T1	4237135	-	CCGG	71.24	intragenic	SC_RS21385	class E sortase	core
+T1	4237748	+	TGGCCGGC	86.03	intragenic	SC_RS21390	aminodeoxychorismate/anthranilate synthase component II	core
+T1	4254362	-	TGGCCGGC	97.65	intragenic	SC_RS21485	nSTAND1 domain-containing NTPase	core
+T1	4256467	+	TGGCCGGC	87.69	intragenic	SC_RS21485	nSTAND1 domain-containing NTPase	core
+T1	4256468	-	TGGCCGGC	86.49	intragenic	SC_RS21485	nSTAND1 domain-containing NTPase	core
+T1	4257263	-	TGGCCGGC	97.11	intragenic	SC_RS21485	nSTAND1 domain-containing NTPase	core
+T1	4258398	-	TGGCCGGC	54.47	intragenic	SC_RS21490	SCO3870 family protein	core
+T1	4271830	+	TGGCCGGC	71.74	intragenic	SC_RS21540	chromosomal replication initiator protein DnaA	core
+T1	4279408	-	CCGC	54.04	intergenic	SC_RS21585	GNAT family N-acetyltransferase	core
+T1	4280538	-	TGGCCGGC	78.17	intragenic	SC_RS21590	thioredoxin	core
+T1	4283601	-	CCGG	83.72	intragenic	SC_RS21610	protein kinase family protein	core
+T1	4290108	-	GGCCGG	65.09	intergenic	SC_RS21625	CCA tRNA nucleotidyltransferase	core
+T1	4292161	+	TGGCCGGC	73.09	intragenic	SC_RS21630	LppU/SCO3897 family protein	core
+T1	4297746	+	TGGCCGGC	87.33	intragenic	SC_RS21650	transglycosylase domain-containing protein	core
+T1	4298019	+	TGGCCGGC	91.41	intragenic	SC_RS21650	transglycosylase domain-containing protein	core
+T1	4305875	-	TGGCCGGC	93.05	intragenic	SC_RS21695	MATE family efflux transporter	core
+T1	4309104	-	TGGCCGGC	79.76	intragenic	SC_RS21705	serine hydrolase domain-containing protein	core
+T1	4311680	-	CCGC	83.64	intragenic	SC_RS21720	MFS transporter	core
+T1	4314232	-	CCGG	59.18	intragenic	SC_RS21735	NUDIX domain-containing protein	core
+T1	4316035	-	TGGCCGGC	80.87	intragenic	SC_RS21745	cystathionine gamma-lyase	core
+T1	4325087	+	TGGCCGGC	93.78	intragenic	SC_RS21790	hypothetical protein	core
+T1	4327018	-	CCGC	80.59	intragenic	SC_RS21800	hypothetical protein	core
+T1	4329839	-	TGGCCGGC	95.43	intragenic	SC_RS21815	FtsK/SpoIIIE domain-containing protein	core
+T1	4335965	-	TGGCCGGC	94.63	intragenic	SC_RS21845	membrane protein	core
+T1	4337264	+	TGGCCGGC	88.97	intragenic	SC_RS21850	Ser/Thr/Tyr protein phosphatase SppA	core
+T1	4345172	-	CCGC	53.87	intragenic	SC_RS21875	thiol reductant ABC exporter subunit CydD	core
+T1	4345441	-	CCGG	77.2	intragenic	SC_RS21875	thiol reductant ABC exporter subunit CydD	core
+T1	4346521	+	TGGCCGGC	97.96	intragenic	SC_RS21875	thiol reductant ABC exporter subunit CydD	core
+T1	4354719	-	TGGCCGGC	89.33	intragenic	SC_RS21910	SDR family oxidoreductase	core
+T1	4359447	-	TGGCCGGC	78.06	intragenic	SC_RS21935	ABC transporter permease	core
+T1	4361210	-	TGGCCGGC	84.12	intragenic	SC_RS21945	serine--tRNA ligase	core
+T1	4363050	+	TGGCCGGC	82.58	intragenic	SC_RS21950	prephenate dehydratase	core
+T1	4363912	-	CCGG	86.16	intragenic	SC_RS21955	iron uptake transporter deferrochelatase/peroxidase subunit	core
+T1	4366038	-	CCGG	82.58	intragenic	SC_RS21960	copper resistance CopC/CopD family protein	core
+T1	4366661	-	TGGCCGGC	52.09	intragenic	SC_RS21960	copper resistance CopC/CopD family protein	core
+T1	4368098	-	TGGCCGGC	84.33	intragenic	SC_RS21975	YcnI family copper-binding membrane protein	core
+T1	4368557	+	TGGCCGGC	78.3	intragenic	SC_RS21975	YcnI family copper-binding membrane protein	core
+T1	4372549	-	TGGCCGGC	65.4	intragenic	SC_RS21995	PP2C family protein-serine/threonine phosphatase	core
+T1	4375244	-	TGGCCGGC	75.27	intragenic	SC_RS22005	hypothetical protein	core
+T1	4378392	+	TGGCCGGC	89.62	intragenic	SC_RS22020	glycerophosphodiester phosphodiesterase	core
+T1	4387525	-	CCGG	88.81	intergenic	SC_RS22085	barstar family protein	core
+T1	4392179	+	TGGCCGGC	80.11	intergenic	SC_RS22110	outer membrane protein assembly factor BamB family protein	core
+T1	4397557	-	CCGG	57.46	intergenic	SC_RS22135	SigE family RNA polymerase sigma factor	core
+T1	4397819	-	TGGCCGGC	86.51	intragenic	SC_RS22135	SigE family RNA polymerase sigma factor	core
+T1	4403190	-	TGGCCGGC	92.65	intragenic	SC_RS22155	hybrid sensor histidine kinase/response regulator	core
+T1	4404495	-	TGGCCGGC	87.09	intragenic	SC_RS22155	hybrid sensor histidine kinase/response regulator	core
+T1	4419710	+	TGGCCGGC	65.59	intragenic	SC_RS22235	ArnT family glycosyltransferase	core
+T1	4420062	+	TGGCCGGC	83.42	intragenic	SC_RS22235	ArnT family glycosyltransferase	core
+T1	4422346	-	TGGCCGGC	86.45	intragenic	SC_RS22240	MFS transporter	core
+T1	4427746	-	TGGCCGGC	81.44	intragenic	SC_RS22275	MFS transporter	core
+T1	4428571	-	TGGCCGGC	89.37	intragenic	SC_RS22275	MFS transporter	core
+T1	4432789	+	TGGCCGGC	60.99	intragenic	SC_RS22295	RNA polymerase sigma factor SigF	core
+T1	4436510	-	CCGG	78.89	intragenic	SC_RS22335	LytR C-terminal domain-containing protein	core
+T1	4443983	-	CCGG	81.14	intragenic	SC_RS22380	cupin domain-containing protein	core
+T1	4445154	-	TGGCCGGC	75.98	intergenic	SC_RS22390	copper resistance CopC/CopD family protein	core
+T1	4449475	+	TGGCCGGC	88.01	intragenic	SC_RS22410	MIP/aquaporin family protein	core
+T1	4459814	+	TGGCCGGC	92.09	intragenic	SC_RS22465	phosphoribosylamine--glycine ligase	core
+T1	4465685	+	TGGCCGGC	82.29	intragenic	SC_RS22480	phosphoribosylaminoimidazolesuccinocarboxamide synthase	core
+T1	4467414	-	TGGCCGGC	74.46	intragenic	SC_RS22495	sensor histidine kinase	core
+T1	4472362	+	TGGCCGGC	79.0	intragenic	SC_RS22535	phosphoribosylformylglycinamidine synthase subunit PurL	core
+T1	4476130	-	TGGCCGGC	88.36	intragenic	SC_RS22550	M23 family metallopeptidase	core
+T1	4481500	-	CCGG	84.97	intragenic	SC_RS22570	phosphoribosylformylglycinamidine cyclo-ligase	core
+T1	4481933	+	TGGCCGGC	78.7	intragenic	SC_RS22570	phosphoribosylformylglycinamidine cyclo-ligase	core
+T1	4485791	-	CCGG	78.35	intergenic	SC_RS22590	developmental transcriptional regulator BldC	core
+T1	4486957	-	CCGG	77.39	intragenic	SC_RS22605	ATP-dependent RNA helicase HrpA	core
+T1	4492468	-	TGGCCGGC	85.11	intragenic	SC_RS22625	metallophosphoesterase family protein	core
+T1	4492641	-	TGGCCGGC	60.0	intragenic	SC_RS22625	metallophosphoesterase family protein	core
+T1	4494506	+	TGGCCGGC	85.75	intragenic	SC_RS22640	DEAD/DEAH box helicase	core
+T1	4505755	+	TGGCCGGC	62.71	intragenic	SC_RS22705	PP2C family protein-serine/threonine phosphatase	core
+T1	4506789	+	TGGCCGGC	55.56	intragenic	SC_RS22705	PP2C family protein-serine/threonine phosphatase	core
+T1	4514369	-	TGGCCGGC	93.83	intragenic	SC_RS22740	MFS transporter	core
+T1	4521480	-	TGGCCGGC	92.04	intragenic	SC_RS22755	sigma-70 family RNA polymerase sigma factor	core
+T1	4527258	-	TGGCCGGC	85.28	intragenic	SC_RS22770	ATP-binding SpoIIE family protein phosphatase	core
+T1	4529995	+	TGGCCGGC	92.04	intragenic	SC_RS22780	MarR family winged helix-turn-helix transcriptional regulator	core
+T1	4537891	+	TGGCCGGC	89.86	intergenic	SC_RS22810	GNAT family N-acetyltransferase	core
+T1	4542027	-	TGGCCGGC	94.99	intragenic	SC_RS22825	SCO6880 family protein	core
+T1	4546147	+	TGGCCGGC	82.15	intragenic	SC_RS22845	transglycosylase TgdA	core
+T1	4552676	+	TGGCCGGC	89.05	intragenic	SC_RS22880	low-affinity phosphate transporter PitH	core
+T1	4557113	+	TGGCCGGC	86.86	intragenic	SC_RS22900	phosphate ABC transporter substrate-binding protein PstS	core
+T1	4557114	-	TGGCCGGC	68.31	intragenic	SC_RS22900	phosphate ABC transporter substrate-binding protein PstS	core
+T1	4578593	-	TGGCCGGC	69.09	intragenic	SC_RS23000	hypothetical protein	core
+T1	4586813	-	CCGG	65.41	intragenic	SC_RS23050	hypothetical protein	core
+T1	4605549	-	TGGCCGGC	82.13	intragenic	SC_RS23165	metal-dependent hydrolase family protein	core
+T1	4609721	-	TGGCCGGC	70.1	intragenic	SC_RS23190	PP2C family protein-serine/threonine phosphatase	core
+T1	4615255	-	TGGCCGGC	87.18	intragenic	SC_RS23215	AraC family transcriptional regulator	core
+T1	4625639	+	TGGCCGGC	88.33	intragenic	SC_RS23270	MOSC domain-containing protein	core
+T1	4630506	-	TGGCCGGC	93.02	intragenic	SC_RS23305	lanthionine synthetase LanC family protein	core
+T1	4631268	-	TGGCCGGC	62.82	intragenic	SC_RS23310	SCO4225 family membrane protein	core
+T1	4635324	+	TGGCCGGC	89.55	intragenic	SC_RS23340	lipoprotein	core
+T1	4635746	-	CCGC	51.63	intragenic	SC_RS23340	lipoprotein	core
+T1	4640304	+	TGGCCGGC	89.32	intragenic	SC_RS23360	cysteine--tRNA ligase	core
+T1	4640305	-	TGGCCGGC	72.51	intragenic	SC_RS23360	cysteine--tRNA ligase	core
+T1	4643825	-	TGGCCGGC	65.36	intragenic	SC_RS23375	nucleotidyltransferase family protein	core
+T1	4644410	-	TGGCCGGC	95.74	intragenic	SC_RS23375	nucleotidyltransferase family protein	core
+T1	4645631	-	CCGC	84.22	intragenic	SC_RS23385	diacetylchitobiose ABC transporter ATP-binding protein MsiK	core
+T1	4646713	-	CCGG	91.05	intragenic	SC_RS23395	alpha/beta hydrolase	core
+T1	4650394	-	CCGC	72.91	intergenic	SC_RS23410	putative baseplate assembly protein	core
+T1	4653969	-	CCGG	56.35	intragenic	SC_RS23420	VgrG-related protein	core
+T1	4654034	+	TGGCCGGC	76.95	intragenic	SC_RS23420	VgrG-related protein	core
+T1	4654147	+	TGGCCGGC	86.7	intragenic	SC_RS23420	VgrG-related protein	core
+T1	4654798	+	TGGCCGGC	88.97	intragenic	SC_RS23425	CIS tube protein	core
+T1	4655228	-	CCGG	72.58	intragenic	SC_RS23425	CIS tube protein	core
+T1	4655986	-	CCGC	55.03	intergenic	SC_RS23430	phage tail protein	core
+T1	4661378	-	CCGC	81.95	intragenic	SC_RS23455	phage tail sheath subtilisin-like domain-containing protein	core
+T1	4662519	+	TGGCCGGC	98.1	intragenic	SC_RS23455	phage tail sheath subtilisin-like domain-containing protein	core
+T1	4664373	-	TGGCCGGC	84.14	intragenic	SC_RS23460	hypothetical protein	core
+T1	4671760	-	TGGCCGGC	98.52	intragenic	SC_RS23485	ATP-binding protein	core
+T1	4679588	-	TGGCCGGC	80.37	intragenic	SC_RS23505	aminoglycoside phosphotransferase family protein	core
+T1	4681332	-	TGGCCGGC	94.84	intragenic	SC_RS23510	MFS transporter	core
+T1	4682264	-	TGGCCGGC	86.08	intragenic	SC_RS23515	zinc-binding dehydrogenase	core
+T1	4694747	-	TGGCCGGC	90.42	intragenic	SC_RS23585	flavin reductase family protein	core
+T1	4698888	-	TGGCCGGC	90.63	intragenic	SC_RS23600	1-phosphofructokinase family hexose kinase	core
+T1	4700315	-	TGGCCGGC	82.49	intragenic	SC_RS23605	N-acetylglucosamine-6-phosphate deacetylase	core
+T1	4702069	-	TGGCCGGC	94.39	intragenic	SC_RS23615	extracellular solute-binding protein	core
+T1	4706696	+	TGGCCGGC	67.43	intragenic	SC_RS23640	hypothetical protein	core
+T1	4707716	-	TGGCCGGC	50.66	intragenic	SC_RS23645	glucosyl-3-phosphoglycerate synthase	core
+T1	4708239	-	TGGCCGGC	62.8	intragenic	SC_RS23645	glucosyl-3-phosphoglycerate synthase	core
+T1	4709826	+	TGGCCGGC	69.24	intragenic	SC_RS23650	threonine synthase	core
+T1	4711945	-	CCGG	94.98	intragenic	SC_RS23665	chaperonin GroEL	core
+T1	4712226	+	TGGCCGGC	56.04	intragenic	SC_RS23665	chaperonin GroEL	core
+T1	4722563	+	TGGCCGGC	85.64	intragenic	SC_RS23730	hypothetical protein	core
+T1	4725530	-	TGGCCGGC	80.5	intragenic	SC_RS23750	TetR/AcrR family transcriptional regulator	core
+T1	4728691	-	TGGCCGGC	65.07	intragenic	SC_RS23765	HelD family protein	core
+T1	4729648	+	TGGCCGGC	87.32	intragenic	SC_RS23770	hypothetical protein	core
+T1	4730940	-	TGGCCGGC	73.41	intragenic	SC_RS23775	DNA repair helicase XPB	core
+T1	4733811	+	TGGCCGGC	94.99	intragenic	SC_RS23785	helicase-associated domain-containing protein	core
+T1	4748625	-	TGGCCGGC	83.11	intragenic	SC_RS23845	DUF2530 domain-containing protein	core
+T1	4753032	+	TGGCCGGC	89.52	intragenic	SC_RS23870	RNA 2'%2C3'-cyclic phosphodiesterase	core
+T1	4753161	+	TGGCCGGC	76.88	intragenic	SC_RS23870	RNA 2'%2C3'-cyclic phosphodiesterase	core
+T1	4756416	-	CCGC	61.6	intergenic	SC_RS23880	recombinase family protein	core
+T1	4759221	-	CCGC	68.68	intragenic	SC_RS23895	hypothetical protein	core
+T1	4760334	+	TGGCCGGC	71.88	intragenic	SC_RS23900	PDDEXK family nuclease	core
+T1	4770929	-	TGGCCGGC	91.2	intragenic	SC_RS23950	GDSL-type esterase/lipase family protein	core
+T1	4776318	+	TGGCCGGC	84.7	intragenic	SC_RS23980	sensor histidine kinase	core
+T1	4782777	+	TGGCCGGC	71.19	intragenic	SC_RS24010	alpha/beta hydrolase family protein	core
+T1	4787062	-	TGGCCGGC	75.16	intragenic	SC_RS24025	DinB family protein	core
+T1	4788827	+	TGGCCGGC	77.71	intragenic	SC_RS24040	EamA family transporter	core
+T1	4792397	+	TGGCCGGC	79.5	intragenic	SC_RS24055	serine/threonine-protein kinase	core
+T1	4808319	+	TGGCCGGC	52.57	intragenic	SC_RS24120	PAS domain-containing protein	core
+T1	4810355	+	TGGCCGGC	61.85	intragenic	SC_RS24135	SIS domain-containing protein	core
+T1	4810591	+	TGGCCGGC	94.17	intragenic	SC_RS24135	SIS domain-containing protein	core
+T1	4819158	+	TGGCCGGC	96.05	intragenic	SC_RS24170	hypothetical protein	core
+T1	4821363	+	TGGCCGGC	76.58	intragenic	SC_RS24180	SCO4402 family protein	core
+T1	4824044	-	CCGC	66.84	intragenic	SC_RS24195	daunorubicin resistance protein DrrA family ABC transporter ATP-binding protein	core
+T1	4828966	+	TGGCCGGC	78.36	intragenic	SC_RS24225	calcium binding protein CalD	core
+T1	4832676	+	TGGCCGGC	80.13	intragenic	SC_RS24240	MFS transporter	core
+T1	4840914	-	TGGCCGGC	91.63	intragenic	SC_RS24280	outer membrane protein assembly factor BamB family protein	core
+T1	4844781	-	TGGCCGGC	74.83	intragenic	SC_RS24295	transcriptional regulator AfsR	core
+T1	4845288	-	TGGCCGGC	67.59	intragenic	SC_RS24295	transcriptional regulator AfsR	core
+T1	4852804	-	TGGCCGGC	62.61	intragenic	SC_RS24330	DoxX family protein	core
+T1	4860663	+	TGGCCGGC	89.58	intragenic	SC_RS24360	D-alanyl-D-alanine carboxypeptidase	core
+T1	4861412	-	CCGC	75.89	intragenic	SC_RS24360	D-alanyl-D-alanine carboxypeptidase	core
+T1	4866618	+	TGGCCGGC	64.72	intergenic	SC_RS24390	ArsR/SmtB family transcription factor	core
+T1	4872337	-	CCGC	67.52	intragenic	SC_RS24415	TetR/AcrR family transcriptional regulator	core
+T1	4872346	-	TGGCCGGC	92.78	intragenic	SC_RS24415	TetR/AcrR family transcriptional regulator	core
+T1	4873336	+	TGGCCGGC	79.16	intragenic	SC_RS24420	MFS transporter	core
+T1	4875388	-	TGGCCGGC	87.72	intragenic	SC_RS24425	RNA polymerase sigma factor	core
+T1	4879541	+	TGGCCGGC	88.07	intragenic	SC_RS24450	DUF389 domain-containing protein	core
+T1	4885755	-	CCGC	82.87	intragenic	SC_RS24495	hypothetical protein	core
+T1	4893485	+	TGGCCGGC	94.0	intragenic	SC_RS24530	cytochrome c biogenesis protein ResB	core
+T1	4893566	+	TGGCCGGC	63.97	intragenic	SC_RS24530	cytochrome c biogenesis protein ResB	core
+T1	4893770	-	TGGCCGGC	88.84	intergenic	SC_RS24530	cytochrome c biogenesis protein ResB	core
+T1	4898690	+	TGGCCGGC	75.36	intragenic	SC_RS24555	alpha/beta fold hydrolase	core
+T1	4898691	-	TGGCCGGC	79.81	intragenic	SC_RS24555	alpha/beta fold hydrolase	core
+T1	4898785	-	CCGC	73.33	intragenic	SC_RS24555	alpha/beta fold hydrolase	core
+T1	4899060	-	TGGCCGGC	73.17	intragenic	SC_RS24555	alpha/beta fold hydrolase	core
+T1	4902301	-	TGGCCGGC	80.73	intragenic	SC_RS24570	LysR family transcriptional regulator	core
+T1	4905970	-	CCGG	56.05	intragenic	SC_RS24595	protein kinase domain-containing protein	core
+T1	4921519	+	TGGCCGGC	71.58	intragenic	SC_RS24675	acetyl-CoA C-acetyltransferase	core
+T1	4935151	-	TGGCCGGC	69.89	intragenic	SC_RS24715	hypothetical protein	core
+T1	4935662	+	TGGCCGGC	93.13	intragenic	SC_RS24715	hypothetical protein	core
+T1	4947817	+	TGGCCGGC	91.51	intragenic	SC_RS24785	CpaF family protein	core
+T1	4949632	+	TGGCCGGC	94.86	intragenic	SC_RS24795	type II secretion system F family protein	core
+T1	4951255	-	CCGC	79.86	intragenic	SC_RS24810	TadE/TadG family type IV pilus assembly protein	core
+T1	4955597	+	TGGCCGGC	80.21	intragenic	SC_RS24835	hypothetical protein	core
+T1	4958009	+	TGGCCGGC	74.05	intragenic	SC_RS24860	putative T7SS-secreted protein	core
+T1	4967484	+	TGGCCGGC	77.24	intragenic	SC_RS24900	prepilin peptidase	core
+T1	4982673	+	TGGCCGGC	88.41	intragenic	SC_RS24980	NADH-quinone oxidoreductase subunit D	core
+T1	4983938	+	TGGCCGGC	68.9	intragenic	SC_RS24985	NADH-quinone oxidoreductase subunit NuoE	core
+T1	4984886	-	CCGG	87.09	intragenic	SC_RS24990	NADH-quinone oxidoreductase subunit NuoF	core
+T1	4989251	+	TGGCCGGC	81.0	intragenic	SC_RS25000	NADH-quinone oxidoreductase subunit NuoH	core
+T1	4989492	+	TGGCCGGC	94.73	intragenic	SC_RS25005	NADH-quinone oxidoreductase subunit NuoI	core
+T1	4993793	+	TGGCCGGC	87.94	intragenic	SC_RS25025	NADH-quinone oxidoreductase subunit M	core
+T1	4994408	+	TGGCCGGC	81.47	intragenic	SC_RS25025	NADH-quinone oxidoreductase subunit M	core
+T1	4995850	+	TGGCCGGC	78.97	intragenic	SC_RS25030	NADH-quinone oxidoreductase subunit NuoN	core
+T1	4995920	-	CCGC	81.0	intragenic	SC_RS25030	NADH-quinone oxidoreductase subunit NuoN	core
+T1	5003996	-	TGGCCGGC	89.89	intragenic	SC_RS25065	transglycosylase SLT domain-containing protein	core
+T1	5006857	+	TGGCCGGC	87.85	intragenic	SC_RS25075	LolA family protein	core
+T1	5008242	+	TGGCCGGC	84.82	intragenic	SC_RS25080	ABC transporter ATP-binding protein	core
+T1	5009698	-	TGGCCGGC	89.95	intragenic	SC_RS25090	flavodoxin family protein	core
+T1	5012653	-	TGGCCGGC	85.97	intragenic	SC_RS25100	M28 family metallopeptidase	core
+T1	5015110	-	CCGC	72.09	intragenic	SC_RS25115	EamA family transporter RarD	core
+T1	5015413	-	TGGCCGGC	72.65	intragenic	SC_RS25120	SDR family oxidoreductase	core
+T1	5016405	-	TGGCCGGC	86.53	intragenic	SC_RS25125	2-oxoacid:ferredoxin oxidoreductase subunit beta	core
+T1	5025468	-	TGGCCGGC	76.09	intragenic	SC_RS25160	NADH-quinone oxidoreductase subunit C	core
+T1	5031426	+	TGGCCGGC	91.47	intragenic	SC_RS25190	NADH-quinone oxidoreductase subunit M	core
+T1	5038861	+	TGGCCGGC	81.51	intragenic	SC_RS25235	tyrosine-type recombinase/integrase	core
+T1	5053195	+	TGGCCGGC	83.93	intragenic	SC_RS25315	type IV restriction endonuclease McrA	core
+T1	5057397	+	TGGCCGGC	84.22	intragenic	SC_RS25320	FxSxx-COOH system tetratricopeptide repeat protein	core
+T1	5062205	+	TGGCCGGC	89.39	intragenic	SC_RS25355	MaoC family dehydratase N-terminal domain-containing protein	core
+T1	5062697	-	TGGCCGGC	97.92	intragenic	SC_RS25360	MaoC family dehydratase	core
+T1	5062781	+	TGGCCGGC	60.23	intergenic	SC_RS25360	MaoC family dehydratase	core
+T1	5066945	+	TGGCCGGC	71.37	intragenic	SC_RS25385	hypothetical protein	core
+T1	5067422	+	TGGCCGGC	77.18	intragenic	SC_RS25390	UDP-N-acetylmuramate dehydrogenase	core
+T1	5067963	-	CCGC	92.97	intragenic	SC_RS25390	UDP-N-acetylmuramate dehydrogenase	core
+T1	5070543	-	TGGCCGGC	94.33	intragenic	SC_RS25400	pyridoxal phosphate-dependent aminotransferase	core
+T1	5077215	+	TGGCCGGC	90.38	intragenic	SC_RS25445	50S ribosomal protein L7/L12	core
+T1	5080972	+	TGGCCGGC	91.33	intragenic	SC_RS25450	DNA-directed RNA polymerase subunit beta	core
+T1	5084441	-	TGGCCGGC	79.07	intragenic	SC_RS25455	DNA-directed RNA polymerase subunit beta'	core
+T1	5091538	+	TGGCCGGC	63.49	intragenic	SC_RS25485	elongation factor G	core
+T1	5092060	-	CCGG	87.6	intergenic	SC_RS25490	elongation factor Tu	core
+T1	5093296	-	TGGCCGGC	65.66	intragenic	SC_RS25490	elongation factor Tu	core
+T1	5097620	+	TGGCCGGC	50.13	intragenic	SC_RS25510	sensor histidine kinase	core
+T1	5097700	+	TGGCCGGC	95.45	intragenic	SC_RS25510	sensor histidine kinase	core
+T1	5141946	-	TGGCCGGC	96.85	intragenic	SC_RS25800	30S ribosomal protein S11	core
+T1	5142410	-	CCGG	88.45	intragenic	SC_RS25805	DNA-directed RNA polymerase subunit alpha	core
+T1	5143231	+	TGGCCGGC	76.65	intragenic	SC_RS25805	DNA-directed RNA polymerase subunit alpha	core
+T1	5144880	+	TGGCCGGC	89.27	intragenic	SC_RS25815	tRNA pseudouridine(38-40) synthase TruA	core
+T1	5150420	-	TGGCCGGC	60.46	intragenic	SC_RS25845	DUF389 domain-containing protein	core
+T1	5159175	-	TGGCCGGC	94.06	intragenic	SC_RS25885	alanine racemase	core
+T1	5159802	+	TGGCCGGC	88.86	intergenic	SC_RS25890	alpha/beta fold hydrolase	core
+T1	5167370	+	TGGCCGGC	90.17	intragenic	SC_RS25935	LCP family protein	core
+T1	5172062	-	TGGCCGGC	83.67	intragenic	SC_RS25960	polysaccharide deacetylase family protein	core
+T1	5176700	-	TGGCCGGC	94.71	intragenic	SC_RS25980	SDR family NAD(P)-dependent oxidoreductase	core
+T1	5177771	-	TGGCCGGC	85.53	intragenic	SC_RS25985	MOSC domain-containing protein	core
+T1	5188336	+	TGGCCGGC	84.94	intragenic	SC_RS26030	glycerol-3-phosphate dehydrogenase/oxidase	core
+T1	5188414	+	TGGCCGGC	79.6	intragenic	SC_RS26030	glycerol-3-phosphate dehydrogenase/oxidase	core
+T1	5198936	-	TGGCCGGC	93.39	intragenic	SC_RS26055	serine/threonine-protein kinase	core
+T1	5200407	-	TGGCCGGC	94.87	intragenic	SC_RS26060	succinic semialdehyde dehydrogenase	core
+T1	5203658	-	TGGCCGGC	54.44	intragenic	SC_RS26070	LAETG motif-containing sortase-dependent surface protein	core
+T1	5207175	-	TGGCCGGC	56.35	intragenic	SC_RS26090	pyridoxamine 5'-phosphate oxidase family protein	core
+T1	5208752	+	TGGCCGGC	86.2	intragenic	SC_RS26100	membrane protein	core
+T1	5209646	-	TGGCCGGC	76.77	intergenic	SC_RS26100	membrane protein	core
+T1	5210454	-	TGGCCGGC	90.08	intragenic	SC_RS26110	hypothetical protein	core
+T1	5213907	+	TGGCCGGC	86.15	intragenic	SC_RS26125	LuxR C-terminal-related transcriptional regulator	core
+T1	5218898	+	TGGCCGGC	81.87	intragenic	SC_RS26150	DNA helicase PcrA	core
+T1	5226781	+	TGGCCGGC	93.46	intragenic	SC_RS26170	DUF5691 domain-containing protein	core
+T1	5226895	-	TGGCCGGC	90.78	intragenic	SC_RS26175	hypothetical protein	core
+T1	5227701	-	TGGCCGGC	61.49	intragenic	SC_RS26175	hypothetical protein	core
+T1	5231639	-	CCGG	81.74	intragenic	SC_RS26185	DUF5682 family protein	core
+T1	5236922	-	CCGC	78.13	intragenic	SC_RS26205	succinate--CoA ligase subunit alpha	core
+T1	5237083	+	TGGCCGGC	90.7	intragenic	SC_RS26205	succinate--CoA ligase subunit alpha	core
+T1	5247253	+	TGGCCGGC	79.74	intragenic	SC_RS26250	protein kinase domain-containing protein	core
+T1	5249865	+	TGGCCGGC	72.93	intragenic	SC_RS26260	hypothetical protein	core
+T1	5249975	-	CCGC	52.67	intragenic	SC_RS26260	hypothetical protein	core
+T1	5252430	-	TGGCCGGC	63.57	intragenic	SC_RS26270	FHA domain-containing protein	core
+T1	5254189	-	TGGCCGGC	60.62	intragenic	SC_RS26280	bifunctional methylenetetrahydrofolate dehydrogenase/methenyltetrahydrofolate cyclohydrolase	core
+T1	5257558	-	TGGCCGGC	92.48	intragenic	SC_RS26295	malate dehydrogenase	core
+T1	5261558	+	TGGCCGGC	99.05	intragenic	SC_RS26305	GMC family oxidoreductase	core
+T1	5270694	+	TGGCCGGC	85.92	intragenic	SC_RS26345	glycine hydroxymethyltransferase	core
+T1	5270934	-	TGGCCGGC	93.7	intragenic	SC_RS26350	hypothetical protein	core
+T1	5281105	+	TGGCCGGC	93.64	intragenic	SC_RS26405	metallophosphoesterase	core
+T1	5290851	+	TGGCCGGC	81.07	intragenic	SC_RS26465	hypothetical protein	core
+T1	5299942	-	TGGCCGGC	62.92	intragenic	SC_RS26510	FAD-dependent oxidoreductase	core
+T1	5312472	+	TGGCCGGC	81.25	intragenic	SC_RS26560	N-acylneuraminate cytidylyltransferase	core
+T1	5317558	+	TGGCCGGC	92.86	intragenic	SC_RS26580	BMP family lipoprotein	core
+T1	5322431	+	TGGCCGGC	73.12	intragenic	SC_RS26595	ABC transporter permease	core
+T1	5324913	+	TGGCCGGC	83.41	intragenic	SC_RS26610	thymidine phosphorylase	core
+T1	5325701	-	TGGCCGGC	78.81	intragenic	SC_RS26615	hypothetical protein	core
+T1	5328687	-	TGGCCGGC	52.83	intragenic	SC_RS26635	sigma-70 family RNA polymerase sigma factor	core
+T1	5334083	-	TGGCCGGC	82.74	intragenic	SC_RS26660	alpha/beta fold hydrolase	core
+T1	5336925	-	TGGCCGGC	95.0	intragenic	SC_RS26680	VanZ family protein	core
+T1	5339009	-	TGGCCGGC	87.37	intragenic	SC_RS26690	two-component system sensor histidine kinase AfsQ2	core
+T1	5342430	+	TGGCCGGC	91.03	intragenic	SC_RS26710	hypothetical protein	core
+T1	5359887	-	TGGCCGGC	90.72	intragenic	SC_RS26790	acyl-CoA carboxylase subunit beta	core
+T1	5361112	+	TGGCCGGC	88.31	intragenic	SC_RS26795	biotin--[acetyl-CoA-carboxylase] ligase	core
+T1	5362914	-	CCGG	69.05	intergenic	SC_RS26805	hypothetical protein	core
+T1	5371477	+	TGGCCGGC	93.99	intragenic	SC_RS26840	ABC transporter permease	core
+T1	5375906	+	TGGCCGGC	62.48	intergenic	SC_RS26875	TetR family transcriptional regulator	core
+T1	5377738	+	TGGCCGGC	94.37	intragenic	SC_RS26880	aldo/keto reductase	core
+T1	5380211	-	TGGCCGGC	57.4	intragenic	SC_RS26895	SDR family oxidoreductase	core
+T1	5382593	-	TGGCCGGC	83.76	intragenic	SC_RS26900	nitrate reductase subunit alpha	core
+T1	5387333	-	TGGCCGGC	96.96	intragenic	SC_RS26915	respiratory nitrate reductase subunit gamma	core
+T1	5390120	-	TGGCCGGC	97.78	intragenic	SC_RS26935	DUF4291 domain-containing protein	core
+T1	5399559	-	CCGC	83.32	intragenic	SC_RS26985	ABC transporter permease	core
+T1	5408167	-	CCGC	81.06	intragenic	SC_RS27020	xanthine dehydrogenase molybdopterin binding subunit	core
+T1	5411479	+	TGGCCGGC	83.8	intragenic	SC_RS27030	nucleoside deaminase	core
+T1	5417244	-	CCGC	66.67	intragenic	SC_RS27055	phosphoenolpyruvate carboxykinase (GTP)	core
+T1	5418877	-	TGGCCGGC	89.03	intragenic	SC_RS27060	SMI1/KNR4 family protein	core
+T1	5421522	+	TGGCCGGC	91.87	intragenic	SC_RS27075	SCO4983 family protein	core
+T1	5421583	-	TGGCCGGC	84.06	intragenic	SC_RS27075	SCO4983 family protein	core
+T1	5426350	-	TGGCCGGC	84.29	intragenic	SC_RS27095	amino acid deaminase	core
+T1	5429022	-	TGGCCGGC	90.54	intragenic	SC_RS27110	RidA family protein	core
+T1	5430002	+	TGGCCGGC	83.59	intragenic	SC_RS27115	GntP family permease	core
+T1	5433940	+	TGGCCGGC	87.24	intragenic	SC_RS27130	hypothetical protein	core
+T1	5444994	+	TGGCCGGC	65.57	intragenic	SC_RS27195	AAA family ATPase	core
+T1	5448109	-	TGGCCGGC	71.67	intragenic	SC_RS27215	type II secretion system F family protein	core
+T1	5448469	+	TGGCCGGC	90.43	intragenic	SC_RS27220	DUF5936 domain-containing protein	core
+T1	5451748	-	TGGCCGGC	53.7	intragenic	SC_RS27245	hypothetical protein	core
+T1	5452717	-	TGGCCGGC	92.87	intragenic	SC_RS27250	AraC-like ligand-binding domain-containing protein	core
+T1	5458898	+	TGGCCGGC	90.22	intergenic	SC_RS27285	LLM class flavin-dependent oxidoreductase	core
+T1	5462054	-	CCGG	68.02	intergenic	SC_RS27300	winged helix DNA-binding domain-containing protein	core
+T1	5466073	-	TGGCCGGC	63.81	intragenic	SC_RS27315	AI-2E family transporter	core
+T1	5466826	+	TGGCCGGC	79.44	intragenic	SC_RS27315	AI-2E family transporter	core
+T1	5468607	-	CCGC	64.81	intragenic	SC_RS27330	LysR substrate-binding domain-containing protein	core
+T1	5471207	-	TGGCCGGC	71.94	intragenic	SC_RS27335	ABC transporter permease	core
+T1	5476668	+	TGGCCGGC	93.21	intragenic	SC_RS27360	transglycosylase domain-containing protein	core
+T1	5478036	+	TGGCCGGC	83.65	intragenic	SC_RS27365	ATP-binding SpoIIE family protein phosphatase	core
+T1	5487487	-	TGGCCGGC	50.58	intragenic	SC_RS27400	class II fructose-bisphosphatase	core
+T1	5488710	+	TGGCCGGC	69.84	intragenic	SC_RS27405	DUF4245 domain-containing protein	core
+T1	5491194	+	TGGCCGGC	64.02	intragenic	SC_RS27420	glycosyltransferase family 2 protein	core
+T1	5491377	+	TGGCCGGC	91.88	intragenic	SC_RS27420	glycosyltransferase family 2 protein	core
+T1	5492226	+	TGGCCGGC	82.69	intragenic	SC_RS27420	glycosyltransferase family 2 protein	core
+T1	5503134	+	TGGCCGGC	86.42	intragenic	SC_RS27480	DEAD/DEAH box helicase	core
+T1	5513141	+	TGGCCGGC	62.18	intragenic	SC_RS27510	M14 family zinc carboxypeptidase	core
+T1	5517555	-	CCGG	90.65	intragenic	SC_RS27535	NADP-dependent oxidoreductase	core
+T1	5521386	-	TGGCCGGC	52.08	intragenic	SC_RS27555	NmrA/HSCARG family protein	core
+T1	5523320	-	TGGCCGGC	57.92	intragenic	SC_RS27570	TetR family transcriptional regulator ActII	core
+T1	5523353	+	TGGCCGGC	90.66	intragenic	SC_RS27570	TetR family transcriptional regulator ActII	core
+T1	5531344	-	TGGCCGGC	91.08	intragenic	SC_RS27600	ketosynthase chain-length factor	core
+T1	5532802	+	TGGCCGGC	87.84	intragenic	SC_RS27610	aromatase/cyclase	core
+T1	5534200	+	TGGCCGGC	70.55	intragenic	SC_RS27615	MBL fold metallo-hydrolase	core
+T1	5535159	+	TGGCCGGC	74.3	intragenic	SC_RS27625	DinB family protein	core
+T1	5535359	-	TGGCCGGC	77.78	intragenic	SC_RS27625	DinB family protein	core
+T1	5537590	-	TGGCCGGC	81.8	intragenic	SC_RS27640	LysR family transcriptional regulator	core
+T1	5538698	-	CCGC	79.67	intragenic	SC_RS27645	oxidoreductase	core
+T1	5539967	+	TGGCCGGC	79.13	intragenic	SC_RS27655	DUF4190 domain-containing protein	core
+T1	5549317	-	TGGCCGGC	72.14	intragenic	SC_RS27695	fumarate reductase/succinate dehydrogenase flavoprotein subunit	core
+T1	5552178	+	TGGCCGGC	87.96	intragenic	SC_RS27710	ABC transporter family substrate-binding protein	core
+T1	5557809	+	TGGCCGGC	85.56	intragenic	SC_RS27720	ABC transporter permease	core
+T1	5561237	+	TGGCCGGC	86.12	intragenic	SC_RS27730	ABC transporter permease	core
+T1	5563993	-	TGGCCGGC	71.4	intragenic	SC_RS27745	peptide ABC transporter substrate-binding protein	core
+T1	5572075	-	TGGCCGGC	83.01	intragenic	SC_RS27780	DUF397 domain-containing protein	core
+T1	5576606	-	TGGCCGGC	91.68	intragenic	SC_RS27800	hypothetical protein	core
+T1	5584975	+	TGGCCGGC	64.65	intragenic	SC_RS27845	ATP-binding protein	core
+T1	5586248	-	TGGCCGGC	94.12	intragenic	SC_RS27850	hypothetical protein	core
+T1	5587981	-	CCGC	82.98	intragenic	SC_RS27860	LOG family protein	core
+T1	5596856	+	TGGCCGGC	83.3	intragenic	SC_RS27910	trypsin-like peptidase domain-containing protein	core
+T1	5598697	+	TGGCCGGC	85.11	intragenic	SC_RS27920	hypothetical protein	core
+T1	5604974	+	TGGCCGGC	95.26	intergenic	SC_RS27950	magnesium and cobalt transport protein CorA	core
+T1	5605492	-	TGGCCGGC	95.35	intragenic	SC_RS27955	suppressor of fused domain protein	core
+T1	5610114	-	CCGG	54.44	intergenic	SC_RS27980	hypothetical protein	core
+T1	5614471	+	TGGCCGGC	68.52	intragenic	SC_RS27995	DEAD/DEAH box helicase	core
+T1	5616968	-	TGGCCGGC	69.72	intragenic	SC_RS28010	DUF3107 domain-containing protein	core
+T1	5628198	-	TGGCCGGC	92.87	intragenic	SC_RS28060	alpha/beta hydrolase	core
+T1	5636817	+	TGGCCGGC	83.64	intragenic	SC_RS28080	ATP-dependent helicase	core
+T1	5643865	-	TGGCCGGC	87.25	intragenic	SC_RS28095	NAD(+) diphosphatase	core
+T1	5648877	+	TGGCCGGC	84.9	intragenic	SC_RS28125	ABC1 kinase family protein	core
+T1	5649592	-	CCGC	94.87	intragenic	SC_RS28125	ABC1 kinase family protein	core
+T1	5650747	-	TGGCCGGC	84.83	intragenic	SC_RS28130	TOMM precursor leader peptide-binding protein	core
+T1	5651165	-	CCGC	90.58	intragenic	SC_RS28130	TOMM precursor leader peptide-binding protein	core
+T1	5652733	-	CCGG	88.89	intragenic	SC_RS28140	TerD family protein	core
+T1	5655636	-	TGGCCGGC	91.8	intragenic	SC_RS28155	NUDIX hydrolase	core
+T1	5656844	-	TGGCCGGC	86.94	intragenic	SC_RS28160	zinc-dependent metalloprotease	core
+T1	5662284	-	TGGCCGGC	97.96	intragenic	SC_RS28190	UPF0182 family membrane protein	core
+T1	5677375	+	TGGCCGGC	82.22	intragenic	SC_RS28270	HD-GYP domain-containing protein	core
+T1	5681476	-	TGGCCGGC	93.87	intragenic	SC_RS28290	epi-isozizaene synthase	core
+T1	5689096	+	TGGCCGGC	91.51	intragenic	SC_RS28325	monocarboxylate uptake permease MctP	core
+T1	5708906	-	TGGCCGGC	97.56	intragenic	SC_RS28420	N-acetylmuramoyl-L-alanine amidase	core
+T1	5712337	-	TGGCCGGC	61.96	intergenic	SC_RS28430	family 2 encapsulin nanocompartment cargo protein polyprenyl transferase	core
+T1	5713734	+	TGGCCGGC	81.3	intragenic	SC_RS28440	dihydrofolate reductase family protein	core
+T1	5714528	-	TGGCCGGC	85.93	intragenic	SC_RS28450	superoxide dismutase%2C Ni	core
+T1	5716241	+	TGGCCGGC	90.53	intragenic	SC_RS28465	class I SAM-dependent methyltransferase	core
+T1	5721741	+	TGGCCGGC	74.17	intragenic	SC_RS28490	zinc-binding dehydrogenase	core
+T1	5724196	-	CCGC	82.27	intragenic	SC_RS28505	PadR family transcriptional regulator	core
+T1	5749297	-	TGGCCGGC	83.62	intragenic	SC_RS28585	FxSxx-COOH system tetratricopeptide repeat protein	core
+T1	5753280	+	TGGCCGGC	87.9	intragenic	SC_RS28590	multifunctional oxoglutarate decarboxylase/oxoglutarate dehydrogenase thiamine pyrophosphate-binding subunit/dihydrolipoyllysine-residue succinyltransferase subunit	core
+T1	5753338	-	CCGC	73.84	intragenic	SC_RS28590	multifunctional oxoglutarate decarboxylase/oxoglutarate dehydrogenase thiamine pyrophosphate-binding subunit/dihydrolipoyllysine-residue succinyltransferase subunit	core
+T1	5753476	-	CCGG	67.62	intragenic	SC_RS28590	multifunctional oxoglutarate decarboxylase/oxoglutarate dehydrogenase thiamine pyrophosphate-binding subunit/dihydrolipoyllysine-residue succinyltransferase subunit	core
+T1	5763350	+	TGGCCGGC	53.08	intragenic	SC_RS28630	sensor histidine kinase	core
+T1	5765561	-	TGGCCGGC	73.61	intragenic	SC_RS28635	roadblock/LC7 domain-containing protein	core
+T1	5766522	+	TGGCCGGC	80.56	intragenic	SC_RS28645	GTP-binding protein	core
+T1	5766822	-	TGGCCGGC	87.99	intragenic	SC_RS28650	styrene monooxygenase/indole monooxygenase family protein	core
+T1	5767136	+	TGGCCGGC	72.96	intragenic	SC_RS28650	styrene monooxygenase/indole monooxygenase family protein	core
+T1	5769260	-	CCGC	55.7	intergenic	SC_RS28660	hypothetical protein	core
+T1	5774135	+	TGGCCGGC	81.34	intragenic	SC_RS28685	penicillin-binding transpeptidase domain-containing protein	core
+T1	5786901	+	TGGCCGGC	55.05	intergenic	SC_RS28760	acyl carrier protein	core
+T1	5786902	-	TGGCCGGC	90.43	intergenic	SC_RS28760	acyl carrier protein	core
+T1	5791864	+	TGGCCGGC	76.82	intragenic	SC_RS28785	FAD-dependent oxidoreductase	core
+T1	5791942	+	TGGCCGGC	67.5	intragenic	SC_RS28785	FAD-dependent oxidoreductase	core
+T1	5792590	+	TGGCCGGC	83.76	intragenic	SC_RS28785	FAD-dependent oxidoreductase	core
+T1	5792801	-	CCGG	87.29	intragenic	SC_RS28785	FAD-dependent oxidoreductase	core
+T1	5797696	-	TGGCCGGC	93.59	intergenic	SC_RS28820	transposase	core
+T1	5810024	+	TGGCCGGC	85.21	intragenic	SC_RS28860	XRE family transcriptional regulator	core
+T1	5815814	-	TGGCCGGC	92.22	intragenic	SC_RS28910	replication initiator protein RepSA	core
+T1	5816303	-	TGGCCGGC	68.25	intragenic	SC_RS28910	replication initiator protein RepSA	core
+T1	5820597	+	TGGCCGGC	93.06	intragenic	SC_RS28940	ArgS-related anticodon-binding protein NrtL	core
+T1	5821296	+	TGGCCGGC	97.62	intragenic	SC_RS28945	diaminopimelate decarboxylase	core
+T1	5824926	-	CCGG	89.09	intragenic	SC_RS28960	homoserine kinase	core
+T1	5825528	-	TGGCCGGC	91.11	intragenic	SC_RS28960	homoserine kinase	core
+T1	5825567	-	TGGCCGGC	71.62	intragenic	SC_RS28960	homoserine kinase	core
+T1	5839044	+	TGGCCGGC	89.47	intragenic	SC_RS29025	F0F1 ATP synthase subunit B	core
+T1	5839628	+	TGGCCGGC	86.08	intragenic	SC_RS29030	F0F1 ATP synthase subunit delta	core
+T1	5842198	-	CCGC	65.38	intragenic	SC_RS29040	F0F1 ATP synthase subunit gamma	core
+T1	5843408	+	TGGCCGGC	61.14	intragenic	SC_RS29045	F0F1 ATP synthase subunit beta	core
+T1	5845058	+	TGGCCGGC	81.93	intragenic	SC_RS29055	DUF2550 domain-containing protein	core
+T1	5847516	-	TGGCCGGC	94.31	intragenic	SC_RS29065	response regulator	core
+T1	5856410	+	TGGCCGGC	73.57	intragenic	SC_RS29115	ATP-binding protein	core
+T1	5861111	-	TGGCCGGC	97.78	intragenic	SC_RS29140	ABC transporter permease subunit	core
+T1	5861503	+	TGGCCGGC	91.03	intragenic	SC_RS29145	ABC transporter ATP-binding protein	core
+T1	5892835	-	TGGCCGGC	90.58	intragenic	SC_RS29290	hypothetical protein	core
+T1	5902390	-	CCGC	82.5	intragenic	SC_RS29330	extracellular solute-binding protein	core
+T1	5910942	+	TGGCCGGC	97.38	intragenic	SC_RS29365	C4-dicarboxylate transporter DctA	core
+T1	5911122	+	TGGCCGGC	80.63	intragenic	SC_RS29365	C4-dicarboxylate transporter DctA	core
+T1	5916295	-	TGGCCGGC	90.44	intragenic	SC_RS29385	1%2C4-alpha-glucan branching enzyme	core
+T1	5916829	+	TGGCCGGC	72.33	intragenic	SC_RS29385	1%2C4-alpha-glucan branching enzyme	core
+T1	5917697	-	TGGCCGGC	69.72	intragenic	SC_RS29390	maltokinase N-terminal cap-like domain-containing protein	core
+T1	5921991	+	TGGCCGGC	70.5	intragenic	SC_RS29400	alpha-1%2C4-glucan--maltose-1-phosphate maltosyltransferase	core
+T1	5922861	+	TGGCCGGC	72.96	intragenic	SC_RS29405	glycosyltransferase family 1 protein	core
+T1	5923669	-	GGCCGG	80.58	intragenic	SC_RS29405	glycosyltransferase family 1 protein	core
+T1	5924583	+	TGGCCGGC	86.6	intragenic	SC_RS29405	glycosyltransferase family 1 protein	core
+T1	5929295	+	TGGCCGGC	93.86	intragenic	SC_RS29420	M4 family metallopeptidase	core
+T1	5929643	-	TGGCCGGC	80.0	intragenic	SC_RS29420	M4 family metallopeptidase	core
+T1	5929800	+	TGGCCGGC	72.6	intergenic	SC_RS29420	M4 family metallopeptidase	core
+T1	5931665	-	TGGCCGGC	70.25	intragenic	SC_RS29425	ABC transporter ATP-binding protein	core
+T1	5951205	+	TGGCCGGC	98.55	intragenic	SC_RS29510	NADPH-dependent F420 reductase	core
+T1	5956874	-	CCGG	69.93	intragenic	SC_RS29535	serine hydroxymethyltransferase	core
+T1	5959763	+	TGGCCGGC	94.95	intragenic	SC_RS29550	AAA family ATPase	core
+T1	5959764	-	TGGCCGGC	85.38	intragenic	SC_RS29550	AAA family ATPase	core
+T1	5962538	-	CCGC	79.37	intragenic	SC_RS29565	ABC transporter permease	core
+T1	5966319	-	TGGCCGGC	75.92	intragenic	SC_RS29580	ABC transporter ATP-binding protein	core
+T1	5971707	+	TGGCCGGC	94.11	intragenic	SC_RS29610	hypothetical protein	core
+T1	5978789	+	TGGCCGGC	82.46	intragenic	SC_RS29655	NAD-dependent DNA ligase LigA	core
+T1	5979875	+	TGGCCGGC	95.24	intragenic	SC_RS29655	NAD-dependent DNA ligase LigA	core
+T1	5985333	+	TGGCCGGC	59.31	intragenic	SC_RS29680	Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatA	core
+T1	5992959	-	TGGCCGGC	94.62	intragenic	SC_RS29715	helix-turn-helix transcriptional regulator	core
+T1	6006269	-	CCGC	82.27	intragenic	SC_RS29755	ketol-acid reductoisomerase	core
+T1	6008154	+	TGGCCGGC	57.47	intragenic	SC_RS29760	phosphoglycerate dehydrogenase	core
+T1	6009873	-	TGGCCGGC	59.58	intragenic	SC_RS29765	MFS transporter	core
+T1	6013010	-	TGGCCGGC	87.64	intragenic	SC_RS29780	proline dehydrogenase family protein	core
+T1	6015609	-	TGGCCGGC	91.86	intragenic	SC_RS29795	3-isopropylmalate dehydrogenase	core
+T1	6016113	-	TGGCCGGC	97.1	intragenic	SC_RS29795	3-isopropylmalate dehydrogenase	core
+T1	6017039	-	TGGCCGGC	80.28	intragenic	SC_RS29800	branched-chain amino acid aminotransferase	core
+T1	6022300	+	TGGCCGGC	90.95	intragenic	SC_RS29820	agmatine deiminase family protein	core
+T1	6024798	+	TGGCCGGC	63.89	intragenic	SC_RS29830	citramalate synthase	core
+T1	6030018	+	TGGCCGGC	96.26	intragenic	SC_RS29855	polysaccharide lyase 8 family protein	core
+T1	6037485	-	TGGCCGGC	85.8	intragenic	SC_RS29885	nitrate- and nitrite sensing domain-containing protein	core
+T1	6039604	-	TGGCCGGC	87.01	intragenic	SC_RS29890	GTP-binding protein	core
+T1	6040877	+	TGGCCGGC	89.84	intragenic	SC_RS29905	sensor histidine kinase	core
+T1	6044372	+	TGGCCGGC	73.21	intragenic	SC_RS29905	sensor histidine kinase	core
+T1	6046580	-	TGGCCGGC	57.41	intragenic	SC_RS29920	glutamate--tRNA ligase	core
+T1	6057036	+	TGGCCGGC	65.99	intragenic	SC_RS30005	lysophospholipid acyltransferase family protein	core
+T1	6061468	+	TGGCCGGC	85.9	intragenic	SC_RS30030	bifunctional hydroxymethylpyrimidine kinase/phosphomethylpyrimidine kinase	core
+T1	6072789	-	CCGC	56.35	intragenic	SC_RS30090	CAP domain-containing protein	core
+T1	6084967	+	TGGCCGGC	82.66	intragenic	SC_RS30130	transcriptional repressor NsdA	core
+T1	6085390	+	TGGCCGGC	86.46	intragenic	SC_RS30130	transcriptional repressor NsdA	core
+T1	6087244	+	TGGCCGGC	79.67	intragenic	SC_RS30135	ammonium transporter	core
+T1	6089200	+	TGGCCGGC	95.56	intragenic	SC_RS30145	[protein-PII] uridylyltransferase	core
+T1	6092142	+	TGGCCGGC	95.14	intragenic	SC_RS30155	ATP-dependent zinc metalloprotease FtsH	core
+T1	6092819	+	TGGCCGGC	87.03	intragenic	SC_RS30155	ATP-dependent zinc metalloprotease FtsH	core
+T1	6095147	-	TGGCCGGC	86.26	intragenic	SC_RS30165	class I SAM-dependent methyltransferase	core
+T1	6098966	+	TGGCCGGC	96.67	intragenic	SC_RS30190	tRNA (guanosine(37)-N1)-methyltransferase TrmD	core
+T1	6110415	-	CCGG	96.97	intergenic	SC_RS30270	hypothetical protein	core
+T1	6115208	-	CCGC	83.06	intragenic	SC_RS30290	helix-turn-helix transcriptional regulator	core
+T1	6117485	-	TGGCCGGC	72.19	intergenic	SC_RS30310	hypothetical protein	core
+T1	6128671	-	CCGC	61.7	intragenic	SC_RS30370	FxSxx-COOH system tetratricopeptide repeat protein	core
+T1	6130929	+	TGGCCGGC	86.83	intragenic	SC_RS30370	FxSxx-COOH system tetratricopeptide repeat protein	core
+T1	6139471	-	CCGC	81.46	intragenic	SC_RS30420	hypothetical protein	core
+T1	6151852	-	TGGCCGGC	95.24	intragenic	SC_RS30480	hypothetical protein	core
+T1	6152005	-	TGGCCGGC	88.05	intragenic	SC_RS30480	hypothetical protein	core
+T1	6157835	+	TGGCCGGC	87.3	intragenic	SC_RS30505	polyamine ABC transporter substrate-binding protein	core
+T1	6160410	-	TGGCCGGC	94.08	intragenic	SC_RS30515	serine hydrolase domain-containing protein	core
+T1	6164387	-	TGGCCGGC	88.94	intragenic	SC_RS30540	NADAR family protein	core
+T1	6177180	+	TGGCCGGC	94.29	intragenic	SC_RS30595	4-aminobutyrate--2-oxoglutarate transaminase	core
+T1	6185801	-	TGGCCGGC	95.48	intragenic	SC_RS30625	glycosyltransferase 87 family protein	core
+T1	6188172	+	TGGCCGGC	91.23	intragenic	SC_RS30635	response regulator	core
+T1	6205960	-	CCGC	62.92	intragenic	SC_RS30690	M50 family metallopeptidase	core
+T1	6206232	+	TGGCCGGC	71.32	intragenic	SC_RS30690	M50 family metallopeptidase	core
+T1	6206520	-	CCGG	90.0	intergenic	SC_RS30690	M50 family metallopeptidase	core
+T1	6208628	+	TGGCCGGC	99.02	intragenic	SC_RS30700	GNAT family N-acetyltransferase	core
+T1	6211240	+	TGGCCGGC	95.06	intragenic	SC_RS30710	proline--tRNA ligase	core
+T1	6213469	-	TGGCCGGC	59.8	intragenic	SC_RS30725	lipoprotein	core
+T1	6215503	-	TGGCCGGC	66.2	intragenic	SC_RS30735	transcription termination factor NusA	core
+T1	6219951	+	TGGCCGGC	97.78	intragenic	SC_RS30750	DUF503 domain-containing protein	core
+T1	6222485	+	TGGCCGGC	94.37	intragenic	SC_RS30765	trypsin-like peptidase domain-containing protein	core
+T1	6233232	-	CCGC	67.8	intergenic	SC_RS30795	ABC transporter substrate-binding protein	core
+T1	6242795	+	TGGCCGGC	90.96	intragenic	SC_RS30825	type VII secretion-associated serine protease mycosin	core
+T1	6244201	-	CCGC	60.22	intragenic	SC_RS30830	DUF397 domain-containing protein	core
+T1	6254672	-	TGGCCGGC	97.78	intragenic	SC_RS30880	type VII secretion protein EccC	core
+T1	6266448	+	TGGCCGGC	98.25	intragenic	SC_RS30925	FAD-dependent thymidylate synthase	core
+T1	6276452	+	TGGCCGGC	76.67	intragenic	SC_RS30965	SpoIIE family protein phosphatase	core
+T1	6280046	+	TGGCCGGC	68.3	intragenic	SC_RS30970	HAMP domain-containing protein	core
+T1	6281057	+	TGGCCGGC	85.17	intragenic	SC_RS30970	HAMP domain-containing protein	core
+T1	6281333	+	TGGCCGGC	79.34	intragenic	SC_RS30970	HAMP domain-containing protein	core
+T1	6296487	-	CCGG	82.54	intragenic	SC_RS31035	ATP-dependent helicase	core
+T1	6303651	+	TGGCCGGC	64.37	intragenic	SC_RS31055	hypothetical protein	core
+T1	6320323	-	TGGCCGGC	86.76	intragenic	SC_RS31150	cation:proton antiporter	core
+T1	6321511	+	TGGCCGGC	87.56	intragenic	SC_RS31160	HAMP domain-containing sensor histidine kinase	core
+T1	6321532	+	TGGCCGGC	57.45	intragenic	SC_RS31160	HAMP domain-containing sensor histidine kinase	core
+T1	6332159	+	TGGCCGGC	82.83	intragenic	SC_RS31210	RelA/SpoT family protein	core
+T1	6332516	+	TGGCCGGC	93.79	intragenic	SC_RS31210	RelA/SpoT family protein	core
+T1	6337171	-	CCGG	86.49	intragenic	SC_RS31225	trypsin-like serine peptidase	core
+T1	6337413	+	TGGCCGGC	90.84	intragenic	SC_RS31230	trypsin-like serine peptidase	core
+T1	6337526	-	CCGC	60.83	intragenic	SC_RS31230	trypsin-like serine peptidase	core
+T1	6337637	-	CCGG	85.43	intragenic	SC_RS31230	trypsin-like serine peptidase	core
+T1	6348547	-	CCGC	91.95	intragenic	SC_RS31265	vitamin B12-dependent ribonucleotide reductase	core
+T1	6349137	+	TGGCCGGC	78.31	intragenic	SC_RS31265	vitamin B12-dependent ribonucleotide reductase	core
+T1	6362850	-	TGGCCGGC	77.58	intragenic	SC_RS31320	DUF4192 domain-containing protein	core
+T1	6367295	-	TGGCCGGC	94.35	intergenic	SC_RS31335	sporulation transcriptional regulator WhiH	core
+T1	6368228	-	CCGC	97.22	intragenic	SC_RS31340	RNA polymerase sigma factor	core
+T1	6370537	-	CCGC	63.27	intragenic	SC_RS31350	DUF7455 domain-containing protein	core
+T1	6371811	+	TGGCCGGC	78.21	intragenic	SC_RS31355	DNA gyrase/topoisomerase IV subunit B	core
+T1	6373388	+	TGGCCGGC	64.42	intragenic	SC_RS31360	DUF1453 family protein	core
+T1	6379484	-	TGGCCGGC	74.08	intragenic	SC_RS31390	ATP-binding protein	core
+T1	6383475	+	TGGCCGGC	82.18	intragenic	SC_RS31405	citrate synthase/methylcitrate synthase	core
+T1	6384593	-	CCGG	95.15	intragenic	SC_RS31415	DUF6082 family protein	core
+T1	6387209	+	TGGCCGGC	80.74	intragenic	SC_RS31425	DNA gyrase/topoisomerase IV subunit A	core
+T1	6403938	-	CCGC	88.95	intragenic	SC_RS31485	D-tagatose-bisphosphate aldolase%2C class II%2C non-catalytic subunit	core
+T1	6405086	-	TGGCCGGC	92.1	intragenic	SC_RS31490	AgaS family sugar isomerase	core
+T1	6417733	+	TGGCCGGC	92.41	intragenic	SC_RS31545	inositol monophosphatase family protein	core
+T1	6420440	+	TGGCCGGC	85.66	intragenic	SC_RS31560	sensor histidine kinase	core
+T1	6420788	+	TGGCCGGC	84.41	intragenic	SC_RS31560	sensor histidine kinase	core
+T1	6420789	-	TGGCCGGC	77.0	intragenic	SC_RS31560	sensor histidine kinase	core
+T1	6422313	+	TGGCCGGC	66.93	intragenic	SC_RS31570	hypothetical protein	core
+T1	6423805	+	TGGCCGGC	92.44	intragenic	SC_RS31580	PaaI family thioesterase	core
+T1	6430389	+	TGGCCGGC	87.97	intragenic	SC_RS31615	DUF3159 domain-containing protein	core
+T1	6436752	+	TGGCCGGC	83.53	intragenic	SC_RS31640	L-prolyl-[peptidyl-carrier protein] dehydrogenase	core
+T1	6447373	+	TGGCCGGC	91.77	intragenic	SC_RS31695	aminotransferase class I/II-fold pyridoxal phosphate-dependent enzyme	core
+T1	6452232	+	TGGCCGGC	90.33	intragenic	SC_RS31705	type I polyketide synthase	core
+T1	6453273	+	TGGCCGGC	78.11	intragenic	SC_RS31705	type I polyketide synthase	core
+T1	6453925	-	TGGCCGGC	95.64	intragenic	SC_RS31705	type I polyketide synthase	core
+T1	6459845	-	TGGCCGGC	98.04	intragenic	SC_RS31725	PEP/pyruvate-binding domain-containing protein	core
+T1	6462222	-	TGGCCGGC	76.68	intergenic	SC_RS31725	PEP/pyruvate-binding domain-containing protein	core
+T1	6463596	+	TGGCCGGC	57.07	intragenic	SC_RS31735	DUF1295 domain-containing protein	core
+T1	6464441	+	TGGCCGGC	89.71	intragenic	SC_RS31740	lysophospholipid acyltransferase family protein	core
+T1	6464772	-	TGGCCGGC	73.31	intragenic	SC_RS31740	lysophospholipid acyltransferase family protein	core
+T1	6466912	+	TGGCCGGC	92.1	intragenic	SC_RS31745	APC family permease	core
+T1	6478516	+	TGGCCGGC	72.14	intragenic	SC_RS31800	collagenase	core
+T1	6480346	-	TGGCCGGC	94.51	intragenic	SC_RS31805	protease	core
+T1	6480961	-	TGGCCGGC	96.13	intragenic	SC_RS31805	protease	core
+T1	6481428	+	TGGCCGGC	96.77	intragenic	SC_RS31805	protease	core
+T1	6485562	+	TGGCCGGC	88.52	intergenic	SC_RS31825	MerR family transcriptional regulator	core
+T1	6490220	-	TGGCCGGC	79.58	intergenic	SC_RS31855	SDR family oxidoreductase	core
+T1	6492334	-	TGGCCGGC	68.25	intragenic	SC_RS31860	ABC transporter ATP-binding protein	core
+T1	6496815	-	TGGCCGGC	93.49	intragenic	SC_RS31880	GNAT family N-acetyltransferase	core
+T1	6514423	-	TGGCCGGC	75.1	intragenic	SC_RS31975	YoaK family protein	arm
+T1	6525145	+	TGGCCGGC	94.16	intragenic	SC_RS32015	glycosyl hydrolase family 18 protein	arm
+T1	6528253	-	TGGCCGGC	84.44	intragenic	SC_RS32030	MFS transporter	arm
+T1	6535330	+	TGGCCGGC	84.82	intragenic	SC_RS32070	DUF7144 family membrane protein	arm
+T1	6536289	-	TGGCCGGC	79.72	intragenic	SC_RS32075	FAD-binding and (Fe-S)-binding domain-containing protein	arm
+T1	6556715	-	TGGCCGGC	73.81	intragenic	SC_RS32145	bifunctional salicylyl-CoA 5-hydroxylase/oxidoreductase	arm
+T1	6561708	+	TGGCCGGC	84.87	intragenic	SC_RS32170	RidA family protein	arm
+T1	6561915	+	TGGCCGGC	90.3	intragenic	SC_RS32170	RidA family protein	arm
+T1	6566716	+	TGGCCGGC	91.0	intragenic	SC_RS32205	DsbA family protein	arm
+T1	6572150	-	TGGCCGGC	78.24	intragenic	SC_RS32225	transglycosylase SLT domain-containing protein	arm
+T1	6577646	+	TGGCCGGC	84.72	intragenic	SC_RS32240	aconitate hydratase AcnA	arm
+T1	6583723	+	TGGCCGGC	85.17	intragenic	SC_RS32260	GH92 family glycosyl hydrolase	arm
+T1	6597313	+	TGGCCGGC	83.97	intragenic	SC_RS32310	amino acid permease	arm
+T1	6600311	-	TGGCCGGC	72.64	intragenic	SC_RS32325	PLL family lectin	arm
+T1	6612105	+	TGGCCGGC	79.05	intragenic	SC_RS32360	PIG-L family deacetylase	arm
+T1	6616193	-	TGGCCGGC	91.07	intragenic	SC_RS32370	acetyl-CoA C-acyltransferase	arm
+T1	6625301	+	TGGCCGGC	86.06	intragenic	SC_RS32405	DUF6271 family protein	arm
+T1	6625522	+	TGGCCGGC	80.08	intragenic	SC_RS32410	type III PLP-dependent enzyme	arm
+T1	6630911	-	TGGCCGGC	98.81	intragenic	SC_RS32435	FAD-dependent oxidoreductase	arm
+T1	6631406	-	TGGCCGGC	94.32	intragenic	SC_RS32440	DUF4349 domain-containing protein	arm
+T1	6632138	-	TGGCCGGC	74.07	intragenic	SC_RS32440	DUF4349 domain-containing protein	arm
+T1	6635129	-	TGGCCGGC	96.02	intragenic	SC_RS32455	alpha/beta hydrolase	arm
+T1	6641886	+	TGGCCGGC	90.73	intragenic	SC_RS32490	polysaccharide deacetylase family protein	arm
+T1	6662904	-	TGGCCGGC	96.45	intragenic	SC_RS32590	substrate-binding domain-containing protein	arm
+T1	6668266	+	TGGCCGGC	82.77	intragenic	SC_RS32605	germacradienol/geosmin synthase Cyc2	arm
+T1	6671479	-	TGGCCGGC	82.83	intragenic	SC_RS32625	aminoglycoside phosphotransferase family protein	arm
+T1	6681685	-	TGGCCGGC	95.69	intragenic	SC_RS32655	SAV2148 family HEPN domain-containing protein	arm
+T1	6697443	+	TGGCCGGC	85.42	intragenic	SC_RS32725	sulfate adenylyltransferase subunit 1	arm
+T1	6702562	-	CCGC	70.98	intragenic	SC_RS32750	sulfite reductase SirA	arm
+T1	6709357	+	TGGCCGGC	58.78	intragenic	SC_RS32780	YihY/virulence factor BrkB family protein	arm
+T1	6711562	+	TGGCCGGC	60.2	intragenic	SC_RS32790	trypsin-like serine protease	arm
+T1	6721869	+	TGGCCGGC	86.79	intragenic	SC_RS32825	M81 family metallopeptidase	arm
+T1	6733949	-	TGGCCGGC	93.6	intragenic	SC_RS32910	hypothetical protein	arm
+T1	6733964	-	TGGCCGGC	98.72	intragenic	SC_RS32910	hypothetical protein	arm
+T1	6742756	-	TGGCCGGC	86.71	intragenic	SC_RS32955	hypothetical protein	arm
+T1	6744548	-	TGGCCGGC	89.41	intragenic	SC_RS32970	TetR-like C-terminal domain-containing protein	arm
+T1	6744587	-	TGGCCGGC	100.0	intragenic	SC_RS32970	TetR-like C-terminal domain-containing protein	arm
+T1	6745205	+	TGGCCGGC	82.66	intragenic	SC_RS32975	PHP domain-containing protein	arm
+T1	6746285	+	TGGCCGGC	86.73	intragenic	SC_RS32975	PHP domain-containing protein	arm
+T1	6753262	-	TGGCCGGC	76.52	intragenic	SC_RS33005	methylated-DNA--[protein]-cysteine S-methyltransferase	arm
+T1	6753712	-	TGGCCGGC	91.01	intragenic	SC_RS33010	DUF456 domain-containing protein	arm
+T1	6762214	+	TGGCCGGC	64.17	intragenic	SC_RS33045	GntR family transcriptional regulator	arm
+T1	6772065	+	TGGCCGGC	81.67	intragenic	SC_RS33095	PucR family transcriptional regulator	arm
+T1	6785565	+	TGGCCGGC	72.88	intragenic	SC_RS33150	carbamoyltransferase family protein	arm
+T1	6785946	+	TGGCCGGC	94.13	intragenic	SC_RS33150	carbamoyltransferase family protein	arm
+T1	6787550	+	TGGCCGGC	73.77	intragenic	SC_RS33155	glycosyltransferase	arm
+T1	6789327	+	TGGCCGGC	87.54	intragenic	SC_RS33165	glycosyltransferase family 9 protein	arm
+T1	6816125	+	TGGCCGGC	96.56	intragenic	SC_RS33255	glyoxylate carboligase	arm
+T1	6818985	-	TGGCCGGC	87.57	intragenic	SC_RS33270	catalase	arm
+T1	6832902	-	TGGCCGGC	74.94	intragenic	SC_RS33345	LamG domain-containing protein	arm
+T1	6832923	-	TGGCCGGC	97.92	intragenic	SC_RS33345	LamG domain-containing protein	arm
+T1	6840447	+	TGGCCGGC	82.24	intragenic	SC_RS33350	RHS repeat domain-containing protein	arm
+T1	6841170	-	TGGCCGGC	81.33	intragenic	SC_RS33350	RHS repeat domain-containing protein	arm
+T1	6873051	-	TGGCCGGC	76.5	intragenic	SC_RS33495	SDR family oxidoreductase	arm
+T1	6873495	+	TGGCCGGC	100.0	intragenic	SC_RS33500	MFS transporter	arm
+T1	6886810	-	TGGCCGGC	93.79	intragenic	SC_RS33560	DEAD/DEAH box helicase	arm
+T1	6899442	-	TGGCCGGC	93.8	intragenic	SC_RS33610	FAD-binding oxidoreductase	arm
+T1	6904461	+	TGGCCGGC	73.26	intragenic	SC_RS33615	thioester reductase domain-containing protein	arm
+T1	6907093	-	CCGG	85.77	intragenic	SC_RS33615	thioester reductase domain-containing protein	arm
+T1	6910043	-	TGGCCGGC	93.64	intragenic	SC_RS33620	SDR family NAD(P)-dependent oxidoreductase	arm
+T1	6913459	+	TGGCCGGC	90.91	intragenic	SC_RS33620	SDR family NAD(P)-dependent oxidoreductase	arm
+T1	6919169	+	TGGCCGGC	92.46	intragenic	SC_RS33625	type I polyketide synthase	arm
+T1	6927603	+	TGGCCGGC	96.3	intragenic	SC_RS33625	type I polyketide synthase	arm
+T1	6930690	-	TGGCCGGC	90.87	intragenic	SC_RS33625	type I polyketide synthase	arm
+T1	6940097	+	TGGCCGGC	90.64	intragenic	SC_RS33655	FAD-binding oxidoreductase	arm
+T1	6957138	-	TGGCCGGC	92.27	intragenic	SC_RS33735	3-hydroxyacyl-CoA dehydrogenase NAD-binding domain-containing protein	arm
+T1	6968874	-	TGGCCGGC	81.03	intragenic	SC_RS33790	LysR family transcriptional regulator	arm
+T1	6990122	-	TGGCCGGC	81.76	intragenic	SC_RS33880	DUF2252 domain-containing protein	arm
+T1	7004904	+	TGGCCGGC	69.59	intergenic	SC_RS33950	glycoside hydrolase family 35 protein	arm
+T1	7011225	+	TGGCCGGC	86.82	intragenic	SC_RS33960	LacI family DNA-binding transcriptional regulator	arm
+T1	7014680	-	TGGCCGGC	96.97	intergenic	SC_RS33980	sensor histidine kinase	arm
+T1	7024849	-	TGGCCGGC	90.2	intragenic	SC_RS34035	response regulator transcription factor	arm
+T1	7031065	-	CCGG	75.84	intragenic	SC_RS34060	HAMP domain-containing sensor histidine kinase	arm
+T1	7035262	-	TGGCCGGC	67.21	intragenic	SC_RS34075	DUF6056 family protein	arm
+T1	7036618	-	TGGCCGGC	84.02	intragenic	SC_RS34080	glycosyltransferase	arm
+T1	7039489	-	CCGC	68.25	intragenic	SC_RS34090	hypothetical protein	arm
+T1	7039604	-	TGGCCGGC	66.91	intragenic	SC_RS34090	hypothetical protein	arm
+T1	7043492	+	TGGCCGGC	94.44	intergenic	SC_RS34115	Ca2+-dependent phosphoinositide-specific phospholipase C	arm
+T1	7048730	-	TGGCCGGC	86.34	intragenic	SC_RS34135	hypothetical protein	arm
+T1	7050203	-	CCGG	77.27	intragenic	SC_RS34140	phosphatidylglycerol lysyltransferase domain-containing protein	arm
+T1	7061219	+	TGGCCGGC	92.56	intragenic	SC_RS34180	IS21 family transposase	arm
+T1	7061637	+	TGGCCGGC	56.61	intragenic	SC_RS34180	IS21 family transposase	arm
+T1	7064924	-	TGGCCGGC	87.84	intragenic	SC_RS34200	transposase	arm
+T1	7066430	+	TGGCCGGC	100.0	intragenic	SC_RS34210	IS110-like element IS117 family transposase	arm
+T1	7085551	+	TGGCCGGC	94.44	intragenic	SC_RS34280	NCS1 family nucleobase:cation symporter-1	arm
+T1	7102150	-	TGGCCGGC	95.83	intragenic	SC_RS34335	glycoside hydrolase domain-containing protein	arm
+T1	7102889	-	CCGG	88.25	intragenic	SC_RS34335	glycoside hydrolase domain-containing protein	arm
+T1	7109297	+	TGGCCGGC	97.92	intragenic	SC_RS34350	non-ribosomal peptide synthetase	arm
+T1	7117204	+	TGGCCGGC	94.25	intragenic	SC_RS34365	lysine N(6)-hydroxylase/L-ornithine N(5)-oxygenase family protein	arm
+T1	7117826	-	TGGCCGGC	100.0	intragenic	SC_RS34365	lysine N(6)-hydroxylase/L-ornithine N(5)-oxygenase family protein	arm
+T1	7121969	+	TGGCCGGC	80.9	intragenic	SC_RS34385	diaminopimelate decarboxylase	arm
+T1	7140660	-	TGGCCGGC	77.13	intragenic	SC_RS34475	RICIN domain-containing protein	arm
+T1	7145133	-	CCGC	51.67	intragenic	SC_RS34480	glycoside hydrolase family 2 TIM barrel-domain containing protein	arm
+T1	7149016	-	TGGCCGGC	75.35	intragenic	SC_RS34495	heavy metal translocating P-type ATPase	arm
+T1	7160271	-	GGCCGG	92.59	intragenic	SC_RS34555	protein meaA	arm
+T1	7165083	-	CCGG	77.72	intragenic	SC_RS34570	3-hydroxyacyl-CoA dehydrogenase family protein	arm
+T1	7174480	+	TGGCCGGC	100.0	intragenic	SC_RS34610	MFS transporter	arm
+T1	7174582	+	TGGCCGGC	97.44	intragenic	SC_RS34610	MFS transporter	arm
+T1	7174792	+	TGGCCGGC	100.0	intragenic	SC_RS34610	MFS transporter	arm
+T1	7176637	+	TGGCCGGC	90.84	intragenic	SC_RS34615	ATP-binding SpoIIE family protein phosphatase	arm
+T1	7195860	+	TGGCCGGC	85.16	intragenic	SC_RS34710	hypothetical protein	arm
+T1	7198374	-	TGGCCGGC	95.47	intragenic	SC_RS34725	GvpL/GvpF family gas vesicle protein	arm
+T1	7200859	-	TGGCCGGC	80.36	intragenic	SC_RS34750	bifunctional phosphatase PAP2/diacylglycerol kinase family protein	arm
+T1	7204493	-	TGGCCGGC	98.15	intragenic	SC_RS34760	baeRF2 domain-containing protein	arm
+T1	7210462	-	TGGCCGGC	96.25	intragenic	SC_RS34795	RNA polymerase sigma factor SigF	arm
+T1	7211994	-	TGGCCGGC	94.1	intergenic	SC_RS34800	hypothetical protein	arm
+T1	7234307	+	TGGCCGGC	96.3	intragenic	SC_RS34900	class I SAM-dependent methyltransferase	arm
+T1	7236450	+	TGGCCGGC	76.72	intragenic	SC_RS34905	rhamnogalacturonan lyase	arm
+T1	7238591	-	TGGCCGGC	87.95	intragenic	SC_RS34920	xyloglucanase	arm
+T1	7242404	+	TGGCCGGC	95.83	intragenic	SC_RS34925	glycoside hydrolase family 48 protein	arm
+T1	7248425	+	TGGCCGGC	96.25	intragenic	SC_RS34945	aldo/keto reductase	arm
+T1	7257899	-	TGGCCGGC	66.71	intragenic	SC_RS34980	formate dehydrogenase accessory sulfurtransferase FdhD	arm
+T1	7266341	+	TGGCCGGC	83.65	intragenic	SC_RS35015	beta-ketoacyl-ACP synthase III	arm
+T1	7270262	+	TGGCCGGC	94.44	intragenic	SC_RS35030	sugar ABC transporter ATP-binding protein	arm
+T1	7271782	+	TGGCCGGC	83.64	intragenic	SC_RS35035	ABC transporter permease	arm
+T1	7272696	+	TGGCCGGC	85.93	intragenic	SC_RS35040	substrate-binding domain-containing protein	arm
+T1	7286093	+	TGGCCGGC	57.64	intragenic	SC_RS35090	nucleotide pyrophosphatase/phosphodiesterase family protein	arm
+T1	7289324	-	TGGCCGGC	84.73	intragenic	SC_RS35100	OFA family MFS transporter	arm
+T1	7294982	-	CCGG	96.65	intragenic	SC_RS35115	thiamine pyrophosphate-binding protein	arm
+T1	7308229	-	TGGCCGGC	95.24	intragenic	SC_RS35165	hypothetical protein	arm
+T1	7323537	+	TGGCCGGC	67.04	intragenic	SC_RS35210	carbohydrate ABC transporter permease	arm
+T1	7330927	-	TGGCCGGC	96.63	intragenic	SC_RS35245	alpha/beta hydrolase	arm
+T1	7335039	-	CCGC	53.59	intergenic	SC_RS35270	hypothetical protein	arm
+T1	7344722	-	CCGC	80.8	intragenic	SC_RS35310	DUF2075 domain-containing protein	arm
+T1	7348859	+	TGGCCGGC	66.67	intragenic	SC_RS35330	BREX system serine/threonine kinase PglW	arm
+T1	7356385	-	TGGCCGGC	91.85	intragenic	SC_RS35335	BREX-2 system adenine-specific DNA-methyltransferase PglX	arm
+T1	7359957	+	TGGCCGGC	78.52	intergenic	SC_RS35360	PWWP domain-containing protein	arm
+T1	7365285	-	TGGCCGGC	90.47	intragenic	SC_RS35370	BREX-2 system ATPase PglY	arm
+T1	7394962	+	TGGCCGGC	67.87	intragenic	SC_RS35475	phosphogluconate dehydrogenase (NAD(+)-dependent%2C decarboxylating)	arm
+T1	7396296	-	TGGCCGGC	97.92	intragenic	SC_RS35480	glucose-6-phosphate isomerase	arm
+T1	7397692	-	CCGC	77.32	intragenic	SC_RS35490	glucose-6-phosphate dehydrogenase	arm
+T1	7399919	-	TGGCCGGC	88.38	intragenic	SC_RS35495	transaldolase	arm
+T1	7405665	+	TGGCCGGC	64.46	intragenic	SC_RS35515	MMPL family transporter	arm
+T1	7413539	+	TGGCCGGC	90.3	intragenic	SC_RS35545	metallophosphoesterase family protein	arm
+T1	7420172	+	TGGCCGGC	88.38	intragenic	SC_RS35590	class III lanthionine synthetase LanKC	arm
+T1	7425874	+	TGGCCGGC	80.48	intragenic	SC_RS35605	ATP-binding cassette domain-containing protein	arm
+T1	7430881	-	TGGCCGGC	84.09	intragenic	SC_RS35620	DNA-binding protein	arm
+T1	7432977	+	TGGCCGGC	93.94	intragenic	SC_RS35620	DNA-binding protein	arm
+T1	7437589	+	TGGCCGGC	91.85	intragenic	SC_RS35630	SWIM zinc finger family protein	arm
+T1	7441094	-	TGGCCGGC	100.0	intragenic	SC_RS35640	phosphocholine-specific phospholipase C	arm
+T1	7454133	-	TGGCCGGC	86.67	intragenic	SC_RS35690	thiolase family protein	arm
+T1	7463794	-	TGGCCGGC	76.67	intragenic	SC_RS35735	OmpL47-type beta-barrel domain-containing protein	arm
+T1	7484367	+	TGGCCGGC	86.3	intragenic	SC_RS35845	acetyl-CoA C-acetyltransferase	arm
+T1	7489948	+	TGGCCGGC	95.56	intragenic	SC_RS35860	amino acid permease	arm
+T1	7497753	-	TGGCCGGC	97.78	intragenic	SC_RS35895	ABC-F family ATP-binding cassette domain-containing protein	arm
+T1	7516793	-	CCGC	74.72	intragenic	SC_RS35980	squalene synthase HpnC	arm
+T1	7521098	+	TGGCCGGC	79.31	intragenic	SC_RS36005	squalene--hopene cyclase	arm
+T1	7537617	+	TGGCCGGC	97.62	intragenic	SC_RS36080	oxygenase MpaB family protein	arm
+T1	7550224	-	CCGG	77.44	intragenic	SC_RS36130	AMP-dependent synthetase/ligase	arm
+T1	7559931	+	TGGCCGGC	82.5	intragenic	SC_RS36175	L-threonine 3-dehydrogenase	arm
+T1	7565023	+	TGGCCGGC	81.51	intragenic	SC_RS36205	MFS transporter	arm
+T1	7566272	+	TGGCCGGC	78.41	intragenic	SC_RS36215	tyrosine-type recombinase/integrase	arm
+T1	7573069	-	TGGCCGGC	94.34	intragenic	SC_RS36245	FAD-dependent oxidoreductase	arm
+T1	7576488	-	TGGCCGGC	67.5	intragenic	SC_RS36265	phosphate ABC transporter permease subunit PstC	arm
+T1	7585226	-	TGGCCGGC	91.63	intragenic	SC_RS36295	CTP synthase	arm
+T1	7586358	-	TGGCCGGC	76.08	intergenic	SC_RS36300	MFS transporter	arm
+T1	7586424	-	TGGCCGGC	96.97	intragenic	SC_RS36300	MFS transporter	arm
+T1	7586609	+	TGGCCGGC	79.96	intragenic	SC_RS36300	MFS transporter	arm
+T1	7593848	+	TGGCCGGC	94.41	intragenic	SC_RS36325	type I polyketide synthase	arm
+T1	7608702	-	TGGCCGGC	100.0	intragenic	SC_RS36380	ArsO family NAD(P)H-dependent flavin-containing monooxygenase	arm
+T1	7614261	-	CCGG	71.82	intragenic	SC_RS36395	DUF5655 domain-containing protein	arm
+T1	7622522	-	TGGCCGGC	76.11	intragenic	SC_RS36440	type IV secretory system conjugative DNA transfer family protein	arm
+T1	7623826	-	TGGCCGGC	70.0	intragenic	SC_RS36445	SPDY domain-containing protein	arm
+T1	7627883	+	TGGCCGGC	93.27	intragenic	SC_RS36475	hypothetical protein	arm
+T1	7632928	-	CCGC	94.63	intragenic	SC_RS36505	effector-associated constant component EACC1	arm
+T1	7634732	+	TGGCCGGC	80.78	intragenic	SC_RS36515	vWA domain-containing protein	arm
+T1	7645243	+	TGGCCGGC	92.49	intragenic	SC_RS36580	hypothetical protein	arm
+T1	7647609	+	TGGCCGGC	100.0	intragenic	SC_RS36590	VirB4 family type IV secretion system protein	arm
+T1	7656770	-	TGGCCGGC	95.56	intragenic	SC_RS36640	hypothetical protein	arm
+T1	7664369	+	TGGCCGGC	87.96	intragenic	SC_RS36695	MFS transporter	arm
+T1	7671741	+	TGGCCGGC	96.3	intragenic	SC_RS36735	ATP-dependent DNA ligase	arm
+T1	7688006	-	TGGCCGGC	95.0	intragenic	SC_RS36820	helix-turn-helix domain-containing protein	arm
+T1	7757446	-	TGGCCGGC	83.63	intergenic	SC_RS37170	bile acid:sodium symporter family protein	arm
+T1	7757969	-	TGGCCGGC	91.25	intragenic	SC_RS37170	bile acid:sodium symporter family protein	arm
+T1	7770756	-	TGGCCGGC	84.03	intragenic	SC_RS37220	N-formylglutamate amidohydrolase	arm
+T1	7773144	-	TGGCCGGC	100.0	intragenic	SC_RS37225	NADP-dependent isocitrate dehydrogenase	arm
+T1	7777132	+	TGGCCGGC	90.49	intragenic	SC_RS37240	hypothetical protein	arm
+T1	7790557	-	TGGCCGGC	98.15	intragenic	SC_RS37290	extracellular solute-binding protein	arm
+T1	7816264	+	TGGCCGGC	74.53	intragenic	SC_RS37375	carbohydrate ABC transporter permease	arm
+T1	7865009	+	TGGCCGGC	92.59	intragenic	SC_RS37615	HAMP domain-containing sensor histidine kinase	arm
+T1	7874137	-	TGGCCGGC	93.61	intragenic	SC_RS37665	aldo/keto reductase	arm
+T1	7874630	-	TGGCCGGC	92.06	intragenic	SC_RS37665	aldo/keto reductase	arm
+T1	7880437	-	TGGCCGGC	85.4	intragenic	SC_RS37685	ribosome-inactivating protein	arm
+T1	7881439	-	CCGG	85.0	intergenic	SC_RS37685	ribosome-inactivating protein	arm
+T1	7910904	+	TGGCCGGC	92.92	intragenic	SC_RS37825	cytochrome bc1 complex cytochrome b subunit	arm
+T1	7931714	-	TGGCCGGC	90.58	intragenic	SC_RS37910	ATP-binding protein	arm
+T1	7935499	-	TGGCCGGC	89.35	intragenic	SC_RS37930	malonic semialdehyde reductase	arm
+T1	7943503	-	CCGG	90.0	intragenic	SC_RS37970	fumarylacetoacetate hydrolase family protein	arm
+T1	7961396	-	CCGC	56.46	intragenic	SC_RS38045	hypothetical protein	arm
+T1	7966815	-	TGGCCGGC	98.61	intragenic	SC_RS38070	carbohydrate-binding protein	arm
+T1	7970794	-	TGGCCGGC	81.11	intragenic	SC_RS38085	ATP-binding protein	arm
+T1	7980591	-	TGGCCGGC	93.12	intragenic	SC_RS38110	N-acetylmuramoyl-L-alanine amidase	arm
+T1	7982612	+	TGGCCGGC	95.83	intragenic	SC_RS38125	ABC transporter ATP-binding protein	arm
+T1	8005438	+	TGGCCGGC	100.0	intragenic	SC_RS38225	hypothetical protein	arm
+T1	8059748	+	TGGCCGGC	71.72	intragenic	SC_RS38465	N-acetylmuramoyl-L-alanine amidase	arm
+T1	8123892	-	TGGCCGGC	72.01	intragenic	SC_RS38805	FUSC family protein	arm
+T1	8125563	-	CCGC	83.97	intragenic	SC_RS38810	NAD(P)/FAD-dependent oxidoreductase	arm
+T1	8127343	-	CCGG	85.0	intragenic	SC_RS38815	PP2C family protein-serine/threonine phosphatase	arm
+T1	8135264	-	TGGCCGGC	93.64	intragenic	SC_RS38850	HAMP domain-containing protein	arm
+T1	8171175	-	TGGCCGGC	88.33	intragenic	SC_RS38995	metallophosphoesterase family protein	arm
+T1	8191210	-	TGGCCGGC	90.77	intragenic	SC_RS39095	nucleotidyltransferase family protein	arm
+T1	8203590	-	TGGCCGGC	94.1	intragenic	SC_RS39150	lycopene cyclase family protein	arm
+T1	8229706	-	TGGCCGGC	88.89	intragenic	SC_RS39270	SDR family oxidoreductase	arm
+T1	8284214	+	TGGCCGGC	78.24	intergenic	SC_RS39555	hydroxyphenylacetyl-CoA thioesterase PaaI	arm
+T1	8365342	-	TGGCCGGC	90.28	intragenic	SC_RS39910	family 43 glycosylhydrolase	arm
+T1	8387143	-	TGGCCGGC	80.6	intragenic	SC_RS40015	ABC transporter substrate-binding protein	arm
+T1	8427620	+	TGGCCGGC	78.21	intragenic	SC_RS40200	amidase	arm
+T1	8434867	-	TGGCCGGC	94.44	intragenic	SC_RS40230	serine hydrolase domain-containing protein	arm
+T1	8484451	-	TGGCCGGC	93.94	intragenic	SC_RS40480	lysyl oxidase family protein	arm
+T1	8492391	+	TGGCCGGC	90.41	intragenic	SC_RS40525	HD domain-containing protein	arm
+T1	8503014	+	TGGCCGGC	76.4	intragenic	SC_RS40590	ABC transporter ATP-binding protein	arm
+T1	8512369	-	TGGCCGGC	100.0	intragenic	SC_RS40600	non-ribosomal peptide synthetase	arm
+T1	8564813	-	TGGCCGGC	100.0	intragenic	SC_RS40835	GNAT family N-acetyltransferase	arm
+T1	8571409	-	CCGC	70.98	intragenic	SC_RS40865	FUSC family protein	arm
+T1	8645065	+	TGGCCGGC	100.0	intragenic	SC_RS41275	CYTH domain-containing protein	arm
+T1	8659069	+	TGGCCGGC	59.91	intragenic	SC_RS41345	Mu transposase C-terminal domain-containing protein	arm
+T2	6872	+	TGGCCGGC	90.79	intragenic	SC_RS02085	TnsA-like heteromeric transposase endonuclease subunit	arm
+T2	7324	-	CCGG	80.0	intragenic	SC_RS02090	Mu transposase C-terminal domain-containing protein	arm
+T2	8437	-	TGGCCGGC	67.1	intragenic	SC_RS02090	Mu transposase C-terminal domain-containing protein	arm
+T2	15442	-	TGGCCGGC	87.79	intragenic	SC_RS02130	hypothetical protein	arm
+T2	15890	+	TGGCCGGC	87.85	intragenic	SC_RS00090	tyrosine-type recombinase/integrase	arm
+T2	22976	+	TGGCCGGC	93.77	intragenic	SC_RS02175	ATP-binding protein	arm
+T2	28089	+	TGGCCGGC	62.0	intragenic	SC_RS02200	exo-alpha-sialidase	arm
+T2	28196	+	TGGCCGGC	80.77	intragenic	SC_RS02200	exo-alpha-sialidase	arm
+T2	31828	-	CCGG	78.54	intragenic	SC_RS02225	patatin-like phospholipase family protein	arm
+T2	33484	+	TGGCCGGC	89.15	intragenic	SC_RS02235	hypothetical protein	arm
+T2	35451	+	TGGCCGGC	72.7	intragenic	SC_RS02245	SDR family oxidoreductase	arm
+T2	40677	+	TGGCCGGC	91.98	intragenic	SC_RS02280	IS5 family transposase	arm
+T2	49273	+	TGGCCGGC	79.32	intragenic	SC_RS02330	ROK family protein	arm
+T2	51465	-	TGGCCGGC	69.74	intragenic	SC_RS02335	class I mannose-6-phosphate isomerase	arm
+T2	69018	-	TGGCCGGC	85.38	intragenic	SC_RS02415	IS5 family transposase	arm
+T2	72667	+	TGGCCGGC	95.0	intragenic	SC_RS02440	ADP-ribosylglycohydrolase family protein	arm
+T2	75626	+	TGGCCGGC	78.56	intragenic	SC_RS02450	serine hydrolase	arm
+T2	79564	-	TGGCCGGC	75.19	intragenic	SC_RS02475	IS481 family transposase	arm
+T2	82883	-	CCGG	58.78	intragenic	SC_RS02490	IS5 family transposase	arm
+T2	83403	+	TGGCCGGC	70.4	intragenic	SC_RS02490	IS5 family transposase	arm
+T2	96097	-	CCGG	53.03	intragenic	SC_RS02560	glycoside hydrolase family 43 protein	arm
+T2	99875	-	CCGG	85.58	intragenic	SC_RS02575	ABC transporter ATP-binding protein	arm
+T2	104202	+	TGGCCGGC	57.06	intragenic	SC_RS02590	SDR family oxidoreductase	arm
+T2	106962	-	TGGCCGGC	93.46	intragenic	SC_RS02600	type I polyketide synthase	arm
+T2	108751	-	TGGCCGGC	70.14	intragenic	SC_RS02600	type I polyketide synthase	arm
+T2	108921	+	TGGCCGGC	89.45	intragenic	SC_RS02600	type I polyketide synthase	arm
+T2	108947	+	TGGCCGGC	91.85	intragenic	SC_RS02600	type I polyketide synthase	arm
+T2	108948	-	TGGCCGGC	80.71	intragenic	SC_RS02600	type I polyketide synthase	arm
+T2	120744	-	CCGG	70.07	intragenic	SC_RS02615	MBL fold metallo-hydrolase	arm
+T2	127246	-	CCGG	54.19	intragenic	SC_RS00710	helicase associated domain-containing protein	arm
+T2	128592	-	TGGCCGGC	90.4	intergenic	SC_RS02640	PTS ascorbate transporter subunit IIC	arm
+T2	128807	-	TGGCCGGC	75.4	intragenic	SC_RS02640	PTS ascorbate transporter subunit IIC	arm
+T2	139785	+	TGGCCGGC	56.47	intragenic	SC_RS02710	FAD-dependent monooxygenase	arm
+T2	151355	-	TGGCCGGC	79.02	intragenic	SC_RS02755	Acg family FMN-binding oxidoreductase	arm
+T2	173002	-	CCGC	82.5	intragenic	SC_RS02870	cryptochrome/photolyase family protein	arm
+T2	173563	+	TGGCCGGC	83.71	intragenic	SC_RS02870	cryptochrome/photolyase family protein	arm
+T2	208456	-	CCGG	66.48	intragenic	SC_RS03025	nitrate reductase subunit alpha	arm
+T2	210962	-	TGGCCGGC	76.32	intragenic	SC_RS03030	nitrate reductase subunit beta	arm
+T2	212900	+	TGGCCGGC	81.66	intragenic	SC_RS03040	respiratory nitrate reductase subunit gamma	arm
+T2	227095	-	TGGCCGGC	61.94	intragenic	SC_RS03125	protein kinase family protein	arm
+T2	231677	+	TGGCCGGC	83.76	intragenic	SC_RS01200	flavin reductase family protein	arm
+T2	234634	-	CCGC	55.41	intragenic	SC_RS03155	hemolysin family protein	arm
+T2	234720	-	TGGCCGGC	77.58	intragenic	SC_RS03155	hemolysin family protein	arm
+T2	240262	-	CCGC	83.41	intragenic	SC_RS03175	TetR/AcrR family transcriptional regulator	arm
+T2	262658	+	TGGCCGGC	79.49	intragenic	SC_RS03280	carbohydrate ABC transporter permease	arm
+T2	273922	+	TGGCCGGC	72.28	intragenic	SC_RS01435	RHS repeat domain-containing protein	arm
+T2	277593	+	TGGCCGGC	100.0	intragenic	SC_RS03345	Na+/H+ antiporter NhaA	arm
+T2	286084	+	TGGCCGGC	93.61	intragenic	SC_RS03385	beta-xylosidase/alpha-l-arabinosidase	arm
+T2	287572	-	TGGCCGGC	80.67	intragenic	SC_RS03385	beta-xylosidase/alpha-l-arabinosidase	arm
+T2	289130	-	TGGCCGGC	77.38	intragenic	SC_RS03395	MFS transporter	arm
+T2	294436	+	TGGCCGGC	58.79	intragenic	SC_RS03415	aldo/keto reductase family oxidoreductase	arm
+T2	299409	-	TGGCCGGC	84.72	intragenic	SC_RS03440	toll/interleukin-1 receptor domain-containing protein	arm
+T2	300957	-	TGGCCGGC	83.42	intragenic	SC_RS03440	toll/interleukin-1 receptor domain-containing protein	arm
+T2	305746	+	TGGCCGGC	84.03	intragenic	SC_RS03460	serine hydrolase domain-containing protein	arm
+T2	312437	-	TGGCCGGC	88.04	intragenic	SC_RS03485	alkyl/aryl-sulfatase	arm
+T2	314629	-	TGGCCGGC	89.53	intragenic	SC_RS03490	type III PLP-dependent enzyme domain-containing protein	arm
+T2	321268	-	TGGCCGGC	84.45	intragenic	SC_RS03520	carboxylesterase/lipase family protein	arm
+T2	321759	+	TGGCCGGC	86.12	intragenic	SC_RS03520	carboxylesterase/lipase family protein	arm
+T2	328301	+	TGGCCGGC	65.45	intragenic	SC_RS01730	hypothetical protein	arm
+T2	332394	-	TGGCCGGC	61.11	intragenic	SC_RS03570	SDR family oxidoreductase	arm
+T2	349736	-	TGGCCGGC	86.39	intragenic	SC_RS03635	IclR family transcriptional regulator	arm
+T2	355753	+	TGGCCGGC	74.24	intragenic	SC_RS03665	hypothetical protein	arm
+T2	360828	-	TGGCCGGC	68.98	intragenic	SC_RS03690	SDR family NAD(P)-dependent oxidoreductase	arm
+T2	377174	-	TGGCCGGC	86.19	intragenic	SC_RS03755	family 78 glycoside hydrolase catalytic domain	arm
+T2	381290	-	TGGCCGGC	78.89	intragenic	SC_RS03765	glycoside hydrolase family 127 protein	arm
+T2	390061	-	TGGCCGGC	72.32	intragenic	SC_RS03785	MFS transporter	arm
+T2	390757	-	TGGCCGGC	73.98	intragenic	SC_RS03785	MFS transporter	arm
+T2	396741	+	TGGCCGGC	73.52	intragenic	SC_RS03815	sugar transferase	arm
+T2	412104	-	TGGCCGGC	70.4	intragenic	SC_RS03865	glycosyltransferase	arm
+T2	417535	+	TGGCCGGC	65.4	intragenic	SC_RS03890	DUF4910 domain-containing protein	arm
+T2	425363	-	CCGC	52.78	intragenic	SC_RS03930	haloacid dehalogenase type II	arm
+T2	427244	+	TGGCCGGC	84.12	intragenic	SC_RS03940	HEAT repeat domain-containing protein	arm
+T2	429502	+	TGGCCGGC	84.13	intragenic	SC_RS03955	spore-associated protein A	arm
+T2	436315	-	TGGCCGGC	86.33	intragenic	SC_RS04005	NAD(P)-dependent alcohol dehydrogenase	arm
+T2	447951	+	TGGCCGGC	88.21	intragenic	SC_RS04065	SGNH/GDSL hydrolase family protein	arm
+T2	461553	-	CCGC	53.89	intragenic	SC_RS04115	LamB/YcsF family protein	arm
+T2	461750	+	TGGCCGGC	68.65	intragenic	SC_RS04115	LamB/YcsF family protein	arm
+T2	478236	+	TGGCCGGC	86.25	intragenic	SC_RS04200	glycoside hydrolase 5 family protein	arm
+T2	492730	+	TGGCCGGC	60.69	intragenic	SC_RS04270	helix-turn-helix domain-containing protein	arm
+T2	497269	-	TGGCCGGC	62.08	intragenic	SC_RS04290	zinc ABC transporter permease AztB	arm
+T2	505710	-	TGGCCGGC	87.82	intragenic	SC_RS04350	FAD-dependent monooxygenase	arm
+T2	509204	+	TGGCCGGC	79.71	intragenic	SC_RS04360	glycoside hydrolase family 78 protein	arm
+T2	510774	-	TGGCCGGC	72.22	intragenic	SC_RS04360	glycoside hydrolase family 78 protein	arm
+T2	510955	-	TGGCCGGC	81.34	intragenic	SC_RS04365	MbtH family protein	arm
+T2	520063	+	TGGCCGGC	78.08	intragenic	SC_RS04380	non-ribosomal peptide synthetase	arm
+T2	529741	-	TGGCCGGC	88.55	intragenic	SC_RS04400	FecCD family ABC transporter permease	arm
+T2	541459	-	TGGCCGGC	56.03	intragenic	SC_RS04445	family 16 glycoside hydrolase	arm
+T2	569798	-	CCGC	76.65	intragenic	SC_RS04600	endo alpha-1%2C4 polygalactosaminidase	arm
+T2	594827	+	TGGCCGGC	83.41	intragenic	SC_RS04690	cellulase family glycosylhydrolase	arm
+T2	596992	-	TGGCCGGC	89.68	intragenic	SC_RS04695	sulfite oxidase	arm
+T2	621757	-	TGGCCGGC	83.33	intragenic	SC_RS04825	dihydroxyacetone kinase family protein	arm
+T2	622545	+	TGGCCGGC	73.11	intragenic	SC_RS04825	dihydroxyacetone kinase family protein	arm
+T2	623416	-	CCGC	77.47	intragenic	SC_RS04830	MFS transporter	arm
+T2	624994	+	TGGCCGGC	80.08	intragenic	SC_RS04835	FadR/GntR family transcriptional regulator	arm
+T2	636420	-	TGGCCGGC	95.24	intragenic	SC_RS04895	class I SAM-dependent methyltransferase	arm
+T2	649057	+	TGGCCGGC	75.3	intragenic	SC_RS04970	DMT family transporter	arm
+T2	649459	+	TGGCCGGC	80.3	intragenic	SC_RS04970	DMT family transporter	arm
+T2	656160	-	TGGCCGGC	96.45	intragenic	SC_RS05000	glycoside hydrolase family 65 protein	arm
+T2	656945	-	TGGCCGGC	80.3	intragenic	SC_RS05005	phosphoketolase family protein	arm
+T2	663152	+	TGGCCGGC	88.57	intragenic	SC_RS05035	MDR family MFS transporter	arm
+T2	663176	+	TGGCCGGC	86.21	intragenic	SC_RS05035	MDR family MFS transporter	arm
+T2	666721	-	TGGCCGGC	93.49	intragenic	SC_RS05045	TRAP transporter large permease subunit	arm
+T2	694056	-	CCGC	80.66	intragenic	SC_RS05190	SRPBCC family protein	arm
+T2	717307	+	TGGCCGGC	78.39	intragenic	SC_RS05300	SpoIIE family protein phosphatase/ATP-binding protein	arm
+T2	727872	+	TGGCCGGC	85.07	intragenic	SC_RS05350	YihY/virulence factor BrkB family protein	arm
+T2	733497	+	TGGCCGGC	87.78	intragenic	SC_RS05375	xanthine dehydrogenase family protein molybdopterin-binding subunit	arm
+T2	734618	-	TGGCCGGC	92.96	intragenic	SC_RS05380	hypothetical protein	arm
+T2	735986	-	GGCCGG	69.09	intragenic	SC_RS05385	DUF1232 domain-containing protein	arm
+T2	756023	-	TGGCCGGC	91.64	intragenic	SC_RS05485	helix-turn-helix transcriptional regulator	arm
+T2	765329	-	TGGCCGGC	90.03	intragenic	SC_RS05530	glycoside hydrolase family 65 protein	arm
+T2	767705	-	CCGG	83.06	intragenic	SC_RS05540	nucleoside/nucleotide kinase family protein	arm
+T2	775898	-	TGGCCGGC	68.98	intragenic	SC_RS05590	S1 family peptidase	arm
+T2	803302	+	TGGCCGGC	88.89	intragenic	SC_RS05715	phosphatase	arm
+T2	809552	+	TGGCCGGC	80.56	intragenic	SC_RS05750	RICIN domain-containing protein	arm
+T2	817784	-	TGGCCGGC	81.57	intragenic	SC_RS05765	SpoIIE family protein phosphatase	arm
+T2	855580	+	TGGCCGGC	100.0	intragenic	SC_RS05970	rhamnose ABC transporter substrate-binding protein	arm
+T2	857506	-	TGGCCGGC	86.82	intragenic	SC_RS05980	ABC transporter permease	arm
+T2	859487	+	TGGCCGGC	74.5	intragenic	SC_RS05985	sugar ABC transporter ATP-binding protein	arm
+T2	866800	-	TGGCCGGC	86.11	intragenic	SC_RS06010	LutB/LldF family L-lactate oxidation iron-sulfur protein	arm
+T2	872799	+	TGGCCGGC	83.33	intragenic	SC_RS06050	ATP-binding cassette domain-containing protein	arm
+T2	883712	-	CCGC	52.91	intragenic	SC_RS06105	class I SAM-dependent methyltransferase	arm
+T2	891511	+	TGGCCGGC	77.03	intragenic	SC_RS06140	cryptochrome/photolyase family protein	arm
+T2	906210	+	TGGCCGGC	86.85	intragenic	SC_RS06230	heavy metal translocating P-type ATPase	arm
+T2	908334	-	TGGCCGGC	63.82	intragenic	SC_RS06230	heavy metal translocating P-type ATPase	arm
+T2	918784	+	TGGCCGGC	59.46	intragenic	SC_RS06290	PP2C family protein-serine/threonine phosphatase	arm
+T2	927025	+	TGGCCGGC	74.46	intragenic	SC_RS06335	hypothetical protein	arm
+T2	929544	+	TGGCCGGC	61.42	intragenic	SC_RS06350	peptide deformylase	arm
+T2	936561	+	TGGCCGGC	78.78	intragenic	SC_RS06395	helix-turn-helix transcriptional regulator	arm
+T2	940598	-	CCGG	92.36	intragenic	SC_RS06410	FAD-dependent oxidoreductase	arm
+T2	948183	+	TGGCCGGC	80.06	intragenic	SC_RS06445	MFS transporter	arm
+T2	949316	-	TGGCCGGC	80.0	intragenic	SC_RS06450	hypothetical protein	arm
+T2	961706	+	TGGCCGGC	51.52	intragenic	SC_RS06535	LLM class flavin-dependent oxidoreductase	arm
+T2	969195	+	TGGCCGGC	86.63	intragenic	SC_RS06565	fumarate reductase/succinate dehydrogenase flavoprotein subunit	arm
+T2	972325	+	TGGCCGGC	70.3	intragenic	SC_RS06580	NAD(P)H-binding protein	arm
+T2	976907	+	TGGCCGGC	81.98	intragenic	SC_RS06595	SAM-dependent methyltransferase	arm
+T2	980964	-	TGGCCGGC	86.03	intragenic	SC_RS06620	hypothetical protein	arm
+T2	984131	+	TGGCCGGC	80.47	intragenic	SC_RS06640	amino acid permease	arm
+T2	1006269	-	TGGCCGGC	90.25	intragenic	SC_RS06740	SDR family NAD(P)-dependent oxidoreductase	arm
+T2	1012520	-	GGCCGG	83.42	intragenic	SC_RS06755	glycoside hydrolase family 2	arm
+T2	1016863	-	TGGCCGGC	80.36	intragenic	SC_RS06770	(2Fe-2S)-binding protein	arm
+T2	1028309	+	TGGCCGGC	50.0	intragenic	SC_RS06830	NADP-dependent phosphogluconate dehydrogenase	arm
+T2	1041372	-	CCGG	67.49	intragenic	SC_RS06890	hypothetical protein	arm
+T2	1043757	-	CCGC	89.29	intragenic	SC_RS06900	GNAT family N-acetyltransferase	arm
+T2	1044603	-	TGGCCGGC	74.6	intergenic	SC_RS06910	ferric reductase-like transmembrane domain-containing protein	arm
+T2	1073742	+	TGGCCGGC	76.65	intragenic	SC_RS07045	glutamate racemase	arm
+T2	1079782	-	TGGCCGGC	90.83	intragenic	SC_RS07075	right-handed parallel beta-helix repeat-containing protein	arm
+T2	1095973	-	TGGCCGGC	76.52	intragenic	SC_RS07150	ROK family protein	arm
+T2	1129961	-	TGGCCGGC	79.68	intragenic	SC_RS07300	MarR family winged helix-turn-helix transcriptional regulator	arm
+T2	1137620	+	TGGCCGGC	85.56	intragenic	SC_RS07340	ROK family protein	arm
+T2	1169451	+	TGGCCGGC	60.8	intragenic	SC_RS07510	DNA alkylation response protein	arm
+T2	1169991	+	TGGCCGGC	83.2	intragenic	SC_RS07510	DNA alkylation response protein	arm
+T2	1170864	+	TGGCCGGC	81.67	intragenic	SC_RS07515	WD40/YVTN/BNR-like repeat-containing protein	arm
+T2	1181497	-	TGGCCGGC	90.91	intragenic	SC_RS07570	DUF1360 domain-containing protein	arm
+T2	1215955	+	TGGCCGGC	54.46	intergenic	SC_RS07720	DUF6397 family protein	arm
+T2	1216273	+	TGGCCGGC	71.43	intragenic	SC_RS07725	roadblock/LC7 domain-containing protein	arm
+T2	1230820	-	TGGCCGGC	94.87	intragenic	SC_RS07795	xylose isomerase	arm
+T2	1232487	-	CCGC	91.41	intragenic	SC_RS07800	xylulokinase	arm
+T2	1264928	+	TGGCCGGC	76.67	intragenic	SC_RS07915	DUF779 domain-containing protein	arm
+T2	1265535	-	CCGC	55.56	intragenic	SC_RS07920	TetR/AcrR family transcriptional regulator	arm
+T2	1267177	+	TGGCCGGC	72.64	intragenic	SC_RS07925	MDR family MFS transporter	arm
+T2	1276366	-	CCGC	52.99	intragenic	SC_RS07975	NADP-dependent succinic semialdehyde dehydrogenase	arm
+T2	1278343	-	TGGCCGGC	86.33	intragenic	SC_RS07985	1%2C3%2C6%2C8-tetrahydroxynaphthalene synthase	arm
+T2	1279236	-	TGGCCGGC	82.61	intragenic	SC_RS07990	cytochrome P450	arm
+T2	1281131	+	TGGCCGGC	81.11	intragenic	SC_RS08000	acyl-CoA dehydrogenase family protein	arm
+T2	1283778	+	TGGCCGGC	76.26	intragenic	SC_RS08015	Mur ligase family protein	arm
+T2	1293227	+	TGGCCGGC	100.0	intragenic	SC_RS08065	dimethylargininase	arm
+T2	1294205	-	CCGG	85.21	intragenic	SC_RS08070	ornithine--oxo-acid transaminase	arm
+T2	1302117	-	CCGG	87.76	intergenic	SC_RS08090	helix-turn-helix transcriptional regulator	arm
+T2	1325706	+	TGGCCGGC	85.05	intragenic	SC_RS08230	adenylosuccinate lyase	arm
+T2	1340154	-	TGGCCGGC	52.71	intragenic	SC_RS08305	alpha-ketoacid dehydrogenase subunit beta	arm
+T2	1353577	-	TGGCCGGC	85.77	intragenic	SC_RS08370	flavin reductase family protein	arm
+T2	1356288	+	TGGCCGGC	82.6	intragenic	SC_RS08385	SDR family oxidoreductase	arm
+T2	1455581	-	GGCCGG	86.11	intragenic	SC_RS08855	aminomethyl-transferring glycine dehydrogenase	arm
+T2	1455817	-	TGGCCGGC	66.82	intragenic	SC_RS08855	aminomethyl-transferring glycine dehydrogenase	arm
+T2	1473136	-	CCGG	76.72	intergenic	SC_RS08930	PTS sugar transporter subunit IIA	arm
+T2	1475188	+	TGGCCGGC	75.99	intragenic	SC_RS08935	phosphoenolpyruvate--protein phosphotransferase	arm
+T2	1515390	+	TGGCCGGC	67.5	intragenic	SC_RS09070	glycerophosphodiester phosphodiesterase	core
+T2	1535440	-	CCGG	78.12	intragenic	SC_RS09165	ATP phosphoribosyltransferase	core
+T2	1593993	-	CCGG	71.38	intragenic	SC_RS09430	elongation factor P	core
+T2	1598968	-	TGGCCGGC	73.15	intragenic	SC_RS09455	chorismate synthase	core
+T2	1607202	+	TGGCCGGC	81.48	intragenic	SC_RS09495	ATP-binding protein	core
+T2	1622470	-	CCGG	51.52	intragenic	SC_RS09550	protein translocase subunit SecD	core
+T2	1669236	-	CCGC	67.22	intragenic	SC_RS09800	MetQ/NlpA family ABC transporter substrate-binding protein	core
+T2	1671253	-	TGGCCGGC	80.59	intragenic	SC_RS09810	methionine ABC transporter ATP-binding protein	core
+T2	1678297	+	TGGCCGGC	71.43	intragenic	SC_RS09850	MFS transporter	core
+T2	1690718	-	CCGG	91.73	intragenic	SC_RS09915	N-acetyl-gamma-glutamyl-phosphate reductase	core
+T2	1725493	-	TGGCCGGC	51.39	intragenic	SC_RS10075	gamma-glutamylethanolamide synthetase GlnA4	core
+T2	1726607	+	TGGCCGGC	77.32	intragenic	SC_RS10080	FadR/GntR family transcriptional regulator	core
+T2	1739728	+	TGGCCGGC	94.19	intragenic	SC_RS10135	RluA family pseudouridine synthase	core
+T2	1841396	-	TGGCCGGC	80.01	intragenic	SC_RS10610	ABC transporter permease	core
+T2	1861366	+	TGGCCGGC	88.18	intragenic	SC_RS10715	S1 family peptidase	core
+T2	1870562	-	TGGCCGGC	83.77	intragenic	SC_RS10760	acyl-CoA dehydrogenase family protein	core
+T2	1885552	-	TGGCCGGC	88.5	intragenic	SC_RS10840	ADP-ribosylglycohydrolase family protein	core
+T2	1895100	-	TGGCCGGC	81.65	intragenic	SC_RS10880	tetratricopeptide repeat protein	core
+T2	1895969	-	TGGCCGGC	51.52	intragenic	SC_RS10885	NUDIX domain-containing protein	core
+T2	1911586	-	TGGCCGGC	82.74	intragenic	SC_RS10945	FecCD family ABC transporter permease	core
+T2	2064966	-	TGGCCGGC	59.32	intragenic	SC_RS11700	hypothetical protein	core
+T2	2094310	-	CCGC	65.92	intragenic	SC_RS11820	excinuclease ABC subunit UvrA	core
+T2	2120336	-	TGGCCGGC	83.04	intragenic	SC_RS11940	hypothetical protein	core
+T2	2210386	+	TGGCCGGC	79.44	intragenic	SC_RS12350	NYN domain-containing protein	core
+T2	2232835	-	TGGCCGGC	58.61	intragenic	SC_RS12435	cell division protein SepF	core
+T2	2345704	+	TGGCCGGC	82.5	intragenic	SC_RS12940	dihydrolipoyl dehydrogenase	core
+T2	2362503	-	CCGG	58.97	intragenic	SC_RS13005	lipoyl synthase	core
+T2	2470828	-	TGGCCGGC	67.86	intragenic	SC_RS13535	Nif3-like dinuclear metal center hexameric protein	core
+T2	2657783	-	TGGCCGGC	98.55	intragenic	SC_RS14390	DNA primase	core
+T2	2669754	-	TGGCCGGC	62.7	intragenic	SC_RS14440	NADPH-dependent FMN reductase	core
+T2	2746196	+	TGGCCGGC	86.97	intragenic	SC_RS14785	ribonuclease Z	core
+T2	2757679	+	TGGCCGGC	51.14	intragenic	SC_RS14835	DUF3097 domain-containing protein	core
+T2	2767853	-	CCGC	53.31	intragenic	SC_RS14870	DNA polymerase III subunit delta	core
+T2	2834395	-	TGGCCGGC	53.33	intragenic	SC_RS15120	rod shape-determining protein MreC	core
+T2	2926349	-	TGGCCGGC	65.28	intragenic	SC_RS15500	GTPase	core
+T2	2997516	-	TGGCCGGC	52.41	intragenic	SC_RS15840	dihydrodipicolinate synthase family protein	core
+T2	3984244	-	CCGC	58.36	intragenic	SC_RS20170	flotillin family protein	core
+T2	4810459	+	TGGCCGGC	60.59	intragenic	SC_RS24135	SIS domain-containing protein	core
+T2	5144881	-	TGGCCGGC	58.31	intragenic	SC_RS25815	tRNA pseudouridine(38-40) synthase TruA	core
+T2	5264100	+	TGGCCGGC	69.81	intragenic	SC_RS26315	ABC transporter permease	core
+T2	5616621	+	TGGCCGGC	59.61	intergenic	SC_RS28005	hypothetical protein	core
+T2	5708318	-	TGGCCGGC	63.55	intragenic	SC_RS28415	1-aminocyclopropane-1-carboxylate deaminase/D-cysteine desulfhydrase	core
+T2	5839406	+	TGGCCGGC	54.27	intragenic	SC_RS29030	F0F1 ATP synthase subunit delta	core
+T2	5949624	+	TGGCCGGC	95.21	intragenic	SC_RS29500	MerR family transcriptional regulator	core
+T2	5985811	-	TGGCCGGC	88.53	intragenic	SC_RS29680	Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatA	core
+T2	6231819	-	TGGCCGGC	77.78	intragenic	SC_RS30795	ABC transporter substrate-binding protein	core
+T2	6252209	-	CCGG	67.52	intragenic	SC_RS30870	WXG100 family type VII secretion target	core
+T2	6280598	+	TGGCCGGC	64.29	intragenic	SC_RS30970	HAMP domain-containing protein	core
+T2	6318436	-	TGGCCGGC	75.63	intragenic	SC_RS31140	TAXI family TRAP transporter solute-binding subunit	core
+T2	6342876	+	TGGCCGGC	54.4	intragenic	SC_RS31245	GNAT family N-acetyltransferase	core
+T2	6351819	+	TGGCCGGC	77.71	intragenic	SC_RS31275	YdbC family protein	core
+T2	6363776	-	CCGG	59.26	intragenic	SC_RS31325	NUDIX hydrolase	core
+T2	6367294	+	TGGCCGGC	61.41	intergenic	SC_RS31335	sporulation transcriptional regulator WhiH	core
+T2	6412023	-	TGGCCGGC	68.18	intragenic	SC_RS31520	septation protein SepH	core
+T2	6601278	-	TGGCCGGC	90.61	intragenic	SC_RS32330	PLL family lectin	arm
+T2	6621915	+	TGGCCGGC	68.79	intragenic	SC_RS32395	glycoside hydrolase family 3 protein	arm
+T2	6628164	-	CCGC	86.29	intragenic	SC_RS32420	MFS transporter	arm
+T2	6647403	-	TGGCCGGC	77.12	intragenic	SC_RS32510	SulP family inorganic anion transporter	arm
+T2	6658503	-	TGGCCGGC	64.72	intragenic	SC_RS32570	GTP-binding protein	arm
+T2	6667222	+	TGGCCGGC	93.33	intragenic	SC_RS32605	germacradienol/geosmin synthase Cyc2	arm
+T2	6671542	+	TGGCCGGC	77.23	intragenic	SC_RS32625	aminoglycoside phosphotransferase family protein	arm
+T2	6690724	-	TGGCCGGC	55.32	intragenic	SC_RS32695	MMPL family transporter	arm
+T2	6700304	-	TGGCCGGC	76.67	intragenic	SC_RS32740	phosphoadenylyl-sulfate reductase	arm
+T2	6704142	+	TGGCCGGC	69.55	intragenic	SC_RS32765	hypothetical protein	arm
+T2	6729794	-	TGGCCGGC	90.9	intragenic	SC_RS32885	carboxylesterase/lipase family protein	arm
+T2	6774868	-	TGGCCGGC	87.33	intragenic	SC_RS33105	(2Fe-2S)-binding protein	arm
+T2	6778258	-	TGGCCGGC	100.0	intragenic	SC_RS33115	NCS2 family permease	arm
+T2	6781327	+	TGGCCGGC	71.11	intragenic	SC_RS33125	alpha/beta hydrolase	arm
+T2	6794674	-	CCGC	64.62	intragenic	SC_RS33190	glycosyltransferase family 9 protein	arm
+T2	6805448	+	TGGCCGGC	87.78	intragenic	SC_RS33225	isobutyrate:CoA ligase IbuL	arm
+T2	6835175	-	TGGCCGGC	75.29	intragenic	SC_RS33345	LamG domain-containing protein	arm
+T2	6854894	-	TGGCCGGC	77.46	intragenic	SC_RS33410	glycoside hydrolase family 2 protein	arm
+T2	6855266	+	TGGCCGGC	79.82	intragenic	SC_RS33410	glycoside hydrolase family 2 protein	arm
+T2	6870740	-	TGGCCGGC	96.97	intragenic	SC_RS33485	allantoinase AllB	arm
+T2	6874067	-	CCGC	62.63	intragenic	SC_RS33505	NADPH-dependent FMN reductase	arm
+T2	6879358	+	TGGCCGGC	77.08	intragenic	SC_RS33535	sugar ABC transporter substrate-binding protein	arm
+T2	6915212	-	TGGCCGGC	87.54	intragenic	SC_RS33620	SDR family NAD(P)-dependent oxidoreductase	arm
+T2	6934865	+	TGGCCGGC	70.74	intragenic	SC_RS33640	MFS transporter	arm
+T2	6990121	+	TGGCCGGC	92.2	intragenic	SC_RS33880	DUF2252 domain-containing protein	arm
+T2	6993083	-	CCGG	89.55	intragenic	SC_RS33895	LuxR C-terminal-related transcriptional regulator	arm
+T2	7025921	-	TGGCCGGC	82.72	intragenic	SC_RS34040	FtsX-like permease family protein	arm
+T2	7046215	+	TGGCCGGC	73.29	intragenic	SC_RS34120	hypothetical protein	arm
+T2	7074145	-	CCGG	68.43	intragenic	SC_RS34235	ATP-dependent Clp protease ATP-binding subunit	arm
+T2	7086307	+	TGGCCGGC	82.5	intragenic	SC_RS34280	NCS1 family nucleobase:cation symporter-1	arm
+T2	7098627	+	TGGCCGGC	100.0	intragenic	SC_RS34335	glycoside hydrolase domain-containing protein	arm
+T2	7098628	-	TGGCCGGC	71.67	intragenic	SC_RS34335	glycoside hydrolase domain-containing protein	arm
+T2	7106904	-	TGGCCGGC	82.51	intragenic	SC_RS34345	MFS transporter	arm
+T2	7110695	+	TGGCCGGC	62.74	intragenic	SC_RS34350	non-ribosomal peptide synthetase	arm
+T2	7114505	-	CCGC	73.58	intragenic	SC_RS34355	non-ribosomal peptide synthetase	arm
+T2	7115741	-	TGGCCGGC	97.92	intragenic	SC_RS34355	non-ribosomal peptide synthetase	arm
+T2	7121580	-	CCGG	82.46	intragenic	SC_RS34385	diaminopimelate decarboxylase	arm
+T2	7155623	-	TGGCCGGC	73.13	intragenic	SC_RS34530	CDP-diacylglycerol--serine O-phosphatidyltransferase	arm
+T2	7176454	+	TGGCCGGC	87.45	intragenic	SC_RS34615	ATP-binding SpoIIE family protein phosphatase	arm
+T2	7192312	+	TGGCCGGC	73.92	intragenic	SC_RS34680	transketolase	arm
+T2	7208261	+	TGGCCGGC	77.7	intragenic	SC_RS34780	ATP-binding cassette domain-containing protein	arm
+T2	7217716	+	TGGCCGGC	96.39	intragenic	SC_RS34830	phage holin family protein	arm
+T2	7223494	+	TGGCCGGC	68.57	intragenic	SC_RS34850	OsmC family protein	arm
+T2	7224278	+	TGGCCGGC	89.6	intragenic	SC_RS34855	respiratory nitrate reductase subunit gamma	arm
+T2	7247594	-	CCGC	62.47	intragenic	SC_RS34940	SDR family oxidoreductase	arm
+T2	7266516	-	CCGC	69.68	intragenic	SC_RS35015	beta-ketoacyl-ACP synthase III	arm
+T2	7297596	-	TGGCCGGC	72.22	intragenic	SC_RS35130	aldehyde dehydrogenase family protein	arm
+T2	7317522	+	TGGCCGGC	81.47	intragenic	SC_RS35185	glycoside hydrolase family 3 C-terminal domain-containing protein	arm
+T2	7338091	-	TGGCCGGC	65.61	intragenic	SC_RS35280	FAD-dependent oxidoreductase	arm
+T2	7341114	+	TGGCCGGC	84.45	intragenic	SC_RS35300	MarR family winged helix-turn-helix transcriptional regulator	arm
+T2	7341715	+	TGGCCGGC	76.99	intragenic	SC_RS35305	PQQ-binding-like beta-propeller repeat protein	arm
+T2	7350638	+	TGGCCGGC	84.07	intragenic	SC_RS35330	BREX system serine/threonine kinase PglW	arm
+T2	7352439	-	CCGC	87.07	intragenic	SC_RS35330	BREX system serine/threonine kinase PglW	arm
+T2	7359958	-	TGGCCGGC	78.03	intergenic	SC_RS35360	PWWP domain-containing protein	arm
+T2	7379055	+	TGGCCGGC	81.43	intragenic	SC_RS35410	ABC transporter substrate-binding protein	arm
+T2	7383457	+	TGGCCGGC	89.66	intragenic	SC_RS35420	MDR family MFS transporter	arm
+T2	7387247	+	TGGCCGGC	72.66	intragenic	SC_RS35440	glycosyltransferase family 4 protein	arm
+T2	7393413	-	TGGCCGGC	83.26	intragenic	SC_RS35470	membrane-associated oxidoreductase	arm
+T2	7394799	-	CCGG	73.82	intragenic	SC_RS35475	phosphogluconate dehydrogenase (NAD(+)-dependent%2C decarboxylating)	arm
+T2	7401473	-	TGGCCGGC	90.42	intragenic	SC_RS35500	transketolase	arm
+T2	7434482	+	TGGCCGGC	97.44	intragenic	SC_RS35625	DUF5682 family protein	arm
+T2	7444927	-	TGGCCGGC	75.36	intragenic	SC_RS35655	TetR/AcrR family transcriptional regulator	arm
+T2	7466223	-	TGGCCGGC	67.42	intragenic	SC_RS35740	ThuA domain-containing protein	arm
+T2	7468090	+	TGGCCGGC	92.46	intragenic	SC_RS35750	LacI family DNA-binding transcriptional regulator	arm
+T2	7489567	+	TGGCCGGC	72.59	intragenic	SC_RS35860	amino acid permease	arm
+T2	7490449	+	TGGCCGGC	79.51	intragenic	SC_RS35865	macro domain-containing protein	arm
+T2	7490910	-	CCGG	73.21	intragenic	SC_RS35870	M1 family metallopeptidase	arm
+T2	7491875	+	TGGCCGGC	88.31	intragenic	SC_RS35870	M1 family metallopeptidase	arm
+T2	7494848	+	TGGCCGGC	91.84	intragenic	SC_RS35880	BCCT family transporter	arm
+T2	7499754	-	CCGG	92.67	intragenic	SC_RS35900	Tex family protein	arm
+T2	7511383	+	TGGCCGGC	74.08	intragenic	SC_RS35955	iron-containing alcohol dehydrogenase family protein	arm
+T2	7533572	+	TGGCCGGC	62.36	intragenic	SC_RS36060	TetR/AcrR family transcriptional regulator	arm
+T2	7534535	+	TGGCCGGC	73.39	intragenic	SC_RS36065	MBL fold metallo-hydrolase	arm
+T2	7541926	+	TGGCCGGC	68.4	intragenic	SC_RS36100	TetR/AcrR family transcriptional regulator	arm
+T2	7544620	+	TGGCCGGC	64.08	intragenic	SC_RS36110	LLM class F420-dependent oxidoreductase	arm
+T2	7557748	+	TGGCCGGC	93.27	intragenic	SC_RS36155	roadblock/LC7 domain-containing protein	arm
+T2	7559495	-	GGCCGG	70.03	intergenic	SC_RS36170	GAF domain-containing protein	arm
+T2	7568784	+	TGGCCGGC	65.29	intragenic	SC_RS36225	zinc-ribbon domain-containing protein	arm
+T2	7571525	+	TGGCCGGC	56.67	intragenic	SC_RS36235	MFS transporter	arm
+T2	7586326	+	TGGCCGGC	72.36	intergenic	SC_RS36300	MFS transporter	arm
+T2	7596392	-	TGGCCGGC	84.26	intragenic	SC_RS36325	type I polyketide synthase	arm
+T2	7597304	+	TGGCCGGC	82.78	intragenic	SC_RS36325	type I polyketide synthase	arm
+T2	7599863	-	TGGCCGGC	77.46	intragenic	SC_RS36330	NAD(P)-binding domain-containing protein	arm
+T2	7617176	+	TGGCCGGC	88.39	intragenic	SC_RS36410	DNA cytosine methyltransferase	arm
+T2	7621049	+	TGGCCGGC	71.17	intragenic	SC_RS36435	XF1762 family protein	arm
+T2	7623486	-	CCGC	67.18	intragenic	SC_RS36445	SPDY domain-containing protein	arm
+T2	7627119	-	TGGCCGGC	51.11	intergenic	SC_RS36470	hypothetical protein	arm
+T2	7629345	-	CCGC	64.48	intragenic	SC_RS36485	hypothetical protein	arm
+T2	7631847	+	TGGCCGGC	75.79	intragenic	SC_RS36500	caspase%2C EACC1-associated type	arm
+T2	7643127	-	CCGC	68.09	intragenic	SC_RS36560	hypothetical protein	arm
+T2	7643643	+	TGGCCGGC	65.55	intragenic	SC_RS36565	hypothetical protein	arm
+T2	7652656	-	CCGG	63.13	intragenic	SC_RS36620	C40 family peptidase	arm
+T2	7657600	-	TGGCCGGC	91.84	intragenic	SC_RS36645	hypothetical protein	arm
+T2	7679572	-	TGGCCGGC	88.14	intragenic	SC_RS36770	SPDY domain-containing protein	arm
+T2	7680006	-	TGGCCGGC	85.35	intragenic	SC_RS36775	hypothetical protein	arm
+T2	7685547	-	TGGCCGGC	84.5	intragenic	SC_RS36805	membrane protein	arm
+T2	7686395	+	TGGCCGGC	51.28	intragenic	SC_RS36810	WhiB family transcriptional regulator	arm
+T2	7692961	-	GGCCGG	76.85	intragenic	SC_RS36850	methyltransferase%2C FxLD system	arm
+T2	7707551	-	TGGCCGGC	89.58	intragenic	SC_RS36925	sensor histidine kinase	arm
+T2	7732934	-	TGGCCGGC	77.09	intragenic	SC_RS37040	alpha/beta hydrolase	arm
+T2	7747450	+	TGGCCGGC	75.95	intragenic	SC_RS37110	sugar ABC transporter substrate-binding protein	arm
+T2	7755274	+	TGGCCGGC	73.58	intragenic	SC_RS37150	TMEM175 family protein	arm
+T2	7772223	+	TGGCCGGC	84.58	intragenic	SC_RS37225	NADP-dependent isocitrate dehydrogenase	arm
+T2	7796396	-	TGGCCGGC	60.78	intragenic	SC_RS37300	discoidin domain-containing protein	arm
+T2	7801149	-	CCGG	85.56	intragenic	SC_RS37315	competence protein CoiA	arm
+T2	7805185	+	TGGCCGGC	65.93	intragenic	SC_RS37325	carbohydrate-binding module family 20 domain-containing protein	arm
+T2	7817424	+	TGGCCGGC	88.64	intragenic	SC_RS37380	beta-xylosidase/alpha-l-arabinosidase	arm
+T2	7820127	+	TGGCCGGC	79.18	intergenic	SC_RS37390	PucR family transcriptional regulator	arm
+T2	7834762	+	TGGCCGGC	62.29	intragenic	SC_RS37430	SseB family protein	arm
+T2	7837656	-	CCGG	77.51	intragenic	SC_RS37460	undecaprenyl-diphosphate phosphatase	arm
+T2	7848260	+	TGGCCGGC	78.52	intragenic	SC_RS37525	ferredoxin reductase	arm
+T2	7863597	-	CCGG	79.96	intragenic	SC_RS37605	hypothetical protein	arm
+T2	7864791	-	TGGCCGGC	76.95	intragenic	SC_RS37615	HAMP domain-containing sensor histidine kinase	arm
+T2	7867246	-	TGGCCGGC	94.15	intragenic	SC_RS37620	MMPL family transporter	arm
+T2	7867425	+	TGGCCGGC	86.67	intragenic	SC_RS37620	MMPL family transporter	arm
+T2	7870160	+	TGGCCGGC	96.08	intragenic	SC_RS37635	transposase	arm
+T2	7871053	+	TGGCCGGC	79.1	intragenic	SC_RS37640	phospholipase D-like domain-containing protein	arm
+T2	7884104	+	TGGCCGGC	60.54	intragenic	SC_RS37690	AAA family ATPase	arm
+T2	7894997	+	TGGCCGGC	93.52	intragenic	SC_RS37745	sigma-70 family RNA polymerase sigma factor family protein	arm
+T2	7911893	+	TGGCCGGC	59.52	intragenic	SC_RS37830	alpha/beta fold hydrolase	arm
+T2	7913150	+	TGGCCGGC	91.45	intragenic	SC_RS37835	GNAT family N-acetyltransferase	arm
+T2	7916083	-	TGGCCGGC	87.92	intragenic	SC_RS37845	pyruvate dehydrogenase (acetyl-transferring)%2C homodimeric type	arm
+T2	7919558	+	TGGCCGGC	90.95	intragenic	SC_RS37860	cupin domain-containing protein	arm
+T2	7927337	-	TGGCCGGC	88.18	intragenic	SC_RS37895	helix-turn-helix transcriptional regulator	arm
+T2	7932217	-	TGGCCGGC	67.21	intragenic	SC_RS37910	ATP-binding protein	arm
+T2	7933804	-	TGGCCGGC	85.24	intragenic	SC_RS37920	aldehyde dehydrogenase family protein	arm
+T2	7936411	+	TGGCCGGC	78.0	intragenic	SC_RS37935	winged helix-turn-helix transcriptional regulator	arm
+T2	7937217	-	TGGCCGGC	71.69	intragenic	SC_RS37940	helix-turn-helix transcriptional regulator	arm
+T2	7958083	-	TGGCCGGC	81.65	intragenic	SC_RS38035	aldo/keto reductase	arm
+T2	7963617	+	TGGCCGGC	78.87	intragenic	SC_RS38060	ABC transporter substrate-binding protein	arm
+T2	7963618	-	TGGCCGGC	85.21	intragenic	SC_RS38060	ABC transporter substrate-binding protein	arm
+T2	7970793	+	TGGCCGGC	89.19	intragenic	SC_RS38085	ATP-binding protein	arm
+T2	7981996	+	TGGCCGGC	56.48	intragenic	SC_RS38120	ABC transporter ATP-binding protein	arm
+T2	7984546	+	TGGCCGGC	88.53	intragenic	SC_RS38135	branched-chain amino acid ABC transporter permease	arm
+T2	7992330	-	CCGC	66.88	intragenic	SC_RS38155	S8 family serine peptidase	arm
+T2	7998750	+	TGGCCGGC	54.76	intergenic	SC_RS38185	SDR family oxidoreductase	arm
+T2	8001560	-	TGGCCGGC	87.76	intragenic	SC_RS38205	alanine/glycine:cation symporter family protein	arm
+T2	8002518	+	TGGCCGGC	93.93	intergenic	SC_RS38210	hypothetical protein	arm
+T2	8004864	-	CCGC	71.86	intergenic	SC_RS38225	hypothetical protein	arm
+T2	8016745	-	CCGG	86.85	intergenic	SC_RS38275	methyltransferase type 11	arm
+T2	8028031	+	TGGCCGGC	85.98	intragenic	SC_RS38325	TetR/AcrR family transcriptional regulator	arm
+T2	8032874	-	TGGCCGGC	89.05	intragenic	SC_RS38350	SPFH domain-containing protein	arm
+T2	8038511	+	TGGCCGGC	91.98	intragenic	SC_RS38375	hypothetical protein	arm
+T2	8038519	+	TGGCCGGC	64.72	intragenic	SC_RS38375	hypothetical protein	arm
+T2	8046592	+	TGGCCGGC	75.95	intragenic	SC_RS38410	oxygenase MpaB family protein	arm
+T2	8050456	+	TGGCCGGC	70.04	intragenic	SC_RS38420	phytoene desaturase family protein	arm
+T2	8059932	-	TGGCCGGC	86.94	intragenic	SC_RS38465	N-acetylmuramoyl-L-alanine amidase	arm
+T2	8062181	+	TGGCCGGC	92.31	intragenic	SC_RS38475	DNA-binding protein NsdB	arm
+T2	8087241	+	TGGCCGGC	78.21	intragenic	SC_RS38615	ClpP family protease	arm
+T2	8096657	-	TGGCCGGC	75.56	intragenic	SC_RS38670	protein kinase domain-containing protein	arm
+T2	8099175	-	TGGCCGGC	81.44	intragenic	SC_RS38685	CAP domain-containing protein	arm
+T2	8099937	+	TGGCCGGC	81.42	intragenic	SC_RS38685	CAP domain-containing protein	arm
+T2	8102014	-	TGGCCGGC	81.41	intragenic	SC_RS38690	ATP-binding protein	arm
+T2	8102071	-	TGGCCGGC	95.56	intragenic	SC_RS38690	ATP-binding protein	arm
+T2	8106002	-	TGGCCGGC	92.5	intragenic	SC_RS38705	NAD(P)/FAD-dependent oxidoreductase	arm
+T2	8108546	+	TGGCCGGC	93.94	intragenic	SC_RS38715	DUF4032 domain-containing protein	arm
+T2	8116601	+	TGGCCGGC	86.9	intragenic	SC_RS38760	MFS transporter	arm
+T2	8117108	+	TGGCCGGC	100.0	intragenic	SC_RS38760	MFS transporter	arm
+T2	8117823	-	TGGCCGGC	63.87	intergenic	SC_RS38765	cyclic nucleotide-binding domain-containing protein	arm
+T2	8120212	-	TGGCCGGC	76.39	intragenic	SC_RS38780	ATP-binding protein	arm
+T2	8121668	+	TGGCCGGC	85.96	intragenic	SC_RS38790	DUF5133 domain-containing protein	arm
+T2	8138693	-	TGGCCGGC	75.2	intragenic	SC_RS38850	HAMP domain-containing protein	arm
+T2	8151533	+	TGGCCGGC	65.01	intragenic	SC_RS38900	hypothetical protein	arm
+T2	8158805	-	TGGCCGGC	80.68	intragenic	SC_RS38940	ATP-dependent DNA ligase	arm
+T2	8172715	-	TGGCCGGC	78.05	intragenic	SC_RS39000	dienelactone hydrolase family protein	arm
+T2	8174297	-	TGGCCGGC	84.92	intragenic	SC_RS39010	helix-turn-helix domain-containing protein	arm
+T2	8185664	-	TGGCCGGC	78.34	intragenic	SC_RS39065	DoxX family protein	arm
+T2	8188747	-	TGGCCGGC	76.56	intragenic	SC_RS39075	nitrate reductase	arm
+T2	8190733	+	TGGCCGGC	92.69	intragenic	SC_RS39095	nucleotidyltransferase family protein	arm
+T2	8196029	-	CCGG	95.77	intragenic	SC_RS39115	cation:proton antiporter	arm
+T2	8200570	+	TGGCCGGC	84.9	intragenic	SC_RS39135	phytoene desaturase family protein	arm
+T2	8202516	-	TGGCCGGC	74.24	intragenic	SC_RS39140	SDR family oxidoreductase	arm
+T2	8210965	-	TGGCCGGC	79.54	intragenic	SC_RS39195	siderophore ABC transporter permease CdtC	arm
+T2	8211625	-	TGGCCGGC	79.93	intragenic	SC_RS39195	siderophore ABC transporter permease CdtC	arm
+T2	8211907	-	TGGCCGGC	55.56	intragenic	SC_RS39195	siderophore ABC transporter permease CdtC	arm
+T2	8213114	+	TGGCCGGC	66.92	intragenic	SC_RS39200	siderophore ABC transporter substrate-binding protein CdtB	arm
+T2	8234143	-	TGGCCGGC	82.76	intragenic	SC_RS39295	cytochrome P450	arm
+T2	8274449	-	TGGCCGGC	82.13	intragenic	SC_RS39505	lipoprotein	arm
+T2	8274954	-	TGGCCGGC	77.52	intragenic	SC_RS39510	S1 family peptidase	arm
+T2	8280656	-	TGGCCGGC	100.0	intragenic	SC_RS39540	DMATS family aromatic prenyltransferase	arm
+T2	8280962	-	TGGCCGGC	82.78	intragenic	SC_RS39545	flavin-containing monooxygenase	arm
+T2	8297569	-	TGGCCGGC	77.58	intragenic	SC_RS39630	ROK family transcriptional regulator	arm
+T2	8301667	+	TGGCCGGC	90.2	intragenic	SC_RS39650	zinc-dependent alcohol dehydrogenase	arm
+T2	8303170	-	TGGCCGGC	80.28	intragenic	SC_RS39655	sugar phosphate isomerase/epimerase family protein	arm
+T2	8309844	-	TGGCCGGC	85.98	intergenic	SC_RS39690	GntR family transcriptional regulator	arm
+T2	8315559	-	TGGCCGGC	84.24	intragenic	SC_RS39710	LacI family DNA-binding transcriptional regulator	arm
+T2	8317480	-	CCGG	93.77	intragenic	SC_RS39720	carbohydrate ABC transporter permease	arm
+T2	8319757	+	TGGCCGGC	78.53	intragenic	SC_RS39730	glycoside hydrolase family 2 protein	arm
+T2	8325851	-	TGGCCGGC	72.11	intragenic	SC_RS39755	type I glyceraldehyde-3-phosphate dehydrogenase	arm
+T2	8333356	+	TGGCCGGC	89.79	intragenic	SC_RS39785	YeeE/YedE family protein	arm
+T2	8333440	+	TGGCCGGC	86.75	intragenic	SC_RS39785	YeeE/YedE family protein	arm
+T2	8334978	-	CCGG	73.75	intragenic	SC_RS39800	MFS transporter	arm
+T2	8341484	-	TGGCCGGC	71.39	intragenic	SC_RS39815	ATP-dependent Clp protease ATP-binding subunit	arm
+T2	8366361	+	TGGCCGGC	86.51	intragenic	SC_RS39915	ROK family transcriptional regulator	arm
+T2	8370817	+	TGGCCGGC	69.94	intragenic	SC_RS39935	sulfatase-like hydrolase/transferase	arm
+T2	8373019	-	CCGG	67.78	intragenic	SC_RS39950	glycerophosphodiester phosphodiesterase	arm
+T2	8374446	+	TGGCCGGC	78.09	intragenic	SC_RS39960	TetR/AcrR family transcriptional regulator	arm
+T2	8378650	+	TGGCCGGC	95.0	intergenic	SC_RS39980	carbohydrate ABC transporter permease	arm
+T2	8392453	-	TGGCCGGC	72.9	intragenic	SC_RS40045	creatininase family protein	arm
+T2	8400145	-	CCGG	81.9	intragenic	SC_RS40080	glycoside hydrolase family 64 protein	arm
+T2	8400484	-	TGGCCGGC	82.97	intragenic	SC_RS40080	glycoside hydrolase family 64 protein	arm
+T2	8403811	+	TGGCCGGC	75.4	intragenic	SC_RS40100	SAM-dependent methyltransferase	arm
+T2	8422862	-	TGGCCGGC	83.75	intragenic	SC_RS40180	sodium:solute symporter	arm
+T2	8428806	-	TGGCCGGC	87.96	intragenic	SC_RS40200	amidase	arm
+T2	8428846	-	TGGCCGGC	79.18	intragenic	SC_RS40200	amidase	arm
+T2	8433343	-	TGGCCGGC	56.57	intergenic	SC_RS40225	ABC transporter substrate-binding protein	arm
+T2	8436223	-	TGGCCGGC	84.01	intragenic	SC_RS40235	VOC family protein	arm
+T2	8436333	-	CCGC	69.45	intragenic	SC_RS40240	alpha/beta fold hydrolase	arm
+T2	8437671	-	TGGCCGGC	80.81	intragenic	SC_RS40245	helix-turn-helix transcriptional regulator	arm
+T2	8441296	-	TGGCCGGC	97.92	intragenic	SC_RS40260	SCO7613 C-terminal domain-containing membrane protein	arm
+T2	8453768	-	TGGCCGGC	59.22	intergenic	SC_RS40325	FAD-dependent monooxygenase	arm
+T2	8454600	+	TGGCCGGC	68.08	intergenic	SC_RS40330	dihydrofolate reductase family protein	arm
+T2	8466720	-	TGGCCGGC	82.96	intergenic	SC_RS40385	phosphopyruvate hydratase	arm
+T2	8478716	+	TGGCCGGC	62.53	intragenic	SC_RS40445	alpha/beta hydrolase	arm
+T2	8486834	-	TGGCCGGC	82.13	intergenic	SC_RS40485	FAD-dependent oxidoreductase	arm
+T2	8496549	+	TGGCCGGC	83.33	intragenic	SC_RS40550	UbiA family prenyltransferase	arm
+T2	8496550	-	TGGCCGGC	86.01	intragenic	SC_RS40550	UbiA family prenyltransferase	arm
+T2	8497188	+	TGGCCGGC	69.29	intragenic	SC_RS40550	UbiA family prenyltransferase	arm
+T2	8500671	+	TGGCCGGC	87.6	intragenic	SC_RS40575	ABC transporter substrate-binding protein	arm
+T2	8510055	+	TGGCCGGC	94.44	intragenic	SC_RS40600	non-ribosomal peptide synthetase	arm
+T2	8519410	-	TGGCCGGC	59.88	intragenic	SC_RS40610	saccharopine dehydrogenase NADP-binding domain-containing protein	arm
+T2	8523047	-	CCGC	64.56	intragenic	SC_RS40625	thioesterase II family protein	arm
+T2	8524106	+	TGGCCGGC	92.86	intragenic	SC_RS40630	class I SAM-dependent methyltransferase	arm
+T2	8528288	-	CCGC	68.21	intragenic	SC_RS40645	salicylate synthase	arm
+T2	8533435	-	TGGCCGGC	89.63	intragenic	SC_RS40670	phytase	arm
+T2	8533636	-	TGGCCGGC	83.72	intragenic	SC_RS40670	phytase	arm
+T2	8533672	+	TGGCCGGC	73.74	intragenic	SC_RS40670	phytase	arm
+T2	8534106	-	TGGCCGGC	86.1	intergenic	SC_RS40675	MerR family transcriptional regulator	arm
+T2	8546821	+	TGGCCGGC	76.11	intragenic	SC_RS40740	sensor histidine kinase	arm
+T2	8547129	+	TGGCCGGC	91.52	intragenic	SC_RS40740	sensor histidine kinase	arm
+T2	8550636	+	TGGCCGGC	94.17	intragenic	SC_RS40760	SAM-dependent methyltransferase	arm
+T2	8552553	-	CCGC	63.09	intragenic	SC_RS40775	hypothetical protein	arm
+T2	8554999	-	TGGCCGGC	67.94	intragenic	SC_RS40785	hypothetical protein	arm
+T2	8570816	-	CCGG	64.75	intragenic	SC_RS40865	FUSC family protein	arm
+T2	8570868	-	TGGCCGGC	77.76	intragenic	SC_RS40865	FUSC family protein	arm
+T2	8575794	+	TGGCCGGC	81.31	intergenic	SC_RS40885	IS110 family transposase	arm
+T2	8579680	-	TGGCCGGC	81.28	intergenic	SC_RS40905	IS5 family transposase	arm
+T2	8587517	-	CCGG	55.26	intergenic	SC_RS40950	DUF5133 domain-containing protein	arm
+T2	8591309	+	TGGCCGGC	58.01	intragenic	SC_RS40965	SDR family oxidoreductase	arm
+T2	8599637	+	TGGCCGGC	72.22	intergenic	SC_RS41010	tetratricopeptide repeat protein	arm
+T2	8601116	-	GGCCGG	91.39	intergenic	SC_RS41020	GNAT family N-acetyltransferase	arm
+T2	8601981	+	TGGCCGGC	88.89	intergenic	SC_RS41025	ArsR family transcriptional regulator	arm
+T2	8606305	+	TGGCCGGC	58.48	intragenic	SC_RS41050	IclR family transcriptional regulator	arm
+T2	8621230	+	TGGCCGGC	71.57	intergenic	SC_RS41145	IS5 family transposase	arm
+T2	8624415	+	TGGCCGGC	55.71	intergenic	SC_RS41160	IS481-like element IS1649 family transposase	arm
+T2	8624860	+	TGGCCGGC	82.47	intergenic	SC_RS41165	hypothetical protein	arm
+T2	8625983	-	TGGCCGGC	57.83	intragenic	SC_RS41175	ZIP family metal transporter	arm
+T2	8630720	-	CCGC	70.86	intragenic	SC_RS41205	transposase	arm
+T2	8637615	+	TGGCCGGC	67.31	intragenic	SC_RS41240	SDR family oxidoreductase	arm
+T2	8638200	+	TGGCCGGC	77.36	intergenic	SC_RS41240	SDR family oxidoreductase	arm
+T2	8645440	-	TGGCCGGC	68.35	intragenic	SC_RS41275	CYTH domain-containing protein	arm
+T2	8651615	+	TGGCCGGC	52.96	intergenic	SC_RS41300	Na+/H+ antiporter NhaA	arm
+T2	8651616	-	TGGCCGGC	85.47	intergenic	SC_RS41300	Na+/H+ antiporter NhaA	arm
+T2	8652064	+	TGGCCGGC	72.3	intragenic	SC_RS41305	hypothetical protein	arm
+T2	8652065	-	TGGCCGGC	51.54	intragenic	SC_RS41305	hypothetical protein	arm
+T2	8660634	-	TGGCCGGC	87.08	intragenic	SC_RS41350	TnsA-like heteromeric transposase endonuclease subunit	arm
+T3	371576	-	CCGG	83.15	intragenic	SC_RS03740	aldose 1-epimerase family protein	arm
+T3	423899	-	TGGCCGGC	72.38	intragenic	SC_RS03920	phosphatase PAP2 family protein	arm
+T3	608270	-	TGGCCGGC	65.41	intragenic	SC_RS04745	polyprenyl synthetase family protein	arm
+T3	766725	-	TGGCCGGC	95.24	intragenic	SC_RS05535	beta-phosphoglucomutase family hydrolase	arm
+T3	777330	-	TGGCCGGC	83.33	intragenic	SC_RS05600	ROK family transcriptional regulator	arm
+T3	967575	-	CCGC	62.61	intragenic	SC_RS06555	GNAT family N-acetyltransferase	arm
+T3	1214207	-	TGGCCGGC	67.78	intragenic	SC_RS07715	acyl-CoA thioesterase	arm
+T3	1334129	-	TGGCCGGC	62.22	intragenic	SC_RS08275	RNA polymerase sigma-70 factor	arm
+T3	1670192	-	TGGCCGGC	71.17	intragenic	SC_RS09805	methionine ABC transporter permease	core
+T3	2091488	+	TGGCCGGC	55.5	intragenic	SC_RS11805	Rieske (2Fe-2S) protein	core
+T3	3115382	-	TGGCCGGC	56.67	intragenic	SC_RS16385	hypothetical protein	core
+T3	3160035	-	CCGC	54.21	intragenic	SC_RS16635	PTS transporter subunit EIIC	core
+T3	3281297	-	TGGCCGGC	50.0	intragenic	SC_RS17135	winged helix-turn-helix domain-containing protein	core
+T3	3738896	-	CCGG	72.59	intragenic	SC_RS18990	ATP-dependent Clp protease ATP-binding subunit	core
+T3	5006770	-	TGGCCGGC	55.56	intragenic	SC_RS25075	LolA family protein	core
+T3	5275755	+	TGGCCGGC	50.56	intragenic	SC_RS26375	phosphatase PAP2 family protein	core
+T3	6129441	-	CCGG	51.33	intragenic	SC_RS30370	FxSxx-COOH system tetratricopeptide repeat protein	core
+T3	6838587	+	TGGCCGGC	52.84	intragenic	SC_RS33350	RHS repeat domain-containing protein	arm
+T3	7011226	-	TGGCCGGC	78.69	intragenic	SC_RS33960	LacI family DNA-binding transcriptional regulator	arm
+T3	7318780	+	TGGCCGGC	90.0	intragenic	SC_RS35190	LacI family DNA-binding transcriptional regulator	arm
+T3	7380528	+	TGGCCGGC	55.56	intragenic	SC_RS35415	ABC transporter permease subunit	arm
+T3	7476470	-	TGGCCGGC	64.29	intragenic	SC_RS35790	ABC-F family ATP-binding cassette domain-containing protein	arm
+T3	7618158	-	TGGCCGGC	76.72	intragenic	SC_RS36410	DNA cytosine methyltransferase	arm
+T3	7869604	-	TGGCCGGC	63.33	intragenic	SC_RS37630	transposase	arm
+T3	7891340	-	CCGC	79.82	intragenic	SC_RS37730	NAD(P)/FAD-dependent oxidoreductase	arm
+T3	8218878	-	CCGG	68.15	intragenic	SC_RS39235	glycoside hydrolase	arm
+T3	8508270	+	TGGCCGGC	81.71	intragenic	SC_RS40600	non-ribosomal peptide synthetase	arm
+T3	8540337	-	CCGG	62.4	intragenic	SC_RS40700	CynX/NimT family MFS transporter	arm
+T3	8555565	-	TGGCCGGC	86.35	intragenic	SC_RS40790	maleylpyruvate isomerase family mycothiol-dependent enzyme	arm
+T3	8584323	-	CCGG	59.97	intragenic	SC_RS40925	STAS domain-containing protein	arm

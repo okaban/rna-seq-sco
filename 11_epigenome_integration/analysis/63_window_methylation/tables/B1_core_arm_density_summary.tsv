@@ -1,0 +1,13 @@
+mod_type	timepoint	region	mean_density	total_windows
+4mC	T1	core	0.3250	80
+4mC	T1	arm	0.1470	94
+4mC	T2	core	0.3013	80
+4mC	T2	arm	0.2676	94
+4mC	T3	core	0.2190	80
+4mC	T3	arm	0.1664	94
+6mA	T1	core	0.2215	80
+6mA	T1	arm	0.2246	94
+6mA	T2	core	0.2528	80
+6mA	T2	arm	0.2375	94
+6mA	T3	core	0.2687	80
+6mA	T3	arm	0.2608	94

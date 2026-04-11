@@ -1,0 +1,39 @@
+strain,atcc_id,CCGG_4mC,AAGCCCG_6mA,GATC_6mA,has_4mC,has_6mA
+Streptomyces albus,ATCC 3004,88.52142919229749,0.0,0.0,True,True
+Streptomyces ambofaciens,ATCC 15154,61.742508365045985,0.0,40.823379771832094,True,True
+Streptomyces antibioticus-oligomycini,ATCC 11891,84.97327922401266,0.0,0.0,True,True
+Streptomyces aureofaciens,ATCC 10762,75.74269294896713,0.0,45.57975442608167,True,True
+Streptomyces aureoverticillatus,ATCC 15853,70.99085529881076,15.990213464750791,63.696582754481696,True,True
+Streptomyces avermitilis,ATCC 31267,0.0,0.0,0.0,False,True
+Streptomyces bikiniensis,ATCC 11062,88.96896099223679,0.0,0.0,True,True
+Streptomyces californicus,ATCC 15436,73.20457481218804,0.0,0.0,True,False
+Streptomyces canus,ATCC 12237,67.76339944800051,0.0,61.86841117373119,True,True
+Streptomyces cattleya,ATCC 35852,89.08753883293676,36.844820512829465,76.87496940092467,True,True
+Streptomyces clavuligerus,ATCC 27064,0.0,0.0,55.54709158757928,False,False
+Streptomyces coelescens,ATCC 19833,84.86212527455788,0.0,45.636968998990504,True,True
+Streptomyces diastatochromogenes,ATCC 12309,62.23651931039313,15.961470446025173,0.0,True,True
+Streptomyces fulvissimus,ATCC 27431,81.20572031542851,12.22133955202271,44.63476238100519,True,True
+Streptomyces globisporus subsp. globisporus,ATCC 15864,78.69894380482674,0.0,53.007332881069885,True,True
+Streptomyces griseorubiginosus,ATCC 19766,79.12672414065639,0.0,0.0,True,True
+Streptomyces griseus subsp. griseus,ATCC 10137,82.82355145850693,24.81386789093172,57.101640734341984,True,True
+Streptomyces hygroscopicus subsp. hygroscopicus,ATCC 27438,0.0,0.0,52.574239243053064,False,False
+Streptomyces lavendulae subsp. lavendulae,ATCC 8664,87.22699421778279,0.0,49.1519266196649,True,True
+Streptomyces lividans,ATCC 19844,0.0,0.0,72.32481518257669,False,True
+Streptomyces lydicus,ATCC 25470,86.14381770563153,0.0,61.57368967662603,True,True
+Streptomyces natalensis,ATCC 27448,86.88273899770479,0.0,0.0,True,True
+Streptomyces netropsis,ATCC 23940,84.5404429776748,0.0,56.696440125951156,True,True
+Streptomyces nodosus,ATCC 14899,63.595961020010485,19.696087960622656,68.12075835580711,True,True
+Streptomyces noursei,ATCC 11455,89.15346248162882,0.0,52.03513239267079,True,True
+Streptomyces peucetius subsp. caesius,ATCC 27952,61.106608420635986,0.0,0.0,True,True
+Streptomyces platensis,ATCC 23948,87.24797657899961,0.0,79.42601816442402,True,True
+Streptomyces prasinus,ATCC 13879,80.16406642217636,0.0,54.71132530877013,True,True
+Streptomyces rimosus subsp. rimosus,ATCC 10970,79.00589132282684,0.0,52.83120259886943,True,True
+Streptomyces roseofulvus,ATCC 27454,61.22325424664292,0.0,0.0,True,True
+Streptomyces sp. NRRL WC-3753,ATCC 55227,66.79487325593814,0.0,55.469413852021496,True,True
+Streptomyces spectabilis,ATCC 27465,64.1256283243798,0.0,75.09357413523924,True,True
+Streptomyces tsukubensis,ATCC 67382,79.79952138102537,0.0,49.67409163601807,True,True
+Streptomyces venezuelae,ATCC 10595,0.0,28.993043718198038,53.968382984506434,False,True
+Streptomyces violaceoruber,ATCC 14980,86.9133077985773,29.26094938462863,0.0,True,True
+Streptomyces virginiae,ATCC 13161,86.95662565581237,0.0,0.0,True,True
+Streptomyces viridochromogenes,ATCC 14920,60.151847515386564,0.0,66.07845038010402,True,False
+Streptomyces coelicolor A3(2) M145,Reference,75.6,35.0,45.0,True,True

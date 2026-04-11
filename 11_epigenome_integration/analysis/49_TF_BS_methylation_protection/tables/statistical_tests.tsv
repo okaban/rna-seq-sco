@@ -1,0 +1,17 @@
+test_id	description	test_type	observed	expected	n	fold	pvalue	significant	direction
+T1_overlap_GCCGGC_T1	TFBS overlap with GCCGGC_T1 (±10bp)	binomial	373.0	322.3496838544545	56338	1.157128480908996	0.0056657384847516225	True	enriched
+T1_overlap_AAGCCCG_T1	TFBS overlap with AAGCCCG_T1 (±10bp)	binomial	41.0	65.16911124475945	56338	0.6291324097702345	0.0018834432816844148	True	depleted
+T1_overlap_All_4mC_T1	TFBS overlap with All_4mC_T1 (±10bp)	binomial	503.0	496.133201682794	56338	1.013840634518946	0.7522271119748987	False	enriched
+T1_overlap_All_6mA_T1	TFBS overlap with All_6mA_T1 (±10bp)	binomial	542.0	482.95654097038584	56338	1.1222541864967404	0.00801229781410968	True	enriched
+T1_overlap_All_T1	TFBS overlap with All_T1 (±10bp)	binomial	1007.0	974.0972766186543	56338	1.0337776566787658	0.2861297733072067	False	enriched
+T2_spatial_GCCGGC_T1	Central (-200 to +200) vs flank density for GCCGGC_T1	ratio	0.15046871671046091	0.1488163850331926	56324	1.0111031569332891			enriched
+T2_spatial_All_4mC_T1	Central (-200 to +200) vs flank density for All_4mC_T1	ratio	0.22556991690931044	0.22926954275977124	56324	0.9838634220405923			depleted
+T2_spatial_All_6mA_T1	Central (-200 to +200) vs flank density for All_6mA_T1	ratio	0.22920957318372276	0.22300547587773772	56324	1.027820381008879			enriched
+T2_spatial_All_T1	Central (-200 to +200) vs flank density for All_T1	ratio	0.4546019458845253	0.45192796158898074	56324	1.0059168374670662			enriched
+T3_perm_GCCGGC_T1	Permutation test: central depletion for GCCGGC_T1	permutation	0.15046871671046091	0.14881638503319253	1000	1.0111031569332896	0.744	False	enriched
+T3_perm_All_4mC_T1	Permutation test: central depletion for All_4mC_T1	permutation	0.22556991690931044	0.22926954275977135	1000	0.9838634220405919	0.12	False	depleted
+T3_perm_All_6mA_T1	Permutation test: central depletion for All_6mA_T1	permutation	0.22920957318372276	0.22300547587773792	1000	1.0278203810088782	0.96	False	enriched
+T3_perm_All_T1	Permutation test: central depletion for All_T1	permutation	0.4546019458845253	0.4519279615889808	1000	1.0059168374670662	0.7	False	enriched
+T4_reg_vs_nonreg_All_4mC_T1	Regulatory vs non-reg promoter TFBS central density (All_4mC_T1)	comparison	0.19777031154551009	0.21749616312212233	3274	0.9093048295958382			reg < nonreg
+T4_reg_vs_nonreg_All_T1	Regulatory vs non-reg promoter TFBS central density (All_T1)	comparison	0.40546731826511917	0.43784257838193374	3274	0.9260573052614967			reg < nonreg
+T5_promoter_vs_intragenic_All_4mC_T1	Promoter vs intragenic TFBS overlap (All_4mC_T1)	fisher_exact	0.008318319469467551	0.009700085689802913	55262	0.8563562580502403	0.08748170643049104	False	promoter < intragenic

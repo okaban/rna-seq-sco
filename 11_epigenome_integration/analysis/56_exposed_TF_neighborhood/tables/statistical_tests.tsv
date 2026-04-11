@@ -1,0 +1,28 @@
+step	window_kb	comparison	metric	timepoint	statistic	p_value	effect_size_r	exposed_mean	control_mean	n_exposed	n_control
+Step3_neighborhood_expression	10	Exposed_vs_Shielded	mean_absLFC	T2vsT1	2011.0	0.8408745001477753	-0.03579706412567596	1.3993728955389224	1.5010784907126216	11	353.0
+Step3_neighborhood_expression	10	Exposed_vs_Shielded	mean_absLFC	T3vsT1	1874.0	0.8454278245124361	0.03476693278392995	1.5698137991636907	1.7709910629649377	11	353.0
+Step3_neighborhood_expression	10	Exposed_vs_Background	pooled_absLFC	T2vsT1	645836.5	0.6451895241051815		1.3993728955389224	1.4800234845362403	11	7282.0
+Step3_neighborhood_expression	10	Exposed_vs_Background	pooled_absLFC	T3vsT1	611407.5	0.09633276371572974		1.5698137991636907	1.8078326210122209	11	7282.0
+Step3_neighborhood_expression	10	Exposed_vs_Shielded	DEG_rate	T2vsT1	1988.5	0.8923543368459106		0.676854681266446		11	353.0
+Step3_neighborhood_expression	10	Exposed_vs_Shielded	DEG_rate	T3vsT1	2002.5	0.8602104427847936		0.7839391817332995		11	353.0
+Step3_neighborhood_expression	20	Exposed_vs_Shielded	mean_absLFC	T2vsT1	1775.0	0.62907879529119	0.08575843420036056	1.32825741040057	1.5655587478994812	11	353.0
+Step3_neighborhood_expression	20	Exposed_vs_Shielded	mean_absLFC	T3vsT1	1730.0	0.5392390755632988	0.10893638938964723	1.5789489096421354	1.8238639513687827	11	353.0
+Step3_neighborhood_expression	20	Exposed_vs_Background	pooled_absLFC	T2vsT1	1340014.5	0.4355363467068898		1.32825741040057	1.4800234845362403	11	7282.0
+Step3_neighborhood_expression	20	Exposed_vs_Background	pooled_absLFC	T3vsT1	1301476.5	0.08906519555191181		1.5789489096421354	1.8078326210122209	11	7282.0
+Step3_neighborhood_expression	20	Exposed_vs_Shielded	DEG_rate	T2vsT1	2159.0	0.5277476568906547		0.686207311215611		11	353.0
+Step3_neighborhood_expression	20	Exposed_vs_Shielded	DEG_rate	T3vsT1	2120.5	0.6034616809659075		0.7922379508358613		11	353.0
+Step3_neighborhood_expression	50	Exposed_vs_Shielded	mean_absLFC	T2vsT1	1476.0	0.1760400527968915	0.2397630697913984	1.3496978807990212	1.5620285510149672	11	353.0
+Step3_neighborhood_expression	50	Exposed_vs_Shielded	mean_absLFC	T3vsT1	1932.0	0.9791073548593356	0.004893123873293881	1.7258081625218908	1.8273584809475718	11	353.0
+Step3_neighborhood_expression	50	Exposed_vs_Background	pooled_absLFC	T2vsT1	3509860.5	0.4054412590123554		1.3496978807990212	1.4800234845362403	11	7282.0
+Step3_neighborhood_expression	50	Exposed_vs_Background	pooled_absLFC	T3vsT1	3536984.5	0.6563135689248749		1.7258081625218908	1.8078326210122209	11	7282.0
+Step3_neighborhood_expression	50	Exposed_vs_Shielded	DEG_rate	T2vsT1	1778.5	0.636322861339167		0.6569473760964167		11	353.0
+Step3_neighborhood_expression	50	Exposed_vs_Shielded	DEG_rate	T3vsT1	1898.5	0.901578550584124		0.7824983844467405		11	353.0
+Step4_directional_concordance	20	Exposed_vs_Shielded_concordance	concordance_rate_T3	T3vsT1	1734.0	0.5469450252360968	0.10687612670615498	0.491267588304849	0.528123010327261	11	353.0
+Step5_bloc_comparison	20	Activation_vs_Repression	baseMean	T3vsT1						7	0.0
+Step5_bloc_comparison	20	Activation_vs_Repression	DEG_rate_T3	T3vsT1						7	0.0
+Step5_bloc_comparison	20	Activation_vs_Repression	absLFC_T3	T3vsT1						7	0.0
+Step5_bloc_comparison	20	Activation_vs_Repression	direction_chi2	T3vsT1						7	0.0
+Step7_distance_decay	50	Exposed_distance_rho_vs_0	Spearman_rho_distance_absLFC	T3vsT1	1.3772295533971814	0.19848442632867497	0.07172975156128458	0.07172975156128458	0.0	11	
+Step7_distance_decay	50	Exposed_vs_Shielded_distance_rho	Spearman_rho_distance_absLFC	T3vsT1	2183.0	0.4831423124076347		0.07172975156128458	0.023661878051542646	11	353.0
+Step8_permutation	20	Observed_vs_Permutation	mean_absLFC_T3	T3vsT1	-2.56797598733769	0.996003996003996		1.5789489096421354	1.8262966197433297	62	1000.0
+Step8_permutation	20	Observed_vs_Permutation	concordance_rate	T3vsT1	-3.984265430716379	0.999000999000999		0.491267588304849	0.6015276215033883	62	1000.0

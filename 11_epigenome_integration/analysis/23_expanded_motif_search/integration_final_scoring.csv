@@ -1,0 +1,7 @@
+motif,mod_type,sites,S1_nanopore,S2_rebase_novelty,S3_mtase_assignment,S4_selection_pressure,S5_temporal_dynamics,total_score,classification,discovery_method
+AAGCCCG,4mC + 6mA (DUAL),"973 (4mC, 36.3%) + 360 (6mA, 11.2%)",2,2,2,2,2,10,HIGH-CONFIDENCE NOVEL,"MEME-1 (6mA, E=3.1e-256); STREME (4mC residual, E=1.4e-22)"
+CCGKCA,6mA,"153 (6mA, 4.8%)",2,2,1,1,1,7,CANDIDATE (needs validation),"MEME-2 (6mA, 954 sites, E=6.3e-45); core CCG[GT]CA"
+GAACCGG,6mA,"61 (6mA, 1.9%)",1,1,0,2,0,4,ESTABLISHED / INSUFFICIENT,"STREME-4 (non-AAGCCCG, E=3.1e-1); 49 sites in 12bp context"
+CCGG/GGCCGG/TGGCCGGC,4mC,"2034 (4mC, 75.9%)",2,0,1,0,1,4,ESTABLISHED / INSUFFICIENT,"MEME-1 (4mC, E=6.4e-1211); established R-M motif"
+GATC,6mA,"37 (6mA, 1.2%)",1,0,0,2,1,4,ESTABLISHED / INSUFFICIENT,Dam-type; known across bacteria
+CGGCAACC,6mA,"57 (6mA, 1.8%)",1,2,0,0,0,3,ESTABLISHED / INSUFFICIENT,STREME-3 (6mA residual); 8bp pattern

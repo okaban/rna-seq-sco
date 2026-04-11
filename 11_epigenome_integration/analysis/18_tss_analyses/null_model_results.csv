@@ -1,0 +1,5 @@
+test,p_value,observed,expected
+minus10_length_null,0.0,32,58.1078
+minus10_motif_null,0.5358,32,32.0577
+sarp_zone_fisher,0.6546290474244124,0,0.4184239733629301
+sarp_zone_permutation,0.6495,0,0.4184239733629301

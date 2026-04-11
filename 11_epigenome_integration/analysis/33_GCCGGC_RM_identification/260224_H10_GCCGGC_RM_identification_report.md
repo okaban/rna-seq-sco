@@ -1,0 +1,1 @@
+/Users/okaban/bioinfo/rna-seq/reports/260224_H10_GCCGGC_RM_identification_report.md

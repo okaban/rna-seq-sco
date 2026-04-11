@@ -1,0 +1,4 @@
+module_id	source	n_members	locus_tags	old_locus_tags	tf_families	span_bp	is_proximal	mean_coexpression	is_coexpressed	dominant_coordination_T3	coordination_coherence_T3	dominant_coordination_T2	coordination_coherence_T2	evidence_score	region
+1	proximity_50k	2	SC_RS22780, SC_RS22980	, 	LacI, MarR	45881.0	True	0.1667	False	N/A	1.0	N/A	1.0	2.0	core
+2	coexpression_06	6	SC_RS06310, SC_RS17795, SC_RS22135, SC_RS37910, SC_RS38785, SC_RS39260	, , , , , 	LacI, LuxR, Sigma factor	7302853.0	False	0.4833	False	N/A	1.0	N/A	1.0	1.0	core, left_arm, right_arm
+3	coexpression_06	5	SC_RS07910, SC_RS22780, SC_RS22980, SC_RS25990, SC_RS35195	, , , , 	LacI, LysR, MarR, TetR	6055100.0	False	0.5667	False	N/A	1.0	N/A	1.0	1.0	core, left_arm, right_arm

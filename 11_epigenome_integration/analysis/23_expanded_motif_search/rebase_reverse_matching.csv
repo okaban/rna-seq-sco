@@ -1,0 +1,133 @@
+rebase_motif,mod_type,total_sites,center_matches,center_pct,residual_matches,residual_pct,rebase_methyl_type,enzymes,organisms
+CNNG,4mC,2693,2693,100.0,644,100.0,,SgeI,Streptomyces griseoflavus RFL11
+CCDS,4mC,2693,2049,76.09,0,0.0,,SgrTI,Streptomyces griseoflavus Tu4000
+GCCGGC,4mC,2693,1717,63.76,0,0.0,m5C,SacAI; SalCI; SaoI,Streptomyces albofaciens; Streptomyces achromogenes; Streptomyces albus
+CCSGG,4mC,2693,312,11.59,150,23.29,,Ssp2I,Streptomyces species RFL2
+GGCCNNNNNGGCC,4mC,2693,91,3.38,0,0.0,,SdiI; SfiI; M.SfiI,Streptomyces diastaticus; Streptomyces fimbriatus
+GGCGCC,4mC,2693,41,1.52,0,0.0,,SseAI,Streptomyces species A
+CAGNNNNNNCTTG,4mC,2693,29,1.08,22,3.42,"m6A, m6A",M.SgrAIII,Streptomyces griseus
+CCGCGG,4mC,2693,17,0.63,0,0.0,m5C,SaaI; SabI; SacII,Streptomyces albohelvatus; Streptomyces achromogenes; Streptomyces alanosinicus
+GCCCGGGC,4mC,2693,13,0.48,3,0.47,m5C,M.Slo00643II; SrfI; M.Ssp281II,Streptomyces longwoodensis NBC 00643; Streptomyces species NBC_01281; Streptomyces species Srf
+CGACNNNNNCTTC,4mC,2693,11,0.41,6,0.93,"m6A, m6A",M.Sfr10745I,Streptomyces fradiae ATCC 10745 = DSM 40063
+AAGNNNNNGTCC,4mC,2693,10,0.37,7,1.09,"m6A, m6A",M.Ssp714I,Streptomyces sp. WMMB 714
+GCCANNNNNNTGCG,4mC,2693,9,0.33,1,0.16,"m6A, m6A",M.SspV179I,Streptomyces species V17-9
+CGGANNNNNNNCTT,4mC,2693,6,0.22,4,0.62,"m6A, m6A",M1.SspWHI; M2.SspWHI,Streptomyces species CCM_MD2014
+AGCNNNNNGTCGG,4mC,2693,5,0.19,4,0.62,"m6A, m6A",M.Ssp3180I,Streptomyces species Tu 3180
+GGCANNNNNCTC,4mC,2693,5,0.19,0,0.0,"m6A, m6A",M.SpaACT12I,Streptomyces pactum ACT12
+TCGANNNNNNNGTCC,4mC,2693,3,0.11,2,0.31,"m6A, m6A",M1.SspTu2975I; M2.SspTu2975I,Streptomyces species Tu 2975
+TCGANNNNNNNVTCGC,4mC,2693,3,0.11,0,0.0,"m6A, m6A",M.Ssp1112I,Streptomyces species 11-1-2
+CRCCGGYG,4mC,2693,2,0.07,0,0.0,m5C,SgrAI; M.SgrAI; SvoI,Streptomyces violaceoruber RFL10; Streptomyces griseus
+CCGANNNNNNCTAC,4mC,2693,1,0.04,1,0.16,"m6A, m6A",M.Sgr3E1I,Streptomyces griseorubiginosus 3E-1
+CGAGATC,4mC,2693,1,0.04,1,0.16,m6A,SgrAII,Streptomyces griseus
+CGCCGGCG,4mC,2693,1,0.04,0,0.0,,Sse232I,Streptomyces species RH232
+CGTCGACG,4mC,2693,1,0.04,1,0.16,,SgrDI,Streptomyces griseus RFL6
+GGCGCGCC,4mC,2693,1,0.04,0,0.0,,SgsI,Streptomyces griseus RFL5
+AAGCTT,4mC,2693,0,0.0,0,0.0,,SsbI,Streptomyces scabies
+ACAGNNNNNGTG,4mC,2693,0,0.0,0,0.0,"m6A, m6A",M.SspLRE541I,Streptomyces species LRE541
+ACCWGGT,4mC,2693,0,0.0,0,0.0,,SexAI,Streptomyces exfoliatus
+AGCANNNNNNTCGC,4mC,2693,0,0.0,0,0.0,"m6A, m6A",M.Ssp142TI; M.Ssp142WI,Streptomyces species AC1-42W; Streptomyces species AC1-42T
+AGGCCT,4mC,2693,0,0.0,0,0.0,,SarI; SseBI; SsvI,Streptomyces aureomonopodiales; Streptomyces species B; Streptomyces sviceus
+AGGWCCT,4mC,2693,0,0.0,0,0.0,,Sse8647I,Streptomyces species
+AGTACT,4mC,2693,0,0.0,0,0.0,,ScaI; M.ScaI,Streptomyces caespitosus
+ASST,4mC,2693,0,0.0,0,0.0,,SetI,Streptomyces werraensis
+CAGCTG,4mC,2693,0,0.0,0,0.0,,Sol3335I,Streptomyces olivaceus IMRU 3335
+CCACNNNNNNCTGC,4mC,2693,0,0.0,0,0.0,"m6A, m6A",M.SpuS1I,Streptomyces puniciscabiei TW1S1
+CCAGNNNNNNGTNGT,4mC,2693,0,0.0,0,0.0,"m6A, m6A",M.SbrCR22I,Streptomyces brunneus CR22
+CCTGCAGG,4mC,2693,0,0.0,0,0.0,m6A,SbfI; M.SbfI; SdaI,Streptomyces species Bf-61; Streptomyces diastaticus Ng7-324
+CCTNAGG,4mC,2693,0,0.0,0,0.0,,SauI; SauHI,Streptomyces aureofaciens 13; Streptomyces aureofaciens IKA 18/4
+CCWGG,4mC,2693,0,0.0,0,0.0,m5C,Scg2I; M.SexAI; Sgr20I,Streptomyces hybrid; Streptomyces exfoliatus; Streptomyces griseus Kr. 20
+CGACNNNCTCC,4mC,2693,0,0.0,0,0.0,"m6A, m6A",M.SfiL30I,Streptomyces filamentosus L30
+CGACNNNNNCTGC,4mC,2693,0,0.0,0,0.0,"m6A, m6A",M.Ssp142WII,Streptomyces species AC1-42W
+CGCAGCG,4mC,2693,0,0.0,0,0.0,m6A,Ssp714II,Streptomyces sp. WMMB 714
+CTCGAG,4mC,2693,0,0.0,0,0.0,m6A,Sal1974I; Sau3239I; M.Sau3239I,Streptomyces aureofaciens; Streptomyces albus 1974
+CTGATG,4mC,2693,0,0.0,0,0.0,,SsmI,Streptomyces sampsonii RFL6
+CTGCAG,4mC,2693,0,0.0,0,0.0,m6A,Sal13I; SalPI; ScoAI,Streptomyces corchorusii; Streptomyces albus 13; Streptomyces albus
+GACCNNNNNGCTG,4mC,2693,0,0.0,0,0.0,"m6A, m6A",M.Ssp1112II,Streptomyces species 11-1-2
+GACGTC,4mC,2693,0,0.0,0,0.0,,Ssp5230I,Streptomyces species 5230
+GACNNNNNCTAC,4mC,2693,0,0.0,0,0.0,"m6A, m6A",M.SspCFMR7I,Streptomyces species CFMR 7
+GAGCTC,4mC,2693,0,0.0,0,0.0,m5C,SacI; M.SacI; ScoI,Streptomyces achromogenes; Streptomyces coelicolor
+GATC,4mC,2693,0,0.0,0,0.0,,SalAI; SalHI; SbgI,Streptomyces bambergiensis S712; Streptomyces albus; Streptomyces albulus
+GCATGC,4mC,2693,0,0.0,0,0.0,,SpaXI; SphI; M.SphI,Streptomyces phaeochromogenes
+GCCGAGG,4mC,2693,0,0.0,0,0.0,m6A,Sgr7807I,Streptomyces griseus NCTC7807
+GCGANNNNNNRTTC,4mC,2693,0,0.0,0,0.0,"m6A, m6A",M.Sha12236I,Streptomyces hawaiiensis ATCC 12236
+GCGATCGC,4mC,2693,0,0.0,0,0.0,,SgfI,Streptomyces griseoruber
+GCTCTTC,4mC,2693,0,0.0,0,0.0,m6A,M1.Sgr13033I; M2.Sgr13033I; Sgr13350III,Streptomyces griseus subsp. griseus NBRC 13350; Streptomyces griseus NCTC13033
+GGACNNNNNNCTCG,4mC,2693,0,0.0,0,0.0,"m6A, m6A",M.SprPR11I,Streptomyces pristinaespiralis PR11
+GGAGNNNNNGTGC,4mC,2693,0,0.0,0,0.0,"m6A, m6A",M.SmiP16B1I,Streptomyces mirabilis P16B-1
+GGATCC,4mC,2693,0,0.0,0,0.0,,SpvI,Streptomyces parvus
+GGGWCCC,4mC,2693,0,0.0,0,0.0,,SanDI; Sse1825I,Streptomyces species
+GGTCTC,4mC,2693,0,0.0,0,0.0,,SlbI,Streptomyces albidoflavus
+GGWCC,4mC,2693,0,0.0,0,0.0,,Sgh1835I,Streptomyces ghanaesis 1835
+GRGCYC,4mC,2693,0,0.0,0,0.0,,SacNI,Streptomyces achromogenes N-J-H
+GTCGAC,4mC,2693,0,0.0,0,0.0,m6A,SalI; M.SalI,Streptomyces albus G
+GTGCAC,4mC,2693,0,0.0,0,0.0,,SnoI,Streptomyces novocastria
+TCGCGA,4mC,2693,0,0.0,0,0.0,,SalDI,Streptomyces albus
+TGATCA,4mC,2693,0,0.0,0,0.0,,SstIV,Streptomyces stanford
+TGTACA,4mC,2693,0,0.0,0,0.0,,Ssp4800I; SspBI,Streptomyces species BMTU 4800; Streptomyces species
+TTCGAA,4mC,2693,0,0.0,0,0.0,,SfuI; Sgr1839I; Ssp1I,Streptomyces species RFL1; Streptomyces fulvissimus; Streptomyces griseoflavus 1839
+CNNG,6mA,3248,1346,41.44,1079,41.95,,SgeI,Streptomyces griseoflavus RFL11
+CCDS,6mA,3248,684,21.06,560,21.77,,SgrTI,Streptomyces griseoflavus Tu4000
+CCSGG,6mA,3248,151,4.65,150,5.83,,Ssp2I,Streptomyces species RFL2
+ASST,6mA,3248,92,2.83,91,3.54,,SetI,Streptomyces werraensis
+GGWCC,6mA,3248,64,1.97,57,2.22,,Sgh1835I,Streptomyces ghanaesis 1835
+GRGCYC,6mA,3248,40,1.23,37,1.44,,SacNI,Streptomyces achromogenes N-J-H
+GATC,6mA,3248,39,1.2,0,0.0,,SalAI; SalHI; SbgI,Streptomyces bambergiensis S712; Streptomyces albus; Streptomyces albulus
+CRCCGGYG,6mA,3248,32,0.99,31,1.21,m5C,SgrAI; M.SgrAI; SvoI,Streptomyces violaceoruber RFL10; Streptomyces griseus
+CCWGG,6mA,3248,29,0.89,29,1.13,m5C,Scg2I; M.SexAI; Sgr20I,Streptomyces hybrid; Streptomyces exfoliatus; Streptomyces griseus Kr. 20
+CAGNNNNNNCTTG,6mA,3248,27,0.83,15,0.58,"m6A, m6A",M.SgrAIII,Streptomyces griseus
+GCCGGC,6mA,3248,23,0.71,0,0.0,m5C,SacAI; SalCI; SaoI,Streptomyces albofaciens; Streptomyces achromogenes; Streptomyces albus
+GGCANNNNNCTC,6mA,3248,12,0.37,10,0.39,"m6A, m6A",M.SpaACT12I,Streptomyces pactum ACT12
+GGCCNNNNNGGCC,6mA,3248,11,0.34,11,0.43,,SdiI; SfiI; M.SfiI,Streptomyces diastaticus; Streptomyces fimbriatus
+AAGNNNNNGTCC,6mA,3248,10,0.31,3,0.12,"m6A, m6A",M.Ssp714I,Streptomyces sp. WMMB 714
+GACGTC,6mA,3248,8,0.25,8,0.31,,Ssp5230I,Streptomyces species 5230
+GCGANNNNNNRTTC,6mA,3248,8,0.25,8,0.31,"m6A, m6A",M.Sha12236I,Streptomyces hawaiiensis ATCC 12236
+CCGCGG,6mA,3248,7,0.22,0,0.0,m5C,SaaI; SabI; SacII,Streptomyces albohelvatus; Streptomyces achromogenes; Streptomyces alanosinicus
+CTGATG,6mA,3248,7,0.22,7,0.27,,SsmI,Streptomyces sampsonii RFL6
+GGATCC,6mA,3248,7,0.22,1,0.04,,SpvI,Streptomyces parvus
+GGTCTC,6mA,3248,7,0.22,7,0.27,,SlbI,Streptomyces albidoflavus
+CGACNNNNNCTTC,6mA,3248,6,0.18,5,0.19,"m6A, m6A",M.Sfr10745I,Streptomyces fradiae ATCC 10745 = DSM 40063
+CGGANNNNNNNCTT,6mA,3248,6,0.18,2,0.08,"m6A, m6A",M1.SspWHI; M2.SspWHI,Streptomyces species CCM_MD2014
+GCCGAGG,6mA,3248,6,0.18,4,0.16,m6A,Sgr7807I,Streptomyces griseus NCTC7807
+GTGCAC,6mA,3248,6,0.18,5,0.19,,SnoI,Streptomyces novocastria
+TCGANNNNNNNGTCC,6mA,3248,6,0.18,4,0.16,"m6A, m6A",M1.SspTu2975I; M2.SspTu2975I,Streptomyces species Tu 2975
+TTCGAA,6mA,3248,6,0.18,4,0.16,,SfuI; Sgr1839I; Ssp1I,Streptomyces species RFL1; Streptomyces fulvissimus; Streptomyces griseoflavus 1839
+GCTCTTC,6mA,3248,5,0.15,5,0.19,m6A,M1.Sgr13033I; M2.Sgr13033I; Sgr13350III,Streptomyces griseus subsp. griseus NBRC 13350; Streptomyces griseus NCTC13033
+GGAGNNNNNGTGC,6mA,3248,5,0.15,4,0.16,"m6A, m6A",M.SmiP16B1I,Streptomyces mirabilis P16B-1
+GGGWCCC,6mA,3248,5,0.15,5,0.19,,SanDI; Sse1825I,Streptomyces species
+CCACNNNNNNCTGC,6mA,3248,4,0.12,3,0.12,"m6A, m6A",M.SpuS1I,Streptomyces puniciscabiei TW1S1
+GGACNNNNNNCTCG,6mA,3248,4,0.12,4,0.16,"m6A, m6A",M.SprPR11I,Streptomyces pristinaespiralis PR11
+GGCGCC,6mA,3248,4,0.12,4,0.16,,SseAI,Streptomyces species A
+GTCGAC,6mA,3248,4,0.12,0,0.0,m6A,SalI; M.SalI,Streptomyces albus G
+AGCNNNNNGTCGG,6mA,3248,3,0.09,1,0.04,"m6A, m6A",M.Ssp3180I,Streptomyces species Tu 3180
+CGACNNNCTCC,6mA,3248,3,0.09,2,0.08,"m6A, m6A",M.SfiL30I,Streptomyces filamentosus L30
+GACCNNNNNGCTG,6mA,3248,3,0.09,3,0.12,"m6A, m6A",M.Ssp1112II,Streptomyces species 11-1-2
+GCCCGGGC,6mA,3248,3,0.09,2,0.08,m5C,M.Slo00643II; SrfI; M.Ssp281II,Streptomyces longwoodensis NBC 00643; Streptomyces species NBC_01281; Streptomyces species Srf
+TCGANNNNNNNVTCGC,6mA,3248,3,0.09,1,0.04,"m6A, m6A",M.Ssp1112I,Streptomyces species 11-1-2
+TGATCA,6mA,3248,3,0.09,0,0.0,,SstIV,Streptomyces stanford
+CAGCTG,6mA,3248,2,0.06,0,0.0,,Sol3335I,Streptomyces olivaceus IMRU 3335
+CGCCGGCG,6mA,3248,2,0.06,2,0.08,,Sse232I,Streptomyces species RH232
+CGTCGACG,6mA,3248,2,0.06,0,0.0,,SgrDI,Streptomyces griseus RFL6
+GAGCTC,6mA,3248,2,0.06,2,0.08,m5C,SacI; M.SacI; ScoI,Streptomyces achromogenes; Streptomyces coelicolor
+GCATGC,6mA,3248,2,0.06,1,0.04,,SpaXI; SphI; M.SphI,Streptomyces phaeochromogenes
+ACAGNNNNNGTG,6mA,3248,1,0.03,1,0.04,"m6A, m6A",M.SspLRE541I,Streptomyces species LRE541
+AGGWCCT,6mA,3248,1,0.03,1,0.04,,Sse8647I,Streptomyces species
+CGACNNNNNCTGC,6mA,3248,1,0.03,1,0.04,"m6A, m6A",M.Ssp142WII,Streptomyces species AC1-42W
+CGCAGCG,6mA,3248,1,0.03,1,0.04,m6A,Ssp714II,Streptomyces sp. WMMB 714
+GACNNNNNCTAC,6mA,3248,1,0.03,1,0.04,"m6A, m6A",M.SspCFMR7I,Streptomyces species CFMR 7
+GCCANNNNNNTGCG,6mA,3248,1,0.03,1,0.04,"m6A, m6A",M.SspV179I,Streptomyces species V17-9
+TGTACA,6mA,3248,1,0.03,1,0.04,,Ssp4800I; SspBI,Streptomyces species BMTU 4800; Streptomyces species
+AAGCTT,6mA,3248,0,0.0,0,0.0,,SsbI,Streptomyces scabies
+ACCWGGT,6mA,3248,0,0.0,0,0.0,,SexAI,Streptomyces exfoliatus
+AGCANNNNNNTCGC,6mA,3248,0,0.0,0,0.0,"m6A, m6A",M.Ssp142TI; M.Ssp142WI,Streptomyces species AC1-42W; Streptomyces species AC1-42T
+AGGCCT,6mA,3248,0,0.0,0,0.0,,SarI; SseBI; SsvI,Streptomyces aureomonopodiales; Streptomyces species B; Streptomyces sviceus
+AGTACT,6mA,3248,0,0.0,0,0.0,,ScaI; M.ScaI,Streptomyces caespitosus
+CCAGNNNNNNGTNGT,6mA,3248,0,0.0,0,0.0,"m6A, m6A",M.SbrCR22I,Streptomyces brunneus CR22
+CCGANNNNNNCTAC,6mA,3248,0,0.0,0,0.0,"m6A, m6A",M.Sgr3E1I,Streptomyces griseorubiginosus 3E-1
+CCTGCAGG,6mA,3248,0,0.0,0,0.0,m6A,SbfI; M.SbfI; SdaI,Streptomyces species Bf-61; Streptomyces diastaticus Ng7-324
+CCTNAGG,6mA,3248,0,0.0,0,0.0,,SauI; SauHI,Streptomyces aureofaciens 13; Streptomyces aureofaciens IKA 18/4
+CGAGATC,6mA,3248,0,0.0,0,0.0,m6A,SgrAII,Streptomyces griseus
+CTCGAG,6mA,3248,0,0.0,0,0.0,m6A,Sal1974I; Sau3239I; M.Sau3239I,Streptomyces aureofaciens; Streptomyces albus 1974
+CTGCAG,6mA,3248,0,0.0,0,0.0,m6A,Sal13I; SalPI; ScoAI,Streptomyces corchorusii; Streptomyces albus 13; Streptomyces albus
+GCGATCGC,6mA,3248,0,0.0,0,0.0,,SgfI,Streptomyces griseoruber
+GGCGCGCC,6mA,3248,0,0.0,0,0.0,,SgsI,Streptomyces griseus RFL5
+TCGCGA,6mA,3248,0,0.0,0,0.0,,SalDI,Streptomyces albus

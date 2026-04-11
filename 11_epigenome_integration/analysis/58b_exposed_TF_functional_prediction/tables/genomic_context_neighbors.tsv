@@ -1,0 +1,91 @@
+tf_locus_tag	tf_old_locus_tag	tf_family	bloc	neighbor_locus_tag	neighbor_old_locus_tag	neighbor_product	neighbor_category	distance_bp	neighbor_start	neighbor_end	neighbor_strand
+SC_RS22980	SC_RS22980	LacI	Repression	SC_RS22955	SCO4153	winged helix-turn-helix transcriptional regulator	other	4626	4570805	4571188	-
+SC_RS22980	SC_RS22980	LacI	Repression	SC_RS22960	SCO4154	RidA family protein	other	4127	4571295	4571696	+
+SC_RS22980	SC_RS22980	LacI	Repression	SC_RS22965	SCO4155	sensor histidine kinase	signaling	3229	4571671	4573116	-
+SC_RS22980	SC_RS22980	LacI	Repression	SC_RS22970	SCO4156	response regulator transcription factor	signaling	2137	4573113	4573859	-
+SC_RS22980	SC_RS22980	LacI	Repression	SC_RS22975	SCO4157	S1C family serine protease	stress_response	1156	4573948	4574985	-
+SC_RS22980	SC_RS22980	LacI	Repression	SC_RS22985	SCO4159	two-component system response regulator GlnR	signaling	955	4576177	4576980	-
+SC_RS22980	SC_RS22980	LacI	Repression	SC_RS22990	SCO4160	alpha/beta hydrolase	other	2006	4577199	4578059	+
+SC_RS22980	SC_RS22980	LacI	Repression	SC_RS22995	SCO4161	MoaD/ThiS family protein	other	2600	4578096	4578350	+
+SC_RS22980	SC_RS22980	LacI	Repression	SC_RS23000	SCO4162	hypothetical protein	hypothetical	3387	4578354	4579667	+
+SC_RS22980	SC_RS22980	LacI	Repression	SC_RS23005	SCO4163	LmeA family phospholipid-binding protein	cell_wall_membrane	4569	4579824	4580561	+
+SC_RS22780	SC_RS22780	MarR	Repression	SC_RS22765	SCO4119	NAD(P)/FAD-dependent oxidoreductase	secondary_metabolism	4282	4524770	4526149	+
+SC_RS22780	SC_RS22780	MarR	Repression	SC_RS22770	SCO4120	ATP-binding SpoIIE family protein phosphatase	signaling	2581	4526332	4527990	+
+SC_RS22780	SC_RS22780	MarR	Repression	SC_RS22775	SCO4121	MDR family MFS transporter	transport	1058	4528045	4529322	-
+SC_RS22780	SC_RS22780	MarR	Repression	SC_RS22785	SCOr13		hypothetical	1689	4530668	4532194	+
+SC_RS06310	SC_RS06310	LuxR	Activation	SC_RS06290	SCO0872	PP2C family protein-serine/threonine phosphatase	signaling	4541	918438	919640	-
+SC_RS06310	SC_RS06310	LuxR	Activation	SC_RS06295	SCO0874	cation transporter	transport	2507	920727	921419	-
+SC_RS06310	SC_RS06310	LuxR	Activation	SC_RS06300	SCO0875	ArsR/SmtB family transcription factor	other	1992	921420	921755	-
+SC_RS06310	SC_RS06310	LuxR	Activation	SC_RS06305	SCO0876	hypothetical protein	hypothetical	1529	921927	922175	-
+SC_RS06310	SC_RS06310	LuxR	Activation	SC_RS06315	SCO0878	alpha/beta fold hydrolase	other	1813	924992	925795	+
+SC_RS06310	SC_RS06310	LuxR	Activation	SC_RS06320		ATP-binding cassette domain-containing protein	other	2496	925918	926235	+
+SC_RS06310	SC_RS06310	LuxR	Activation	SC_RS06325		ATP-binding cassette domain-containing protein	other	2835	926261	926569	+
+SC_RS06310	SC_RS06310	LuxR	Activation	SC_RS06330		hypothetical protein	hypothetical	3147	926566	926889	+
+SC_RS06310	SC_RS06310	LuxR	Activation	SC_RS06335	SCO0880	hypothetical protein	hypothetical	3515	926859	927332	+
+SC_RS06310	SC_RS06310	LuxR	Activation	SC_RS06340	SCO0881	pirin family protein	other	4436	927534	928499	-
+SC_RS06310	SC_RS06310	LuxR	Activation	SC_RS06345	SCO0882	tetratricopeptide repeat protein	other	5263	928670	929017	+
+SC_RS06310	SC_RS06310	LuxR	Activation	SC_RS06350	SCO0883	peptide deformylase	other	5809	929061	929717	+
+SC_RS07910	SC_RS07910	MarR	Repression	SC_RS07890	SCO1187	GH12 family glycosyl hydrolase domain-containing protein	other	4386	1259461	1260606	+
+SC_RS07910	SC_RS07910	MarR	Repression	SC_RS07895	SCO1188	lytic polysaccharide monooxygenase	other	3018	1260854	1261948	+
+SC_RS07910	SC_RS07910	MarR	Repression	SC_RS07900	SCO1189	luciferase domain-containing protein	other	2086	1262121	1262546	+
+SC_RS07910	SC_RS07910	MarR	Repression	SC_RS07905	SCO1190	MFS transporter	transport	1110	1262509	1264110	-
+SC_RS07910	SC_RS07910	MarR	Repression	SC_RS07915	SCO1192	DUF779 domain-containing protein	hypothetical	544	1264780	1265148	+
+SC_RS07910	SC_RS07910	MarR	Repression	SC_RS07920	SCO1193	TetR/AcrR family transcriptional regulator	other	1035	1265170	1265739	-
+SC_RS07910	SC_RS07910	MarR	Repression	SC_RS07925	SCO1194	MDR family MFS transporter	transport	2166	1265841	1267331	+
+SC_RS07910	SC_RS07910	MarR	Repression	SC_RS07930	SCO1195	hypothetical protein	hypothetical	2998	1267321	1267515	-
+SC_RS07910	SC_RS07910	MarR	Repression	SC_RS07935	SCO1196	phosphatidylinositol-specific phospholipase C/glycerophosphodiester phosphodiesterase family protein	signaling	3642	1267630	1268493	-
+SC_RS25990	SC_RS25990	LysR	Repression	SC_RS25970	SCO4762	chaperonin GroEL	other	4489	5173179	5174804	+
+SC_RS25990	SC_RS25990	LysR	Repression	SC_RS25975	SCO4763	hypothetical protein	hypothetical	2816	5175044	5176285	-
+SC_RS25990	SC_RS25990	LysR	Repression	SC_RS25980	SCO4764	SDR family NAD(P)-dependent oxidoreductase	secondary_metabolism	1666	5176428	5177201	-
+SC_RS25990	SC_RS25990	LysR	Repression	SC_RS25985	SCO4765	MOSC domain-containing protein	other	891	5177256	5177924	-
+SC_RS25990	SC_RS25990	LysR	Repression	SC_RS25995	SCO4767	WhiB family transcriptional regulator	other	695	5179007	5179345	-
+SC_RS25990	SC_RS25990	LysR	Repression	SC_RS26000	SCO4768	response regulator transcription factor	signaling	1551	5179727	5180338	+
+SC_RS25990	SC_RS25990	LysR	Repression	SC_RS26005	SCO4769	sigma-70 family RNA polymerase sigma factor	signaling	2432	5180620	5181207	+
+SC_RS25990	SC_RS25990	LysR	Repression	SC_RS26010	SCO4770	IMP dehydrogenase	primary_metabolism	3618	5181347	5182852	+
+SC_RS35195	SC_RS35195	TetR	Repression	SC_RS35185	SCO6597	glycoside hydrolase family 3 C-terminal domain-containing protein	other	2769	7315461	7318040	+
+SC_RS35195	SC_RS35195	TetR	Repression	SC_RS35190	SCO6598	LacI family DNA-binding transcriptional regulator	other	862	7318137	7319177	+
+SC_RS35195	SC_RS35195	TetR	Repression	SC_RS35200	SCO6600	ROK family protein	other	1155	7320012	7321337	-
+SC_RS35195	SC_RS35195	TetR	Repression	SC_RS35205	SCO6601	ABC transporter substrate-binding protein	transport	2651	7321513	7322829	+
+SC_RS35195	SC_RS35195	TetR	Repression	SC_RS35210	SCO6602	carbohydrate ABC transporter permease	transport	3885	7322891	7323919	+
+SC_RS35195	SC_RS35195	TetR	Repression	SC_RS35215	SCO6603	carbohydrate ABC transporter permease	transport	4827	7323927	7324766	+
+SC_RS38785	SC_RS38785	Sigma factor	Activation	SC_RS38760	SCO7309	MFS transporter	transport	4458	8115877	8117187	+
+SC_RS38785	SC_RS38785	Sigma factor	Activation	SC_RS38765	SCO7310	cyclic nucleotide-binding domain-containing protein	other	3568	8117195	8117650	-
+SC_RS38785	SC_RS38785	Sigma factor	Activation	SC_RS38770	SCO7311	aminotransferase class I/II-fold pyridoxal phosphate-dependent enzyme	secondary_metabolism	2246	8118005	8119483	-
+SC_RS38785	SC_RS38785	Sigma factor	Activation	SC_RS38775	SCO7312	hypothetical protein	hypothetical	1361	8119513	8119746	-
+SC_RS38785	SC_RS38785	Sigma factor	Activation	SC_RS38780	SCO7313	ATP-binding protein	other	865	8119902	8120348	+
+SC_RS38785	SC_RS38785	Sigma factor	Activation	SC_RS38790	SCO7315	DUF5133 domain-containing protein	hypothetical	589	8121460	8121699	+
+SC_RS38785	SC_RS38785	Sigma factor	Activation	SC_RS38795	SCO7316	DUF1206 domain-containing protein	hypothetical	1190	8121760	8122602	+
+SC_RS38785	SC_RS38785	Sigma factor	Activation	SC_RS38800	SCO7317	hypothetical protein	hypothetical	1857	8122631	8123065	+
+SC_RS38785	SC_RS38785	Sigma factor	Activation	SC_RS38805	SCO7318	FUSC family protein	other	3221	8123089	8125335	-
+SC_RS39260	SC_RS39260	LacI	Activation	SC_RS39245	SCO7408	ABC transporter substrate-binding protein	transport	3379	8222376	8223731	-
+SC_RS39260	SC_RS39260	LacI	Activation	SC_RS39250	SCO7409	carbohydrate ABC transporter permease	transport	2131	8223827	8224777	-
+SC_RS39260	SC_RS39260	LacI	Activation	SC_RS39255	SCO7410	carbohydrate ABC transporter permease	transport	1185	8224785	8225711	-
+SC_RS39260	SC_RS39260	LacI	Activation	SC_RS39265	SCO7412	thiamine pyrophosphate-requiring protein	other	1540	8227072	8228874	+
+SC_RS39260	SC_RS39260	LacI	Activation	SC_RS39270	SCO7413	SDR family oxidoreductase	secondary_metabolism	2953	8228871	8229902	+
+SC_RS39260	SC_RS39260	LacI	Activation	SC_RS39275	SCO7414	hypothetical protein	hypothetical	3876	8229906	8230712	-
+SC_RS17795	SC_RS17795	LuxR	Activation	SC_RS17765	SCO3128	acyl-CoA desaturase	secondary_metabolism	4695	3430174	3431184	+
+SC_RS17795	SC_RS17795	LuxR	Activation	SC_RS17770	SCO3129	TetR/AcrR family transcriptional regulator	other	3855	3431181	3431858	+
+SC_RS17795	SC_RS17795	LuxR	Activation	SC_RS17775	SCO3130	CaiB/BaiF CoA transferase family protein	primary_metabolism	2896	3431891	3433066	+
+SC_RS17795	SC_RS17795	LuxR	Activation	SC_RS17780	SCO3131	VOC family protein	other	2107	3433079	3433456	-
+SC_RS17795	SC_RS17795	LuxR	Activation	SC_RS17785	SCO3132	trans-aconitate 2-methyltransferase	DNA_RNA_processing	1466	3433453	3434364	-
+SC_RS17795	SC_RS17795	LuxR	Activation	SC_RS17790	SCO3133	MarR family transcriptional regulator TamR	other	597	3434529	3435026	+
+SC_RS17795	SC_RS17795	LuxR	Activation	SC_RS17800	SCO3135	GNAT family N-acetyltransferase	primary_metabolism	857	3436004	3436459	+
+SC_RS17795	SC_RS17795	LuxR	Activation	SC_RS17805	SCO3136	galactokinase	signaling	1670	3436463	3437626	-
+SC_RS17795	SC_RS17795	LuxR	Activation	SC_RS17810	SCO3137	UDP-glucose 4-epimerase GalE	primary_metabolism	2770	3437662	3438627	-
+SC_RS17795	SC_RS17795	LuxR	Activation	SC_RS17815	SCO3138	galactose-1-phosphate uridylyltransferase	primary_metabolism	3780	3438624	3439685	-
+SC_RS22135	SC_RS22135	Sigma factor	Activation	SC_RS22115	SCO3999	DUF4232 domain-containing protein	hypothetical	3339	4394327	4395133	+
+SC_RS22135	SC_RS22135	Sigma factor	Activation	SC_RS22120	SCO4000	hypothetical protein	hypothetical	2730	4395100	4395579	-
+SC_RS22135	SC_RS22135	Sigma factor	Activation	SC_RS22125	SCO4001	bifunctional DNA primase/polymerase	DNA_RNA_processing	1961	4395671	4396546	-
+SC_RS22135	SC_RS22135	Sigma factor	Activation	SC_RS22130	SCO4002	hypothetical protein	hypothetical	994	4396912	4397238	+
+SC_RS22135	SC_RS22135	Sigma factor	Activation	SC_RS22140	SCO4006	long-chain fatty acid--CoA ligase	primary_metabolism	1269	4398501	4400177	+
+SC_RS22135	SC_RS22135	Sigma factor	Activation	SC_RS22145	SCO4007	MFS transporter	transport	2826	4400250	4401542	-
+SC_RS22135	SC_RS22135	Sigma factor	Activation	SC_RS22150	SCO4008	TetR family transcriptional regulator	other	3898	4401679	4402257	+
+SC_RS37910	SC_RS37910	LuxR	Repression	SC_RS37890	SCO7133	hypothetical protein	hypothetical	5930	7924780	7925121	+
+SC_RS37910	SC_RS37910	LuxR	Repression	SC_RS37895	SCO7134	helix-turn-helix transcriptional regulator	other	4139	7925356	7928127	+
+SC_RS37910	SC_RS37910	LuxR	Repression	SC_RS37900	SCO7135	OsmC family protein	other	2529	7928148	7928555	-
+SC_RS37910	SC_RS37910	LuxR	Repression	SC_RS37905	SCO7136	SDR family oxidoreductase	secondary_metabolism	1767	7928742	7929485	+
+SC_RS37910	SC_RS37910	LuxR	Repression	SC_RS37915	SCO7138	hypothetical protein	hypothetical	1743	7932458	7932790	+
+SC_RS37910	SC_RS37910	LuxR	Repression	SC_RS37920	SCO7139	aldehyde dehydrogenase family protein	primary_metabolism	2781	7932929	7934395	+
+SC_RS37910	SC_RS37910	LuxR	Repression	SC_RS37925	SCO7140	helix-turn-helix transcriptional regulator	other	4026	7934492	7935322	+
+SC_RS37910	SC_RS37910	LuxR	Repression	SC_RS37930	SCO7141	malonic semialdehyde reductase	primary_metabolism	4773	7935350	7935958	-
+SC_RS37910	SC_RS37910	LuxR	Repression	SC_RS37935	SCO7142	winged helix-turn-helix transcriptional regulator	other	5391	7936071	7936472	+

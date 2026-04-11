@@ -1,0 +1,225 @@
+enzyme_name,enzyme_type,accession,organism,recognition_raw,methylation_raw,recognition_seq,methyl_type
+SaaI,R2,RB01575,Streptomyces alanosinicus,"CCGCGG, ?;",,CCGCGG,
+SabI,R2,RB01576,Streptomyces albohelvatus,"CCGCGG, ?;",,CCGCGG,
+SacI,R2,RB01578,Streptomyces achromogenes,"GAGCTC, 5;",,GAGCTC,
+M.SacI,M2,RB03489,Streptomyces achromogenes,"GAGCTC, ?;",4(m5C);,GAGCTC,m5C
+SacII,R2,RB01579,Streptomyces achromogenes,"CCGCGG, 4;",,CCGCGG,
+M.SacII,M2,RB03490,Streptomyces achromogenes,"CCGCGG, ?;",2(m5C);,CCGCGG,m5C
+SacIII,R2,RB01580,Streptomyces achromogenes,"?, ?;",,,
+SacAI,R2,RB01577,Streptomyces achromogenes,"GCCGGC, ?;",,GCCGGC,
+SacNI,R2,RB02312,Streptomyces achromogenes N-J-H,"GRGCYC, 5;",,GRGCYC,
+SakI,R2,RB01581,Streptomyces akiyoshiensis,"CCGCGG, ?;",,CCGCGG,
+SalI,R2,RB01588,Streptomyces albus G,"GTCGAC, 1;",,GTCGAC,
+M.SalI,M2,RB03491,Streptomyces albus G,"GTCGAC, ?;",5(m6A);,GTCGAC,m6A
+SalII,R2,RB01589,Streptomyces albus G,"?, ?;",,,
+Sal13I,R2,RB01582,Streptomyces albus 13,"CTGCAG, ?;",,CTGCAG,
+M1.Sal156I,M1,RB313284,Streptomyces albidoflavus UYFA156,"GGANNNNNNNNTCCA, ?;","3(m6A),-4(m6A);",GGANNNNNNNNTCCA,"m6A, m6A"
+M2.Sal156I,M1,RB313283,Streptomyces albidoflavus UYFA156,"GGANNNNNNNNTCCA, ?;","3(m6A),-4(m6A);",GGANNNNNNNNTCCA,"m6A, m6A"
+Sal1974I,R2,RB01583,Streptomyces albus 1974,"CTCGAG, ?;",,CTCGAG,
+SalAI,R2,RB01584,Streptomyces albus,"GATC, ?;",,GATC,
+SalCI,R2,RB01585,Streptomyces albus,"GCCGGC, ?;",,GCCGGC,
+SalDI,R2,RB01586,Streptomyces albus,"TCGCGA, ?;",,TCGCGA,
+SalHI,R2,RB01587,Streptomyces albulus,"GATC, ?;",,GATC,
+SalPI,R2,RB01590,Streptomyces albus,"CTGCAG, 5;",,CTGCAG,
+SanDI,R2,RB02610,Streptomyces species,"GGGWCCC, 2;",,GGGWCCC,
+SaoI,R2,RB01592,Streptomyces albofaciens,"GCCGGC, ?;",,GCCGGC,
+SarI,R2,RB01594,Streptomyces aureomonopodiales,"AGGCCT, 3;",,AGGCCT,
+SauI,R2,RB01617,Streptomyces aureofaciens IKA 18/4,"CCTNAGG, 2;",,CCTNAGG,
+Sau3239I,R2,RB01603,Streptomyces aureofaciens,"CTCGAG, 1;",,CTCGAG,
+M.Sau3239I,M2,RB03493,Streptomyces aureofaciens,"CTCGAG, ?;",5(m6A);,CTCGAG,m6A
+Sau22201I,R2,RB05221,Streptomyces aureofaciens IKA 22201,"?, ?;",,,
+SauAI,R2,RB01608,Streptomyces aureofaciens,"GCCGGC, ?;",,GCCGGC,
+SauBMKI,R2,RB01610,Streptomyces aureofaciens strain BM-K,"GCCGGC, 3;",,GCCGGC,
+SauHI,R2,RB01616,Streptomyces aureofaciens 13,"CCTNAGG, ?;",,CCTNAGG,
+SauHPI,R2,RB02193,Streptomyces aureofaciens R8/26,"GCCGGC, 3;",,GCCGGC,
+SauLPI,R2,RB02190,Streptomyces aureofaciens B-96,"GCCGGC, 3;",,GCCGGC,
+M.SauLPI,M2,RB03539,Streptomyces aureofaciens B-96,"GCCGGC, ?;",2(m5C);,GCCGGC,m5C
+SauLPII,R2,RB02894,Streptomyces aureofaciens B-96,"CTCGAG, 1;",,CTCGAG,
+SauNI,R2,RB02191,Streptomyces aureofaciens NMU,"GCCGGC, 3;",,GCCGGC,
+SauSI,R2,RB02192,Streptomyces aureofaciens 16,"GCCGGC, 3;",,GCCGGC,
+SbfI,R2,RB02742,Streptomyces species Bf-61,"CCTGCAGG, 6;",,CCTGCAGG,
+M.SbfI,M2,RB06997,Streptomyces species Bf-61,"CCTGCAGG, ?;",6(m6A);,CCTGCAGG,m6A
+SbgI,R2*,RB58930,Streptomyces bambergiensis S712,"GATC, ?;",,GATC,
+Sbi68I,R2,RB01620,Streptomyces bikiniensis JAM68,"CTCGAG, 1;",,CTCGAG,
+SboI,R2,RB01625,Streptomyces bobili,"CCGCGG, ?;",,CCGCGG,
+M.SbrCR22I,M1,RB284901,Streptomyces brunneus CR22,"CCAGNNNNNNGTNGT, ?;","3(m6A),-4(m6A);",CCAGNNNNNNGTNGT,"m6A, m6A"
+ScaI,R2,RB01628,Streptomyces caespitosus,"AGTACT, 3;",,AGTACT,
+M.ScaI,M2,RB03498,Streptomyces caespitosus,"AGTACT, ?;",5(Nm4C);,AGTACT,
+Sca1827I,R2,RB01627,Streptomyces carneus 1827,"CTCGAG, ?;",,CTCGAG,
+Scg2I,R2,RB01630,Streptomyces hybrid,"CCWGG, ?;",,CCWGG,
+SchZI,R2,RB03880,Streptomyces chusanensis ZS-2,"CCGCGG, 4;",,CCGCGG,
+Sci1831I,R2,RB01631,Streptomyces circulatus 1831,"CTCGAG, ?;",,CTCGAG,
+ScoI,R2,RB01638,Streptomyces coelicolor,"GAGCTC, ?;",,GAGCTC,
+ScoAI,R2,RB01637,Streptomyces corchorusii,"CTGCAG, ?;",,CTGCAG,
+ScoA3IV,R2*,RB187507,Streptomyces coelicolor A3(2),"?, ?;",,,
+ScuI,R2,RB01640,Streptomyces cupidosporus,"CTCGAG, ?;",,CTCGAG,
+SdaI,R2,RB02946,Streptomyces diastaticus Ng7-324,"CCTGCAGG, 6;",,CCTGCAGG,
+M.SdaI,M2,RB23205,Streptomyces diastaticus Ng7-324,"CCTGCAGG, ?;",,CCTGCAGG,
+SdiI,R2,RB02352,Streptomyces diastaticus,"GGCCNNNNNGGCC, 8;",,GGCCNNNNNGGCC,
+SdiAI,R2,RB02778,Streptomyces diastatochromogenes,"CTCGAG, ?;",,CTCGAG,
+SetI,R2,RB14595,Streptomyces werraensis,"ASST, 4;",,ASST,
+SexI,R2,RB01648,Streptomyces exfoliatus,"CTCGAG, ?;",,CTCGAG,
+SexII,R2,RB01649,Streptomyces exfoliatus,"?, ?;",,,
+SexAI,R2,RB02314,Streptomyces exfoliatus,"ACCWGGT, 1;",,ACCWGGT,
+M.SexAI,M2,RB15705,Streptomyces exfoliatus,"CCWGG, ?;",2(m5C);,CCWGG,m5C
+SexBI,R2,RB02583,Streptomyces exfoliatus,"CCGCGG, 4;",,CCGCGG,
+SexCI,R2,RB02794,Streptomyces exfoliatus,"CCGCGG, 4;",,CCGCGG,
+SfiI,R2,RB01655,Streptomyces fimbriatus,"GGCCNNNNNGGCC, 8;",,GGCCNNNNNGGCC,
+M.SfiI,M2,RB03502,Streptomyces fimbriatus,"GGCCNNNNNGGCC, ?;",3(Nm4C);,GGCCNNNNNGGCC,
+M.SfiL30I,M2,RB635158,Streptomyces filamentosus L30,"CGACNNNCTCC, ?;","3(m6A),-3(m6A);",CGACNNNCTCC,"m6A, m6A"
+SfrI,R2,RB01664,Streptomyces fradiae,"CCGCGG, ?;",,CCGCGG,
+Sfr274I,R2,RB01661,Streptomyces fradiae 274,"CTCGAG, 1;",,CTCGAG,
+Sfr303I,R2,RB01662,Streptomyces fradiae 303,"CCGCGG, 4;",,CCGCGG,
+Sfr382I,R2,RB01663,Streptomyces fradiae 382,"CCGCGG, ?;",,CCGCGG,
+M.Sfr10745I,M1,RB373097,Streptomyces fradiae ATCC 10745 = DSM 40063,"CGACNNNNNCTTC, ?;","3(m6A),-3(m6A);",CGACNNNNNCTTC,"m6A, m6A"
+M.Sfr10745II,M2,RB374527,Streptomyces fradiae ATCC 10745 = DSM 40063,"CCGCGG, ?;",1(m5C);,CCGCGG,m5C
+M.Sfr10745III,M2,RB374532,Streptomyces fradiae ATCC 10745 = DSM 40063,"GCCGGC, ?;",2(m5C);,GCCGGC,m5C
+SfuI,R2,RB01666,Streptomyces fulvissimus,"TTCGAA, 2;",,TTCGAA,
+Sfu1762I,R2,RB01665,Streptomyces fulvissimus 1762,"CTCGAG, ?;",,CTCGAG,
+SgaI,R2,RB01667,Streptomyces ganmycicus,"CTCGAG, ?;",,CTCGAG,
+SgeI,R2*,RB21264,Streptomyces griseoflavus RFL11,"CNNG, 13;",,CNNG,
+SgfI,R2,RB02426,Streptomyces griseoruber,"GCGATCGC, 5;",,GCGATCGC,
+Sgh1835I,R2,RB01668,Streptomyces ghanaesis 1835,"GGWCC, ?;",,GGWCC,
+SghWI,R2*,RB29706,Streptomyces ghanaensis,"?, ?;",,,
+SghWII,R2,RB51041,Streptomyces ghanaensis,"GCCGGC, ?;",,GCCGGC,
+M.SghWII,M2,RB24115,Streptomyces ghanaensis,"GCCGGC, ?;",?(m5C);,GCCGGC,m5C
+SgiI,R2,RB02524,Streptomyces griseoflavus,"CTGCAG, ?;",,CTGCAG,
+SgoI,R2,RB01669,Streptomyces goshikiensis,"CTCGAG, ?;",,CTCGAG,
+SgrI,R2,RB01675,Streptomyces griseus,"?, ?;",,,
+Sgr20I,R2,RB01672,Streptomyces griseus Kr. 20,"CCWGG, ?;",,CCWGG,
+Sgr1839I,R2,RB01670,Streptomyces griseoflavus 1839,"TTCGAA, ?;",,TTCGAA,
+Sgr1841I,R2,RB01671,Streptomyces griseoroseus 1841,"CTCGAG, ?;",,CTCGAG,
+Sgr7807I,RM2,RB419639,Streptomyces griseus NCTC7807,"GCCGAGG, ?; CCTCGGC, ?;",5(m6A);,GCCGAGG,m6A
+M1.Sgr13033I,M2,RB419168,Streptomyces griseus NCTC13033,"GCTCTTC, ?;",,GCTCTTC,
+M2.Sgr13033I,M2,RB419167,Streptomyces griseus NCTC13033,"GCTCTTC, ?;",2(Nm4C);,GCTCTTC,
+Sgr13350I,R2,RB17726,Streptomyces griseus subsp. griseus NBRC 13350,"GAGCTC, ?;",,GAGCTC,
+M.Sgr13350I,M2,RB17727,Streptomyces griseus subsp. griseus NBRC 13350,"GAGCTC, ?;",4(m5C);,GAGCTC,m5C
+M1.Sgr13350II,M2,RB17733,Streptomyces griseus subsp. griseus NBRC 13350,"GCCGGC, ?;",2(m5C);,GCCGGC,m5C
+Sgr13350III,R2,RB109009,Streptomyces griseus subsp. griseus NBRC 13350,"GCTCTTC, ?; GAAGAGC, ?;",,GCTCTTC,
+M1.Sgr13350III,M2,RB17728,Streptomyces griseus subsp. griseus NBRC 13350,"GCTCTTC, ?;","2(Nm4C),-5(m6A);",GCTCTTC,m6A
+M2.Sgr13350III,M2,RB17729,Streptomyces griseus subsp. griseus NBRC 13350,"GCTCTTC, ?;","2(Nm4C),-5(m6A);",GCTCTTC,m6A
+SgrAI,R2,RB01673,Streptomyces griseus,"CRCCGGYG, 2;",,CRCCGGYG,
+M.SgrAI,M2,RB03779,Streptomyces griseus,"CRCCGGYG, ?;",3(m5C);,CRCCGGYG,m5C
+SgrAII,RM2,RB334113,Streptomyces griseus,"CGAGATC, ?; GATCTCG, ?;",5(m6A);,CGAGATC,m6A
+M.SgrAIII,M1,RB334107,Streptomyces griseus,"CAGNNNNNNCTTG, ?;","2(m6A),-3(m6A);",CAGNNNNNNCTTG,"m6A, m6A"
+SgrBI,R2,RB01674,Streptomyces griseus,"CCGCGG, 4;",,CCGCGG,
+SgrDI,R2,RB10539,Streptomyces griseus RFL6,"CGTCGACG, 2;",,CGTCGACG,
+M.Sgr3E1I,M1,RB272115,Streptomyces griseorubiginosus 3E-1,"CCGANNNNNNCTAC, ?;","4(m6A),-3(m6A);",CCGANNNNNNCTAC,"m6A, m6A"
+SgrTI,R2*,RB29707,Streptomyces griseoflavus Tu4000,"CCDS, 14; SHGG, -14;",,CCDS,
+SgsI,R2,RB10689,Streptomyces griseus RFL5,"GGCGCGCC, 2;",,GGCGCGCC,
+SguI,R2*,RB40969,Streptomyces griseus RFL12,"CC, 14; GG, -16;",,CC,
+M.Sha12236I,M1,RB305912,Streptomyces hawaiiensis ATCC 12236,"GCGANNNNNNRTTC, ?;","4(m6A),-3(m6A);",GCGANNNNNNRTTC,"m6A, m6A"
+ShyI,R2,RB01677,Streptomyces hygroscopicus 0477,"CCGCGG, ?;",,CCGCGG,
+Shy1766I,R2,RB01676,Streptomyces hygroscopicus 1766,"CTCGAG, ?;",,CTCGAG,
+ShyTI,R2,RB01678,Streptomyces hygroscopicus,"?, ?;",,,
+SkaI,R2,RB01692,Streptomyces karnatakensis,"GCCGGC, ?;",,GCCGGC,
+SkaII,R2,RB01693,Streptomyces karnatakensis,"CTGCAG, ?;",,CTGCAG,
+SlaI,R2,RB01694,Streptomyces lavendulae,"CTCGAG, 1;",,CTCGAG,
+SlbI,R2,RB02526,Streptomyces albidoflavus,"GGTCTC, ?; GAGACC, ?;",,GGTCTC,
+SliI,R2,RB01696,Streptomyces lipmanii,"?, ?;",,,
+SliII,R2,RB01697,Streptomyces lipmanii,"?, ?;",,,
+M1.Slo00643I,M2,RB798229,Streptomyces longwoodensis NBC 00643,"GCCGGC, ?;",3(m5C);,GCCGGC,m5C
+M2.Slo00643I,M2,RB798228,Streptomyces longwoodensis NBC 00643,"GCCGGC, ?;",3(m5C);,GCCGGC,m5C
+M.Slo00643II,M2,RB789433,Streptomyces longwoodensis NBC 00643,"GCCCGGGC, ?;",4(m5C);,GCCCGGGC,m5C
+SluI,R2,RB01699,Streptomyces luteoreticuli,"CTCGAG, ?;",,CTCGAG,
+Slu1777I,R2,RB01698,Streptomyces lusitanus 1777,"GCCGGC, 3;",,GCCGGC,
+M.SmiP16B1I,M1,RB485460,Streptomyces mirabilis P16B-1,"GGAGNNNNNGTGC, ?;","3(m6A),-3(m6A);",GGAGNNNNNGTGC,"m6A, m6A"
+Smo40529I,R2,RB01705,Streptomyces moderatus,"GCCGGC, ?;",,GCCGGC,
+SniI,R2,RB01709,Streptomyces niveus,"CCWGG, 2;",,CCWGG,
+SnoI,R2,RB01710,Streptomyces novocastria,"GTGCAC, 1;",,GTGCAC,
+SodI,R2,RB01711,Streptomyces oderifer,"?, ?;",,,
+SodII,R2,RB01712,Streptomyces oderifer,"?, ?;",,,
+Sol3335I,R2,RB01714,Streptomyces olivaceus IMRU 3335,"CAGCTG, ?;",,CAGCTG,
+Sol10179I,R2,RB01713,Streptomyces olivochromogenes ST10179,"CTCGAG, 1;",,CTCGAG,
+SpaI,R2,RB01715,Streptomyces albus subspecies pathocidicus,"CTCGAG, ?;",,CTCGAG,
+M.SpaACT12I,M1,RB184090,Streptomyces pactum ACT12,"GGCANNNNNCTC, ?;","4(m6A),-2(m6A);",GGCANNNNNCTC,"m6A, m6A"
+SpaXI,R2,RB01716,Streptomyces phaeochromogenes,"GCATGC, ?;",,GCATGC,
+SphI,R2,RB01719,Streptomyces phaeochromogenes,"GCATGC, 5;",,GCATGC,
+M.SphI,M2,RB03507,Streptomyces phaeochromogenes,"GCATGC, ?;",,GCATGC,
+Sph1719I,R2,RB01718,Streptomyces phaeopurpureus 1719,"CTCGAG, ?;",,CTCGAG,
+SprLI,R2,RB02319,Streptomyces prasinus,"CTGCAG, ?;",,CTGCAG,
+M.SprPR11I,M1,RB436134,Streptomyces pristinaespiralis PR11,"GGACNNNNNNCTCG, ?;","3(m6A),-3(m6A);",GGACNNNNNNCTCG,"m6A, m6A"
+SpuI,R2,RB02320,Streptomyces pulveraceus,"CCGCGG, 4;",,CCGCGG,
+M.SpuS1I,M1,RB161884,Streptomyces puniciscabiei TW1S1,"CCACNNNNNNCTGC, ?;","3(m6A),-3(m6A);",CCACNNNNNNCTGC,"m6A, m6A"
+SpvI,R2,RB02520,Streptomyces parvus,"GGATCC, ?;",,GGATCC,
+SrfI,R2,RB01728,Streptomyces species Srf,"GCCCGGGC, 4;",,GCCCGGGC,
+SriI,R2,RB02525,Streptomyces griseoflavus,"CTGCAG, ?;",,CTGCAG,
+SrifpI,R2,RB02521,Streptomyces rimosus forma paramomycinus,"CTCGAG, ?;",,CTCGAG,
+SsbI,R2,RB01730,Streptomyces scabies,"AAGCTT, 1;",,AAGCTT,
+Sse232I,R2,RB03831,Streptomyces species RH232,"CGCCGGCG, 2;",,CGCCGGCG,
+Sse1825I,R2,RB02636,Streptomyces species,"GGGWCCC, 2;",,GGGWCCC,
+Sse8387I,R2,RB01732,Streptomyces species 8387,"CCTGCAGG, 6;",,CCTGCAGG,
+Sse8647I,R2,RB02637,Streptomyces species,"AGGWCCT, 2;",,AGGWCCT,
+SseAI,R2,RB01733,Streptomyces species A,"GGCGCC, 2;",,GGCGCC,
+SseBI,R2,RB02159,Streptomyces species B,"AGGCCT, 3;",,AGGCCT,
+SsmI,R2,RB07791,Streptomyces sampsonii RFL6,"CTGATG, ?; CATCAG, ?;",,CTGATG,
+SsmII,R2,RB07792,Streptomyces sampsonii RFL6,"CCGCGG, ?;",,CCGCGG,
+Ssm4I,R2,RB16395,Streptomyces species SM4,"GAGCTC, ?;",,GAGCTC,
+Ssm5I,R2,RB16396,Streptomyces species SM5,"GAGCTC, ?;",,GAGCTC,
+Ssm5II,R2,RB16397,Streptomyces species SM5,"CCGCGG, ?;",,CCGCGG,
+Ssp1I,R2,RB01742,Streptomyces species RFL1,"TTCGAA, 2;",,TTCGAA,
+Ssp2I,R2,RB01743,Streptomyces species RFL2,"CCSGG, ?;",,CCSGG,
+Ssp4I,R2,RB01744,Streptomyces species RFL4,"CTCGAG, ?;",,CTCGAG,
+Ssp12I,R2,RB04810,Streptomyces species ST-12,"CTGCAG, ?;",,CTGCAG,
+Ssp14I,R2,RB04950,Streptomyces species 14,"TTCGAA, ?;",,TTCGAA,
+Ssp27I,R2,RB04998,Streptomyces species 27,"?, ?;",,,
+Ssp34I,R2,RB04013,Streptomyces species 34,"TTCGAA, ?;",,TTCGAA,
+Ssp42I,R2,RB04951,Streptomyces species 42,"TTCGAA, ?;",,TTCGAA,
+Ssp43I,R2,RB04997,Streptomyces species 43,"TTCGAA, ?;",,TTCGAA,
+Ssp45I,R2,RB04952,Streptomyces species 45,"TTCGAA, ?;",,TTCGAA,
+Ssp47I,R2,RB04953,Streptomyces species 47,"TTCGAA, ?;",,TTCGAA,
+Ssp48I,R2,RB04153,Streptomyces species 48,"TTCGAA, ?;",,TTCGAA,
+Ssp152I,R2,RB01740,Streptomyces species 152,"TTCGAA, ?;",,TTCGAA,
+M1.Ssp281I,M2,RB797523,Streptomyces species NBC_01281,"GCCGGC, ?;",3(m5C);,GCCGGC,m5C
+M2.Ssp281I,M2,RB797524,Streptomyces species NBC_01281,"GCCGGC, ?;",3(m5C);,GCCGGC,m5C
+M.Ssp281II,M2,RB789424,Streptomyces species NBC_01281,"GCCCGGGC, ?;",4(m5C);,GCCCGGGC,m5C
+M.Ssp714I,M1,RB70564,Streptomyces sp. WMMB 714,"AAGNNNNNGTCC, ?;","2(m6A),-3(m6A);",AAGNNNNNGTCC,"m6A, m6A"
+Ssp714II,RM2,RB70572,Streptomyces sp. WMMB 714,"CGCAGCG, ?; CGCTGCG, ?;",4(m6A);,CGCAGCG,m6A
+M.Ssp1112I,M1,RB207420,Streptomyces species 11-1-2,"TCGANNNNNNNVTCGC, ?;","4(m6A),-4(m6A);",TCGANNNNNNNVTCGC,"m6A, m6A"
+M.Ssp1112II,M1,RB206775,Streptomyces species 11-1-2,"GACCNNNNNGCTG, ?;","2(m6A),-2(m6A);",GACCNNNNNGCTG,"m6A, m6A"
+Ssp1725I,R2,RB01741,Streptomyces spadicis 1725,"CCGCGG, ?;",,CCGCGG,
+M.Ssp3180I,M1,RB618865,Streptomyces species Tu 3180,"AGCNNNNNGTCGG, ?;","1(m6A),-4(m6A);",AGCNNNNNGTCGG,"m6A, m6A"
+Ssp4800I,R2,RB02464,Streptomyces species BMTU 4800,"TGTACA, 1;",,TGTACA,
+Ssp5230I,R2,RB02173,Streptomyces species 5230,"GACGTC, 5;",,GACGTC,
+SspBI,R2,RB02322,Streptomyces species,"TGTACA, 1;",,TGTACA,
+M.Ssp41BPI,M2,RB617192,Streptomyces species KCTC 0041BP,"CTCGAG, ?;",5(m6A);,CTCGAG,m6A
+SspCI,R2,RB07122,Streptomyces species,"GCCGGC, 3;",,GCCGGC,
+M.SspCFMR7I,M1,RB125899,Streptomyces species CFMR 7,"GACNNNNNCTAC, ?;","2(m6A),-3(m6A);",GACNNNNNCTAC,"m6A, m6A"
+M.SspLRE541I,M1,RB618556,Streptomyces species LRE541,"ACAGNNNNNGTG, ?;","3(m6A),-2(m6A);",ACAGNNNNNGTG,"m6A, m6A"
+M1.SspSAT1I,M2,RB151232,Streptomyces species SAT1,"GCCGGC, ?;",?(m5C);,GCCGGC,m5C
+M2.SspSAT1I,M2,RB151231,Streptomyces species SAT1,"GCCGGC, ?;",?(m5C);,GCCGGC,m5C
+M.SspSSL25I,M2,RB334225,Streptomyces species SSL-25,"CTCGAG, ?;",1(Nm4C);,CTCGAG,
+M.Ssp142TI,M1,RB291302,Streptomyces species AC1-42T,"AGCANNNNNNTCGC, ?;","4(m6A),-4(m6A);",AGCANNNNNNTCGC,"m6A, m6A"
+M.Ssp142TII,M2,RB291139,Streptomyces species AC1-42T,"CTGCAG, ?;",5(m6A);,CTGCAG,m6A
+M.SspTN58I,M2,RB168211,Streptomyces species TN58,"CTCGAG, ?;",5(m6A);,CTCGAG,m6A
+M1.SspTu2975I,M1,RB361001,Streptomyces species Tu 2975,"TCGANNNNNNNGTCC, ?;","4(m6A),-3(m6A);",TCGANNNNNNNGTCC,"m6A, m6A"
+M2.SspTu2975I,M1,RB361000,Streptomyces species Tu 2975,"TCGANNNNNNNGTCC, ?;","4(m6A),-3(m6A);",TCGANNNNNNNGTCC,"m6A, m6A"
+M.SspV179I,M1,RB491505,Streptomyces species V17-9,"GCCANNNNNNTGCG, ?;","4(m6A),-4(m6A);",GCCANNNNNNTGCG,"m6A, m6A"
+M.Ssp142WI,M1,RB291324,Streptomyces species AC1-42W,"AGCANNNNNNTCGC, ?;","?(m6A),-4(m6A);",AGCANNNNNNTCGC,"m6A, m6A"
+M.Ssp142WII,M1,RB291332,Streptomyces species AC1-42W,"CGACNNNNNCTGC, ?;","3(m6A),-3(m6A);",CGACNNNNNCTGC,"m6A, m6A"
+M.Ssp142WIII,M2,RB291143,Streptomyces species AC1-42W,"CTGCAG, ?;",5(m6A);,CTGCAG,m6A
+M1.SspWHI,M1,RB103859,Streptomyces species CCM_MD2014,"CGGANNNNNNNCTT, ?;","4(m6A),-2(m6A);",CGGANNNNNNNCTT,"m6A, m6A"
+M2.SspWHI,M1,RB103860,Streptomyces species CCM_MD2014,"CGGANNNNNNNCTT, ?;","4(m6A),-2(m6A);",CGGANNNNNNNCTT,"m6A, m6A"
+SstI,R2,RB01759,Streptomyces stanford,"GAGCTC, 5;",,GAGCTC,
+M.SstI,M2,RB03511,Streptomyces stanford,"GAGCTC, ?;",,GAGCTC,
+SstII,R2,RB01760,Streptomyces stanford,"CCGCGG, 4;",,CCGCGG,
+SstIII,R2,RB01761,Streptomyces stanford,"?, ?;",,,
+SstIV,R2,RB01762,Streptomyces stanford,"TGATCA, ?;",,TGATCA,
+Sst12I,R2,RB05951,Streptomyces species ST-12,"CTGCAG, 5;",,CTGCAG,
+M1.SstMg1I,M1,RB114116,Streptomyces species Mg1,"GNNGAYNNNNNNNTGCT, ?;","5(m6A),-4(m6A);",GNNGAYNNNNNNNTGCT,"m6A, m6A"
+M2.SstMg1I,M1,RB114115,Streptomyces species Mg1,"GNNGAYNNNNNNNTGCT, ?;","5(m6A),-4(m6A);",GNNGAYNNNNNNNTGCT,"m6A, m6A"
+SsvI,R2,RB01763,Streptomyces sviceus,"AGGCCT, ?;",,AGGCCT,
+StaI,R2,RB01765,Streptomyces takatoensis,"CCGCGG, ?;",,CCGCGG,
+StaAI,R2,RB01764,Streptomyces tanashiensis,"CTCGAG, ?;",,CTCGAG,
+SteI,R2,RB01766,Streptomyces tendae,"AGGCCT, 3;",,AGGCCT,
+StrI,R2,RB03169,Streptomyces thermodiastaticus,"CTCGAG, 1;",,CTCGAG,
+StuI,R2,RB01785,Streptomyces tubercidicus,"AGGCCT, 3;",,AGGCCT,
+M.StuI,M2,RB10745,Streptomyces tubercidicus,"AGGCCT, ?;",,AGGCCT,
+Sve194I,R2,RB01797,Streptomyces verticillius 194,"CTCGAG, ?;",,CTCGAG,
+SviI,R2,RB02777,Streptomyces violochromogenes,"TTCGAA, 2;",,TTCGAA,
+M.Svi27968I,M2,RB455182,Streptomyces violascens ATCC 27968,"GCCGGC, ?;",2(Nm4C);,GCCGGC,
+SvoI,R2,RB17989,Streptomyces violaceoruber RFL10,"CRCCGGYG, ?;",,CRCCGGYG,
+Sxa3845I,R2,RB891662,Streptomyces xanthophaeus KPP03845,"GCCGGC, ?;",,GCCGGC,
+M.Sxa3845I,M2,RB688736,Streptomyces xanthophaeus KPP03845,"GCCGGC, ?;",?(m5C);,GCCGGC,m5C
+M.Syo40224SspE,M2,RB517946,Streptomyces yokosukanensis DSM 40224,"?, ?;",,,
+SziI,R2*,RB41098,Streptomyces zinciresistens K42,"?, ?;",,,

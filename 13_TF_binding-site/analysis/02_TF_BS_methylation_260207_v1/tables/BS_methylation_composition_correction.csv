@@ -1,0 +1,6 @@
+Method,Obs_4mC,Exp_4mC,Fold_4mC,Obs_6mA,Exp_6mA,Fold_6mA,Obs_any,Exp_any,Fold_any,P_depletion_any
+M0: Uniform (original),34,51.366,0.662,41,61.952,0.662,75,113.261,0.662,8.413717524351517e-05
+M1: GC-adjusted,34,47.865,0.71,41,72.875,0.563,75,120.739,0.621,5.1916007612719875e-06
+M2: Motif-adjusted,34,42.579,0.799,41,59.55,0.688,75,102.129,0.734,0.003009620493520167
+M3a: Permutation (random),34,51.539,0.66,41,62.091,0.66,75,113.572,0.66,0.0001
+M3b: Permutation (GC-matched),34,,,41,,,75,,,

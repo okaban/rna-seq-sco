@@ -1,0 +1,88 @@
+locus_tag,product,start,end,strand,category,predicted_methyl_type,SCO_id
+SC_RS02900,class I SAM-dependent methyltransferase,180084,180824,-,SAM_dependent_MTase,Unknown,SCO02900
+SC_RS03870,class I SAM-dependent methyltransferase,413247,414497,+,SAM_dependent_MTase,Unknown,SCO03870
+SC_RS03935,SAM-dependent methyltransferase,426015,426833,-,SAM_dependent_MTase,Unknown,SCO03935
+SC_RS03950,class I SAM-dependent DNA methyltransferase,428657,429403,+,DNA_methyltransferase,Unknown,SCO03950
+SC_RS04540,SAM-dependent methyltransferase,557029,557844,+,SAM_dependent_MTase,Unknown,SCO04540
+SC_RS04895,class I SAM-dependent methyltransferase,635776,636516,-,SAM_dependent_MTase,Unknown,SCO04895
+SC_RS05160,class I SAM-dependent methyltransferase,690228,690923,+,SAM_dependent_MTase,Unknown,SCO05160
+SC_RS05450,SAM-dependent methyltransferase,744945,745763,-,SAM_dependent_MTase,Unknown,SCO05450
+SC_RS06060,class I SAM-dependent methyltransferase,874543,875343,+,SAM_dependent_MTase,Unknown,SCO06060
+SC_RS06105,class I SAM-dependent methyltransferase,883113,883760,-,SAM_dependent_MTase,Unknown,SCO06105
+SC_RS06595,SAM-dependent methyltransferase,976453,977265,-,SAM_dependent_MTase,Unknown,SCO06595
+SC_RS06675,Fpg/Nei family DNA glycosylase,990249,991112,-,DNA_methyltransferase,6mA,SCO06675
+SC_RS06935,class I SAM-dependent methyltransferase,1050595,1051344,+,SAM_dependent_MTase,Unknown,SCO06935
+SC_RS07760,class I SAM-dependent methyltransferase,1222188,1222787,+,SAM_dependent_MTase,Unknown,SCO07760
+SC_RS08195,class I SAM-dependent methyltransferase,1319887,1320564,+,SAM_dependent_MTase,Unknown,SCO08195
+SC_RS08355,class I SAM-dependent methyltransferase,1349799,1350677,+,SAM_dependent_MTase,Unknown,SCO08355
+SC_RS10595,type ISP restriction/modification enzyme,1837908,1839068,+,DNA_methyltransferase,Unknown,SCO10595
+SC_RS10665,class I SAM-dependent methyltransferase,1850270,1850887,-,SAM_dependent_MTase,Unknown,SCO10665
+SC_RS10700,DNA polymerase Y family protein,1855022,1855990,-,DNA_methyltransferase,6mA,SCO10700
+SC_RS10810,(d)CMP kinase,1881032,1881727,-,DNA_methyltransferase,4mC/5mC,SCO10810
+SC_RS11895,methyltransferase domain-containing protein,2112316,2113110,-,SAM_dependent_MTase,Unknown,SCO11895
+SC_RS11995,class I SAM-dependent methyltransferase,2129838,2130524,-,SAM_dependent_MTase,Unknown,SCO11995
+SC_RS12025,class I SAM-dependent methyltransferase,2135154,2135816,+,SAM_dependent_MTase,Unknown,SCO12025
+SC_RS12890,class I SAM-dependent methyltransferase,2333833,2334534,+,SAM_dependent_MTase,Unknown,SCO12890
+SC_RS12910,class I SAM-dependent methyltransferase,2337400,2338119,-,SAM_dependent_MTase,Unknown,SCO12910
+SC_RS13590,class I SAM-dependent methyltransferase,2483598,2484278,+,SAM_dependent_MTase,Unknown,SCO13590
+SC_RS13615,class I SAM-dependent methyltransferase,2487830,2488564,-,SAM_dependent_MTase,Unknown,SCO13615
+SC_RS14675,SCO2525 family SAM-dependent methyltransferase,2723027,2723800,-,SAM_dependent_MTase,Unknown,SCO14675
+SC_RS15210,Fpg/Nei family DNA glycosylase,2853163,2854005,-,DNA_methyltransferase,6mA,SCO15210
+SC_RS15340,class I SAM-dependent methyltransferase,2884761,2885426,+,SAM_dependent_MTase,Unknown,SCO15340
+SC_RS15430,methyltransferase domain-containing protein,2906677,2907651,-,SAM_dependent_MTase,Unknown,SCO15430
+SC_RS16160,class I SAM-dependent methyltransferase,3072689,3073546,-,SAM_dependent_MTase,Unknown,SCO16160
+SC_RS17580,SAM-dependent methyltransferase,3384933,3386249,-,SAM_dependent_MTase,Unknown,SCO17580
+SC_RS17645,N-6 DNA methylase,3399763,3401802,-,DNA_methyltransferase,Unknown,SCO17645
+SC_RS17670,transcription-repair coupling factor,3404759,3408313,-,DNA_methyltransferase,6mA,SCO17670
+SC_RS18190,class I SAM-dependent methyltransferase,3524828,3525871,-,SAM_dependent_MTase,Unknown,SCO18190
+SC_RS18645,SAM-dependent methyltransferase,3658635,3659537,-,SAM_dependent_MTase,Unknown,SCO18645
+SC_RS18820,class I SAM-dependent methyltransferase,3696891,3697673,-,SAM_dependent_MTase,Unknown,SCO18820
+SC_RS18875,DNA repair protein RadA,3710688,3712097,+,DNA_methyltransferase,6mA,SCO18875
+SC_RS19080,SAM-dependent methyltransferase,3754603,3755691,+,SAM_dependent_MTase,Unknown,SCO19080
+SC_RS19385,methyltransferase domain-containing protein,3811766,3812845,-,SAM_dependent_MTase,Unknown,SCO19385
+SC_RS19420,methyltransferase domain-containing protein,3818491,3819297,-,SAM_dependent_MTase,Unknown,SCO19420
+SC_RS19670,DNA-methyltransferase,3878757,3879503,-,DNA_methyltransferase,Unknown,SCO19670
+SC_RS19765,DNA cytosine methyltransferase,3896019,3896120,+,DNA_methyltransferase,4mC/5mC,SCO19765
+SC_RS19770,DNA cytosine methyltransferase,3896173,3897147,+,DNA_methyltransferase,4mC/5mC,SCO19770
+SC_RS20850,class I SAM-dependent methyltransferase,4115028,4115813,+,SAM_dependent_MTase,Unknown,SCO20850
+SC_RS23200,class I SAM-dependent methyltransferase,4612173,4612988,-,SAM_dependent_MTase,Unknown,SCO23200
+SC_RS24685,class I SAM-dependent DNA methyltransferase,4924984,4925628,-,DNA_methyltransferase,Unknown,SCO24685
+SC_RS25365,class I SAM-dependent methyltransferase,5062845,5063669,-,SAM_dependent_MTase,Unknown,SCO25365
+SC_RS25950,class I SAM-dependent methyltransferase,5169472,5170644,-,SAM_dependent_MTase,Unknown,SCO25950
+SC_RS26520,class I SAM-dependent methyltransferase,5301340,5302356,-,SAM_dependent_MTase,Unknown,SCO26520
+SC_RS26525,class I SAM-dependent methyltransferase,5302468,5303406,-,SAM_dependent_MTase,Unknown,SCO26525
+SC_RS27295,class I SAM-dependent methyltransferase,5459908,5460726,+,SAM_dependent_MTase,Unknown,SCO27295
+SC_RS27630,class I SAM-dependent methyltransferase,5535661,5536287,-,SAM_dependent_MTase,Unknown,SCO27630
+SC_RS28465,class I SAM-dependent methyltransferase,5715872,5716681,+,SAM_dependent_MTase,Unknown,SCO28465
+SC_RS28835,BREX-2 system adenine-specific DNA-methyltransferase PglX,5801998,5805600,-,DNA_methyltransferase,6mA,SCO28835
+SC_RS30080,bifunctional DNA-formamidopyrimidine glycosylase/DNA-(apurinic or apyrimidinic site) lyase,6070914,6071774,+,DNA_methyltransferase,6mA,SCO30080
+SC_RS30165,class I SAM-dependent methyltransferase,6094782,6095669,-,SAM_dependent_MTase,Unknown,SCO30165
+SC_RS31030,Fpg/Nei family DNA glycosylase,6295344,6296174,-,DNA_methyltransferase,6mA,SCO31030
+SC_RS31720,SAM-dependent methyltransferase,6458306,6459394,+,SAM_dependent_MTase,Unknown,SCO31720
+SC_RS32600,damage-control phosphatase ARMT1 family protein,6664852,6666069,+,DNA_methyltransferase,6mA,SCO32600
+SC_RS34410,class I SAM-dependent methyltransferase,7126477,7127388,+,SAM_dependent_MTase,Unknown,SCO34410
+SC_RS34620,class I SAM-dependent methyltransferase,7177711,7178433,+,SAM_dependent_MTase,Unknown,SCO34620
+SC_RS34745,methyltransferase domain-containing protein,7199504,7200325,-,SAM_dependent_MTase,Unknown,SCO34745
+SC_RS34875,SAM-dependent methyltransferase,7230397,7231212,-,SAM_dependent_MTase,Unknown,SCO34875
+SC_RS34900,class I SAM-dependent methyltransferase,7233979,7234725,+,SAM_dependent_MTase,Unknown,SCO34900
+SC_RS34935,class I SAM-dependent methyltransferase,7246146,7247090,+,SAM_dependent_MTase,Unknown,SCO34935
+SC_RS35230,SAM-dependent methyltransferase,7326508,7327326,-,SAM_dependent_MTase,Unknown,SCO35230
+SC_RS35235,SAM-dependent methyltransferase,7327541,7328326,+,SAM_dependent_MTase,Unknown,SCO35235
+SC_RS35335,BREX-2 system adenine-specific DNA-methyltransferase PglX,7353207,7356839,+,DNA_methyltransferase,6mA,SCO35335
+SC_RS36410,DNA cytosine methyltransferase,7617112,7618383,-,DNA_methyltransferase,4mC/5mC,SCO36410
+SC_RS36625,DNA-methyltransferase,7654146,7654901,+,DNA_methyltransferase,Unknown,SCO36625
+SC_RS36945,SAM-dependent methyltransferase,7712024,7712521,+,SAM_dependent_MTase,Unknown,SCO36945
+SC_RS37490,methyltransferase domain-containing protein,7843106,7843768,+,SAM_dependent_MTase,Unknown,SCO37490
+SC_RS37505,class I SAM-dependent methyltransferase,7844776,7845501,+,SAM_dependent_MTase,Unknown,SCO37505
+SC_RS37815,class I SAM-dependent methyltransferase,7907864,7908628,-,SAM_dependent_MTase,Unknown,SCO37815
+SC_RS38280,SAM-dependent methyltransferase,8017040,8017786,+,SAM_dependent_MTase,Unknown,SCO38280
+SC_RS39225,SAM-dependent methyltransferase,8216457,8217248,-,SAM_dependent_MTase,Unknown,SCO39225
+SC_RS39430,SAM-dependent methyltransferase,8259792,8260529,+,SAM_dependent_MTase,Unknown,SCO39430
+SC_RS40100,SAM-dependent methyltransferase,8403793,8404608,+,SAM_dependent_MTase,Unknown,SCO40100
+SC_RS40280,SAM-dependent methyltransferase,8443999,8444814,+,SAM_dependent_MTase,Unknown,SCO40280
+SC_RS40630,class I SAM-dependent methyltransferase,8523760,8524488,+,SAM_dependent_MTase,Unknown,SCO40630
+SC_RS40760,SAM-dependent methyltransferase,8550431,8551234,+,SAM_dependent_MTase,Unknown,SCO40760
+SC_RS41180,class I SAM-dependent methyltransferase,8626338,8627069,-,SAM_dependent_MTase,Unknown,SCO41180
+SC_RS41210,class I SAM-dependent methyltransferase,8631557,8632408,+,SAM_dependent_MTase,Unknown,SCO41210
+SC_RS00155,DNA polymerase Y family protein,30246,31238,-,DNA_methyltransferase,6mA,SCO00155
+SC_RS01710,DNA polymerase Y family protein,324786,325778,+,DNA_methyltransferase,6mA,SCO01710

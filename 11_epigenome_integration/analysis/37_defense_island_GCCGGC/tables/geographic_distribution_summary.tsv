@@ -1,0 +1,4 @@
+timepoint	total_sites	core_sites	arm_sites	pct_core	pct_arm	chi2_pvalue
+T1	1289	1070	219	83.0	17.0	2.39e-130
+T2	407	74	333	18.2	81.8	
+T3	21	8	13	38.1	61.9	

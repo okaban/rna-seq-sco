@@ -1,0 +1,24 @@
+keyword	activation_count	activation_fraction	repression_count	repression_fraction	odds_ratio	fisher_p
+secondary metabolite	0	0.0	0	0		
+transport	11	0.04741379310344827	0	0		1.0
+signal	0	0.0	0	0		
+kinase	10	0.04310344827586207	0	0		1.0
+synthase	2	0.008620689655172414	0	0		1.0
+oxidoreductase	11	0.04741379310344827	0	0		1.0
+transferase	18	0.07758620689655173	0	0		1.0
+hydrolase	9	0.03879310344827586	0	0		1.0
+dehydrogenase	10	0.04310344827586207	0	0		1.0
+ABC	4	0.017241379310344827	0	0		1.0
+MFS	5	0.021551724137931036	0	0		1.0
+permease	2	0.008620689655172414	0	0		1.0
+polyketide	0	0.0	0	0		
+peptide synthetase	0	0.0	0	0		
+cytochrome	1	0.004310344827586207	0	0		1.0
+regulator	24	0.10344827586206896	0	0		1.0
+hypothetical	29	0.125	0	0		1.0
+membrane	5	0.021551724137931036	0	0		1.0
+secreted	0	0.0	0	0		
+ribosom	2	0.008620689655172414	0	0		1.0
+protease	1	0.004310344827586207	0	0		1.0
+reductase	11	0.04741379310344827	0	0		1.0
+methyltransferase	7	0.03017241379310345	0	0		1.0

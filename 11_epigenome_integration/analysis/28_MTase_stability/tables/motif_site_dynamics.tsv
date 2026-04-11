@@ -1,0 +1,13 @@
+mtase_group	comparison	gained	lost	stable	total	loss_fraction
+AAGCCCG (SC_RS17645)	T2_vs_T1	64	260	0	324	1.0
+AAGCCCG (SC_RS17645)	T3_vs_T1	38	260	0	298	1.0
+AAGCCCG (SC_RS17645)	T3_vs_T2	38	64	0	102	1.0
+CCGG family (Dcm-like)	T2_vs_T1	543	1669	0	2212	1.0
+CCGG family (Dcm-like)	T3_vs_T1	89	1669	0	1758	1.0
+CCGG family (Dcm-like)	T3_vs_T2	89	543	0	632	1.0
+CCGKCA (BREX-2)	T2_vs_T1	0	0	0	0	0.0
+CCGKCA (BREX-2)	T3_vs_T1	0	0	0	0	0.0
+CCGKCA (BREX-2)	T3_vs_T2	0	0	0	0	0.0
+Unattributed	T2_vs_T1	776	1992	0	2768	1.0
+Unattributed	T3_vs_T1	510	1992	0	2502	1.0
+Unattributed	T3_vs_T2	510	776	0	1286	1.0

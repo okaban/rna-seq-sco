@@ -1,0 +1,834 @@
+accession	binomial	full_name	tax_id	strain	level	refseq_cat	n50	total_len	gc	n_assemblies
+GCF_014648775.1	Streptomyces abikoensis	Streptomyces abikoensis	97398	JCM 4002	Contig	reference genome	785131	7000866	72	9
+GCF_001751365.1	Streptomyces abyssalis	Streptomyces abyssalis	933944	SCSIO 10390	Scaffold	reference genome	652893	6610598	71	2
+GCF_008974245.1	Streptomyces abyssomicinicus	Streptomyces abyssomicinicus	574929	CHI39	Scaffold	reference genome	307082	7929138	73	1
+GCF_037892235.1	Streptomyces achmelvichensis	Streptomyces achmelvichensis	3134111	MS2.AVA.5	Contig	reference genome	8403191	9630876	70	1
+GCF_045160875.1	Streptomyces achromogenes	Streptomyces achromogenes	67255	NBC_00156	Complete Genome	reference genome	8525584	8525584	72.5	18
+GCF_009377235.1	Streptomyces acidicola	Streptomyces acidicola	2596892	K1PN6	Contig	reference genome	34036	10256521	70.5	4
+GCF_051172935.1	Streptomyces acidiscabies	Streptomyces acidiscabies	42234	ATCC 49003	Contig	reference genome	7538445	11027707	70.5	18
+GCF_016741775.1	Streptomyces actinomycinicus	Streptomyces actinomycinicus	1695166	RCU-197	Contig	reference genome	270358	8790999	72	2
+GCF_016921115.1	Streptomyces actuosus	Streptomyces actuosus	1885	VRA1	Contig	reference genome	190774	8451480	72	2
+GCF_020400605.1	Streptomyces aculeolatus	Streptomyces aculeolatus	270689	DSM 41644	Contig	reference genome	230881	8986452	73.5	2
+GCF_016598475.1	Streptomyces adelaidensis	Streptomyces adelaidensis	2796465	CAP261	Contig	reference genome	83341	9321252	70.5	1
+GCF_041021105.1	Streptomyces adonidis	Streptomyces adonidis	3231367	NEAU-BLH26	Scaffold	reference genome	101981	11313119	70.5	1
+GCF_009377175.1	Streptomyces adustus	Streptomyces adustus	1609272	NBRC 109810	Contig	reference genome	32765	10226955	71	4
+GCF_044327915.1	Streptomyces afghaniensis	Streptomyces afghaniensis	66865	NPDC018010	Scaffold	reference genome	714786	9426811	71	6
+GCF_030816955.1	Streptomyces africanus	Streptomyces africanus	231024	B3I12	Contig	reference genome	9069472	9069472	71	2
+GCF_001746455.1	Streptomyces agglomeratus	Streptomyces agglomeratus	285458	9-3-15	Contig	reference genome	8142030	8962368	70.5	4
+GCF_900112355.1	Streptomyces aidingensis	Streptomyces aidingensis	910347	CGMCC 4.5739	Scaffold	reference genome	276870	6482745	73	1
+GCF_019599145.1	Streptomyces akebiae	Streptomyces akebiae	2865673	MG28	Complete Genome	reference genome	10257202	10549378	71	1
+GCF_014650595.1	Streptomyces alanosinicus	Streptomyces alanosinicus	68171	JCM 4714	Contig	reference genome	228177	10244856	71	1
+GCF_039530985.1	Streptomyces albiaxialis	Streptomyces albiaxialis	329523	JCM 15478	Scaffold	reference genome	283078	9189471	73	1
+GCF_008905045.1	Streptomyces albicerus	Streptomyces albicerus	2569859	TRM68295	Scaffold	reference genome	82685	11977091	70	1
+GCF_025642175.1	Streptomyces albidocamelliae	Streptomyces albidocamelliae	2981135	HUAS 14-6	Complete Genome	reference genome	8381966	8572100	72	1
+GCF_039529395.1	Streptomyces albidochromogenes	Streptomyces albidochromogenes	329524	JCM 13858	Scaffold	reference genome	158238	7327976	71.5	3
+GCF_045039635.1	Streptomyces albidoflavus	Streptomyces albidoflavus	1886	NBC_01110	Complete Genome	reference genome	7134393	7215712	73.5	162
+GCF_013870515.1	Streptomyces albidus	Streptomyces albidus (ex Kaewkla and Franco 2022)	722709	CAP215	Contig		20451	6657676	70	1
+GCF_014645835.1	Streptomyces albiflavescens	Streptomyces albiflavescens	1623582	CGMCC 4.7111	Scaffold	reference genome	217414	10892780	70	1
+GCF_023701525.1	Streptomyces albipurpureus	Streptomyces albipurpureus	2897419	CWNU-1	Scaffold	reference genome	108799	9365620	68.5	1
+GCF_021228125.1	Streptomyces albireticuli	Streptomyces albireticuli	1940	NRRL B1670	Scaffold	reference genome	272279	8564494	72.5	6
+GCF_008634025.1	Streptomyces albofaciens	Streptomyces albofaciens JCM 4342	1306175	ATCC 23873	Contig	reference genome	4757978	9252595	72.5	1
+GCF_000716675.1	Streptomyces alboflavus	Streptomyces alboflavus	67267	NRRL B-2373	Contig	reference genome	134286	9717375	72	7
+GCF_044901485.1	Streptomyces albogriseolus	Streptomyces albogriseolus	1887	NPDC052706	Scaffold	reference genome	548654	7506412	72.5	62
+GCF_008704395.1	Streptomyces alboniger	Streptomyces alboniger	132473	ATCC 12461	Complete Genome	reference genome	7962786	7962786	71	2
+GCF_014648695.1	Streptomyces albospinus	Streptomyces albospinus	285515	JCM 3399	Scaffold	reference genome	58161	9206985	71	1
+GCF_002150845.1	Streptomyces alboverticillatus	Streptomyces alboverticillatus	173770	NRRL B-24281	Scaffold	reference genome	18412	7044380	72	1
+GCF_002154385.1	Streptomyces albovinaceus	Streptomyces albovinaceus	66867	NRRL B-2566	Scaffold	reference genome	22344	7237318	71.5	1
+GCF_000716935.1	Streptomyces alboviridis	Streptomyces alboviridis	67269	NRRL B-1579	Contig		264758	8571085	71.5	1
+GCF_024752535.1	Streptomyces albus	Streptomyces albus	1888	DSM 40763	Complete Genome	reference genome	7889116	8033415	72.5	35
+GCF_018141485.1	Streptomyces alfalfae	Streptomyces alfalfae	1642299	XN-04	Complete Genome	reference genome	8254035	8278595	72	7
+GCF_014141535.1	Streptomyces alkaliphilus	Streptomyces alkaliphilus	1472722	DSM 42118	Contig	reference genome	5021	5761373	72.5	2
+GCF_013618545.1	Streptomyces alkaliterrae	Streptomyces alkaliterrae	2213162	OF8	Contig	reference genome	26709	6036367	72	3
+GCF_045276965.1	Streptomyces althioticus	Streptomyces althioticus	83380	NBC 01666	Complete Genome	reference genome	7542023	7542023	72.5	58
+GCF_053591575.1	Streptomyces altiplanensis	Streptomyces altiplanensis	1854571	NPDC003008	Scaffold	reference genome	64554	8012397	71	1
+GCF_039532665.1	Streptomyces amakusaensis	Streptomyces amakusaensis	67271	JCM 4167	Scaffold	reference genome	379645	8349877	72	2
+GCF_001267885.1	Streptomyces ambofaciens	Streptomyces ambofaciens ATCC 23877	278992	ATCC 23877	Complete Genome	reference genome	8303940	8393598	72	6
+GCF_001953875.1	Streptomyces amritsarensis	Streptomyces amritsarensis	681158	MTCC 11845	Scaffold	reference genome	63430	7816792	72.5	3
+GCF_014650655.1	Streptomyces anandii	Streptomyces anandii JCM 4720	1306180	JCM 4720	Scaffold	reference genome	15391	7932225	72.5	6
+GCF_019400875.1	Streptomyces anatolicus	Streptomyces anatolicus	2675858	BG9H	Contig	reference genome	13615	7259623	71	1
+GCF_042651645.1	Streptomyces andamanensis	Streptomyces andamanensis	1565035	PCU 347	Contig	reference genome	538701	8875826	72.5	1
+GCF_019933235.1	Streptomyces angustmyceticus	Streptomyces angustmyceticus	285578	JCM 4053	Complete Genome	reference genome	8116382	8116382	72	13
+GCF_026627255.1	Streptomyces antarcticus	Streptomyces antarcticus	2996458	H27-S2	Scaffold	reference genome	220250	8504971	72.5	3
+GCF_035917655.1	Streptomyces anthocyanicus	Streptomyces anthocyanicus	68174	NBC 01777	Complete Genome	reference genome	8677221	8876440	72	48
+GCF_049310305.1	Streptomyces anthophorae	Streptomyces anthophorae	3402626	BH034	Contig	reference genome	9378844	9621129	71	5
+GCF_043202155.1	Streptomyces antibioticus	Streptomyces antibioticus	1890	NPDC048228	Scaffold	reference genome	1086161	8176697	72	26
+GCF_020532625.1	Streptomyces antimicrobicus	Streptomyces antimicrobicus	2883108	SMC 277	Contig	reference genome	38913	6545928	73.5	1
+GCF_045161845.1	Streptomyces antimycoticus	Streptomyces antimycoticus	68175	NBC_00839	Complete Genome	reference genome	10880213	10880213	71	20
+GCF_000968685.2	Streptomyces antioxidans	Streptomyces antioxidans	1507734	MUSC 164	Contig	reference genome	135927	9118065	71.5	1
+GCF_004005495.1	Streptomyces antnestii	Streptomyces antnestii	2494256	San01	Contig	reference genome	306633	8930571	70.5	1
+GCF_001434355.1	Streptomyces anulatus	Streptomyces anulatus	1892	ATCC 11523	Chromosome	reference genome	2269932	8847108	71.5	118
+GCF_009739465.1	Streptomyces apocyni	Streptomyces apocyni	2654677	TRM 66233	Scaffold	reference genome	239872	7030968	70.5	1
+GCF_008369065.1	Streptomyces apricus	Streptomyces apricus	1828112	SUN51	Scaffold	reference genome	25886	8852793	72	1
+GCF_003955715.1	Streptomyces aquilus	Streptomyces aquilus	2548456	GGCR-6	Complete Genome	reference genome	10393987	10393987	71	3
+GCF_008932075.1	Streptomyces arboris	Streptomyces arboris	2600619	TRM68085	Scaffold	reference genome	97244	8300205	71.5	8
+GCF_003112575.1	Streptomyces ardesiacus	Streptomyces ardesiacus	285564	NBRC 15402	Contig	reference genome	752736	7851547	72.5	20
+GCF_022343545.1	Streptomyces arenae	Streptomyces arenae	29301	DSM 40737	Scaffold		205194	10527565	71.5	1
+GCF_042902585.1	Streptomyces argenteolus	Streptomyces argenteolus	67274	NPDC012540	Scaffold	reference genome	263594	7946008	71.5	2
+GCF_013046785.1	Streptomyces argyrophylli	Streptomyces argyrophylli	2726118	Jing01	Complete Genome	reference genome	7815457	7815457	72.5	1
+GCF_003355155.1	Streptomyces armeniacus	Streptomyces armeniacus	83291	ATCC 15676	Chromosome	reference genome	1912867	8083249	72.5	1
+GCF_018138715.1	Streptomyces asiaticus	Streptomyces asiaticus	114695	DSM 41761	Contig	reference genome	10122692	11877923	71	14
+GCF_016860545.1	Streptomyces asoensis	Streptomyces asoensis	249586	NBRC 13813	Contig	reference genome	2349198	8834141	72.5	16
+GCF_046614805.1	Streptomyces atacamensis	Streptomyces atacamensis	531966	KACC15492	Contig	reference genome	41981	6429559	73	1
+GCF_003330865.1	Streptomyces atratus	Streptomyces atratus	1893	SCSIO_ZH16	Complete Genome	reference genome	9641288	9641288	69.5	14
+GCF_001418325.1	Streptomyces atriruber	Streptomyces atriruber	545121	NRRL B-24165	Scaffold	reference genome	23936	8892875	71.5	2
+GCF_964020845.1	Streptomyces atroolivaceus	Streptomyces atroolivaceus	66869		Contig	reference genome	8046083	8170221	70.5	11
+GCF_039533285.1	Streptomyces atrovirens	Streptomyces atrovirens	285556	JCM 6913	Scaffold	reference genome	98256	8723571	72	2
+GCF_014701115.1	Streptomyces aurantiacus	Streptomyces aurantiacus	47760	JCM 4677	Complete Genome	reference genome	9428393	9428393	70.5	7
+GCF_014649375.1	Streptomyces aurantiogriseus	Streptomyces aurantiogriseus	66870	JCM 4346	Scaffold	reference genome	322564	10609595	71	2
+GCF_050433025.1	Streptomyces auratus	Streptomyces auratus	114687	DSM 41897	Contig	reference genome	4434406	8438454	71	2
+GCF_000720475.1	Streptomyces aureocirculatus	Streptomyces aureocirculatus	67275	NRRL ISP-5386	Contig	reference genome	156070	9321142	71	2
+GCF_042657885.1	Streptomyces aureoversilis	Streptomyces aureoversilis	67277	CGMCC 4.1641	Scaffold	reference genome	299010	8233624	72.5	1
+GCF_010669165.1	Streptomyces aureoverticillatus	Streptomyces aureoverticillatus	66871	HN6	Complete Genome		9617533	9738430	71.5	1
+GCF_039527835.1	Streptomyces aureus	Streptomyces aureus	193461	JCM 12605	Scaffold	reference genome	35626	9872177	70	10
+GCF_000009765.2	Streptomyces avermitilis	Streptomyces avermitilis MA-4680 = NBRC 14893	227882	MA-4680	Complete Genome	reference genome	9025608	9119895	70.5	28
+GCF_000719135.1	Streptomyces avicenniae	Streptomyces avicenniae	500153	NRRL B-24776	Contig	reference genome	276597	6480326	73.5	1
+GCF_045161815.1	Streptomyces avidinii	Streptomyces avidinii	1895	NBC_00832	Complete Genome	reference genome	9032248	9032248	72	8
+GCF_039532135.1	Streptomyces axinellae	Streptomyces axinellae	552788	JCM 16373	Scaffold	reference genome	300261	7803961	71.5	1
+GCF_001270025.1	Streptomyces azureus	Streptomyces azureus	146537	ATCC 14921	Scaffold	reference genome	52084	8790205	71	2
+GCF_000716025.1	Streptomyces baarnensis	Streptomyces baarnensis	66872	NRRL B-2842	Scaffold	reference genome	63774	8227069	72	2
+GCF_044767875.1	Streptomyces bacillaris	Streptomyces bacillaris	68179	NPDC101189	Scaffold	reference genome	337133	8090803	72	64
+GCF_014649415.1	Streptomyces badius	Streptomyces badius	1941	JCM 4350	Scaffold	reference genome	47835	7515187	71.5	3
+GCF_020532645.1	Streptomyces bambusae	Streptomyces bambusae	1550616	T110	Contig	reference genome	106707	8305856	73	3
+GCF_039530525.1	Streptomyces bangladeshensis	Streptomyces bangladeshensis	295352	JCM 14924	Scaffold	reference genome	271198	8932251	73	1
+GCF_002843305.1	Streptomyces barkulensis	Streptomyces barkulensis	1257026	RC 1831	Scaffold	reference genome	125886	6544873	73	2
+GCF_020819595.1	Streptomyces barringtoniae	Streptomyces barringtoniae	2892029	JA03	Contig	reference genome	364153	9045328	71.5	1
+GCF_015910445.1	Streptomyces bathyalis	Streptomyces bathyalis	2710756	ASO4wet	Complete Genome	reference genome	7377472	7377472	70	1
+GCF_004784475.1	Streptomyces bauhiniae	Streptomyces bauhiniae	2340725	Bv016	Contig	reference genome	696214	6747476	71.5	19
+GCF_019710745.1	Streptomyces beigongshangae	Streptomyces beigongshangae	2841597	REN17	Scaffold	reference genome	105427	9128061	72	1
+GCF_026274175.1	Streptomyces beihaiensis	Streptomyces beihaiensis	2984495	GXMU-J5	Contig	reference genome	37912	6910013	71.5	1
+GCF_039526835.1	Streptomyces beijiangensis	Streptomyces beijiangensis	163361	JCM 11882	Scaffold	reference genome	525254	8394580	69.5	4
+GCF_007280585.1	Streptomyces benahoarensis	Streptomyces benahoarensis	2595054	MZ03-48	Contig	reference genome	11372	6913747	72	1
+GCF_000719285.1	Streptomyces bicolor	Streptomyces bicolor	66874	NRRL B-5348	Contig	reference genome	232223	9481884	70.5	2
+GCF_000716625.1	Streptomyces bikiniensis	Streptomyces bikiniensis	1896	NRRL ISP-5580	Contig	reference genome	142934	7391008	73	3
+GCF_000092385.1	Streptomyces bingchenggensis	Streptomyces bingchenggensis BCW-1	749414	BCW-1	Complete Genome		11936683	11936683	71	1
+GCF_039521185.1	Streptomyces blastmyceticus	Streptomyces blastmyceticus	68180	JCM 4565	Scaffold	reference genome	190087	8115695	71.5	1
+GCF_009709555.1	Streptomyces blattellae	Streptomyces blattellae	2569855	TRM63209	Scaffold	reference genome	89619	8494434	70	1
+GCF_014650715.1	Streptomyces bluensis	Streptomyces bluensis	33897	JCM 4729	Contig	reference genome	376825	9022007	70.5	5
+GCF_036172715.1	Streptomyces bobili	Streptomyces bobili	67280	NBC_00302	Complete Genome	reference genome	9287515	9287515	71	26
+GCF_031845405.1	Streptomyces boetiae	Streptomyces boetiae	3075541	DSM 44917	Contig	reference genome	108347	6050214	74.5	1
+GCF_012033785.1	Streptomyces bohaiensis	Streptomyces bohaiensis	1431344	11A07	Scaffold	reference genome	16815	5631806	73.5	3
+GCF_009908195.1	Streptomyces boluensis	Streptomyces boluensis	1775135	YC537	Contig	reference genome	16908	8247588	71	1
+GCF_011045075.1	Streptomyces boncukensis	Streptomyces boncukensis	2711219	SB3404	Contig	reference genome	12556	8270314	73	1
+GCF_048572725.1	Streptomyces boninensis	Streptomyces boninensis	2039455	TBRC7755	Complete Genome	reference genome	9599576	9599576	71.5	1
+GCF_003721215.1	Streptomyces botrytidirepellens	Streptomyces botrytidirepellens	2486417	NEAU-LD23	Scaffold	reference genome	24675	11008137	71.5	1
+GCF_000383595.1	Streptomyces bottropensis	Streptomyces bottropensis ATCC 25435	1054862	ATCC 25435	Scaffold	reference genome	4831231	8955726	71	11
+GCF_014647875.1	Streptomyces brasiliensis	Streptomyces brasiliensis	1954	JCM 3086	Scaffold	reference genome	168452	10696112	70	1
+GCF_018927715.1	Streptomyces brasiliscabiei	Streptomyces brasiliscabiei	2736302	IBSBF2867	Scaffold	reference genome	41120	10791795	71	8
+GCF_007829885.1	Streptomyces brevispora	Streptomyces brevispora	887462	DSM 42059	Contig	reference genome	6430118	7540224	70.5	7
+GCF_009796285.1	Streptomyces broussonetiae	Streptomyces broussonetiae	2686304	T44	Complete Genome	reference genome	9735779	9735779	71	3
+GCF_014295035.1	Streptomyces buecherae	Streptomyces buecherae	2763006	AC541	Complete Genome	reference genome	8416829	8416829	73	13
+GCF_036352915.1	Streptomyces bugieae	Streptomyces bugieae	3098223	DSM 41528	Contig	reference genome	173620	9056342	72	1
+GCF_042657145.1	Streptomyces bullii	Streptomyces bullii	349910	CGMCC 4.7019	Scaffold	reference genome	464898	8613370	71.5	2
+GCF_001514215.1	Streptomyces bungoensis	Streptomyces bungoensis	285568	DSM 41781	Scaffold	reference genome	156764	8408982	72.5	5
+GCF_001187435.1	Streptomyces caatingaensis	Streptomyces caatingaensis	1678637	CMAA 1322	Contig	reference genome	780921	7055077	73.5	1
+GCF_006539165.1	Streptomyces cacaoi	Streptomyces cacaoi	1898	NBRC 12748	Contig	reference genome	142848	8443444	73.5	10
+GCF_003261055.1	Streptomyces cadmiisoli	Streptomyces cadmiisoli	2184053	ZFG47	Complete Genome	reference genome	9269371	10239272	71	3
+GCF_014205255.1	Streptomyces caelestis	Streptomyces caelestis	36816	DSM 40084	Contig	reference genome	8936092	8936092	71	9
+GCF_042678285.1	Streptomyces caeni	Streptomyces caeni	2307231	CGMCC 4.7426	Scaffold	reference genome	56262	7961753	71.5	1
+GCF_001514235.1	Streptomyces caeruleatus	Streptomyces caeruleatus	661399	NRRL B-24802	Scaffold	reference genome	218496	10290495	71	1
+GCF_002891435.1	Streptomyces cahuitamycinicus	Streptomyces cahuitamycinicus	2070367	13K301	Contig	reference genome	17129	9035421	71	1
+GCF_014141525.1	Streptomyces calidiresistens	Streptomyces calidiresistens	1485586	DSM 42108	Contig	reference genome	6206	6196881	73	2
+GCF_016906185.1	Streptomyces californicus	Streptomyces californicus	67351	FDAARGOS_1209	Complete Genome	reference genome	7814960	8031696	72.5	76
+GCF_006716135.1	Streptomyces calvus	Streptomyces calvus	67282	DSM 41452	Complete Genome	reference genome	7766581	7766581	72.5	10
+GCF_027625935.1	Streptomyces camelliae	Streptomyces camelliae	3004093	HUAS 2-6	Complete Genome	reference genome	9319598	9598041	71	1
+GCF_014646115.1	Streptomyces camponoticapitis	Streptomyces camponoticapitis	1616125	CGMCC 4.7275	Scaffold	reference genome	189922	8278499	70.5	1
+GCF_014650735.1	Streptomyces canarius	Streptomyces canarius	285453	JCM 4733	Scaffold	reference genome	162104	10647065	72	2
+GCF_014655855.1	Streptomyces candidus	Streptomyces candidus	67283	JCM 4629	Scaffold	reference genome	365268	7307831	71	2
+GCF_036178885.1	Streptomyces caniferus	Streptomyces caniferus	285557	NBC_00270	Complete Genome	reference genome	8848699	8971606	71.5	10
+GCF_051171815.1	Streptomyces caniscabiei	Streptomyces caniscabiei	2746961	NE06-02D	Contig	reference genome	10788157	10963976	71	24
+GCF_036177905.1	Streptomyces canus	Streptomyces canus	58343	NBC_00277	Complete Genome	reference genome	10691412	10825738	70	51
+GCF_007829875.1	Streptomyces capillispiralis	Streptomyces capillispiralis	68182	DSM 41695	Contig	reference genome	8142423	8432708	72.5	3
+GCF_002214185.1	Streptomyces capitiformicae	Streptomyces capitiformicae	2014920	1H-SSA4	Chromosome	reference genome	5694461	10989391	70	2
+GCF_014654935.1	Streptomyces capoamus	Streptomyces capoamus	68183	JCM 4253	Scaffold	reference genome	12704	8406486	72	3
+GCF_054782095.1	Streptomyces capparidis	Streptomyces capparidis	1840415	JCM 30089	Scaffold	reference genome	129624	8691823	74.5	1
+GCF_000716845.1	Streptomyces capuensis	Streptomyces capuensis	1464056	NRRL B-12337	Contig		178168	9329832	72	2
+GCF_002794255.1	Streptomyces carminius	Streptomyces carminius	2665496	TRM SA0054	Scaffold	reference genome	255411	7200897	73	1
+GCF_025133285.1	Streptomyces carpaticus	Streptomyces carpaticus	285558	SCPM-O-B-9993	Complete Genome	reference genome	5968715	5968715	73	3
+GCF_002154505.1	Streptomyces carpinensis	Streptomyces carpinensis	66369	NRRL B-16921	Scaffold	reference genome	27185	10405645	71	1
+GCF_030719295.1	Streptomyces castrisilvae	Streptomyces castrisilvae	3033811	Mut1	Complete Genome	reference genome	7646342	7990879	72	1
+GCF_000718015.1	Streptomyces catenulae	Streptomyces catenulae	66875	NRRL B-2342	Contig	reference genome	174156	7046907	73	2
+GCF_029760955.1	Streptomyces cathayae	Streptomyces cathayae	3031124	HUAS 5	Complete Genome	reference genome	7464554	7614103	71.5	1
+GCF_004023625.1	Streptomyces cavernae	Streptomyces cavernae	2259034	SYSU K10008	Scaffold	reference genome	226764	10446772	70.5	1
+GCF_029968035.1	Streptomyces cavernicola	Streptomyces cavernicola	3043613	B-S-A6	Contig	reference genome	155201	8348439	71.5	1
+GCF_042665405.1	Streptomyces caviscabies	Streptomyces caviscabies	90079	CGMCC 4.1836	Scaffold	reference genome	523007	8097215	72	2
+GCF_006788935.1	Streptomyces cavourensis	Streptomyces cavourensis	67258	DSM 41795	Contig	reference genome	7670394	7670394	72	11
+GCF_001513965.1	Streptomyces cellostaticus	Streptomyces cellostaticus	67285	DSM 40189	Scaffold	reference genome	147351	9835283	71	3
+GCF_000720995.1	Streptomyces celluloflavus	Streptomyces celluloflavus	58344	NRRL B-2493	Contig	reference genome	181994	8676521	71.5	16
+GCF_042804095.1	Streptomyces cellulosae	Streptomyces cellulosae	1968	NPDC057399	Scaffold	reference genome	44879	7595424	72	5
+GCF_024600715.1	Streptomyces changanensis	Streptomyces changanensis	2964669	HL-66	Complete Genome	reference genome	6817869	6900504	74	1
+GCF_008704715.1	Streptomyces chartreusis	Streptomyces chartreusis	1969	ATCC 14922	Complete Genome	reference genome	9912098	9912098	71	61
+GCF_001294335.1	Streptomyces chattanoogensis	Streptomyces chattanoogensis	66876	NRRL ISP-5002	Contig	reference genome	166063	9129105	71	4
+GCF_030406905.1	Streptomyces chengbuensis	Streptomyces chengbuensis	3053466	HUAS CB01	Complete Genome	reference genome	8069256	8098788	72	1
+GCF_029846775.1	Streptomyces chengmaiensis	Streptomyces chengmaiensis	3040919	HNM0663	Scaffold	reference genome	127268	7967480	71	1
+GCF_039529885.1	Streptomyces cheonanensis	Streptomyces cheonanensis	312720	JCM 14549	Contig	reference genome	501107	5848275	73	1
+GCF_036281785.1	Streptomyces chiangmaiensis	Streptomyces chiangmaiensis	766497	TA4-1	Contig	reference genome	32937	9707984	69.5	2
+GCF_001642695.1	Streptomyces chilikensis	Streptomyces chilikensis	1194079	RC 1830	Scaffold	reference genome	28865	7121774	73.5	2
+GCF_031845445.1	Streptomyces chisholmiae	Streptomyces chisholmiae	3075540	DSM 44915	Contig	reference genome	309249	7513680	73.5	1
+GCF_029846675.1	Streptomyces chitinivorans	Streptomyces chitinivorans	1257027	RC1832	Contig	reference genome	146088	6055792	73	3
+GCF_042655885.1	Streptomyces chlorus	Streptomyces chlorus	887452	CGMCC 4.5798	Scaffold	reference genome	99034	8164212	71	2
+GCF_003865135.1	Streptomyces chrestomyceticus	Streptomyces chrestomyceticus JCM 4735	1306181	NBRC 13444	Contig	reference genome	9377418	9377418	72	11
+GCF_015160875.1	Streptomyces chromofuscus	Streptomyces chromofuscus	42881	DSM 40273	Complete Genome	reference genome	7483282	7483282	71.5	2
+GCF_014650755.1	Streptomyces chryseus	Streptomyces chryseus	68186	JCM 4737	Contig	reference genome	229344	7154268	71.5	5
+GCF_014779715.1	Streptomyces chumphonensis	Streptomyces chumphonensis	1214925	KK1-2	Contig	reference genome	350958	5823549	73.5	4
+GCF_009299385.1	Streptomyces cinereoruber	Streptomyces cinereoruber	67260	ATCC 19740	Complete Genome	reference genome	7516652	7516652	73	32
+GCF_042430725.1	Streptomyces cinereospinus	Streptomyces cinereospinus	285561	JCM 6917	Scaffold	reference genome	56971	7730381	72.5	2
+GCF_014648635.1	Streptomyces cinerochromogenes	Streptomyces cinerochromogenes	66422	JCM 3385	Scaffold	reference genome	354079	9098877	72.5	4
+GCF_027270315.1	Streptomyces cinnabarinus	Streptomyces cinnabarinus	67287	DSM 40467	Complete Genome	reference genome	9621721	9621721	71	1
+GCF_002939475.1	Streptomyces cinnamoneus	Streptomyces cinnamoneus	53446	DSM 41675	Contig	reference genome	6463510	6662690	72.5	8
+GCF_014650775.1	Streptomyces cirratus	Streptomyces cirratus	68187	JCM 4738	Contig	reference genome	436464	7269234	72	2
+GCF_036967205.1	Streptomyces citrinus	Streptomyces citrinus	3118173	Q6	Complete Genome	reference genome	8566166	8951745	71.5	1
+GCF_036345975.1	Streptomyces clavifer	Streptomyces clavifer	68188	NBC_00558	Complete Genome	reference genome	7749650	8241378	71	17
+GCF_005519465.1	Streptomyces clavuligerus	Streptomyces clavuligerus	1901	ATCC 27064	Complete Genome	reference genome	6748591	8544086	72.5	29
+GCF_029223485.1	Streptomyces coacervatus	Streptomyces coacervatus	647381	JCM 17138	Contig	reference genome	395589	11291453	70	2
+GCF_045041415.1	Streptomyces coelicoflavus	Streptomyces coelicoflavus	285562	NBC_00099	Complete Genome	reference genome	7979235	8418602	72	28
+GCF_008931305.1	Streptomyces coelicolor	Streptomyces coelicolor A3(2)	100226	CFB_NBC_0001	Complete Genome		8667664	8667664	72	8
+GCF_039532725.1	Streptomyces coeruleofuscus	Streptomyces coeruleofuscus	66879	JCM 4358	Scaffold	reference genome	596739	9250019	71	1
+GCF_039542925.1	Streptomyces coeruleoprunus	Streptomyces coeruleoprunus	285563	JCM 6919	Contig	reference genome	7683881	7767749	72.5	3
+GCF_008705135.1	Streptomyces coeruleorubidus	Streptomyces coeruleorubidus	116188	ATCC 13740	Complete Genome	reference genome	9335698	9335698	71	21
+GCF_042657965.1	Streptomyces coerulescens	Streptomyces coerulescens	29304	CGMCC 4.1597	Scaffold	reference genome	423863	10061624	70.5	1
+GCF_016741875.1	Streptomyces coffeae	Streptomyces coffeae	621382	CA1R205	Contig	reference genome	229793	9896405	70.5	1
+GCF_031348265.1	Streptomyces collinus	Streptomyces collinus	42684	CGMCC 4.1623	Complete Genome	reference genome	8867154	8867154	71.5	41
+GCF_001866645.1	Streptomyces colonosanans	Streptomyces colonosanans	1428652	MUSC 93	Contig	reference genome	99963	7015076	70	1
+GCF_012034205.1	Streptomyces composti	Streptomyces composti	2720025	SBST2-5	Contig	reference genome	166826	6517216	72	1
+GCF_019104725.1	Streptomyces corallincola	Streptomyces corallincola	2851888	J2-1	Contig	reference genome	109407	6394983	72.5	1
+GCF_001514055.1	Streptomyces corchorusii	Streptomyces corchorusii	1903	DSM 40340	Scaffold	reference genome	211102	10309547	72	1
+GCF_913919575.1	Streptomyces coriariae	Streptomyces coriariae	2864460	CMB-FB	Scaffold	reference genome	68940	9331620	71	1
+GCF_011044975.1	Streptomyces coryli	Streptomyces coryli	1128680	A7024	Contig	reference genome	28409	9031846	71.5	1
+GCF_003346515.1	Streptomyces corynorhini	Streptomyces corynorhini	2282652	AC230	Scaffold	reference genome	27620	7735729	71.5	1
+GCF_039535435.1	Streptomyces cremeus	Streptomyces cremeus	66881	JCM 4362	Contig	reference genome	1251892	7830338	72.5	2
+GCF_039521265.1	Streptomyces crystallinus	Streptomyces crystallinus	68191	JCM 5067	Scaffold	reference genome	165170	7901527	72	1
+GCF_024295805.1	Streptomyces cucumeris	Streptomyces cucumeris	2962890	NEAU-Y11	Scaffold	reference genome	117045	9521471	71	6
+GCF_014257025.1	Streptomyces cupreus	Streptomyces cupreus	2759956	PSKA01	Contig	reference genome	119198	9399224	70	1
+GCF_001513975.1	Streptomyces curacoi	Streptomyces curacoi	146536	DSM 40107	Scaffold	reference genome	333488	8412249	71	1
+GCF_039532705.1	Streptomyces cuspidosporus	Streptomyces cuspidosporus	66882	JCM 4316	Scaffold	reference genome	166232	9737097	72.5	1
+GCF_003963535.1	Streptomyces cyaneochromogenes	Streptomyces cyaneochromogenes	2496836	MK-45	Complete Genome	reference genome	10677137	10677137	70.5	1
+GCF_033109485.1	Streptomyces cyaneofuscatus	Streptomyces cyaneofuscatus	66883	89-2-2	Complete Genome	reference genome	8117999	8117999	71.5	88
+GCF_000931445.1	Streptomyces cyaneogriseus	Streptomyces cyaneogriseus subsp. noncyanogenus	477245	NMWT 1	Complete Genome		7762396	7762396	73	1
+GCF_004028635.1	Streptomyces cyaneus	Streptomyces cyaneus	1904	CGMCC 4.1671	Scaffold	reference genome	710572	9833661	70.5	1
+GCF_017526105.1	Streptomyces cyanogenus	Streptomyces cyanogenus	80860	S136	Complete Genome	reference genome	8773899	8773899	72	1
+GCF_022698165.1	Streptomyces cylindrosporus	Streptomyces cylindrosporus	2927583	7R015	Contig	reference genome	632885	10929167	71	1
+GCF_025642135.1	Streptomyces cynarae	Streptomyces cynarae	2981134	HUAS 13-4	Complete Genome	reference genome	9054161	9362607	70.5	2
+GCF_052663305.1	Streptomyces cyslabdanicus	Streptomyces cyslabdanicus	1470456	K04-0144	Contig	reference genome	129817	8085163	71.5	1
+GCF_020521275.1	Streptomyces daghestanicus	Streptomyces daghestanicus	66885	NBRC 12762	Contig	reference genome	1311779	8219361	73	2
+GCF_054782395.1	Streptomyces daliensis	Streptomyces daliensis	299421	JCM 19963	Scaffold	reference genome	89816	9344684	72	1
+GCF_003675325.1	Streptomyces dangxiongensis	Streptomyces dangxiongensis	1442032	Z022	Complete Genome	reference genome	8085191	8157885	72	1
+GCF_014645895.1	Streptomyces daqingensis	Streptomyces daqingensis	1472640	CGMCC 4.7178	Scaffold	reference genome	280247	6537491	71.5	1
+GCF_000349325.1	Streptomyces davaonensis	Streptomyces davaonensis JCM 4913	1214101	JCM 4913	Chromosome	reference genome	5836073	9555950	70.5	1
+GCF_022385335.1	Streptomyces deccanensis	Streptomyces deccanensis	424188	KCTC 19241	Complete Genome	reference genome	10101518	10101518	71	1
+GCF_045208505.1	Streptomyces decoyicus	Streptomyces decoyicus	249567	NBC_01584	Complete Genome	reference genome	9132955	9226293	71	26
+GCF_030803745.1	Streptomyces demainii	Streptomyces demainii	588122	DSM 41600	Contig	reference genome	6271230	10542352	72	1
+GCF_002946835.1	Streptomyces dengpaensis	Streptomyces dengpaensis	2049881	XZHG99	Complete Genome	reference genome	8541354	8710171	70	1
+GCF_042681365.1	Streptomyces desertarenae	Streptomyces desertarenae	2666184	CGMCC 4.7455	Scaffold	reference genome	279720	6284384	74	1
+GCF_054782695.1	Streptomyces deserti	Streptomyces deserti	531967	JCM 19673	Scaffold	reference genome	194989	8711601	71	1
+GCF_003323715.1	Streptomyces diacarni	Streptomyces diacarni	2800381	LHW51701	Scaffold	reference genome	249792	7661915	72	2
+GCF_014648935.1	Streptomyces diastaticus	Streptomyces diastaticus subsp. diastaticus	68040	JCM 4128	Scaffold	reference genome	232919	6982337	73.5	65
+GCF_002242805.1	Streptomyces diastatochromogenes	Streptomyces diastatochromogenes	42236	DSM 40608	Scaffold	reference genome	245320	10520052	71	4
+GCF_003024195.1	Streptomyces dioscori	Streptomyces dioscori	2109333	A217	Scaffold	reference genome	288186	10239468	70.5	1
+GCF_014651075.1	Streptomyces djakartensis	Streptomyces djakartensis	68193	JCM 4957	Scaffold	reference genome	341741	7674449	71	2
+GCF_031845645.1	Streptomyces doebereineriae	Streptomyces doebereineriae	3075528	DSM 41640	Contig	reference genome	430585	11255076	70	1
+GCF_031845505.1	Streptomyces doudnae	Streptomyces doudnae	3075536	DSM 41981	Contig	reference genome	254073	9233126	73	1
+GCF_039534625.1	Streptomyces drozdowiczii	Streptomyces drozdowiczii	202862	JCM 13580	Scaffold	reference genome	340352	7358759	72	7
+GCF_031845545.1	Streptomyces dubilierae	Streptomyces dubilierae	3075533	DSM 41921	Contig	reference genome	316072	8265755	72.5	1
+GCF_014156695.1	Streptomyces durbertensis	Streptomyces durbertensis	2448886	DSM 104538	Contig	reference genome	10866	5923645	72.5	1
+GCF_000725475.1	Streptomyces durhamensis	Streptomyces durhamensis	68194	NRRL B-3309	Scaffold	reference genome	256603	9312374	71.5	1
+GCF_023498005.1	Streptomyces durmitorensis	Streptomyces durmitorensis	319947	MS405	Complete Genome	reference genome	9715409	9862620	70.5	2
+GCF_016901035.1	Streptomyces durocortorensis	Streptomyces durocortorensis	2811104	RHZ10	Scaffold	reference genome	18586	7959868	71.5	1
+GCF_001514305.1	Streptomyces dysideae	Streptomyces dysideae	909626	RV15	Scaffold	reference genome	141443	10773767	70.5	1
+GCF_014203595.1	Streptomyces echinatus	Streptomyces echinatus	67293	CECT 3313	Scaffold	reference genome	404223	9391279	72	7
+GCF_049239225.1	Streptomyces echiniscabiei	Streptomyces echiniscabiei	3028708	WI04-05B	Contig	reference genome	8243706	10735201	70	2
+GCF_014651135.1	Streptomyces echinoruber	Streptomyces echinoruber	68898	JCM 5016	Scaffold	reference genome	161990	7356931	73	2
+GCF_031845685.1	Streptomyces edwardsiae	Streptomyces edwardsiae	3075527	DSM 41636	Contig	reference genome	103164	7902573	71.5	2
+GCF_042654145.1	Streptomyces ehimensis	Streptomyces ehimensis	68195	CGMCC 4.1668	Scaffold	reference genome	351986	8120910	71.5	1
+GCF_016741935.1	Streptomyces endocoffeicus	Streptomyces endocoffeicus	2898945	CA3R110	Contig	reference genome	328265	13128250	71	1
+GCF_026153355.1	Streptomyces endophytica	Streptomyces endophytica	2991496	HNM0140	Complete Genome	reference genome	6901780	6901780	72	1
+GCF_035798155.1	Streptomyces endophyticus	Streptomyces endophyticus	714166	YIM65594	Contig	reference genome	109112	9541774	71	1
+GCF_039533765.1	Streptomyces enissocaesilis	Streptomyces enissocaesilis	332589	JCM 9088	Contig	reference genome	166222	7434596	71	1
+GCF_036170895.1	Streptomyces erythrochromogenes	Streptomyces erythrochromogenes	285574	NBC_00303	Complete Genome	reference genome	8498532	8598676	72	31
+GCF_039534285.1	Streptomyces erythrogriseus	Streptomyces erythrogriseus	284027	JCM 9650	Scaffold	reference genome	58248	7474386	72.5	1
+GCF_002891295.1	Streptomyces eurocidicus	Streptomyces eurocidicus	66423	ATCC 27428	Contig	reference genome	801731	7931574	72.5	3
+GCF_036346855.1	Streptomyces europaeiscabiei	Streptomyces europaeiscabiei	146819	NBC_00515	Complete Genome	reference genome	10755582	10954113	70.5	34
+GCF_014649115.1	Streptomyces eurythermus	Streptomyces eurythermus	42237	JCM 4206	Scaffold	reference genome	289350	9167999	72.5	20
+GCF_031845585.1	Streptomyces evansiae	Streptomyces evansiae	3075535	DSM 41979	Contig	reference genome	67094	7502396	73.5	3
+GCF_000725545.1	Streptomyces exfoliatus	Streptomyces exfoliatus	1905	NRRL B-2924	Scaffold	reference genome	254413	7874957	72	7
+GCF_025665295.1	Streptomyces explomaris	Streptomyces explomaris	2981351	Je 1-4	Complete Genome	reference genome	8866687	8866687	71	1
+GCF_009498275.1	Streptomyces fagopyri	Streptomyces fagopyri	2662397	QMT-28	Complete Genome	reference genome	8880330	8880330	71	6
+GCF_015160855.1	Streptomyces ferrugineus	Streptomyces ferrugineus	1413221	CCTCC AA2014009	Complete Genome	reference genome	9959088	9959088	71	1
+GCF_009739905.1	Streptomyces ficellus	Streptomyces ficellus	1977088	NRRL 8067	Complete Genome	reference genome	7078240	7078240	72.5	2
+GCF_008634015.1	Streptomyces filamentosus	Streptomyces filamentosus	67294	ATCC 23958	Contig	reference genome	5744022	7875407	73.5	16
+GCF_042652185.1	Streptomyces fildesensis	Streptomyces fildesensis	375757	CGMCC 4.5735	Scaffold	reference genome	204870	9040893	70.5	4
+GCF_014649495.1	Streptomyces filipinensis	Streptomyces filipinensis	66887	JCM 4369	Scaffold	reference genome	338528	9249383	72	2
+GCF_039533005.1	Streptomyces fimbriatus	Streptomyces fimbriatus	68197	JCM 5080	Scaffold	reference genome	463176	8076986	72.5	2
+GCF_014650515.1	Streptomyces finlayi	Streptomyces finlayi	67296	JCM 4637	Scaffold	reference genome	308806	9487627	71.5	2
+GCF_042674625.1	Streptomyces flavalbus	Streptomyces flavalbus	2665155	CGMCC 4.7400	Contig	reference genome	7950563	8013664	72	1
+GCF_044765825.1	Streptomyces flaveolus	Streptomyces flaveolus	67297	NPDC102396	Scaffold	reference genome	312959	8170724	72	27
+GCF_014647675.1	Streptomyces flaveus	Streptomyces flaveus	66370	JCM 3035	Scaffold	reference genome	99491	10275661	69.5	3
+GCF_000429085.1	Streptomyces flavidovirens	Streptomyces flavidovirens DSM 40150	1123319	DSM 40150	Scaffold	reference genome	241428	7070406	70.5	7
+GCF_000717595.1	Streptomyces flavochromogenes	Streptomyces flavochromogenes	68199	NRRL B-2684	Contig	reference genome	235906	8884918	72	2
+GCF_014650815.1	Streptomyces flavofungini	Streptomyces flavofungini	68200	JCM 4753	Scaffold	reference genome	419044	9312928	72	4
+GCF_020639365.1	Streptomyces flavotricini	Streptomyces flavotricini	66888	NGL1	Scaffold	reference genome	166191	8859749	72	1
+GCF_000725785.1	Streptomyces flavovariabilis	Streptomyces flavovariabilis	284031	NRRL B-16367	Scaffold	reference genome	285929	8762262	71	1
+GCF_042651015.1	Streptomyces flavovirens	Streptomyces flavovirens	52258	CCM 3243	Contig	reference genome	227530	7605216	72	4
+GCF_046267975.1	Streptomyces flavusporus	Streptomyces flavusporus	3385496	HC307	Complete Genome	reference genome	10014678	10026667	70	1
+GCF_001735805.1	Streptomyces fodineus	Streptomyces fodineus	1904616	TW1S1	Complete Genome	reference genome	9698948	9698948	71	1
+GCF_022647665.1	Streptomyces formicae	Streptomyces formicae	1616117	1H-GS9	Complete Genome	reference genome	8177291	8205064	71	4
+GCF_049844455.1	Streptomyces fractus	Streptomyces fractus	641806	MV32	Contig	reference genome	9538431	10048055	70.5	1
+GCF_008704425.1	Streptomyces fradiae	Streptomyces fradiae ATCC 10745 = DSM 40063	1319510	ATCC 10745	Complete Genome	reference genome	6725579	6725579	74.5	29
+GCF_003112515.1	Streptomyces fragilis	Streptomyces fragilis	67301	NBRC 12862	Contig	reference genome	607197	6847990	73	3
+GCF_014651055.1	Streptomyces fructofermentans	Streptomyces fructofermentans	152141	JCM 4956	Scaffold	reference genome	165454	8872745	72.5	3
+GCF_013409565.1	Streptomyces fulvorobeus	Streptomyces fulvorobeus	284028	DSM 41455	Contig	reference genome	6607290	6646162	71	3
+GCF_000718165.1	Streptomyces fulvoviolaceus	Streptomyces fulvoviolaceus	285535	NRRL B-2870	Contig	reference genome	163841	11584616	70	2
+GCF_014655295.1	Streptomyces fumanus	Streptomyces fumanus	67302	JCM 4477	Scaffold	reference genome	488703	8153910	73	3
+GCF_003665435.1	Streptomyces fungicidicus	Streptomyces fungicidicus	68203	TXX3120	Complete Genome	reference genome	6740768	7667496	72	36
+GCF_014645815.1	Streptomyces fuscichromogenes	Streptomyces fuscichromogenes	1324013	CGMCC 4.7110	Scaffold	reference genome	253332	11559237	71.5	2
+GCF_021556455.1	Streptomyces fuscigenes	Streptomyces fuscigenes	1528880	JBL-20	Contig	reference genome	12419	6371350	73	1
+GCF_030262575.1	Streptomyces fuscus	Streptomyces fuscus	3048495	GXMU-J15	Contig	reference genome	165811	8680088	71	1
+GCF_005280195.1	Streptomyces galbus	Streptomyces galbus	33898	DSM 40089	Scaffold	reference genome	216911	7836436	73	6
+GCF_014650835.1	Streptomyces galilaeus	Streptomyces galilaeus	33899	JCM 4757	Scaffold	reference genome	250279	9317583	71	10
+GCF_042656465.1	Streptomyces gamaensis	Streptomyces gamaensis	1763542	CGMCC 4.7304	Scaffold	reference genome	312069	7610574	72	1
+GCF_000342345.1	Streptomyces gancidicus	Streptomyces gancidicus BKS 13-15	1284664	BKS 13-15	Contig		79071	7300479	72.5	1
+GCF_015710995.1	Streptomyces gardneri	Streptomyces gardneri	66892	ATCC 15439	Complete Genome	reference genome	9054805	9054805	71.5	11
+GCF_014649535.1	Streptomyces gelaticus	Streptomyces gelaticus	285446	JCM 4376	Scaffold	reference genome	171137	7755498	70.5	3
+GCF_014489615.1	Streptomyces genisteinicus	Streptomyces genisteinicus	2768068	CRPJ-33	Complete Genome	reference genome	7631890	8188347	73.5	1
+GCF_002954775.1	Streptomyces geranii	Streptomyces geranii	2058923	A301	Scaffold	reference genome	175548	10196536	70.5	1
+GCF_019641555.1	Streptomyces geysiriensis	Streptomyces geysiriensis	68207	S19	Contig		17661	8155561	72.5	1
+GCF_031845665.1	Streptomyces gibsoniae	Streptomyces gibsoniae	3075529	DSM 41699	Contig	reference genome	97361	10278310	70.5	1
+GCF_028401765.1	Streptomyces gilvifuscus	Streptomyces gilvifuscus	1550617	T113	Contig	reference genome	393415	9875823	71.5	1
+GCF_002082195.1	Streptomyces gilvosporeus	Streptomyces gilvosporeus	553510	F607	Complete Genome	reference genome	8482298	8482298	71	2
+GCF_022513565.1	Streptomyces gilvus	Streptomyces gilvus	2920937	CME 23	Contig	reference genome	252519	8808297	71	1
+GCF_024761905.1	Streptomyces ginkgonis	Streptomyces ginkgonis	1812259	KM-1-2	Contig	reference genome	697421	5837284	73	1
+GCF_002154375.1	Streptomyces glaucescens	Streptomyces glaucescens	1907	NRRL B-2706	Scaffold	reference genome	13676	8426988	72	5
+GCF_039533345.1	Streptomyces glaucosporus	Streptomyces glaucosporus	284044	JCM 6921	Scaffold	reference genome	158361	6178264	73.5	1
+GCF_039533365.1	Streptomyces glaucus	Streptomyces glaucus	284029	JCM 6922	Scaffold	reference genome	120000	7390543	73.5	1
+GCF_009811575.1	Streptomyces glebosus	Streptomyces glebosus	249580	NBRC 13786	Contig	reference genome	8442457	8442457	71	2
+GCF_000261345.2	Streptomyces globisporus	Streptomyces globisporus C-1027	1172567	C-1027	Complete Genome	reference genome	7608611	7783599	71.5	89
+GCF_039529415.1	Streptomyces globosus	Streptomyces globosus	68209	JCM 13859	Scaffold	reference genome	38748	7496032	74	6
+GCF_021462825.1	Streptomyces glomeratus	Streptomyces glomeratus	284452	DSM 41457	Contig	reference genome	202410	7805372	71	2
+GCF_030719215.1	Streptomyces glycanivorans	Streptomyces glycanivorans	3033808	Alt3	Complete Genome	reference genome	8355599	8654387	70.5	1
+GCF_021216675.1	Streptomyces gobiensis	Streptomyces gobiensis	2875706	1_25	Complete Genome	reference genome	5691859	5691859	69	1
+GCF_039532985.1	Streptomyces gobitricini	Streptomyces gobitricini	68211	JCM 5062	Scaffold	reference genome	95311	6839749	72.5	1
+GCF_027942015.1	Streptomyces goshikiensis	Streptomyces goshikiensis	1942	CGMCC 4.1796	Complete Genome	reference genome	7239828	8161592	72.5	65
+GCF_025165795.1	Streptomyces gossypii	Streptomyces gossypii	2883101	N2-109	Scaffold	reference genome	343243	7518892	70.5	1
+GCF_013433285.1	Streptomyces gossypiisoli	Streptomyces gossypiisoli	2748864	TRM 44567	Scaffold	reference genome	141610	9324019	71	1
+GCF_031845845.1	Streptomyces gottesmaniae	Streptomyces gottesmaniae	3075518	DSM 3412	Contig	reference genome	183349	10105429	71	1
+GCF_045039555.1	Streptomyces gougerotii	Streptomyces gougerotii	53448	NBC_01103	Complete Genome	reference genome	6721603	6721603	73.5	3
+GCF_039533385.1	Streptomyces graminearus	Streptomyces graminearus	284030	JCM 6923	Scaffold	reference genome	148232	8665966	72	1
+GCF_046718965.1	Streptomyces gramineus	Streptomyces gramineus	910542	A14	Scaffold	reference genome	90563	9182179	72	1
+GCF_052828665.1	Streptomyces graminifolii	Streptomyces graminifolii	1266771	NBRC 109806	Complete Genome	reference genome	10044962	10144208	70.5	1
+GCF_001418565.1	Streptomyces graminilatus	Streptomyces graminilatus	1464070	NRRL B-59124	Scaffold	reference genome	19008	9608680	70	1
+GCF_000716525.1	Streptomyces graminis	Streptomyces graminis	1464081	NRRL B-1570	Contig		166038	7867602	72.5	1
+GCF_030294945.1	Streptomyces graminofaciens	Streptomyces graminofaciens	68212	A-8890	Complete Genome	reference genome	11602651	11602651	70.5	1
+GCF_014534645.1	Streptomyces griseicoloratus	Streptomyces griseicoloratus	2752516	TRM S81-3	Scaffold	reference genome	166916	8825450	72	1
+GCF_020010925.1	Streptomyces griseiscabiei	Streptomyces griseiscabiei	2993540	NRRL B-2795	Contig	reference genome	3950223	10610750	71.5	4
+GCF_036189845.1	Streptomyces griseoaurantiacus	Streptomyces griseoaurantiacus	68213	NBC_00521	Complete Genome	reference genome	7415029	7572860	72.5	31
+GCF_014655595.1	Streptomyces griseocarneus	Streptomyces griseocarneus	51201	JCM 4580	Scaffold	reference genome	350219	7375626	72	3
+GCF_001542625.1	Streptomyces griseochromogenes	Streptomyces griseochromogenes	68214	ATCC 14511	Complete Genome	reference genome	10764674	10764674	71	3
+GCF_014649995.1	Streptomyces griseoflavus	Streptomyces griseoflavus	35619	JCM 4479	Scaffold	reference genome	115138	7580440	72.5	8
+GCF_014673495.1	Streptomyces griseofuscus	Streptomyces griseofuscus	146922	DSM 40191	Complete Genome	reference genome	8721740	9116672	71.5	29
+GCF_023702435.1	Streptomyces griseoincarnatus	Streptomyces griseoincarnatus	29305	RB7AG	Contig		311319	7707382	72.5	1
+GCF_014650015.1	Streptomyces griseoloalbus	Streptomyces griseoloalbus	67303	JCM 4480	Scaffold	reference genome	231276	7958048	71.5	5
+GCF_000721185.1	Streptomyces griseolus	Streptomyces griseolus	1909	NRRL B-2925	Contig	reference genome	201589	7537539	72	2
+GCF_014656035.1	Streptomyces griseoluteus	Streptomyces griseoluteus	29306	JCM 4765	Scaffold	reference genome	307222	6664735	71.5	34
+GCF_014649595.1	Streptomyces griseomycini	Streptomyces griseomycini	66895	JCM 4382	Contig	reference genome	348767	8292334	73	4
+GCF_051201135.1	Streptomyces griseorubens	Streptomyces griseorubens	66897	DSM 40160	Contig	reference genome	225024	7662408	72.5	3
+GCF_001514205.1	Streptomyces griseoruber	Streptomyces griseoruber	1943	DSM 40281	Scaffold	reference genome	217124	10217879	71.5	5
+GCF_003595235.1	Streptomyces griseorubiginosus	Streptomyces griseorubiginosus	67304	3E-1	Complete Genome	reference genome	9512378	9512378	71	29
+GCF_014656055.1	Streptomyces griseosporeus	Streptomyces griseosporeus	1910	JCM 4766	Scaffold	reference genome	586463	8163924	72.5	8
+GCF_030803725.1	Streptomyces griseoviridis	Streptomyces griseoviridis	45398	DSM 40229	Contig	reference genome	7872322	7872322	73	12
+GCF_040685215.1	Streptomyces griseus	Streptomyces griseus	1911	NPDC089181	Scaffold	reference genome	229522	8328034	72	135
+GCF_039537365.1	Streptomyces gulbargensis	Streptomyces gulbargensis	364901	JCM 16956	Scaffold	reference genome	185893	6827317	73	1
+GCF_021261325.1	Streptomyces guryensis	Streptomyces guryensis	2886947	NR30	Scaffold	reference genome	288553	10492733	70.5	1
+GCF_004348415.1	Streptomyces hainanensis	Streptomyces hainanensis	402648	DSM 41900	Contig	reference genome	13702	7991366	73	1
+GCF_023277745.1	Streptomyces halobius	Streptomyces halobius	2879846	3_2	Complete Genome	reference genome	9239126	9239126	70	1
+GCF_045207185.1	Streptomyces halstedii	Streptomyces halstedii	1944	NBC 00641	Complete Genome	reference genome	7458198	7849026	72	39
+GCF_013364095.1	Streptomyces harbinensis	Streptomyces harbinensis	1176198	NA02264	Complete Genome	reference genome	5802668	5802668	73	9
+GCF_004803895.1	Streptomyces hawaiiensis	Streptomyces hawaiiensis	67305	ATCC 12236	Complete Genome	reference genome	8876928	8876928	71	4
+GCF_052543575.1	Streptomyces hayashii	Streptomyces hayashii	2839966	SAS_261	Scaffold	reference genome	67796	9647871	71.5	2
+GCF_031845485.1	Streptomyces hazeniae	Streptomyces hazeniae	3075538	DSM 42041	Contig	reference genome	181340	6460955	73	1
+GCF_052983195.1	Streptomyces hebeiensis	Streptomyces hebeiensis	229486	JL9001	Complete Genome	reference genome	7513245	7700822	71.5	2
+GCF_028401405.1	Streptomyces heilongjiangensis	Streptomyces heilongjiangensis	945052	NEAU-W2	Contig	reference genome	148220	8936924	72	3
+GCF_042431345.1	Streptomyces heliomycini	Streptomyces heliomycini	284032	JCM 9767	Scaffold	reference genome	43728	8264776	72.5	1
+GCF_032656585.1	Streptomyces herbicida	Streptomyces herbicida	3065675	NEAU-HV9	Scaffold	reference genome	321446	10797268	70.5	1
+GCF_031845785.1	Streptomyces hesseae	Streptomyces hesseae	3075519	DSM 40473	Contig	reference genome	250040	7665684	71.5	1
+GCF_024539675.1	Streptomyces hilarionis	Streptomyces hilarionis	2839954	IBSBF 2807	Scaffold	reference genome	39079	9061055	72	1
+GCF_013912435.1	Streptomyces himalayensis	Streptomyces himalayensis subsp. aureolus	2758039	PSKA54	Contig	reference genome	144039	9067473	70	2
+GCF_000158915.1	Streptomyces himastatinicus	Streptomyces himastatinicus ATCC 53653	457427	ATCC 53653	Scaffold	reference genome	27794	11030030	71	1
+GCF_031845745.1	Streptomyces hintoniae	Streptomyces hintoniae	3075521	DSM 41014	Contig	reference genome	156173	9090440	72	1
+GCF_014650335.1	Streptomyces hiroshimensis	Streptomyces hiroshimensis	66424	JCM 4586	Scaffold	reference genome	313549	7757254	72	2
+GCF_035918035.1	Streptomyces hirsutus	Streptomyces hirsutus	35620	NBC 01753	Complete Genome	reference genome	8843894	8843894	71	21
+GCF_000376565.1	Streptomyces hokutonensis	Streptomyces hokutonensis	1306990	R1-NS-10	Contig	reference genome	135550	11828360	70.5	5
+GCF_003626535.1	Streptomyces hoynatensis	Streptomyces hoynatensis	1141874	KCTC 29097	Contig	reference genome	330453	7260715	74.5	1
+GCF_050871185.1	Streptomyces huangiella	Streptomyces huangiella	3228804	HD1123-B1	Complete Genome	reference genome	8879304	8879304	71.5	1
+GCF_021028635.1	Streptomyces huasconensis	Streptomyces huasconensis	1854574	D23	Complete Genome	reference genome	8236582	8236582	71.5	9
+GCF_020037025.1	Streptomyces huiliensis	Streptomyces huiliensis	2876027	SCA2-4	Contig	reference genome	41451	7680491	73	1
+GCF_001005085.2	Streptomyces humi	Streptomyces humi	1428620	MUSC 119	Contig	reference genome	126586	10014215	72	2
+GCF_024436035.1	Streptomyces humicola	Streptomyces humicola	2953240	RB6PN25	Contig	reference genome	205003	7069061	70	1
+GCF_014649655.1	Streptomyces humidus	Streptomyces humidus	52259	JCM 4386	Scaffold	reference genome	193296	9711080	71.5	4
+GCF_039538105.1	Streptomyces hundungensis	Streptomyces hundungensis	1077946	JCM 17577	Scaffold	reference genome	217108	8360549	71	4
+GCF_002217755.1	Streptomyces hyaluromycini	Streptomyces hyaluromycini	1377993	NBRC 110483	Scaffold	reference genome	377823	11525033	71	2
+GCF_020404845.1	Streptomyces hyderabadensis	Streptomyces hyderabadensis	598549	JCM 17657	Contig	reference genome	130065	8183068	72.5	2
+GCF_040684435.1	Streptomyces hydrogenans	Streptomyces hydrogenans	1873719	NPDC091218	Scaffold	reference genome	194898	8673955	73.5	46
+GCF_037126205.1	Streptomyces hygroscopicus	Streptomyces hygroscopicus subsp. hygroscopicus	68042	DSM 41954	Complete Genome	reference genome	9682870	9682870	72	34
+GCF_052934925.1	Streptomyces hypolithicus	Streptomyces hypolithicus	479410	DSM 41950	Complete Genome	reference genome	6014151	6165428	70	1
+GCF_036287475.1	Streptomyces iakyrus	Streptomyces iakyrus	68219	CGMCC 4.1912	Complete Genome	reference genome	9116509	9116509	71	13
+GCF_028657195.3	Streptomyces iconiensis	Streptomyces iconiensis	1384038	DSM 42109	Contig	reference genome	158355	9828295	71	1
+GCF_042656345.1	Streptomyces incanus	Streptomyces incanus	887453	CGMCC 4.5799	Scaffold	reference genome	58197	8273922	71	2
+GCF_001027185.1	Streptomyces incarnatus	Streptomyces incarnatus	665007	NRRL 8089	Chromosome	reference genome	401474	8897465	71.5	1
+GCF_021474405.1	Streptomyces indiaensis	Streptomyces indiaensis	284033	DSM 43803	Contig	reference genome	50087	7814613	71.5	2
+GCF_900100315.1	Streptomyces indicus	Streptomyces indicus	417292	CGMCC 4.5727	Scaffold	reference genome	341273	8228196	71.5	1
+GCF_022221585.1	Streptomyces inhibens	Streptomyces inhibens	2293571	NRRL30439	Complete Genome	reference genome	9696490	9696490	70.5	5
+GCF_014651115.1	Streptomyces inusitatus	Streptomyces inusitatus	68221	JCM 4988	Scaffold	reference genome	149480	7867568	71.5	1
+GCF_051122705.1	Streptomyces ipomoeae	Streptomyces ipomoeae	103232	NRRL_B-12321	Complete Genome	reference genome	10886267	10886267	70.5	10
+GCF_042466515.1	Streptomyces iranensis	Streptomyces iranensis	576784	DSM 41954	Complete Genome	reference genome	12213033	12213033	71	4
+GCF_039525925.1	Streptomyces javensis	Streptomyces javensis	114698	JCM 11446	Scaffold	reference genome	102235	11277705	71.5	4
+GCF_001642995.1	Streptomyces jeddahensis	Streptomyces jeddahensis	1716141	G25	Contig	reference genome	86423	8449625	70.5	1
+GCF_031845565.1	Streptomyces johnsoniae	Streptomyces johnsoniae	3075532	DSM 41886	Contig	reference genome	373560	7527049	72.5	1
+GCF_009600885.1	Streptomyces jumonjinensis	Streptomyces jumonjinensis	1945	NRRL 5741	Scaffold	reference genome	42811	8465075	71	5
+GCF_015163075.1	Streptomyces justiciae	Streptomyces justiciae	2780140	3R004	Contig	reference genome	449515	10454561	71	3
+GCF_042679505.1	Streptomyces kaempferi	Streptomyces kaempferi	333725	CGMCC 4.7020	Scaffold	reference genome	93392	11201916	70.5	2
+GCF_008704495.1	Streptomyces kanamyceticus	Streptomyces kanamyceticus	1967	ATCC 12853	Complete Genome	reference genome	10133897	10133897	71	3
+GCF_043077165.1	Streptomyces kanasensis	Streptomyces kanasensis	936756	NPDC016311	Scaffold	reference genome	237868	6972480	74	3
+GCF_009569385.1	Streptomyces kaniharaensis	Streptomyces kaniharaensis	212423	SF-557	Contig	reference genome	6153183	8774359	72	1
+GCF_002261115.1	Streptomyces kasugaensis	Streptomyces kasugaensis	1946	BCRC 12349	Scaffold	reference genome	1688389	9262443	71.5	2
+GCF_000966975.1	Streptomyces katrae	Streptomyces katrae	68223	NRRL ISP-5550	Contig	reference genome	8690	8049424	73	4
+GCF_009600895.1	Streptomyces katsurahamanus	Streptomyces katsurahamanus	2577098	T-272	Scaffold	reference genome	25412	7243826	71	1
+GCF_001906585.1	Streptomyces kebangsaanensis	Streptomyces kebangsaanensis	864058	SUK12	Scaffold	reference genome	17211	8244886	71.5	2
+GCF_003626645.1	Streptomyces klenkii	Streptomyces klenkii	1420899	KCTC 29202	Contig	reference genome	541812	8230626	72.5	7
+GCF_018604545.1	Streptomyces koelreuteriae	Streptomyces koelreuteriae	2838015	MG62	Complete Genome	reference genome	8599513	8599513	71	3
+GCF_003428925.1	Streptomyces koyangensis	Streptomyces koyangensis	188770	VK-A60T	Complete Genome	reference genome	7220839	7220839	73	26
+GCF_014646275.1	Streptomyces kronopolitis	Streptomyces kronopolitis	1612435	CGMCC 4.7323	Scaffold	reference genome	191127	7834107	72	13
+GCF_032248675.1	Streptomyces kroppenstedtii	Streptomyces kroppenstedtii	3051181	DSM 40484	Contig	reference genome	406403	9271129	71	1
+GCF_050018475.1	Streptomyces krungchingensis	Streptomyces krungchingensis	1565034	1D107	Scaffold	reference genome	169974	10501679	71.5	2
+GCF_039533535.1	Streptomyces kunmingensis	Streptomyces kunmingensis	68225	JCM 7473	Scaffold	reference genome	152123	9785516	71	2
+GCF_040677245.1	Streptomyces kurssanovii	Streptomyces kurssanovii	67312	NPDC049344	Scaffold	reference genome	106050	7843086	71.5	1
+GCF_032248635.1	Streptomyces kutzneri	Streptomyces kutzneri	3051179	DSM 40907	Contig	reference genome	402738	9215953	71.5	1
+GCF_039534145.1	Streptomyces labedae	Streptomyces labedae	285569	JCM 9381	Scaffold	reference genome	146667	7772107	72	1
+GCF_047337785.1	Streptomyces lacaronensis	Streptomyces lacaronensis	3379885	OE57	Contig	reference genome	12230355	12391416	71	1
+GCF_014646095.1	Streptomyces lacrimifluminis	Streptomyces lacrimifluminis	1500077	CGMCC 4.7272	Scaffold	reference genome	233247	9022781	70	2
+GCF_030719275.1	Streptomyces laculatispora	Streptomyces laculatispora	887464	Mut2	Complete Genome	reference genome	8504600	8645539	70.5	2
+GCF_014655715.1	Streptomyces lanatus	Streptomyces lanatus	66900	JCM 4588	Scaffold	reference genome	344234	10216859	70.5	2
+GCF_031845825.1	Streptomyces lancefieldiae	Streptomyces lancefieldiae	3075520	DSM 40712	Contig	reference genome	137395	9331789	71.5	1
+GCF_039536665.1	Streptomyces lannensis	Streptomyces lannensis	766498	JCM 16578	Scaffold	reference genome	229886	10360522	70	1
+GCF_005280215.1	Streptomyces lasalocidi	Streptomyces lasalocidi	324833	X-537	Scaffold	reference genome	2759185	8503469	72.5	1
+GCF_014646335.1	Streptomyces lasiicapitis	Streptomyces lasiicapitis	1923961	CGMCC 4.7349	Scaffold	reference genome	294855	9746447	71.5	4
+GCF_014649715.1	Streptomyces lateritius	Streptomyces lateritius	67313	JCM 4389	Scaffold	reference genome	88456	7707773	71.5	3
+GCF_040635425.1	Streptomyces laurentii	Streptomyces laurentii	39478	NPDC006966	Scaffold	reference genome	90330	7952019	72.5	4
+GCF_014649735.1	Streptomyces lavendofoliae	Streptomyces lavendofoliae	67314	JCM 4391	Scaffold	reference genome	351890	7170078	72.5	3
+GCF_002803845.1	Streptomyces lavendulae	Streptomyces lavendulae subsp. lavendulae	58340	CCM 3239	Complete Genome	reference genome	8691711	8932792	72.5	31
+GCF_000718625.1	Streptomyces lavenduligriseus	Streptomyces lavenduligriseus	67315	NRRL ISP-5487	Contig	reference genome	193158	8716851	72.5	2
+GCF_049538775.1	Streptomyces lavendulocolor	Streptomyces lavendulocolor	67316	NPDC012858	Scaffold	reference genome	494830	7283114	73	15
+GCF_001013905.1	Streptomyces leeuwenhoekii	Streptomyces leeuwenhoekii	1437453	type strain (C34 = DSM 42122 = NRRL B-24963)	Complete Genome	reference genome	7903895	8122491	72.5	6
+GCF_039533405.1	Streptomyces levis	Streptomyces levis	285566	JCM 6924	Scaffold	reference genome	186140	8737213	72	2
+GCF_011694815.1	Streptomyces liangshanensis	Streptomyces liangshanensis	2717324	QMT-12	Complete Genome	reference genome	7716784	7716784	72	2
+GCF_023218175.1	Streptomyces lichenis	Streptomyces lichenis	2306967	LCR6-01	Contig	reference genome	200115	7121629	73.5	1
+GCF_027947595.1	Streptomyces lienomycini	Streptomyces lienomycini	284035	DSM 41475	Complete Genome	reference genome	7863969	7863969	72.5	4
+GCF_016598615.1	Streptomyces liliifuscus	Streptomyces liliifuscus	2797636	ZYC-3	Complete Genome	reference genome	11027222	11347200	70	1
+GCF_018070025.1	Streptomyces liliiviolaceus	Streptomyces liliiviolaceus	2823109	BH-SS-21	Scaffold	reference genome	8435489	11133145	71	1
+GCF_001685355.1	Streptomyces lincolnensis	Streptomyces lincolnensis	1915	NRRL 2936	Complete Genome	reference genome	10319054	10319054	71	8
+GCF_031845365.1	Streptomyces litchfieldiae	Streptomyces litchfieldiae	3075543	DSM 44938	Contig	reference genome	288245	7656296	72.5	1
+GCF_014649755.1	Streptomyces litmocidini	Streptomyces litmocidini	67318	JCM 4394	Scaffold	reference genome	355331	7974192	72.5	4
+GCF_000739105.1	Streptomyces lividans	Streptomyces lividans TK24	457428	TK24	Complete Genome		8345283	8345283	72	3
+GCF_014651035.1	Streptomyces lomondensis	Streptomyces lomondensis	68229	JCM 4866	Scaffold	reference genome	573440	8783439	71.5	2
+GCF_012033735.1	Streptomyces lonarensis	Streptomyces lonarensis	700599	NCL716	Scaffold	reference genome	20580	5954074	74	2
+GCF_031845865.1	Streptomyces lonegramiae	Streptomyces lonegramiae	3075524	DSM 41529	Contig	reference genome	299431	11945801	71	1
+GCF_020616555.1	Streptomyces longhuiensis	Streptomyces longhuiensis	2880933	BH-MK-02	Complete Genome	reference genome	9816795	10018810	70.5	1
+GCF_014649775.1	Streptomyces longisporoflavus	Streptomyces longisporoflavus	28044	JCM 4396	Scaffold	reference genome	346887	9802249	70.5	3
+GCF_014656095.1	Streptomyces longispororuber	Streptomyces longispororuber	68230	JCM 4784	Scaffold	reference genome	43983	9078602	73.5	4
+GCF_039532765.1	Streptomyces longisporus	Streptomyces longisporus	1948	JCM 4395	Scaffold	reference genome	377110	9852412	70.5	1
+GCF_001514125.1	Streptomyces longwoodensis	Streptomyces longwoodensis	68231	DSM 41677	Scaffold	reference genome	271394	8363623	73	34
+GCF_014650035.1	Streptomyces lucensis	Streptomyces lucensis JCM 4490	1306176	JCM 4490	Scaffold	reference genome	406335	7745149	72	1
+GCF_003054555.1	Streptomyces lunaelactis	Streptomyces lunaelactis	1535768	MM109	Complete Genome	reference genome	8396100	8570191	70	18
+GCF_039532155.1	Streptomyces lunalinharesii	Streptomyces lunalinharesii	333384	JCM 16374	Scaffold	reference genome	202559	9458008	72.5	1
+GCF_031679605.1	Streptomyces luomodiensis	Streptomyces luomodiensis	3026192	SCA4-21	Complete Genome	reference genome	10044493	10044493	71.5	1
+GCF_001418625.1	Streptomyces luridiscabiei	Streptomyces luridiscabiei	164114	NRRL B-24455	Scaffold		18006	7921781	71.5	1
+GCF_001700515.1	Streptomyces lushanensis	Streptomyces lushanensis	1434255	NRRL B-24994	Scaffold	reference genome	21630	7542112	70.5	1
+GCF_042647945.1	Streptomyces lusitanus	Streptomyces lusitanus	68232	JCM 4785	Scaffold	reference genome	298733	7528814	72.5	4
+GCF_041519305.1	Streptomyces luteireticuli	Streptomyces luteireticuli	173858	ASG80	Complete Genome	reference genome	7906413	8724805	72	2
+GCF_001748305.1	Streptomyces luteocolor	Streptomyces luteocolor	285500	NBRC 13826	Scaffold	reference genome	26979	9298666	72	1
+GCF_014205055.1	Streptomyces luteogriseus	Streptomyces luteogriseus	68233	DSM 40483	Contig	reference genome	8695284	8709298	71.5	25
+GCF_008806595.1	Streptomyces luteolifulvus	Streptomyces luteolifulvus	2615112	HIT-DPA4	Scaffold	reference genome	191571	9033607	70.5	1
+GCF_029968015.1	Streptomyces luteolus	Streptomyces luteolus	3043615	B-S-A12	Contig	reference genome	164732	8455603	71	1
+GCF_039532865.1	Streptomyces luteosporeus	Streptomyces luteosporeus	173856	JCM 4542	Scaffold	reference genome	308275	6904241	72.5	1
+GCF_003970715.1	Streptomyces luteoverticillatus	Streptomyces luteoverticillatus	66425	CGMCC 15060	Complete Genome		7367863	7367863	72	1
+GCF_042674645.1	Streptomyces lutosisoli	Streptomyces lutosisoli	2665721	CGMCC 4.7198	Contig	reference genome	8638688	11256944	70	2
+GCF_009735685.1	Streptomyces lycii	Streptomyces lycii	2654337	TRM 66187	Scaffold	reference genome	31286	7654960	73	1
+GCF_025568765.1	Streptomyces lycopersici	Streptomyces lycopersici	2974589	NEAU-383	Scaffold	reference genome	122897	12206521	71	2
+GCF_000829715.2	Streptomyces lydicamycinicus	Streptomyces lydicamycinicus	1546107	TP-A0598	Scaffold	reference genome	724454	8319549	71	7
+GCF_001984445.1	Streptomyces lydicus	Streptomyces lydicus	47763	GS93	Complete Genome	reference genome	8243179	8243179	72	51
+GCF_023887685.1	Streptomyces macrolidinus	Streptomyces macrolidinus	2952607	RY43-2	Contig	reference genome	163816	6782311	71	1
+GCF_039533145.1	Streptomyces macrosporus	Streptomyces macrosporus	44032	JCM 6305	Scaffold	reference genome	95637	6765403	73	1
+GCF_000980885.2	Streptomyces malaysiense	Streptomyces malaysiense	1428626	MUSC 136	Contig	reference genome	123175	7963326	72	1
+GCF_040653035.1	Streptomyces malaysiensis	Streptomyces malaysiensis subsp. malaysiensis	3455775	NPDC048052	Scaffold	reference genome	243479	11316202	71	27
+GCF_042654005.1	Streptomyces mangrovi	Streptomyces mangrovi	1206892	CGMCC 4.7117	Scaffold	reference genome	225002	12153740	70.5	2
+GCF_000974985.2	Streptomyces mangrovisoli	Streptomyces mangrovisoli	1428628	MUSC 149	Contig	reference genome	108867	9165825	72.5	1
+GCF_049570255.1	Streptomyces manipurensis	Streptomyces manipurensis	1077945	JCM 17351	Complete Genome	reference genome	7724028	7877415	73	1
+GCF_042654885.1	Streptomyces maoxianensis	Streptomyces maoxianensis	1459942	CGMCC 4.7139	Scaffold	reference genome	374909	7811016	69.5	1
+GCF_001184025.1	Streptomyces maremycinicus	Streptomyces maremycinicus	1679753	NBRC 110468	Scaffold	reference genome	559681	8723085	71.5	1
+GCF_005795905.1	Streptomyces marianii	Streptomyces marianii	1817406	ICN19	Contig	reference genome	8395906	9010366	71.5	1
+GCF_020410765.1	Streptomyces marincola	Streptomyces marincola	2878388	SCSIO 64649	Complete Genome	reference genome	6629020	6629020	73.5	2
+GCF_026262575.1	Streptomyces marinisediminis	Streptomyces marinisediminis	2984864	JHD1	Contig	reference genome	170825	5646503	74.5	1
+GCF_022524345.1	Streptomyces marispadix	Streptomyces marispadix	2922868	M600PL45_2	Contig	reference genome	6677320	6695159	70.5	1
+GCF_039539045.1	Streptomyces marokkonensis	Streptomyces marokkonensis	324855	JCM 17027	Scaffold	reference genome	35274	8186717	71.5	3
+GCF_014654785.1	Streptomyces mashuensis	Streptomyces mashuensis	33904	JCM 4059	Contig	reference genome	413356	7237780	73	1
+GCF_014648995.1	Streptomyces massasporeus	Streptomyces massasporeus	67324	JCM 4139	Scaffold	reference genome	311383	9073213	71.5	37
+GCF_039532965.1	Streptomyces mauvecolor	Streptomyces mauvecolor	58345	JCM 5002	Contig	reference genome	324238	8432814	71	3
+GCF_018982965.1	Streptomyces mayonensis	Streptomyces mayonensis	2750816	A1-08	Contig	reference genome	57920	8654812	72	1
+GCF_054783955.1	Streptomyces mayteni	Streptomyces mayteni	481003	JCM 16957	Scaffold	reference genome	58099	8652361	72.5	1
+GCF_000721685.1	Streptomyces mediolani	Streptomyces mediolani	68237	NRRL WC-3934	Contig		339529	8120903	71.5	1
+GCF_000718985.1	Streptomyces megasporus	Streptomyces megasporus	44060	NRRL B-16372	Contig	reference genome	155964	5850061	72.5	1
+GCF_014649795.1	Streptomyces melanogenes	Streptomyces melanogenes	67326	JCM 4398	Scaffold	reference genome	341028	9581670	71.5	4
+GCF_900105695.1	Streptomyces melanosporofaciens	Streptomyces melanosporofaciens	67327	DSM 40318	Contig	reference genome	10257104	10769732	71	1
+GCF_023703325.1	Streptomyces meridianus	Streptomyces meridianus	2938945	MTZ3.1	Scaffold	reference genome	127529	5644485	71.5	1
+GCF_011044995.1	Streptomyces mesophilus	Streptomyces mesophilus	1775132	YC504	Scaffold	reference genome	31168	8988266	70.5	2
+GCF_014252945.1	Streptomyces mexicanus	Streptomyces mexicanus	178566	Marseille-Q0842	Contig	reference genome	475868	8011832	72.5	6
+GCF_013364315.1	Streptomyces microflavus	Streptomyces microflavus	1919	NA06532	Complete Genome	reference genome	7790974	8452583	71.5	116
+GCF_025908395.1	Streptomyces milbemycinicus	Streptomyces milbemycinicus	476552	SIPI-054	Complete Genome	reference genome	12063392	12063392	70.5	5
+GCF_031845425.1	Streptomyces millisiae	Streptomyces millisiae	3075542	DSM 44918	Contig	reference genome	98825	8030443	73	1
+GCF_006334995.2	Streptomyces mimosae	Streptomyces mimosae	2586635	3MP-10	Contig	reference genome	294128	7198341	73.5	1
+GCF_014650875.1	Streptomyces minutiscleroticus	Streptomyces minutiscleroticus	68238	JCM 4790	Scaffold	reference genome	140288	9510939	73	2
+GCF_036073155.1	Streptomyces mirabilis	Streptomyces mirabilis	68239	NBC_00379	Complete Genome	reference genome	11832677	11832677	70	109
+GCF_900104815.1	Streptomyces misionensis	Streptomyces misionensis	67331	DSM 40306	Contig	reference genome	8162950	8473721	72.5	23
+GCF_053555975.1	Streptomyces mitragynae	Streptomyces mitragynae	3466738	NRAIS3	Contig	reference genome	177418	10079264	71	2
+GCF_020099395.1	Streptomyces mobaraensis	Streptomyces mobaraensis	35621	DSM 40587	Complete Genome	reference genome	7638929	7668063	73	7
+GCF_001866665.1	Streptomyces monashensis	Streptomyces monashensis	1678012	MUSC 1	Contig	reference genome	159229	10254857	71.5	2
+GCF_000715845.1	Streptomyces monomycini	Streptomyces monomycini	371720	NRRL B-24309	Scaffold	reference genome	37182	9111622	72	2
+GCF_017813245.1	Streptomyces montanisoli	Streptomyces montanisoli	2798581	MMS17-BM035	Contig	reference genome	35783	7239900	72	1
+GCF_005786655.1	Streptomyces montanus	Streptomyces montanus	2580423	NEAU-C151	Scaffold	reference genome	100551	10225480	70	1
+GCF_042665355.1	Streptomyces monticola	Streptomyces monticola	2666263	CGMCC 4.7467	Scaffold	reference genome	307004	9594469	70.5	1
+GCF_031845725.1	Streptomyces mooreae	Streptomyces mooreae	3075523	DSM 41527	Contig	reference genome	125653	8444202	71	1
+GCF_039521245.1	Streptomyces mordarskii	Streptomyces mordarskii	1226758	JCM 5052	Scaffold	reference genome	319569	10434081	71	2
+GCF_014656115.1	Streptomyces morookaense	Streptomyces morookaense	1970	JCM 4793	Scaffold	reference genome	265062	7418596	72	3
+GCF_021474425.1	Streptomyces muensis	Streptomyces muensis	1077944	DSM 103493	Contig	reference genome	31546	9891217	70.5	1
+GCF_025231465.1	Streptomyces murinus	Streptomyces murinus	33900	CR-43	Complete Genome	reference genome	8349858	8349858	72	27
+GCF_016741855.1	Streptomyces musisoli	Streptomyces musisoli	2802280	CH5-8	Contig	reference genome	398829	9364856	72	1
+GCF_046628145.1	Streptomyces mutabilis	Streptomyces mutabilis	67332	MPB24	Complete Genome	reference genome	8019266	8157816	72	23
+GCF_042657935.1	Streptomyces mutomycini	Streptomyces mutomycini	284036	CGMCC 4.1747	Scaffold	reference genome	423818	7214530	70.5	3
+GCF_014650575.1	Streptomyces naganishii	Streptomyces naganishii JCM 4654	1306179	JCM 4654	Contig	reference genome	346038	7809671	72.5	2
+GCF_046614825.1	Streptomyces nanhaiensis	Streptomyces nanhaiensis	679319	KCTC19401	Contig	reference genome	31798	6634966	73.5	1
+GCF_001751255.1	Streptomyces nanshensis	Streptomyces nanshensis	518642	SCSIO 10429	Scaffold	reference genome	17296	7724355	71.5	2
+GCF_020400595.2	Streptomyces naphthomycinicus	Streptomyces naphthomycinicus	2872625	TML10	Scaffold	reference genome	944316	10153862	72.5	1
+GCF_014649015.1	Streptomyces narbonensis	Streptomyces narbonensis	67333	JCM 4147	Scaffold	reference genome	388913	7730059	71.5	8
+GCF_000935125.1	Streptomyces natalensis	Streptomyces natalensis ATCC 27448	1240678	ATCC 27448	Contig	reference genome	375892	8651730	70.5	1
+GCF_037414505.1	Streptomyces netropsis	Streptomyces netropsis	55404	M-141	Complete Genome	reference genome	8144008	8144008	71.5	5
+GCF_028863365.1	Streptomyces neyagawaensis	Streptomyces neyagawaensis	42238	JCM 4796	Contig	reference genome	339391	9979945	71.5	5
+GCF_050106155.1	Streptomyces nidicola	Streptomyces nidicola	3410409	BH106	Contig	reference genome	9434339	9455321	71	1
+GCF_000718305.1	Streptomyces niger	Streptomyces niger	66373	NRRL B-3857	Contig	reference genome	381655	8485418	71.5	1
+GCF_003074055.1	Streptomyces nigra	Streptomyces nigra	1827580	452	Complete Genome	reference genome	7641029	7641029	72	41
+GCF_027626975.1	Streptomyces nigrescens	Streptomyces nigrescens	1920	DSM 40276	Complete Genome	reference genome	9513687	9534571	71	24
+GCF_018883605.1	Streptomyces niphimycinicus	Streptomyces niphimycinicus	2842201	4503	Scaffold	reference genome	17460	10915148	71	1
+GCF_008704555.1	Streptomyces nitrosporeus	Streptomyces nitrosporeus	28894	ATCC 12769	Complete Genome	reference genome	7581562	7581562	72	5
+GCF_033794345.1	Streptomyces niveiscabiei	Streptomyces niveiscabiei	164115	MD20-5-1	Scaffold	reference genome	189010	9888126	71.5	5
+GCF_036227585.1	Streptomyces niveus	Streptomyces niveus	193462	NBC_01447	Complete Genome	reference genome	8500400	8548654	70.5	66
+GCF_042434995.1	Streptomyces noboritoensis	Streptomyces noboritoensis	67337	JCM 4557	Contig	reference genome	7532186	9366242	71	1
+GCF_008704995.1	Streptomyces nodosus	Streptomyces nodosus	40318	ATCC 14899	Complete Genome	reference genome	7772587	7772587	71	12
+GCF_039532885.1	Streptomyces nogalater	Streptomyces nogalater	38314	JCM 4799	Scaffold	reference genome	179688	8448139	72.5	2
+GCF_017639205.1	Streptomyces nojiriensis	Streptomyces nojiriensis	66374	JCM 3382	Complete Genome	reference genome	9022916	9022916	72	10
+GCF_040678695.1	Streptomyces nondiastaticus	Streptomyces nondiastaticus	3154512	NPDC052563	Scaffold	reference genome	253642	8119840	72.5	4
+GCF_016917755.1	Streptomyces noursei	Streptomyces noursei	1971	A-2-1	Complete Genome	reference genome	9857535	9857535	71.5	38
+GCF_000716875.1	Streptomyces novaecaesareae	Streptomyces novaecaesareae	68244	NRRL B-1267	Contig	reference genome	73927	7427993	73	1
+GCF_014203895.1	Streptomyces nymphaeiformis	Streptomyces nymphaeiformis	2663842	SFB5A	Scaffold	reference genome	575570	9225538	72	1
+GCF_001751245.1	Streptomyces oceani	Streptomyces oceani	1075402	SCSIO 02100	Scaffold	reference genome	63348	6311054	70.5	1
+GCF_000720485.1	Streptomyces ochraceiscleroticus	Streptomyces ochraceiscleroticus	47761	NRRL ISP-5594	Contig	reference genome	211967	8408570	71.5	2
+GCF_000981895.1	Streptomyces odonnellii	Streptomyces odonnellii	1417980	NRRL B-24891	Contig	reference genome	23420	8280224	70.5	1
+GCF_024435355.1	Streptomyces odontomachi	Streptomyces odontomachi	2944940	ODS25	Contig	reference genome	323159	10568035	71.5	1
+GCF_013363465.1	Streptomyces odorifer	Streptomyces odorifer	53450	KAI-180	Contig		182282	6818716	73.5	1
+GCF_045519255.1	Streptomyces okerensis	Streptomyces okerensis	3344655	DSM 116494	Complete Genome	reference genome	7330005	7863746	72	1
+GCF_040645895.1	Streptomyces olindensis	Streptomyces olindensis	358823	NPDC046612	Scaffold	reference genome	97001	9166254	72	4
+GCF_039521225.1	Streptomyces olivaceiscleroticus	Streptomyces olivaceiscleroticus	68245	JCM 4805	Contig	reference genome	243970	8793594	71.5	1
+GCF_014650115.1	Streptomyces olivaceoviridis	Streptomyces olivaceoviridis	1921	JCM 4499	Scaffold	reference genome	278653	9763431	72	18
+GCF_015244315.1	Streptomyces olivaceus	Streptomyces olivaceus	47716	SCSIO T05	Complete Genome	reference genome	8458055	8458055	72.5	104
+GCF_001514115.1	Streptomyces olivochromogenes	Streptomyces olivochromogenes	1963	DSM 40451	Scaffold	reference genome	283179	11669312	70	5
+GCF_030490905.1	Streptomyces olivoreticuli	Streptomyces olivoreticuli	68246	ZZ-21	Complete Genome		8245823	8307379	71	1
+GCF_014203555.1	Streptomyces olivoverticillatus	Streptomyces olivoverticillatus	66427	CECT 3266	Scaffold	reference genome	482324	5549028	71.5	1
+GCF_014650895.1	Streptomyces omiyaensis	Streptomyces omiyaensis	68247	JCM 4806	Scaffold	reference genome	236711	8566167	74	4
+GCF_003121295.1	Streptomyces orinoci	Streptomyces orinoci	67339	NRRL B-3379	Contig	reference genome	434919	7502208	71	2
+GCF_026341275.1	Streptomyces ortus	Streptomyces ortus	2867268	A15ISP2-DRY2	Scaffold	reference genome	5227178	9292701	71	1
+GCF_017676365.1	Streptomyces oryzae	Streptomyces oryzae	1434886	S16-07	Contig	reference genome	31324	7708393	71	1
+GCF_039538545.1	Streptomyces osmaniensis	Streptomyces osmaniensis	593134	JCM 17656	Contig	reference genome	494475	10354507	70.5	1
+GCF_040612295.1	Streptomyces ossamyceticus	Streptomyces ossamyceticus	249581	NPDC006434	Scaffold	reference genome	116374	10053797	71.5	5
+GCF_004305975.1	Streptomyces otsuchiensis	Streptomyces otsuchiensis	2681388	OTB305	Scaffold	reference genome	18258	6150387	73	1
+GCF_042653885.1	Streptomyces ovatisporus	Streptomyces ovatisporus	1128682	CGMCC 4.7357	Scaffold	reference genome	378583	6473803	71	1
+GCF_011766325.1	Streptomyces pacificus	Streptomyces pacificus	2705029	CWH03	Contig	reference genome	264498	6714233	72.5	1
+GCF_016031615.1	Streptomyces pactum	Streptomyces pactum	68249	ATCC 27456	Contig	reference genome	7284573	7808990	74.5	4
+GCF_030077645.1	Streptomyces pakalii	Streptomyces pakalii	3036494	ENCB-J15	Contig	reference genome	442895	7670006	71.5	1
+GCF_042434075.1	Streptomyces palmae	Streptomyces palmae	1701085	TBRC 1999	Scaffold	reference genome	312120	7560983	72.5	2
+GCF_003344965.1	Streptomyces paludis	Streptomyces paludis	2282738	GSSD-12	Complete Genome	reference genome	8454852	8454852	71	1
+GCF_040560175.1	Streptomyces panacea	Streptomyces panacea	3035064	PSRA5	Contig	reference genome	33764	7874420	70.5	1
+GCF_023516615.1	Streptomyces panaciradicis	Streptomyces panaciradicis	1470261	NBRC 109811	Contig	reference genome	71020	9519748	71.5	1
+GCF_014202475.1	Streptomyces paradoxus	Streptomyces paradoxus	66375	DSM 43350	Scaffold	reference genome	433418	8584772	71.5	6
+GCF_003865155.1	Streptomyces paromomycinus	Streptomyces paromomycinus	92743	NBRC 15454	Contig	reference genome	9705398	9705398	72	2
+GCF_001660045.1	Streptomyces parvulus	Streptomyces parvulus	146923	2297	Complete Genome	reference genome	7149446	7766531	72.5	40
+GCF_014648875.1	Streptomyces parvus	Streptomyces parvus	66428	JCM 4069	Scaffold	reference genome	463028	8032801	71.5	40
+GCF_040650805.1	Streptomyces pathocidini	Streptomyces pathocidini	1650571	NPDC048614	Scaffold	reference genome	56129	5936619	71.5	3
+GCF_000725565.1	Streptomyces peucetius	Streptomyces peucetius	1950	NRRL WC-3868	Scaffold	reference genome	220172	9528656	72	2
+GCF_035957715.1	Streptomyces phaeochromogenes	Streptomyces phaeochromogenes	1923	NBC_01328	Complete Genome	reference genome	11713170	11713170	70	26
+GCF_014648915.1	Streptomyces phaeofaciens	Streptomyces phaeofaciens	68254	JCM 4125	Scaffold	reference genome	258264	10444272	72	4
+GCF_009184865.1	Streptomyces phaeolivaceus	Streptomyces phaeolivaceus	2653200	GY16	Complete Genome	reference genome	10116136	10175440	71	1
+GCF_023923245.1	Streptomyces phaeoluteigriseus	Streptomyces phaeoluteigriseus	114686	Qhu-M197	Complete Genome	reference genome	9026270	9118447	71.5	4
+GCF_040302545.1	Streptomyces pharetrae	Streptomyces pharetrae	291370	NPDC126476	Scaffold	reference genome	302949	8605841	72	9
+GCF_009377205.1	Streptomyces phyllanthi	Streptomyces phyllanthi	1803180	TISTR 2346	Contig	reference genome	17201	10267250	70.5	3
+GCF_012273655.1	Streptomyces physcomitrii	Streptomyces physcomitrii	2724184	LD120	Scaffold	reference genome	284420	7635704	73	4
+GCF_040746085.1	Streptomyces phytohabitans	Streptomyces phytohabitans	1150371	HBERC20821	Complete Genome	reference genome	6370257	6370257	73.5	1
+GCF_013870535.1	Streptomyces phytophilus	Streptomyces phytophilus	722715	PIP175	Contig	reference genome	5278	6906479	72	1
+GCF_014649515.1	Streptomyces pilosus	Streptomyces pilosus	28893	JCM 4372	Scaffold	reference genome	465971	7585172	72.5	8
+GCF_041380215.1	Streptomyces pimonensis	Streptomyces pimonensis	2860288	TRM75549	Contig	reference genome	177928	7395064	72	1
+GCF_900114215.1	Streptomyces pini	Streptomyces pini	1520580	PL19	Scaffold	reference genome	282394	6338888	73	1
+GCF_020564935.1	Streptomyces pinistramenti	Streptomyces pinistramenti	2884812	SF28	Contig	reference genome	117612	7853467	71.5	1
+GCF_005048155.1	Streptomyces piniterrae	Streptomyces piniterrae	2571125	jys28	Contig	reference genome	428410	8492419	70.5	1
+GCF_008704855.1	Streptomyces platensis	Streptomyces platensis	58346	ATCC 23948	Complete Genome	reference genome	8501012	8501012	71	21
+GCF_014650135.1	Streptomyces plicatus	Streptomyces plicatus	1922	JCM 4504	Scaffold	reference genome	512933	8368647	72	2
+GCF_019857225.1	Streptomyces plumbidurans	Streptomyces plumbidurans	2814589	KC 17012	Contig	reference genome	119887	8642823	71	1
+GCF_039537125.1	Streptomyces plumbiresistens	Streptomyces plumbiresistens	511811	JCM 16924	Scaffold	reference genome	249632	10336994	70.5	1
+GCF_000802245.2	Streptomyces pluripotens	Streptomyces pluripotens	1355015	MUSC 135	Complete Genome	reference genome	7346075	7346075	70	2
+GCF_014493765.1	Streptomyces polyasparticus	Streptomyces polyasparticus	2767826	TRM66268-LWL	Contig	reference genome	363618	10155139	70	1
+GCF_039521165.1	Streptomyces polychromogenes	Streptomyces polychromogenes	67342	JCM 4505	Contig	reference genome	587653	8551204	73	1
+GCF_042650325.1	Streptomyces polygonati	Streptomyces polygonati	1617087	CGMCC 4.7237	Scaffold	reference genome	227930	8469924	72	1
+GCF_042663125.1	Streptomyces polyrhachis	Streptomyces polyrhachis	1282885	CGMCC 4.7094	Scaffold	reference genome	114012	5636863	72.5	1
+GCF_014650915.1	Streptomyces poonensis	Streptomyces poonensis	68255	JCM 4815	Scaffold	reference genome	291977	8584687	71.5	2
+GCF_002911015.1	Streptomyces populi	Streptomyces populi	2058924	A249	Scaffold	reference genome	75083	9587301	71.5	2
+GCF_030719255.1	Streptomyces poriferorum	Streptomyces poriferorum	2798799	Alt1	Complete Genome	reference genome	9111196	9456810	70.5	5
+GCF_036689765.1	Streptomyces poriticola	Streptomyces poriticola	3120506	C6-003	Contig	reference genome	159986	7207802	72.5	1
+GCF_900101585.1	Streptomyces prasinopilosus	Streptomyces prasinopilosus	67344	CGMCC 4.3504	Scaffold	reference genome	329446	7125330	73	3
+GCF_039535455.1	Streptomyces prasinosporus	Streptomyces prasinosporus	68256	JCM 4816	Contig	reference genome	283111	14987858	72.5	1
+GCF_008704445.1	Streptomyces prasinus	Streptomyces prasinus	67345	ATCC 13879	Complete Genome	reference genome	7647592	7647592	72	19
+GCF_042658125.1	Streptomyces pratens	Streptomyces pratens	887456	CGMCC 4.5800	Scaffold	reference genome	62090	8255400	71	2
+GCF_016804005.1	Streptomyces pratensis	Streptomyces pratensis	1169025	S10	Complete Genome	reference genome	8270263	8281466	70.5	4
+GCF_037860615.1	Streptomyces pratisoli	Streptomyces pratisoli	3139917	MS1.AVA.4	Contig	reference genome	8456076	8612119	71	1
+GCF_014070435.1	Streptomyces pristinaespiralis	Streptomyces pristinaespiralis	38300	PR11	Complete Genome	reference genome	8112061	8112061	71.5	11
+GCF_020740535.1	Streptomyces profundus	Streptomyces profundus	2867410	MA3_2.13	Complete Genome	reference genome	7653710	7653710	72	1
+GCF_045162825.1	Streptomyces prunicolor	Streptomyces prunicolor	67348	NBC_01021	Complete Genome	reference genome	10948847	10948847	70	10
+GCF_054783935.1	Streptomyces pseudoechinosporeus	Streptomyces pseudoechinosporeus	285444	JCM 3066	Scaffold	reference genome	93758	10676737	69.5	1
+GCF_014649895.1	Streptomyces pseudogriseolus	Streptomyces pseudogriseolus	36817	JCM 4416	Scaffold	reference genome	124838	7308697	72.5	62
+GCF_036345035.1	Streptomyces pseudovenezuelae	Streptomyces pseudovenezuelae	67350	NBC_00598	Complete Genome	reference genome	10077198	10170903	71	16
+GCF_039533575.1	Streptomyces pulveraceus	Streptomyces pulveraceus	68258	JCM 7545	Scaffold	reference genome	163340	8838038	71.5	2
+GCF_006715785.1	Streptomyces puniciscabiei	Streptomyces puniciscabiei	164348	DSM 41929	Contig	reference genome	6617564	9146138	71.5	6
+GCF_000718615.1	Streptomyces purpeochromogenes	Streptomyces purpeochromogenes	1464077	NRRL ISP-5373	Contig		213680	7996821	72.5	2
+GCF_045040895.1	Streptomyces purpurascens	Streptomyces purpurascens	1924	NBC_00017	Complete Genome	reference genome	9188115	9188115	71	6
+GCF_000384175.1	Streptomyces purpureus	Streptomyces purpureus KA281	1054860	KA281	Scaffold	reference genome	573188	7458334	71.5	5
+GCF_020024005.1	Streptomyces purpurogeneiscleroticus	Streptomyces purpurogeneiscleroticus	68259	DSM 43156	Scaffold	reference genome	23534	7743394	71.5	1
+GCF_000717725.1	Streptomyces pyridomyceticus	Streptomyces pyridomyceticus	68260	NRRL ISP-5024	Contig		107132	6312990	73	1
+GCF_024756275.1	Streptomyces pyxinae	Streptomyces pyxinae	2970734	LP05-1	Contig	reference genome	229487	7382192	74	1
+GCF_024753135.1	Streptomyces pyxinicus	Streptomyces pyxinicus	2970331	LP11	Contig	reference genome	211281	8032703	72.5	1
+GCF_001611795.1	Streptomyces qaidamensis	Streptomyces qaidamensis	1783515	S10	Complete Genome	reference genome	9083372	9083372	71.5	3
+GCF_900111245.1	Streptomyces qinglanensis	Streptomyces qinglanensis	943816	CGMCC 4.6825	Scaffold	reference genome	373215	7175483	72.5	5
+GCF_007856155.1	Streptomyces qinzhouensis	Streptomyces qinzhouensis	2599401	SSL-25	Complete Genome	reference genome	8146484	8146484	71.5	1
+GCF_039535215.1	Streptomyces racemochromogenes	Streptomyces racemochromogenes	67353	JCM 4407	Contig	reference genome	7436068	7436068	73	3
+GCF_003626575.1	Streptomyces radicis	Streptomyces radicis	1750517	DS1-2	Contig	reference genome	225216	7569598	73	2
+GCF_900110735.1	Streptomyces radiopugnans	Streptomyces radiopugnans	403935	CGMCC 4.3519	Scaffold	reference genome	288077	6067124	73.5	2
+GCF_039534525.1	Streptomyces rameus	Streptomyces rameus	68261	JCM 11574	Scaffold	reference genome	57602	8518029	72	1
+GCF_039534955.1	Streptomyces ramulosus	Streptomyces ramulosus	47762	JCM 4193	Scaffold	reference genome	325185	7614717	73	2
+GCF_024298965.1	Streptomyces rapamycinicus	Streptomyces rapamycinicus NRRL 5491	1343740	NRRL 5491	Complete Genome	reference genome	12466108	12466108	71	5
+GCF_002154615.1	Streptomyces recifensis	Streptomyces recifensis	67355	NRRL B-3811	Scaffold	reference genome	12194	6184501	71.5	1
+GCF_013394065.1	Streptomyces rectiverticillatus	Streptomyces rectiverticillatus	173860	B15-08	Complete Genome	reference genome	7679243	7679243	72	1
+GCF_039533825.1	Streptomyces rectiviolaceus	Streptomyces rectiviolaceus	332591	JCM 9092	Scaffold	reference genome	51274	9416068	70	2
+GCF_001509475.1	Streptomyces regalis	Streptomyces regalis	68262	NRRL 3151	Contig	reference genome	73780	10954269	70	1
+GCF_003323735.1	Streptomyces reniochalinae	Streptomyces reniochalinae	2250578	LHW50302	Scaffold	reference genome	287482	7687565	72	2
+GCF_001514265.1	Streptomyces resistomycificus	Streptomyces resistomycificus	67356	DSM 40133	Scaffold	reference genome	264564	9179735	71	3
+GCF_001511815.1	Streptomyces reticuli	Streptomyces reticuli	1926		Complete Genome		8353915	9336224	72.5	1
+GCF_002154675.1	Streptomyces reticuliscabiei	Streptomyces reticuliscabiei	146821	NRRL B-24446	Scaffold		22056	9962914	70	1
+GCF_023155275.1	Streptomyces rhizoryzae	Streptomyces rhizoryzae	2932493	RS10V-4	Contig	reference genome	120589	7783213	74	1
+GCF_004794175.1	Streptomyces rhizosphaericola	Streptomyces rhizosphaericola	2564098	1AS2c	Contig	reference genome	15942	7213159	72.5	6
+GCF_018138705.1	Streptomyces rhizosphaericus	Streptomyces rhizosphaericus	114699	DSM 41759	Contig	reference genome	11450095	11666822	71	9
+GCF_025399795.1	Streptomyces rhizosphaerihabitans	Streptomyces rhizosphaerihabitans	1266770	ASQP_78	Contig	reference genome	147426	10215804	70.5	1
+GCF_000331185.2	Streptomyces rimosus	Streptomyces rimosus subsp. rimosus ATCC 10970	1265868	ATCC 10970	Complete Genome	reference genome	9351267	9643891	72	120
+GCF_003112535.1	Streptomyces rishiriensis	Streptomyces rishiriensis	68264	NBRC 13407	Scaffold	reference genome	327727	9179716	72	6
+GCF_030863865.1	Streptomyces rochei	Streptomyces rochei	1928	JK1	Complete Genome	reference genome	8030667	8181137	72.5	112
+GCF_052936015.1	Streptomyces rosealbus	Streptomyces rosealbus	225049	DSM 41833	Complete Genome	reference genome	9667225	9667225	71	1
+GCF_004117935.1	Streptomyces roseicoloratus	Streptomyces roseicoloratus	2508722	TRM44457	Scaffold	reference genome	78770	7597003	72.5	2
+GCF_001445655.1	Streptomyces roseifaciens	Streptomyces roseifaciens	1488406	MBT76	Scaffold	reference genome	2514044	8639831	72	1
+GCF_014489635.1	Streptomyces roseirectus	Streptomyces roseirectus	2768066	CRXT-G-22	Complete Genome	reference genome	9947447	9947447	72	1
+GCF_039532905.1	Streptomyces roseiscleroticus	Streptomyces roseiscleroticus	1972	JCM 4823	Scaffold	reference genome	230625	7952644	72.5	1
+GCF_000497445.1	Streptomyces roseochromogenus	Streptomyces roseochromogenus subsp. oscitans DS 12.976	1352936	DS 12.976	Chromosome	reference genome	41748	9782257	70.5	1
+GCF_039534915.1	Streptomyces roseofulvus	Streptomyces roseofulvus	33902	JCM 4334	Contig	reference genome	8205451	8205451	73	3
+GCF_014649335.1	Streptomyces roseolilacinus	Streptomyces roseolilacinus	66904	JCM 4335	Scaffold	reference genome	527492	6796704	74	2
+GCF_014649855.1	Streptomyces roseolus	Streptomyces roseolus	67358	JCM 4411	Scaffold	reference genome	148174	8057871	73	20
+GCF_000719265.1	Streptomyces roseoverticillatus	Streptomyces roseoverticillatus	66429	NRRL B-3500	Contig	reference genome	256192	7205477	72.5	5
+GCF_039535235.1	Streptomyces roseoviridis	Streptomyces roseoviridis	67361	JCM 4414	Contig	reference genome	7446670	7446670	73	2
+GCF_001044425.1	Streptomyces roseus	Streptomyces roseus	66430	ATCC 31245	Scaffold	reference genome	66555	7834742	72.5	6
+GCF_000961885.1	Streptomyces rubellomurinus	Streptomyces rubellomurinus	359131	ATCC 31215	Contig	reference genome	74283	8610816	73.5	1
+GCF_014648075.1	Streptomyces ruber	Streptomyces ruber	83378	JCM 3131	Scaffold	reference genome	284760	7896808	72.5	1
+GCF_044453005.1	Streptomyces rubiginosohelvolus	Streptomyces rubiginosohelvolus	67362	NPDC051783	Scaffold	reference genome	340952	7601773	72	88
+GCF_016860525.1	Streptomyces rubradiris	Streptomyces rubradiris	285531	NBRC 14000	Contig	reference genome	5808967	9051737	72.5	6
+GCF_027947575.1	Streptomyces rubrogriseus	Streptomyces rubrogriseus	194673	NBRC 15455	Complete Genome	reference genome	8411861	8411861	72	10
+GCF_001750785.1	Streptomyces rubrolavendulae	Streptomyces rubrolavendulae	285473	MJM4426	Complete Genome		6543262	6543262	75	1
+GCF_024505145.1	Streptomyces rugosispiralis	Streptomyces rugosispiralis	2967341	RCU-064	Contig	reference genome	183891	11017810	71.5	1
+GCF_014216335.1	Streptomyces rutgersensis	Streptomyces rutgersensis	53451	NBH77	Complete Genome	reference genome	6848830	6996347	73.5	2
+GCF_014280945.1	Streptomyces salinarius	Streptomyces salinarius	2762598	SS06011	Contig	reference genome	392281	8429580	72	5
+GCF_031845605.1	Streptomyces salyersiae	Streptomyces salyersiae	3075530	DSM 41770	Contig	reference genome	427311	7918998	71.5	1
+GCF_001704195.1	Streptomyces sampsonii	Streptomyces sampsonii	42239	KJ40	Complete Genome		7070328	7070328	73.5	2
+GCF_041363955.1	Streptomyces sanglieri	Streptomyces sanglieri	193460	PU_15B	Contig	reference genome	19508	9856091	70.5	1
+GCF_039536205.1	Streptomyces sannanensis	Streptomyces sannanensis	285536	JCM 9651	Contig	reference genome	7409353	7832297	70	1
+GCF_039543485.1	Streptomyces sanyensis	Streptomyces sanyensis	568869	JCM 18324	Scaffold	reference genome	290854	6683691	74	2
+GCF_032656605.1	Streptomyces sasae	Streptomyces sasae	1266772	JR-39	Scaffold	reference genome	237532	11889659	70.5	1
+GCF_011045015.1	Streptomyces scabichelini	Streptomyces scabichelini	2711217	HC44	Contig	reference genome	41950	11159245	70	1
+GCF_051172975.1	Streptomyces scabiei	Streptomyces scabiei	1930	ATCC 49173	Contig	reference genome	9936670	10081288	71.5	101
+GCF_040907265.1	Streptomyces sclerotialus	Streptomyces sclerotialus	1957	NRRL ISP-5269	Chromosome	reference genome	8261949	8276155	72	1
+GCF_035917595.1	Streptomyces scopuliridis	Streptomyces scopuliridis	452529	NBC 01786	Complete Genome	reference genome	9080322	9494495	70	18
+GCF_040782645.1	Streptomyces secundicynarae	Streptomyces secundicynarae	3231715	HUAS ZL42	Complete Genome	reference genome	9866886	9866886	70.5	1
+GCF_006335015.1	Streptomyces sedi	Streptomyces sedi	555059	JCM 16909	Contig	reference genome	245021	6603797	73	2
+GCF_047049295.1	Streptomyces sediminimaris	Streptomyces sediminimaris	3383721	MCC20	Contig	reference genome	8327590	9180064	72	2
+GCF_019890635.1	Streptomyces sennicomposti	Streptomyces sennicomposti	2873384	RCPT1-4	Contig	reference genome	95602	7351330	73	2
+GCF_004328625.1	Streptomyces seoulensis	Streptomyces seoulensis	73044	KCTC 9819	Complete Genome	reference genome	6339363	6426245	72	10
+GCF_039537145.1	Streptomyces shaanxiensis	Streptomyces shaanxiensis	653357	JCM 16925	Scaffold	reference genome	195508	9886929	71	2
+GCF_021462265.1	Streptomyces shenzhenensis	Streptomyces shenzhenensis	943815	DSM 42034	Contig	reference genome	185809	10659425	71.5	11
+GCF_039535475.1	Streptomyces showdoensis	Streptomyces showdoensis	68268	JCM 4830	Contig	reference genome	4324196	8497953	73	3
+GCF_039543605.1	Streptomyces siamensis	Streptomyces siamensis	1274986	JCM 18409	Scaffold	reference genome	369467	10264970	71	1
+GCF_020328095.1	Streptomyces sichuanensis	Streptomyces sichuanensis	2871810	SCA3-4	Contig	reference genome	62247	6953971	72.5	1
+GCF_016741825.1	Streptomyces siderophoricus	Streptomyces siderophoricus	2802281	CH9-7	Contig	reference genome	381329	8805876	71.5	1
+GCF_001419745.1	Streptomyces silaceus	Streptomyces silaceus	545123	NRRL B-24166	Scaffold	reference genome	20483	8744139	72	1
+GCF_036898485.1	Streptomyces silvae	Streptomyces silvae	2803812	B21-103	Contig	reference genome	7675747	7814483	71.5	2
+GCF_001482415.1	Streptomyces silvensis	Streptomyces silvensis	1765722	ATCC 53525	Scaffold		88345	9741331	72	1
+GCF_029269905.1	Streptomyces silvisoli	Streptomyces silvisoli	3034235	RB6PN23	Contig	reference genome	254380	7881186	70.5	1
+GCF_039543625.1	Streptomyces similanensis	Streptomyces similanensis	1274988	JCM 18410	Scaffold	reference genome	106287	8775663	73	1
+GCF_014649035.1	Streptomyces sindenensis	Streptomyces sindenensis	67363	JCM 4164	Contig	reference genome	183557	7564582	72	6
+GCF_004122735.1	Streptomyces sioyaensis	Streptomyces sioyaensis	67364	DSM 40032	Contig	reference genome	54690	7847945	71.5	20
+GCF_045690365.1	Streptomyces sirii	Streptomyces sirii	3127701	BP-8	Complete Genome	reference genome	8552742	8552742	71.5	2
+GCF_009604385.1	Streptomyces smaragdinus	Streptomyces smaragdinus	2585196	RB5	Contig	reference genome	161565	7857212	72	1
+GCF_017676345.1	Streptomyces smyrnaeus	Streptomyces smyrnaeus	1387713	DSM 42105	Contig	reference genome	270321	8077585	71	11
+GCF_039529215.1	Streptomyces sodiiphilus	Streptomyces sodiiphilus	226217	JCM 13581	Scaffold	reference genome	142409	5562435	72	1
+GCF_020312315.1	Streptomyces solaniscabiei	Streptomyces solaniscabiei	2683255	FS70	Contig	reference genome	113910	8272591	72	4
+GCF_003999195.1	Streptomyces soli	Streptomyces soli	2487275	LAM7114	Contig	reference genome	40353	9397553	70	1
+GCF_045348655.1	Streptomyces solicamelliae	Streptomyces solicamelliae	3231716	HUAS MG47	Complete Genome	reference genome	7345996	7345996	72.5	1
+GCF_033343995.1	Streptomyces solicathayae	Streptomyces solicathayae	3081768	HUAS YS2	Complete Genome	reference genome	7875343	7875343	72	1
+GCF_029968095.1	Streptomyces solicavernae	Streptomyces solicavernae	3043614	B-S-A8	Contig	reference genome	187674	7045620	71.5	1
+GCF_002982015.1	Streptomyces solincola	Streptomyces solincola	2100817	T5	Scaffold	reference genome	13160	6414515	73.5	1
+GCF_049239045.1	Streptomyces soliscabiei	Streptomyces soliscabiei	588897	NY05-11A	Contig	reference genome	10464339	10482049	70.5	2
+GCF_024349285.1	Streptomyces somaliensis	Streptomyces somaliensis DSM 40738	1134445	DSM 40738	Scaffold	reference genome	29393	4945925	74	5
+GCF_044903365.1	Streptomyces sparsogenes	Streptomyces sparsogenes	67365	NPDC021451	Scaffold	reference genome	204088	9511082	72.5	10
+GCF_054776295.1	Streptomyces sparsus	Streptomyces sparsus	297584	JCM 19151	Scaffold	reference genome	5349	6043256	72	1
+GCF_001493375.1	Streptomyces specialis	Streptomyces specialis	498367	GW41-1564T	Scaffold	reference genome	185160	5884160	72.5	1
+GCF_008704795.1	Streptomyces spectabilis	Streptomyces spectabilis	68270	ATCC 27465	Complete Genome	reference genome	9807160	9807160	72.5	8
+GCF_021441825.1	Streptomyces spinosirectus	Streptomyces spinosirectus	2906474	CRSS-Y-16	Complete Genome	reference genome	8624193	8624193	70.5	2
+GCF_022698145.1	Streptomyces spinosisporus	Streptomyces spinosisporus	2927582	7R016	Contig	reference genome	372099	9406843	71	1
+GCF_020400655.1	Streptomyces spinosus	Streptomyces spinosus	2872623	SBTS01	Contig	reference genome	350598	9172287	72.5	1
+GCF_006539505.1	Streptomyces spinoverrucosus	Streptomyces spinoverrucosus	284043	NBRC 14228	Contig	reference genome	109659	9220073	70.5	3
+GCF_014654675.1	Streptomyces spiralis	Streptomyces spiralis	66376	JCM 3302	Scaffold	reference genome	85236	9813663	71.5	7
+GCF_012034385.1	Streptomyces spiramenti	Streptomyces spiramenti	2720606	5675061	Scaffold	reference genome	19934	5708881	73.5	1
+GCF_028807635.1	Streptomyces spiramyceticus	Streptomyces spiramyceticus	299717	F2R-15	Contig	reference genome	5151550	7079233	69.5	2
+GCF_017676385.1	Streptomyces spirodelae	Streptomyces spirodelae	2812904	DW4-2	Contig	reference genome	191641	7310765	71	1
+GCF_009377185.1	Streptomyces spongiae	Streptomyces spongiae	565072	NBRC 106415	Contig	reference genome	15786	11307761	70.5	1
+GCF_003122365.1	Streptomyces spongiicola	Streptomyces spongiicola	1690221	HNM0071	Complete Genome	reference genome	7180417	7180417	72.5	3
+GCF_005768555.2	Streptomyces sporangiiformans	Streptomyces sporangiiformans	2315329	NEAU-SSA 1	Scaffold	reference genome	59982	10364704	70	2
+GCF_016755875.1	Streptomyces spororaveus	Streptomyces spororaveus	284039	NBRC 15456	Contig	reference genome	8236684	8857713	71.5	7
+GCF_032248615.1	Streptomyces stackebrandtii	Streptomyces stackebrandtii	3051177	DSM 40976	Contig	reference genome	267216	8766954	72	1
+GCF_014873495.1	Streptomyces stelliscabiei	Streptomyces stelliscabiei	146820	DSM 41803	Contig	reference genome	10314407	10497710	71	17
+GCF_031845765.1	Streptomyces stephensoniae	Streptomyces stephensoniae	3375367	DSM 40932	Contig	reference genome	131579	7939994	72	1
+GCF_045822005.1	Streptomyces stoeckheimensis	Streptomyces stoeckheimensis	3344656	DSM 116496	Complete Genome	reference genome	9131297	9507149	71.5	1
+GCF_039524935.1	Streptomyces stramineus	Streptomyces stramineus	173861	JCM 10649	Scaffold	reference genome	64593	7751352	72.5	1
+GCF_008704535.1	Streptomyces subrutilus	Streptomyces subrutilus	36818	ATCC 27467	Complete Genome	reference genome	7604974	7604974	73.5	7
+GCF_023614315.1	Streptomyces sudanensis	Streptomyces sudanensis	436397	SD 504	Chromosome	reference genome	38104	5259510	74	4
+GCF_014656295.1	Streptomyces sulfonofaciens	Streptomyces sulfonofaciens	68272	JCM 5069	Scaffold	reference genome	291345	8645219	72.5	1
+GCF_000381025.1	Streptomyces sulphureus	Streptomyces sulphureus DSM 40104	1123321	DSM 40104	Scaffold	reference genome	354595	7104952	71.5	1
+GCF_054602395.1	Streptomyces sundarbansensis	Streptomyces sundarbansensis	265730	DSM 42019	Contig	reference genome	7232247	7479561	72	2
+GCF_000154965.1	Streptomyces sviceus	Streptomyces sviceus ATCC 29083	463191	ATCC 29083	Chromosome	reference genome	33523	9313494	70.5	6
+GCF_002148965.1	Streptomyces swartbergensis	Streptomyces swartbergensis	487165	HMC13	Scaffold	reference genome	21344	9204779	71	2
+GCF_039531005.1	Streptomyces synnematoformans	Streptomyces synnematoformans	415721	JCM 15481	Scaffold	reference genome	19363	8007711	73.5	1
+GCF_017876625.1	Streptomyces syringium	Streptomyces syringium	76729	DSM 41480	Contig	reference genome	7654834	7715887	71.5	16
+GCF_040529335.1	Streptomyces tabacisoli	Streptomyces tabacisoli	3156398	HUAS MG91	Complete Genome	reference genome	8451342	8616192	71.5	1
+GCF_018069565.1	Streptomyces tagetis	Streptomyces tagetis	2820809	RG38	Scaffold	reference genome	781243	7150798	73.5	1
+GCF_008386495.1	Streptomyces tailanensis	Streptomyces tailanensis	2569858	TRM68348	Scaffold	reference genome	75636	10008136	70	1
+GCF_009709575.1	Streptomyces taklimakanensis	Streptomyces taklimakanensis	2569853	TRM43335	Contig	reference genome	5949284	6136714	73	1
+GCF_032423885.1	Streptomyces tamarix	Streptomyces tamarix	3078565	TRM76323	Contig	reference genome	131186	7338911	73	1
+GCF_026427415.1	Streptomyces tanashiensis	Streptomyces tanashiensis	67367	Kala	Complete Genome	reference genome	8694918	8694918	72	14
+GCF_018101125.2	Streptomyces tardus	Streptomyces tardus	2780544	P38-E01	Scaffold	reference genome	179494	6158643	71.5	1
+GCF_003205575.1	Streptomyces tateyamensis	Streptomyces tateyamensis	565073	ATCC 21389	Scaffold	reference genome	64917	7455770	72.5	1
+GCF_036204065.1	Streptomyces tauricus	Streptomyces tauricus	68274	NBC_00189	Complete Genome	reference genome	10308633	10308633	70.5	9
+GCF_024519335.1	Streptomyces telluris	Streptomyces telluris	2720021	AA8	Contig	reference genome	173799	8368964	72.5	2
+GCF_014650435.1	Streptomyces tendae	Streptomyces tendae	1932	JCM 4610	Scaffold	reference genome	452485	8887909	72	76
+GCF_014650175.1	Streptomyces termitum	Streptomyces termitum	67368	JCM 4518	Contig	reference genome	381716	7137690	74	5
+GCF_039525155.1	Streptomyces thermoalcalitolerans	Streptomyces thermoalcalitolerans	65605	JCM 10673	Scaffold	reference genome	81810	6519430	71	1
+GCF_039524635.1	Streptomyces thermocarboxydovorans	Streptomyces thermocarboxydovorans	59298	JCM 10367	Scaffold	reference genome	79395	6501533	71.5	1
+GCF_024760485.1	Streptomyces thermocarboxydus	Streptomyces thermocarboxydus	59299	K155	Chromosome	reference genome	1231007	7399598	72	5
+GCF_042429225.1	Streptomyces thermocoprophilus	Streptomyces thermocoprophilus	78356	JCM 10918	Scaffold	reference genome	101053	7002779	72	2
+GCF_014656135.1	Streptomyces thermodiastaticus	Streptomyces thermodiastaticus	44061	JCM 4840	Scaffold	reference genome	143606	6105542	72.5	2
+GCF_039525705.1	Streptomyces thermogriseus	Streptomyces thermogriseus	75292	JCM 11269	Scaffold	reference genome	78708	6360944	71.5	2
+GCF_000478605.2	Streptomyces thermolilacinus	Streptomyces thermolilacinus SPC6	1306406	SPC6	Contig	reference genome	6424956	6448617	73.5	2
+GCF_044987285.1	Streptomyces thermolineatus	Streptomyces thermolineatus	44033	NAK03196	Complete Genome	reference genome	6006460	6006460	74	2
+GCF_039526425.1	Streptomyces thermospinosisporus	Streptomyces thermospinosisporus	161482	JCM 11756	Scaffold	reference genome	42393	6889987	72	1
+GCF_045209695.1	Streptomyces thermoviolaceus	Streptomyces thermoviolaceus	1952	NBC 01629	Complete Genome	reference genome	6066002	6066002	72.5	6
+GCF_002155915.1	Streptomyces thermovulgaris	Streptomyces thermovulgaris	1934	NRRL B-12375	Scaffold	reference genome	20625	6021617	71.5	1
+GCF_039543405.1	Streptomyces thinghirensis	Streptomyces thinghirensis	551547	JCM 18306	Scaffold	reference genome	370376	8530654	71.5	1
+GCF_039535865.1	Streptomyces thioluteus	Streptomyces thioluteus	66431	JCM 4087	Contig	reference genome	31229	3917560	71.5	1
+GCF_005869865.1	Streptomyces tibetensis	Streptomyces tibetensis	2382123	XZ 46	Contig	reference genome	316998	8993737	71	9
+GCF_003097515.1	Streptomyces tirandamycinicus	Streptomyces tirandamycinicus	2174846	HNM0039	Complete Genome	reference genome	7289495	7289495	72.5	3
+GCF_001419765.1	Streptomyces torulosus	Streptomyces torulosus	68276	NRRL B-3889	Scaffold	reference genome	15769	9848803	71	1
+GCF_014649915.1	Streptomyces toxytricini	Streptomyces toxytricini	67369	JCM 4421	Scaffold	reference genome	127110	7196824	74	3
+GCF_000725125.1	Streptomyces toyocaensis	Streptomyces toyocaensis	55952	NRRL 15009	Contig	reference genome	169618	7341014	72	2
+GCF_039540215.1	Streptomyces tremellae	Streptomyces tremellae	1124239	JCM 30846	Scaffold	reference genome	71331	7461242	73.5	1
+GCF_042956545.1	Streptomyces tricolor	Streptomyces tricolor	68277	NPDC008224	Scaffold	reference genome	462649	8853479	73	8
+GCF_017349075.1	Streptomyces triculaminicus	Streptomyces triculaminicus	2816232	JCM 4242	Contig	reference genome	1882190	7560338	72	4
+GCF_003429565.1	Streptomyces triticagri	Streptomyces triticagri	2293568	NEAU-YY421	Scaffold	reference genome	58154	7471434	71	1
+GCF_048500665.1	Streptomyces tritici	Streptomyces tritici	2054410	CGMCC 4.7393	Complete Genome	reference genome	7277411	7277411	73	1
+GCF_008868685.1	Streptomyces triticiradicis	Streptomyces triticiradicis	2651189	NEAU-H2	Scaffold	reference genome	167996	9921301	71.5	1
+GCF_003696235.1	Streptomyces triticirhizae	Streptomyces triticirhizae	2483353	NEAU-YY642	Scaffold	reference genome	25828	6563286	73.5	1
+GCF_003270085.1	Streptomyces triticisoli	Streptomyces triticisoli	2182797	NEAU-DSCPA1-4-4	Contig	reference genome	33934	6844226	71.5	1
+GCF_049310105.1	Streptomyces tritrimontium	Streptomyces tritrimontium	3406573	2.9	Contig	reference genome	8657574	9650043	72	2
+GCF_029269835.1	Streptomyces tropicalis	Streptomyces tropicalis	3034234	K1PA1	Contig	reference genome	345819	7389381	73	1
+GCF_003932715.1	Streptomyces tsukubensis	Streptomyces tsukubensis	83656	NRRL 18488	Complete Genome	reference genome	7963742	8019548	72	10
+GCF_022699385.1	Streptomyces tubbatahanensis	Streptomyces tubbatahanensis	2923272	DSD3025	Complete Genome	reference genome	7760770	7760770	72.5	1
+GCF_027497495.1	Streptomyces tubercidicus	Streptomyces tubercidicus	47759	DSM 40261	Complete Genome	reference genome	8284047	8284047	70.5	16
+GCF_014701095.1	Streptomyces tuirus	Streptomyces tuirus	68278	JCM 4255	Complete Genome	reference genome	7561001	7561001	71.5	6
+GCF_039538125.1	Streptomyces tunisiensis	Streptomyces tunisiensis	948699	JCM 17589	Scaffold	reference genome	344137	7347643	72.5	4
+GCF_033794965.1	Streptomyces turgidiscabies	Streptomyces turgidiscabies	85558	ATCC 700248	Scaffold	reference genome	289639	10662466	70	13
+GCF_009755605.1	Streptomyces typhae	Streptomyces typhae	2681492	p1417	Scaffold	reference genome	287733	9812178	72	1
+GCF_014656275.1	Streptomyces umbrinus	Streptomyces umbrinus	67370	JCM 4958	Scaffold	reference genome	326472	10658486	70.5	13
+GCF_036250755.1	Streptomyces uncialis	Streptomyces uncialis	1048205	NBC_01365	Complete Genome	reference genome	9117749	9258615	72	11
+GCF_011045025.1	Streptomyces ureilyticus	Streptomyces ureilyticus	1775131	YC419	Scaffold	reference genome	39427	10480775	69.5	1
+GCF_014649935.1	Streptomyces variabilis	Streptomyces variabilis	67372	JCM 4422	Scaffold	reference genome	165790	7359771	72.5	2
+GCF_000955965.1	Streptomyces variegatus	Streptomyces variegatus	284040	NRRL B-16380	Contig	reference genome	220724	8775595	71	2
+GCF_000718635.1	Streptomyces varsoviensis	Streptomyces varsoviensis	67373	NRRL ISP-5346	Contig	reference genome	268175	8588807	72.5	4
+GCF_039532825.1	Streptomyces vastus	Streptomyces vastus	285451	JCM 4524	Scaffold	reference genome	184164	9449533	69.5	1
+GCF_039540295.1	Streptomyces venetus	Streptomyces venetus	1701086	JCM 31290	Scaffold	reference genome	637635	8611039	71.5	2
+GCF_008639165.1	Streptomyces venezuelae	Streptomyces venezuelae ATCC 10712	953739	ATCC 10712	Complete Genome	reference genome	8223505	8223505	72.5	33
+GCF_017114865.1	Streptomyces verrucosisporus	Streptomyces verrucosisporus	1695161	CPB1-1	Contig	reference genome	171252	6063600	73	1
+GCF_000830005.1	Streptomyces vietnamensis	Streptomyces vietnamensis	362257	GIMV4.0001	Complete Genome	reference genome	8867142	9153777	72	3
+GCF_005517195.1	Streptomyces vilmorinianum	Streptomyces vilmorinianum	3051092	YP1	Complete Genome	reference genome	7646296	7646296	71.5	1
+GCF_008704935.1	Streptomyces vinaceus	Streptomyces vinaceus	1960	ATCC 27476	Complete Genome	reference genome	7673509	7673509	72.5	16
+GCF_014650215.1	Streptomyces vinaceusdrappus	Streptomyces vinaceusdrappus	67376	JCM 4529	Scaffold	reference genome	255017	8461620	72.5	2
+GCF_014650235.1	Streptomyces violaceochromogenes	Streptomyces violaceochromogenes	67377	JCM 4530	Scaffold	reference genome	420090	8856784	71.5	2
+GCF_039532845.1	Streptomyces violaceolatus	Streptomyces violaceolatus	67378	JCM 4531	Scaffold	reference genome	200485	8882066	72	1
+GCF_033406955.1	Streptomyces violaceoruber	Streptomyces violaceoruber	1935	CGMCC 4.1801	Complete Genome	reference genome	8629698	8629698	72	9
+GCF_000717995.1	Streptomyces violaceorubidus	Streptomyces violaceorubidus	284042	NRRL B-16381	Contig	reference genome	176436	7651467	72	4
+GCF_036014075.1	Streptomyces violaceus	Streptomyces violaceus	1936	NBC_00450	Complete Genome	reference genome	8918193	9003480	71	10
+GCF_039532925.1	Streptomyces violaceusniger	Streptomyces violaceusniger	68280	JCM 4850	Scaffold	reference genome	150811	11616614	71	8
+GCF_014650255.1	Streptomyces violarus	Streptomyces violarus	67380	JCM 4534	Scaffold	reference genome	485312	9119470	71	4
+GCF_020521295.1	Streptomyces violascens	Streptomyces violascens	67381	NBRC 12920	Contig	reference genome	2340450	8916662	70.5	8
+GCF_000717745.1	Streptomyces violens	Streptomyces violens	66377	NRRL ISP-5597	Contig	reference genome	355841	7941520	71.5	1
+GCF_039533845.1	Streptomyces virens	Streptomyces virens	285572	JCM 9095	Scaffold	reference genome	83458	7967522	72	1
+GCF_017876235.1	Streptomyces virginiae	Streptomyces virginiae	1961	DSM 40803	Contig	reference genome	8588732	8588732	72.5	100
+GCF_014650995.1	Streptomyces viridiviolaceus	Streptomyces viridiviolaceus	68282	JCM 4855	Scaffold	reference genome	165101	9134388	71.5	3
+GCF_039532945.1	Streptomyces viridochromogenes	Streptomyces viridochromogenes	1938	JCM 4856	Scaffold	reference genome	138379	7827744	72	9
+GCF_008704515.1	Streptomyces viridosporus	Streptomyces viridosporus T7A	665577	ATCC 39115	Complete Genome	reference genome	7280536	7280536	72.5	9
+GCF_042653945.1	Streptomyces vulcanius	Streptomyces vulcanius	1441876	CGMCC 4.7177	Scaffold	reference genome	212175	12151611	70.5	1
+GCF_000698945.1	Streptomyces wadayamensis	Streptomyces wadayamensis	141454	A23	Scaffold		15752	7056006	73.5	1
+GCF_000716445.1	Streptomyces wedmorensis	Streptomyces wedmorensis	43759	NRRL 3426	Contig	reference genome	125151	9380839	72	7
+GCF_020312145.1	Streptomyces werraensis	Streptomyces werraensis	68284	O57	Contig	reference genome	166679	7381630	72.5	28
+GCF_032248595.1	Streptomyces winkii	Streptomyces winkii	3051178	DSM 40971	Contig	reference genome	838128	7271151	71.5	1
+GCF_900103455.1	Streptomyces wuyuanensis	Streptomyces wuyuanensis	1196353	CGMCC 4.7042	Scaffold	reference genome	235455	8039558	72	11
+GCF_014621695.1	Streptomyces xanthii	Streptomyces xanthii	2768069	CRXT-Y-14	Complete Genome	reference genome	7867709	8354710	72	1
+GCF_014650355.1	Streptomyces xanthochromogenes	Streptomyces xanthochromogenes	67384	JCM 4594	Scaffold	reference genome	403561	8711471	71.5	16
+GCF_014651015.1	Streptomyces xantholiticus	Streptomyces xantholiticus	68285	JCM 4863	Scaffold	reference genome	198543	7810960	70.5	5
+GCF_028421465.1	Streptomyces xanthophaeus	Streptomyces xanthophaeus	67385	KPP03845	Complete Genome	reference genome	8204848	8595635	72	22
+GCF_000993785.3	Streptomyces xiamenensis	Streptomyces xiamenensis	408015	MCCC 1A01550	Complete Genome	reference genome	5961402	5961402	72	12
+GCF_042654925.1	Streptomyces xiangluensis	Streptomyces xiangluensis	2665720	CGMCC 4.7466	Scaffold	reference genome	209962	11435768	69.5	1
+GCF_000262345.1	Streptomyces xiaopingdaonensis	Streptomyces xiaopingdaonensis	1565415	DUT 180	Contig	reference genome	30588	6466982	72	1
+GCF_000220705.2	Streptomyces xinghaiensis	Streptomyces xinghaiensis S187	1038929	S187	Complete Genome	reference genome	7137891	7137891	73	10
+GCF_000716435.1	Streptomyces xylophagus	Streptomyces xylophagus	285514	NRRL B-12029	Contig	reference genome	356030	11386825	70	1
+GCF_042648045.1	Streptomyces yaanensis	Streptomyces yaanensis	1142239	CGMCC 4.7035	Scaffold	reference genome	638767	8022293	70.5	2
+GCF_034961445.1	Streptomyces yaizuensis	Streptomyces yaizuensis	2989713	YSPA8	Contig	reference genome	430732	9049336	72.5	1
+GCF_024666385.1	Streptomyces yangpuensis	Streptomyces yangpuensis	1648182	CM253	Complete Genome	reference genome	7435303	8092115	72	16
+GCF_039535415.1	Streptomyces yanii	Streptomyces yanii	78510	JCM 3331	Contig	reference genome	272695	11292178	69.5	2
+GCF_018069625.1	Streptomyces yatensis	Streptomyces yatensis	155177	DSM 41771	Complete Genome	reference genome	10360357	10360357	71.5	2
+GCF_000716805.1	Streptomyces yerevanensis	Streptomyces yerevanensis	66378	NRRL B-16943	Contig	reference genome	150519	10925884	69.5	1
+GCF_001514035.1	Streptomyces yokosukanensis	Streptomyces yokosukanensis	67386	DSM 40224	Scaffold	reference genome	258279	10159272	71.5	2
+GCF_039543425.1	Streptomyces youssoufiensis	Streptomyces youssoufiensis	654447	JCM 18307	Scaffold	reference genome	117337	8630789	73	1
+GCF_029011865.1	Streptomyces yunnanensis	Streptomyces yunnanensis	156453	P86	Complete Genome	reference genome	9982274	9982274	71.5	2
+GCF_032248645.1	Streptomyces zaehneri	Streptomyces zaehneri	3051180	DSM 40713	Contig	reference genome	255620	9136514	71.5	1
+GCF_014203645.1	Streptomyces zagrosensis	Streptomyces zagrosensis	1042984	CECT 8305	Contig	reference genome	357492	8746444	69	1
+GCF_036035005.1	Streptomyces zaomyceticus	Streptomyces zaomyceticus	68286	NBC_00415	Complete Genome	reference genome	9360127	9485507	72	21
+GCF_900230195.1	Streptomyces zhaozhouensis	Streptomyces zhaozhouensis	1300267	CGMCC 4.7095	Contig	reference genome	234483	6532426	73.5	1
+GCF_016919245.1	Streptomyces zhihengii	Streptomyces zhihengii	1818004	YIM T102	Scaffold	reference genome	6589952	9733137	73	10
+GCF_000225525.1	Streptomyces zinciresistens	Streptomyces zinciresistens K42	700597	K42	Contig	reference genome	31811	8221694	72.5	1
+GCF_012034935.1	Streptomyces zingiberis	Streptomyces zingiberis	2053010	PLAI 1-29	Contig	reference genome	219934	6491253	74.5	1
+GCF_039542605.1	Streptomyces ziwulingensis	Streptomyces ziwulingensis	1045501	JCM 18081	Scaffold	reference genome	155763	8331878	72.5	2
+GCF_003391135.1	Streptoverticillium olivoreticuli	Streptoverticillium olivoreticuli subsp. olivoreticuli	284034	ATCC 31159	Complete Genome		8809793	8809793	71	1
+GCF_047456005.1	Streptoverticillium reticulum	Streptoverticillium reticulum	1433415	J-35	Complete Genome	reference genome	8381923	8499774	71.5	1

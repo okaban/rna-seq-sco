@@ -1,0 +1,3 @@
+c0bc8824b2c07c78127dd1c164b78cf8  ncbi_dataset/data/assembly_data_report.jsonl
+360bbbf8489e2c362a15780dc91043e4  ncbi_dataset/data/GCF_001984445.1/GCF_001984445.1_ASM198444v1_genomic.fna
+3f9e3dd97bf7afb358393d365a46b9f3  ncbi_dataset/data/dataset_catalog.json

@@ -1,0 +1,17 @@
+TF_name	SCO_ID	motif_consensus	motif_length	motif_type	evidence_type	technique	reference	PMID	notes
+GlnR	SCO4159	GTNACNNNNNNGANAC	16	single_box	experimental	DNase_I_footprint;EMSA	Tiffert_2008;Wang_2013	18179599;23543735	22bp a-site+b-site; here single box unit gTnAc-n6-GaAAc
+PhoP	SCO7637	GTTCACCNNNNGTTCACC	18	direct_repeat	experimental	ChIP-chip;DNase_I_footprint;EMSA	Allenby_2012;Sola-Landa_2005	22923519;16042609	PHO box: GTTCACC-N4-GTTCACC direct repeat
+DasR	SCO5231	ANTGGTCTAGACCANT	16	palindrome	experimental	ChIP-seq;EMSA	Colson_2007;Swiatek-Polatynska_2015	17183212;25826289	dre-site: A(G/C)TGGTCTAGACCA(G/C)T canonical palindrome
+AfsQ1	SCO4907	GTNACNNNNNNGTNAC	16	direct_repeat	experimental	DNase_I_footprint	Wang_2013_MolMicrobiol	23116219	GTnAC-n6-GTnAC direct repeat
+DraR	SCO3063	AMAAWYMAKCA	11	consensus	experimental	DNase_I_footprint;EMSA	Yu_2012	22676800	M=A/C,W=A/T,Y=C/T,K=G/T
+Crp	SCO3571	TGTGANNNNNNTCACA	16	palindrome	computational	ChIP-chip;homology	Chan_2013	23292766	CRP-like motif; exact S. coelicolor consensus is approximate
+ScbR	SCO6265	TTTGGNNNNNNNNNNNNNNNNNNCCAAA	28	inverted_repeat	experimental	DNase_I_footprint;MEME	Li_2015;Wang_2011	26452094;21771106	Two inverted TTTGG half-sites ~30bp; core TTTSTT
+AbrC3	SCO4596	GAASGSGRMS	10	consensus	experimental	EMSA;ChIP-qPCR	Rico_2014	24488312	S=G/C,R=A/G,M=A/C
+BldD	SCO1489	AGTGANNNNNNTCACT	16	palindrome	experimental	ChIP-chip;DNase_I_footprint;EMSA	Elliot_1999;Schumacher_2017	10542188;28541410	BldD box: AGTgA-(N)m-TCACt palindromic
+AdpA	SCO2792	TGGCSNGWWY	10	consensus	experimental	EMSA;DNase_I_footprint;lacZ_reporter	Ohnishi_2005;Wolanski_2011	15857081;21784946	S=G/C,W=A/T,Y=C/T,N=any
+HrdB	SCO5820	TTGACANNNNNNNNNNNNNNNNNTAGAAT	28	promoter_-35_-10	experimental	promoter_compilation;in_vitro_transcription	Strohl_1992	1549509	sigma70-like: TTGACa-N16-18-TAgaaT
+SigR	SCO5216	GGAACNNNNNNNNNNNNNNNNCGTT	24	promoter_-35_-10	experimental	in_vitro_transcription;ChIP-chip	Paget_2001;Kim_2012	11737643;22651816	ECF sigma: GGAAC-N16/17-CGTT
+SigE	SCO5147	GGAACNNNNNNNNNNNNNNNNNGTT	24	promoter_-35_-10	experimental	ChIP-seq;in_vitro_transcription	Tran_2019	30900386	ECF sigma: GGAAC-N16/17-GTT
+SigB	SCO0600	GNNTNNNNNNNNNNNNNNNNNGGGTAC	26	promoter_-35_-10	experimental	consensus-directed_search	Lee_2004	15357310	SigB-like promoter: GNNTN14-16GGGTAC/T
+ArgR	SCO1576	TGAATAANNNNNNTTATTCA	20	palindrome	experimental	EMSA;DNase_I_footprint	Perez-Redondo_2012	22403700	ARG box: TGAATAA-n6-TTATTCA
+NdgR	SCO5552	BTYCANYWSYBGGAC	15	palindrome	experimental	ChIP-seq;EMSA	Kim_2015;Yang_2009	25766138;19083232	IclR-family; [GT]T[CT]CAC[CA][CTA][TC][GC][TC]GGAC

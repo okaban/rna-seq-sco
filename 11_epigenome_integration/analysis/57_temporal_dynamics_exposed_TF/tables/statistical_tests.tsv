@@ -1,0 +1,9 @@
+test_name	group1	group2	statistic	p_value	effect_size	n1	n2	interpretation
+Bloc phase ratio comparison (Mann-Whitney U)	Activation (modules 1-3)	Repression (module 4)				6	0	Activation vs repression bloc temporal ordering
+Coordination type phase ratio (Kruskal-Wallis)	Coordination types (T3)	N/A				0	0	Differences in temporal response across coordination types
+Early methylation-expression correlation (Spearman)	Early methyl code	LFC_T2vsT1	0.4107919181288746	0.27207082745361105	0.4107919181288746	9	9	Do early methylation changes correlate with early expression changes?
+Late methylation-expression correlation (Spearman)	Late methyl code	LFC_T3vsT2	0.27386127875258304	0.4757972385180242	0.27386127875258304	9	9	Do late methylation changes correlate with late expression changes?
+TCS temporal lag (Wilcoxon signed-rank)	Exposed PR	Shielded PR	3.0	0.3125		5	5	Does exposed partner respond before/after shielded?
+SK-exposed vs RR-exposed phase ratio (Mann-Whitney)	SK-exposed pairs	RR-exposed pairs				0	6	Do SK-exposed pairs respond earlier than RR-exposed?
+Exposed vs shielded phase ratio (Mann-Whitney)	Exposed TFs	Shielded regulatory genes	1234.0	0.7342930762227573	-0.06701253782965844	9	257	Do exposed TFs show different temporal distribution than shielded?
+Temporal class distribution (Chi-square)	Exposed	Shielded	0.8369538141291589	0.6580483256842058		9	257	Is temporal class distribution different for exposed vs shielded?

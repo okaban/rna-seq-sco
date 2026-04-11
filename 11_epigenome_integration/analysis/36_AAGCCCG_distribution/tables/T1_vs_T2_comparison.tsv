@@ -1,0 +1,13 @@
+metric	T1	T2
+total_sites	260	64
+arm_sites	81	23
+core_sites	179	41
+arm_pct	31.2	35.9
+median_NN_distance	9406	55672
+mean_NN_distance	14732	70728
+sites_in_BGC	3	0
+sites_near_reg_gene_2kb	85	19
+proximal_genes_2kb	974	285
+proximal_DEGs	627	180
+mean_LFC_proximal	0.354	0.189
+median_LFC_proximal	-0.022	-0.082

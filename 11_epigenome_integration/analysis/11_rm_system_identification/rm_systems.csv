@@ -1,0 +1,8 @@
+system,component,locus_tag,methyl_type,motif
+BREX-2,PglX (adenine-specific MTase),SC_RS28835,6mA,Unknown (literature search needed)
+BREX-2,PglX (adenine-specific MTase),SC_RS35335,6mA,Unknown (literature search needed)
+Type ISP,R-M enzyme,SC_RS10595,Unknown,Unknown
+Dcm-like,Cytosine MTase,SC_RS19765,4mC/5mC,CCGG (candidate)
+Dcm-like,Cytosine MTase,SC_RS19770,4mC/5mC,CCGG (candidate)
+Dcm-like,Cytosine MTase,SC_RS36410,4mC/5mC,CCGG (candidate)
+Dam-like,N-6 adenine MTase,SC_RS17645,6mA,AAGCCCG (candidate)
