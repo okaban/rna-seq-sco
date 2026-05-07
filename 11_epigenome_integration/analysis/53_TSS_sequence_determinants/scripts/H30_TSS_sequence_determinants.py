@@ -38,7 +38,9 @@ warnings.filterwarnings('ignore')
 # Configuration
 # ============================================================
 BASE_DIR = Path('/Users/okaban/bioinfo/rna-seq')
-ANALYSIS_DIR = BASE_DIR / '11_epigenome_integration/analysis/53_TSS_sequence_determinants'
+# Output dirs are derived from the script location so the script works in the
+# canonical checkout or in any worktree without producing cross-tree writes.
+ANALYSIS_DIR = Path(__file__).resolve().parent.parent
 FIGURES_DIR = ANALYSIS_DIR / 'figures'
 TABLES_DIR = ANALYSIS_DIR / 'tables'
 
@@ -48,7 +50,7 @@ GENOME_FASTA_ALT = Path('/Users/okaban/bioinfo/methyl/260102_M145/data/ref.fa')
 GENE_ANNOTATION = BASE_DIR / '05_annotation/analysis/05_annotation_260128_v1/tables/gene_annotation_basic.tsv'
 ALL_REGULATORY = BASE_DIR / '11_epigenome_integration/analysis/29_genomewide_TF_screen/tables/all_regulatory_genes.tsv'
 COORDINATED_REGULATORY = BASE_DIR / '11_epigenome_integration/analysis/29_genomewide_TF_screen/tables/coordinated_regulatory_genes.tsv'
-H29_FEATURES = BASE_DIR / '11_epigenome_integration/analysis/52_shielded_exposed_boundary/tables/all_genes_features.tsv'
+H29_FEATURES = BASE_DIR / '11_epigenome_integration/analysis/52_shielded_exposed_boundary/tables/all_genes_features_unified_n57.tsv'
 H27_METRICS = BASE_DIR / '11_epigenome_integration/analysis/50_coordinated_regulators_protection/tables/gene_level_metrics.tsv'
 H22_MOTIF_COUNTS = BASE_DIR / '11_epigenome_integration/analysis/45_sequence_level_motif_depletion/tables/gene_motif_counts.tsv'
 
@@ -113,6 +115,13 @@ print(f"  H27 gene-level metrics: {len(h27)}")
 df = h29.copy()
 df['is_exposed'] = df['is_exposed'].astype(int)
 df['class'] = df['is_exposed'].map({1: 'Exposed', 0: 'Shielded'})
+
+# Drop rows lacking a TSS coordinate (cannot extract TSS-proximal sequence)
+n_before = len(df)
+df = df.dropna(subset=['tss']).reset_index(drop=True)
+n_dropped = n_before - len(df)
+if n_dropped:
+    print(f"  Dropped {n_dropped} genes with missing TSS")
 
 n_exposed = (df['is_exposed'] == 1).sum()
 n_shielded = (df['is_exposed'] == 0).sum()
