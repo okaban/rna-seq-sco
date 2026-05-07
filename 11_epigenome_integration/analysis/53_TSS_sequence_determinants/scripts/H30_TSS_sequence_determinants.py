@@ -6,8 +6,8 @@ Tests whether exposed regulators (no protection zone) have higher density of
 R-M recognition motifs in the TSS-proximal region compared to shielded regulators.
 
 Background:
-- H27: 62 "exposed" regulators have no protection zone (methylation at median 114bp from TSS)
-         993 "shielded" regulators have a 1,200bp protection zone
+- H27: 57 "exposed" regulators have no protection zone (methylation at median 114bp from TSS)
+         998 "shielded" regulators have a 1,200bp protection zone
 - H29: Expression level does NOT predict this classification (baseMean AUC=0.547)
 - H22: R-M motifs depleted in regulatory gene bodies (fold=0.74-0.76)
 
