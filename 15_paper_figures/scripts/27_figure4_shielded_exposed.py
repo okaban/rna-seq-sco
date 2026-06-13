@@ -86,19 +86,22 @@ def panel_a(ax, df_genes):
 
 
 def panel_b(ax, df_genes):
-    """Panel B: ROC curves — nearest distance (AUC=0.917) vs expression (AUC=0.547)."""
+    """Panel B: ROC curves — nearest distance (AUC=0.908) vs expression (AUC=0.547)."""
     y_true = df_genes['is_exposed'].values
-    valid = ~np.isnan(df_genes['nearest_methyl_distance'].values) & ~np.isnan(df_genes['baseMean'].values)
 
-    dist = df_genes.loc[valid, 'nearest_methyl_distance'].values
-    bm = df_genes.loc[valid, 'baseMean'].values
-    y_val = y_true[valid]
-
-    # Distance ROC (lower = more exposed, negate for sklearn convention)
-    fpr_d, tpr_d, thresh_d = roc_curve(y_val, -dist)
+    # Distance ROC on the full distance-valid set (canonical AUC = 0.908,
+    # 95% CI [0.886, 0.929]; matches M1 table and manuscript text). The
+    # distance predictor does not depend on baseMean, so it is NOT gated on it.
+    d_valid = ~np.isnan(df_genes['nearest_methyl_distance'].values)
+    dist = df_genes.loc[d_valid, 'nearest_methyl_distance'].values
+    y_d = y_true[d_valid]
+    fpr_d, tpr_d, thresh_d = roc_curve(y_d, -dist)
     auc_d = auc(fpr_d, tpr_d)
 
-    # Expression ROC (lower = more exposed)
+    # Expression ROC on its own valid subset (lower = more exposed)
+    b_valid = ~np.isnan(df_genes['baseMean'].values)
+    bm = df_genes.loc[b_valid, 'baseMean'].values
+    y_val = y_true[b_valid]
     fpr_b, tpr_b, _ = roc_curve(y_val, -bm)
     auc_b = auc(fpr_b, tpr_b)
 
