@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-H34: Temporal Dynamics and Hierarchical Structure of 62 Exposed Transcription Factors
+H34: Temporal Dynamics and Hierarchical Structure of 57 Exposed Transcription Factors
 =====================================================================================
 Analyzes phase separation between activation and repression blocs,
 temporal ordering of TCS pairs, and methylation-expression timing correlations.
@@ -130,7 +130,7 @@ for _, row in coexpr_modules.iterrows():
 exposed_tags = set(exposed_df['locus_tag'])
 print(f"\n  Exposed locus_tags: {len(exposed_tags)}")
 
-# Build master table for all 62 exposed TFs
+# Build master table for all 57 exposed TFs
 master = exposed_df[['locus_tag', 'gene_name', 'old_locus_tag', 'product', 'tf_family',
                       'start', 'end', 'strand']].copy()
 
@@ -150,9 +150,8 @@ master['padj_T2vsT1'] = master['locus_tag'].map(padj_t2t1_map)
 master['padj_T3vsT1'] = master['locus_tag'].map(padj_t3t1_map)
 master['padj_T3vsT2'] = master['locus_tag'].map(padj_t3t2_map)
 
-# Add module membership
+# Add module membership (bloc is assigned later, data-driven, after z-scores — see below)
 master['module'] = master['locus_tag'].map(module_membership)
-master['bloc'] = master['module'].apply(lambda x: 'activation' if x in [1, 2, 3] else ('repression' if x == 4 else 'unassigned'))
 
 # Add coordination type from coordinated_df (if available)
 if 'coordination_T2' in coordinated_df.columns:
@@ -189,6 +188,16 @@ for idx in master.index:
         master.loc[idx, 'T1_z'] = 0
         master.loc[idx, 'T2_z'] = 0
         master.loc[idx, 'T3_z'] = 0
+
+# Data-driven bloc assignment from per-module mean trajectory slope (T3_z - T1_z).
+# Robust to module count: rising module(s) -> activation, falling -> repression.
+# (Previously hardcoded as modules {1,2,3}->activation, 4->repression, which assumed the
+#  old n=62 four-module clustering and collapsed the repression bloc to 0 under the n=57
+#  two-module clustering. The two n=57 modules are anti-phase, Pearson r = -0.98.)
+_mod_traj = master.dropna(subset=['module']).groupby('module')[['T1_z', 'T3_z']].mean()
+_mod_slope = _mod_traj['T3_z'] - _mod_traj['T1_z']
+_mod_bloc = {m: ('activation' if s > 0 else 'repression') for m, s in _mod_slope.items()}
+master['bloc'] = master['module'].map(_mod_bloc).fillna('unassigned')
 
 print(f"\n  Master table: {len(master)} exposed TFs with {master.columns.tolist()[:10]}...")
 print(f"  Module distribution: {master['module'].value_counts().to_dict()}")
@@ -245,7 +254,7 @@ master['direction'] = master['LFC_T3vsT1'].apply(lambda x: 'up' if x > 0 else 'd
 # Combined classification
 master['temporal_direction'] = master['temporal_class'] + '_' + master['direction']
 
-print("\n  Temporal classification (n=62 exposed TFs):")
+print("\n  Temporal classification (n=57 exposed TFs):")
 print(f"  Has meaningful change (|LFC_T3vsT1| > {LFC_THRESHOLD}): {master['has_meaningful_change'].sum()}")
 print(f"  Phase ratio stats: mean={master['phase_ratio'].mean():.3f}, "
       f"median={master['phase_ratio'].median():.3f}, "
@@ -901,7 +910,7 @@ ax.axhline(0, color='gray', lw=0.5, ls='--')
 ax.axvline(0, color='gray', lw=0.5, ls='--')
 ax.set_xlabel('LFC (T2 vs T1) — Early response')
 ax.set_ylabel('LFC (T3 vs T2) — Late response')
-ax.set_title('H34: Temporal Classification of 62 Exposed TFs')
+ax.set_title('H34: Temporal Classification of 57 Exposed TFs')
 ax.legend(bbox_to_anchor=(1.05, 1), loc='upper left', fontsize=8)
 plt.tight_layout()
 for ext in ['pdf', 'svg']:
@@ -1281,7 +1290,7 @@ ax = fig.add_subplot(gs[2, :])
 ax.axis('off')
 
 # Create summary text table
-summary_text = "F. SUMMARY: Temporal Dynamics of 62 Exposed TFs\n\n"
+summary_text = "F. SUMMARY: Temporal Dynamics of 57 Exposed TFs\n\n"
 summary_text += f"Phase ratio distribution: mean={exposed_pr.mean():.3f}, median={exposed_pr.median():.3f}\n"
 summary_text += f"  Early responders: {exp_class.get('early', 0)} ({exp_class.get('early', 0)/len(master)*100:.1f}%)\n"
 summary_text += f"  Late responders: {exp_class.get('late', 0)} ({exp_class.get('late', 0)/len(master)*100:.1f}%)\n"
@@ -1297,7 +1306,7 @@ ax.text(0.02, 0.95, summary_text, transform=ax.transAxes, fontsize=10,
         verticalalignment='top', fontfamily='monospace',
         bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.5))
 
-fig.suptitle('H34: Temporal Dynamics and Hierarchical Structure of 62 Exposed TFs',
+fig.suptitle('H34: Temporal Dynamics and Hierarchical Structure of 57 Exposed TFs',
              fontsize=14, fontweight='bold', y=1.01)
 plt.tight_layout()
 for ext in ['pdf', 'svg']:
@@ -1413,7 +1422,7 @@ print("FINAL SUMMARY")
 print("=" * 70)
 
 print(f"""
-H34 TEMPORAL DYNAMICS OF 62 EXPOSED TFs - KEY FINDINGS
+H34 TEMPORAL DYNAMICS OF 57 EXPOSED TFs - KEY FINDINGS
 =======================================================
 
 1. TEMPORAL CLASSIFICATION:
