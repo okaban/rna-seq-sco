@@ -1,5 +1,14 @@
 #!/usr/bin/env python3
 """
+[RETRACTED / DO NOT USE — 2026-06-17]
+This switch-model figure rests on the expression-selected "two antagonistic blocs"
+claim and panel D reports the tautological distance-classifier AUC (0.917) on the
+old 57/998 set — all circular under the non-circular reframe (62/989, no AUC).
+The manuscript Figure 6 is now produced by `30_figure6_spatial_organizer.py`
+(permissive spatial-organiser schematic). Do NOT regenerate this figure or copy its
+output into Writing/fig_images/Figure6.png. Kept only for git history.
+
+--- original docstring ---
 New Figure 5: Vegetative-to-Developmental Switch Model
 
 (A) Repression bloc — vegetative programs OFF (key genes + LFC waterfall)
@@ -241,16 +250,16 @@ def panel_d(ax):
     ax.text(0.7, 8.35, 'T1: 83% core  →  T2: 82% arm  →  T3: residual (n=21)',
             ha='left', va='center', fontsize=6, color=COL_DARK)
 
-    # ── Observation 2: 62 exposed regulators (structural, minimal Layer 2) ──
+    # ── Observation 2: 57 exposed regulators (structural, minimal Layer 2) ──
     box2 = FancyBboxPatch((0.3, 5.95), 9.4, 1.75, boxstyle='round,pad=0.15',
                            facecolor=COL_EXPOSED, alpha=0.07,
                            edgecolor=COL_EXPOSED, linewidth=1.2)
     ax.add_patch(box2)
     ax.text(0.7, 7.33, 'Observation 2', ha='left', va='center',
             fontsize=7, fontweight='bold', color=COL_EXPOSED)
-    ax.text(0.7, 6.88, '62 of 1,055 regulatory genes lack methylation protection at TSS',
+    ax.text(0.7, 6.88, '57 of 1,055 regulatory genes lack methylation protection at TSS',
             ha='left', va='center', fontsize=6.5, color=COL_DARK)
-    ax.text(0.7, 6.38, '(293 bp threshold, AUC = 0.917; 993 shielded, 62 exposed)',
+    ax.text(0.7, 6.38, '(293 bp threshold, AUC = 0.917; 998 shielded, 57 exposed)',
             ha='left', va='center', fontsize=6, color=COL_DARK)
 
     # ── Observation 3: Co-regulation (with causation caveat) ───────────────
@@ -260,7 +269,7 @@ def panel_d(ax):
     ax.add_patch(box3)
     ax.text(0.7, 5.33, 'Observation 3', ha='left', va='center',
             fontsize=7, fontweight='bold', color=COL_DARK)
-    ax.text(0.7, 4.87, 'The 62 exposed regulators form two antagonistic blocs',
+    ax.text(0.7, 4.87, 'The 57 exposed regulators form two antagonistic blocs',
             ha='left', va='center', fontsize=6.5, color=COL_DARK)
 
     # Activation/Repression sub-labels inline
