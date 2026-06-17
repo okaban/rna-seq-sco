@@ -26,11 +26,11 @@ from scipy import stats
 
 BGC_DIR = EPIGENOME / '47_BGC_methylation_geographic_test' / 'tables'
 
-CLUSTER_COLORS = {
-    'act': '#E53935',  # red — actinorhodin
-    'cda': '#1E88E5',  # blue — calcium-dependent antibiotic
-    'cpk': '#43A047',  # green — coelimycin
-    'red': '#FB8C00',  # orange — undecylprodigiosin
+CLUSTER_COLORS = {  # muted (Okabe-Ito/Tol) for palette consistency with main figures
+    'act': '#C26B6B',  # muted rose — actinorhodin
+    'cda': '#4477AA',  # muted blue — calcium-dependent antibiotic
+    'cpk': '#009E73',  # muted green — coelimycin
+    'red': '#E69F00',  # muted orange — undecylprodigiosin
 }
 
 def _style(ax):
@@ -134,7 +134,7 @@ def panel_c(ax, df_dna):
 
     x = np.arange(len(categories))
     w = 0.35
-    ax.bar(x - w/2, bgc_vals, width=w, color='#E53935', alpha=0.8,
+    ax.bar(x - w/2, bgc_vals, width=w, color=COL_4mC, alpha=0.8,
            edgecolor='white', linewidth=0.5, label='BGC genes')
     ax.bar(x + w/2, nonbgc_vals, width=w, color='#90A4AE', alpha=0.8,
            edgecolor='white', linewidth=0.5, label='Non-BGC genes')
