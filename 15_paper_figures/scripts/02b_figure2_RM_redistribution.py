@@ -33,8 +33,8 @@ ARM_LEFT = 1_500_000
 ARM_RIGHT = 7_167_507
 PROTECTION_ZONE_BP = 293
 
-T_LABELS = {'T1': 'T1 (30 h)', 'T2': 'T2 (48 h)', 'T3': 'T3 (72 h)'}
-T_COLORS = {'T1': '#E53935', 'T2': '#FB8C00', 'T3': '#1565C0'}
+T_LABELS = {'T1': 'T1 (12 h)', 'T2': 'T2 (24 h)', 'T3': 'T3 (50 h)'}
+T_COLORS = {'T1': '#C26B6B', 'T2': '#E69F00', 'T3': '#4477AA'}  # muted (Okabe-Ito/Tol)
 
 
 def add_uppercase_label(ax, label, x=-0.10, y=1.06, fontsize=15):
@@ -182,7 +182,7 @@ def panel_d(ax, df_genes):
         y_max = max(y_max, np.percentile(data_s, 99), np.percentile(data_e, 99))
 
         for pos, data, color in [(pos_s, data_s, COL_SHIELDED),
-                                 (pos_e, data_e, '#E53935')]:
+                                 (pos_e, data_e, COL_EXPOSED)]:
             parts = ax.violinplot([data], positions=[pos], widths=0.85,
                                   showextrema=False, showmedians=False)
             for body in parts['bodies']:
@@ -230,9 +230,9 @@ def panel_d(ax, df_genes):
     # Counts reflect genes with available LFC data for both transitions.
     legend_handles = [
         Patch(facecolor=COL_SHIELDED, alpha=0.55,
-              label=f'Shielded (n = {len(shi)} of 998)'),
-        Patch(facecolor='#E53935', alpha=0.55,
-              label=f'Exposed (n = {len(exp)} of 57)'),
+              label=f'Shielded (n = {len(shi)} of 989)'),
+        Patch(facecolor=COL_EXPOSED, alpha=0.55,
+              label=f'Exposed (n = {len(exp)} of 62)'),
     ]
     ax.legend(handles=legend_handles, loc='upper center',
               bbox_to_anchor=(0.5, -0.18), ncol=2,
@@ -249,8 +249,30 @@ def main():
     df_genes = pd.read_csv(
         EPIGENOME / '52_shielded_exposed_boundary' /
         'tables' / 'all_genes_features_unified_n57.tsv', sep='\t')
-    print(f'  All genes (unified n=57): {len(df_genes)} '
-          f'(exposed={df_genes["is_exposed"].sum()})')
+
+    # --- Non-circular reframe (2026-06-17): recompute Exposed from the methylation
+    # map only (TSS within 293 bp of a GCCGGC m4C site at T1), matching F4_F5 and
+    # the Fig2c/d reframe. The table's stale `is_exposed` (n=57, expression-selected)
+    # is replaced; nearest_methyl_distance is set to the T1 GCCGGC distance so the
+    # panel-C violin and the Shielded/Exposed split are the same quantity (62/989).
+    df_genes = df_genes.dropna(subset=['tss']).copy()
+    df_genes['tss'] = df_genes['tss'].astype(int)
+    g_tp = pd.read_csv(EPIGENOME / '37_defense_island_GCCGGC' /
+                       'tables' / 'GCCGGC_sites_by_timepoint.tsv', sep='\t')
+    _pos = np.sort(g_tp[g_tp['timepoint'] == 'T1']['position'].values)
+
+    def _nearest(tss):
+        if len(_pos) == 0:
+            return np.nan
+        i = np.clip(np.searchsorted(_pos, tss), 1, len(_pos) - 1)
+        return min(abs(tss - _pos[i - 1]), abs(tss - _pos[i]))
+
+    df_genes['nearest_methyl_distance'] = df_genes['tss'].apply(_nearest)
+    df_genes['is_exposed'] = (df_genes['nearest_methyl_distance']
+                              <= PROTECTION_ZONE_BP).astype(int)
+    print(f'  Regulatory genes (non-circular): {len(df_genes)} '
+          f'(Exposed={int(df_genes["is_exposed"].sum())}, '
+          f'Shielded={int((df_genes["is_exposed"] == 0).sum())})')
 
     fig = plt.figure(figsize=(mm_to_inch(180), mm_to_inch(180)))
     gs = fig.add_gridspec(2, 2, hspace=0.55, wspace=0.42,
@@ -274,6 +296,11 @@ def main():
 
     out_path = FIG_DIR / 'Figure2_RM_redistribution'
     save_figure(fig, out_path, formats=('pdf', 'svg', 'png'))
+    import shutil
+    slot = Path.home() / 'obsidian' / 'Research' / 'rna-seq' / 'Writing' / 'fig_images' / 'Figure2.png'
+    if slot.parent.is_dir():
+        shutil.copyfile(out_path.with_suffix('.png'), slot)
+        print(f'  Synced → {slot}')
     print('=== Done ===')
 
 
