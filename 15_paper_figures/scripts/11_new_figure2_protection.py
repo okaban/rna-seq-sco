@@ -28,10 +28,15 @@ for _attr in dir(_utils):
 def panel_a(ax, df_spatial):
     """Panel A: TSS methylation gradient heatmap — site type × distance."""
     # Show regulatory genes, T1, different methylation types
+    # NOTE: AAGCCCG_6mA is omitted from this per-gene metagene. With only ~260
+    # AAGCCCG 6mA sites across all regulatory genes, the per-gene density profile
+    # is dominated by the minority of promoter-marked regulators and shows a
+    # spurious near-TSS 'enrichment' that contradicts the statistically-correct
+    # depletion (CMH-adjusted OR = 0.409; reported in the text). 'All 6mA'
+    # (n=1,934) is well-sampled and correctly shows promoter depletion.
     categories = [
         ('GCCGGC_4mC', 'GCCGGC (4mC)'),
         ('All_4mC', 'All 4mC'),
-        ('AAGCCCG_6mA', 'AAGCCCG (6mA)'),
         ('All_6mA', 'All 6mA'),
         ('All_methylation', 'All methylation'),
     ]

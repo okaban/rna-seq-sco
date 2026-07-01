@@ -54,13 +54,19 @@ def load_kegg_long():
 
 
 def short_pathway_name(name: str) -> str:
-    """Shorten KEGG names for plot labels."""
+    """Shorten KEGG names for plot labels.
+
+    Names are wrapped to at most two lines (no truncation) so every
+    pathway label is fully visible on the y-axis.
+    """
+    import textwrap
     name = name.split(' - ')[0]
     name = name.replace(' biosynthesis', ' biosynth.')
     name = name.replace(' metabolism', ' metab.')
     name = name.replace('Streptomyces coelicolor', 'S. coelicolor')
-    if len(name) > 42:
-        name = name[:40] + '…'
+    # Wrap long names onto two lines instead of truncating with an ellipsis.
+    if len(name) > 24:
+        name = '\n'.join(textwrap.wrap(name, width=24, break_long_words=False))
     return name
 
 
@@ -115,14 +121,16 @@ def draw_bubble(ax, df_long: pd.DataFrame, pids: list):
 
     # Axes
     ax.set_xticks(list(motif_to_x.values()))
-    ax.set_xticklabels(motif_order, fontsize=9)
+    # Two-line wrapped labels with extra top padding; widened x-limits below
+    # spread the three columns so the category labels never collide.
+    ax.set_xticklabels(motif_order, fontsize=9, linespacing=1.3)
     ax.set_yticks(list(pid_to_y.values()))
     name_lookup = (df_long.drop_duplicates('pathway_id')
                    .set_index('pathway_id')['pathway_name'])
     ax.set_yticklabels([short_pathway_name(name_lookup[pid]) for pid in pid_order],
                        fontsize=8)
-    ax.set_xlim(-0.6, len(motif_order) - 0.4)
-    ax.set_ylim(-0.6, len(pid_order) - 0.4)
+    ax.set_xlim(-0.7, len(motif_order) - 0.3)
+    ax.set_ylim(-0.7, len(pid_order) - 0.3)
     ax.grid(True, axis='both', linestyle=':', linewidth=0.5,
             color='#cccccc', alpha=0.7, zorder=0)
     ax.set_axisbelow(True)
@@ -149,13 +157,20 @@ def draw_legends(fig, df_long: pd.DataFrame):
                    markerfacecolor='#888', markeredgecolor='#222',
                    markersize=np.sqrt(s), label=f'n = {n}')
         size_handles.append(h)
+    # Size legend (lower right). Placed in the bottom third of the right band;
+    # generous labelspacing keeps the large n bubbles from touching.
     fig.legend(size_handles, [h.get_label() for h in size_handles],
-               loc='lower right', bbox_to_anchor=(0.98, 0.06),
+               loc='upper left', bbox_to_anchor=(0.78, 0.42),
                title='Genes in pathway', title_fontsize=8, fontsize=7,
-               frameon=False, labelspacing=1.2)
+               frameon=False, labelspacing=1.6, borderaxespad=0)
 
     # Significance legend
+    # ordered by decreasing significance (most significant first)
     fdr_handles = [
+        Line2D([0], [0], marker='*', linestyle='none',
+               markerfacecolor='white', markeredgecolor='#222',
+               markeredgewidth=0.6, markersize=10,
+               label='FDR < 0.05 (*)'),
         Line2D([0], [0], marker='o', linestyle='none',
                markerfacecolor='#888', markeredgecolor='#222',
                markeredgewidth=1.2, markersize=10,
@@ -164,15 +179,13 @@ def draw_legends(fig, df_long: pd.DataFrame):
                markerfacecolor='#888', markeredgecolor='#bbb',
                markeredgewidth=0.4, markersize=10,
                label=f'FDR ≥ {FDR_CUT}'),
-        Line2D([0], [0], marker='*', linestyle='none',
-               markerfacecolor='white', markeredgecolor='#222',
-               markeredgewidth=0.6, markersize=10,
-               label='FDR < 0.05 (*)'),
     ]
+    # Significance legend (upper right), kept in the top portion of the right
+    # band so it never overlaps the 'Genes in pathway' legend below it.
     fig.legend(fdr_handles, [h.get_label() for h in fdr_handles],
-               loc='lower right', bbox_to_anchor=(0.98, 0.30),
+               loc='upper left', bbox_to_anchor=(0.78, 0.88),
                title='Significance', title_fontsize=8, fontsize=7,
-               frameon=False)
+               frameon=False, labelspacing=0.9, borderaxespad=0)
 
 
 def main():
@@ -189,9 +202,11 @@ def main():
         print(f'    {pid:10s} padj_min={best:.3g}  '
               f'name={sub["pathway_name"].iloc[0][:60]}')
 
-    # Layout: bubble + 2 separate legend boxes on the right margin
-    fig = plt.figure(figsize=(mm_to_inch(180), mm_to_inch(110)))
-    ax = fig.add_axes([0.32, 0.16, 0.50, 0.74])
+    # Layout: bubble + 2 separate legend boxes on the right margin.
+    # Wider canvas + larger left margin so full (2-line) pathway names fit and
+    # the three motif columns are well separated; right band holds the legends.
+    fig = plt.figure(figsize=(mm_to_inch(210), mm_to_inch(120)))
+    ax = fig.add_axes([0.30, 0.20, 0.46, 0.70])
 
     draw_bubble(ax, df_long, pids)
     ax.set_title('KEGG pathway enrichment by methylation motif',
@@ -199,9 +214,9 @@ def main():
 
     draw_legends(fig, df_long)
 
-    # Save
+    # Save (PNG added alongside PDF/SVG for the manuscript image slot)
     out = FIG_DIR / 'Figure7_kegg_bubble'
-    save_figure(fig, out)
+    save_figure(fig, out, formats=('pdf', 'svg', 'png'))
     print('=== Done ===')
 
 

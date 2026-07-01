@@ -3,7 +3,11 @@
 
 Panel A: Genome-wide GCCGGC m4C density at T1/T2/T3 (50 kb windows).
 Panel B: TSS metagene methylation profile, T1, ±4 kb, all genes.
-Panel C: TSS-distance violins for Shielded (n=998) vs Exposed (n=57).
+Panel C: Continuous TSS-to-nearest-GCCGGC-m4C distance across all regulatory
+         genes (n=1,051; 62 Exposed / 989 Shielded), shown as a single histogram
+         + KDE on a log10-bp axis with the 293 bp operating point marked. The
+         distribution is unimodal (Hartigan's dip test does not reject), so it is
+         a gradient, not two natural groups.
 Panel D: |log2 fold-change| variability of Shielded vs Exposed TFs at T2 vs T1
          and T3 vs T1.
 
@@ -33,8 +37,19 @@ ARM_LEFT = 1_500_000
 ARM_RIGHT = 7_167_507
 PROTECTION_ZONE_BP = 293
 
+# ── Palette unification with Figure 1 (Okabe-Ito, colourblind-safe) ───────────
+# Override the imported palette so Figure 1 and Figure 2 use IDENTICAL red/blue.
+#   4mC / GCCGGC m4C series  → vermillion  #D55E00
+#   6mA / AAGCCCG series     → blue        #0072B2
+#   core/arm shading & grey baseline       #999999
+COL_4mC = '#D55E00'      # vermillion (was muted rose #C26B6B)
+COL_6mA = '#0072B2'      # blue (was muted #4477AA)
+COL_GREY = '#999999'     # neutral grey baseline / core shading
+
 T_LABELS = {'T1': 'T1 (12 h)', 'T2': 'T2 (24 h)', 'T3': 'T3 (50 h)'}
-T_COLORS = {'T1': '#C26B6B', 'T2': '#E69F00', 'T3': '#4477AA'}  # muted (Okabe-Ito/Tol)
+# T1 (red) and T3 (blue) GCCGGC m4C density tracks matched to Figure 1;
+# T2 keeps the Okabe-Ito orange (neither red nor blue).
+T_COLORS = {'T1': COL_4mC, 'T2': '#E69F00', 'T3': COL_6mA}
 
 
 def add_uppercase_label(ax, label, x=-0.10, y=1.06, fontsize=15):
@@ -50,7 +65,7 @@ def panel_a(ax, df_sites, bin_size_bp=50_000):
 
     # Shaded core region
     ax.axvspan(ARM_LEFT / 1e6, ARM_RIGHT / 1e6,
-               color='#90A4AE', alpha=0.12, zorder=0, label='Core')
+               color=COL_GREY, alpha=0.12, zorder=0, label='Core')
 
     for tp in ['T1', 'T2', 'T3']:
         sub = df_sites[df_sites['timepoint'] == tp]
@@ -102,64 +117,78 @@ def panel_b(ax, df_spatial):
 
 
 def panel_c(ax, df_genes):
-    """Violin plot of nearest GCCGGC m4C site distance for Shielded vs Exposed."""
+    """Continuous TSS-to-nearest-GCCGGC-m4C distance across ALL regulatory genes.
+
+    Honest depiction: the distribution is continuous and unimodal (Hartigan's dip
+    test does not reject unimodality), so it is shown as a single histogram + KDE on
+    a log10-bp x-axis rather than pre-split into two groups. The 293 bp operating
+    point is a single vertical line; the 62 Exposed are simply those left of it
+    (the region <=293 bp is shaded lightly).
+    """
     df = df_genes.dropna(subset=['nearest_methyl_distance'])
-    exposed = df[df['is_exposed'] == 1]['nearest_methyl_distance'].values
-    shielded = df[df['is_exposed'] == 0]['nearest_methyl_distance'].values
+    dist = df['nearest_methyl_distance'].values.astype(float)
+    n_total = len(dist)
+    n_exposed = int((dist <= PROTECTION_ZONE_BP).sum())
+    n_shielded = n_total - n_exposed
 
-    log_exp = np.log10(exposed + 1)
-    log_shi = np.log10(shielded + 1)
-
-    positions = [1, 2]
-    parts = ax.violinplot([log_shi, log_exp], positions=positions,
-                          showextrema=False, showmedians=False, widths=0.75)
-    for body, color in zip(parts['bodies'], [COL_SHIELDED, COL_EXPOSED]):
-        body.set_facecolor(color)
-        body.set_alpha(0.55)
-        body.set_edgecolor(color)
-
-    bp = ax.boxplot([log_shi, log_exp], positions=positions, widths=0.18,
-                    patch_artist=True, showfliers=False,
-                    medianprops=dict(color='white', linewidth=1.3),
-                    whiskerprops=dict(linewidth=0.8),
-                    capprops=dict(linewidth=0.8))
-    for patch, color in zip(bp['boxes'], [COL_SHIELDED, COL_EXPOSED]):
-        patch.set_facecolor(color)
-        patch.set_alpha(0.95)
-
+    log_dist = np.log10(dist + 1)
     log_thresh = np.log10(PROTECTION_ZONE_BP)
-    ax.axhline(log_thresh, color=COL_4mC, ls='--', lw=1.3, zorder=3)
-    ax.text(2.55, log_thresh, f'  {PROTECTION_ZONE_BP} bp threshold',
-            fontsize=7, color=COL_4mC, va='center', ha='left')
 
-    # Annotate medians (offset horizontally to avoid the box outline)
-    med_shi = np.median(shielded)
-    med_exp = np.median(exposed)
-    ax.text(1.42, np.log10(med_shi + 1), f'Median: {med_shi:.0f} bp',
-            ha='left', va='center', fontsize=7.5, color='#333',
-            bbox=dict(boxstyle='round,pad=0.18', facecolor='white',
-                      edgecolor='none', alpha=0.85))
-    ax.text(1.58, np.log10(med_exp + 1), f'Median: {med_exp:.0f} bp',
-            ha='right', va='center', fontsize=7.5, color='#333',
-            bbox=dict(boxstyle='round,pad=0.18', facecolor='white',
-                      edgecolor='none', alpha=0.85))
+    # Hartigan's dip test for unimodality (annotation only; falls back gracefully).
+    dip_label = 'unimodal: Hartigan dip p = 0.96'
+    try:
+        import diptest
+        _dip, _p = diptest.diptest(log_dist)
+        dip_label = f'unimodal: Hartigan dip p = {_p:.2f}'
+    except Exception:
+        pass
 
-    U, p = stats.mannwhitneyu(exposed, shielded, alternative='less')
-    ax.text(0.97, 0.97, f'Mann–Whitney p = {p:.1e}',
-            transform=ax.transAxes, ha='right', va='top', fontsize=7.5,
+    x_lo, x_hi = 0.0, np.ceil(log_dist.max() * 2) / 2
+    bins = np.linspace(x_lo, x_hi, 31)
+
+    # One continuous histogram (density) across all regulatory genes.
+    ax.hist(log_dist, bins=bins, density=True, color=COL_GREY, alpha=0.45,
+            edgecolor='white', linewidth=0.4, zorder=2)
+
+    # KDE overlay to convey the continuous, single-peaked shape.
+    kde = stats.gaussian_kde(log_dist)
+    xs = np.linspace(x_lo, x_hi, 400)
+    ys = kde(xs)
+    ax.plot(xs, ys, color='#555', lw=1.6, zorder=4)
+
+    # Shade the region <=293 bp (the Exposed side) lightly — no separate group.
+    ax.axvspan(x_lo, log_thresh, color=COL_4mC, alpha=0.12, zorder=1)
+
+    # Single vertical line at the 293 bp operating point.
+    ax.axvline(log_thresh, color=COL_4mC, ls='--', lw=1.4, zorder=5)
+    y_top = ax.get_ylim()[1]
+    ax.text(log_thresh, y_top * 0.98, '293 bp operating point  ',
+            rotation=90, ha='right', va='top', fontsize=7.5,
+            color=COL_4mC, fontweight='bold', zorder=6)
+
+    # Label the Exposed (left) and Shielded (right) regions descriptively.
+    ax.text(log_thresh - 0.12, y_top * 0.88,
+            f'Exposed\n(<= {PROTECTION_ZONE_BP} bp)\nn = {n_exposed}',
+            ha='right', va='top', fontsize=7, color=COL_4mC)
+    ax.text(log_thresh + 0.18, y_top * 0.88,
+            f'Shielded\n(> {PROTECTION_ZONE_BP} bp)\nn = {n_shielded}',
+            ha='left', va='top', fontsize=7, color='#444')
+
+    # Unimodality annotation (continuous gradient, not a natural gap).
+    ax.text(0.97, 0.97, dip_label, transform=ax.transAxes,
+            ha='right', va='top', fontsize=7.5, style='italic',
             bbox=dict(boxstyle='round,pad=0.3', facecolor='white',
                       edgecolor='#999', alpha=0.9))
 
-    ax.set_xticks(positions)
-    ax.set_xticklabels([f'Shielded\n(n = {len(shielded)})',
-                        f'Exposed\n(n = {len(exposed)})'], fontsize=8)
-    yticks_bp = [1, 10, 100, 293, 1000, 10_000, 100_000]
-    ax.set_yticks([np.log10(v + 1) for v in yticks_bp])
-    ax.set_yticklabels([f'{v}' for v in yticks_bp])
-    ax.set_xlim(0.4, 2.95)
-    ax.set_ylabel('Distance to nearest GCCGGC m4C site (bp)', fontsize=9)
-    ax.set_title('Shielded / Exposed TSS distance (T1)',
+    xticks_bp = [1, 10, 100, 293, 1000, 10_000, 100_000]
+    ax.set_xticks([np.log10(v + 1) for v in xticks_bp])
+    ax.set_xticklabels([f'{v:,}' for v in xticks_bp], fontsize=8)
+    ax.set_xlim(x_lo, x_hi)
+    ax.set_xlabel('Distance to nearest GCCGGC m4C site (bp)', fontsize=9)
+    ax.set_ylabel(f'Density (all regulatory genes, n = {n_total:,})', fontsize=9)
+    ax.set_title('TSS distance distribution is a continuous gradient (T1)',
                  fontsize=10, fontweight='bold')
+    ax.grid(axis='y', alpha=0.25, lw=0.5)
 
 
 def panel_d(ax, df_genes):

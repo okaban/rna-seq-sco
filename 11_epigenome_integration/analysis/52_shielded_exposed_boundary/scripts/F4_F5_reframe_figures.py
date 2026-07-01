@@ -37,63 +37,63 @@ E = reg[reg.Exposed]; AAGp = reg[reg.AAG]
 print(f"GCCGGC-Exposed={len(E)}  AAGCCCG-promoter={len(AAGp)}  overlap={(reg.Exposed&reg.AAG).sum()}")
 print(f"Exposed core frac={(E.region==0).mean():.2f}  AAGp core frac={(AAGp.region==0).mean():.2f}")
 
+# ---- canonical muted palette (matches Fig7/Fig9 + figure-revision-spec_260623) ----
+C_GCC = "#C26B6B"   # GCCGGC m4C system (muted red)
+C_AAG = "#9970AB"   # AAGCCCG m4C/6mA system (muted purple)
+C_ALL = "#BBBBBB"   # all regulators / background (grey)
+CORE_LO, CORE_HI = 1_500_000, 7_170_000   # chromosomal core (single canonical definition)
+
 # ============ FIGURE 4 — two-system marking ============
-fig, ax = plt.subplots(1, 3, figsize=(12, 3.8))
-# (a) core-enrichment is robust across boundary definitions (not an arbitrary cut)
-#     three independent central-region definitions, applied to the same gene sets:
-#       - Compartment A (Deng 2023 Hi-C):           2.30-6.20 Mb
-#       - chromosomal core (conserved-gene span):   1.50-7.17 Mb
-#       - geometry-only central half of replicon:   25-75% of 8.67 Mb (2.17-6.50 Mb)
-GENOME = 8_667_507
-CUTS = [("Compartment A\n(2.3-6.2 Mb)", 2_300_000, 6_200_000),
-        ("Chromosomal core\n(1.5-7.17 Mb)", 1_500_000, 7_170_000),
-        ("Central half\n(geometry only)", 0.25*GENOME, 0.75*GENOME)]
-def core_frac(df, lo, hi):
+fig, ax = plt.subplots(1, 3, figsize=(12, 4.0))
+# (a) the two systems mark POSITIONALLY DISTINCT regulator sets (core localisation + 2-gene overlap)
+def core_frac(df, lo=CORE_LO, hi=CORE_HI):
     p = df['tss'].astype(float)
     return ((p >= lo) & (p <= hi)).mean() * 100
-CLASSES = [("GCCGGC-Exposed", E, "#C26B6B"),
-           ("AAGCCCG-promoter", AAGp, "#4477AA"),
-           ("all regulators", reg, "#BBBBBB")]
-xc = np.arange(len(CUTS)); bw = 0.26
-for j, (cname, df, col) in enumerate(CLASSES):
-    vals = [core_frac(df, lo, hi) for _, lo, hi in CUTS]
-    ax[0].bar(xc + (j-1)*bw, vals, bw, color=col, label=f"{cname} (n={len(df)})")
-    for k, v in enumerate(vals):
-        ax[0].text(xc[k] + (j-1)*bw, v+1.5, f"{v:.0f}", ha="center", fontsize=7)
-ax[0].set_xticks(xc); ax[0].set_xticklabels([c[0] for c in CUTS], fontsize=8)
-ax[0].set_ylabel("% of class in central region"); ax[0].set_ylim(0, 100)
-ax[0].set_title("(a) Core-enrichment is robust to the boundary cut")
-ax[0].legend(frameon=False, fontsize=7, loc="upper right")
-# (b) TF family enrichment in Exposed vs rest (Fisher OR)
+labels = [f"GCCGGC-\nExposed\n(n={len(E)})", f"AAGCCCG-\npromoter\n(n={len(AAGp)})", f"all\nregulators\n(n={len(reg)})"]
+vals = [core_frac(E), core_frac(AAGp), core_frac(reg)]
+cols = [C_GCC, C_AAG, C_ALL]
+ax[0].bar(range(3), vals, color=cols, width=0.62)
+for k, v in enumerate(vals):
+    ax[0].text(k, v+1.5, f"{v:.0f}%", ha="center", fontsize=9)
+ax[0].set_xticks(range(3)); ax[0].set_xticklabels(labels, fontsize=8)
+ax[0].set_ylabel("% of class in chromosomal core"); ax[0].set_ylim(0, 100)
+ax[0].set_title("(a) Distinct chromosomal positioning")
+ax[0].annotate(f"overlap = {(reg.Exposed&reg.AAG).sum()}/{len(E)} genes\n(largely distinct sets)",
+               xy=(0.5, 0.93), xycoords="axes fraction", ha="center", va="top",
+               fontsize=8, style="italic", color="#333333")
+# (b) TF family enrichment in Exposed vs rest (Fisher OR) — significant = GCCGGC colour
 fams = ['MerR','LysR','LacI','TetR','Sigma factor','Sensor kinase']
 ors, ps = [], []
 for fam in fams:
     a=((reg.Exposed)&(reg.tf_family==fam)).sum(); c=((~reg.Exposed)&(reg.tf_family==fam)).sum()
     od,p=fisher_exact([[a,len(E)-a],[c,len(reg)-len(E)-c]]); ors.append(od); ps.append(p)
-cols=["#009E73" if p<0.05 else "#999999" for p in ps]
+cols=[C_GCC if p<0.05 else C_ALL for p in ps]
 ax[1].barh(range(len(fams)), ors, color=cols)
 ax[1].axvline(1, color="k", ls="--", lw=0.8)
 ax[1].set_yticks(range(len(fams))); ax[1].set_yticklabels(fams)
 for i,(o,p) in enumerate(zip(ors,ps)):
     ax[1].text(o+0.1, i, f"OR={o:.1f}{'*' if p<0.05 else ''}", va="center", fontsize=8)
+ax[1].set_xlim(0, max(ors)*1.25)
 ax[1].set_xlabel("odds ratio (Exposed vs other regulators)")
-ax[1].set_title("(b) TF family enrichment (GCCGGC-Exposed)")
+ax[1].set_title("(b) GCCGGC-Exposed: family enrichment")
 # (c) demethylation trajectory: fraction with promoter mark <=293bp at T1/T2/T3
 def near_frac(df):
     return [ (df['dT1']<=W).mean(), (df['dT2']<=W).mean(), (df['dT3']<=W).mean() ]
-ax[2].plot([1,2,3], np.array(near_frac(E))*100, '-o', color="#D55E00", label=f"GCCGGC-Exposed (n={len(E)})")
-ax[2].plot([1,2,3], np.array(near_frac(AAGp))*100, '-s', color="#CC79A7", label=f"AAGCCCG-prom (n={len(AAGp)})")
+ax[2].plot([1,2,3], np.array(near_frac(E))*100, '-o', color=C_GCC, label=f"GCCGGC-Exposed (n={len(E)})")
+ax[2].plot([1,2,3], np.array(near_frac(AAGp))*100, '-s', color=C_AAG, label=f"AAGCCCG-prom (n={len(AAGp)})")
 ax[2].set_xticks([1,2,3]); ax[2].set_xticklabels(['T1\n(12h)','T2\n(24h)','T3\n(50h)'])
 ax[2].set_ylabel("% with promoter mark (≤293 bp)"); ax[2].set_ylim(-3,103)
-ax[2].set_title("(c) Synchronous demethylation"); ax[2].legend(frameon=False, fontsize=8)
+ax[2].set_title("(c) Synchronous demethylation at T2"); ax[2].legend(frameon=False, fontsize=8)
+fig.suptitle("Two methylation systems mark largely distinct regulator classes (vegetative growth)",
+             y=1.02, fontsize=12, fontweight="bold")
 fig.tight_layout()
-fig.savefig(FIG/"Figure4_two_system_marking.pdf"); fig.savefig(FIG/"Figure4_two_system_marking.png", dpi=150); plt.close(fig)
+fig.savefig(FIG/"Figure4_two_system_marking.pdf", bbox_inches="tight"); fig.savefig(FIG/"Figure4_two_system_marking.png", dpi=150, bbox_inches="tight"); plt.close(fig)
 
 # ============ FIGURE 5 — synchronized demethylation + weak bias ============
 fig, ax = plt.subplots(1, 3, figsize=(12, 3.8))
 # (a) count of Exposed promoters still methylated at each timepoint
 cnt = [ (E['dT1']<=W).sum(), (E['dT2']<=W).sum(), (E['dT3']<=W).sum() ]
-ax[0].bar(['T1\n(12h)','T2\n(24h)','T3\n(50h)'], cnt, color=["#D55E00","#BBBBBB","#BBBBBB"])
+ax[0].bar(['T1\n(12h)','T2\n(24h)','T3\n(50h)'], cnt, color=["#C26B6B","#BBBBBB","#BBBBBB"])
 for i,c in enumerate(cnt): ax[0].text(i, c+0.8, str(int(c)), ha="center", fontsize=10)
 ax[0].set_ylabel("Exposed promoters methylated (≤293 bp)")
 ax[0].set_title(f"(a) Synchronous erasure ({len(E)}→0 at T2)")

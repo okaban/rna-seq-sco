@@ -25,6 +25,13 @@ from matplotlib.patches import Rectangle, FancyArrowPatch
 from matplotlib.lines import Line2D
 import logomaker
 
+# ── Unified colour-blind-safe palette (Okabe-Ito) ────────────────────────
+# Override shared-utils shades locally for this figure only, so that
+# 4mC / 6mA / genome are consistent across panels a, b, c.
+COL_4mC = '#C26B6B'   # muted rose — canonical (matches Fig7/Fig9 + shared_utils)
+COL_6mA = '#4477AA'   # muted blue — canonical
+COL_GRAY = '#999999'  # neutral grey (Okabe-Ito) — genome/baseline series
+
 # ── Genome landmarks ─────────────────────────────────────────────────────
 GENOME_LEN = 8_667_507
 ARM_LEFT = 1_500_000
@@ -32,8 +39,8 @@ ARM_RIGHT = 7_167_507
 ORIC_POS = 4_270_777       # dnaA (SC_RS21540)
 TIR_LEN = 21_653           # Terminal Inverted Repeat
 
-COL_CORE = '#4169E1'       # Royal blue
-COL_ARM = '#DAA520'        # Goldenrod
+COL_CORE = '#88CCEE'       # muted cyan (Tol)
+COL_ARM = '#DDCC77'        # muted sand (Tol)
 
 
 def panel_a_linear(ax):
@@ -224,19 +231,17 @@ def panel_b_site_counts(ax):
     ax.set_ylim(0, max(counts_4mc.max(), counts_6ma.max()) * 1.2)
     ax.grid(axis='y', alpha=0.3, lw=0.5)
 
-    # Unique position annotation
-    df_uniq = load_methylation_unique_positions()
-    n_4mc = len(df_uniq[df_uniq['mod_type'] == '4mC'])
-    n_6ma = len(df_uniq[df_uniq['mod_type'] == '6mA'])
-    ax.text(0.02, 0.95,
-            f'Unique positions:\n4mC: {n_4mc:,}\n6mA: {n_6ma:,}',
-            transform=ax.transAxes, fontsize=7, va='top',
-            bbox=dict(boxstyle='round,pad=0.3', facecolor='#F5F5F5',
-                      edgecolor='#BDBDBD', alpha=0.9, linewidth=0.8))
+    # E9: "Unique position" annotation removed from panel B
+    # (unique position counts reported in text/legend of figure legend instead)
 
 
-def panel_c_genomic_distribution(ax):
-    """Genomic region distribution of methylation sites."""
+def panel_c_genomic_distribution(ax, ax_inset=None):
+    """Genomic region distribution of methylation sites.
+
+    Reviewer A1 fix: CDS dominates (~80%), so non-CDS differences are
+    invisible on a linear scale. Added a zoomed inset (0-15% range)
+    that highlights Promoter / 5'UTR / Intergenic comparisons.
+    """
     df_tss = load_tss_jeong2016()
     gbk = load_reference_gbk()
     genome = load_reference_genome()
@@ -358,20 +363,78 @@ def panel_c_genomic_distribution(ax):
         bx = bar_x_map[mod_type][j]
         bar_top = results[mod_type][j] + 1.5
         color = COL_4mC if mod_type == '4mC' else COL_6mA
-        ax.text(bx, bar_top + 1.0, f'{direction}{marker}',
+        # E10: offset increased (was +1.0) to avoid overlap with numeric value labels
+        ax.text(bx, bar_top + 3.5, f'{direction}{marker}',
                 ha='center', va='bottom', fontsize=7,
                 color=color, fontweight='bold')
 
     ax.set_xticks(x)
     ax.set_xticklabels(categories, fontsize=7.5)
     ax.set_ylabel('Proportion (%)')
+    # Explicit headroom so ▲▼ markers stay inside the axes (no spill below).
+    ax.set_ylim(0, max(max(results['4mC']), max(results['6mA']),
+                       max(results['Genome'])) * 1.15)
     ax.set_title('Genomic region distribution', fontsize=11, fontweight='bold')
     ax.legend(fontsize=7.5, frameon=False, loc='upper right')
     ax.grid(axis='y', alpha=0.3, lw=0.5)
-    ax.text(0.01, -0.18,
-            '▲/▼ enriched/depleted vs genome; Bonferroni-corrected proportion test\n'
-            '(global χ² p<0.025, then per-region post-hoc); * p<0.05, ** p<0.01, *** p<0.001',
-            transform=ax.transAxes, fontsize=5.5, color='#666666', va='top')
+    # (▲/▼ significance-test explanation moved to the figure legend, 2026-06-16,
+    #  per reviewer: figures should not carry explanatory text directly.)
+
+    # Non-CDS inset REMOVED 2026-06-16 (redundant with Supplementary Fig 9 occupancy
+    #  pie charts, and it overlapped panel c). Inset code below disabled.
+    return
+    # ── Reviewer A1: Inset zoom for non-CDS categories ─────────────────────
+    if ax_inset is None:
+        from mpl_toolkits.axes_grid1.inset_locator import inset_axes
+        ax_inset = inset_axes(ax, width='38%', height='42%',
+                              bbox_to_anchor=(0.18, 0.45, 1.0, 1.0),
+                              bbox_transform=ax.transAxes,
+                              loc='upper left', borderpad=0.4)
+
+    nonCDS = [0, 1, 3]      # Promoter, 5'UTR, Intergenic indices
+    x_nc = np.arange(len(nonCDS))
+    width_nc = 0.25
+    ax_inset.bar(x_nc - width_nc, results['4mC'][nonCDS], width_nc,
+                 color=COL_4mC, alpha=0.9, edgecolor='white', linewidth=0.4)
+    ax_inset.bar(x_nc, results['6mA'][nonCDS], width_nc,
+                 color=COL_6mA, alpha=0.9, edgecolor='white', linewidth=0.4)
+    ax_inset.bar(x_nc + width_nc, results['Genome'][nonCDS], width_nc,
+                 color=COL_GRAY, alpha=0.9, edgecolor='white', linewidth=0.4)
+
+    nc_max = max(max(results['4mC'][nonCDS]),
+                 max(results['6mA'][nonCDS]),
+                 max(results['Genome'][nonCDS]))
+    ax_inset.set_ylim(0, nc_max * 1.30)
+    ax_inset.set_xticks(x_nc)
+    ax_inset.set_xticklabels(['Prom.', "5′UTR", 'Interg.'], fontsize=6)
+    ax_inset.tick_params(axis='y', labelsize=6, length=2, pad=1)
+    ax_inset.set_ylabel('%', fontsize=6, labelpad=1)
+    ax_inset.set_title('Non-CDS detail', fontsize=6.5, pad=2)
+    ax_inset.grid(axis='y', alpha=0.25, lw=0.4)
+    ax_inset.spines['top'].set_visible(False)
+    ax_inset.spines['right'].set_visible(False)
+
+    # Re-mark significance on inset for non-CDS bars
+    for (mod_type, j), (direction, marker) in sig_markers.items():
+        if j in nonCDS:
+            local_idx = nonCDS.index(j)
+            offset = -width_nc if mod_type == '4mC' else 0
+            bar_top = results[mod_type][j] + 0.6
+            color = COL_4mC if mod_type == '4mC' else COL_6mA
+            ax_inset.text(local_idx + offset, bar_top,
+                          f'{direction}{marker}',
+                          ha='center', va='bottom', fontsize=5,
+                          color=color, fontweight='bold')
+
+    # Value labels on inset bars
+    for ix, ridx in enumerate(nonCDS):
+        for off, name in zip([-width_nc, 0, width_nc],
+                             ['4mC', '6mA', 'Genome']):
+            v = results[name][ridx]
+            if v > 0:
+                ax_inset.text(ix + off, v + nc_max * 0.025,
+                              f'{v:.1f}', ha='center', va='bottom',
+                              fontsize=5, color='#444')
 
 
 def panel_d_logos(ax_top, ax_bot):
@@ -426,17 +489,19 @@ def main():
     fig = plt.figure(figsize=(mm_to_inch(180), mm_to_inch(250)))
 
     # Panel A: Linear genome (top, full width)
-    ax_a = fig.add_axes([0.12, 0.60, 0.85, 0.36])
+    ax_a = fig.add_axes([0.12, 0.62, 0.85, 0.34])
 
     # Panel B: Site counts (middle left)
-    ax_b = fig.add_axes([0.10, 0.30, 0.37, 0.23])
+    ax_b = fig.add_axes([0.10, 0.36, 0.37, 0.21])
 
     # Panel C: Genomic distribution (middle right)
-    ax_c = fig.add_axes([0.58, 0.30, 0.38, 0.23])
+    ax_c = fig.add_axes([0.58, 0.36, 0.38, 0.21])
 
-    # Panel D: Logos (bottom, two sub-axes with proper spacing)
-    ax_d1 = fig.add_axes([0.10, 0.15, 0.85, 0.08])
-    ax_d2 = fig.add_axes([0.10, 0.03, 0.85, 0.08])
+    # Panel D: Logos (bottom, two sub-axes).
+    # Extra vertical gap below panel B/C (0.36 → 0.205) keeps panel C's
+    # x-tick labels and ▲▼ markers clear of panel D's title / "d" label.
+    ax_d1 = fig.add_axes([0.10, 0.125, 0.85, 0.08])
+    ax_d2 = fig.add_axes([0.10, 0.015, 0.85, 0.08])
 
     print('Panel A: Linear genome ideogram...')
     panel_a_linear(ax_a)
@@ -454,9 +519,9 @@ def main():
     panel_d_logos(ax_d1, ax_d2)
     add_panel_label(ax_d1, 'd', x=-0.06, y=1.25)
 
-    # Save
+    # Save (PNG added for manuscript slot / proofing alongside PDF+SVG)
     out_path = FIG_DIR / 'new_Figure1_methylation_landscape'
-    save_figure(fig, out_path)
+    save_figure(fig, out_path, formats=('pdf', 'svg', 'png'))
 
     print('\n=== New Figure 1 complete ===')
 

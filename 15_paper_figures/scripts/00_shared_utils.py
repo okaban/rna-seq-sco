@@ -16,18 +16,31 @@ import matplotlib.pyplot as plt
 from Bio import SeqIO
 
 # ── Base paths ──────────────────────────────────────────────────────────────
-BASE = Path('/Users/okaban/bioinfo/rna-seq')
+# Session-agnostic resolution: prefer first existing path
+def _resolve_base():
+    import os
+    candidates = [
+        '/sessions/busy-eloquent-bell/mnt/rna-seq',
+        '/sessions/zen-modest-davinci/mnt/rna-seq',
+    ]
+    for c in candidates:
+        if os.path.isdir(c):
+            return Path(c)
+    # fallback: use the directory two levels above this file (scripts/ → 15_paper_figures/ → rna-seq/)
+    return Path(__file__).resolve().parents[2]
+
+BASE = _resolve_base()
 EPIGENOME = BASE / '11_epigenome_integration' / 'analysis'
-METHYL = Path('/Users/okaban/bioinfo/methyl/260102_M145')
+METHYL = BASE
 FIG_DIR = BASE / '15_paper_figures' / 'figures' / 'main'
 FIG_SUP_DIR = BASE / '15_paper_figures' / 'figures' / 'supplementary'
 TABLE_SUP_DIR = BASE / '15_paper_figures' / 'tables' / 'supplementary'
 
 # ── Colors ──────────────────────────────────────────────────────────────────
-COL_4mC = '#E53935'
-COL_6mA = '#1565C0'
+COL_4mC = '#C26B6B'  # muted rose (Tol-like)
+COL_6mA = '#4477AA'  # muted blue (Tol)
 COL_BOTH = '#7E57C2'
-COL_GRAY = '#B0BEC5'
+COL_GRAY = '#BBBBBB'  # neutral grey
 COL_DARK = '#37474F'
 COL_GREEN = '#43A047'
 COL_ORANGE = '#FB8C00'

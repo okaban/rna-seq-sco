@@ -5,7 +5,7 @@ New Figure 2: Gatekeeper Model Overview
 
 (A) Chromosome ideogram: GCCGGC vs AAGCCCG geographic redistribution (T1→T2→T3)
 (B) Methylation density around TSS (visual trend; regulatory vs non-regulatory n.s.)
-(C) Shielded/Exposed distance distribution (52bp ROC threshold, AUC=0.923; n=449 Jeong2016 TSS)
+(C) Shielded/Exposed distance distribution (293bp ROC threshold, AUC=0.917; n=1055 full TF dataset)
 (D) 15 exposed TF expression heatmap (activation vs repression blocs)
 """
 
@@ -222,7 +222,7 @@ def panel_b(ax, df_spatial):
 
 
 def panel_c(ax, df_genes):
-    """Panel C: Shielded vs Exposed distance distribution — violin + box."""
+    """Panel C: Shielded vs Exposed distance distribution — violin + box (full TF dataset, 293bp ROC threshold, AUC=0.917)."""
     exposed = df_genes[df_genes['is_exposed'] == 1]['nearest_methyl_distance'].values
     shielded = df_genes[df_genes['is_exposed'] == 0]['nearest_methyl_distance'].values
 
@@ -246,16 +246,16 @@ def panel_c(ax, df_genes):
         patch.set_facecolor([COL_EXPOSED, COL_SHIELDED][i])
         patch.set_alpha(0.8)
 
-    # 52bp boundary (Youden threshold from Jeong2016-TSS ROC analysis)
-    log_boundary = np.log10(52)
+    # 293bp boundary (Youden threshold from full TF dataset ROC analysis, AUC=0.917)
+    log_boundary = np.log10(293)
     ax.axhline(log_boundary, color=COL_4mC, linewidth=1.5, linestyle='--', zorder=3)
-    ax.text(2.65, log_boundary + 0.08, '52 bp\n(ROC optimal)',
+    ax.text(2.65, log_boundary + 0.08, '293 bp\n(ROC optimal)',
             fontsize=6.5, color=COL_4mC, fontweight='bold', va='bottom')
 
     # Statistics
     U, p = stats.mannwhitneyu(exposed, shielded, alternative='less')
     ax.text(0.50, 0.97,
-            f'Mann-Whitney p = {p:.1e}\nROC AUC = 0.923\nYouden\'s J threshold',
+            f'Mann-Whitney p = {p:.1e}\nROC AUC = 0.917\nYouden\'s J threshold',
             transform=ax.transAxes, ha='center', va='top', fontsize=6.5,
             bbox=dict(boxstyle='round,pad=0.3', facecolor='white',
                       edgecolor='#999', alpha=0.9))
@@ -264,10 +264,10 @@ def panel_c(ax, df_genes):
     ax.set_xticklabels([f'Exposed\n(n = {len(exposed)})',
                         f'Shielded\n(n = {len(shielded)})'], fontsize=8)
 
-    yticks_bp = [1, 10, 52, 100, 1000, 10000, 100000]
+    yticks_bp = [1, 10, 100, 293, 1000, 10000, 100000]
     yticks_log = [np.log10(v) for v in yticks_bp]
     ax.set_yticks(yticks_log)
-    ax.set_yticklabels([str(v) if v != 52 else '' for v in yticks_bp])
+    ax.set_yticklabels([str(v) if v != 293 else '' for v in yticks_bp])
     ax.set_ylabel('Nearest methylation\ndistance (bp)', fontsize=9)
     ax.set_title('Shielded / Exposed dichotomy', fontsize=10, fontweight='bold')
 
@@ -282,7 +282,7 @@ def panel_d(ax, df_genes):
 
     # Colors
     col_shielded = '#999999'
-    col_exposed = '#E74C3C'
+    col_exposed = COL_EXPOSED  # purple #7E57C2 — unified with shared_utils
 
     # Positions: T2vsT1 at x=0,1; T3vsT1 at x=3,4
     comparisons = [
@@ -406,7 +406,12 @@ def main():
     _, df_gccggc = load_geographic_redistribution()
     df_aagcccg = _load_aagcccg_sites()
     df_spatial = load_spatial_profile()
-    df_genes = load_all_genes_features()
+    # Load full TF dataset (1,055 genes, 57 Exposed, 998 Shielded; 293bp ROC threshold)
+    _full_path = (BASE /
+                  '11_epigenome_integration/analysis/52_shielded_exposed_boundary/tables' /
+                  'all_genes_features_unified_n57.tsv')
+    df_genes = pd.read_csv(_full_path, sep='\t')
+    print(f'  Full TF dataset: {len(df_genes)} genes ({df_genes["is_exposed"].sum()} exposed)')
 
 
     # Layout: 2×2 with panel A full-width top
@@ -438,7 +443,7 @@ def main():
     add_panel_label(ax_d, 'd', x=-0.05, y=1.08)
 
     # Save
-    out_path = FIG_DIR / 'new_Figure2_gatekeeper_overview'
+    out_path = FIG_DIR / 'Figure1_overview'
     save_figure(fig, out_path)
     print()
     print('=== Done ===')

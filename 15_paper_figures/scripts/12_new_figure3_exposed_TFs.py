@@ -59,7 +59,7 @@ def panel_a(ax, df_coexpr, df_temporal):
 
     ax.set_xticks([])
     ax.set_yticks([])
-    ax.set_title('Co-expression matrix\n(62 exposed TFs)', fontsize=9, fontweight='bold')
+    ax.set_title('Co-expression matrix\n(57 exposed TFs)', fontsize=9, fontweight='bold')
 
     cbar = plt.colorbar(im, ax=ax, shrink=0.7, pad=0.03, aspect=15)
     cbar.set_label('Spearman $\\rho$', fontsize=7)
@@ -428,7 +428,7 @@ def panel_e(ax, df_tcs, df_all_genes=None):
 
 def main():
     apply_style()
-    print('=== New Figure 3: 62 Exposed TFs ===')
+    print('=== Figure 5: 57 Exposed TFs (n=57 update) ===')
     print()
 
     # Load data
@@ -438,7 +438,10 @@ def main():
     df_bloc = load_bloc_comparison()
     df_family = load_bloc_family_enrichment()
     df_tcs = load_tcs_pairs()
-    df_all_genes = load_all_genes_features()
+    # Use the unified n=57 gene set (1,055 regulatory genes)
+    df_all_genes = pd.read_csv(
+        EPIGENOME / '52_shielded_exposed_boundary' / 'tables' /
+        'all_genes_features_unified_n57.tsv', sep='\t')
 
     # Create figure: 180mm × 210mm
     fig = plt.figure(figsize=(mm_to_inch(180), mm_to_inch(210)))
@@ -477,7 +480,7 @@ def main():
     add_panel_label(ax_e, 'e', x=-0.06, y=1.08)
 
     # Save
-    out_path = FIG_DIR / 'new_Figure3_exposed_TFs'
+    out_path = FIG_DIR / 'Figure5_exposed_TFs'
     save_figure(fig, out_path)
     print()
     print('=== Done ===')
