@@ -13,14 +13,20 @@ plt.rcParams.update({"font.size": 11, "axes.spines.top": False, "axes.spines.rig
 bins = pd.read_csv(D/"tables/fire_methyl_bins.tsv", sep="\t")
 reg = pd.read_csv(D/"tables/regulatory_FIRE_at_TSS.tsv", sep="\t")
 
-# ---- Fig 1: genome-wide FIRE_M vs methylation, core/arm (muted palette + trend + R2) ----
+# ---- Fig 1: genome-wide FIRE_M vs methylation, core/arm ----
+# Standard scatter: one point per 5-kb window. Core vs arm shown by colour only
+# (Okabe-Ito colourblind-safe palette); no positional/spatial framing. The
+# methylation count is a small integer, so a tiny vertical jitter is added for
+# display only to unstack the discrete bands (data/statistics are unchanged).
 import numpy as np
+rng = np.random.default_rng(0)
 fig, ax = plt.subplots(figsize=(5.4, 4.3))
-for cv, col, lab in [(1, "#C26B6B", "core (2.3-6.2 Mb)"), (0, "#4477AA", "arm")]:
+for cv, col, lab in [(1, "#D55E00", "chromosomal core"), (0, "#0072B2", "chromosomal arm")]:
     s = bins[bins.core == cv]
-    ax.scatter(s.FIRE_M, s.m_n_T1, s=12, alpha=0.40, c=col, label=lab, edgecolors="none")
+    yj = s.m_n_T1.values + rng.uniform(-0.18, 0.18, size=len(s))  # display jitter only
+    ax.scatter(s.FIRE_M, yj, s=14, alpha=0.45, c=col, label=lab, edgecolors="none", zorder=2)
 rho, p = spearmanr(bins.FIRE_M, bins.m_n_T1)
-# linear fit + R^2 (Pearson) drawn in-figure
+# linear fit + R^2 (Pearson) drawn on the true (unjittered) data
 xv = bins.FIRE_M.values; yv = bins.m_n_T1.values
 b1, b0 = np.polyfit(xv, yv, 1); xr = np.linspace(xv.min(), xv.max(), 50)
 r2 = np.corrcoef(xv, yv)[0, 1] ** 2
@@ -28,7 +34,9 @@ ax.plot(xr, b0 + b1*xr, color="#333333", lw=1.8, zorder=4, label="linear fit")
 ax.text(0.97, 0.95, f"$R^2$ = {r2:.2f}\nSpearman ρ = {rho:.2f}\n(block-perm p = 0.008)",
         transform=ax.transAxes, ha="right", va="top", fontsize=9,
         bbox=dict(boxstyle="round,pad=0.3", fc="white", ec="#aaa", alpha=0.85))
-ax.set_xlabel("FIRE value (M-phase, Deng 2023)"); ax.set_ylabel("GCCGGC m4C sites per 5 kb bin (T1)")
+ax.set_xlabel("FIRE value (M-phase, Deng 2023; a.u.)")
+ax.set_ylabel("GCCGGC m4C sites per 5-kb window (T1)")
+ax.set_yticks([0, 1, 2, 3, 4, 5])
 ax.set_title("Vegetative methylation tracks\nthe 3D interaction signal (FIRE)", fontsize=10.5)
 ax.legend(frameon=False, fontsize=8, loc="upper left")
 fig.tight_layout(); fig.savefig(FIG/"fig1_genomewide_FIRE_vs_methylation.pdf"); fig.savefig(FIG/"fig1_genomewide_FIRE_vs_methylation.png", dpi=150); plt.close(fig)

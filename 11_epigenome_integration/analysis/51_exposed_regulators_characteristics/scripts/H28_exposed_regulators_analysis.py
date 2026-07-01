@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-H28: Biological Characteristics of 62 Exposed Regulators
+H28: Biological Characteristics of 57 Exposed Regulators
 =========================================================
-Comprehensive analysis of why 62 regulatory genes lack the 1,200 bp protection zone
-that shields the other 993 regulators from methylation influence.
+Comprehensive analysis of why 57 regulatory genes lack the 1,200 bp protection zone
+that shields the other 998 regulators from methylation influence.
 
 Core hypothesis: Exposed regulators have low T1 expression (RNAP not occupying promoter).
 """
@@ -104,7 +104,7 @@ def compare_groups(exp_vals, shi_vals, label):
 # 1. Load Data
 # ============================================================
 print("=" * 70)
-print("H28: Biological Characteristics of 62 Exposed Regulators")
+print("H28: Biological Characteristics of 57 Exposed Regulators")
 print("=" * 70)
 
 coord = pd.read_csv(COORD_REG, sep='\t')
@@ -197,21 +197,21 @@ fisher_results = []
 for fam in all_families:
     n_exp_fam = family_exposed.get(fam, 0)
     n_shi_fam = family_shielded.get(fam, 0)
-    n_exp_other = 62 - n_exp_fam
-    n_shi_other = 993 - n_shi_fam
+    n_exp_other = 57 - n_exp_fam
+    n_shi_other = 998 - n_shi_fam
     table_2x2 = [[n_exp_fam, n_shi_fam], [n_exp_other, n_shi_other]]
     odds, pval = fisher_exact(table_2x2)
     fisher_results.append({
         'tf_family': fam, 'n_exposed': int(n_exp_fam), 'n_shielded': int(n_shi_fam),
         'n_total': int(n_exp_fam + n_shi_fam),
         'pct_exposed': n_exp_fam / (n_exp_fam + n_shi_fam) * 100 if (n_exp_fam + n_shi_fam) > 0 else 0,
-        'expected_pct': 62 / 1055 * 100,
+        'expected_pct': 57 / 1055 * 100,
         'odds_ratio': odds, 'fisher_p': pval,
         'enrichment': 'enriched' if odds > 1 else 'depleted' if odds < 1 else 'neutral'
     })
 
 fisher_df = pd.DataFrame(fisher_results).sort_values('fisher_p')
-print(f"\nExpected exposed %: {62/1055*100:.1f}%")
+print(f"\nExpected exposed %: {57/1055*100:.1f}%")
 print(fisher_df[['tf_family', 'n_exposed', 'n_total', 'pct_exposed', 'odds_ratio', 'fisher_p', 'enrichment']].to_string(index=False))
 
 fisher_df.to_csv(f'{TAB_DIR}/TF_family_distribution.tsv', sep='\t', index=False)
@@ -305,12 +305,12 @@ n_shi_core = shi_region.get('core', 0)
 geo_table = [[n_exp_arm, n_exp_core], [n_shi_arm, n_shi_core]]
 geo_or, geo_p = fisher_exact(geo_table)
 
-print(f"\nExposed: {n_exp_arm} arm ({n_exp_arm/62*100:.1f}%), {n_exp_core} core ({n_exp_core/62*100:.1f}%)")
-print(f"Shielded: {n_shi_arm} arm ({n_shi_arm/993*100:.1f}%), {n_shi_core} core ({n_shi_core/993*100:.1f}%)")
+print(f"\nExposed: {n_exp_arm} arm ({n_exp_arm/57*100:.1f}%), {n_exp_core} core ({n_exp_core/57*100:.1f}%)")
+print(f"Shielded: {n_shi_arm} arm ({n_shi_arm/998*100:.1f}%), {n_shi_core} core ({n_shi_core/998*100:.1f}%)")
 print(f"Fisher OR={geo_or:.2f}, p={geo_p:.3f}")
 
-all_stats.append({'feature': 'geographic (arm%)', 'exposed_n': 62, 'exposed_median': n_exp_arm / 62 * 100,
-                  'exposed_mean': np.nan, 'shielded_n': 993, 'shielded_median': n_shi_arm / 993 * 100,
+all_stats.append({'feature': 'geographic (arm%)', 'exposed_n': 57, 'exposed_median': n_exp_arm / 57 * 100,
+                  'exposed_mean': np.nan, 'shielded_n': 998, 'shielded_median': n_shi_arm / 998 * 100,
                   'shielded_mean': np.nan, 'U': geo_or, 'p_value': geo_p, 'effect_size_r': np.nan,
                   'test': 'Fisher', 'direction': f'OR={geo_or:.2f}', 'significant': sig_stars(geo_p)})
 
@@ -358,19 +358,19 @@ master['operon_size'] = master['locus_tag'].map(gene_operon_size)
 master['is_monocistronic'] = master['operon_size'] == 1
 
 n_exp_mono = master.loc[master['is_exposed'], 'is_monocistronic'].sum()
-n_exp_poly = 62 - n_exp_mono
+n_exp_poly = 57 - n_exp_mono
 n_shi_mono = master.loc[~master['is_exposed'], 'is_monocistronic'].sum()
-n_shi_poly = 993 - n_shi_mono
+n_shi_poly = 998 - n_shi_mono
 
 operon_tab = [[n_exp_mono, n_exp_poly], [n_shi_mono, n_shi_poly]]
 operon_or, operon_p = fisher_exact(operon_tab)
 
-print(f"\nExposed: {n_exp_mono} monocistronic ({n_exp_mono/62*100:.1f}%), {n_exp_poly} polycistronic ({n_exp_poly/62*100:.1f}%)")
-print(f"Shielded: {n_shi_mono} monocistronic ({n_shi_mono/993*100:.1f}%), {n_shi_poly} polycistronic ({n_shi_poly/993*100:.1f}%)")
+print(f"\nExposed: {n_exp_mono} monocistronic ({n_exp_mono/57*100:.1f}%), {n_exp_poly} polycistronic ({n_exp_poly/57*100:.1f}%)")
+print(f"Shielded: {n_shi_mono} monocistronic ({n_shi_mono/998*100:.1f}%), {n_shi_poly} polycistronic ({n_shi_poly/998*100:.1f}%)")
 print(f"Fisher OR={operon_or:.2f}, p={operon_p:.3f}")
 
-all_stats.append({'feature': 'monocistronic (%)', 'exposed_n': 62, 'exposed_median': n_exp_mono / 62 * 100,
-                  'exposed_mean': np.nan, 'shielded_n': 993, 'shielded_median': n_shi_mono / 993 * 100,
+all_stats.append({'feature': 'monocistronic (%)', 'exposed_n': 57, 'exposed_median': n_exp_mono / 57 * 100,
+                  'exposed_mean': np.nan, 'shielded_n': 998, 'shielded_median': n_shi_mono / 998 * 100,
                   'shielded_mean': np.nan, 'U': operon_or, 'p_value': operon_p, 'effect_size_r': np.nan,
                   'test': 'Fisher', 'direction': f'OR={operon_or:.2f}', 'significant': sig_stars(operon_p)})
 
@@ -428,15 +428,15 @@ pattern_order = ['constitutive', 'T2_up', 'T3_up', 'T2T3_up', 'T2_down', 'T3_dow
 temp_table = pd.DataFrame(index=pattern_order)
 temp_table['n_exposed'] = exp_temp.reindex(pattern_order, fill_value=0)
 temp_table['n_shielded'] = shi_temp.reindex(pattern_order, fill_value=0)
-temp_table['pct_exposed'] = (temp_table['n_exposed'] / 62 * 100).round(1)
-temp_table['pct_shielded'] = (temp_table['n_shielded'] / 993 * 100).round(1)
+temp_table['pct_exposed'] = (temp_table['n_exposed'] / 57 * 100).round(1)
+temp_table['pct_shielded'] = (temp_table['n_shielded'] / 998 * 100).round(1)
 
 n_exp_const = temp_table.loc['constitutive', 'n_exposed']
 n_exp_nodata = temp_table.loc['no_data', 'n_exposed'] if 'no_data' in temp_table.index else 0
-n_exp_dynamic = 62 - n_exp_const - n_exp_nodata
+n_exp_dynamic = 57 - n_exp_const - n_exp_nodata
 n_shi_const = temp_table.loc['constitutive', 'n_shielded']
 n_shi_nodata = temp_table.loc['no_data', 'n_shielded'] if 'no_data' in temp_table.index else 0
-n_shi_dynamic = 993 - n_shi_const - n_shi_nodata
+n_shi_dynamic = 998 - n_shi_const - n_shi_nodata
 
 const_table = [[n_exp_dynamic, n_exp_const], [n_shi_dynamic, n_shi_const]]
 const_or, const_p = fisher_exact(const_table)
@@ -444,8 +444,8 @@ const_or, const_p = fisher_exact(const_table)
 print(f"\nTemporal expression patterns:")
 print(temp_table.to_string())
 
-denom_exp = 62 - n_exp_nodata
-denom_shi = 993 - n_shi_nodata
+denom_exp = 57 - n_exp_nodata
+denom_shi = 998 - n_shi_nodata
 print(f"\nConstitutive vs Dynamic (excluding no_data):")
 print(f"  Exposed: {n_exp_dynamic} dynamic ({n_exp_dynamic/denom_exp*100:.1f}%), {n_exp_const} constitutive ({n_exp_const/denom_exp*100:.1f}%)")
 print(f"  Shielded: {n_shi_dynamic} dynamic ({n_shi_dynamic/denom_shi*100:.1f}%), {n_shi_const} constitutive ({n_shi_const/denom_shi*100:.1f}%)")
@@ -475,7 +475,7 @@ stats_df.to_csv(f'{TAB_DIR}/feature_comparison_statistics.tsv', sep='\t', index=
 print("\n" + stats_df[['feature', 'exposed_median', 'shielded_median', 'p_value', 'effect_size_r', 'significant']].to_string(index=False))
 
 # ============================================================
-# Save Full Table of 62 Exposed Regulators
+# Save Full Table of 57 Exposed Regulators
 # ============================================================
 exposed_full = master[master['is_exposed']].copy()
 save_cols = ['locus_tag', 'gene_name', 'old_locus_tag', 'product', 'tf_family',
@@ -558,7 +558,7 @@ p_t1 = stats_df.loc[stats_df['feature'] == 'T1_expression', 'p_value'].values[0]
 p_abs2 = stats_df.loc[stats_df['feature'] == '|log2FC_T2vsT1|', 'p_value'].values[0]
 p_abs3 = stats_df.loc[stats_df['feature'] == '|log2FC_T3vsT1|', 'p_value'].values[0]
 
-labels = ['Exposed\n(n=62)', 'Shielded\n(n=993)']
+labels = ['Exposed\n(n=57)', 'Shielded\n(n=998)']
 
 # Panel A: Expression comparison
 fig, axes = plt.subplots(1, 4, figsize=(16, 5))
@@ -579,18 +579,18 @@ family_plot = fisher_df.sort_values('n_total', ascending=True)
 y_pos = np.arange(len(family_plot))
 bar_h = 0.35
 ax1.barh(y_pos - bar_h / 2, family_plot['n_exposed'], bar_h,
-         color=COLOR_EXPOSED, label='Exposed (62)', edgecolor='white')
-ax1.barh(y_pos + bar_h / 2, family_plot['n_shielded'] / 993 * 62, bar_h,
-         color=COLOR_SHIELDED, alpha=0.5, label='Shielded (scaled to n=62)', edgecolor='white')
+         color=COLOR_EXPOSED, label='Exposed (57)', edgecolor='white')
+ax1.barh(y_pos + bar_h / 2, family_plot['n_shielded'] / 998 * 57, bar_h,
+         color=COLOR_SHIELDED, alpha=0.5, label='Shielded (scaled to n=57)', edgecolor='white')
 ax1.set_yticks(y_pos)
 ax1.set_yticklabels(family_plot['tf_family'], fontsize=9)
-ax1.set_xlabel('Count (shielded scaled to n=62)')
+ax1.set_xlabel('Count (shielded scaled to n=57)')
 ax1.set_title('TF Family Counts', fontweight='bold')
 ax1.legend(fontsize=8, loc='lower right')
 
 colors_bar = [COLOR_EXPOSED if r > 1 else COLOR_SHIELDED for r in family_plot['odds_ratio']]
 ax2.barh(y_pos, family_plot['pct_exposed'], color=colors_bar, edgecolor='white')
-ax2.axvline(62 / 1055 * 100, color='black', linestyle='--', linewidth=1, label=f'Expected ({62/1055*100:.1f}%)')
+ax2.axvline(57 / 1055 * 100, color='black', linestyle='--', linewidth=1, label=f'Expected ({57/1055*100:.1f}%)')
 ax2.set_yticks(y_pos)
 ax2.set_yticklabels(family_plot['tf_family'], fontsize=9)
 ax2.set_xlabel('% Exposed (of family total)')
@@ -636,9 +636,9 @@ plt.close()
 fig, ax = plt.subplots(figsize=(14, 4))
 shi_pos = master[~master['is_exposed']]['midpoint']
 exp_pos = master[master['is_exposed']]['midpoint']
-ax.scatter(shi_pos / 1e6, np.zeros(len(shi_pos)), c=COLOR_SHIELDED, alpha=0.3, s=8, label='Shielded (993)')
+ax.scatter(shi_pos / 1e6, np.zeros(len(shi_pos)), c=COLOR_SHIELDED, alpha=0.3, s=8, label='Shielded (998)')
 ax.scatter(exp_pos / 1e6, np.ones(len(exp_pos)) * 0.5, c=COLOR_EXPOSED, s=30, zorder=5,
-           label='Exposed (62)', edgecolors='black', linewidth=0.5)
+           label='Exposed (57)', edgecolors='black', linewidth=0.5)
 ax.axvline(ARM_LEFT_END / 1e6, color='gray', linestyle='--', alpha=0.5)
 ax.axvline(ARM_RIGHT_START / 1e6, color='gray', linestyle='--', alpha=0.5)
 ax.fill_betweenx([-0.5, 1.2], 0, ARM_LEFT_END / 1e6, color='lightyellow', alpha=0.3)
@@ -651,7 +651,7 @@ ax.set_ylim(-0.5, 1.3)
 ax.set_xlabel('Chromosome Position (Mb)')
 ax.set_yticks([0, 0.5])
 ax.set_yticklabels(['Shielded', 'Exposed'])
-ax.set_title('H28: Chromosome Map - 62 Exposed Regulators', fontweight='bold')
+ax.set_title('H28: Chromosome Map - 57 Exposed Regulators', fontweight='bold')
 ax.legend(loc='upper right', fontsize=9)
 plt.tight_layout()
 fig.savefig(f'{FIG_DIR}/chromosome_map.pdf')
@@ -666,9 +666,9 @@ plot_data = master[has_data]
 shi_p = plot_data[~plot_data['is_exposed']]
 exp_p = plot_data[plot_data['is_exposed']]
 ax.scatter(shi_p['nearest_methyl_dist'], shi_p['baseMean'],
-           c=COLOR_SHIELDED, alpha=0.3, s=15, label='Shielded (993)', zorder=2)
+           c=COLOR_SHIELDED, alpha=0.3, s=15, label='Shielded (998)', zorder=2)
 ax.scatter(exp_p['nearest_methyl_dist'], exp_p['baseMean'],
-           c=COLOR_EXPOSED, s=40, zorder=5, label='Exposed (62)', edgecolors='black', linewidth=0.5)
+           c=COLOR_EXPOSED, s=40, zorder=5, label='Exposed (57)', edgecolors='black', linewidth=0.5)
 
 exp_nmd_med = master.loc[master['is_exposed'], 'nearest_methyl_dist'].dropna().median()
 shi_nmd_med = master.loc[~master['is_exposed'], 'nearest_methyl_dist'].dropna().median()
@@ -692,15 +692,15 @@ fig = plt.figure(figsize=(20, 16))
 gs = gridspec.GridSpec(3, 3, figure=fig, hspace=0.35, wspace=0.3)
 
 ax_a = fig.add_subplot(gs[0, 0])
-make_violin_box(ax_a, [exp_t1v, shi_t1v], ['Exposed (62)', 'Shielded (993)'],
+make_violin_box(ax_a, [exp_t1v, shi_t1v], ['Exposed (57)', 'Shielded (998)'],
                 'A. T1 Expression (Core Prediction)', 'T1 Normalized Counts', p_t1)
 
 ax_b = fig.add_subplot(gs[0, 1])
-make_violin_box(ax_b, [exp_bm, shi_bm], ['Exposed (62)', 'Shielded (993)'],
+make_violin_box(ax_b, [exp_bm, shi_bm], ['Exposed (57)', 'Shielded (998)'],
                 'B. baseMean (Overall Expression)', 'baseMean', p_bm)
 
 ax_c = fig.add_subplot(gs[0, 2])
-make_violin_box(ax_c, [exp_abs2, shi_abs2], ['Exposed (62)', 'Shielded (993)'],
+make_violin_box(ax_c, [exp_abs2, shi_abs2], ['Exposed (57)', 'Shielded (998)'],
                 'C. |log2FC| T2vsT1 (Change Magnitude)', '|log2FC|', p_abs2)
 
 # D: scatter
@@ -723,7 +723,7 @@ top_fam = fisher_df.nlargest(10, 'n_total')
 y_e = np.arange(len(top_fam))
 colors_e = [COLOR_EXPOSED if r > 1 else COLOR_SHIELDED for r in top_fam['odds_ratio']]
 ax_e.barh(y_e, top_fam['pct_exposed'], color=colors_e, edgecolor='white')
-ax_e.axvline(62 / 1055 * 100, color='black', linestyle='--', linewidth=1)
+ax_e.axvline(57 / 1055 * 100, color='black', linestyle='--', linewidth=1)
 ax_e.set_yticks(y_e)
 ax_e.set_yticklabels(top_fam['tf_family'], fontsize=8)
 ax_e.set_xlabel('% Exposed')
@@ -746,7 +746,7 @@ ax_f.set_yticklabels(['Shielded', 'Exposed'])
 ax_f.set_title('F. Chromosome Map', fontweight='bold')
 ax_f.legend(fontsize=8, loc='upper right')
 
-fig.suptitle('H28: Comprehensive Characterization of 62 Exposed Regulators',
+fig.suptitle('H28: Comprehensive Characterization of 57 Exposed Regulators',
              fontweight='bold', fontsize=14, y=1.01)
 fig.savefig(f'{FIG_DIR}/H28_comprehensive_summary.pdf')
 fig.savefig(f'{FIG_DIR}/H28_comprehensive_summary.svg')

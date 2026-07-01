@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-H36: Evolutionary Conservation Analysis of 62 Exposed Transcription Factors
+H36: Evolutionary Conservation Analysis of 57 Exposed Transcription Factors
 ============================================================================
 
-Compares evolutionary conservation proxies between 62 "exposed" regulators
-(lacking methylation protection zones) and 993 "shielded" regulators in
+Compares evolutionary conservation proxies between 57 "exposed" regulators
+(lacking methylation protection zones) and 998 "shielded" regulators in
 Streptomyces coelicolor A3(2) M145.
 
 Approaches:
@@ -1163,7 +1163,7 @@ print("\n--- Figure 6: Comprehensive summary ---")
 
 fig = plt.figure(figsize=(24, 18))
 gs = GridSpec(3, 4, figure=fig, hspace=0.35, wspace=0.3)
-fig.suptitle('H36: Evolutionary Conservation of 62 Exposed Transcription Factors\n'
+fig.suptitle('H36: Evolutionary Conservation of 57 Exposed Transcription Factors\n'
              'Comprehensive Analysis Summary', fontsize=15, fontweight='bold', y=0.99)
 
 # Panel A: Gene length
@@ -1340,7 +1340,7 @@ summary_lines = [
     "L. SUMMARY OF FINDINGS",
     "",
     f"Regulatory genes: 1,017",
-    f"  Exposed: 62 | Shielded: 955",
+    f"  Exposed: 57 | Shielded: 955",
     "",
     f"Significant tests: {len(sig_tests)}/{len(stat_df)}",
     "",

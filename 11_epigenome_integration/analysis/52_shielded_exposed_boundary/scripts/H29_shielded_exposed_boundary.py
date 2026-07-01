@@ -59,7 +59,7 @@ glm = pd.read_csv(
 )
 print(f"\nGene-level metrics: {len(glm)} genes, columns: {list(glm.columns)}")
 
-# 62 coordinated regulators
+# 57 coordinated regulators
 coord = pd.read_csv(
     BASE / '11_epigenome_integration/analysis/29_genomewide_TF_screen/tables/coordinated_regulatory_genes.tsv',
     sep='\t'

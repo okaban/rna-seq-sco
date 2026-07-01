@@ -2,7 +2,7 @@
 """
 H32: Exposed Regulatory Module Analysis
 ========================================
-Tests whether the 62 "exposed" transcription factors in S. coelicolor M145
+Tests whether the 57 "exposed" transcription factors in S. coelicolor M145
 form an interconnected self-regulatory methylation-responsive module, or are
 independently scattered across the genome.
 
@@ -136,7 +136,7 @@ exp_mean_nn = np.mean(exp_nn_dists)
 print(f"Exposed TFs: median NN distance = {exp_median_nn:,.0f} bp")
 print(f"Exposed TFs: mean NN distance = {exp_mean_nn:,.0f} bp")
 
-# Permutation test: sample 62 from all 1,055 regulatory genes
+# Permutation test: sample 57 from all 1,055 regulatory genes
 all_reg_positions = all_genes['midpoint'].values
 n_perm = 1000
 n_exposed = len(exposed)
@@ -270,7 +270,7 @@ def pairwise_spearman(df):
     return pd.DataFrame(corr_mat, index=genes, columns=genes), pd.DataFrame(pval_mat, index=genes, columns=genes)
 
 corr_exp, pval_exp = pairwise_spearman(expr_exposed)
-print(f"\nExposed 62x62 correlation matrix computed")
+print(f"\nExposed 57x57 correlation matrix computed")
 
 # Compare correlation distributions: exposed-exposed, exposed-shielded, shielded-shielded
 # Extract upper triangle values for exposed-exposed
@@ -568,7 +568,7 @@ for _, row in tcs_pairs.iterrows():
         'rr_coordination_T2': row['rr_coordination_T2'],
         'rr_coordination_T3': row['rr_coordination_T3'],
         'distance_bp': row['distance_bp'],
-        'both_in_62_H8': row['both_in_62']
+        'both_in_57_H8': row['both_in_57']
     })
 
 tcs_df = pd.DataFrame(tcs_analysis_rows)
@@ -633,7 +633,7 @@ print(f"Exposed-exposed operonic pairs (same strand, <150bp): {len(operon_pairs)
 for pair in operon_pairs:
     print(f"  {pair['gene1_old']} ({pair['gene1_family']}) - {pair['gene2_old']} ({pair['gene2_family']}), intergenic={pair['intergenic_dist']}bp, strand={pair['strand']}")
 
-# Permutation test: how many operonic pairs expected by random sampling 62 from all_genes?
+# Permutation test: how many operonic pairs expected by random sampling 57 from all_genes?
 n_perm_operon = 1000
 all_genes_sorted = all_genes.sort_values('start').reset_index(drop=True)
 
@@ -915,7 +915,7 @@ ax.set_xlim(-100000, CHROM_LEN + 100000)
 ax.set_ylim(-0.6, 0.8)
 ax.set_yticks([])
 ax.set_xlabel('Chromosomal position (bp)', fontsize=11)
-ax.set_title(f'Genomic Distribution of 62 Exposed Regulatory Genes\n(Clusters within 20kb highlighted in red)', fontsize=12)
+ax.set_title(f'Genomic Distribution of 57 Exposed Regulatory Genes\n(Clusters within 20kb highlighted in red)', fontsize=12)
 
 # Format x-axis as Mb
 ax.xaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f'{x/1e6:.1f}'))
@@ -966,7 +966,7 @@ g = sns.clustermap(corr_exp, row_linkage=row_linkage, col_linkage=col_linkage,
                    cbar_kws={'label': 'Spearman rho'})
 g.ax_heatmap.set_xticklabels(g.ax_heatmap.get_xticklabels(), fontsize=5, rotation=90)
 g.ax_heatmap.set_yticklabels(g.ax_heatmap.get_yticklabels(), fontsize=5)
-g.fig.suptitle('Co-expression Matrix: 62 Exposed Regulatory Genes\n(Spearman correlation, Ward linkage)',
+g.fig.suptitle('Co-expression Matrix: 57 Exposed Regulatory Genes\n(Spearman correlation, Ward linkage)',
                fontsize=13, y=1.02)
 
 for fmt in ['pdf', 'svg']:
@@ -1107,7 +1107,7 @@ g2 = sns.clustermap(expr_z, row_linkage=linkage_mat, col_cluster=False,
                     cbar_kws={'label': 'Z-score'})
 g2.ax_heatmap.set_xticklabels(g2.ax_heatmap.get_xticklabels(), fontsize=8, rotation=45, ha='right')
 g2.ax_heatmap.set_yticklabels(g2.ax_heatmap.get_yticklabels(), fontsize=5)
-g2.fig.suptitle('Expression Dynamics: 62 Exposed Regulatory Genes\n(Z-scored normalized counts, 9 samples)',
+g2.fig.suptitle('Expression Dynamics: 57 Exposed Regulatory Genes\n(Z-scored normalized counts, 9 samples)',
                 fontsize=13, y=1.01)
 
 # Add annotation legends manually below the heatmap
@@ -1138,7 +1138,7 @@ ax.set_ylim(-0.5, 0.6)
 ax.set_yticks([])
 ax.xaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f'{x/1e6:.1f}'))
 ax.set_xlabel('Position (Mb)', fontsize=9)
-ax.set_title('A. Genomic Distribution of 62 Exposed Regulators', fontsize=11, fontweight='bold')
+ax.set_title('A. Genomic Distribution of 57 Exposed Regulators', fontsize=11, fontweight='bold')
 
 # Panel B: Permutation test
 ax = fig.add_subplot(gs[1, 0])
@@ -1248,7 +1248,7 @@ print(f"  coordination_type_distribution.tsv: {len(coord_dist_df)} entries")
 stat_tests = []
 stat_tests.append({
     'test': 'Genomic clustering permutation',
-    'description': 'Exposed TFs closer than random 62/1055?',
+    'description': 'Exposed TFs closer than random 57/1055?',
     'test_statistic': f'z={z_score:.3f}',
     'observed': f'{exp_median_nn:.0f} bp',
     'expected': f'{np.mean(perm_medians):.0f} bp',

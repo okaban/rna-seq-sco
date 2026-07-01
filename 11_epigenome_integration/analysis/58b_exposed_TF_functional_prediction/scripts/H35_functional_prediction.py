@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-H35: Functional Prediction of 62 Exposed Transcription Factors
+H35: Functional Prediction of 57 Exposed Transcription Factors
 Based on TF family membership, genomic context, and expression patterns.
 
-Predicts the downstream regulatory roles of the 62 exposed TFs that form
+Predicts the downstream regulatory roles of the 57 exposed TFs that form
 a "distributed methylation-responsive regulatory layer" with two antagonistic
 programs (activation bloc: modules 1-3, repression bloc: module 4).
 """
@@ -261,7 +261,7 @@ exposed['bloc'] = exposed.apply(assign_bloc, axis=1)
 
 # Count TF families
 family_counts = exposed['tf_family'].value_counts()
-print("\nTF family distribution among 62 exposed TFs:")
+print("\nTF family distribution among 57 exposed TFs:")
 for fam, count in family_counts.items():
     print(f"  {fam}: {count}")
 
@@ -1214,7 +1214,7 @@ axes[1].barh(y_pos, exposed_sorted['abs_LFC_T3'], color=colors, edgecolor=edge_c
 axes[1].set_yticks(y_pos[::3])
 axes[1].set_yticklabels(exposed_sorted['old_locus_tag'].iloc[::3], fontsize=6)
 axes[1].set_xlabel('|log2FC T3 vs T1|')
-axes[1].set_title('Ranked Expression Response of 62 Exposed TFs')
+axes[1].set_title('Ranked Expression Response of 57 Exposed TFs')
 
 # Legend
 from matplotlib.lines import Line2D
@@ -1407,7 +1407,7 @@ ax_f = fig.add_subplot(gs[2, :])
 ax_f.axis('off')
 
 summary_text = (
-    "H35 SUMMARY: Functional Prediction of 62 Exposed Transcription Factors\n\n"
+    "H35 SUMMARY: Functional Prediction of 57 Exposed Transcription Factors\n\n"
     "ACTIVATION BLOC (35 genes, Modules 1-3): Enriched for Signal transduction (TCS) and Stress/development (sigma factors, WhiB).\n"
     "Predicted activated processes: Morphological differentiation (RamR, sigma factors), TCS cascades, secondary metabolite regulation (TcrA, NsdB).\n\n"
     "REPRESSION BLOC (26 genes, Module 4): Enriched for Metabolic regulators (GntR, IclR, LacI, LysR) and Defense/resistance (TetR, ArsR).\n"
@@ -1550,7 +1550,7 @@ print("\n" + "=" * 70)
 print("ANALYSIS COMPLETE")
 print("=" * 70)
 
-print(f"\n62 exposed TFs analyzed across {len(all_families)} TF families")
+print(f"\n57 exposed TFs analyzed across {len(all_families)} TF families")
 print(f"Activation bloc: {n_act} genes (modules 1-3)")
 print(f"Repression bloc: {n_rep} genes (module 4)")
 

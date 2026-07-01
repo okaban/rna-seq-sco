@@ -2,7 +2,7 @@
 """
 H33: Exposed TF Genomic Neighborhood Transcriptional Impact Analysis
 
-Tests whether genes in the genomic neighborhood of 62 exposed TFs show
+Tests whether genes in the genomic neighborhood of 57 exposed TFs show
 expression changes correlated with the TF's methylation coordination type.
 
 Author: Claude Code
@@ -79,7 +79,7 @@ print(f"  Gene annotation: {len(annot)} genes")
 # Compute midpoint for distance calculations
 annot['midpoint'] = (annot['start'] + annot['end']) / 2
 
-# Exposed TFs (62)
+# Exposed TFs (57)
 exposed = pd.read_csv(EXPOSED_TF, sep='\t')
 exposed_ids = set(exposed['locus_tag'].tolist())
 print(f"  Exposed TFs: {len(exposed)}")
@@ -151,7 +151,7 @@ print(f"    With LFC T3vsT1: {expr_data['LFC_T3vsT1'].notna().sum()}")
 # They should be the same format (SC_RS...)
 # Verify
 exposed_in_annot = set(exposed['locus_tag']) & set(annot['gene_id'])
-print(f"  Exposed TFs found in annotation: {len(exposed_in_annot)}/62")
+print(f"  Exposed TFs found in annotation: {len(exposed_in_annot)}/57")
 
 # Build exposed_coords from available columns (Jeong2016-filtered set lacks some old columns)
 _col_map = {'log2FC_T2': 'LFC_T2vsT1', 'log2FC_T3': 'LFC_T3vsT1'}
@@ -217,7 +217,7 @@ for w in WINDOWS:
     if neighborhood_records:
         all_neighborhoods[w] = pd.concat(neighborhood_records, ignore_index=True)
     print(f"  Window ±{w//1000}kb: {len(all_neighborhoods[w])} neighbor-TF pairs, "
-          f"mean {len(all_neighborhoods[w])/62:.1f} neighbors/TF")
+          f"mean {len(all_neighborhoods[w])/57:.1f} neighbors/TF")
 
 # Also build shielded TF neighborhoods (for comparison)
 shielded_neighborhoods = {}
@@ -404,7 +404,7 @@ concordance_df = pd.DataFrame(concordance_records)
 
 # Count significant concordances
 sig_conc = concordance_df[(concordance_df['binom_p'] < 0.05) & (concordance_df['concordance_rate'] > 0.5)]
-print(f"  TFs with significant directional concordance (p<0.05): {len(sig_conc)}/62")
+print(f"  TFs with significant directional concordance (p<0.05): {len(sig_conc)}/57")
 print(f"  Overall mean concordance rate: {concordance_df['concordance_rate'].mean():.4f}")
 
 # Group by coordination type
@@ -830,7 +830,7 @@ print("STEP 8: Permutation test (1,000 iterations)")
 print("=" * 70)
 
 # For the main finding: neighborhood mean |LFC| at ±20kb
-# Observe: mean per-TF |LFC| across 62 exposed TFs
+# Observe: mean per-TF |LFC| across 57 exposed TFs
 exp_per_tf_t3_20 = exp_nb_20.groupby('tf_id')['absLFC_T3vsT1'].mean().dropna()
 observed_mean_absLFC = exp_per_tf_t3_20.mean()
 
@@ -845,8 +845,8 @@ perm_concordance = []
 perm_deg_rate = []
 
 for perm_i in range(N_PERM):
-    # Random sample of 62 genes
-    sample_ids = np.random.choice(all_gene_ids, size=62, replace=False)
+    # Random sample of 57 genes
+    sample_ids = np.random.choice(all_gene_ids, size=57, replace=False)
     sample_coords = all_gene_coords[all_gene_coords['gene_id'].isin(sample_ids)]
 
     perm_records = []
@@ -932,7 +932,7 @@ stat_records.append({
     'effect_size_r': np.nan,
     'exposed_mean': observed_mean_absLFC,
     'control_mean': np.nanmean(perm_absLFC),
-    'n_exposed': 62,
+    'n_exposed': 57,
     'n_control': N_PERM,
 })
 stat_records.append({
@@ -946,7 +946,7 @@ stat_records.append({
     'effect_size_r': np.nan,
     'exposed_mean': observed_mean_concordance,
     'control_mean': np.nanmean(perm_concordance),
-    'n_exposed': 62,
+    'n_exposed': 57,
     'n_control': N_PERM,
 })
 
@@ -976,7 +976,7 @@ for i, w in enumerate(WINDOWS):
         pc.set_facecolor(color)
         pc.set_alpha(0.7)
     ax.set_xticks([1, 2, 3])
-    ax.set_xticklabels(['Exposed\n(n=62)', f'Shielded\n(n={len(shi_vals)})', f'Background\n(n={len(bg_sample)})'])
+    ax.set_xticklabels(['Exposed\n(n=57)', f'Shielded\n(n={len(shi_vals)})', f'Background\n(n={len(bg_sample)})'])
     ax.set_ylabel('Mean |log2FC| per TF')
     ax.set_title(f'T2vsT1 (±{w//1000}kb)')
 
@@ -992,7 +992,7 @@ for i, w in enumerate(WINDOWS):
         pc.set_facecolor(color)
         pc.set_alpha(0.7)
     ax.set_xticks([1, 2, 3])
-    ax.set_xticklabels(['Exposed\n(n=62)', f'Shielded\n(n={len(shi_vals)})', f'Background\n(n={len(bg_sample)})'])
+    ax.set_xticklabels(['Exposed\n(n=57)', f'Shielded\n(n={len(shi_vals)})', f'Background\n(n={len(bg_sample)})'])
     ax.set_ylabel('Mean |log2FC| per TF')
     ax.set_title(f'T3vsT1 (±{w//1000}kb)')
 
@@ -1092,7 +1092,7 @@ fig.suptitle('H33: Distance Decay of Expression Change Near TFs', fontsize=14, f
 ax = axes[0]
 x_vals = np.arange(len(exp_dist_decay))
 ax.plot(x_vals, exp_dist_decay['mean_absLFC_T3'].values, 'o-', color='#e74c3c',
-        label=f'Exposed (n=62)', linewidth=2, markersize=6)
+        label=f'Exposed (n=57)', linewidth=2, markersize=6)
 ax.plot(x_vals, shi_dist_decay['mean_absLFC_T3'].values, 's-', color='#3498db',
         label=f'Shielded (n={len(shielded_coords)})', linewidth=2, markersize=6)
 ax.axhline(bg_absLFC_T3.mean(), color='gray', linestyle='--', label='Background')
@@ -1122,7 +1122,7 @@ save_fig(fig, 'distance_decay')
 
 # ------ Figure 5: Chromosome neighborhood map ------
 fig, ax = plt.subplots(figsize=(16, 8))
-fig.suptitle('H33: Chromosome Map of 62 Exposed TF Neighborhoods', fontsize=14, fontweight='bold')
+fig.suptitle('H33: Chromosome Map of 57 Exposed TF Neighborhoods', fontsize=14, fontweight='bold')
 
 # Draw chromosome as horizontal bar
 chrom_y = 0.5
@@ -1306,7 +1306,7 @@ ax.set_xlim(-100_000, CHROM_LEN + 100_000)
 ax.set_ylim(-0.1, 1.1)
 ax.set_xlabel('Chromosome position (bp)')
 ax.set_yticks([])
-ax.set_title('I. 62 Exposed TFs on NC_003888.3 (color = module, direction = T3 LFC)', fontweight='bold')
+ax.set_title('I. 57 Exposed TFs on NC_003888.3 (color = module, direction = T3 LFC)', fontweight='bold')
 
 save_fig(fig, 'H33_comprehensive_summary')
 

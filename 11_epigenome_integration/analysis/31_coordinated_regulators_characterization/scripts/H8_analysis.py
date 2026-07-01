@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-H8 Analysis: Geographic and functional characterization of 62 coordinated regulatory genes.
+H8 Analysis: Geographic and functional characterization of 57 coordinated regulatory genes.
 
-Tests the hypothesis that the 62 methylation-expression coordinated regulators are:
+Tests the hypothesis that the 57 methylation-expression coordinated regulators are:
 1. Enriched at chromosomal arms (vs core)
 2. Enriched in stress response / secondary metabolism functional categories
 """
@@ -91,7 +91,7 @@ print("\n" + "=" * 70)
 print("STEP 1: GEOGRAPHIC DISTRIBUTION")
 print("=" * 70)
 
-# Classify 62 coordinated genes
+# Classify 57 coordinated genes
 coord_df['midpoint'] = coord_df.apply(midpoint, axis=1)
 coord_df['region'] = coord_df['midpoint'].apply(classify_region)
 
@@ -111,7 +111,7 @@ all_reg_core = (all_reg_df['region'] == 'core').sum()
 genome_arm = (gene_annot['region'] == 'arm').sum()
 genome_core = (gene_annot['region'] == 'core').sum()
 
-print(f"\n62 Coordinated regulators: {coord_arm} arm, {coord_core} core ({coord_arm/len(coord_df)*100:.1f}% arm)")
+print(f"\n57 Coordinated regulators: {coord_arm} arm, {coord_core} core ({coord_arm/len(coord_df)*100:.1f}% arm)")
 print(f"1,055 All regulators: {all_reg_arm} arm, {all_reg_core} core ({all_reg_arm/len(all_reg_df)*100:.1f}% arm)")
 print(f"Genome-wide: {genome_arm} arm, {genome_core} core ({genome_arm/len(gene_annot)*100:.1f}% arm)")
 
@@ -125,8 +125,8 @@ or2, p2 = fisher_test_arm_enrichment(coord_arm, coord_core, all_reg_arm, all_reg
 or3, p3 = fisher_test_arm_enrichment(all_reg_arm, all_reg_core, genome_arm, genome_core)
 
 print(f"\nFisher's exact (one-sided, arm enrichment):")
-print(f"  62 coordinated vs genome-wide: OR={or1:.3f}, p={p1:.4e}")
-print(f"  62 coordinated vs 1,055 regulators: OR={or2:.3f}, p={p2:.4e}")
+print(f"  57 coordinated vs genome-wide: OR={or1:.3f}, p={p1:.4e}")
+print(f"  57 coordinated vs 1,055 regulators: OR={or2:.3f}, p={p2:.4e}")
 print(f"  1,055 regulators vs genome-wide: OR={or3:.3f}, p={or3:.4e}")
 
 # Geographic distribution by coordination type
@@ -157,7 +157,7 @@ coord_df['combined_pattern'] = coord_df.apply(classify_combined, axis=1)
 
 # Save geographic distribution table
 geo_stats = pd.DataFrame({
-    'group': ['62 Coordinated', '1,055 All regulators', 'Genome-wide'],
+    'group': ['57 Coordinated', '1,055 All regulators', 'Genome-wide'],
     'n_arm': [coord_arm, all_reg_arm, genome_arm],
     'n_core': [coord_core, all_reg_core, genome_core],
     'n_total': [len(coord_df), len(all_reg_df), len(gene_annot)],
@@ -242,7 +242,7 @@ ax.legend([plt.Line2D([0], [0], marker='v', color='#2196F3', linestyle='none', m
           ['Concordant derepression', 'Concordant repression', 'Discordant/Other'],
           loc='upper right', fontsize=8, framealpha=0.9)
 
-ax.set_title('A. Chromosomal distribution of 62 coordinated regulatory genes', fontsize=12, fontweight='bold', loc='left')
+ax.set_title('A. Chromosomal distribution of 57 coordinated regulatory genes', fontsize=12, fontweight='bold', loc='left')
 ax.set_yticks([])
 ax.spines['top'].set_visible(False)
 ax.spines['right'].set_visible(False)
@@ -266,7 +266,7 @@ hist_genome_norm = hist_genome / hist_genome.sum() if hist_genome.sum() > 0 else
 
 ax2.fill_between(bin_centers, hist_genome_norm, alpha=0.2, color='gray', label=f'Genome-wide (n={len(gene_annot):,})')
 ax2.plot(bin_centers, hist_all_norm, color='#FF9800', linewidth=1.5, label=f'All 1,055 regulators')
-ax2.plot(bin_centers, hist_coord_norm, color='#E91E63', linewidth=2.5, label=f'62 coordinated')
+ax2.plot(bin_centers, hist_coord_norm, color='#E91E63', linewidth=2.5, label=f'57 coordinated')
 
 ax2.axvspan(0, CORE_START, alpha=0.05, color='red')
 ax2.axvspan(CORE_END, CHROM_LEN, alpha=0.05, color='red')
@@ -279,7 +279,7 @@ ax2.spines['right'].set_visible(False)
 
 # Panel C: Bar chart comparison
 ax3 = axes[2]
-categories = ['62 Coordinated\nregulators', '1,055 All\nregulators', 'Genome-wide\n(7,825 genes)']
+categories = ['57 Coordinated\nregulators', '1,055 All\nregulators', 'Genome-wide\n(7,825 genes)']
 arm_pcts = [coord_arm/len(coord_df)*100, all_reg_arm/len(all_reg_df)*100, genome_arm/len(gene_annot)*100]
 core_pcts = [100-p for p in arm_pcts]
 
@@ -474,7 +474,7 @@ coord_cog = coord_df.merge(cog_df[['gene_id', 'COG_category']], left_on='locus_t
 all_reg_cog = all_reg_df.merge(cog_df[['gene_id', 'COG_category']], left_on='locus_tag', right_on='gene_id', how='left')
 
 print(f"\nCOG annotation coverage:")
-print(f"  62 coordinated: {coord_cog['COG_category'].notna().sum()}/{len(coord_cog)} ({coord_cog['COG_category'].notna().sum()/len(coord_cog)*100:.1f}%)")
+print(f"  57 coordinated: {coord_cog['COG_category'].notna().sum()}/{len(coord_cog)} ({coord_cog['COG_category'].notna().sum()/len(coord_cog)*100:.1f}%)")
 print(f"  1,055 regulators: {all_reg_cog['COG_category'].notna().sum()}/{len(all_reg_cog)} ({all_reg_cog['COG_category'].notna().sum()/len(all_reg_cog)*100:.1f}%)")
 print(f"  Genome-wide: {cog_df['COG_category'].notna().sum()}/{len(cog_df)} ({cog_df['COG_category'].notna().sum()/len(cog_df)*100:.1f}%)")
 
@@ -525,7 +525,7 @@ all_cog_letters = sorted(set(coord_cog_counts.index) | set(all_reg_cog_counts.in
 for letter in all_cog_letters:
     if letter == 'na':
         continue
-    # 62 coordinated vs genome
+    # 57 coordinated vs genome
     a = coord_cog_counts.get(letter, 0)
     b = len(coord_cog) - a
     c = genome_cog_counts.get(letter, 0)
@@ -549,7 +549,7 @@ enrichment_df.to_csv(f'{TBL_DIR}/COG_enrichment_results.tsv', sep='\t', index=Fa
 print(f"\nSaved: {TBL_DIR}/COG_enrichment_results.tsv")
 
 # Print top enriched
-print("\nTop COG categories (62 coordinated vs genome):")
+print("\nTop COG categories (57 coordinated vs genome):")
 for _, r in enrichment_df.head(10).iterrows():
     sig = '*' if r['pvalue_vs_genome'] < 0.05 else ''
     print(f"  {r['COG_category']}: {r['coordinated_62_count']}/{len(coord_cog)} ({r['coordinated_62_pct']:.1f}%) "
@@ -574,7 +574,7 @@ genome_pcts = [genome_cog_counts.get(l, 0)/len(cog_df)*100 for l in relevant_cog
 
 x = np.arange(len(relevant_cogs))
 width = 0.25
-ax.bar(x - width, coord_pcts, width, label='62 Coordinated', color='#E91E63', edgecolor='black', linewidth=0.5)
+ax.bar(x - width, coord_pcts, width, label='57 Coordinated', color='#E91E63', edgecolor='black', linewidth=0.5)
 ax.bar(x, allreg_pcts, width, label='1,055 Regulators', color='#FF9800', edgecolor='black', linewidth=0.5)
 ax.bar(x + width, genome_pcts, width, label='Genome-wide', color='#607D8B', edgecolor='black', linewidth=0.5)
 
@@ -589,7 +589,7 @@ ax.set_xticklabels([f'{l}\n{cog_descriptions.get(l, "").split(" - ")[1][:15]}' i
                      for l in relevant_cogs], fontsize=7, rotation=45, ha='right')
 ax.set_ylabel('Percentage (%)')
 ax.legend(fontsize=9)
-ax.set_title('A. COG category distribution: 62 coordinated vs 1,055 regulators vs genome', fontweight='bold')
+ax.set_title('A. COG category distribution: 57 coordinated vs 1,055 regulators vs genome', fontweight='bold')
 ax.spines['top'].set_visible(False)
 ax.spines['right'].set_visible(False)
 
@@ -604,11 +604,11 @@ for l in relevant_cogs:
 
     if genome_frac > 0:
         enrichment_data[l] = {
-            '62 Coordinated': np.log2((coord_frac + 0.001) / (genome_frac + 0.001)),
+            '57 Coordinated': np.log2((coord_frac + 0.001) / (genome_frac + 0.001)),
             '1,055 Regulators': np.log2((allreg_frac + 0.001) / (genome_frac + 0.001)),
         }
     else:
-        enrichment_data[l] = {'62 Coordinated': 0, '1,055 Regulators': 0}
+        enrichment_data[l] = {'57 Coordinated': 0, '1,055 Regulators': 0}
 
 enrichment_heatmap = pd.DataFrame(enrichment_data).T
 # Filter out categories with very few genes
@@ -645,7 +645,7 @@ if len(bgc_genes) > 0:
     print(f"\nBGC clusters found: {len(bgc_boundaries)}")
     print(bgc_boundaries.to_string(index=False))
 
-    # Check 62 genes for BGC proximity (within 20 kb)
+    # Check 57 genes for BGC proximity (within 20 kb)
     PROXIMITY_KB = 20
     bgc_proximity_rows = []
     for _, gene in coord_df.iterrows():
@@ -822,7 +822,7 @@ print("\n" + "=" * 70)
 print("STEP 5: TWO-COMPONENT SYSTEM (TCS) ANALYSIS")
 print("=" * 70)
 
-# Find sensor kinases and response regulators among 62 genes
+# Find sensor kinases and response regulators among 57 genes
 sensor_kinases = coord_df[coord_df['tf_family'] == 'Sensor kinase'].copy()
 response_regulators = coord_df[coord_df['tf_family'] == 'Response regulator'].copy()
 
@@ -838,7 +838,7 @@ for _, rr in response_regulators.iterrows():
 TCS_PAIR_DIST = 5000
 tcs_pairs = []
 
-# Also look for SK/RR pairs in the full regulatory list (not just the 62)
+# Also look for SK/RR pairs in the full regulatory list (not just the 57)
 all_sk = all_reg_df[all_reg_df['tf_family'] == 'Sensor kinase']
 all_rr = all_reg_df[all_reg_df['tf_family'] == 'Response regulator']
 
@@ -863,7 +863,7 @@ for _, sk in sensor_kinases.iterrows():
                 'rr_coordination_T2': rr['coordination_T2'],
                 'rr_coordination_T3': rr['coordination_T3'],
                 'distance_bp': dist,
-                'both_in_62': both_coordinated,
+                'both_in_57': both_coordinated,
             })
 
 for _, rr in response_regulators.iterrows():
@@ -890,7 +890,7 @@ for _, rr in response_regulators.iterrows():
                     'rr_coordination_T2': rr['coordination_T2'],
                     'rr_coordination_T3': rr['coordination_T3'],
                     'distance_bp': dist,
-                    'both_in_62': both_coordinated,
+                    'both_in_57': both_coordinated,
                 })
 
 tcs_pairs_df = pd.DataFrame(tcs_pairs)
@@ -899,7 +899,7 @@ if len(tcs_pairs_df) > 0:
     tcs_pairs_df.to_csv(f'{TBL_DIR}/TCS_pair_candidates.tsv', sep='\t', index=False)
     print(f"\nFound {len(tcs_pairs_df)} potential TCS pairs (within {TCS_PAIR_DIST/1000:.0f} kb):")
     for _, p in tcs_pairs_df.iterrows():
-        both_mark = " *** BOTH COORDINATED ***" if p['both_in_62'] else ""
+        both_mark = " *** BOTH COORDINATED ***" if p['both_in_57'] else ""
         print(f"  SK: {p['sensor_kinase']} ({p['sk_old_locus']}) -- "
               f"RR: {p['response_regulator']} ({p['rr_old_locus']}) "
               f"dist={p['distance_bp']:,} bp{both_mark}")
@@ -980,14 +980,14 @@ for mb in range(0, 9):
     ax1.text(mb * 1e6, -0.3, f'{mb}', ha='center', fontsize=8, color='gray')
 ax1.text(CHROM_LEN/2, -0.5, 'Mb', ha='center', fontsize=9, color='gray')
 
-ax1.set_title('62 Coordinated Regulatory Genes on S. coelicolor Chromosome', fontsize=13, fontweight='bold')
+ax1.set_title('57 Coordinated Regulatory Genes on S. coelicolor Chromosome', fontsize=13, fontweight='bold')
 ax1.set_yticks([])
 for spine in ax1.spines.values():
     spine.set_visible(False)
 
 # Panel 2: Arm vs Core bar
 ax2 = fig.add_subplot(gs[1, 0])
-groups = ['62\nCoordinated', '1,055\nRegulators', 'Genome']
+groups = ['57\nCoordinated', '1,055\nRegulators', 'Genome']
 arm_vals = [coord_arm/len(coord_df)*100, all_reg_arm/len(all_reg_df)*100, genome_arm/len(gene_annot)*100]
 core_vals = [100-v for v in arm_vals]
 ax2.bar(groups, arm_vals, color='#EF5350', label='Arms', edgecolor='black', linewidth=0.5)
@@ -1035,7 +1035,7 @@ ax5 = fig.add_subplot(gs[2, 0:2])
 # Show top 8 most enriched/depleted COGs
 enrichment_show = enrichment_df[enrichment_df['coordinated_62_pct'] > 0].head(10)
 x_pos = np.arange(len(enrichment_show))
-ax5.bar(x_pos - 0.15, enrichment_show['coordinated_62_pct'], 0.3, label='62 Coordinated', color='#E91E63')
+ax5.bar(x_pos - 0.15, enrichment_show['coordinated_62_pct'], 0.3, label='57 Coordinated', color='#E91E63')
 ax5.bar(x_pos + 0.15, enrichment_show['genome_pct'], 0.3, label='Genome', color='#607D8B')
 ax5.set_xticks(x_pos)
 ax5.set_xticklabels([c.split(' - ')[1][:18] if ' - ' in c else c for c in enrichment_show['COG_category']],
@@ -1053,20 +1053,20 @@ tcs_text = "TCS Pair Analysis\n" + "=" * 25 + "\n\n"
 tcs_text += f"Sensor kinases: {len(sensor_kinases)}\n"
 tcs_text += f"Response regulators: {len(response_regulators)}\n\n"
 if len(tcs_pairs_df) > 0:
-    both_coordinated = tcs_pairs_df[tcs_pairs_df['both_in_62']]
+    both_coordinated = tcs_pairs_df[tcs_pairs_df['both_in_57']]
     tcs_text += f"Cognate pairs found: {len(tcs_pairs_df)}\n"
     tcs_text += f"Both coordinated: {len(both_coordinated)}\n\n"
     for _, p in tcs_pairs_df.head(3).iterrows():
         tcs_text += f"SK: {p['sensor_kinase']}\nRR: {p['response_regulator']}\n"
         tcs_text += f"Dist: {p['distance_bp']:,} bp\n"
-        tcs_text += f"Both in 62: {p['both_in_62']}\n\n"
+        tcs_text += f"Both in 57: {p['both_in_57']}\n\n"
 else:
     tcs_text += "No cognate pairs found\nwithin 5 kb"
 
 ax6.text(0.05, 0.95, tcs_text, transform=ax6.transAxes, fontsize=8, verticalalignment='top',
          fontfamily='monospace', bbox=dict(boxstyle='round', facecolor='lightyellow', alpha=0.8))
 
-fig.suptitle('H8: Geographic and Functional Characterization of 62 Coordinated Regulatory Genes',
+fig.suptitle('H8: Geographic and Functional Characterization of 57 Coordinated Regulatory Genes',
              fontsize=14, fontweight='bold', y=0.98)
 
 plt.tight_layout(rect=[0, 0, 1, 0.96])
@@ -1085,13 +1085,13 @@ print("=" * 70)
 
 print(f"""
 GEOGRAPHIC DISTRIBUTION:
-  62 coordinated: {coord_arm}/{len(coord_df)} arm ({coord_arm/len(coord_df)*100:.1f}%)
+  57 coordinated: {coord_arm}/{len(coord_df)} arm ({coord_arm/len(coord_df)*100:.1f}%)
   1,055 regulators: {all_reg_arm}/{len(all_reg_df)} arm ({all_reg_arm/len(all_reg_df)*100:.1f}%)
   Genome-wide: {genome_arm}/{len(gene_annot)} arm ({genome_arm/len(gene_annot)*100:.1f}%)
   Expected by length: {arm_fraction*100:.1f}%
 
-  Fisher's exact (62 vs genome): OR={or1:.3f}, p={p1:.2e}
-  Fisher's exact (62 vs 1,055): OR={or2:.3f}, p={p2:.2e}
+  Fisher's exact (57 vs genome): OR={or1:.3f}, p={p1:.2e}
+  Fisher's exact (57 vs 1,055): OR={or2:.3f}, p={p2:.2e}
 
 COORDINATION PATTERNS:
   Concordant derepression (any T): {len(derep_genes)} genes

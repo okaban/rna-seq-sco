@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-H27: Protection Zone Characteristics of the 62 Coordinated Regulators
+H27: Protection Zone Characteristics of the 57 Coordinated Regulators
 
-Compares methylation protection zone characteristics between 62 coordinated
-regulatory genes (from H6/H8) and ~993 non-coordinated regulatory genes.
+Compares methylation protection zone characteristics between 57 coordinated
+regulatory genes (from H6/H8) and ~998 non-coordinated regulatory genes.
 Tests whether coordinated regulators have shallower protection zones
 (methylation sites closer to TSS).
 """
@@ -474,7 +474,7 @@ print(f"    Mann-Whitney p = {p_delta:.2e}")
 coord_with_lfc = all_reg_df[all_reg_df['is_coordinated'] & all_reg_df['lfc_T2vsT1'].notna()].copy()
 if len(coord_with_lfc) > 3:
     rho_delta, p_rho_delta = stats.spearmanr(coord_with_lfc['delta_sites'], coord_with_lfc['lfc_T2vsT1'])
-    print(f"\n  Correlation (delta_sites vs LFC_T2vsT1) for 62 coordinated:")
+    print(f"\n  Correlation (delta_sites vs LFC_T2vsT1) for 57 coordinated:")
     print(f"    Spearman rho = {rho_delta:.3f}, p = {p_rho_delta:.2e}")
 
 # Same for non-coordinated
@@ -735,7 +735,7 @@ parts['cmeans'].set_color('black')
 parts['cmedians'].set_color('red')
 
 axes[0].set_xticks([1, 2])
-axes[0].set_xticklabels(['Coordinated\n(n=62)', 'Non-coordinated\n(n=993)'])
+axes[0].set_xticklabels(['Coordinated\n(n=57)', 'Non-coordinated\n(n=998)'])
 axes[0].set_ylabel('Nearest methylation site distance (bp)', fontsize=11)
 axes[0].set_title(f'Nearest Site Distance\nMann-Whitney p = {p_dist:.2e}', fontsize=12)
 
@@ -754,7 +754,7 @@ parts2['cmeans'].set_color('black')
 parts2['cmedians'].set_color('red')
 
 axes[1].set_xticks([1, 2])
-axes[1].set_xticklabels(['Coordinated\n(n=62)', 'Non-coordinated\n(n=993)'])
+axes[1].set_xticklabels(['Coordinated\n(n=57)', 'Non-coordinated\n(n=998)'])
 axes[1].set_ylabel('Methylation sites within 2 kb of TSS', fontsize=11)
 axes[1].set_title(f'Methylation Site Density Near TSS\nMann-Whitney p = {p_sites:.2e}', fontsize=12)
 
@@ -815,7 +815,7 @@ print("  Saved methylation_expression_scatter.pdf/svg")
 fig, axes = plt.subplots(1, 2, figsize=(10, 5))
 
 # Bar chart
-categories = ['Coordinated\n(n=62)', 'Non-coordinated\n(n=993)']
+categories = ['Coordinated\n(n=57)', 'Non-coordinated\n(n=998)']
 arm_pcts = [100 * n_coord_arm / n_coord, 100 * n_noncoord_arm / n_noncoord]
 core_pcts = [100 * n_coord_core / n_coord, 100 * n_noncoord_core / n_noncoord]
 
@@ -936,7 +936,7 @@ for i, (a, c) in enumerate(zip(arm_pcts, core_pcts)):
     ax_d.text(i, a/2, f'{a:.1f}%', ha='center', va='center', fontsize=10, fontweight='bold')
     ax_d.text(i, a + c/2, f'{c:.1f}%', ha='center', va='center', fontsize=10, fontweight='bold')
 
-fig.suptitle('H27: Protection Zone Characteristics of 62 Coordinated Regulators',
+fig.suptitle('H27: Protection Zone Characteristics of 57 Coordinated Regulators',
              fontsize=15, fontweight='bold', y=0.98)
 plt.savefig(FIG_DIR / 'H27_comprehensive_summary.pdf', dpi=300, bbox_inches='tight')
 plt.savefig(FIG_DIR / 'H27_comprehensive_summary.svg', bbox_inches='tight')
@@ -950,7 +950,7 @@ print("\n" + "=" * 70)
 print("FINAL SUMMARY")
 print("=" * 70)
 print(f"""
-H27: Protection Zone Characteristics of 62 Coordinated Regulators
+H27: Protection Zone Characteristics of 57 Coordinated Regulators
 ===================================================================
 
 1. NEAREST METHYLATION SITE DISTANCE:

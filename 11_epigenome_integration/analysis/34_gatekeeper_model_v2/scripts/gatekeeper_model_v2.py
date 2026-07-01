@@ -125,7 +125,7 @@ def create_model_diagram():
             color=COL_L3, va='center')
 
     items_l3 = [
-        ('62 non-literature\nregulators', 'All outside 37 list\n15.6% of 1,055 methylated', '2.5'),
+        ('57 non-literature\nregulators', 'All outside 37 list\n15.6% of 1,055 methylated', '2.5'),
         ('TCS asymmetric\nmethylation', '7 pairs identified\nSK methylated / RR free', '5.5'),
         ('T3 arm enrichment\n(gain + up)', 'OR = 8.05, p = 0.001\n87% at arms', '8.5'),
         ('COG T enriched\n(signal transd.)', 'OR = 2.47, p = 0.045\nCOG Q = 0', '11.5'),
@@ -358,7 +358,7 @@ def create_layer_summaries():
     table_data_l3 = [
         ['Total regulatory genes screened', '1,055 (25 families)'],
         ['Methylated regulatory genes', '165/1,055 (15.6%)'],
-        ['Coordinated methyl+expr genes', '62 (all outside literature 37)'],
+        ['Coordinated methyl+expr genes', '57 (all outside literature 37)'],
         ['T3 discordant_gain_up at arms', '87% (OR=8.05, p=0.001)'],
         ['COG T (signal transduction)', 'OR=2.47, p=0.045'],
         ['COG Q (secondary metabolism)', '0 genes'],
@@ -475,7 +475,7 @@ def create_excluded_pathway():
     boxes_bot = [
         (1.5, 1.4, 'Landscape\nRemodeling', COL_L1),
         (4.5, 1.4, 'Protected\nZones (TF BS)', COL_L2),
-        (7.5, 1.4, '62 Non-Lit.\nRegulators', COL_L3),
+        (7.5, 1.4, '57 Non-Lit.\nRegulators', COL_L3),
         (10.5, 1.4, 'Signal\nTransduction', COL_L3),
     ]
     for x, y, label, col in boxes_bot:
@@ -497,7 +497,7 @@ def create_excluded_pathway():
         (9.0, 3.2, 'SARP 0% methylation\nrate (n=7)', COL_EXCLUDED),
 
         (3.0, 0.9, 'TF BS fold=0.66\n\u03c3-10 depleted', COL_L2),
-        (6.0, 0.9, '62/62 outside\nliterature 37', COL_L3),
+        (6.0, 0.9, '57/57 outside\nliterature 37', COL_L3),
         (9.0, 0.9, 'COG T: OR=2.47\nTCS asymmetric', COL_L3),
     ]
     for x, y, txt, col in evidence_items:
@@ -567,7 +567,7 @@ def create_evidence_table():
             'Hypothesis': 'H6',
             'Description': 'Genome-wide regulatory gene methylation screen (1055 genes)',
             'Verdict': 'Supported',
-            'Key_Statistic': '165/1055 (15.6%) methylated; 62 coordinated; ALL outside literature 37; MerR 28.6%, SARP 0%',
+            'Key_Statistic': '165/1055 (15.6%) methylated; 57 coordinated; ALL outside literature 37; MerR 28.6%, SARP 0%',
             'Layer_Supported': 'Layer 3',
             'Layer_Impact': 'Core evidence for revised Signal Gating layer; non-literature regulators are the targets',
             'Evidence_Strength': 'Strong',
@@ -583,7 +583,7 @@ def create_evidence_table():
         },
         {
             'Hypothesis': 'H8',
-            'Description': '62 coordinated regulators: geographic and functional characterization',
+            'Description': '57 coordinated regulators: geographic and functional characterization',
             'Verdict': 'Partial support',
             'Key_Statistic': 'Overall arm p=0.17; T3 gain_up arms 87% OR=8.05 p=0.001; COG T OR=2.47 p=0.045',
             'Layer_Supported': 'Layer 3',
@@ -666,7 +666,7 @@ def create_layer_params_table():
          'Value': '165 (15.6%)', 'P_value': 'N/A', 'Source_Hypothesis': 'H6',
          'Interpretation': '2.3x higher than literature 37 rate (6.7%)'},
         {'Layer': 'Layer 3: Signal Gating', 'Parameter': 'Coordinated regulators',
-         'Value': '62', 'P_value': 'N/A', 'Source_Hypothesis': 'H6',
+         'Value': '57', 'P_value': 'N/A', 'Source_Hypothesis': 'H6',
          'Interpretation': 'All outside literature 37 list'},
         {'Layer': 'Layer 3: Signal Gating', 'Parameter': 'T3 discordant_gain_up arm enrichment',
          'Value': '87% at arms', 'P_value': '0.001 (OR=8.05)', 'Source_Hypothesis': 'H8',
@@ -821,7 +821,7 @@ def create_comprehensive_figure():
         (7.0, COL_L2, 'Layer 2:\nProtection /\nDepletion',
          'TF BS fold=0.66\n\u03c3-10 p=1.73e-12\n37 TFs: 92% free'),
         (11.5, COL_L3, 'Layer 3:\nSignal\nGating',
-         '62 regulators\nTCS asymmetric\nCOG T OR=2.47'),
+         '57 regulators\nTCS asymmetric\nCOG T OR=2.47'),
     ]
 
     for x, col, title, details in layer_info:
@@ -903,7 +903,7 @@ def create_comprehensive_figure():
     ax_d.text(-0.1, 1.05, 'D', fontsize=18, fontweight='bold', transform=ax_d.transAxes,
               va='top')
 
-    # Count coordination types from 62 genes
+    # Count coordination types from 57 genes
     coord_df = pd.read_csv('/Users/okaban/bioinfo/rna-seq/11_epigenome_integration/analysis/'
                             '29_genomewide_TF_screen/tables/coordinated_regulatory_genes.tsv',
                             sep='\t')
@@ -929,7 +929,7 @@ def create_comprehensive_figure():
     ax_d.set_xticks(x)
     ax_d.set_xticklabels(type_labels, fontsize=7.5, rotation=0, ha='center')
     ax_d.set_ylabel('Number of Genes', fontsize=10)
-    ax_d.set_title('Coordination Types in 62 Regulators', fontsize=12, fontweight='bold')
+    ax_d.set_title('Coordination Types in 57 Regulators', fontsize=12, fontweight='bold')
     ax_d.legend(fontsize=9)
     ax_d.spines['top'].set_visible(False)
     ax_d.spines['right'].set_visible(False)
@@ -939,7 +939,7 @@ def create_comprehensive_figure():
     ax_e.text(-0.1, 1.05, 'E', fontsize=18, fontweight='bold', transform=ax_e.transAxes,
               va='top')
 
-    groups = ['Genome-wide', 'All regulators\n(1,055)', 'Coordinated 62']
+    groups = ['Genome-wide', 'All regulators\n(1,055)', 'Coordinated 57']
     arm_pct = [44.7, 45.0, 51.6]
     core_pct = [55.3, 55.0, 48.4]
 
@@ -972,7 +972,7 @@ def create_comprehensive_figure():
         'Model Summary  |  '
         'Layer 1: 4mC dominates (not 6mA), complete positional turnover (Jaccard=0.000), wholesale MTase-driven dynamics  |  '
         'Layer 2: TF BS depleted (fold=0.66), \u03c3-10 depleted (p=1.73e-12), 92% literature TFs methylation-free  |  '
-        'Layer 3: 62 non-literature regulators, TCS asymmetric methylation, COG T enriched (OR=2.47), arms-enriched at T3  |  '
+        'Layer 3: 57 non-literature regulators, TCS asymmetric methylation, COG T enriched (OR=2.47), arms-enriched at T3  |  '
         'EXCLUDED: Direct methylation-TF cascade-BGC pathway (0/37 coordination, SARP 0% methylated)'
     )
     ax_f.text(0.5, 0.5, summary_text, ha='center', va='center', fontsize=9,

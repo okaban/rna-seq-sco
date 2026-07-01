@@ -2,10 +2,10 @@
 """
 H31: Exposed TF Downstream Regulatory Target Network Analysis
 ==============================================================
-Analyzes how many downstream genes the 62 "exposed" transcription factors regulate
+Analyzes how many downstream genes the 57 "exposed" transcription factors regulate
 and whether those target genes show expression changes coordinated with TF methylation status.
 
-Since the 62 exposed TFs do not have FIMO motifs (they are newly identified regulators),
+Since the 57 exposed TFs do not have FIMO motifs (they are newly identified regulators),
 the analysis takes a dual approach:
 1. Use the 16 well-characterized TFs with FIMO motifs to build a genome-wide binding network
 2. Determine which exposed regulators are TARGETS of these 16 TFs
@@ -1128,7 +1128,7 @@ KEY FINDINGS:
 1. FIMO Binding Site Analysis:
    - 16 TFs have FIMO motifs; {fimo_primary['motif_id'].nunique()} have significant hits at q < 0.05
    - {len(fimo_primary)} binding sites pass strict threshold
-   - None of the 62 exposed regulators have FIMO motifs (they are newly identified)
+   - None of the 57 exposed regulators have FIMO motifs (they are newly identified)
 
 2. Target Gene Mapping:
    - {len(all_fimo_targets)} unique genes have FIMO TF binding sites in promoters (±{PROMOTER_WINDOW}bp)
@@ -1158,9 +1158,9 @@ for _, row in enrichment_df.iterrows():
         print(f"     {row['category']}: fold={row['fold_enrichment']:.2f}, p_adj={row.get('p_adj', row['p_value']):.3f}{sig}")
 
 print(f"""
-VERDICT: The hypothesis that 62 exposed TFs regulate a large downstream
+VERDICT: The hypothesis that 57 exposed TFs regulate a large downstream
 network is PARTIALLY SUPPORTED with important caveats:
-- The 62 exposed TFs do NOT have FIMO motifs (they are uncharacterized)
+- The 57 exposed TFs do NOT have FIMO motifs (they are uncharacterized)
 - {n_exposed_targeted} exposed TFs are themselves targets of well-characterized TFs
 - The cascade model needs experimental validation of exposed TF regulons
 """)

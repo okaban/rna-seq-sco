@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-H37: Genome-wide co-expression regulon prediction for 62 exposed TFs
+H37: Genome-wide co-expression regulon prediction for 57 exposed TFs
 of Streptomyces coelicolor M145.
 
 VECTORIZED VERSION - uses rank-based approach for fast Spearman computation.
@@ -85,7 +85,7 @@ def fast_spearman_single(x, y):
 # LOAD DATA
 # ============================================================
 print("=" * 70)
-print("H37: Co-expression Regulon Prediction for 62 Exposed TFs")
+print("H37: Co-expression Regulon Prediction for 57 Exposed TFs")
 print("=" * 70)
 
 print("\n[Loading data]")
@@ -1080,7 +1080,7 @@ ax.text(0.05, 0.95, txt, transform=ax.transAxes, fontsize=10, verticalalignment=
         fontfamily='monospace', bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.5))
 ax.set_title('I. Key statistics', fontweight='bold')
 
-fig.suptitle('H37: Co-expression Regulon Prediction for 62 Exposed TFs\nS. coelicolor M145',
+fig.suptitle('H37: Co-expression Regulon Prediction for 57 Exposed TFs\nS. coelicolor M145',
              fontsize=16, fontweight='bold', y=1.01)
 plt.tight_layout()
 fig.savefig(f'{FIGURES}/H37_comprehensive_summary.pdf', bbox_inches='tight', dpi=300)

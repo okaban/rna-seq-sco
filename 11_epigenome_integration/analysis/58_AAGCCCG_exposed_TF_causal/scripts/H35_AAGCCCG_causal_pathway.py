@@ -2,11 +2,11 @@
 """
 H35: AAGCCCG Exposed TF Causal Pathway Analysis
 
-Tests whether restricting the AAGCCCG de-repression analysis to the 62 exposed
+Tests whether restricting the AAGCCCG de-repression analysis to the 57 exposed
 TFs (which lack protection zones) reveals a causal effect that was invisible
 in the genome-wide test (H21: p=0.91).
 
-Key insight: H21 tested all ~800 genes with AAGCCCG loss. But if only the 62
+Key insight: H21 tested all ~800 genes with AAGCCCG loss. But if only the 57
 exposed TFs are susceptible (because they lack protection zones), the signal
 would be diluted below detectability.
 """
@@ -194,7 +194,7 @@ for _, tf in exposed_tf.iterrows():
 tf_methyl = pd.DataFrame(results)
 
 # Summary
-print(f"\nAAGCCCG status distribution (62 exposed TFs, ±500bp of TSS):")
+print(f"\nAAGCCCG status distribution (57 exposed TFs, ±500bp of TSS):")
 aag_counts = tf_methyl['AAGCCCG_status'].value_counts()
 for status, count in aag_counts.items():
     print(f"  {status}: {count} ({count/len(tf_methyl)*100:.1f}%)")
@@ -714,7 +714,7 @@ for label, gene_set in [
     ('All genes (genome-wide)', None),
     ('All regulatory (1,017)', all_reg_lts),
     ('Shielded regulatory (955)', shielded_reg_lts),
-    ('Exposed regulatory (62)', exposed_reg_lts)
+    ('Exposed regulatory (57)', exposed_reg_lts)
 ]:
     if gene_set is not None:
         subset = gw_data[gw_data['locus_tag'].isin(gene_set)]
@@ -966,7 +966,7 @@ if len(x) > 2:
 ax.set_xlabel('Number of AAGCCCG sites lost (±500bp TSS)')
 ax.set_ylabel('log2FC (T2 vs T1)')
 ax.axhline(y=0, color='grey', linestyle=':', alpha=0.5)
-ax.set_title(f'A) Dose-response (all 62 exposed TFs)\nrho={rho_dose:.3f}, p={p_dose:.2e}')
+ax.set_title(f'A) Dose-response (all 57 exposed TFs)\nrho={rho_dose:.3f}, p={p_dose:.2e}')
 
 # Panel B: Among TFs with sites
 ax = axes[1]
@@ -1217,7 +1217,7 @@ site_counts = tf_methyl['n_AAGCCCG_T1'].value_counts().sort_index()
 ax.bar(site_counts.index, site_counts.values, color='#e74c3c', alpha=0.7, edgecolor='black', linewidth=0.5)
 ax.set_xlabel('Number of AAGCCCG T1 sites (±500bp TSS)')
 ax.set_ylabel('Number of exposed TFs')
-ax.set_title(f'G) AAGCCCG site distribution\n(62 exposed TFs)')
+ax.set_title(f'G) AAGCCCG site distribution\n(57 exposed TFs)')
 
 # Panel H: GCCGGC comparison
 ax = fig.add_subplot(gs[2, 1])
@@ -1256,7 +1256,7 @@ ax.axis('off')
 boxes = [
     (1, 8, 'SC_RS17645\n(HsdM MTase)', '#3498db'),
     (1, 5.5, 'AAGCCCG 6mA\nat exposed TF TSS', '#e74c3c'),
-    (1, 3, '62 Exposed TFs\n(no protection zone)', '#f39c12'),
+    (1, 3, '57 Exposed TFs\n(no protection zone)', '#f39c12'),
     (6, 8, 'T1: High expression\n(LFC=0)', '#3498db'),
     (6, 5.5, 'T1: Methylated (260 sites)\nT2: Lost (64 remain)', '#e74c3c'),
     (6, 3, 'T1→T2: Expression change\n(63% early responders)', '#f39c12'),
@@ -1353,10 +1353,10 @@ print("\n" + "=" * 80)
 print("SUMMARY: H35 AAGCCCG Exposed TF Causal Pathway")
 print("=" * 80)
 
-print(f"\n1. AAGCCCG site mapping (±500bp TSS, 62 exposed TFs):")
+print(f"\n1. AAGCCCG site mapping (±500bp TSS, 57 exposed TFs):")
 for status in ['Lost', 'Never', 'Gained', 'Both']:
     n = len(tf_methyl[tf_methyl['AAGCCCG_status'] == status])
-    print(f"   {status}: {n} ({n/62*100:.1f}%)")
+    print(f"   {status}: {n} ({n/57*100:.1f}%)")
 
 print(f"\n2. KEY TEST: Exposed-restricted de-repression")
 print(f"   Lost vs Never (LFC T2vsT1): p={p_val:.4e}, r={r_rb:.3f}, d={cohens_d:.3f}")
