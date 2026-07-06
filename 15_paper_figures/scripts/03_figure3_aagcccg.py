@@ -289,7 +289,7 @@ def main():
     apply_style()
     print('=== Figure 3: AAGCCCG Novel Motif ===')
 
-    fig = plt.figure(figsize=(mm_to_inch(180), mm_to_inch(180)))
+    fig = plt.figure(figsize=(mm_to_inch(174), mm_to_inch(180)))
 
     # Layout: 2×2 grid, bottom row taller for domain panel
     gs = GridSpec(2, 2, figure=fig, hspace=0.5, wspace=0.5,

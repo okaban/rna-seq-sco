@@ -43,7 +43,7 @@ def _style(ax):
 def make_fig_s2():
     print("Generating Fig S2: Simpson's Paradox...")
 
-    fig = plt.figure(figsize=(mm_to_inch(180), mm_to_inch(220)))
+    fig = plt.figure(figsize=(mm_to_inch(174), mm_to_inch(220)))
     gs = gridspec.GridSpec(3, 2, hspace=0.45, wspace=0.35,
                            left=0.10, right=0.95, top=0.95, bottom=0.06)
 
@@ -140,7 +140,7 @@ def make_fig_s3():
         EPIGENOME / '43_regulatory_avoidance_geographic_test' / 'tables' / 'CMH_test_results.tsv',
         sep='\t')
 
-    fig, ax = plt.subplots(figsize=(mm_to_inch(180), mm_to_inch(120)))
+    fig, ax = plt.subplots(figsize=(mm_to_inch(174), mm_to_inch(120)))
 
     # Filter to Regulatory/TF rows
     reg = cmh[cmh['category'].str.contains('Regulatory', na=False)].copy()
@@ -186,7 +186,7 @@ def make_fig_s4():
         EPIGENOME / '45_sequence_level_motif_depletion' / 'tables' / 'depletion_statistics.tsv',
         sep='\t')
 
-    fig, axes = plt.subplots(1, 2, figsize=(mm_to_inch(180), mm_to_inch(100)),
+    fig, axes = plt.subplots(1, 2, figsize=(mm_to_inch(174), mm_to_inch(100)),
                               gridspec_kw={'wspace': 0.35})
 
     for idx, (motif, color) in enumerate([('TGGCCGGC', COL_4mC), ('AAGCCCG', COL_6mA)]):
@@ -242,7 +242,7 @@ def make_fig_s5():
     tc = load_temporal_classification()
     exp = tc.copy()
 
-    fig, axes = plt.subplots(1, 3, figsize=(mm_to_inch(180), mm_to_inch(200)),
+    fig, axes = plt.subplots(1, 3, figsize=(mm_to_inch(174), mm_to_inch(200)),
                               gridspec_kw={'width_ratios': [1.5, 1, 1], 'wspace': 0.3})
 
     # Panel A: Waterfall plot sorted by LFC
@@ -307,7 +307,7 @@ def make_fig_s6():
     tcs = load_tcs_pairs()
     tc = load_temporal_classification()
 
-    fig, axes = plt.subplots(1, 2, figsize=(mm_to_inch(180), mm_to_inch(120)),
+    fig, axes = plt.subplots(1, 2, figsize=(mm_to_inch(174), mm_to_inch(120)),
                               gridspec_kw={'wspace': 0.40, 'width_ratios': [1.2, 1]})
 
     # Panel A: TCS pair diagram — exposed/shielded status with labels
@@ -390,7 +390,7 @@ def make_fig_s7():
     exp = features[features['is_exposed'] == 1]
     shi = features[features['is_exposed'] == 0]
 
-    fig, axes = plt.subplots(2, 2, figsize=(mm_to_inch(180), mm_to_inch(150)),
+    fig, axes = plt.subplots(2, 2, figsize=(mm_to_inch(174), mm_to_inch(150)),
                               gridspec_kw={'hspace': 0.45, 'wspace': 0.35})
 
     # Conservation proxy data from H36 — use available columns
@@ -456,7 +456,7 @@ def make_fig_s8():
     df_tfbs = load_tfbs_spatial_profile()
     df_quintile = load_expression_quintile()
 
-    fig = plt.figure(figsize=(mm_to_inch(180), mm_to_inch(185)))
+    fig = plt.figure(figsize=(mm_to_inch(174), mm_to_inch(185)))
     gs = gridspec.GridSpec(2, 12, hspace=0.55, wspace=1.2,
                            left=0.07, right=0.97, top=0.93, bottom=0.07,
                            height_ratios=[1, 1])
@@ -560,8 +560,13 @@ def make_fig_s8():
     ]
     labels_c = [f[0] for f in features_list]
     aucs_c = [f[1]['AUC'] for f in features_list]
-    ci_lo = [f[1].get('AUC_CI_lo', f[1].get('AUC_95CI_lower', 0)) for f in features_list]
-    ci_hi = [f[1].get('AUC_CI_hi', f[1].get('AUC_95CI_upper', 0)) for f in features_list]
+    # Features from the 'boundary' ROC table (nearest_methyl_distance, baseMean)
+    # carry no CI columns. Fall back to the AUC itself (zero-length error bar), NOT
+    # to 0: with a 0 fallback the upper error hi-AUC = -AUC is negative and
+    # ax.errorbar raises ValueError('yerr must not contain negative values'),
+    # which previously aborted the figure before panels D+ were drawn.
+    ci_lo = [f[1].get('AUC_CI_lo', f[1].get('AUC_95CI_lower', f[1]['AUC'])) for f in features_list]
+    ci_hi = [f[1].get('AUC_CI_hi', f[1].get('AUC_95CI_upper', f[1]['AUC'])) for f in features_list]
     errors_c = [[a - lo for a, lo in zip(aucs_c, ci_lo)],
                 [hi - a for a, hi in zip(aucs_c, ci_hi)]]
     colors_c = [COL_EXPOSED, COL_SIGNAL, COL_GRAY, COL_GRAY]

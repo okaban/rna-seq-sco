@@ -113,7 +113,7 @@ def draw_state(ax, title, sub, concentrate_core, n_marks, exposed_marked,
 def main():
     apply_style()
     print('=== Figure 6: permissive spatial organiser (reframe) ===')
-    fig = plt.figure(figsize=(mm_to_inch(180), mm_to_inch(96)))
+    fig = plt.figure(figsize=(mm_to_inch(174), mm_to_inch(96)))
 
     axL = fig.add_axes([0.015, 0.30, 0.45, 0.66])
     axR = fig.add_axes([0.535, 0.30, 0.45, 0.66])

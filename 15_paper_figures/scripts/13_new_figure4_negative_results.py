@@ -221,7 +221,7 @@ def main():
     df_seq_tests = pd.read_csv(path_seq_tests, sep='\t')
 
     # Create figure: 180mm × 160mm
-    fig = plt.figure(figsize=(mm_to_inch(180), mm_to_inch(170)))
+    fig = plt.figure(figsize=(mm_to_inch(174), mm_to_inch(170)))
 
     gs = fig.add_gridspec(2, 2, hspace=0.50, wspace=0.40,
                           left=0.10, right=0.95, top=0.93, bottom=0.07)

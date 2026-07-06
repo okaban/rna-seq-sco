@@ -377,7 +377,7 @@ def main():
     tss_df = load_tss_jeong2016()
 
     # Create figure
-    fig = plt.figure(figsize=(mm_to_inch(180), mm_to_inch(170)))
+    fig = plt.figure(figsize=(mm_to_inch(174), mm_to_inch(170)))
     gs = GridSpec(2, 2, figure=fig, hspace=0.5, wspace=0.45)
 
     ax_a = fig.add_subplot(gs[0, 0])

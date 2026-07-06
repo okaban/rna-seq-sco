@@ -7,6 +7,9 @@ import numpy as np, pandas as pd
 import matplotlib; matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from scipy import stats
+
+def mm_to_inch(mm):  # NAR width helper
+    return mm / 25.4
 from sklearn.metrics import roc_curve, auc
 
 BASE      = Path(__file__).resolve().parents[2]
@@ -17,7 +20,7 @@ TBLS      = EPIGENOME / '52_shielded_exposed_boundary/tables'
 COL_EXPOSED  = '#7E57C2'
 COL_SHIELDED = '#B0BEC5'
 
-plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,
+plt.rcParams.update({'font.family':'DejaVu Sans','font.size':7,
     'axes.titlesize':10,'axes.labelsize':10,'xtick.labelsize':9,
     'ytick.labelsize':9,'legend.fontsize':8,'figure.dpi':300,
     'savefig.dpi':300,'axes.linewidth':1.0,
@@ -32,7 +35,7 @@ print(f"Data: {len(df)} genes, Exposed={int(df.is_exposed.sum())}, Shielded={(df
 shi = df.loc[df.is_exposed==0,'nearest_methyl_distance'].values
 exp = df.loc[df.is_exposed==1,'nearest_methyl_distance'].values
 
-fig, axes = plt.subplots(1, 3, figsize=(7.09, 3.07))
+fig, axes = plt.subplots(1, 3, figsize=(mm_to_inch(174), mm_to_inch(75)))  # NAR full-width
 fig.subplots_adjust(left=0.09, right=0.97, top=0.88, bottom=0.20, wspace=0.50)
 
 # ── Panel A: violin ──
@@ -55,10 +58,10 @@ ax.axhline(293, color='#E53935', lw=1.2, ls='--', alpha=.9, zorder=6)
 ax.text(2.35, 293, '293 bp', color='#E53935', fontsize=7.5, va='center', fontweight='bold')
 ax.set_ylim(-500, max(shi.max(), exp.max())*1.05)
 ax.set_xticks([1,2])
-ax.set_xticklabels([f'Shielded\n(n={len(shi)})', f'Exposed\n(n={len(exp)})'], fontsize=9)
-ax.set_ylabel('Nearest methylation site\ndistance from TSS (bp)', fontsize=9)
-ax.set_title('Promoter methylation\nexposure', fontsize=9, fontweight='bold')
-ax.text(0.05, 1.10, 'a', transform=ax.transAxes, fontsize=13, fontweight='bold', va='top')
+ax.set_xticklabels([f'Shielded\n(n={len(shi)})', f'Exposed\n(n={len(exp)})'], fontsize=6)
+ax.set_ylabel('Nearest methylation site\ndistance from TSS (bp)', fontsize=6)
+ax.set_title('Promoter methylation\nexposure', fontsize=6, fontweight='bold')
+ax.text(0.05, 1.10, 'a', transform=ax.transAxes, fontsize=9, fontweight='bold', va='top')
 
 # ── Panel B: ROC ──
 ax = axes[1]
@@ -77,13 +80,13 @@ ax.annotate('293 bp\n(sens=1.00\nspec=0.80)',
     xy=(op_fpr,1.0), xytext=(op_fpr+.10,1.0-.18),
     fontsize=6.5, color='#E53935',
     arrowprops=dict(arrowstyle='->', color='#E53935', lw=.8))
-ax.set_xlabel('False positive rate', fontsize=9)
-ax.set_ylabel('True positive rate',  fontsize=9)
-ax.set_title('Exposed/Shielded\nclassification (ROC)', fontsize=9, fontweight='bold')
-ax.legend(fontsize=7, loc='lower right', frameon=True, fancybox=False,
+ax.set_xlabel('False positive rate', fontsize=6)
+ax.set_ylabel('True positive rate',  fontsize=6)
+ax.set_title('Exposed/Shielded\nclassification (ROC)', fontsize=6, fontweight='bold')
+ax.legend(fontsize=6, loc='lower right', frameon=True, fancybox=False,
           edgecolor='#ccc', labelspacing=.5)
 ax.set_xlim(-0.02,1.02); ax.set_ylim(-0.02,1.02); ax.set_aspect('equal')
-ax.text(-0.22, 1.10, 'b', transform=ax.transAxes, fontsize=13, fontweight='bold', va='top')
+ax.text(-0.22, 1.10, 'b', transform=ax.transAxes, fontsize=9, fontweight='bold', va='top')
 
 # ── Panel C: quintile ──
 ax = axes[2]
@@ -91,21 +94,21 @@ q    = df_q.quintile.values
 frac = df_q.frac_exposed.values * 100
 ax.bar(q, frac, color=COL_EXPOSED, alpha=.7, edgecolor='white', lw=.5, width=.6)
 for qi, fi in zip(q, frac):
-    ax.text(qi, fi+.3, f'{fi:.1f}%', ha='center', va='bottom', fontsize=7)
+    ax.text(qi, fi+.3, f'{fi:.1f}%', ha='center', va='bottom', fontsize=6)
 sl, ic, *_ = stats.linregress(q, frac)
 xf = np.array([.5, 5.5])
 ax.plot(xf, sl*xf+ic, 'k--', lw=.8, alpha=.5)
 ax.axhline(frac.mean(), color=COL_EXPOSED, lw=.8, ls=':', alpha=.6)
 ax.text(0.97, 0.95,
     'Jonckheere–Terpstra\np = 0.730 (NS)\n\nbaseMean AUC = 0.543',
-    transform=ax.transAxes, ha='right', va='top', fontsize=7,
+    transform=ax.transAxes, ha='right', va='top', fontsize=6,
     bbox=dict(boxstyle='round,pad=0.3', facecolor='white', edgecolor='#ccc', alpha=.9))
-ax.set_xlabel('Expression quintile\n(1 = lowest, 5 = highest)', fontsize=9)
-ax.set_ylabel('Exposed genes (%)', fontsize=9)
+ax.set_xlabel('Expression quintile\n(1 = lowest, 5 = highest)', fontsize=6)
+ax.set_ylabel('Exposed genes (%)', fontsize=6)
 ax.set_ylim(0, max(frac)*1.55)
 ax.set_xticks(q)
-ax.set_title('Expression-independent\nclassification', fontsize=9, fontweight='bold')
-ax.text(-0.22, 1.10, 'c', transform=ax.transAxes, fontsize=13, fontweight='bold', va='top')
+ax.set_title('Expression-independent\nclassification', fontsize=6, fontweight='bold')
+ax.text(-0.22, 1.10, 'c', transform=ax.transAxes, fontsize=9, fontweight='bold', va='top')
 
 for fmt in ('pdf', 'svg', 'png'):
     out = FIG_DIR / f'Figure4_shielded_exposed.{fmt}'

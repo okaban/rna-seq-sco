@@ -303,7 +303,7 @@ def main():
           f'(Exposed={int(df_genes["is_exposed"].sum())}, '
           f'Shielded={int((df_genes["is_exposed"] == 0).sum())})')
 
-    fig = plt.figure(figsize=(mm_to_inch(180), mm_to_inch(180)))
+    fig = plt.figure(figsize=(mm_to_inch(174), mm_to_inch(180)))
     gs = fig.add_gridspec(2, 2, hspace=0.55, wspace=0.42,
                           left=0.10, right=0.96, top=0.92, bottom=0.10)
     ax_a = fig.add_subplot(gs[0, 0])

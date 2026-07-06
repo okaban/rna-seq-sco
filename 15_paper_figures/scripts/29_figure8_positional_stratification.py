@@ -192,7 +192,7 @@ def main():
     apply_style()
     print('=== Figure 8: Positional stratification (publication) ===')
 
-    fig = plt.figure(figsize=(mm_to_inch(180), mm_to_inch(165)))
+    fig = plt.figure(figsize=(mm_to_inch(174), mm_to_inch(165)))
     gs = fig.add_gridspec(2, 1, height_ratios=[0.35, 1.0],
                           hspace=0.55, left=0.30, right=0.92,
                           top=0.93, bottom=0.07)

@@ -196,7 +196,7 @@ def main():
     print(f'Clusters: {len(df_cluster)}')
 
     # ── Figure layout ─────────────────────────────────────────────────────────
-    fig = plt.figure(figsize=(mm_to_inch(180), mm_to_inch(160)))
+    fig = plt.figure(figsize=(mm_to_inch(174), mm_to_inch(160)))
     gs = gridspec.GridSpec(2, 2, figure=fig,
                            hspace=0.50, wspace=0.38,
                            left=0.09, right=0.97, top=0.95, bottom=0.08)

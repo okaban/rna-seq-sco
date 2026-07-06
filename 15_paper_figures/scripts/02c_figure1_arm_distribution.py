@@ -10,8 +10,14 @@ Genome boundaries (S. coelicolor M145, NC_003888.3, ~8.7 Mb):
 
 Input : 11_epigenome_integration/analysis/37_defense_island_GCCGGC/
         tables/GCCGGC_sites_by_timepoint.tsv
-Output: 15_paper_figures/figures/main/Figure1_GCCGGC_arm_distribution.png
-        Writing/fig_images/Figure1_arm_panel.png
+Output: 15_paper_figures/figures/main/Figure1_GCCGGC_arm_distribution_3region.png
+        Writing/fig_images/Figure1_arm_panel_3region.png
+
+NOTE: This 3-region (left arm / core / right arm) view uses the 1.5/6.5 Mb
+boundary and is retained for reference only. The canonical Figure 1 panel is
+produced by 27_figure1_GCCGGC_arm_distribution.py (core/arm binary at the
+manuscript boundary 1.5/7.17 Mb, with per-Mb density). Output renamed with a
+_3region suffix to avoid overwriting the canonical figure.
 """
 
 import os
@@ -24,13 +30,16 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 from pathlib import Path
 
+def mm_to_inch(mm):  # NAR width helper
+    return mm / 25.4
+
 # ── Paths ────────────────────────────────────────────────────────────────────
 BASE = Path(__file__).resolve().parents[2]          # rna-seq/
 DATA = (BASE / "11_epigenome_integration" / "analysis"
         / "37_defense_island_GCCGGC" / "tables"
         / "GCCGGC_sites_by_timepoint.tsv")
-OUT_MAIN = BASE / "15_paper_figures" / "figures" / "main" / "Figure1_GCCGGC_arm_distribution.png"
-OUT_WRITE = BASE / "Writing" / "fig_images" / "Figure1_arm_panel.png"
+OUT_MAIN = BASE / "15_paper_figures" / "figures" / "main" / "Figure1_GCCGGC_arm_distribution_3region.png"
+OUT_WRITE = BASE / "Writing" / "fig_images" / "Figure1_arm_panel_3region.png"
 
 # ── Genome boundaries (bp) ────────────────────────────────────────────────────
 LEFT_ARM_END  = 1_500_000
@@ -67,7 +76,7 @@ totals = counts.sum(axis=1)
 fracs  = counts.div(totals, axis=0) * 100   # percent
 
 # ── Figure layout ─────────────────────────────────────────────────────────────
-fig, axes = plt.subplots(1, 2, figsize=(9, 4.2),
+fig, axes = plt.subplots(1, 2, figsize=(mm_to_inch(174), mm_to_inch(88)),  # NAR full-width
                           gridspec_kw={"wspace": 0.38})
 
 region_colors  = [COL_LEFT, COL_CORE, COL_RIGHT]
@@ -94,9 +103,9 @@ for ax, data, ylabel, title_tag in [
         bottom = bottom + vals
 
     ax.set_xticks(x)
-    ax.set_xticklabels(timepoints, fontsize=11)
-    ax.set_xlabel("Timepoint", fontsize=11, labelpad=6)
-    ax.set_ylabel(ylabel, fontsize=10, labelpad=6)
+    ax.set_xticklabels(timepoints, fontsize=8)
+    ax.set_xlabel("Timepoint", fontsize=8, labelpad=6)
+    ax.set_ylabel(ylabel, fontsize=7, labelpad=6)
     ax.tick_params(axis="y", labelsize=9)
     ax.spines["top"].set_visible(False)
     ax.spines["right"].set_visible(False)
@@ -107,7 +116,7 @@ for ax, data, ylabel, title_tag in [
     if data is counts:
         for xi, tot in enumerate(totals):
             ax.text(xi, tot + totals.max() * 0.02, f"n={int(tot)}",
-                    ha="center", va="bottom", fontsize=8, color="#333333")
+                    ha="center", va="bottom", fontsize=6, color="#333333")
     else:
         ax.set_ylim(0, 115)
         ax.yaxis.set_major_formatter(
@@ -125,7 +134,7 @@ fig.text(0.01, 0.97, "A", fontsize=16, fontweight="bold",
          va="top", ha="left")
 
 fig.suptitle("GCCGGC methylation site distribution across genome regions",
-             fontsize=11, y=1.01, ha="center", color="#222222")
+             fontsize=8, y=1.01, ha="center", color="#222222")
 
 # ── Save ──────────────────────────────────────────────────────────────────────
 for out_path in [OUT_MAIN, OUT_WRITE]:

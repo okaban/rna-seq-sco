@@ -48,7 +48,7 @@ def _load_pileup(sample, mod_code=None):
 def fig_s1_qc():
     """S1: QC — coverage distribution and replicate reproducibility."""
     apply_style()
-    fig, axes = plt.subplots(2, 2, figsize=(mm_to_inch(180), mm_to_inch(160)))
+    fig, axes = plt.subplots(2, 2, figsize=(mm_to_inch(174), mm_to_inch(160)))
 
     # Panel A: Coverage distribution per sample (4mC sites)
     ax = axes[0, 0]
@@ -149,7 +149,7 @@ def fig_s2_all_meme_motifs():
     n_6ma = len(meme_6ma)
     n_rows = max(n_4mc, n_6ma)
 
-    fig, axes = plt.subplots(n_rows, 2, figsize=(mm_to_inch(180), mm_to_inch(40 * n_rows)))
+    fig, axes = plt.subplots(n_rows, 2, figsize=(mm_to_inch(174), mm_to_inch(40 * n_rows)))
     nuc_colors = {'A': '#43A047', 'C': '#1565C0', 'G': '#FFA000', 'T': '#E53935'}
 
     for i in range(n_rows):
@@ -204,7 +204,7 @@ def fig_s3_rebase_heatmap():
     mat['total'] = mat.sum(axis=1)
     mat = mat.sort_values('total', ascending=False).drop(columns='total')
 
-    fig, ax = plt.subplots(figsize=(mm_to_inch(180), mm_to_inch(280)))
+    fig, ax = plt.subplots(figsize=(mm_to_inch(174), mm_to_inch(280)))
 
     cmap = LinearSegmentedColormap.from_list('binary', ['#FFFFFF', '#1565C0'], N=2)
     sns.heatmap(mat, cmap=cmap, cbar=False, linewidths=0.3, linecolor='#E0E0E0',
@@ -280,7 +280,7 @@ def fig_s5_sc_rs17645_homology():
     df_fold = pd.read_csv(
         EPIGENOME / '13_sc_rs17645_analysis' / 'foldseek_structural_homologs.csv')
 
-    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(mm_to_inch(180), mm_to_inch(200)))
+    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(mm_to_inch(174), mm_to_inch(200)))
 
     # Panel A: BLAST top hits
     df_b = df_blast.head(15).copy()
@@ -439,7 +439,7 @@ def fig_s8_composition_correction():
         '02_TF_BS_methylation_260207_v1' / 'tables' /
         'BS_methylation_composition_correction.csv')
 
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(mm_to_inch(180), mm_to_inch(100)))
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(mm_to_inch(174), mm_to_inch(100)))
 
     # Panel A: Fold enrichment by method and mod type
     methods = df['Method'].values
@@ -487,7 +487,7 @@ def fig_s9_promoter_methylation():
     df_tss = load_tss_jeong2016()
     df_unique = load_methylation_unique_positions()
 
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(mm_to_inch(180), mm_to_inch(90)))
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(mm_to_inch(174), mm_to_inch(90)))
 
     for ax, mod, color, label in [(ax1, '4mC', COL_4mC, '4mC'),
                                    (ax2, '6mA', COL_6mA, '6mA')]:
@@ -537,7 +537,7 @@ def fig_s10_methylation_vs_expression():
     apply_style()
     df = load_integrated_expression()
 
-    fig, axes = plt.subplots(1, 3, figsize=(mm_to_inch(180), mm_to_inch(80)))
+    fig, axes = plt.subplots(1, 3, figsize=(mm_to_inch(174), mm_to_inch(80)))
 
     comparisons = [
         ('log2FC_T2vsT1', 'T2 vs T1'),
@@ -604,7 +604,7 @@ def fig_s11_bs_overlap_detail():
         print('  No overlaps found, skipping S11')
         return
 
-    fig, ax = plt.subplots(figsize=(mm_to_inch(180), mm_to_inch(100)))
+    fig, ax = plt.subplots(figsize=(mm_to_inch(174), mm_to_inch(100)))
 
     # Summary: overlaps per TF
     tf_counts = df.groupby('TF_name').size().sort_values(ascending=True)

@@ -224,7 +224,7 @@ def main():
     counts_6ma = counts_6ma.reindex([m for m in order_6ma if m in counts_6ma.index])
 
     # Create figure — 2 rows × 3 columns layout
-    fig = plt.figure(figsize=(mm_to_inch(180), mm_to_inch(160)))
+    fig = plt.figure(figsize=(mm_to_inch(174), mm_to_inch(160)))
     gs = GridSpec(2, 3, figure=fig, hspace=0.5, wspace=0.35,
                   height_ratios=[1, 1.1], width_ratios=[1, 1, 1])
 

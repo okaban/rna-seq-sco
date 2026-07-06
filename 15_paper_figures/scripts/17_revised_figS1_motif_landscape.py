@@ -208,7 +208,7 @@ def main():
     df_4mc, df_6ma = load_methylation_census()
 
     # ── Figure layout ────────────────────────────────────────────────────────
-    fig = plt.figure(figsize=(mm_to_inch(180), mm_to_inch(235)))
+    fig = plt.figure(figsize=(mm_to_inch(174), mm_to_inch(235)))
 
     outer = gridspec.GridSpec(
         3, 1, figure=fig,

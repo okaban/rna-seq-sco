@@ -17,6 +17,8 @@ import matplotlib.pyplot as plt
 
 sys.path.insert(0, str(Path(__file__).parent))
 from shared_utils_local import apply_style, add_panel_label, save_figure, FIG_SUP_DIR
+from importlib import import_module as _im
+mm_to_inch = _im('00_shared_utils').mm_to_inch
 
 WINDOW_DIR = Path('/Users/okaban/bioinfo/rna-seq/11_epigenome_integration/analysis/63_window_methylation')
 TABLES = WINDOW_DIR / 'tables'
@@ -38,17 +40,17 @@ TP_LABELS = {'T1': 'T1 (12 h)', 'T2': 'T2 (24 h)', 'T3': 'T3 (50 h)'}
 MOD_COLORS = {'4mC': '#E53935', '6mA': '#1565C0'}
 
 # ── Figure layout ─────────────────────────────────────────────────────────────
-fig = plt.figure(figsize=(16, 12))
-gs = fig.add_gridspec(3, 2, hspace=0.45, wspace=0.35,
+fig = plt.figure(figsize=(mm_to_inch(174), mm_to_inch(214)))  # NAR full-width
+gs = fig.add_gridspec(3, 2, hspace=0.55, wspace=0.30,
                       height_ratios=[2.5, 2.5, 2.0])
 
 # Helper: shade arm regions
 def shade_arms(ax):
     ax.axvspan(0, ARM_LEFT, color='#CFD8DC', alpha=0.3, zorder=0)
     ax.axvspan(ARM_RIGHT, GENOME_MB, color='#CFD8DC', alpha=0.3, zorder=0)
-    ax.text(ARM_LEFT / 2, ax.get_ylim()[1] * 0.92, 'arm', ha='center', fontsize=7, color='gray')
-    ax.text((ARM_RIGHT + GENOME_MB) / 2, ax.get_ylim()[1] * 0.92, 'arm', ha='center', fontsize=7, color='gray')
-    ax.text((ARM_LEFT + ARM_RIGHT) / 2, ax.get_ylim()[1] * 0.92, 'core', ha='center', fontsize=7, color='gray')
+    ax.text(ARM_LEFT / 2, ax.get_ylim()[1] * 0.92, 'arm', ha='center', fontsize=6, color='gray')
+    ax.text((ARM_RIGHT + GENOME_MB) / 2, ax.get_ylim()[1] * 0.92, 'arm', ha='center', fontsize=6, color='gray')
+    ax.text((ARM_LEFT + ARM_RIGHT) / 2, ax.get_ylim()[1] * 0.92, 'core', ha='center', fontsize=6, color='gray')
 
 def plot_density_panel(ax, df, mod, title, panel_label):
     x = df['center'].values / 1e6
@@ -56,9 +58,9 @@ def plot_density_panel(ax, df, mod, title, panel_label):
         y = df[f'density_{tp}'].values
         ax.plot(x, y, color=TP_COLORS[tp], linewidth=1.2, label=TP_LABELS[tp])
         ax.fill_between(x, y, alpha=0.12, color=TP_COLORS[tp])
-    ax.set_ylabel('Sites per kb', fontsize=10)
-    ax.set_title(f'{mod} methylation density', fontsize=11)
-    ax.legend(fontsize=8, loc='upper right')
+    ax.set_ylabel('Sites per kb', fontsize=7)
+    ax.set_title(f'{mod} methylation density', fontsize=8)
+    ax.legend(fontsize=6, loc='upper right')
     ax.set_xlim(0, GENOME_MB)
     ax.set_ylim(bottom=0)
     shade_arms(ax)
@@ -70,8 +72,8 @@ def plot_delta_panel(ax, df, mod, panel_label):
     colors = ['#C62828' if v > 0 else '#1565C0' for v in delta]
     ax.bar(x, delta, width=WINDOW_MB * 0.85, color=colors, alpha=0.8)
     ax.axhline(0, color='black', linewidth=0.7)
-    ax.set_ylabel('Δ density (T3−T1)', fontsize=10)
-    ax.set_title(f'{mod} density change (T3−T1)', fontsize=11)
+    ax.set_ylabel('Δ density (T3−T1)', fontsize=7)
+    ax.set_title(f'{mod} density change (T3−T1)', fontsize=8)
     ax.set_xlim(0, GENOME_MB)
     shade_arms(ax)
     add_panel_label(ax, panel_label)
@@ -88,7 +90,7 @@ plot_delta_panel(ax_4mc_del, df_4mc, '4mC', 'c')
 plot_delta_panel(ax_6ma_del, df_6ma, '6mA', 'd')
 
 for ax in [ax_4mc_del, ax_6ma_del]:
-    ax.set_xlabel('Genomic position (Mb)', fontsize=10)
+    ax.set_xlabel('Genomic position (Mb)', fontsize=7)
 # Refresh arm shading after ylim is set
 for ax, df, mod in [(ax_4mc_dens, df_4mc, '4mC'), (ax_6ma_dens, df_6ma, '6mA')]:
     shade_arms(ax)
@@ -119,13 +121,13 @@ for (mod, region), offset, label, color, alpha, hatch in zip(combos, offsets, la
               color=color, alpha=alpha, hatch=hatch, edgecolor='white')
 
 ax_ca.set_xticks(tp_x)
-ax_ca.set_xticklabels(['T1 (12 h)', 'T2 (24 h)', 'T3 (50 h)'], fontsize=10)
-ax_ca.set_ylabel('Mean density (sites/kb)', fontsize=11)
-ax_ca.set_title('Methylation density: core vs arm regions', fontsize=12)
-ax_ca.legend(fontsize=8, ncol=4, loc='upper right', framealpha=0.9)
+ax_ca.set_xticklabels(['T1 (12 h)', 'T2 (24 h)', 'T3 (50 h)'], fontsize=7)
+ax_ca.set_ylabel('Mean density (sites/kb)', fontsize=8)
+ax_ca.set_title('Methylation density: core vs arm regions', fontsize=8)
+ax_ca.legend(fontsize=6, ncol=4, loc='upper right', framealpha=0.9)
 add_panel_label(ax_ca, 'e')
 
 fig.suptitle('Figure S15: Genome-wide methylation density dynamics (50 kb windows)',
-             fontsize=13, fontweight='bold', y=1.01)
+             fontsize=9, fontweight='bold', y=1.01)
 
 save_figure(fig, FIG_SUP_DIR / 'FigS15_window_methylation.pdf')

@@ -415,7 +415,7 @@ def main():
 
 
     # Layout: 2×2 with panel A full-width top
-    fig = plt.figure(figsize=(mm_to_inch(180), mm_to_inch(240)))
+    fig = plt.figure(figsize=(mm_to_inch(174), mm_to_inch(240)))
 
     gs = fig.add_gridspec(3, 2, height_ratios=[1.0, 1.0, 1.2],
                           hspace=0.45, wspace=0.40,

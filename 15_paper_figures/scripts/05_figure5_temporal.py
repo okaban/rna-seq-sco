@@ -283,7 +283,7 @@ def main():
     apply_style()
     print('=== Figure 5: Temporal Dynamics ===')
 
-    fig = plt.figure(figsize=(mm_to_inch(180), mm_to_inch(180)))
+    fig = plt.figure(figsize=(mm_to_inch(174), mm_to_inch(180)))
 
     # Layout: top row 2 panels, bottom row full-width browser track
     gs = GridSpec(2, 2, figure=fig, hspace=0.45, wspace=0.45,

@@ -15,6 +15,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
+def mm_to_inch(mm):  # NAR width helper
+    return mm / 25.4
+
 BASE = Path('/Users/okaban/bioinfo/rna-seq')
 SITES = BASE / '11_epigenome_integration/analysis/37_defense_island_GCCGGC/tables/GCCGGC_sites_by_timepoint.tsv'
 OUT_MAIN = BASE / '15_paper_figures/figures/main/Figure1_GCCGGC_arm_distribution.png'
@@ -59,7 +62,7 @@ def main() -> None:
     OUT_TABLE.parent.mkdir(parents=True, exist_ok=True)
     summary.to_csv(OUT_TABLE, sep='\t', index=False)
 
-    fig, axes = plt.subplots(1, 2, figsize=(8.4, 3.6))
+    fig, axes = plt.subplots(1, 2, figsize=(mm_to_inch(174), mm_to_inch(75)))  # NAR full-width
     x = np.arange(len(TIMEPOINTS))
     width = 0.38
 
@@ -76,7 +79,7 @@ def main() -> None:
         ax.set_xticks(x)
         ax.set_xticklabels(TP_LABELS)
         ax.set_ylabel(ylabel)
-        ax.set_title(title, fontsize=10)
+        ax.set_title(title, fontsize=7)
         ax.spines['top'].set_visible(False)
         ax.spines['right'].set_visible(False)
         ymax = max(frame.values.max(), 1)
@@ -88,12 +91,12 @@ def main() -> None:
                     continue
                 label = f'{int(h)}' if h >= 5 else f'{h:.1f}'
                 ax.text(rect.get_x() + rect.get_width() / 2, h, label,
-                        ha='center', va='bottom', fontsize=8)
+                        ha='center', va='bottom', fontsize=6)
 
-    axes[0].legend(loc='upper right', frameon=False, fontsize=8)
+    axes[0].legend(loc='upper right', frameon=False, fontsize=6)
 
     fig.suptitle('GCCGGC 4mC sites — core vs arm across timepoints',
-                 fontsize=11, y=1.02)
+                 fontsize=8, y=1.02)
     fig.tight_layout()
 
     OUT_MAIN.parent.mkdir(parents=True, exist_ok=True)

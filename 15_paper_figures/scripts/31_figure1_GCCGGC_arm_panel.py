@@ -171,7 +171,7 @@ def main():
     print()
 
     # Two sub-panels (independent y-scales — densities differ by ~5x)
-    fig, axes = plt.subplots(1, 2, figsize=(mm_to_inch(180), mm_to_inch(80)),
+    fig, axes = plt.subplots(1, 2, figsize=(mm_to_inch(174), mm_to_inch(80)),
                              gridspec_kw={'wspace': 0.35})
 
     print('Drawing GCCGGC sub-panel...')

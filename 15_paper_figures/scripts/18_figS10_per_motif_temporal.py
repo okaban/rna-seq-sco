@@ -164,7 +164,7 @@ def main():
         'transition_group_expression.tsv', sep='\t')
 
     # ── Figure layout ─────────────────────────────────────────────────────────
-    fig = plt.figure(figsize=(mm_to_inch(180), mm_to_inch(200)))
+    fig = plt.figure(figsize=(mm_to_inch(174), mm_to_inch(200)))
     outer = gridspec.GridSpec(2, 1, figure=fig, hspace=0.55,
                               left=0.09, right=0.97, top=0.96, bottom=0.06)
 

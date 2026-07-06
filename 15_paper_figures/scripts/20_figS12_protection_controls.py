@@ -197,7 +197,7 @@ def main():
     print(f'Subcategories: {df_subcat["reg_subtype"].unique().tolist()}')
 
     # ── Figure layout ─────────────────────────────────────────────────────────
-    fig = plt.figure(figsize=(mm_to_inch(180), mm_to_inch(190)))
+    fig = plt.figure(figsize=(mm_to_inch(174), mm_to_inch(190)))
     gs = gridspec.GridSpec(2, 4, figure=fig,
                            hspace=0.50, wspace=0.50,
                            left=0.09, right=0.97, top=0.96, bottom=0.07)

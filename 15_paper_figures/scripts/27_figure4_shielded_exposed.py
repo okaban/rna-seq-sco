@@ -213,7 +213,7 @@ def main():
     df_quintile = load_expression_quintile()
 
     # Figure layout: 1 row × 3 panels, 180 × 75 mm
-    fig, axes = plt.subplots(1, 3, figsize=(mm_to_inch(180), mm_to_inch(78)))
+    fig, axes = plt.subplots(1, 3, figsize=(mm_to_inch(174), mm_to_inch(78)))
     fig.subplots_adjust(left=0.09, right=0.97, top=0.88, bottom=0.20, wspace=0.50)
 
     print('Drawing Panel A: Violin plot (Shielded vs Exposed)...')

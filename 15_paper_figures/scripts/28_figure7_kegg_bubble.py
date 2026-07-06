@@ -205,7 +205,7 @@ def main():
     # Layout: bubble + 2 separate legend boxes on the right margin.
     # Wider canvas + larger left margin so full (2-line) pathway names fit and
     # the three motif columns are well separated; right band holds the legends.
-    fig = plt.figure(figsize=(mm_to_inch(210), mm_to_inch(120)))
+    fig = plt.figure(figsize=(mm_to_inch(174), mm_to_inch(120)))  # NAR full-width
     ax = fig.add_axes([0.30, 0.20, 0.46, 0.70])
 
     draw_bubble(ax, df_long, pids)

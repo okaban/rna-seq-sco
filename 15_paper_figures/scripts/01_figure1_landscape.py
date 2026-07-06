@@ -486,7 +486,7 @@ def main():
     #   Row 1: Panel A (linear genome, full width)
     #   Row 2: Panel B (site counts, left) + Panel C (genomic dist, right)
     #   Row 3: Panel D (logos, full width — two sub-axes)
-    fig = plt.figure(figsize=(mm_to_inch(180), mm_to_inch(250)))
+    fig = plt.figure(figsize=(mm_to_inch(174), mm_to_inch(250)))
 
     # Panel A: Linear genome (top, full width)
     ax_a = fig.add_axes([0.12, 0.62, 0.85, 0.34])

@@ -18,6 +18,8 @@ import matplotlib.pyplot as plt
 
 sys.path.insert(0, str(Path(__file__).parent))
 from shared_utils_local import apply_style, add_panel_label, save_figure, FIG_SUP_DIR
+from importlib import import_module as _im
+mm_to_inch = _im('00_shared_utils').mm_to_inch
 
 # === Data paths ===
 RELIABILITY_DIR = Path('/Users/okaban/bioinfo/rna-seq/11_epigenome_integration/analysis/61_motif_reliability')
@@ -48,7 +50,7 @@ gcc_counts['pct'] = gcc_counts['count'] / gcc_total * 100
 pos_labels_gcc = {0:'G(0)', 1:'C(1)', 2:'C(2)', 3:'G(3)', 4:'G(4)', 5:'C(5)'}
 
 # ── Figure layout ─────────────────────────────────────────────────────────────
-fig, axes = plt.subplots(2, 2, figsize=(11, 9))
+fig, axes = plt.subplots(2, 2, figsize=(mm_to_inch(174), mm_to_inch(150)))  # NAR full-width
 axes = axes.flatten()
 
 # --- Panel a ---
@@ -60,17 +62,17 @@ bars = ax.bar(x, y, color=bar_colors, edgecolor='white', linewidth=0.5)
 for bar, pct in zip(bars, y):
     if pct > 2:
         ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 0.5,
-                f'{pct:.0f}%', ha='center', va='bottom', fontsize=9)
+                f'{pct:.0f}%', ha='center', va='bottom', fontsize=6)
 ax.set_xticks(x)
 pos_aag_label = {0: 'A (pos 0)\n1st A', 1: 'A (pos 1)\n2nd A', 2: 'G (pos 2)'}
-ax.set_xticklabels([pos_aag_label.get(p, str(p)) for p in x], fontsize=9)
-ax.set_ylabel('% of methylated sites', fontsize=11)
-ax.set_title('AAGCCCG: methylated position in motif', fontsize=11)
+ax.set_xticklabels([pos_aag_label.get(p, str(p)) for p in x], fontsize=6)
+ax.set_ylabel('% of methylated sites', fontsize=8)
+ax.set_title('AAGCCCG: methylated position in motif', fontsize=8)
 ax.set_ylim(0, max(y) * 1.2)
-ax.set_xlabel('Position in AAGCCCG', fontsize=10)
+ax.set_xlabel('Position in AAGCCCG', fontsize=7)
 # Motif label
 ax.text(0.5, 0.95, 'AAGCCCG', transform=ax.transAxes,
-        ha='center', va='top', fontsize=12, fontfamily='monospace',
+        ha='center', va='top', fontsize=8, fontfamily='monospace',
         color='#7E57C2', fontweight='bold')
 add_panel_label(ax, 'a')
 
@@ -84,16 +86,16 @@ bars = ax.bar(x, y, color=bar_colors, edgecolor='white', linewidth=0.5)
 for bar, pct in zip(bars, y):
     if pct > 2:
         ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 0.5,
-                f'{pct:.0f}%', ha='center', va='bottom', fontsize=9)
+                f'{pct:.0f}%', ha='center', va='bottom', fontsize=6)
 ax.set_xticks(x)
 pos_gcc_label = {0: 'G(0)', 1: 'C(1)', 2: 'C(2)', 3: 'G(3)\n[C RC]', 4: 'G(4)', 5: 'C(5)'}
-ax.set_xticklabels([pos_gcc_label.get(p, str(p)) for p in x], fontsize=9)
-ax.set_ylabel('% of methylated sites', fontsize=11)
-ax.set_title('GCCGGC: methylated position in motif', fontsize=11)
+ax.set_xticklabels([pos_gcc_label.get(p, str(p)) for p in x], fontsize=6)
+ax.set_ylabel('% of methylated sites', fontsize=8)
+ax.set_title('GCCGGC: methylated position in motif', fontsize=8)
 ax.set_ylim(0, max(y) * 1.2)
-ax.set_xlabel('Position in GCCGGC', fontsize=10)
+ax.set_xlabel('Position in GCCGGC', fontsize=7)
 ax.text(0.5, 0.95, 'GCCGGC (palindrome)', transform=ax.transAxes,
-        ha='center', va='top', fontsize=12, fontfamily='monospace',
+        ha='center', va='top', fontsize=8, fontfamily='monospace',
         color='#E53935', fontweight='bold')
 add_panel_label(ax, 'b')
 
@@ -117,10 +119,10 @@ for i, motif in enumerate(motifs):
                     f'{v:.1f}%', ha='center', va='bottom', fontsize=7.5)
 
 ax.set_xticks(x + width)
-ax.set_xticklabels(tp_labels, fontsize=9)
-ax.set_ylabel('Motif occupancy (%)', fontsize=11)
-ax.set_title('R-M recognition site occupancy\n(methylated / total genomic occurrences)', fontsize=10)
-ax.legend(fontsize=9)
+ax.set_xticklabels(tp_labels, fontsize=6)
+ax.set_ylabel('Motif occupancy (%)', fontsize=8)
+ax.set_title('R-M recognition site occupancy\n(methylated / total genomic occurrences)', fontsize=7)
+ax.legend(fontsize=6)
 add_panel_label(ax, 'c')
 
 # --- Panel d: 6mA motif assignment ---
@@ -146,19 +148,19 @@ for cat, label, color in zip(cats, cat_labels, cat_colors):
     for j, (bar, v, b) in enumerate(zip(bars, vals, bottoms)):
         if v > 5:
             ax.text(j, b + v / 2, f'{v:.0f}%', ha='center', va='center',
-                    fontsize=9, color='white' if color not in ['#B0BEC5'] else '#37474F',
+                    fontsize=6, color='white' if color not in ['#B0BEC5'] else '#37474F',
                     fontweight='bold')
     bottoms += np.array(vals)
 
 ax.set_xticks(range(len(tp_order2)))
-ax.set_xticklabels(tp_labels2, fontsize=9)
-ax.set_ylabel('% of 6mA sites', fontsize=11)
+ax.set_xticklabels(tp_labels2, fontsize=6)
+ax.set_ylabel('% of 6mA sites', fontsize=8)
 ax.set_ylim(0, 105)
-ax.set_title('6mA site motif assignment by timepoint', fontsize=11)
-ax.legend(loc='upper left', fontsize=9, framealpha=0.8)
+ax.set_title('6mA site motif assignment by timepoint', fontsize=8)
+ax.legend(loc='upper left', fontsize=6, framealpha=0.8)
 add_panel_label(ax, 'd')
 
 plt.tight_layout(rect=[0, 0, 1, 0.97])
-fig.suptitle('Figure S14: R-M recognition motif characterization', fontsize=13, fontweight='bold')
+fig.suptitle('Figure S14: R-M recognition motif characterization', fontsize=9, fontweight='bold')
 
 save_figure(fig, FIG_SUP_DIR / 'FigS14_motif_reliability.pdf')

@@ -444,7 +444,7 @@ def main():
         'all_genes_features_unified_n57.tsv', sep='\t')
 
     # Create figure: 180mm × 210mm
-    fig = plt.figure(figsize=(mm_to_inch(180), mm_to_inch(210)))
+    fig = plt.figure(figsize=(mm_to_inch(174), mm_to_inch(210)))
 
     gs = fig.add_gridspec(2, 12, hspace=0.45, wspace=1.2,
                           left=0.08, right=0.97, top=0.95, bottom=0.05,

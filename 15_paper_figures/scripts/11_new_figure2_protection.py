@@ -169,7 +169,7 @@ def main():
 
     # Create figure: 180mm × 150mm. Row 1 = (a) heatmap (full width);
     # Row 2 = (b) TFBS profile + (c) expression-independence.
-    fig = plt.figure(figsize=(mm_to_inch(180), mm_to_inch(150)))
+    fig = plt.figure(figsize=(mm_to_inch(174), mm_to_inch(150)))
 
     gs = fig.add_gridspec(2, 12, hspace=0.55, wspace=1.4,
                           left=0.08, right=0.95, top=0.92, bottom=0.10,

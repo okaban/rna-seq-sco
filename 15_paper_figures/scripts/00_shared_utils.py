@@ -102,14 +102,85 @@ def add_panel_label(ax, label, x=-0.12, y=1.08, fontsize=14):
             fontsize=fontsize, fontweight='bold', va='top', ha='left')
 
 
-def save_figure(fig, path, formats=('pdf', 'svg')):
-    """Save figure in multiple formats."""
+# ── NAR figure width limits (mm → inch) ──────────────────────────────────────
+# Nucleic Acids Research column widths: single 86 mm, intermediate 120 mm,
+# full 174 mm. A figure MUST NOT exceed its width class or the journal
+# down-scales it, crushing fonts. save_figure() below enforces the ceiling.
+NAR_WIDTH_MM = {'single': 86, 'intermediate': 120, 'full': 174}
+
+
+def save_figure(fig, path, formats=('pdf', 'svg'), width_class='full', clamp=True):
+    """Save figure at a NAR-compliant physical width (no silent tight re-expansion).
+
+    IMPORTANT — why this does NOT use bbox_inches='tight':
+    matplotlib's `tight` re-crops the canvas to the CONTENT bounding box and so
+    IGNORES the declared figsize. A figure declared at 174 mm whose content spans
+    more is re-expanded past the NAR full-width limit (that is how Figure1/2/8
+    came out at 7.1-7.4"). To honour the declared/clamped width we save with the
+    figsize as-is and clear rcParams['savefig.bbox'] for the duration of the save
+    (passing bbox_inches=None alone is a no-op — print_figure defers None to the
+    rcParam, which apply_style() sets to 'tight').
+
+    width_class : 'single' | 'intermediate' | 'full' — NAR column ceiling.
+    clamp       : if True and the figure is wider than the ceiling, scale the
+                  whole figure down (aspect preserved) so width == ceiling.
+                  Figures already within the ceiling are left untouched.
+
+    If content genuinely overruns the clamped width (axis-external labels, wide
+    legends, suptitles placed outside the axes), it will clip — that is the
+    signal to tighten the layout in-script, not to let tight hide it. For a
+    guaranteed-no-clip PNG fallback see save_figure_raster().
+    """
+    ceiling = mm_to_inch(NAR_WIDTH_MM[width_class])
+    w, h = fig.get_size_inches()
+    if clamp and w > ceiling + 1e-6:
+        fig.set_size_inches(ceiling, h * ceiling / w)
+        w, h = fig.get_size_inches()
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
-    for fmt in formats:
-        out = path.with_suffix(f'.{fmt}')
-        fig.savefig(out, format=fmt, dpi=300, bbox_inches='tight')
-        print(f'  Saved: {out}')
+    prev_bbox = plt.rcParams['savefig.bbox']
+    plt.rcParams['savefig.bbox'] = None
+    try:
+        for fmt in formats:
+            out = path.with_suffix(f'.{fmt}')
+            fig.savefig(out, format=fmt, dpi=300, bbox_inches=None, pad_inches=0)
+            print(f'  Saved: {out}  (width={w:.2f}" <= {ceiling:.2f}" [{width_class}])')
+    finally:
+        plt.rcParams['savefig.bbox'] = prev_bbox
+    plt.close(fig)
+
+
+def save_figure_raster(fig, path, width_class='full', dpi=300):
+    """Guaranteed-no-clip PNG save at NAR width (raster-fit fallback).
+
+    Renders with bbox_inches='tight' (full content preserved, no clipping), then
+    if the rendered width exceeds the NAR ceiling downscales the RASTER to exactly
+    the ceiling width (Lanczos, aspect preserved; never upscales). Use for figures
+    whose layout places content outside the axes box and cannot be quickly
+    reflowed. PNG only — for vector output use save_figure() and fix the layout.
+    """
+    from PIL import Image
+    target_px = round(mm_to_inch(NAR_WIDTH_MM[width_class]) * dpi)
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    out = path.with_suffix('.png')
+    tmp = str(out) + '.__tight.png'
+    prev_bbox = plt.rcParams['savefig.bbox']
+    plt.rcParams['savefig.bbox'] = 'tight'
+    try:
+        fig.savefig(tmp, dpi=dpi, bbox_inches='tight')
+    finally:
+        plt.rcParams['savefig.bbox'] = prev_bbox
+    im = Image.open(tmp)
+    w, h = im.size
+    scaled = w > target_px
+    if scaled:
+        im = im.resize((target_px, round(h * target_px / w)), Image.LANCZOS)
+    im.convert('RGB').save(out, dpi=(dpi, dpi))
+    Path(tmp).unlink(missing_ok=True)
+    print(f"  Saved: {out}  (width={im.size[0] / dpi:.2f}\" <= "
+          f"{mm_to_inch(NAR_WIDTH_MM[width_class]):.2f}\" [{width_class}], "
+          f"{'downscaled' if scaled else 'native'})")
     plt.close(fig)
 
 
