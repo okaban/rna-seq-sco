@@ -1,0 +1,834 @@
+accession	organism_name	strain
+GCF_000009765.2	Streptomyces avermitilis MA-4680 = NBRC 14893	MA-4680
+GCF_000092385.1	Streptomyces bingchenggensis BCW-1	BCW-1
+GCF_000158915.1	Streptomyces himastatinicus ATCC 53653	ATCC 53653
+GCF_000261345.2	Streptomyces globisporus C-1027	C-1027
+GCF_000342345.1	Streptomyces gancidicus BKS 13-15	BKS 13-15
+GCF_000349325.1	Streptomyces davaonensis JCM 4913	JCM 4913
+GCF_000376565.1	Streptomyces hokutonensis	R1-NS-10
+GCF_000383595.1	Streptomyces bottropensis ATCC 25435	ATCC 25435
+GCF_000429085.1	Streptomyces flavidovirens DSM 40150	DSM 40150
+GCF_000715845.1	Streptomyces monomycini	NRRL B-24309
+GCF_000716025.1	Streptomyces baarnensis	NRRL B-2842
+GCF_000716525.1	Streptomyces graminis	NRRL B-1570
+GCF_000716625.1	Streptomyces bikiniensis	NRRL ISP-5580
+GCF_000716675.1	Streptomyces alboflavus	NRRL B-2373
+GCF_000716845.1	Streptomyces capuensis	NRRL B-12337
+GCF_000716935.1	Streptomyces alboviridis	NRRL B-1579
+GCF_000717595.1	Streptomyces flavochromogenes	NRRL B-2684
+GCF_000718015.1	Streptomyces catenulae	NRRL B-2342
+GCF_000718165.1	Streptomyces fulvoviolaceus	NRRL B-2870
+GCF_000718625.1	Streptomyces lavenduligriseus	NRRL ISP-5487
+GCF_000718985.1	Streptomyces megasporus	NRRL B-16372
+GCF_000719135.1	Streptomyces avicenniae	NRRL B-24776
+GCF_000719285.1	Streptomyces bicolor	NRRL B-5348
+GCF_000720475.1	Streptomyces aureocirculatus	NRRL ISP-5386
+GCF_000720995.1	Streptomyces celluloflavus	NRRL B-2493
+GCF_000721185.1	Streptomyces griseolus	NRRL B-2925
+GCF_000721685.1	Streptomyces mediolani	NRRL WC-3934
+GCF_000725475.1	Streptomyces durhamensis	NRRL B-3309
+GCF_000725545.1	Streptomyces exfoliatus	NRRL B-2924
+GCF_000725785.1	Streptomyces flavovariabilis	NRRL B-16367
+GCF_000739105.1	Streptomyces lividans TK24	TK24
+GCF_000829715.2	Streptomyces lydicamycinicus	TP-A0598
+GCF_000931445.1	Streptomyces cyaneogriseus subsp. noncyanogenus	NMWT 1
+GCF_000966975.1	Streptomyces katrae	NRRL ISP-5550
+GCF_000968685.2	Streptomyces antioxidans	MUSC 164
+GCF_000974985.2	Streptomyces mangrovisoli	MUSC 149
+GCF_000980885.2	Streptomyces malaysiense	MUSC 136
+GCF_001005085.2	Streptomyces humi	MUSC 119
+GCF_001013905.1	Streptomyces leeuwenhoekii	type strain (C34 = DSM 42122 = NRRL B-24963)
+GCF_001027185.1	Streptomyces incarnatus	NRRL 8089
+GCF_001184025.1	Streptomyces maremycinicus	NBRC 110468
+GCF_001187435.1	Streptomyces caatingaensis	CMAA 1322
+GCF_001267885.1	Streptomyces ambofaciens ATCC 23877	ATCC 23877
+GCF_001270025.1	Streptomyces azureus	ATCC 14921
+GCF_001294335.1	Streptomyces chattanoogensis	NRRL ISP-5002
+GCF_001418325.1	Streptomyces atriruber	NRRL B-24165
+GCF_001418565.1	Streptomyces graminilatus	NRRL B-59124
+GCF_001418625.1	Streptomyces luridiscabiei	NRRL B-24455
+GCF_001434355.1	Streptomyces anulatus	ATCC 11523
+GCF_001513965.1	Streptomyces cellostaticus	DSM 40189
+GCF_001513975.1	Streptomyces curacoi	DSM 40107
+GCF_001514055.1	Streptomyces corchorusii	DSM 40340
+GCF_001514125.1	Streptomyces longwoodensis	DSM 41677
+GCF_001514205.1	Streptomyces griseoruber	DSM 40281
+GCF_001514215.1	Streptomyces bungoensis	DSM 41781
+GCF_001514235.1	Streptomyces caeruleatus	NRRL B-24802
+GCF_001514305.1	Streptomyces dysideae	RV15
+GCF_001542625.1	Streptomyces griseochromogenes	ATCC 14511
+GCF_001642695.1	Streptomyces chilikensis	RC 1830
+GCF_001642995.1	Streptomyces jeddahensis	G25
+GCF_001685355.1	Streptomyces lincolnensis	NRRL 2936
+GCF_001700515.1	Streptomyces lushanensis	NRRL B-24994
+GCF_001735805.1	Streptomyces fodineus	TW1S1
+GCF_001746455.1	Streptomyces agglomeratus	9-3-15
+GCF_001748305.1	Streptomyces luteocolor	NBRC 13826
+GCF_001751365.1	Streptomyces abyssalis	SCSIO 10390
+GCF_001866645.1	Streptomyces colonosanans	MUSC 93
+GCF_001866665.1	Streptomyces monashensis	MUSC 1
+GCF_001906585.1	Streptomyces kebangsaanensis	SUK12
+GCF_001953875.1	Streptomyces amritsarensis	MTCC 11845
+GCF_001984445.1	Streptomyces lydicus	GS93
+GCF_002082195.1	Streptomyces gilvosporeus	F607
+GCF_002150845.1	Streptomyces alboverticillatus	NRRL B-24281
+GCF_002154375.1	Streptomyces glaucescens	NRRL B-2706
+GCF_002154385.1	Streptomyces albovinaceus	NRRL B-2566
+GCF_002154505.1	Streptomyces carpinensis	NRRL B-16921
+GCF_002214185.1	Streptomyces capitiformicae	1H-SSA4
+GCF_002217755.1	Streptomyces hyaluromycini	NBRC 110483
+GCF_002242805.1	Streptomyces diastatochromogenes	DSM 40608
+GCF_002261115.1	Streptomyces kasugaensis	BCRC 12349
+GCF_002794255.1	Streptomyces carminius	TRM SA0054
+GCF_002803845.1	Streptomyces lavendulae subsp. lavendulae	CCM 3239
+GCF_002843305.1	Streptomyces barkulensis	RC 1831
+GCF_002891295.1	Streptomyces eurocidicus	ATCC 27428
+GCF_002891435.1	Streptomyces cahuitamycinicus	13K301
+GCF_002939475.1	Streptomyces cinnamoneus	DSM 41675
+GCF_002946835.1	Streptomyces dengpaensis	XZHG99
+GCF_002954775.1	Streptomyces geranii	A301
+GCF_003024195.1	Streptomyces dioscori	A217
+GCF_003054555.1	Streptomyces lunaelactis	MM109
+GCF_003112515.1	Streptomyces fragilis	NBRC 12862
+GCF_003112575.1	Streptomyces ardesiacus	NBRC 15402
+GCF_003261055.1	Streptomyces cadmiisoli	ZFG47
+GCF_003323715.1	Streptomyces diacarni	LHW51701
+GCF_003330865.1	Streptomyces atratus	SCSIO_ZH16
+GCF_003346515.1	Streptomyces corynorhini	AC230
+GCF_003355155.1	Streptomyces armeniacus	ATCC 15676
+GCF_003428925.1	Streptomyces koyangensis	VK-A60T
+GCF_003595235.1	Streptomyces griseorubiginosus	3E-1
+GCF_003626535.1	Streptomyces hoynatensis	KCTC 29097
+GCF_003626645.1	Streptomyces klenkii	KCTC 29202
+GCF_003665435.1	Streptomyces fungicidicus	TXX3120
+GCF_003675325.1	Streptomyces dangxiongensis	Z022
+GCF_003721215.1	Streptomyces botrytidirepellens	NEAU-LD23
+GCF_003865135.1	Streptomyces chrestomyceticus JCM 4735	NBRC 13444
+GCF_003955715.1	Streptomyces aquilus	GGCR-6
+GCF_003963535.1	Streptomyces cyaneochromogenes	MK-45
+GCF_003970715.1	Streptomyces luteoverticillatus	CGMCC 15060
+GCF_004005495.1	Streptomyces antnestii	San01
+GCF_004023625.1	Streptomyces cavernae	SYSU K10008
+GCF_004028635.1	Streptomyces cyaneus	CGMCC 4.1671
+GCF_004348415.1	Streptomyces hainanensis	DSM 41900
+GCF_004784475.1	Streptomyces bauhiniae	Bv016
+GCF_004803895.1	Streptomyces hawaiiensis	ATCC 12236
+GCF_005280195.1	Streptomyces galbus	DSM 40089
+GCF_005280215.1	Streptomyces lasalocidi	X-537
+GCF_005519465.1	Streptomyces clavuligerus	ATCC 27064
+GCF_005786655.1	Streptomyces montanus	NEAU-C151
+GCF_005795905.1	Streptomyces marianii	ICN19
+GCF_006334995.2	Streptomyces mimosae	3MP-10
+GCF_006539165.1	Streptomyces cacaoi	NBRC 12748
+GCF_006716135.1	Streptomyces calvus	DSM 41452
+GCF_006788935.1	Streptomyces cavourensis	DSM 41795
+GCF_007280585.1	Streptomyces benahoarensis	MZ03-48
+GCF_007829875.1	Streptomyces capillispiralis	DSM 41695
+GCF_007829885.1	Streptomyces brevispora	DSM 42059
+GCF_008369065.1	Streptomyces apricus	SUN51
+GCF_008634015.1	Streptomyces filamentosus	ATCC 23958
+GCF_008634025.1	Streptomyces albofaciens JCM 4342	ATCC 23873
+GCF_008704395.1	Streptomyces alboniger	ATCC 12461
+GCF_008704425.1	Streptomyces fradiae ATCC 10745 = DSM 40063	ATCC 10745
+GCF_008704495.1	Streptomyces kanamyceticus	ATCC 12853
+GCF_008704715.1	Streptomyces chartreusis	ATCC 14922
+GCF_008705135.1	Streptomyces coeruleorubidus	ATCC 13740
+GCF_008806595.1	Streptomyces luteolifulvus	HIT-DPA4
+GCF_008905045.1	Streptomyces albicerus	TRM68295
+GCF_008931305.1	Streptomyces coelicolor A3(2)	CFB_NBC_0001
+GCF_008932075.1	Streptomyces arboris	TRM68085
+GCF_008974245.1	Streptomyces abyssomicinicus	CHI39
+GCF_009299385.1	Streptomyces cinereoruber	ATCC 19740
+GCF_009377175.1	Streptomyces adustus	NBRC 109810
+GCF_009377235.1	Streptomyces acidicola	K1PN6
+GCF_009498275.1	Streptomyces fagopyri	QMT-28
+GCF_009569385.1	Streptomyces kaniharaensis	SF-557
+GCF_009600885.1	Streptomyces jumonjinensis	NRRL 5741
+GCF_009600895.1	Streptomyces katsurahamanus	T-272
+GCF_009709555.1	Streptomyces blattellae	TRM63209
+GCF_009735685.1	Streptomyces lycii	TRM 66187
+GCF_009739465.1	Streptomyces apocyni	TRM 66233
+GCF_009739905.1	Streptomyces ficellus	NRRL 8067
+GCF_009796285.1	Streptomyces broussonetiae	T44
+GCF_009811575.1	Streptomyces glebosus	NBRC 13786
+GCF_009908195.1	Streptomyces boluensis	YC537
+GCF_010669165.1	Streptomyces aureoverticillatus	HN6
+GCF_011044975.1	Streptomyces coryli	A7024
+GCF_011044995.1	Streptomyces mesophilus	YC504
+GCF_011045075.1	Streptomyces boncukensis	SB3404
+GCF_011694815.1	Streptomyces liangshanensis	QMT-12
+GCF_012033735.1	Streptomyces lonarensis	NCL716
+GCF_012033785.1	Streptomyces bohaiensis	11A07
+GCF_012034205.1	Streptomyces composti	SBST2-5
+GCF_013046785.1	Streptomyces argyrophylli	Jing01
+GCF_013364095.1	Streptomyces harbinensis	NA02264
+GCF_013364315.1	Streptomyces microflavus	NA06532
+GCF_013409565.1	Streptomyces fulvorobeus	DSM 41455
+GCF_013433285.1	Streptomyces gossypiisoli	TRM 44567
+GCF_013618545.1	Streptomyces alkaliterrae	OF8
+GCF_013870515.1	Streptomyces albidus (ex Kaewkla and Franco 2022)	CAP215
+GCF_013912435.1	Streptomyces himalayensis subsp. aureolus	PSKA54
+GCF_014141525.1	Streptomyces calidiresistens	DSM 42108
+GCF_014141535.1	Streptomyces alkaliphilus	DSM 42118
+GCF_014156695.1	Streptomyces durbertensis	DSM 104538
+GCF_014203595.1	Streptomyces echinatus	CECT 3313
+GCF_014205055.1	Streptomyces luteogriseus	DSM 40483
+GCF_014205255.1	Streptomyces caelestis	DSM 40084
+GCF_014252945.1	Streptomyces mexicanus	Marseille-Q0842
+GCF_014257025.1	Streptomyces cupreus	PSKA01
+GCF_014295035.1	Streptomyces buecherae	AC541
+GCF_014489615.1	Streptomyces genisteinicus	CRPJ-33
+GCF_014534645.1	Streptomyces griseicoloratus	TRM S81-3
+GCF_014645815.1	Streptomyces fuscichromogenes	CGMCC 4.7110
+GCF_014645835.1	Streptomyces albiflavescens	CGMCC 4.7111
+GCF_014645895.1	Streptomyces daqingensis	CGMCC 4.7178
+GCF_014646095.1	Streptomyces lacrimifluminis	CGMCC 4.7272
+GCF_014646115.1	Streptomyces camponoticapitis	CGMCC 4.7275
+GCF_014646275.1	Streptomyces kronopolitis	CGMCC 4.7323
+GCF_014646335.1	Streptomyces lasiicapitis	CGMCC 4.7349
+GCF_014647675.1	Streptomyces flaveus	JCM 3035
+GCF_014647875.1	Streptomyces brasiliensis	JCM 3086
+GCF_014648635.1	Streptomyces cinerochromogenes	JCM 3385
+GCF_014648695.1	Streptomyces albospinus	JCM 3399
+GCF_014648775.1	Streptomyces abikoensis	JCM 4002
+GCF_014648935.1	Streptomyces diastaticus subsp. diastaticus	JCM 4128
+GCF_014648995.1	Streptomyces massasporeus	JCM 4139
+GCF_014649115.1	Streptomyces eurythermus	JCM 4206
+GCF_014649375.1	Streptomyces aurantiogriseus	JCM 4346
+GCF_014649415.1	Streptomyces badius	JCM 4350
+GCF_014649495.1	Streptomyces filipinensis	JCM 4369
+GCF_014649535.1	Streptomyces gelaticus	JCM 4376
+GCF_014649595.1	Streptomyces griseomycini	JCM 4382
+GCF_014649655.1	Streptomyces humidus	JCM 4386
+GCF_014649715.1	Streptomyces lateritius	JCM 4389
+GCF_014649735.1	Streptomyces lavendofoliae	JCM 4391
+GCF_014649755.1	Streptomyces litmocidini	JCM 4394
+GCF_014649775.1	Streptomyces longisporoflavus	JCM 4396
+GCF_014649795.1	Streptomyces melanogenes	JCM 4398
+GCF_014649995.1	Streptomyces griseoflavus	JCM 4479
+GCF_014650015.1	Streptomyces griseoloalbus	JCM 4480
+GCF_014650035.1	Streptomyces lucensis JCM 4490	JCM 4490
+GCF_014650335.1	Streptomyces hiroshimensis	JCM 4586
+GCF_014650515.1	Streptomyces finlayi	JCM 4637
+GCF_014650595.1	Streptomyces alanosinicus	JCM 4714
+GCF_014650655.1	Streptomyces anandii JCM 4720	JCM 4720
+GCF_014650715.1	Streptomyces bluensis	JCM 4729
+GCF_014650735.1	Streptomyces canarius	JCM 4733
+GCF_014650755.1	Streptomyces chryseus	JCM 4737
+GCF_014650775.1	Streptomyces cirratus	JCM 4738
+GCF_014650815.1	Streptomyces flavofungini	JCM 4753
+GCF_014650835.1	Streptomyces galilaeus	JCM 4757
+GCF_014650875.1	Streptomyces minutiscleroticus	JCM 4790
+GCF_014651035.1	Streptomyces lomondensis	JCM 4866
+GCF_014651055.1	Streptomyces fructofermentans	JCM 4956
+GCF_014651075.1	Streptomyces djakartensis	JCM 4957
+GCF_014651115.1	Streptomyces inusitatus	JCM 4988
+GCF_014651135.1	Streptomyces echinoruber	JCM 5016
+GCF_014654785.1	Streptomyces mashuensis	JCM 4059
+GCF_014654935.1	Streptomyces capoamus	JCM 4253
+GCF_014655295.1	Streptomyces fumanus	JCM 4477
+GCF_014655595.1	Streptomyces griseocarneus	JCM 4580
+GCF_014655715.1	Streptomyces lanatus	JCM 4588
+GCF_014655855.1	Streptomyces candidus	JCM 4629
+GCF_014656035.1	Streptomyces griseoluteus	JCM 4765
+GCF_014656055.1	Streptomyces griseosporeus	JCM 4766
+GCF_014656095.1	Streptomyces longispororuber	JCM 4784
+GCF_014656115.1	Streptomyces morookaense	JCM 4793
+GCF_014673495.1	Streptomyces griseofuscus	DSM 40191
+GCF_014701115.1	Streptomyces aurantiacus	JCM 4677
+GCF_014779715.1	Streptomyces chumphonensis	KK1-2
+GCF_015160855.1	Streptomyces ferrugineus	CCTCC AA2014009
+GCF_015160875.1	Streptomyces chromofuscus	DSM 40273
+GCF_015163075.1	Streptomyces justiciae	3R004
+GCF_015710995.1	Streptomyces gardneri	ATCC 15439
+GCF_015910445.1	Streptomyces bathyalis	ASO4wet
+GCF_016598475.1	Streptomyces adelaidensis	CAP261
+GCF_016598615.1	Streptomyces liliifuscus	ZYC-3
+GCF_016741775.1	Streptomyces actinomycinicus	RCU-197
+GCF_016741875.1	Streptomyces coffeae	CA1R205
+GCF_016741935.1	Streptomyces endocoffeicus	CA3R110
+GCF_016860545.1	Streptomyces asoensis	NBRC 13813
+GCF_016901035.1	Streptomyces durocortorensis	RHZ10
+GCF_016906185.1	Streptomyces californicus	FDAARGOS_1209
+GCF_016921115.1	Streptomyces actuosus	VRA1
+GCF_017526105.1	Streptomyces cyanogenus	S136
+GCF_017813245.1	Streptomyces montanisoli	MMS17-BM035
+GCF_018070025.1	Streptomyces liliiviolaceus	BH-SS-21
+GCF_018138715.1	Streptomyces asiaticus	DSM 41761
+GCF_018141485.1	Streptomyces alfalfae	XN-04
+GCF_018604545.1	Streptomyces koelreuteriae	MG62
+GCF_018927715.1	Streptomyces brasiliscabiei	IBSBF2867
+GCF_018982965.1	Streptomyces mayonensis	A1-08
+GCF_019104725.1	Streptomyces corallincola	J2-1
+GCF_019400875.1	Streptomyces anatolicus	BG9H
+GCF_019599145.1	Streptomyces akebiae	MG28
+GCF_019641555.1	Streptomyces geysiriensis	S19
+GCF_019710745.1	Streptomyces beigongshangae	REN17
+GCF_019933235.1	Streptomyces angustmyceticus	JCM 4053
+GCF_020010925.1	Streptomyces griseiscabiei	NRRL B-2795
+GCF_020037025.1	Streptomyces huiliensis	SCA2-4
+GCF_020099395.1	Streptomyces mobaraensis	DSM 40587
+GCF_020400605.1	Streptomyces aculeolatus	DSM 41644
+GCF_020404845.1	Streptomyces hyderabadensis	JCM 17657
+GCF_020410765.1	Streptomyces marincola	SCSIO 64649
+GCF_020521275.1	Streptomyces daghestanicus	NBRC 12762
+GCF_020532625.1	Streptomyces antimicrobicus	SMC 277
+GCF_020532645.1	Streptomyces bambusae	T110
+GCF_020616555.1	Streptomyces longhuiensis	BH-MK-02
+GCF_020639365.1	Streptomyces flavotricini	NGL1
+GCF_020819595.1	Streptomyces barringtoniae	JA03
+GCF_021028635.1	Streptomyces huasconensis	D23
+GCF_021216675.1	Streptomyces gobiensis	1_25
+GCF_021228125.1	Streptomyces albireticuli	NRRL B1670
+GCF_021261325.1	Streptomyces guryensis	NR30
+GCF_021462825.1	Streptomyces glomeratus	DSM 41457
+GCF_021474405.1	Streptomyces indiaensis	DSM 43803
+GCF_021474425.1	Streptomyces muensis	DSM 103493
+GCF_021556455.1	Streptomyces fuscigenes	JBL-20
+GCF_022221585.1	Streptomyces inhibens	NRRL30439
+GCF_022343545.1	Streptomyces arenae	DSM 40737
+GCF_022385335.1	Streptomyces deccanensis	KCTC 19241
+GCF_022513565.1	Streptomyces gilvus	CME 23
+GCF_022524345.1	Streptomyces marispadix	M600PL45_2
+GCF_022647665.1	Streptomyces formicae	1H-GS9
+GCF_022698165.1	Streptomyces cylindrosporus	7R015
+GCF_023218175.1	Streptomyces lichenis	LCR6-01
+GCF_023277745.1	Streptomyces halobius	3_2
+GCF_023498005.1	Streptomyces durmitorensis	MS405
+GCF_023701525.1	Streptomyces albipurpureus	CWNU-1
+GCF_023702435.1	Streptomyces griseoincarnatus	RB7AG
+GCF_023703325.1	Streptomyces meridianus	MTZ3.1
+GCF_023887685.1	Streptomyces macrolidinus	RY43-2
+GCF_024295805.1	Streptomyces cucumeris	NEAU-Y11
+GCF_024436035.1	Streptomyces humicola	RB6PN25
+GCF_024539675.1	Streptomyces hilarionis	IBSBF 2807
+GCF_024600715.1	Streptomyces changanensis	HL-66
+GCF_024752535.1	Streptomyces albus	DSM 40763
+GCF_024761905.1	Streptomyces ginkgonis	KM-1-2
+GCF_025133285.1	Streptomyces carpaticus	SCPM-O-B-9993
+GCF_025165795.1	Streptomyces gossypii	N2-109
+GCF_025231465.1	Streptomyces murinus	CR-43
+GCF_025568765.1	Streptomyces lycopersici	NEAU-383
+GCF_025642135.1	Streptomyces cynarae	HUAS 13-4
+GCF_025642175.1	Streptomyces albidocamelliae	HUAS 14-6
+GCF_025665295.1	Streptomyces explomaris	Je 1-4
+GCF_025908395.1	Streptomyces milbemycinicus	SIPI-054
+GCF_026153355.1	Streptomyces endophytica	HNM0140
+GCF_026262575.1	Streptomyces marinisediminis	JHD1
+GCF_026274175.1	Streptomyces beihaiensis	GXMU-J5
+GCF_026627255.1	Streptomyces antarcticus	H27-S2
+GCF_027270315.1	Streptomyces cinnabarinus	DSM 40467
+GCF_027625935.1	Streptomyces camelliae	HUAS 2-6
+GCF_027942015.1	Streptomyces goshikiensis	CGMCC 4.1796
+GCF_027947595.1	Streptomyces lienomycini	DSM 41475
+GCF_028401405.1	Streptomyces heilongjiangensis	NEAU-W2
+GCF_028401765.1	Streptomyces gilvifuscus	T113
+GCF_028657195.3	Streptomyces iconiensis	DSM 42109
+GCF_029223485.1	Streptomyces coacervatus	JCM 17138
+GCF_029760955.1	Streptomyces cathayae	HUAS 5
+GCF_029846675.1	Streptomyces chitinivorans	RC1832
+GCF_029846775.1	Streptomyces chengmaiensis	HNM0663
+GCF_029968015.1	Streptomyces luteolus	B-S-A12
+GCF_029968035.1	Streptomyces cavernicola	B-S-A6
+GCF_030262575.1	Streptomyces fuscus	GXMU-J15
+GCF_030294945.1	Streptomyces graminofaciens	A-8890
+GCF_030406905.1	Streptomyces chengbuensis	HUAS CB01
+GCF_030719215.1	Streptomyces glycanivorans	Alt3
+GCF_030719275.1	Streptomyces laculatispora	Mut2
+GCF_030719295.1	Streptomyces castrisilvae	Mut1
+GCF_030803725.1	Streptomyces griseoviridis	DSM 40229
+GCF_030803745.1	Streptomyces demainii	DSM 41600
+GCF_030816955.1	Streptomyces africanus	B3I12
+GCF_031348265.1	Streptomyces collinus	CGMCC 4.1623
+GCF_031679605.1	Streptomyces luomodiensis	SCA4-21
+GCF_031845365.1	Streptomyces litchfieldiae	DSM 44938
+GCF_031845405.1	Streptomyces boetiae	DSM 44917
+GCF_031845425.1	Streptomyces millisiae	DSM 44918
+GCF_031845445.1	Streptomyces chisholmiae	DSM 44915
+GCF_031845485.1	Streptomyces hazeniae	DSM 42041
+GCF_031845505.1	Streptomyces doudnae	DSM 41981
+GCF_031845545.1	Streptomyces dubilierae	DSM 41921
+GCF_031845565.1	Streptomyces johnsoniae	DSM 41886
+GCF_031845585.1	Streptomyces evansiae	DSM 41979
+GCF_031845645.1	Streptomyces doebereineriae	DSM 41640
+GCF_031845665.1	Streptomyces gibsoniae	DSM 41699
+GCF_031845685.1	Streptomyces edwardsiae	DSM 41636
+GCF_031845725.1	Streptomyces mooreae	DSM 41527
+GCF_031845745.1	Streptomyces hintoniae	DSM 41014
+GCF_031845785.1	Streptomyces hesseae	DSM 40473
+GCF_031845825.1	Streptomyces lancefieldiae	DSM 40712
+GCF_031845845.1	Streptomyces gottesmaniae	DSM 3412
+GCF_031845865.1	Streptomyces lonegramiae	DSM 41529
+GCF_032248635.1	Streptomyces kutzneri	DSM 40907
+GCF_032248675.1	Streptomyces kroppenstedtii	DSM 40484
+GCF_032656585.1	Streptomyces herbicida	NEAU-HV9
+GCF_033109485.1	Streptomyces cyaneofuscatus	89-2-2
+GCF_035798155.1	Streptomyces endophyticus	YIM65594
+GCF_035917655.1	Streptomyces anthocyanicus	NBC 01777
+GCF_035918035.1	Streptomyces hirsutus	NBC 01753
+GCF_036073155.1	Streptomyces mirabilis	NBC_00379
+GCF_036170895.1	Streptomyces erythrochromogenes	NBC_00303
+GCF_036172715.1	Streptomyces bobili	NBC_00302
+GCF_036177905.1	Streptomyces canus	NBC_00277
+GCF_036178885.1	Streptomyces caniferus	NBC_00270
+GCF_036189845.1	Streptomyces griseoaurantiacus	NBC_00521
+GCF_036281785.1	Streptomyces chiangmaiensis	TA4-1
+GCF_036287475.1	Streptomyces iakyrus	CGMCC 4.1912
+GCF_036345975.1	Streptomyces clavifer	NBC_00558
+GCF_036346855.1	Streptomyces europaeiscabiei	NBC_00515
+GCF_036352915.1	Streptomyces bugieae	DSM 41528
+GCF_036967205.1	Streptomyces citrinus	Q6
+GCF_037126205.1	Streptomyces hygroscopicus subsp. hygroscopicus	DSM 41954
+GCF_037892235.1	Streptomyces achmelvichensis	MS2.AVA.5
+GCF_039521185.1	Streptomyces blastmyceticus	JCM 4565
+GCF_039521245.1	Streptomyces mordarskii	JCM 5052
+GCF_039521265.1	Streptomyces crystallinus	JCM 5067
+GCF_039525925.1	Streptomyces javensis	JCM 11446
+GCF_039526835.1	Streptomyces beijiangensis	JCM 11882
+GCF_039527835.1	Streptomyces aureus	JCM 12605
+GCF_039529395.1	Streptomyces albidochromogenes	JCM 13858
+GCF_039529415.1	Streptomyces globosus	JCM 13859
+GCF_039529885.1	Streptomyces cheonanensis	JCM 14549
+GCF_039530525.1	Streptomyces bangladeshensis	JCM 14924
+GCF_039530985.1	Streptomyces albiaxialis	JCM 15478
+GCF_039532135.1	Streptomyces axinellae	JCM 16373
+GCF_039532155.1	Streptomyces lunalinharesii	JCM 16374
+GCF_039532665.1	Streptomyces amakusaensis	JCM 4167
+GCF_039532705.1	Streptomyces cuspidosporus	JCM 4316
+GCF_039532725.1	Streptomyces coeruleofuscus	JCM 4358
+GCF_039532765.1	Streptomyces longisporus	JCM 4395
+GCF_039532865.1	Streptomyces luteosporeus	JCM 4542
+GCF_039532965.1	Streptomyces mauvecolor	JCM 5002
+GCF_039532985.1	Streptomyces gobitricini	JCM 5062
+GCF_039533005.1	Streptomyces fimbriatus	JCM 5080
+GCF_039533145.1	Streptomyces macrosporus	JCM 6305
+GCF_039533285.1	Streptomyces atrovirens	JCM 6913
+GCF_039533345.1	Streptomyces glaucosporus	JCM 6921
+GCF_039533365.1	Streptomyces glaucus	JCM 6922
+GCF_039533385.1	Streptomyces graminearus	JCM 6923
+GCF_039533405.1	Streptomyces levis	JCM 6924
+GCF_039533535.1	Streptomyces kunmingensis	JCM 7473
+GCF_039533765.1	Streptomyces enissocaesilis	JCM 9088
+GCF_039534145.1	Streptomyces labedae	JCM 9381
+GCF_039534285.1	Streptomyces erythrogriseus	JCM 9650
+GCF_039534625.1	Streptomyces drozdowiczii	JCM 13580
+GCF_039535435.1	Streptomyces cremeus	JCM 4362
+GCF_039536665.1	Streptomyces lannensis	JCM 16578
+GCF_039537365.1	Streptomyces gulbargensis	JCM 16956
+GCF_039538105.1	Streptomyces hundungensis	JCM 17577
+GCF_039539045.1	Streptomyces marokkonensis	JCM 17027
+GCF_039542925.1	Streptomyces coeruleoprunus	JCM 6919
+GCF_040635425.1	Streptomyces laurentii	NPDC006966
+GCF_040653035.1	Streptomyces malaysiensis subsp. malaysiensis	NPDC048052
+GCF_040677245.1	Streptomyces kurssanovii	NPDC049344
+GCF_040684435.1	Streptomyces hydrogenans	NPDC091218
+GCF_040685215.1	Streptomyces griseus	NPDC089181
+GCF_041021105.1	Streptomyces adonidis	NEAU-BLH26
+GCF_041519305.1	Streptomyces luteireticuli	ASG80
+GCF_042430725.1	Streptomyces cinereospinus	JCM 6917
+GCF_042431345.1	Streptomyces heliomycini	JCM 9767
+GCF_042466515.1	Streptomyces iranensis	DSM 41954
+GCF_042647945.1	Streptomyces lusitanus	JCM 4785
+GCF_042651015.1	Streptomyces flavovirens	CCM 3243
+GCF_042651645.1	Streptomyces andamanensis	PCU 347
+GCF_042652185.1	Streptomyces fildesensis	CGMCC 4.5735
+GCF_042654005.1	Streptomyces mangrovi	CGMCC 4.7117
+GCF_042654145.1	Streptomyces ehimensis	CGMCC 4.1668
+GCF_042654885.1	Streptomyces maoxianensis	CGMCC 4.7139
+GCF_042655885.1	Streptomyces chlorus	CGMCC 4.5798
+GCF_042656345.1	Streptomyces incanus	CGMCC 4.5799
+GCF_042656465.1	Streptomyces gamaensis	CGMCC 4.7304
+GCF_042657145.1	Streptomyces bullii	CGMCC 4.7019
+GCF_042657885.1	Streptomyces aureoversilis	CGMCC 4.1641
+GCF_042657965.1	Streptomyces coerulescens	CGMCC 4.1597
+GCF_042665355.1	Streptomyces monticola	CGMCC 4.7467
+GCF_042665405.1	Streptomyces caviscabies	CGMCC 4.1836
+GCF_042674625.1	Streptomyces flavalbus	CGMCC 4.7400
+GCF_042674645.1	Streptomyces lutosisoli	CGMCC 4.7198
+GCF_042678285.1	Streptomyces caeni	CGMCC 4.7426
+GCF_042679505.1	Streptomyces kaempferi	CGMCC 4.7020
+GCF_042681365.1	Streptomyces desertarenae	CGMCC 4.7455
+GCF_042804095.1	Streptomyces cellulosae	NPDC057399
+GCF_042902585.1	Streptomyces argenteolus	NPDC012540
+GCF_043077165.1	Streptomyces kanasensis	NPDC016311
+GCF_043202155.1	Streptomyces antibioticus	NPDC048228
+GCF_044327915.1	Streptomyces afghaniensis	NPDC018010
+GCF_044765825.1	Streptomyces flaveolus	NPDC102396
+GCF_044767875.1	Streptomyces bacillaris	NPDC101189
+GCF_044901485.1	Streptomyces albogriseolus	NPDC052706
+GCF_045039555.1	Streptomyces gougerotii	NBC_01103
+GCF_045039635.1	Streptomyces albidoflavus	NBC_01110
+GCF_045041415.1	Streptomyces coelicoflavus	NBC_00099
+GCF_045160875.1	Streptomyces achromogenes	NBC_00156
+GCF_045161815.1	Streptomyces avidinii	NBC_00832
+GCF_045161845.1	Streptomyces antimycoticus	NBC_00839
+GCF_045207185.1	Streptomyces halstedii	NBC 00641
+GCF_045208505.1	Streptomyces decoyicus	NBC_01584
+GCF_045276965.1	Streptomyces althioticus	NBC 01666
+GCF_046267975.1	Streptomyces flavusporus	HC307
+GCF_046614805.1	Streptomyces atacamensis	KACC15492
+GCF_046718965.1	Streptomyces gramineus	A14
+GCF_047337785.1	Streptomyces lacaronensis	OE57
+GCF_048572725.1	Streptomyces boninensis	TBRC7755
+GCF_049239225.1	Streptomyces echiniscabiei	WI04-05B
+GCF_049310305.1	Streptomyces anthophorae	BH034
+GCF_049538775.1	Streptomyces lavendulocolor	NPDC012858
+GCF_049570255.1	Streptomyces manipurensis	JCM 17351
+GCF_049844455.1	Streptomyces fractus	MV32
+GCF_050018475.1	Streptomyces krungchingensis	1D107
+GCF_050433025.1	Streptomyces auratus	DSM 41897
+GCF_050871185.1	Streptomyces huangiella	HD1123-B1
+GCF_051122705.1	Streptomyces ipomoeae	NRRL_B-12321
+GCF_051171815.1	Streptomyces caniscabiei	NE06-02D
+GCF_051172935.1	Streptomyces acidiscabies	ATCC 49003
+GCF_051201135.1	Streptomyces griseorubens	DSM 40160
+GCF_052543575.1	Streptomyces hayashii	SAS_261
+GCF_052663305.1	Streptomyces cyslabdanicus	K04-0144
+GCF_052828665.1	Streptomyces graminifolii	NBRC 109806
+GCF_052934925.1	Streptomyces hypolithicus	DSM 41950
+GCF_052983195.1	Streptomyces hebeiensis	JL9001
+GCF_053555975.1	Streptomyces mitragynae	NRAIS3
+GCF_053591575.1	Streptomyces altiplanensis	NPDC003008
+GCF_054782095.1	Streptomyces capparidis	JCM 30089
+GCF_054782395.1	Streptomyces daliensis	JCM 19963
+GCF_054782695.1	Streptomyces deserti	JCM 19673
+GCF_054783955.1	Streptomyces mayteni	JCM 16957
+GCF_900100315.1	Streptomyces indicus	CGMCC 4.5727
+GCF_900104815.1	Streptomyces misionensis	DSM 40306
+GCF_900105695.1	Streptomyces melanosporofaciens	DSM 40318
+GCF_900112355.1	Streptomyces aidingensis	CGMCC 4.5739
+GCF_913919575.1	Streptomyces coriariae	CMB-FB
+GCF_964020845.1	Streptomyces atroolivaceus	
+GCF_000154965.1	Streptomyces sviceus ATCC 29083	ATCC 29083
+GCF_000220705.2	Streptomyces xinghaiensis S187	S187
+GCF_000225525.1	Streptomyces zinciresistens K42	K42
+GCF_000262345.1	Streptomyces xiaopingdaonensis	DUT 180
+GCF_000331185.2	Streptomyces rimosus subsp. rimosus ATCC 10970	ATCC 10970
+GCF_000381025.1	Streptomyces sulphureus DSM 40104	DSM 40104
+GCF_000384175.1	Streptomyces purpureus KA281	KA281
+GCF_000478605.2	Streptomyces thermolilacinus SPC6	SPC6
+GCF_000497445.1	Streptomyces roseochromogenus subsp. oscitans DS 12.976	DS 12.976
+GCF_000698945.1	Streptomyces wadayamensis	A23
+GCF_000716435.1	Streptomyces xylophagus	NRRL B-12029
+GCF_000716445.1	Streptomyces wedmorensis	NRRL 3426
+GCF_000716805.1	Streptomyces yerevanensis	NRRL B-16943
+GCF_000716875.1	Streptomyces novaecaesareae	NRRL B-1267
+GCF_000717725.1	Streptomyces pyridomyceticus	NRRL ISP-5024
+GCF_000717745.1	Streptomyces violens	NRRL ISP-5597
+GCF_000717995.1	Streptomyces violaceorubidus	NRRL B-16381
+GCF_000718305.1	Streptomyces niger	NRRL B-3857
+GCF_000718615.1	Streptomyces purpeochromogenes	NRRL ISP-5373
+GCF_000718635.1	Streptomyces varsoviensis	NRRL ISP-5346
+GCF_000719265.1	Streptomyces roseoverticillatus	NRRL B-3500
+GCF_000720485.1	Streptomyces ochraceiscleroticus	NRRL ISP-5594
+GCF_000725125.1	Streptomyces toyocaensis	NRRL 15009
+GCF_000725565.1	Streptomyces peucetius	NRRL WC-3868
+GCF_000802245.2	Streptomyces pluripotens	MUSC 135
+GCF_000830005.1	Streptomyces vietnamensis	GIMV4.0001
+GCF_000935125.1	Streptomyces natalensis ATCC 27448	ATCC 27448
+GCF_000955965.1	Streptomyces variegatus	NRRL B-16380
+GCF_000961885.1	Streptomyces rubellomurinus	ATCC 31215
+GCF_000981895.1	Streptomyces odonnellii	NRRL B-24891
+GCF_000993785.3	Streptomyces xiamenensis	MCCC 1A01550
+GCF_001044425.1	Streptomyces roseus	ATCC 31245
+GCF_001419745.1	Streptomyces silaceus	NRRL B-24166
+GCF_001419765.1	Streptomyces torulosus	NRRL B-3889
+GCF_001445655.1	Streptomyces roseifaciens	MBT76
+GCF_001482415.1	Streptomyces silvensis	ATCC 53525
+GCF_001493375.1	Streptomyces specialis	GW41-1564T
+GCF_001509475.1	Streptomyces regalis	NRRL 3151
+GCF_001511815.1	Streptomyces reticuli	
+GCF_001514035.1	Streptomyces yokosukanensis	DSM 40224
+GCF_001514115.1	Streptomyces olivochromogenes	DSM 40451
+GCF_001514265.1	Streptomyces resistomycificus	DSM 40133
+GCF_001611795.1	Streptomyces qaidamensis	S10
+GCF_001660045.1	Streptomyces parvulus	2297
+GCF_001704195.1	Streptomyces sampsonii	KJ40
+GCF_001750785.1	Streptomyces rubrolavendulae	MJM4426
+GCF_001751245.1	Streptomyces oceani	SCSIO 02100
+GCF_001751255.1	Streptomyces nanshensis	SCSIO 10429
+GCF_002148965.1	Streptomyces swartbergensis	HMC13
+GCF_002154615.1	Streptomyces recifensis	NRRL B-3811
+GCF_002154675.1	Streptomyces reticuliscabiei	NRRL B-24446
+GCF_002155915.1	Streptomyces thermovulgaris	NRRL B-12375
+GCF_002911015.1	Streptomyces populi	A249
+GCF_002982015.1	Streptomyces solincola	T5
+GCF_003074055.1	Streptomyces nigra	452
+GCF_003097515.1	Streptomyces tirandamycinicus	HNM0039
+GCF_003112535.1	Streptomyces rishiriensis	NBRC 13407
+GCF_003121295.1	Streptomyces orinoci	NRRL B-3379
+GCF_003122365.1	Streptomyces spongiicola	HNM0071
+GCF_003205575.1	Streptomyces tateyamensis	ATCC 21389
+GCF_003270085.1	Streptomyces triticisoli	NEAU-DSCPA1-4-4
+GCF_003323735.1	Streptomyces reniochalinae	LHW50302
+GCF_003344965.1	Streptomyces paludis	GSSD-12
+GCF_003391135.1	Streptoverticillium olivoreticuli subsp. olivoreticuli	ATCC 31159
+GCF_003429565.1	Streptomyces triticagri	NEAU-YY421
+GCF_003626575.1	Streptomyces radicis	DS1-2
+GCF_003696235.1	Streptomyces triticirhizae	NEAU-YY642
+GCF_003865155.1	Streptomyces paromomycinus	NBRC 15454
+GCF_003932715.1	Streptomyces tsukubensis	NRRL 18488
+GCF_003999195.1	Streptomyces soli	LAM7114
+GCF_004117935.1	Streptomyces roseicoloratus	TRM44457
+GCF_004122735.1	Streptomyces sioyaensis	DSM 40032
+GCF_004305975.1	Streptomyces otsuchiensis	OTB305
+GCF_004328625.1	Streptomyces seoulensis	KCTC 9819
+GCF_004794175.1	Streptomyces rhizosphaericola	1AS2c
+GCF_005048155.1	Streptomyces piniterrae	jys28
+GCF_005517195.1	Streptomyces vilmorinianum	YP1
+GCF_005768555.2	Streptomyces sporangiiformans	NEAU-SSA 1
+GCF_005869865.1	Streptomyces tibetensis	XZ 46
+GCF_006335015.1	Streptomyces sedi	JCM 16909
+GCF_006539505.1	Streptomyces spinoverrucosus	NBRC 14228
+GCF_006715785.1	Streptomyces puniciscabiei	DSM 41929
+GCF_007856155.1	Streptomyces qinzhouensis	SSL-25
+GCF_008386495.1	Streptomyces tailanensis	TRM68348
+GCF_008639165.1	Streptomyces venezuelae ATCC 10712	ATCC 10712
+GCF_008704445.1	Streptomyces prasinus	ATCC 13879
+GCF_008704515.1	Streptomyces viridosporus T7A	ATCC 39115
+GCF_008704535.1	Streptomyces subrutilus	ATCC 27467
+GCF_008704555.1	Streptomyces nitrosporeus	ATCC 12769
+GCF_008704795.1	Streptomyces spectabilis	ATCC 27465
+GCF_008704855.1	Streptomyces platensis	ATCC 23948
+GCF_008704935.1	Streptomyces vinaceus	ATCC 27476
+GCF_008704995.1	Streptomyces nodosus	ATCC 14899
+GCF_008868685.1	Streptomyces triticiradicis	NEAU-H2
+GCF_009184865.1	Streptomyces phaeolivaceus	GY16
+GCF_009377185.1	Streptomyces spongiae	NBRC 106415
+GCF_009377205.1	Streptomyces phyllanthi	TISTR 2346
+GCF_009604385.1	Streptomyces smaragdinus	RB5
+GCF_009709575.1	Streptomyces taklimakanensis	TRM43335
+GCF_009755605.1	Streptomyces typhae	p1417
+GCF_011045015.1	Streptomyces scabichelini	HC44
+GCF_011045025.1	Streptomyces ureilyticus	YC419
+GCF_011766325.1	Streptomyces pacificus	CWH03
+GCF_012034385.1	Streptomyces spiramenti	5675061
+GCF_012034935.1	Streptomyces zingiberis	PLAI 1-29
+GCF_012273655.1	Streptomyces physcomitrii	LD120
+GCF_013363465.1	Streptomyces odorifer	KAI-180
+GCF_013394065.1	Streptomyces rectiverticillatus	B15-08
+GCF_013870535.1	Streptomyces phytophilus	PIP175
+GCF_014070435.1	Streptomyces pristinaespiralis	PR11
+GCF_014202475.1	Streptomyces paradoxus	DSM 43350
+GCF_014203555.1	Streptomyces olivoverticillatus	CECT 3266
+GCF_014203645.1	Streptomyces zagrosensis	CECT 8305
+GCF_014203895.1	Streptomyces nymphaeiformis	SFB5A
+GCF_014216335.1	Streptomyces rutgersensis	NBH77
+GCF_014280945.1	Streptomyces salinarius	SS06011
+GCF_014489635.1	Streptomyces roseirectus	CRXT-G-22
+GCF_014493765.1	Streptomyces polyasparticus	TRM66268-LWL
+GCF_014621695.1	Streptomyces xanthii	CRXT-Y-14
+GCF_014648075.1	Streptomyces ruber	JCM 3131
+GCF_014648875.1	Streptomyces parvus	JCM 4069
+GCF_014648915.1	Streptomyces phaeofaciens	JCM 4125
+GCF_014649015.1	Streptomyces narbonensis	JCM 4147
+GCF_014649035.1	Streptomyces sindenensis	JCM 4164
+GCF_014649335.1	Streptomyces roseolilacinus	JCM 4335
+GCF_014649515.1	Streptomyces pilosus	JCM 4372
+GCF_014649855.1	Streptomyces roseolus	JCM 4411
+GCF_014649895.1	Streptomyces pseudogriseolus	JCM 4416
+GCF_014649915.1	Streptomyces toxytricini	JCM 4421
+GCF_014649935.1	Streptomyces variabilis	JCM 4422
+GCF_014650115.1	Streptomyces olivaceoviridis	JCM 4499
+GCF_014650135.1	Streptomyces plicatus	JCM 4504
+GCF_014650175.1	Streptomyces termitum	JCM 4518
+GCF_014650215.1	Streptomyces vinaceusdrappus	JCM 4529
+GCF_014650235.1	Streptomyces violaceochromogenes	JCM 4530
+GCF_014650255.1	Streptomyces violarus	JCM 4534
+GCF_014650355.1	Streptomyces xanthochromogenes	JCM 4594
+GCF_014650435.1	Streptomyces tendae	JCM 4610
+GCF_014650575.1	Streptomyces naganishii JCM 4654	JCM 4654
+GCF_014650895.1	Streptomyces omiyaensis	JCM 4806
+GCF_014650915.1	Streptomyces poonensis	JCM 4815
+GCF_014650995.1	Streptomyces viridiviolaceus	JCM 4855
+GCF_014651015.1	Streptomyces xantholiticus	JCM 4863
+GCF_014654675.1	Streptomyces spiralis	JCM 3302
+GCF_014656135.1	Streptomyces thermodiastaticus	JCM 4840
+GCF_014656275.1	Streptomyces umbrinus	JCM 4958
+GCF_014656295.1	Streptomyces sulfonofaciens	JCM 5069
+GCF_014701095.1	Streptomyces tuirus	JCM 4255
+GCF_014873495.1	Streptomyces stelliscabiei	DSM 41803
+GCF_015244315.1	Streptomyces olivaceus	SCSIO T05
+GCF_016031615.1	Streptomyces pactum	ATCC 27456
+GCF_016741825.1	Streptomyces siderophoricus	CH9-7
+GCF_016741855.1	Streptomyces musisoli	CH5-8
+GCF_016755875.1	Streptomyces spororaveus	NBRC 15456
+GCF_016804005.1	Streptomyces pratensis	S10
+GCF_016860525.1	Streptomyces rubradiris	NBRC 14000
+GCF_016917755.1	Streptomyces noursei	A-2-1
+GCF_016919245.1	Streptomyces zhihengii	YIM T102
+GCF_017114865.1	Streptomyces verrucosisporus	CPB1-1
+GCF_017349075.1	Streptomyces triculaminicus	JCM 4242
+GCF_017639205.1	Streptomyces nojiriensis	JCM 3382
+GCF_017676345.1	Streptomyces smyrnaeus	DSM 42105
+GCF_017676365.1	Streptomyces oryzae	S16-07
+GCF_017676385.1	Streptomyces spirodelae	DW4-2
+GCF_017876235.1	Streptomyces virginiae	DSM 40803
+GCF_017876625.1	Streptomyces syringium	DSM 41480
+GCF_018069565.1	Streptomyces tagetis	RG38
+GCF_018069625.1	Streptomyces yatensis	DSM 41771
+GCF_018101125.2	Streptomyces tardus	P38-E01
+GCF_018138705.1	Streptomyces rhizosphaericus	DSM 41759
+GCF_018883605.1	Streptomyces niphimycinicus	4503
+GCF_019857225.1	Streptomyces plumbidurans	KC 17012
+GCF_019890635.1	Streptomyces sennicomposti	RCPT1-4
+GCF_020024005.1	Streptomyces purpurogeneiscleroticus	DSM 43156
+GCF_020312145.1	Streptomyces werraensis	O57
+GCF_020312315.1	Streptomyces solaniscabiei	FS70
+GCF_020328095.1	Streptomyces sichuanensis	SCA3-4
+GCF_020400595.2	Streptomyces naphthomycinicus	TML10
+GCF_020400655.1	Streptomyces spinosus	SBTS01
+GCF_020521295.1	Streptomyces violascens	NBRC 12920
+GCF_020564935.1	Streptomyces pinistramenti	SF28
+GCF_020740535.1	Streptomyces profundus	MA3_2.13
+GCF_021441825.1	Streptomyces spinosirectus	CRSS-Y-16
+GCF_021462265.1	Streptomyces shenzhenensis	DSM 42034
+GCF_022698145.1	Streptomyces spinosisporus	7R016
+GCF_022699385.1	Streptomyces tubbatahanensis	DSD3025
+GCF_023155275.1	Streptomyces rhizoryzae	RS10V-4
+GCF_023516615.1	Streptomyces panaciradicis	NBRC 109811
+GCF_023614315.1	Streptomyces sudanensis	SD 504
+GCF_023923245.1	Streptomyces phaeoluteigriseus	Qhu-M197
+GCF_024298965.1	Streptomyces rapamycinicus NRRL 5491	NRRL 5491
+GCF_024349285.1	Streptomyces somaliensis DSM 40738	DSM 40738
+GCF_024435355.1	Streptomyces odontomachi	ODS25
+GCF_024505145.1	Streptomyces rugosispiralis	RCU-064
+GCF_024519335.1	Streptomyces telluris	AA8
+GCF_024666385.1	Streptomyces yangpuensis	CM253
+GCF_024753135.1	Streptomyces pyxinicus	LP11
+GCF_024756275.1	Streptomyces pyxinae	LP05-1
+GCF_024760485.1	Streptomyces thermocarboxydus	K155
+GCF_025399795.1	Streptomyces rhizosphaerihabitans	ASQP_78
+GCF_026341275.1	Streptomyces ortus	A15ISP2-DRY2
+GCF_026427415.1	Streptomyces tanashiensis	Kala
+GCF_027497495.1	Streptomyces tubercidicus	DSM 40261
+GCF_027626975.1	Streptomyces nigrescens	DSM 40276
+GCF_027947575.1	Streptomyces rubrogriseus	NBRC 15455
+GCF_028421465.1	Streptomyces xanthophaeus	KPP03845
+GCF_028807635.1	Streptomyces spiramyceticus	F2R-15
+GCF_028863365.1	Streptomyces neyagawaensis	JCM 4796
+GCF_029011865.1	Streptomyces yunnanensis	P86
+GCF_029269835.1	Streptomyces tropicalis	K1PA1
+GCF_029269905.1	Streptomyces silvisoli	RB6PN23
+GCF_029968095.1	Streptomyces solicavernae	B-S-A8
+GCF_030077645.1	Streptomyces pakalii	ENCB-J15
+GCF_030490905.1	Streptomyces olivoreticuli	ZZ-21
+GCF_030719255.1	Streptomyces poriferorum	Alt1
+GCF_030863865.1	Streptomyces rochei	JK1
+GCF_031845605.1	Streptomyces salyersiae	DSM 41770
+GCF_031845765.1	Streptomyces stephensoniae	DSM 40932
+GCF_032248595.1	Streptomyces winkii	DSM 40971
+GCF_032248615.1	Streptomyces stackebrandtii	DSM 40976
+GCF_032248645.1	Streptomyces zaehneri	DSM 40713
+GCF_032423885.1	Streptomyces tamarix	TRM76323
+GCF_032656605.1	Streptomyces sasae	JR-39
+GCF_033343995.1	Streptomyces solicathayae	HUAS YS2
+GCF_033406955.1	Streptomyces violaceoruber	CGMCC 4.1801
+GCF_033794345.1	Streptomyces niveiscabiei	MD20-5-1
+GCF_033794965.1	Streptomyces turgidiscabies	ATCC 700248
+GCF_034961445.1	Streptomyces yaizuensis	YSPA8
+GCF_035917595.1	Streptomyces scopuliridis	NBC 01786
+GCF_035957715.1	Streptomyces phaeochromogenes	NBC_01328
+GCF_036014075.1	Streptomyces violaceus	NBC_00450
+GCF_036035005.1	Streptomyces zaomyceticus	NBC_00415
+GCF_036204065.1	Streptomyces tauricus	NBC_00189
+GCF_036227585.1	Streptomyces niveus	NBC_01447
+GCF_036250755.1	Streptomyces uncialis	NBC_01365
+GCF_036345035.1	Streptomyces pseudovenezuelae	NBC_00598
+GCF_036689765.1	Streptomyces poriticola	C6-003
+GCF_036898485.1	Streptomyces silvae	B21-103
+GCF_037414505.1	Streptomyces netropsis	M-141
+GCF_037860615.1	Streptomyces pratisoli	MS1.AVA.4
+GCF_039521165.1	Streptomyces polychromogenes	JCM 4505
+GCF_039521225.1	Streptomyces olivaceiscleroticus	JCM 4805
+GCF_039524635.1	Streptomyces thermocarboxydovorans	JCM 10367
+GCF_039524935.1	Streptomyces stramineus	JCM 10649
+GCF_039525155.1	Streptomyces thermoalcalitolerans	JCM 10673
+GCF_039525705.1	Streptomyces thermogriseus	JCM 11269
+GCF_039526425.1	Streptomyces thermospinosisporus	JCM 11756
+GCF_039529215.1	Streptomyces sodiiphilus	JCM 13581
+GCF_039531005.1	Streptomyces synnematoformans	JCM 15481
+GCF_039532825.1	Streptomyces vastus	JCM 4524
+GCF_039532845.1	Streptomyces violaceolatus	JCM 4531
+GCF_039532885.1	Streptomyces nogalater	JCM 4799
+GCF_039532905.1	Streptomyces roseiscleroticus	JCM 4823
+GCF_039532925.1	Streptomyces violaceusniger	JCM 4850
+GCF_039532945.1	Streptomyces viridochromogenes	JCM 4856
+GCF_039533575.1	Streptomyces pulveraceus	JCM 7545
+GCF_039533825.1	Streptomyces rectiviolaceus	JCM 9092
+GCF_039533845.1	Streptomyces virens	JCM 9095
+GCF_039534525.1	Streptomyces rameus	JCM 11574
+GCF_039534915.1	Streptomyces roseofulvus	JCM 4334
+GCF_039534955.1	Streptomyces ramulosus	JCM 4193
+GCF_039535215.1	Streptomyces racemochromogenes	JCM 4407
+GCF_039535235.1	Streptomyces roseoviridis	JCM 4414
+GCF_039535415.1	Streptomyces yanii	JCM 3331
+GCF_039535455.1	Streptomyces prasinosporus	JCM 4816
+GCF_039535475.1	Streptomyces showdoensis	JCM 4830
+GCF_039535865.1	Streptomyces thioluteus	JCM 4087
+GCF_039536205.1	Streptomyces sannanensis	JCM 9651
+GCF_039537125.1	Streptomyces plumbiresistens	JCM 16924
+GCF_039537145.1	Streptomyces shaanxiensis	JCM 16925
+GCF_039538125.1	Streptomyces tunisiensis	JCM 17589
+GCF_039538545.1	Streptomyces osmaniensis	JCM 17656
+GCF_039540215.1	Streptomyces tremellae	JCM 30846
+GCF_039540295.1	Streptomyces venetus	JCM 31290
+GCF_039542605.1	Streptomyces ziwulingensis	JCM 18081
+GCF_039543405.1	Streptomyces thinghirensis	JCM 18306
+GCF_039543425.1	Streptomyces youssoufiensis	JCM 18307
+GCF_039543485.1	Streptomyces sanyensis	JCM 18324
+GCF_039543605.1	Streptomyces siamensis	JCM 18409
+GCF_039543625.1	Streptomyces similanensis	JCM 18410
+GCF_040302545.1	Streptomyces pharetrae	NPDC126476
+GCF_040529335.1	Streptomyces tabacisoli	HUAS MG91
+GCF_040560175.1	Streptomyces panacea	PSRA5
+GCF_040612295.1	Streptomyces ossamyceticus	NPDC006434
+GCF_040645895.1	Streptomyces olindensis	NPDC046612
+GCF_040650805.1	Streptomyces pathocidini	NPDC048614
+GCF_040678695.1	Streptomyces nondiastaticus	NPDC052563
+GCF_040746085.1	Streptomyces phytohabitans	HBERC20821
+GCF_040782645.1	Streptomyces secundicynarae	HUAS ZL42
+GCF_040907265.1	Streptomyces sclerotialus	NRRL ISP-5269
+GCF_041363955.1	Streptomyces sanglieri	PU_15B
+GCF_041380215.1	Streptomyces pimonensis	TRM75549
+GCF_042429225.1	Streptomyces thermocoprophilus	JCM 10918
+GCF_042434075.1	Streptomyces palmae	TBRC 1999
+GCF_042434995.1	Streptomyces noboritoensis	JCM 4557
+GCF_042648045.1	Streptomyces yaanensis	CGMCC 4.7035
+GCF_042650325.1	Streptomyces polygonati	CGMCC 4.7237
+GCF_042653885.1	Streptomyces ovatisporus	CGMCC 4.7357
+GCF_042653945.1	Streptomyces vulcanius	CGMCC 4.7177
+GCF_042654925.1	Streptomyces xiangluensis	CGMCC 4.7466
+GCF_042657935.1	Streptomyces mutomycini	CGMCC 4.1747
+GCF_042658125.1	Streptomyces pratens	CGMCC 4.5800
+GCF_042663125.1	Streptomyces polyrhachis	CGMCC 4.7094
+GCF_042956545.1	Streptomyces tricolor	NPDC008224
+GCF_044453005.1	Streptomyces rubiginosohelvolus	NPDC051783
+GCF_044903365.1	Streptomyces sparsogenes	NPDC021451
+GCF_044987285.1	Streptomyces thermolineatus	NAK03196
+GCF_045040895.1	Streptomyces purpurascens	NBC_00017
+GCF_045162825.1	Streptomyces prunicolor	NBC_01021
+GCF_045209695.1	Streptomyces thermoviolaceus	NBC 01629
+GCF_045348655.1	Streptomyces solicamelliae	HUAS MG47
+GCF_045519255.1	Streptomyces okerensis	DSM 116494
+GCF_045690365.1	Streptomyces sirii	BP-8
+GCF_045822005.1	Streptomyces stoeckheimensis	DSM 116496
+GCF_046614825.1	Streptomyces nanhaiensis	KCTC19401
+GCF_046628145.1	Streptomyces mutabilis	MPB24
+GCF_047049295.1	Streptomyces sediminimaris	MCC20
+GCF_047456005.1	Streptoverticillium reticulum	J-35
+GCF_048500665.1	Streptomyces tritici	CGMCC 4.7393
+GCF_049239045.1	Streptomyces soliscabiei	NY05-11A
+GCF_049310105.1	Streptomyces tritrimontium	2.9
+GCF_050106155.1	Streptomyces nidicola	BH106
+GCF_051172975.1	Streptomyces scabiei	ATCC 49173
+GCF_052936015.1	Streptomyces rosealbus	DSM 41833
+GCF_054602395.1	Streptomyces sundarbansensis	DSM 42019
+GCF_054776295.1	Streptomyces sparsus	JCM 19151
+GCF_054783935.1	Streptomyces pseudoechinosporeus	JCM 3066
+GCF_900101585.1	Streptomyces prasinopilosus	CGMCC 4.3504
+GCF_900103455.1	Streptomyces wuyuanensis	CGMCC 4.7042
+GCF_900110735.1	Streptomyces radiopugnans	CGMCC 4.3519
+GCF_900111245.1	Streptomyces qinglanensis	CGMCC 4.6825
+GCF_900114215.1	Streptomyces pini	PL19
+GCF_900230195.1	Streptomyces zhaozhouensis	CGMCC 4.7095

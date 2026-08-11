@@ -27,10 +27,10 @@ from scipy import stats
 BGC_DIR = EPIGENOME / '47_BGC_methylation_geographic_test' / 'tables'
 
 CLUSTER_COLORS = {  # muted (Okabe-Ito/Tol) for palette consistency with main figures
-    'act': '#C26B6B',  # muted rose — actinorhodin
-    'cda': '#4477AA',  # muted blue — calcium-dependent antibiotic
-    'cpk': '#009E73',  # muted green — coelimycin
-    'red': '#E69F00',  # muted orange — undecylprodigiosin
+    'act': '#A64B44',  # unified red — actinorhodin
+    'cda': '#3A6B8C',  # unified blue — calcium-dependent antibiotic
+    'cpk': '#3E7256',  # unified green — coelimycin
+    'red': '#C0803A',  # unified amber — undecylprodigiosin
 }
 
 def _style(ax):
@@ -52,7 +52,7 @@ def panel_a(ax, df_enrich):
     # Focus on GCCGGC and AAGCCCG, all_genes subset only
     motifs = ['GCCGGC', 'AAGCCCG', 'All4mC']
     labels = ['GCCGGC\n(4mC)', 'AAGCCCG\n(6mA)', 'All 4mC']
-    colors = [COL_4mC, COL_6mA, '#90A4AE']
+    colors = [COL_4mC, COL_6mA, '#9AA7B0']
 
     all_sub = df_enrich[df_enrich['subset'] == 'all_genes']
     core_sub = df_enrich[df_enrich['subset'] == 'core_only']
@@ -78,7 +78,7 @@ def panel_a(ax, df_enrich):
             ypos = max(row['fold_enrichment'], 1.0) + 0.05
             ax.text(x[i] + offset, ypos, lbl, ha='center', va='bottom',
                     fontsize=7, fontweight='bold',
-                    color='#C62828' if lbl != 'n.s.' else '#9E9E9E')
+                    color='#A64B44' if lbl != 'n.s.' else '#9AA7B0')
 
     ax.axhline(1.0, color='gray', linewidth=0.8, linestyle='--')
     ax.set_xticks(x)
@@ -95,7 +95,7 @@ def panel_b(ax, df_cluster):
     """Bar chart of per-cluster GCCGGC methylation density."""
     clusters = df_cluster['cluster'].values
     density = df_cluster['GCCGGC_density_per_kb'].values
-    colors = [CLUSTER_COLORS.get(c, '#BDBDBD') for c in clusters]
+    colors = [CLUSTER_COLORS.get(c, '#9AA7B0') for c in clusters]
 
     x = np.arange(len(clusters))
     ax.bar(x, density, color=colors, alpha=0.85, edgecolor='white', linewidth=0.5,
@@ -136,14 +136,14 @@ def panel_c(ax, df_dna):
     w = 0.35
     ax.bar(x - w/2, bgc_vals, width=w, color=COL_4mC, alpha=0.8,
            edgecolor='white', linewidth=0.5, label='BGC genes')
-    ax.bar(x + w/2, nonbgc_vals, width=w, color='#90A4AE', alpha=0.8,
+    ax.bar(x + w/2, nonbgc_vals, width=w, color='#9AA7B0', alpha=0.8,
            edgecolor='white', linewidth=0.5, label='Non-BGC genes')
 
     for i, (p, f) in enumerate(zip(pvals, fold)):
         ymax = max(bgc_vals[i], nonbgc_vals[i])
         ax.text(x[i], ymax + 0.01, _p_label(p),
                 ha='center', va='bottom', fontsize=8, fontweight='bold',
-                color='#C62828' if _p_label(p) != 'n.s.' else '#9E9E9E')
+                color='#A64B44' if _p_label(p) != 'n.s.' else '#9AA7B0')
         ax.text(x[i], ymax + 0.03, f'×{f:.2f}',
                 ha='center', va='bottom', fontsize=6.5, color='#444')
 

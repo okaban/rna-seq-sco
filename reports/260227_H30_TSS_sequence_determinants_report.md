@@ -8,7 +8,7 @@
 
 ## Background
 
-H27 discovered that 62 "exposed" regulatory genes have no protection zone (nearest methylation at median 114 bp from TSS) while 993 "shielded" regulators maintain a 1,200 bp protection zone. H29 showed that expression level does NOT predict this classification (baseMean AUC=0.547), and the 293 bp distance threshold alone achieves AUC=0.917 with 100% sensitivity. The question remains: what **structural feature** of the DNA determines which regulatory genes are exposed?
+H27 discovered that 57 "exposed" regulatory genes have no protection zone (nearest methylation at median 114 bp from TSS) while 998 "shielded" regulators maintain a 1,200 bp protection zone. H29 showed that expression level does NOT predict this classification (baseMean AUC=0.547), and the 293 bp distance threshold alone achieves AUC=0.917 with 100% sensitivity. The question remains: what **structural feature** of the DNA determines which regulatory genes are exposed?
 
 H22 showed that R-M recognition motifs (TGGCCGGC / AAGCCCG) are depleted in regulatory gene bodies (fold=0.74--0.76). If shielded regulators achieve protection partly through sequence-level motif depletion near the TSS, then exposed regulators should have MORE motifs in the critical +/-300 bp TSS region.
 
@@ -20,7 +20,7 @@ Exposed regulators have higher density of R-M recognition motifs (TGGCCGGC / AAG
 
 ## Methods
 
-1. **TSS-proximal sequence extraction**: For all 1,017 regulatory genes (62 exposed, 955 shielded from H29 classification), extracted sequences in +/-300 bp, +/-500 bp, and +/-1,000 bp windows centered on TSS (gene start for + strand, gene end for - strand)
+1. **TSS-proximal sequence extraction**: For all 1,017 regulatory genes (57 exposed, 955 shielded from H29 classification), extracted sequences in +/-300 bp, +/-500 bp, and +/-1,000 bp windows centered on TSS (gene start for + strand, gene end for - strand)
 2. **Motif counting**: TGGCCGGC (8-mer), AAGCCCG (7-mer), GCCGGC (core 6-mer), and CCGG (4-mer methylation target), each with reverse complement
 3. **GC content and dinucleotide composition**: GC%, CpG observed/expected ratio, all 16 dinucleotide frequencies
 4. **Palindrome density**: All palindromic sequences >=6 bp (potential R-M recognition targets) in each window
@@ -197,7 +197,7 @@ These results extend the Gatekeeper Model (H11) with a two-tier mechanism:
 
 | Metric | Value |
 |--------|-------|
-| Genes analyzed | 1,017 (62 exposed, 955 shielded) |
+| Genes analyzed | 1,017 (57 exposed, 955 shielded) |
 | AAGCCCG fold (exposed/shielded, +/-300bp) | **4.97** (p=1.1e-08) |
 | TGGCCGGC fold | **2.66** (p=4.4e-04) |
 | GC% difference (+/-300bp) | +1.8 pp (p=1.6e-05) |

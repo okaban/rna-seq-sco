@@ -22,6 +22,7 @@ SigR	SCO5216	FIMO_characterized	SC_RS17795	SCO3134	exposed_regulator	338.0	9.938
 SigR	SCO5216	FIMO_characterized	SC_RS22780	SCO4122	exposed_regulator	57.0	9.93878	0.0427
 SigR	SCO5216	FIMO_characterized	SC_RS38785	SCO7314	exposed_regulator	23.0	9.93878	0.0427
 SigR	SCO5216	FIMO_characterized	SC_RS09835	SCO1564	exposed_regulator	224.0	9.65306	0.0427
+SigB	SCO0600	FIMO_characterized	SC_RS06430	SCO0897	exposed_regulator	24.0	9.11224	0.0361
 SigB	SCO0600	FIMO_characterized	SC_RS22135	SCO4005	exposed_regulator	279.0	9.11224	0.0361
 SigB	SCO0600	FIMO_characterized	SC_RS25370	SCO4639	exposed_regulator	449.0	9.11224	0.0361
 SigB	SCO0600	FIMO_characterized	SC_RS25370	SCO4639	exposed_regulator	392.0	9.11224	0.0361
@@ -29,11 +30,9 @@ SigB	SCO0600	FIMO_characterized	SC_RS07215	SCO1052	exposed_regulator	365.0	8.826
 SigB	SCO0600	FIMO_characterized	SC_RS09315	SCO1468	exposed_regulator	102.0	8.82653	0.0361
 SigB	SCO0600	FIMO_characterized	SC_RS22980	SCO4158	exposed_regulator	153.0	8.82653	0.0361
 SigB	SCO0600	FIMO_characterized	SC_RS25370	SCO4639	exposed_regulator	212.0	8.82653	0.0361
-SigB	SCO0600	FIMO_characterized	SC_RS39260	SCO7411	exposed_regulator	319.0	8.82653	0.0361
 SigB	SCO0600	FIMO_characterized	SC_RS07910	SCO1191	exposed_regulator	120.0	8.54082	0.0361
 SigB	SCO0600	FIMO_characterized	SC_RS09315	SCO1468	exposed_regulator	84.0	8.54082	0.0361
 SigB	SCO0600	FIMO_characterized	SC_RS17795	SCO3134	exposed_regulator	290.0	8.54082	0.0361
-SigB	SCO0600	FIMO_characterized	SC_RS26965	SCO4960	exposed_regulator	398.0	8.54082	0.0361
 SigB	SCO0600	FIMO_characterized	SC_RS33745	SCO6299	exposed_regulator	236.0	8.54082	0.0361
 SigB	SCO0600	FIMO_characterized	SC_RS37675	SCO7089	exposed_regulator	211.0	8.54082	0.0361
 SigB	SCO0600	FIMO_characterized	SC_RS38785	SCO7314	exposed_regulator	78.0	8.54082	0.0361
@@ -59,6 +58,7 @@ AbrC3	SCO4596	FIMO_characterized	SC_RS39850	SCO7530	exposed_regulator	33.5	15.57
 SigB	SCO0600	FIMO_characterized	SC_RS02455	SCO0089	exposed_regulator	368.0	7.96939	0.0361
 SigB	SCO0600	FIMO_characterized	SC_RS05485	SCO0712	exposed_regulator	34.0	7.96939	0.0361
 SigB	SCO0600	FIMO_characterized	SC_RS06310	SCO0877	exposed_regulator	94.0	7.96939	0.0361
+SigB	SCO0600	FIMO_characterized	SC_RS06430	SCO0897	exposed_regulator	1.0	7.96939	0.0361
 SigB	SCO0600	FIMO_characterized	SC_RS07750	SCO1160	exposed_regulator	244.0	7.96939	0.0361
 SigB	SCO0600	FIMO_characterized	SC_RS22980	SCO4158	exposed_regulator	30.0	7.96939	0.0361
 SigB	SCO0600	FIMO_characterized	SC_RS24635	SCO4495	exposed_regulator	0.0	7.96939	0.0361

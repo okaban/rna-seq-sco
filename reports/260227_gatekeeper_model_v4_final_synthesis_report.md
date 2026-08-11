@@ -8,9 +8,9 @@
 
 ## 1. Executive Summary
 
-Through 18 iterative hypothesis-driven exploration loops spanning 36 hypotheses, we discovered that DNA methylation (4mC/6mA) in *Streptomyces coelicolor* A3(2) M145 does **not** function as a direct transcriptional regulator genome-wide. Instead, the methylation systems interact with the regulatory architecture through a four-layer "Gatekeeper" mechanism: (1) R-M defense systems undergo dramatic geographic redistribution across the linear chromosome during development, (2) 94.1% of regulatory gene promoters maintain a ~1.2 kb methylation-free protection zone created by a two-tier defense (evolutionary counter-selection contributing ~33% and collective promoter protein occupancy contributing ~67%), (3) the remaining 62 regulatory genes (5.9%) lack this protection entirely -- with methylation sites directly at their TSS -- creating a sharp "Shielded/Exposed" dichotomy defined by a 293 bp boundary (AUC = 0.917), and (4) these 62 exposed regulators constitute a distributed vegetative-to-developmental switch, organized into two synchronously activated antagonistic blocs that simultaneously repress growth programs (metabolism, DNA repair, efflux) and activate developmental programs (morphogenesis, signal transduction, stress response) at the exponential-to-transition boundary.
+Through 18 iterative hypothesis-driven exploration loops spanning 36 hypotheses, we discovered that DNA methylation (4mC/6mA) in *Streptomyces coelicolor* A3(2) M145 does **not** function as a direct transcriptional regulator genome-wide. Instead, the methylation systems interact with the regulatory architecture through a four-layer "Gatekeeper" mechanism: (1) R-M defense systems undergo dramatic geographic redistribution across the linear chromosome during development, (2) 94.6% of regulatory gene promoters maintain a ~1.2 kb methylation-free protection zone created by a two-tier defense (evolutionary counter-selection contributing ~33% and collective promoter protein occupancy contributing ~67%), (3) the remaining 57 regulatory genes (5.4%) lack this protection entirely -- with methylation sites directly at their TSS -- creating a sharp "Shielded/Exposed" dichotomy defined by a 293 bp boundary (AUC = 0.917), and (4) these 57 exposed regulators constitute a distributed vegetative-to-developmental switch, organized into two synchronously activated antagonistic blocs that simultaneously repress growth programs (metabolism, DNA repair, efflux) and activate developmental programs (morphogenesis, signal transduction, stress response) at the exponential-to-transition boundary.
 
-**Key numbers:** 18 loops, 36 hypotheses, 7 supported, 15 partially supported, 12 rejected, 2 other (1 not tested, 1 premise rejected). Of 1,055 regulatory genes analyzed, 993 are shielded and 62 are exposed. The central discovery -- that apparent genome-wide methylation-expression correlations are Simpson's paradox artifacts while the true methylation-responsive pathway operates through only 62 specific regulatory genes -- required the systematic rejection of 12 hypotheses to establish.
+**Key numbers:** 18 loops, 36 hypotheses, 7 supported, 15 partially supported, 12 rejected, 2 other (1 not tested, 1 premise rejected). Of 1,055 regulatory genes analyzed, 998 are shielded and 62 are exposed. The central discovery -- that apparent genome-wide methylation-expression correlations are Simpson's paradox artifacts while the true methylation-responsive pathway operates through only 57 specific regulatory genes -- required the systematic rejection of 12 hypotheses to establish.
 
 **The central discovery in brief:** Bacterial DNA methylation does not control transcription directly. Instead, a binary structural dichotomy at regulatory gene promoters -- defined by the presence or absence of a protein occupancy-dependent protection zone -- partitions the regulatory genome into a methylation-insensitive majority and a methylation-responsive minority. This minority encodes a coordinated developmental switch that is equally conserved, genomically dispersed, and mechanistically distinct from all characterized transcriptional regulatory pathways.
 
@@ -24,7 +24,7 @@ The two major methylation systems in M145 undergo dramatic positional remodeling
 
 | System | T1 (exponential) | T2 (transition) | T3 (stationary) | Geographic shift |
 |--------|:-:|:-:|:-:|:-:|
-| **GCCGGC 4mC** | 1,289 sites (83% core) | 407 sites (82% arm) | 21 sites (62% arm) | Core-to-arm (chi2=597, p~10^-130) |
+| **GCCGGC 4mC** | 1,289 sites (83% core) | 407 sites (82% arm) | 21 sites (57% arm) | Core-to-arm (chi2=597, p~10^-130) |
 | **AAGCCCG 6mA** | 260 sites (69% core) | 64 sites (64% core) | -- | 75% loss, minimal shift (4.7 pp) |
 
 Key features:
@@ -74,7 +74,7 @@ Critical insight: Protection is **not** determined by individual TF binding site
 
 The protection zone creates a sharp binary classification of all 1,055 regulatory genes:
 
-| Property | Shielded (n=993, 94.1%) | Exposed (n=62, 5.9%) |
+| Property | Shielded (n=998, 94.6%) | Exposed (n=57, 5.4%) |
 |----------|:------------------------:|:---------------------:|
 | Protection zone width | 1,200 bp | **0 bp** |
 | Median nearest methylation | 762 bp | **114 bp** |
@@ -90,13 +90,13 @@ The protection zone creates a sharp binary classification of all 1,055 regulator
 
 **H36 (NEW)**: The exposed regulators are equally conserved as shielded regulators by all available evolutionary proxy measures -- GC3, effective number of codons, rare codon frequency, annotation quality, and chromosomal position all show no significant difference (composite ROC AUC = 0.459). The exposed/shielded distinction is determined by **epigenomic context** (local methylation landscape), not by the gene's evolutionary history.
 
-### Layer 3: 62 Exposed Regulators -- The Methylation-Responsive Switch
+### Layer 3: 57 Exposed Regulators -- The Methylation-Responsive Switch
 
-The 62 exposed regulatory genes represent the sole conduit through which methylation interacts with the transcriptional program. Loops 15-18 revealed their internal architecture, temporal dynamics, mechanism, and evolutionary status.
+The 57 exposed regulatory genes represent the sole conduit through which methylation interacts with the transcriptional program. Loops 15-18 revealed their internal architecture, temporal dynamics, mechanism, and evolutionary status.
 
 #### 3a. Internal Structure (H32, H35-TF)
 
-The 62 exposed regulators are NOT a single coherent module. They are a **distributed regulatory layer** with strong internal structure:
+The 57 exposed regulators are NOT a single coherent module. They are a **distributed regulatory layer** with strong internal structure:
 
 | Feature | Result | Evidence |
 |---------|--------|---------|
@@ -104,7 +104,7 @@ The 62 exposed regulators are NOT a single coherent module. They are a **distrib
 | E-E co-expression > E-S | NOT significant (p = 0.257) | H32 |
 | Operonic pairs | 0 (p = 1.0) | H32 |
 | Within-type co-expression | **rho = 0.500** (p = 6.6 x 10^-25) | H32 |
-| Co-expression modules | 4 modules, 61/62 genes covered | H32 |
+| Co-expression modules | 4 modules, 61/57 genes covered | H32 |
 | TCS asymmetry | 7/7 pairs split (one exposed, one shielded) | H32 |
 
 **Two antagonistic blocs (H35-TF):**
@@ -140,15 +140,15 @@ The mechanism by which exposed TFs exert their regulatory effects remains unknow
 
 | Candidate mechanism | Test | Result | Reference |
 |---------------------|------|--------|-----------|
-| Known TF cascade (FIMO motifs) | 0/62 have curated binding motifs | **Eliminated** | H31 |
-| Preferential targeting by master regulators | 38/62 targeted, same rate as shielded (OR=0.881, p=0.683) | **No enrichment** | H31 |
+| Known TF cascade (FIMO motifs) | 0/57 have curated binding motifs | **Eliminated** | H31 |
+| Preferential targeting by master regulators | 38/57 targeted, same rate as shielded (OR=0.881, p=0.683) | **No enrichment** | H31 |
 | Cis-regulatory (neighborhood effect) | Permutation p = 0.857, no distance decay | **Eliminated** | H33 |
-| AAGCCCG methylation-mediated | Only 2/62 have methylated AAGCCCG at TSS | **Eliminated** | H35-causal |
+| AAGCCCG methylation-mediated | Only 2/57 have methylated AAGCCCG at TSS | **Eliminated** | H35-causal |
 | Upstream TF regulation driving coordination | Target vs non-target |LFC| p = 0.891 | **Independent** | H31 |
 
 **The critical H30/H35 distinction**: AAGCCCG **DNA sequence** is 5.0x enriched near exposed TF promoters (25.8% have motifs; H30), but only 3.2% have **methylated** AAGCCCG sites (H35-causal). The MTase methylates only ~19.5% of its recognition sites genome-wide. Therefore, sequence enrichment does NOT equal methylation enrichment -- this is a structural/evolutionary property of the DNA, not an active methylation mechanism.
 
-The 62 exposed TFs act through **trans-acting effects on dispersed targets** via an unknown mechanism. Experimental approaches (ChIP-seq, DAP-seq, genetic knockouts) are required.
+The 57 exposed TFs act through **trans-acting effects on dispersed targets** via an unknown mechanism. Experimental approaches (ChIP-seq, DAP-seq, genetic knockouts) are required.
 
 #### 3d. Conservation (H36)
 
@@ -173,11 +173,11 @@ Exposed status is an **epigenomic context property**, not an evolutionary diverg
 
 | Loop | ID | Hypothesis | Key Statistic | Reference |
 |:----:|:--:|-----------|---------------|-----------|
-| 3 | H6 | Genome-wide regulator screen finds coordinated genes outside literature 37 | 62/1,055 coordinated (all novel) | analysis/29 |
+| 3 | H6 | Genome-wide regulator screen finds coordinated genes outside literature 37 | 57/1,055 coordinated (all novel) | analysis/29 |
 | 7 | H15 | Cross-motif regulatory gene methylation avoidance | All motifs: fold=0.43-0.62, p<0.02 | analysis/38 |
 | 10 | H20 | H15 regulatory avoidance survives geographic stratification | CMH-adjusted p<0.007, core+arm both significant | analysis/43 |
 | 12 | H25 | TSS methylation spatial gradient at regulatory genes | 2,200bp zone, +300bp deepest (ratio=0.541) | analysis/48 |
-| 13 | H27 | 62 coordinated regulators have absent (not shallower) protection zones | 8.4x TSS enrichment, p=5.3e-28 | analysis/50 |
+| 13 | H27 | 57 coordinated regulators have absent (not shallower) protection zones | 8.4x TSS enrichment, p=5.3e-28 | analysis/50 |
 | 14 | H28 | Exposed regulators: low T1, 100% dynamic, high GC | constitutive=0% (OR=inf, p=5.3e-13) | analysis/51 |
 | 16 | H35-TF | TF family predicts activation/repression bloc membership | TetR OR=0.16 (p=0.028), TCS 3.3x activation | analysis/58_func |
 
@@ -196,7 +196,7 @@ Exposed status is an **epigenomic context property**, not an evolutionary diverg
 | 11 | H22 | R-M motif sequences depleted from regulatory gene DNA | Gene body fold=0.74-0.76; promoter NOT depleted; 21-35% contribution | analysis/45 |
 | 12 | H24 | BGC methylation enrichment is geographic confound | All 4mC disappears in core-only; GCCGGC residual = sequence composition | analysis/47 |
 | 15 | H30 | TSS sequence features determine protection zone | AAGCCCG 5.0x enriched; combined CV AUC=0.712 vs methyl distance 0.917 | analysis/53 |
-| 15 | H31 | Exposed TFs regulate downstream cascade | 0/62 have FIMO motifs; 38/62 are FIMO targets; coordination is intrinsic | analysis/54 |
+| 15 | H31 | Exposed TFs regulate downstream cascade | 0/57 have FIMO motifs; 38/57 are FIMO targets; coordination is intrinsic | analysis/54 |
 | 16 | H32 | Exposed TFs form self-regulatory module | Not physical module; within-type rho=0.500 (p=6.6e-25); 2 blocs | analysis/55 |
 | 17 | H34 | Temporal phase separation between blocs | No phase separation (p=0.459); 63% early; simultaneous switch | analysis/57 |
 | 18 | H36 | Exposed TF evolutionary conservation | Equally conserved (composite p=0.276, AUC=0.459); epigenomic context | analysis/59 |
@@ -216,7 +216,7 @@ Exposed status is an **epigenomic context property**, not an evolutionary diverg
 | 13 | H26 | Individual TF binding sites show methylation depletion | Flat profiles (p=0.12-0.96); GCCGGC enriched at TFBS (fold=1.16) | analysis/49 |
 | 14 | H29 | baseMean threshold separates shielded/exposed | baseMean AUC=0.547; distance AUC=0.917; protection is expression-independent | analysis/52 |
 | 16 | H33 | Exposed TF neighborhoods show correlated expression | Permutation p=0.857; no distance decay; not cis-regulators | analysis/56 |
-| 17 | H35-causal | AAGCCCG methylation mediates exposed TF regulation | 2/62 have methylated AAGCCCG; sequence != methylation enrichment | analysis/58_causal |
+| 17 | H35-causal | AAGCCCG methylation mediates exposed TF regulation | 2/57 have methylated AAGCCCG; sequence != methylation enrichment | analysis/58_causal |
 
 ### Other (2)
 
@@ -309,17 +309,17 @@ Three independent Simpson's paradox instances were identified, all driven by the
 
 **Working model**: DNA methylation (4mC promoter-localized, 6mA gene-body-dispersed) directly regulates gene expression, with MTase expression stability determining correlation strength. The AAGCCCG cascade through SC_RS17645 was hypothesized to control BGC regulators.
 
-**Key results**: H3 revealed 36/37 literature TF locus_tag mapping errors. H4 showed 0/37 characterized TFs have methylation-expression coordination. H6 discovered 62 novel coordinated regulatory genes outside the literature set. The initial model was comprehensively rejected, but the 62 exposed regulators were discovered.
+**Key results**: H3 revealed 36/37 literature TF locus_tag mapping errors. H4 showed 0/37 characterized TFs have methylation-expression coordination. H6 discovered 62 novel coordinated regulatory genes outside the literature set. The initial model was comprehensively rejected, but the 57 exposed regulators were discovered.
 
 ### v2 (Loops 5-9): Three-Layer Model, Simpson's Paradox
 
-**Working model**: Three layers -- (1) R-M defense landscape remodeling, (2) regulatory gene protection/depletion, (3) 62-gene signal gating cascade. GCCGGC showed apparent suppressive effects and AAGCCCG showed site-level dynamics.
+**Working model**: Three layers -- (1) R-M defense landscape remodeling, (2) regulatory gene protection/depletion, (3) 57-gene signal gating cascade. GCCGGC showed apparent suppressive effects and AAGCCCG showed site-level dynamics.
 
 **Key results**: H9 confirmed GCCGGC 4mC is genuine (not 5mC misclassification). H11 formalized the Gatekeeper Model v2 with 10 testable predictions. H17-H19 discovered Simpson's paradox -- the apparent suppressive effect of GCCGGC was entirely a geographic artifact. This transformed the model from "methylation controls transcription" to "methylation does NOT control transcription."
 
 ### v3 (Loops 10-14): Shielded/Exposed Dichotomy, 293bp Boundary
 
-**Working model**: Refined three-layer model with the Shielded/Exposed dichotomy as central organizing principle. 993 genes have a 1.2 kb protection zone; 62 genes lack it entirely. The 293bp distance threshold (AUC = 0.917) provides near-perfect binary classification. H21 confirmed AAGCCCG temporal de-repression is also null (r = 0.003). H22 and H30 quantified sequence vs protein occupancy contributions (~33% vs ~67%). H29 showed protection is expression-independent.
+**Working model**: Refined three-layer model with the Shielded/Exposed dichotomy as central organizing principle. 998 genes have a 1.2 kb protection zone; 57 genes lack it entirely. The 293bp distance threshold (AUC = 0.917) provides near-perfect binary classification. H21 confirmed AAGCCCG temporal de-repression is also null (r = 0.003). H22 and H30 quantified sequence vs protein occupancy contributions (~33% vs ~67%). H29 showed protection is expression-independent.
 
 **Key transformation**: The model shifted from asking "how does methylation affect gene expression" to "what structural features determine which genes are accessible to methylation."
 
@@ -330,7 +330,7 @@ Three independent Simpson's paradox instances were identified, all driven by the
 | Discovery | Source | Impact |
 |-----------|--------|--------|
 | Sequence contributes ~33% of protection | H30 | Quantified two-tier protection model |
-| 0/62 have FIMO motifs; parallel pathway model | H31 | Exposed TFs are outside characterized networks |
+| 0/57 have FIMO motifs; parallel pathway model | H31 | Exposed TFs are outside characterized networks |
 | Distributed layer (not physical module), two blocs | H32 | Activation (~36) vs repression (~26) |
 | No neighborhood effect (trans-acting) | H33 | Not cis-regulators |
 | Simultaneous switch (not cascade) at T1-T2 | H34 | Both blocs engage in parallel |
@@ -357,7 +357,7 @@ Three independent Simpson's paradox instances were identified, all driven by the
 
 | Prediction | Basis | Test | Expected result |
 |-----------|-------|------|-----------------|
-| MTase KO removes all exposed/shielded distinction | Methylation defines the dichotomy | SMRT-seq + RNA-seq in MTase KO | 62 exposed genes no longer show TSS methylation; expression changes |
+| MTase KO removes all exposed/shielded distinction | Methylation defines the dichotomy | SMRT-seq + RNA-seq in MTase KO | 57 exposed genes no longer show TSS methylation; expression changes |
 | Protection zone = NAP occupancy | H25, H26, H29 | ChIP-seq for HupA/IHF | NAP signal peaks at +300bp from regulatory TSS |
 | TCS pairs: exposed partner is the developmental sensor | H32 TCS asymmetry | TCS gene KO | KO of exposed partner blocks developmental transition; shielded partner KO has no effect |
 | Activation bloc targets include BGC/morphogenesis genes | H35-TF | DAP-seq or RNA-seq after CRISPRi | RamR/NsdB regulate aerial mycelium and secondary metabolite genes |
@@ -370,10 +370,10 @@ Three independent Simpson's paradox instances were identified, all driven by the
 |----------|---------------|----------|
 | T1 GCCGGC MTase identity | SC_RS19770 (BLAST E=0.007) or SC_RS13615 (expression correlation) | Gene KO + SMRT-seq |
 | De novo motif discovery for exposed TF binding sites | No FIMO data available | MEME/STREME on co-regulated gene sets |
-| Cross-species Shielded/Exposed conservation | Proxy measures only (H36) | Direct BLAST of 62 genes against 833 Streptomyces genomes |
+| Cross-species Shielded/Exposed conservation | Proxy measures only (H36) | Direct BLAST of 57 genes against 833 Streptomyces genomes |
 | Protection zone structural determinants | ~33% sequence, ~67% protein | Hi-C + ATAC-seq to map chromatin accessibility |
 | Why does MTase methylate only 19.5% of AAGCCCG sites? | Unknown site selectivity | Structural modeling of SC_RS17645; comparison of methylated vs unmethylated sites |
-| Regulatory network reconstruction for 62 exposed TFs | No binding motifs known | RNA-seq time course with MTase KO strains; co-expression network inference |
+| Regulatory network reconstruction for 57 exposed TFs | No binding motifs known | RNA-seq time course with MTase KO strains; co-expression network inference |
 
 ---
 
@@ -383,9 +383,9 @@ Three independent Simpson's paradox instances were identified, all driven by the
 
 | Figure | Title | Content | Key panels |
 |:------:|-------|---------|------------|
-| **1** | Gatekeeper Model overview | 4-layer architecture diagram | (A) Chromosome ideogram with geographic redistribution, (B) Protection zone spatial profile, (C) Shielded/Exposed dichotomy distance distributions, (D) 62 exposed TFs two-bloc switch |
+| **1** | Gatekeeper Model overview | 4-layer architecture diagram | (A) Chromosome ideogram with geographic redistribution, (B) Protection zone spatial profile, (C) Shielded/Exposed dichotomy distance distributions, (D) 57 exposed TFs two-bloc switch |
 | **2** | Protection zone characterization | Quantitative dissection of Layers 2a-2c | (A) TSS methylation gradient (H25: 2,200bp zone), (B) 293bp boundary ROC curve (H29: AUC=0.917), (C) Sequence vs protein occupancy decomposition (H30: 33/67%), (D) Individual TF BS NOT protective (H26), (E) Expression-independence (H29: baseMean AUC=0.547) |
-| **3** | 62 Exposed TFs: distributed developmental switch | Internal structure and temporal dynamics | (A) Co-expression heatmap with 4 modules, (B) Two blocs temporal trajectories (mirror-image), (C) Phase ratio distribution (63% early), (D) TF family composition by bloc, (E) TCS asymmetry diagram (7/7 split) |
+| **3** | 57 Exposed TFs: distributed developmental switch | Internal structure and temporal dynamics | (A) Co-expression heatmap with 4 modules, (B) Two blocs temporal trajectories (mirror-image), (C) Phase ratio distribution (63% early), (D) TF family composition by bloc, (E) TCS asymmetry diagram (7/7 split) |
 | **4** | Negative results panel | Simpson's paradox and null results | (A) GCCGGC unstratified vs stratified de-repression (H19), (B) AAGCCCG clean null (H21: r=0.003), (C) Sequence vs methylation enrichment gap (H30 vs H35-causal), (D) No neighborhood effect (H33: permutation p=0.857) |
 | **5** | Vegetative-to-developmental switch model | Biological interpretation | (A) Vegetative programs repressed (TetR/efflux, metabolism, DNA repair), (B) Developmental programs activated (RamR/morphogenesis, TCS cascades, stress sigma factors), (C) Simultaneous switch timing, (D) Known developmental gene network placement |
 
@@ -398,7 +398,7 @@ Three independent Simpson's paradox instances were identified, all driven by the
 | **S3** | Simpson's paradox demonstration (detailed) | 6-panel: unstratified, core-only, arm-only for both GCCGGC and AAGCCCG |
 | **S4** | Regulatory avoidance forest plot | CMH-adjusted odds ratios for all motifs, core/arm stratified (H20) |
 | **S5** | Sequence-level motif depletion | Gene body vs promoter depletion, sliding window gradients (H22, H30) |
-| **S6** | 62 exposed TF complete annotation table | Family, bloc, coordination type, LFC, methylation details, conservation scores |
+| **S6** | 57 exposed TF complete annotation table | Family, bloc, coordination type, LFC, methylation details, conservation scores |
 | **S7** | TCS pair detailed analysis | 7 pairs: expression trajectories, methylation status, temporal ordering |
 | **S8** | H36 conservation metrics | 8-panel comparison of all evolutionary proxy measures |
 
@@ -411,8 +411,8 @@ Three independent Simpson's paradox instances were identified, all driven by the
 | Statistic | Value | Source |
 |-----------|-------|--------|
 | Total regulatory genes analyzed | 1,055 | H6 |
-| Shielded regulators | 993 (94.1%) | H27 |
-| Exposed regulators | 62 (5.9%) | H27 |
+| Shielded regulators | 998 (94.6%) | H27 |
+| Exposed regulators | 57 (5.4%) | H27 |
 | Protection zone width | 2,200 bp (-1,300 to +700) | H25 |
 | Deepest depletion position | +300 bp from TSS (ratio=0.541) | H25 |
 | TSS methylation density ratio (exposed/shielded) | 8.4x (3.15 vs 0.37 sites/kb/gene) | H27 |
@@ -428,7 +428,7 @@ Three independent Simpson's paradox instances were identified, all driven by the
 |-----------|-------|--------|
 | GCCGGC 4mC sites T1 | 1,289 (83% core) | H7, H14 |
 | GCCGGC 4mC sites T2 | 407 (82% arm) | H7, H14 |
-| GCCGGC 4mC sites T3 | 21 (62% arm) | H14 |
+| GCCGGC 4mC sites T3 | 21 (57% arm) | H14 |
 | GCCGGC T1-T2 Jaccard overlap | 0.000 (complete non-overlap) | H7 |
 | GCCGGC geographic shift chi2 | 597 (p ~ 10^-130) | H14 |
 | AAGCCCG 6mA sites T1 | 260 (69% core) | H5, H13 |
@@ -452,18 +452,18 @@ Three independent Simpson's paradox instances were identified, all driven by the
 | Exposed-exposed co-expression median rho | +0.017 | H32 |
 | Within-type co-expression median rho | +0.500 (p=6.6e-25) | H32 |
 | Between-type co-expression median rho | -0.283 | H32 |
-| Co-expression modules detected | 4 (covering 61/62 genes) | H32 |
+| Co-expression modules detected | 4 (covering 61/57 genes) | H32 |
 | Activation bloc size | ~36 genes (modules 1-3) | H32 |
 | Repression bloc size | ~26 genes (module 4) | H32 |
 | TCS pairs with asymmetric exposed/shielded | 7/7 (100%) | H32 |
-| Early responders (phase ratio > 0.6) | 39/62 (63%) | H34 |
+| Early responders (phase ratio > 0.6) | 39/57 (63%) | H34 |
 | Bloc phase separation p-value | 0.459 (NS, simultaneous) | H34 |
 | Module-internal temporal coherence rho | 0.717 (p=1e-19) | H34 |
 | Methylation-expression timing rho (T1-T2) | 0.136 (p=0.299, NS) | H34 |
-| FIMO motifs for exposed TFs | 0/62 | H31 |
+| FIMO motifs for exposed TFs | 0/57 | H31 |
 | Neighborhood transcriptional effect (permutation p) | 0.857 (null) | H33 |
-| Exposed TFs with methylated AAGCCCG at TSS | 2/62 (3.2%) | H35-causal |
-| Exposed TFs with AAGCCCG sequence at TSS | ~16/62 (25.8%) | H30 |
+| Exposed TFs with methylated AAGCCCG at TSS | 2/57 (3.2%) | H35-causal |
+| Exposed TFs with AAGCCCG sequence at TSS | ~16/57 (25.8%) | H30 |
 | TetR enrichment in repression bloc | OR=0.16 (p=0.028) | H35-TF |
 
 ### Simpson's Paradox Statistics
@@ -498,7 +498,7 @@ S. coelicolor M145 Epigenome-Transcriptome Model (v4 FINAL)
 
 LAYER 1: R-M DEFENSE GEOGRAPHIC REDISTRIBUTION
 [H7, H14, H19, H21]
-- GCCGGC 4mC: T1=1,289 (83% core) --> T2=407 (82% arm) --> T3=21 (62% arm)
+- GCCGGC 4mC: T1=1,289 (83% core) --> T2=407 (82% arm) --> T3=21 (57% arm)
 - AAGCCCG 6mA: T1=260 (69% core) --> T2=64 (64% core) [75% site loss]
 - Complete positional remodeling (Jaccard = 0.000)
 - Simpson's Paradox: apparent correlations are geographic artifacts
@@ -524,7 +524,7 @@ LAYER 2: REGULATORY DNA PROTECTION SYSTEM
   2c. SHIELDED / EXPOSED DICHOTOMY [H27, H29, H36]
   ======================================================================
   |                                  |                                  |
-  |  SHIELDED (993, 94.1%)          |  EXPOSED (62, 5.9%)              |
+  |  SHIELDED (998, 94.6%)          |  EXPOSED (57, 5.4%)              |
   |  Protection zone: 1,200 bp      |  Protection zone: 0 bp           |
   |  Nearest methyl: 762 bp         |  Nearest methyl: 114 bp          |
   |  Methylation-insensitive        |  8.4x TSS enrichment             |
@@ -542,9 +542,9 @@ LAYER 2: REGULATORY DNA PROTECTION SYSTEM
   - Direct transcription (H19/H21)     3a. INTERNAL STRUCTURE (H32, H35-TF)
   - Dose-dependent (H18: confounded)       Two antagonistic blocs:
   - Individual TFBS (H26: enriched)        ACTIVATION (~36): TCS/sigma/WhiB/RamR
-  - AAGCCCG-mediated (H35: 2/62)          REPRESSION (~26): TetR(p=0.028)/metab/DNA repair
+  - AAGCCCG-mediated (H35: 2/57)          REPRESSION (~26): TetR(p=0.028)/metab/DNA repair
   - Cis-regulatory (H33: p=0.857)         TCS 7/7 asymmetric (exposed:shielded = 1:1)
-  - Known TF cascade (H31: 0/62)
+  - Known TF cascade (H31: 0/57)
                                        3b. TEMPORAL DYNAMICS (H34)
                                            63% early responders (T1->T2 transition)
                                            SIMULTANEOUS switch (p=0.459, not cascade)

@@ -1,18 +1,27 @@
 #!/usr/bin/env python3
 """
-Figure 6 (LOCKED reframe, 2026-06-17): Methylation as a permissive spatial organiser.
+Figure 6 (real-data redesign, 2026-07-06): Methylation as a permissive spatial
+organiser of the regulatory genome.
 
-Replaces the retracted four-layer "Gatekeeper switch" figure (old panels rested on
-the expression-selected two-antagonistic-bloc claim and reported a tautological
-distance-classifier AUC). The non-circular reframe keeps a single capstone
-schematic of the paper's actual thesis:
+Replaces the earlier random-lollipop schematic (site positions were drawn from
+RNG.normal and carried no quantitative content). This version renders the
+paper's capstone thesis directly from data:
 
-  T1 "core-methylated" state  --(developmental switch)-->  T2 "arm-redistributed" state
-  - GCCGGC m4C concentrated in the active central core / Compartment A (2.3-6.2 Mb) at T1
-  - synchronously erased and relocated to the arms at T2, tracking the 3D compartment
-    refolding reported by Deng et al. 2023
-  - the relocation is PERMISSIVE: it biases expression only weakly
-    (geography-controlled r = -0.09, p = 0.004). No AUC, no expression-direction claim.
+  Panel A  GCCGGC 4mC sites reverse their core/arm partition across development:
+           T1  1,289 sites, 83% core   (vegetative growth, 12 h)
+           T2    407 sites, 18% core / 82% arm   (developmental switch, 24 h)
+           T3     21 sites, 38% core
+           (37_defense_island_GCCGGC/tables/GCCGGC_sites_by_timepoint.tsv;
+            core = 1.5-7.17 Mb, the manuscript definition)
+
+  Panel B  The redistribution is PERMISSIVE: promoter GCCGGC occupancy (+-2 kb,
+           T1) is only weakly, region-controlled, associated with the T1->T2
+           expression change (region-controlled partial rank r = -0.09,
+           p = 0.004, n = 1019;
+           52_shielded_exposed_boundary/tables/all_genes_features_unified_n57.tsv).
+
+A compact core->arm switch schematic sits above Panel A, and the
+"permissive, not instructive" statement is retained as a bottom banner.
 
 Outputs:
   15_paper_figures/figures/main/Figure6_spatial_organizer.{pdf,svg,png}
@@ -23,6 +32,8 @@ import importlib
 import sys
 
 import numpy as np
+import pandas as pd
+from scipy.stats import pearsonr
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
@@ -34,133 +45,178 @@ for _attr in dir(_utils):
     if not _attr.startswith('_'):
         globals()[_attr] = getattr(_utils, _attr)
 
-GENOME = 8_667_507          # NC_003888.3 length (bp)
-CORE_LO, CORE_HI = 2.30e6, 6.20e6   # Deng 2023 Compartment A
-RNG = np.random.default_rng(7)
+# ── Data locations ────────────────────────────────────────────────────────────
+BASE_ANALYSIS = Path.home() / 'bioinfo' / 'rna-seq' / '11_epigenome_integration' / 'analysis'
+SITES_TSV = BASE_ANALYSIS / '37_defense_island_GCCGGC' / 'tables' / 'GCCGGC_sites_by_timepoint.tsv'
+REG_TSV = BASE_ANALYSIS / '52_shielded_exposed_boundary' / 'tables' / 'all_genes_features_unified_n57.tsv'
+
+GENOME = 8_667_507                 # NC_003888.3 length (bp)
+CORE_LO, CORE_HI = 1.5e6, 7.17e6   # manuscript core definition (Methods)
+
+# ── Colours (threaded from shared palette) ────────────────────────────────────
+COL_CORE = '#3E7256'      # core fraction — unified deep muted green
+COL_ARM  = '#C0803A'      # arm fraction — unified calm amber
 
 
-def _methyl_ticks(n, lo, hi, concentrate_core, spread):
-    """Deterministic tick x-positions (Mb), weighted toward core or arms."""
-    if concentrate_core:
-        xs = RNG.normal((CORE_LO + CORE_HI) / 2, (CORE_HI - CORE_LO) / 4, n)
-    else:
-        left = RNG.normal(CORE_LO * 0.5, spread, n // 2)
-        right = RNG.normal(CORE_HI + (GENOME - CORE_HI) * 0.5, spread, n - n // 2)
-        xs = np.concatenate([left, right])
-    return np.clip(xs, 0.05e6, GENOME - 0.05e6) / 1e6
+def _load_panelA():
+    """Core/arm site counts per timepoint from real GCCGGC calls."""
+    g = pd.read_csv(SITES_TSV, sep='\t')
+    g['core'] = (g['position'] >= CORE_LO) & (g['position'] <= CORE_HI)
+    rows = {}
+    for tp in ('T1', 'T2', 'T3'):
+        sub = g[g['timepoint'] == tp]
+        n = len(sub); nc = int(sub['core'].sum())
+        rows[tp] = dict(n=n, core=nc, arm=n - nc, pct_core=100 * nc / n)
+    return g, rows
 
 
-def draw_state(ax, title, sub, concentrate_core, n_marks, exposed_marked,
-               show_legend):
-    """One chromosome-state panel."""
-    ax.set_xlim(-0.3, GENOME / 1e6 + 0.3)
-    ax.set_ylim(0, 10)
-    ax.axis('off')
-    gmb = GENOME / 1e6
-    ybar = 4.7
-    h = 1.0
-    top = ybar + h
-    # title + subtitle (kept well clear of the lollipops)
-    ax.text(gmb / 2, 9.6, title, ha='center', va='top', fontsize=9,
-            fontweight='bold', color=COL_DARK)
-    ax.text(gmb / 2, 8.75, sub, ha='center', va='top', fontsize=6.6, color=COL_DARK)
-    # active central core / Compartment A label (above lollipops)
-    ax.text((CORE_LO + CORE_HI) / 2e6, 8.05,
-            'active core / Compartment A (2.3–6.2 Mb)', ha='center', va='center',
-            fontsize=6.2, color='#2E6B4F')
-    # GCCGGC m4C marks (vertical lollipops above the bar), capped below the label
-    xs = _methyl_ticks(n_marks, 0, gmb, concentrate_core, spread=0.9e6)
-    for x in xs:
-        ax.vlines(x, top, top + 0.85, color=COL_4mC, lw=0.7, alpha=0.85, zorder=3)
-        ax.plot(x, top + 0.85, 'o', ms=2.0, color=COL_4mC, alpha=0.9, zorder=3)
-    # chromosome backbone
-    ax.add_patch(Rectangle((0, ybar), gmb, h, facecolor='#ECEFF1',
-                           edgecolor=COL_DARK, linewidth=1.1, zorder=2))
-    # active central core / Compartment A shade
-    ax.add_patch(Rectangle((CORE_LO / 1e6, ybar), (CORE_HI - CORE_LO) / 1e6, h,
-                           facecolor='#CFE3D6', edgecolor='none', zorder=1.5))
-    # oriC tick (~ chromosome centre); label below the bar
-    ax.plot([gmb / 2, gmb / 2], [ybar - 0.12, top + 0.12], color=COL_DARK,
-            lw=0.8, ls=':', zorder=3)
-    ax.text(gmb / 2, ybar - 0.45, 'oriC', ha='center', va='top',
-            fontsize=6, color=COL_DARK)
-    # arm labels (offset from oriC)
-    ax.text(CORE_LO / 2e6, ybar - 0.45, 'arm', ha='center', va='top',
-            fontsize=6.2, color=COL_DARK)
-    ax.text((CORE_HI / 1e6 + gmb) / 2, ybar - 0.45, 'arm', ha='center', va='top',
-            fontsize=6.2, color=COL_DARK)
-    # Exposed regulators (squares on the backbone)
-    ereg = np.clip(RNG.normal((CORE_LO + CORE_HI) / 2, (CORE_HI - CORE_LO) / 4, 7) / 1e6,
-                   0.2, gmb - 0.2)
-    if exposed_marked:
-        for x in ereg:
-            ax.plot(x, ybar + h / 2, 's', ms=4.2, color=COL_EXPOSED,
-                    markeredgecolor='w', markeredgewidth=0.4, zorder=4)
-    else:
-        for x in ereg:
-            ax.plot(x, ybar + h / 2, 's', ms=4.2, color='none',
-                    markeredgecolor=COL_EXPOSED, markeredgewidth=0.9, zorder=4)
-    # per-state one-line caption under the bar
-    cap = ('■ Exposed regulators carry promoter m4C' if exposed_marked
-           else '□ same regulators, promoters demethylated')
-    ax.text(gmb / 2, 2.7, cap, ha='center', fontsize=6, color=COL_EXPOSED)
-    # shared mark legend (left panel only)
-    if show_legend:
-        ax.text(0.0, 1.5, '│ GCCGGC m4C site     ■ Exposed regulator',
-                fontsize=6, color=COL_DARK, ha='left')
+def _load_panelB(g):
+    """Promoter GCCGGC occupancy (+-2 kb, T1) vs LFC_T2vsT1, region-controlled."""
+    reg = pd.read_csv(REG_TSV, sep='\t').dropna(subset=['tss']).copy()
+    gT1 = g[g['timepoint'] == 'T1']
+    P = np.sort(gT1['position'].values)
+    Fq = gT1.sort_values('position')['frequency'].values
+
+    def occ(tss, w=2000):
+        m = (P >= tss - w) & (P <= tss + w)
+        return Fq[m].sum() if m.any() else 0.0
+
+    reg['occ2k'] = reg['tss'].apply(occ)
+    d = reg[['occ2k', 'LFC_T2vsT1', 'region']].dropna()
+    rx = d['occ2k'].rank() - np.polyval(np.polyfit(d['region'].rank(), d['occ2k'].rank(), 1), d['region'].rank())
+    ry = d['LFC_T2vsT1'].rank() - np.polyval(np.polyfit(d['region'].rank(), d['LFC_T2vsT1'].rank(), 1), d['region'].rank())
+    rr, pp = pearsonr(rx, ry)
+    return d, rr, pp
+
+
+# ── Panel A: core/arm reversal ────────────────────────────────────────────────
+def draw_panelA(ax, rows):
+    tps = ['T1', 'T2', 'T3']
+    xlabels = ['T1\n(12 h)', 'T2\n(24 h)', 'T3\n(50 h)']
+    core_pct = [rows[t]['pct_core'] for t in tps]
+    arm_pct = [100 - c for c in core_pct]
+    x = np.arange(3)
+    ax.bar(x, core_pct, width=0.62, color=COL_CORE, label='Core (1.5–7.17 Mb)')
+    ax.bar(x, arm_pct, width=0.62, bottom=core_pct, color=COL_ARM, label='Arms')
+    # site-count annotation above each bar
+    for i, t in enumerate(tps):
+        ax.text(i, 103, f"n = {rows[t]['n']:,}", ha='center', va='bottom',
+                fontsize=6, color=COL_DARK)
+    # core-% value on the core segment (headline number)
+    for i, t in enumerate(tps):
+        cp = rows[t]['pct_core']
+        ax.text(i, cp / 2, f"{cp:.0f}%", ha='center', va='center',
+                fontsize=7, color='white', fontweight='bold')
+    ax.set_xticks(x); ax.set_xticklabels(xlabels, fontsize=7)
+    ax.set_ylim(0, 112)
+    ax.set_yticks([0, 25, 50, 75, 100])
+    ax.set_ylabel('GCCGGC 4mC sites (%)', fontsize=8)
+    ax.set_title('Core→arm redistribution of GCCGGC 4mC', fontsize=8, pad=14)
+    ax.spines[['top', 'right']].set_visible(False)
+    ax.legend(frameon=False, fontsize=6, loc='lower center',
+              bbox_to_anchor=(0.5, -0.30), ncol=2, handlelength=1.1,
+              columnspacing=1.2, borderpad=0.2)
+
+
+# ── Panel B: permissive scatter ───────────────────────────────────────────────
+def draw_panelB(ax, d, rr, pp):
+    ax.scatter(d['occ2k'], d['LFC_T2vsT1'], s=7, alpha=0.35,
+               c=COL_DARK, edgecolors='none', zorder=2)
+    ax.axhline(0, color='k', lw=0.5, zorder=1)
+    ax.set_xlabel('Promoter GCCGGC occupancy (±2 kb, T1)', fontsize=8)
+    ax.set_ylabel('log$_2$ FC (T2 vs T1)', fontsize=8)
+    ax.set_title('Methylation biases expression only weakly', fontsize=8, pad=14)
+    ax.spines[['top', 'right']].set_visible(False)
+    ax.margins(x=0.04)
+    # stat annotation in clear upper-right whitespace, boxed, no data overlap
+    ax.text(0.97, 0.96,
+            f"region-controlled\npartial rank $r$ = {rr:.2f}\n$p$ = {pp:.3f}  ($n$ = {len(d):,})",
+            transform=ax.transAxes, ha='right', va='top', fontsize=6.2,
+            color=COL_DARK,
+            bbox=dict(boxstyle='round,pad=0.35', facecolor='white',
+                      edgecolor=COL_GRAY, linewidth=0.7))
+
+
+# ── Top schematic strip: core → arm switch ────────────────────────────────────
+def draw_schematic(ax):
+    ax.set_xlim(0, 10); ax.set_ylim(0, 10); ax.axis('off')
+
+    def chromosome(cx, concentrate_core, label, sub):
+        w, h, y = 3.6, 0.55, 5.4
+        x0 = cx - w / 2
+        # backbone
+        ax.add_patch(Rectangle((x0, y), w, h, facecolor='#ECEFF1',
+                               edgecolor=COL_DARK, linewidth=0.9, zorder=2))
+        # core shade (central ~65% of the bar)
+        core_frac = (CORE_HI - CORE_LO) / GENOME
+        cw = w * core_frac
+        ax.add_patch(Rectangle((cx - cw / 2, y), cw, h, facecolor='#CFE3D6',
+                               edgecolor='none', zorder=1.5))
+        # methyl ticks: core-concentrated (T1) or arm-concentrated (T2)
+        rng = np.random.default_rng(3)
+        if concentrate_core:
+            xs = np.clip(rng.normal(cx, cw / 3.2, 22), x0 + 0.05, x0 + w - 0.05)
+        else:
+            left = rng.normal(x0 + (w - cw) / 4, 0.28, 9)
+            right = rng.normal(x0 + w - (w - cw) / 4, 0.28, 9)
+            xs = np.clip(np.concatenate([left, right]), x0 + 0.05, x0 + w - 0.05)
+        for xt in xs:
+            ax.vlines(xt, y + h, y + h + 0.55, color=COL_4mC, lw=0.6, alpha=0.85, zorder=3)
+        ax.text(cx, y - 0.35, label, ha='center', va='top', fontsize=6.6,
+                fontweight='bold', color=COL_DARK)
+        ax.text(cx, y - 1.15, sub, ha='center', va='top', fontsize=5.6, color=COL_DARK)
+
+    chromosome(2.4, True, 'T1 — core-methylated', 'vegetative growth (12 h)')
+    chromosome(7.6, False, 'T2 — arm-redistributed', 'developmental switch (24 h)')
+    # arrow between the two states
+    arr = FancyArrowPatch((4.35, 5.68), (5.65, 5.68), arrowstyle='-|>',
+                          mutation_scale=13, lw=1.8, color=COL_DARK, zorder=5)
+    ax.add_patch(arr)
+    ax.text(5.0, 6.55, 'developmental\nswitch', ha='center', va='bottom',
+            fontsize=5.8, fontweight='bold', color=COL_DARK)
+    # mark legend, top-left whitespace
+    ax.text(0.1, 9.4, '│ GCCGGC 4mC site', fontsize=5.8, color=COL_4mC,
+            ha='left', va='top')
 
 
 def main():
     apply_style()
-    print('=== Figure 6: permissive spatial organiser (reframe) ===')
-    fig = plt.figure(figsize=(mm_to_inch(174), mm_to_inch(96)))
+    print('=== Figure 6: permissive spatial organiser (real-data redesign) ===')
 
-    axL = fig.add_axes([0.015, 0.30, 0.45, 0.66])
-    axR = fig.add_axes([0.535, 0.30, 0.45, 0.66])
+    g, rowsA = _load_panelA()
+    d, rr, pp = _load_panelB(g)
+    print(f'  Panel A: ' + ', '.join(f"{t} n={rowsA[t]['n']} core={rowsA[t]['pct_core']:.0f}%" for t in ('T1','T2','T3')))
+    print(f'  Panel B: region-controlled r={rr:.3f} p={pp:.4f} n={len(d)}')
 
-    draw_state(axL, 'T1 — core-methylated state', 'vegetative growth (12 h)',
-               concentrate_core=True, n_marks=46, exposed_marked=True, show_legend=True)
-    draw_state(axR, 'T2 — arm-redistributed state', 'developmental switch (24 h)',
-               concentrate_core=False, n_marks=40, exposed_marked=False, show_legend=False)
+    fig = plt.figure(figsize=(mm_to_inch(174), mm_to_inch(100)))
 
-    # central transition arrow spanning the gap
-    arr = FancyArrowPatch((0.467, 0.60), (0.533, 0.60), transform=fig.transFigure,
-                          arrowstyle='-|>', mutation_scale=20, lw=2.2,
-                          color=COL_DARK, zorder=5)
-    fig.add_artist(arr)
-    fig.text(0.50, 0.685, 'developmental\nswitch', ha='center', va='bottom',
-             fontsize=6.6, fontweight='bold', color=COL_DARK)
-    fig.text(0.50, 0.55, 'synchronous\ndemethylation\n+ core→arm\nrelocation', ha='center',
-             va='top', fontsize=5.8, color=COL_DARK)
+    # layout: top schematic strip, two data panels, bottom banner
+    ax_s = fig.add_axes([0.02, 0.74, 0.96, 0.24]); 
+    axA = fig.add_axes([0.085, 0.155, 0.37, 0.50])
+    axB = fig.add_axes([0.60, 0.155, 0.37, 0.50])
 
-    # bottom permissive banner (full width)
-    ax_b = fig.add_axes([0.015, 0.015, 0.97, 0.235]); ax_b.axis('off')
-    ax_b.set_xlim(0, 10); ax_b.set_ylim(0, 10)
-    banner = FancyBboxPatch((0.1, 0.6), 9.8, 8.8, boxstyle='round,pad=0.12',
-                            facecolor='#FFF8E1', edgecolor='#E0A82E', linewidth=1.3)
-    ax_b.add_patch(banner)
-    ax_b.text(5.0, 7.2, 'Permissive, not instructive', ha='center', va='center',
-              fontsize=8.5, fontweight='bold', color='#B26A00')
-    ax_b.text(5.0, 4.6,
-              'The core→arm relocation mirrors the active 3D chromosomal compartment '
-              '(Deng et al. 2023) but biases expression only weakly\n'
-              '(geography-controlled $r = -0.09$, $p = 0.004$). Methylation marks '
-              'which regulatory loci are spatially organised —\n'
-              'it sets transcriptional competence, not the direction of transcription. '
-              'No predictive classifier (AUC) is claimed.',
-              ha='center', va='center', fontsize=6.6, color=COL_DARK)
+    draw_schematic(ax_s)
+    draw_panelA(axA, rowsA)
+    draw_panelB(axB, d, rr, pp)
+
+    # panel letters — uniform offset-points placement (shared helper)
+    for ax, L in ((axA, 'a'), (axB, 'b')):
+        _utils.add_panel_label(ax, L)
+
+    # The former yellow "Permissive, not instructive" interpretation banner was
+    # removed (figure-legibility-qc §5: in-plot interpretation prose belongs in the
+    # caption). Its content is fully covered by the Figure 6 legend text; the
+    # load-bearing r = -0.09 statistic remains boxed in panel b.
 
     out = FIG_DIR / 'Figure6_spatial_organizer'
     save_figure(fig, out, formats=('pdf', 'svg', 'png'))
 
-    # also write the manuscript image slot (keep Figure6.png; no renumbering).
-    # The manuscript writing layer lives in the Obsidian repo, NOT under bioinfo BASE;
-    # prefer it if present, else fall back to the bioinfo-side mirror.
+    # write the manuscript image slot (keep Figure6.png; no renumbering)
     import shutil
     png = out.with_suffix('.png')
     obsidian_slot = Path.home() / 'obsidian' / 'Research' / 'rna-seq' / 'Writing' / 'fig_images' / 'Figure6.png'
     targets = [obsidian_slot] if obsidian_slot.parent.is_dir() else []
-    targets.append(BASE / 'Writing' / 'fig_images' / 'Figure6.png')   # bioinfo-side mirror
+    targets.append(BASE / 'Writing' / 'fig_images' / 'Figure6.png')
     for wr in targets:
         wr.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(png, wr)

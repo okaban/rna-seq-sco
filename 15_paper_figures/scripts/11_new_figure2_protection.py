@@ -114,11 +114,8 @@ def panel_b(ax, df_tfbs):
     # Reference line at 1.0 (no enrichment/depletion)
     ax.axhline(1.0, color='gray', linewidth=0.8, linestyle='--')
 
-    # GCCGGC enrichment annotation
-    ax.text(0.97, 0.95, 'No depletion at TFBS\n(GCCGGC fold = 1.16)',
-            transform=ax.transAxes, ha='right', va='top', fontsize=7,
-            color=COL_4mC, fontstyle='italic',
-            bbox=dict(boxstyle='round,pad=0.3', facecolor='white', alpha=0.8))
+    # (In-plot annotation removed per reviewer R2-21; the TFBS non-depletion
+    #  result (GCCGGC fold = 1.16) is stated in the figure caption instead.)
 
     ax.set_xlabel('Distance from TFBS center (bp)', fontsize=9)
     ax.set_ylabel('Observed / Random', fontsize=9)
@@ -131,7 +128,7 @@ def panel_c(ax, df_quintile):
     q = df_quintile['quintile'].values
     frac = df_quintile['frac_exposed'].values * 100  # Convert to percentage
 
-    ax.bar(q, frac, color=COL_EXPOSED, alpha=0.7, edgecolor='white',
+    ax.bar(q, frac, color=COL_BAR_DARK, alpha=0.9, edgecolor='white',
            linewidth=0.5, width=0.6)
 
     # Value labels
@@ -143,11 +140,9 @@ def panel_c(ax, df_quintile):
     x_fit = np.array([0.5, 5.5])
     ax.plot(x_fit, slope * x_fit + intercept, 'k--', linewidth=0.8, alpha=0.5)
 
-    # Trend-test only — no classifier AUC (tautological under the non-circular definition)
-    ax.text(0.97, 0.95, 'Jonckheere–Terpstra\np = 0.730 (n.s.)',
-            transform=ax.transAxes, ha='right', va='top', fontsize=7,
-            bbox=dict(boxstyle='round,pad=0.3', facecolor='white',
-                      edgecolor='#ccc', alpha=0.9))
+    # Trend-test only — no classifier AUC (tautological under the non-circular definition).
+    # (In-plot Jonckheere–Terpstra annotation removed per reviewer R2-21; the
+    #  test statistic (p = 0.730, n.s.) is stated in the figure caption instead.)
 
     ax.set_xlabel('Expression quintile\n(1 = lowest, 5 = highest)', fontsize=9)
     ax.set_ylabel('% Exposed', fontsize=9)

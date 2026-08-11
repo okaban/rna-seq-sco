@@ -44,6 +44,8 @@
 
 22. Salerno, P., Larsson, J., Bucca, G., Laing, E., Smith, C.P. & Flärdh, K. One of the two genes encoding nucleoid-associated HU proteins in *Streptomyces coelicolor* is developmentally regulated and specifically involved in spore maturation. *J. Bacteriol.* **191**, 6489–6500 (2009).
 
+23. Pisciotta, A., Sampino, A.M., Presentato, A., Galardini, M., Manteca, A. & Alduina, R. The DNA cytosine methylome revealed two methylation motifs in the upstream regions of genes related to morphological and physiological differentiation in *Streptomyces coelicolor* A(3)2 M145. *Sci. Rep.* **13**, 7038 (2023).
+
 ---
 
 ## Citation mapping
@@ -66,5 +68,7 @@
 | [CITE: Deng et al., 2023] | 20 |
 | [CITE: Du et al., 2022] | 21 |
 | [CITE: Salerno et al., 2009] | 22 |
+
+| [CITE: Pisciotta et al., 2023] | 23 |
 
 *Note: Jeong et al. 2016 (ref 14) is cited in Methods (dRNA-seq TSS data) but does not have a [CITE] placeholder — add during final integration.*

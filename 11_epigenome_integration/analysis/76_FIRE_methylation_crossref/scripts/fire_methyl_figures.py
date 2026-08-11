@@ -21,7 +21,7 @@ reg = pd.read_csv(D/"tables/regulatory_FIRE_at_TSS.tsv", sep="\t")
 import numpy as np
 rng = np.random.default_rng(0)
 fig, ax = plt.subplots(figsize=(5.4, 4.3))
-for cv, col, lab in [(1, "#D55E00", "chromosomal core"), (0, "#0072B2", "chromosomal arm")]:
+for cv, col, lab in [(1, "#3E7256", "chromosomal core"), (0, "#C0803A", "chromosomal arm")]:
     s = bins[bins.core == cv]
     yj = s.m_n_T1.values + rng.uniform(-0.18, 0.18, size=len(s))  # display jitter only
     ax.scatter(s.FIRE_M, yj, s=14, alpha=0.45, c=col, label=lab, edgecolors="none", zorder=2)
@@ -30,12 +30,12 @@ rho, p = spearmanr(bins.FIRE_M, bins.m_n_T1)
 xv = bins.FIRE_M.values; yv = bins.m_n_T1.values
 b1, b0 = np.polyfit(xv, yv, 1); xr = np.linspace(xv.min(), xv.max(), 50)
 r2 = np.corrcoef(xv, yv)[0, 1] ** 2
-ax.plot(xr, b0 + b1*xr, color="#333333", lw=1.8, zorder=4, label="linear fit")
+ax.plot(xr, b0 + b1*xr, color="#22282E", lw=1.8, zorder=4, label="linear fit")
 ax.text(0.97, 0.95, f"$R^2$ = {r2:.2f}\nSpearman ρ = {rho:.2f}\n(block-perm p = 0.008)",
         transform=ax.transAxes, ha="right", va="top", fontsize=9,
         bbox=dict(boxstyle="round,pad=0.3", fc="white", ec="#aaa", alpha=0.85))
 ax.set_xlabel("FIRE value (M-phase, Deng 2023; a.u.)")
-ax.set_ylabel("GCCGGC m4C sites per 5-kb window (T1)")
+ax.set_ylabel("GCCGGC 4mC sites per 5-kb window (T1)")
 ax.set_yticks([0, 1, 2, 3, 4, 5])
 ax.set_title("Vegetative methylation tracks\nthe 3D interaction signal (FIRE)", fontsize=10.5)
 ax.legend(frameon=False, fontsize=8, loc="upper left")
@@ -61,11 +61,11 @@ h = pd.DataFrame(hcr_m, columns=["name","start","end","FIRE"])
 h["m_per_kb"] = h.apply(lambda r: len(t1[(t1.position>=r.start)&(t1.position<r.end)])/((r.end-r.start)/1000), axis=1)
 rho, p = spearmanr(h.FIRE, h.m_per_kb)
 fig, ax = plt.subplots(figsize=(5.0, 4.2))
-ax.scatter(h.FIRE, h.m_per_kb, s=70, c="#27ae60", edgecolors="k", zorder=3)
+ax.scatter(h.FIRE, h.m_per_kb, s=70, c="#3A6B8C", edgecolors="k", zorder=3)
 for _, r in h.iterrows():
     ax.annotate(r["name"], (r.FIRE, r.m_per_kb), fontsize=8, xytext=(4,4), textcoords="offset points")
 ax.set_xlabel("FIRE value at integration locus (Deng Table S1)")
-ax.set_ylabel("GCCGGC m4C density (sites/kb, T1)")
+ax.set_ylabel("GCCGGC 4mC density (sites/kb, T1)")
 ax.set_title(f"Methylome recovers FIRE ranking at integration loci\nSpearman ρ={rho:.2f}, p={p:.3f} (n=10 HCR-M)")
 fig.tight_layout(); fig.savefig(FIG/"fig3_HCR_integration_FIRE_vs_methylation.pdf"); fig.savefig(FIG/"fig3_HCR_integration_FIRE_vs_methylation.png", dpi=150); plt.close(fig)
 

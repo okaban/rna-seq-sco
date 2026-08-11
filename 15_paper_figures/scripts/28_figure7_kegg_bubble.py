@@ -3,7 +3,7 @@
 Figure 7: KEGG pathway enrichment by methylation motif (publication quality).
 
 Reviewer A3 fix:
-  - Combine GCCGGC (4mC), AAGCCCG (m4C/6mA), and Dual-targeted gene sets in a
+  - Combine GCCGGC (4mC), AAGCCCG (4mC/6mA), and Dual-targeted gene sets in a
     single bubble plot.
   - Sort pathways by mean significance, color by motif, size by gene count,
     border by FDR threshold.
@@ -33,11 +33,11 @@ KEGG_DIR = EPIGENOME / '62_GO_KEGG_enrichment' / 'tables'
 # newline-wrapped labels avoid x-axis tick collisions.
 MOTIF_CFG = [
     ('GCCGGC\n(4mC)', 'GCCGGC-proximal_4mC',
-     '#C26B6B', 'E1_KEGG_enrichment_GCCGGC-proximal_4mC.tsv'),
-    ('AAGCCCG\n(m4C/6mA)', 'AAGCCCG-proximal_6mA',
-     '#9970AB', 'E1_KEGG_enrichment_AAGCCCG-proximal_6mA.tsv'),
+     COL_4mC, 'E1_KEGG_enrichment_GCCGGC-proximal_4mC.tsv'),
+    ('AAGCCCG\n(4mC/6mA)', 'AAGCCCG-proximal_6mA',
+     COL_BOTH, 'E1_KEGG_enrichment_AAGCCCG-proximal_6mA.tsv'),
     ('Dual-\ntargeted', 'Dual-targeted',
-     '#4477AA', 'E1_KEGG_enrichment_Dual-targeted.tsv'),
+     COL_6mA, 'E1_KEGG_enrichment_Dual-targeted.tsv'),
 ]
 
 FDR_CUT = 0.10
@@ -132,7 +132,7 @@ def draw_bubble(ax, df_long: pd.DataFrame, pids: list):
     ax.set_xlim(-0.7, len(motif_order) - 0.3)
     ax.set_ylim(-0.7, len(pid_order) - 0.3)
     ax.grid(True, axis='both', linestyle=':', linewidth=0.5,
-            color='#cccccc', alpha=0.7, zorder=0)
+            color=COL_GRID, alpha=0.9, zorder=0)
     ax.set_axisbelow(True)
     for s in ('top', 'right'):
         ax.spines[s].set_visible(False)
@@ -159,10 +159,15 @@ def draw_legends(fig, df_long: pd.DataFrame):
         size_handles.append(h)
     # Size legend (lower right). Placed in the bottom third of the right band;
     # generous labelspacing keeps the large n bubbles from touching.
+    # labelspacing alone measures text rows; the large bubbles (n up to ~500 pt²,
+    # ~22 pt across) overflow a text-sized row and touch. handleheight forces each
+    # legend row to be tall enough (in font-size units) to hold the biggest marker,
+    # so the n = 33 and n = 65 bubbles no longer overlap.
     fig.legend(size_handles, [h.get_label() for h in size_handles],
-               loc='upper left', bbox_to_anchor=(0.78, 0.42),
+               loc='upper left', bbox_to_anchor=(0.78, 0.44),
                title='Genes in pathway', title_fontsize=8, fontsize=7,
-               frameon=False, labelspacing=1.6, borderaxespad=0)
+               frameon=False, labelspacing=2.0, handleheight=3.0,
+               handletextpad=1.2, borderaxespad=0)
 
     # Significance legend
     # ordered by decreasing significance (most significant first)
@@ -217,6 +222,15 @@ def main():
     # Save (PNG added alongside PDF/SVG for the manuscript image slot)
     out = FIG_DIR / 'Figure7_kegg_bubble'
     save_figure(fig, out, formats=('pdf', 'svg', 'png'))
+
+    # sync into the Obsidian manuscript slot (Figure7.png) — script previously
+    # wrote FIG_DIR only, leaving the slot stale.
+    import shutil
+    from pathlib import Path as _P
+    slot = _P.home() / 'obsidian' / 'Research' / 'rna-seq' / 'Writing' / 'fig_images' / 'Figure7.png'
+    if slot.parent.is_dir():
+        shutil.copyfile(out.with_suffix('.png'), slot)
+        print(f'  Synced → {slot}')
     print('=== Done ===')
 
 

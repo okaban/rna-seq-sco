@@ -1,4 +1,4 @@
-# H27: Protection Zone Characteristics of the 62 Coordinated Regulators
+# H27: Protection Zone Characteristics of the 57 Coordinated Regulators
 
 **Date**: 2026-02-26
 **Analysis directory**: `11_epigenome_integration/analysis/50_coordinated_regulators_protection/`
@@ -8,15 +8,15 @@
 
 ## Background
 
-H6/H8 identified 62 regulatory genes showing coordinated methylation-expression changes (methylation gained/lost in parallel with expression up/down). H25 demonstrated a 2,200 bp "protection zone" around regulatory gene TSS where methylation density is depleted by ~17.3% compared to flanking regions. This analysis asks: do the 62 coordinated regulators have different protection zone characteristics compared to the remaining 993 non-coordinated regulatory genes?
+H6/H8 identified 57 regulatory genes showing coordinated methylation-expression changes (methylation gained/lost in parallel with expression up/down). H25 demonstrated a 2,200 bp "protection zone" around regulatory gene TSS where methylation density is depleted by ~17.3% compared to flanking regions. This analysis asks: do the 57 coordinated regulators have different protection zone characteristics compared to the remaining 998 non-coordinated regulatory genes?
 
-**Hypothesis**: The 62 coordinated regulators have shallower protection zones (methylation sites closer to TSS) compared to non-coordinated regulatory genes, explaining why their expression responds to methylation changes.
+**Hypothesis**: The 57 coordinated regulators have shallower protection zones (methylation sites closer to TSS) compared to non-coordinated regulatory genes, explaining why their expression responds to methylation changes.
 
 ## Key Findings
 
 ### 1. Nearest Methylation Site Distance: 6.7x Closer in Coordinated Genes
 
-| Metric | Coordinated (n=62) | Non-coordinated (n=993) | Test |
+| Metric | Coordinated (n=57) | Non-coordinated (n=998) | Test |
 |--------|-------------------|------------------------|------|
 | Median nearest site | **114 bp** | **762 bp** | Mann-Whitney p = **5.3e-28** |
 | Mean nearest site | 132 bp | 992 bp | |
@@ -59,7 +59,7 @@ All four coordination types show similarly close methylation sites, and all lack
 | concordant_derepression | 12 | 122 | 136 | 4.0 | 0 bp |
 | concordant_repression | 12 | 100 | 128 | 2.5 | 0 bp |
 | discordant_loss_down | 16 | 129 | 148 | 4.0 | 0 bp |
-| **non_coordinated** | **993** | **762** | **992** | **2.0** | **1,200 bp** |
+| **non_coordinated** | **998** | **762** | **992** | **2.0** | **1,200 bp** |
 
 The near-TSS methylation is universal across all coordination sub-types (gained+up, lost+down, gained+down, lost+up), suggesting the mechanism is the same: methylation occurs where regulatory proteins bind, and changes in methylation at these sites affect transcription.
 
@@ -89,21 +89,21 @@ No significant geographic enrichment. The coordinated regulators are distributed
 
 The results reveal a clear mechanistic distinction between coordinated and non-coordinated regulatory genes:
 
-1. **Non-coordinated regulators (n=993)**: These genes exhibit the H25 protection zone -- a ~1,200 bp region around TSS where methylation is depleted by 44.3%. Their promoters are "shielded" from methylation, likely by constitutive protein occupancy (RNA polymerase, sigma factors, or other transcription factors that physically block MTase access). Because methylation cannot access these promoters, even genome-wide methylation changes do not affect their expression.
+1. **Non-coordinated regulators (n=998)**: These genes exhibit the H25 protection zone -- a ~1,200 bp region around TSS where methylation is depleted by 44.3%. Their promoters are "shielded" from methylation, likely by constitutive protein occupancy (RNA polymerase, sigma factors, or other transcription factors that physically block MTase access). Because methylation cannot access these promoters, even genome-wide methylation changes do not affect their expression.
 
-2. **Coordinated regulators (n=62)**: These genes have the exact opposite pattern -- methylation is **enriched** 8.4x at their TSS. Their promoters are "exposed" to MTase activity, meaning:
+2. **Coordinated regulators (n=57)**: These genes have the exact opposite pattern -- methylation is **enriched** 8.4x at their TSS. Their promoters are "exposed" to MTase activity, meaning:
    - They lack the constitutive protein shielding seen at other regulatory gene promoters
    - Methylation sites are positioned within or immediately adjacent to the promoter (-300 to +100 bp)
    - When methylation status changes (gained or lost), it directly impacts promoter accessibility
-   - This explains why only 62/1,055 (5.9%) regulatory genes show coordinated methylation-expression responses
+   - This explains why only 57/1,055 (5.4%) regulatory genes show coordinated methylation-expression responses
 
 ### Consistency with Gatekeeper Model
 
 This finding strengthens the Gatekeeper Model (H11):
 
 - **Layer 2 (Protection)**: The H25 protection zone is a feature of the **non-coordinated** majority, representing constitutive promoter shielding
-- **Layer 3 (Signal Gating)**: The 62 coordinated regulators represent the "gating" class -- genes where methylation can penetrate the promoter and modulate transcription
-- The 5.9% fraction of responsive regulatory genes is consistent with a highly selective gating mechanism
+- **Layer 3 (Signal Gating)**: The 57 coordinated regulators represent the "gating" class -- genes where methylation can penetrate the promoter and modulate transcription
+- The 5.4% fraction of responsive regulatory genes is consistent with a highly selective gating mechanism
 
 ### Mechanistic Implications
 
@@ -150,7 +150,7 @@ At these positions, DNA methylation could directly:
 
 ## Conclusion
 
-**SUPPORTED (opposite direction)**. The hypothesis predicted shallower protection zones for coordinated regulators. The reality is far more dramatic: coordinated regulators have **no protection zone at all**, and instead show an **8.4x methylation enrichment spike** directly at TSS (p = 5.3e-28 for nearest-site distance). This establishes a clear mechanistic dichotomy: 993 regulatory genes are "shielded" from methylation by promoter protection zones, while 62 are "exposed" and responsive to methylation dynamics. The exposed-promoter state is a necessary condition for coordinated methylation-expression behavior, providing the strongest evidence yet for a selective gating mechanism in the S. coelicolor epigenome.
+**SUPPORTED (opposite direction)**. The hypothesis predicted shallower protection zones for coordinated regulators. The reality is far more dramatic: coordinated regulators have **no protection zone at all**, and instead show an **8.4x methylation enrichment spike** directly at TSS (p = 5.3e-28 for nearest-site distance). This establishes a clear mechanistic dichotomy: 998 regulatory genes are "shielded" from methylation by promoter protection zones, while 62 are "exposed" and responsive to methylation dynamics. The exposed-promoter state is a necessary condition for coordinated methylation-expression behavior, providing the strongest evidence yet for a selective gating mechanism in the S. coelicolor epigenome.
 
 ---
 

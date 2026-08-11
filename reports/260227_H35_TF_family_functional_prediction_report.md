@@ -1,15 +1,15 @@
-# H35: TF Family-Based Functional Prediction of 62 Exposed Transcription Factors
+# H35: TF Family-Based Functional Prediction of 57 Exposed Transcription Factors
 
 **Date**: 2026-02-27
 **Analysis**: `11_epigenome_integration/analysis/58_exposed_TF_functional_prediction/`
 **Script**: `scripts/H35_functional_prediction.py`
-**Hypothesis**: TF family membership, genomic context, and expression magnitude can predict the downstream regulatory roles of the 62 exposed TFs.
+**Hypothesis**: TF family membership, genomic context, and expression magnitude can predict the downstream regulatory roles of the 57 exposed TFs.
 
 ---
 
 ## Background
 
-The 62 exposed TFs form a "distributed methylation-responsive regulatory layer" (H32) with two antagonistic programs:
+The 57 exposed TFs form a "distributed methylation-responsive regulatory layer" (H32) with two antagonistic programs:
 - **Activation bloc** (~36 genes, modules 1-3): upregulated during development
 - **Repression bloc** (26 genes, module 4): downregulated during development
 
@@ -17,7 +17,7 @@ Their downstream targets remain unknown -- no FIMO motifs are available, and no 
 
 ## Results
 
-### 1. TF Family Distribution Among 62 Exposed TFs
+### 1. TF Family Distribution Among 57 Exposed TFs
 
 | TF Family | Count | Functional Category |
 |-----------|-------|---------------------|
@@ -87,7 +87,7 @@ No functional category reaches statistical significance individually. However, t
 
 ### 4. Genomic Context Analysis (+-5kb Neighbors)
 
-554 neighbor genes identified across the 62 exposed TFs.
+554 neighbor genes identified across the 57 exposed TFs.
 
 **Key neighbor category findings:**
 - Transport genes are equally distributed (11.7% each bloc)
@@ -224,8 +224,8 @@ This pattern is fully consistent with the known *S. coelicolor* life cycle trans
 
 ## Limitations
 
-1. **Sample size**: With 62 TFs across 16 families, many families have only 1-2 representatives, limiting statistical power for individual family tests
-2. **HTH (other) and Other regulatory**: These catch-all categories (21/62 = 34%) include diverse TFs whose functions cannot be predicted from family alone
+1. **Sample size**: With 57 TFs across 16 families, many families have only 1-2 representatives, limiting statistical power for individual family tests
+2. **HTH (other) and Other regulatory**: These catch-all categories (21/57 = 34%) include diverse TFs whose functions cannot be predicted from family alone
 3. **Genomic context**: +-5kb window captures immediate neighbors but may miss more distant operon members
 4. **No cognate TCS pairs among exposed TFs**: All 7 known TCS pairs have asymmetric methylation (one exposed, one shielded), preventing pair-level prediction
 5. **Predictions are family-based**: Individual TFs may deviate from family-typical functions

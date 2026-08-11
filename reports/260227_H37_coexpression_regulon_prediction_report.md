@@ -1,21 +1,21 @@
-# H37: Genome-wide Co-expression Regulon Prediction for 62 Exposed Transcription Factors
+# H37: Genome-wide Co-expression Regulon Prediction for 57 Exposed Transcription Factors
 
 **Date**: 2026-02-27
 **Analysis directory**: `11_epigenome_integration/analysis/60_coexpression_regulon_prediction/`
 **Script**: `scripts/H37_coexpression_regulon.py`
-**Hypothesis**: The 62 exposed TFs, which lack FIMO binding motifs (H31) and act in trans rather than cis (H33), can be functionally characterized through genome-wide co-expression analysis. The activation bloc (~35 TFs, modules 1-3) and repression bloc (~26 TFs, module 4) are predicted to have distinct, non-overlapping downstream target gene sets that reflect their opposing roles in the vegetative-to-developmental transition.
+**Hypothesis**: The 57 exposed TFs, which lack FIMO binding motifs (H31) and act in trans rather than cis (H33), can be functionally characterized through genome-wide co-expression analysis. The activation bloc (~35 TFs, modules 1-3) and repression bloc (~26 TFs, module 4) are predicted to have distinct, non-overlapping downstream target gene sets that reflect their opposing roles in the vegetative-to-developmental transition.
 
 ---
 
 ## Background
 
-The Gatekeeper Model established that 62 of 1,017 regulatory genes in *S. coelicolor* M145 are "exposed" to methylation, lacking the promoter protection zones that shield the remaining 993 regulators (H27, H29). These 62 exposed TFs form a distributed methylation-responsive regulatory layer (H32) that segregates into two antagonistic blocs:
+The Gatekeeper Model established that 62 of 1,017 regulatory genes in *S. coelicolor* M145 are "exposed" to methylation, lacking the promoter protection zones that shield the remaining 998 regulators (H27, H29). These 57 exposed TFs form a distributed methylation-responsive regulatory layer (H32) that segregates into two antagonistic blocs:
 
 - **Activation bloc** (35 TFs, modules 1-3): Enriched for TCS sensor kinases, sigma factors, and WhiB -- associated with morphological differentiation and signal transduction (H35-TF)
 - **Repression bloc** (26 TFs, module 4): Enriched for TetR family (efflux), metabolic regulators (GntR/IclR/LacI/LysR), and DNA maintenance -- associated with vegetative growth program shutdown (H35-TF)
 
 Critical constraints for downstream network analysis:
-1. **H31**: 0/62 exposed TFs have FIMO binding motifs, making direct regulon mapping impossible
+1. **H31**: 0/57 exposed TFs have FIMO binding motifs, making direct regulon mapping impossible
 2. **H33**: Exposed TFs are NOT cis-regulators (no significant transcriptional impact on genomic neighbors), suggesting trans-acting mechanisms
 3. **H34**: Both blocs respond simultaneously (no cascade), suggesting parallel activation
 
@@ -31,7 +31,7 @@ Given these constraints, genome-wide co-expression analysis provides the most vi
 
 3. **Significance thresholds**: Bonferroni correction (p x 7,646) at alpha = 0.05. With only 9 samples, |rho| > 0.8 is approximately the minimum correlation that achieves Bonferroni significance -- the 0.7 threshold yields identical gene sets because genes with 0.7 < |rho| < 0.8 fail the stringent Bonferroni correction
 
-4. **Per-TF analysis**: Individual Spearman correlations computed for all 62 TFs against the genome
+4. **Per-TF analysis**: Individual Spearman correlations computed for all 57 TFs against the genome
 
 5. **Permutation control**: 1,000 iterations of randomly selected regulatory genes (matching bloc sizes) to assess whether real regulon sizes exceed random expectation
 
@@ -91,9 +91,9 @@ Importantly, due to the mirror-image relationship:
 | Total regulon (pos+neg) median | 25 genes | 28 genes | 0.439 | r=0.12 |
 | Range | 1-104 | 1-199 | -- | -- |
 
-- **16/62 TFs** (25.8%) have regulon size >= 30 genes (comparable to typical *Streptomyces* TF regulons)
-- **4/62 TFs** (6.5%) have regulon size >= 100 genes (large regulons, likely global regulators)
-- **0/62 TFs** have zero co-expressed genes
+- **16/57 TFs** (25.8%) have regulon size >= 30 genes (comparable to typical *Streptomyces* TF regulons)
+- **4/57 TFs** (6.5%) have regulon size >= 100 genes (large regulons, likely global regulators)
+- **0/57 TFs** have zero co-expressed genes
 - No significant difference between blocs (p = 0.743)
 
 ### 6. Functional Enrichment (Step 3)
@@ -178,20 +178,20 @@ The asymmetry (131 repression-correlated vs 28 activation-correlated genes) has 
 1. **Correlation is not causation**: Co-expression does not prove direct regulation. These are putative targets.
 2. **Confounding by shared temporal trend**: With only 3 timepoints, genes that happen to decrease/increase similarly may appear co-expressed without direct regulatory relationships. The rho = -0.995 cross-correlation suggests the dominant signal is a single temporal axis.
 3. **Sample size**: 9 samples is minimal for robust correlation analysis. Regulon sizes are likely underestimated.
-4. **The eigenvalue structure**: Because the two eigengenes are near-perfect inverses, the "activation regulon" and "repression regulon" are effectively the same gene set viewed from opposite perspectives. This is not two independent regulons but rather **one axis of genomic variation** with 62 exposed TFs positioned at the regulatory endpoints.
+4. **The eigenvalue structure**: Because the two eigengenes are near-perfect inverses, the "activation regulon" and "repression regulon" are effectively the same gene set viewed from opposite perspectives. This is not two independent regulons but rather **one axis of genomic variation** with 57 exposed TFs positioned at the regulatory endpoints.
 
 ## Verdict
 
 **SUPPORTED (with important caveats)**:
 
-The 62 exposed TFs' co-expression regulons can be identified and are biologically meaningful:
+The 57 exposed TFs' co-expression regulons can be identified and are biologically meaningful:
 - **131 genes** form the repression-correlated regulon (significantly exceeds random, Z = 5.42, p = 0.003)
 - **28 genes** form the activation-correlated regulon (not significant vs random, p = 0.123)
 - Zero overlap between blocs (Jaccard = 0.000)
 - Strong functional enrichment (synthases in repression regulon)
 - Perfect directional concordance with DEGs
 
-**Critical caveat**: The near-perfect anti-correlation (rho = -0.995) between bloc eigengenes means the two regulons are not independent programs but represent opposite ends of a single transcriptomic axis. The "regulon" identified here is more accurately described as the **set of genes whose expression maximally tracks the vegetative-to-developmental transition**, with the 62 exposed TFs at its regulatory core.
+**Critical caveat**: The near-perfect anti-correlation (rho = -0.995) between bloc eigengenes means the two regulons are not independent programs but represent opposite ends of a single transcriptomic axis. The "regulon" identified here is more accurately described as the **set of genes whose expression maximally tracks the vegetative-to-developmental transition**, with the 57 exposed TFs at its regulatory core.
 
 **Estimated scope**: At the strict rho > 0.8 threshold, 159 unique genes (2.1% of genome) are in the combined regulon. At lower thresholds (which cannot be validated with Bonferroni at n=9), the true number is likely substantially larger.
 
@@ -235,6 +235,6 @@ The 62 exposed TFs' co-expression regulons can be identified and are biologicall
 | Permutation Z (repression) | 5.42 |
 | Per-TF regulon median (act) | 11 genes |
 | Per-TF regulon median (rep) | 14 genes |
-| TFs with regulon >= 30 | 16/62 (25.8%) |
+| TFs with regulon >= 30 | 16/57 (25.8%) |
 | Top functional enrichment | synthase (4.86x, FDR = 4.3e-05) |
 | DEG concordance | 100% directional consistency |

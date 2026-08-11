@@ -1,14 +1,14 @@
-# H8: Geographic and Functional Characterization of 62 Coordinated Regulatory Genes
+# H8: Geographic and Functional Characterization of 57 Coordinated Regulatory Genes
 
 **Date:** 2026-02-24
 **Analysis directory:** `11_epigenome_integration/analysis/31_coordinated_regulators_characterization/`
-**Hypothesis:** The 62 methylation-expression coordinated regulatory genes are enriched at chromosomal arms and in stress response / secondary metabolism COG categories, supporting a "gatekeeper" model where methylation gates a specific regulatory layer.
+**Hypothesis:** The 57 methylation-expression coordinated regulatory genes are enriched at chromosomal arms and in stress response / secondary metabolism COG categories, supporting a "gatekeeper" model where methylation gates a specific regulatory layer.
 
 ---
 
 ## Background
 
-In H6 (genomewide TF screen), we identified 62 regulatory genes (out of 1,055 genome-wide) that show methylation-expression coordination. Critically, **ALL 62 are outside the literature-curated 37-TF list**, representing a previously unrecognized "hidden" methylation-responsive regulatory layer. This analysis characterizes these 62 genes geographically, functionally, and structurally.
+In H6 (genomewide TF screen), we identified 57 regulatory genes (out of 1,055 genome-wide) that show methylation-expression coordination. Critically, **ALL 62 are outside the literature-curated 37-TF list**, representing a previously unrecognized "hidden" methylation-responsive regulatory layer. This analysis characterizes these 57 genes geographically, functionally, and structurally.
 
 ---
 
@@ -21,7 +21,7 @@ In H6 (genomewide TF screen), we identified 62 regulatory genes (out of 1,055 ge
 | T3 discordant_loss_down core enrichment | 80.0% core (8/10) | OR=3.23, p=0.10 |
 | COG K (Transcription) enrichment | 72.6% vs 9.9% genome | OR=24.0, **p=2.7e-31** |
 | COG T (Signal transduction) enrichment | 9.7% vs 4.2% genome | OR=2.47, **p=0.045** |
-| COG Q (Secondary metabolism) | 0/62 | Not enriched |
+| COG Q (Secondary metabolism) | 0/57 | Not enriched |
 | Both T2+T3 concordant derepression | 3 genes | Top candidates |
 | Both T2+T3 concordant repression | 1 gene (SC_RS24635) | |
 | TCS cognate pairs identified | 7 pairs (0 both coordinated) | |
@@ -35,14 +35,14 @@ In H6 (genomewide TF screen), we identified 62 regulatory genes (out of 1,055 ge
 
 | Group | n_arm | n_core | n_total | % arm |
 |-------|-------|--------|---------|-------|
-| 62 Coordinated | 32 | 30 | 62 | **51.6%** |
+| 57 Coordinated | 32 | 30 | 62 | **51.6%** |
 | 1,055 Regulators | 475 | 580 | 1,055 | 45.0% |
 | Genome-wide | 3,696 | 4,579 | 8,275 | 44.7% |
 | Expected (by length) | - | - | - | 42.3% |
 
 **Overall arm enrichment: NOT significant** (Fisher's exact, 62 vs genome: OR=1.32, p=0.17)
 
-While the 62 coordinated regulators show a modest trend toward chromosomal arms (51.6% vs 44.7%), this does not reach statistical significance. The arm enrichment hypothesis for the **entire set** is not supported.
+While the 57 coordinated regulators show a modest trend toward chromosomal arms (51.6% vs 44.7%), this does not reach statistical significance. The arm enrichment hypothesis for the **entire set** is not supported.
 
 ### Critical Finding: Subtype-specific Geographic Bias at T3
 
@@ -109,7 +109,7 @@ Notable: **Sigma factors** contribute disproportionately to the T3 arm-enriched 
 
 ### Significant COG Enrichments (62 vs Genome)
 
-| COG Category | 62 Coordinated | Genome-wide | OR | p-value |
+| COG Category | 57 Coordinated | Genome-wide | OR | p-value |
 |--------------|---------------|-------------|-----|---------|
 | **K - Transcription** | 45 (72.6%) | 822 (9.9%) | **24.0** | **2.7e-31** |
 | **S - Unknown** | 0 (0.0%) | 1,597 (19.3%) | **0.0** | **2.5e-06** |
@@ -117,14 +117,14 @@ Notable: **Sigma factors** contribute disproportionately to the T3 arm-enriched 
 | **T - Signal transduction** | 6 (9.7%) | 344 (4.2%) | **2.47** | **0.045** |
 
 **Key findings:**
-1. **COG K (Transcription)** is massively enriched (OR=24), which is expected since we selected for regulatory genes. However, within the 1,055 regulators, the 62 coordinated show similar K enrichment (72.6% vs 77.3%), confirming they are not a biased subset.
+1. **COG K (Transcription)** is massively enriched (OR=24), which is expected since we selected for regulatory genes. However, within the 1,055 regulators, the 57 coordinated show similar K enrichment (72.6% vs 77.3%), confirming they are not a biased subset.
 2. **COG T (Signal transduction)** is 2.5-fold enriched (p=0.045), driven by the 6 sensor kinases and 5 response regulators. This suggests methylation preferentially targets the signal transduction layer.
-3. **COG Q (Secondary metabolism): 0 genes.** The 62 coordinated regulators are NOT directly annotated as secondary metabolism enzymes. They function as **transcriptional regulators** rather than biosynthetic genes.
+3. **COG Q (Secondary metabolism): 0 genes.** The 57 coordinated regulators are NOT directly annotated as secondary metabolism enzymes. They function as **transcriptional regulators** rather than biosynthetic genes.
 4. **Complete absence** of S (Unknown function) -- all 62 have defined functional annotations, in contrast to 19.3% of the genome.
 
 ### Biological Interpretation
 
-The functional profile of the 62 coordinated regulators shows enrichment in **transcription (K) and signal transduction (T)**, but NOT in secondary metabolism (Q) directly. This is consistent with a "gatekeeper" model where methylation targets the **regulatory layer** (transcription factors and signal transducers) rather than the biosynthetic genes themselves. These regulators likely control downstream secondary metabolism pathways indirectly.
+The functional profile of the 57 coordinated regulators shows enrichment in **transcription (K) and signal transduction (T)**, but NOT in secondary metabolism (Q) directly. This is consistent with a "gatekeeper" model where methylation targets the **regulatory layer** (transcription factors and signal transducers) rather than the biosynthetic genes themselves. These regulators likely control downstream secondary metabolism pathways indirectly.
 
 ---
 
@@ -162,7 +162,7 @@ This is a particularly interesting neighborhood: a TCS pair near pentose phospha
 
 ## Step 5: Two-Component System (TCS) Analysis
 
-### TCS Components Among 62 Coordinated Genes
+### TCS Components Among 57 Coordinated Genes
 
 | Type | Count | Genes |
 |------|-------|-------|
@@ -171,7 +171,7 @@ This is a particularly interesting neighborhood: a TCS pair near pentose phospha
 
 ### Cognate Pair Candidates (within 5 kb)
 
-| SK | RR | Distance | SK Coordination | RR Coordination | Both in 62? |
+| SK | RR | Distance | SK Coordination | RR Coordination | Both in 57? |
 |----|-----|----------|-----------------|-----------------|-------------|
 | SC_RS35525 (SCO6668) | SC_RS35520 (SCO6667) | 3 bp | **derepression T2+T3** | none | No |
 | SC_RS37675 (SCO7089) | SC_RS37670 (SCO7088) | 3 bp | discordant_gain_up T3 | none | No |
@@ -197,7 +197,7 @@ Only **1 gene** (SC_RS33745/SCO6299) among the 62 is within 20 kb of a BGC bound
 - SC_RS33745: TetR/AcrR family regulator, 11 kb from CPK cluster boundary
 - Shows discordant_loss_down at T2 (methylation lost, expression down)
 
-The lack of BGC proximity further supports the model that these 62 regulators operate as an **upstream regulatory layer** rather than direct BGC components.
+The lack of BGC proximity further supports the model that these 57 regulators operate as an **upstream regulatory layer** rather than direct BGC components.
 
 ---
 
@@ -209,7 +209,7 @@ The lack of BGC proximity further supports the model that these 62 regulators op
 |-----------|---------|----------|
 | Overall arm enrichment | **NOT SUPPORTED** | p=0.17, OR=1.32 (NS) |
 | Subtype-specific arm enrichment | **SUPPORTED** | T3 discordant_gain_up: 87% arm, OR=8.05, p=0.001 |
-| COG Q (Secondary metabolism) | **NOT SUPPORTED** | 0/62 genes |
+| COG Q (Secondary metabolism) | **NOT SUPPORTED** | 0/57 genes |
 | COG T (Signal transduction) | **SUPPORTED** | OR=2.47, p=0.045 |
 | Gatekeeper model (regulatory layer) | **PARTIALLY SUPPORTED** | K+T enriched; indirect regulation, not direct SM |
 
@@ -221,9 +221,9 @@ The data refine the original "gatekeeper" hypothesis into a more nuanced model:
 
 2. **Subtype-specific geography:** T3 discordant patterns show strong geographic bias -- gain-up at arms, loss-down at core. This suggests different methylation-expression coupling mechanisms operate in arm vs core contexts.
 
-3. **Signal transduction gating:** The enrichment of TCS components (11/62 = 17.7% are SK or RR) suggests methylation preferentially targets the **signal transduction layer**. In TCS pairs, methylation targets one partner (usually the sensor kinase), creating asymmetric modulation.
+3. **Signal transduction gating:** The enrichment of TCS components (11/57 = 17.7% are SK or RR) suggests methylation preferentially targets the **signal transduction layer**. In TCS pairs, methylation targets one partner (usually the sensor kinase), creating asymmetric modulation.
 
-4. **Regulatory cascade, not direct BGC control:** The 62 genes are transcription factors and signal transducers (COG K+T), not biosynthetic genes (COG Q). They likely exert their effects through **regulatory cascades** several steps upstream of BGC activation.
+4. **Regulatory cascade, not direct BGC control:** The 57 genes are transcription factors and signal transducers (COG K+T), not biosynthetic genes (COG Q). They likely exert their effects through **regulatory cascades** several steps upstream of BGC activation.
 
 5. **Top candidates for experimental validation:**
    - **SC_RS10435 (SCO1684):** TetR near chaplin cluster -- carbon/morphology switch
@@ -248,7 +248,7 @@ The data refine the original "gatekeeper" hypothesis into a more nuanced model:
 | File | Description |
 |------|-------------|
 | `tables/geographic_distribution_stats.tsv` | Arm vs core counts and Fisher test results |
-| `tables/coordination_type_summary.tsv` | All 62 genes with coordination types, regions, expression |
+| `tables/coordination_type_summary.tsv` | All 57 genes with coordination types, regions, expression |
 | `tables/coordination_by_family.tsv` | TF family x coordination type cross-tabulation |
 | `tables/COG_enrichment_results.tsv` | COG category enrichment (Fisher's exact, 62 vs genome) |
 | `tables/TCS_pair_candidates.tsv` | 7 TCS cognate pair candidates with coordination status |
@@ -263,7 +263,7 @@ The data refine the original "gatekeeper" hypothesis into a more nuanced model:
 ## Next Steps
 
 1. **Experimental validation priority:** SC_RS10435 (chaplin neighborhood) and SC_RS35525 (PPTase neighborhood) are the strongest candidates for knockout/knockdown studies.
-2. **ChIP-seq integration:** Determine whether these 62 regulators have binding site motifs that overlap with methylation sites.
+2. **ChIP-seq integration:** Determine whether these 57 regulators have binding site motifs that overlap with methylation sites.
 3. **Temporal dynamics:** The T2 vs T3 pattern differences suggest methylation-expression coupling evolves during growth -- a time-resolved methylation profiling would clarify causality.
 4. **Sigma factor subgroup:** The 7 sigma factors (all showing arm-enriched discordant patterns at T3) deserve dedicated investigation as a potential coordinated sigma factor switch.
 

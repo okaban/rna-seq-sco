@@ -1,4 +1,4 @@
-# H34: Temporal Dynamics and Hierarchical Structure of 62 Exposed Transcription Factors
+# H34: Temporal Dynamics and Hierarchical Structure of 57 Exposed Transcription Factors
 
 **Date:** 2026-02-27
 **Analysis directory:** `11_epigenome_integration/analysis/57_temporal_dynamics_exposed_TF/`
@@ -9,11 +9,11 @@
 
 ## Background
 
-H32 identified that the 62 exposed TFs split into two antagonistic blocs: an **activation bloc** (~35 genes, co-expression modules 1-3) and a **repression bloc** (~26 genes, module 4). However, the temporal structure remained unexamined. With 3 timepoints -- T1 (exponential growth), T2 (transition phase), T3 (stationary phase) -- we can distinguish early (T1->T2) vs late (T2->T3) responders and test whether the two blocs respond at different developmental stages.
+H32 identified that the 57 exposed TFs split into two antagonistic blocs: an **activation bloc** (~35 genes, co-expression modules 1-3) and a **repression bloc** (~26 genes, module 4). However, the temporal structure remained unexamined. With 3 timepoints -- T1 (exponential growth), T2 (transition phase), T3 (stationary phase) -- we can distinguish early (T1->T2) vs late (T2->T3) responders and test whether the two blocs respond at different developmental stages.
 
 ## Approach
 
-For each of the 62 exposed TFs, we computed:
+For each of the 57 exposed TFs, we computed:
 - **Phase ratio** = LFC(T2vsT1) / LFC(T3vsT1): fraction of total expression change occurring during the early transition. Values >0.6 indicate "early responders," <0.4 indicate "late responders," and 0.4-0.6 indicate "gradual" responders.
 - Only genes with |LFC(T3vsT1)| > 0.5 were classified (to exclude non-responders).
 - Temporal trajectories (z-scored across T1/T2/T3) were used for clustering and visualization.
@@ -32,7 +32,7 @@ For each of the 62 exposed TFs, we computed:
 | Non-responder | 2 | 3.2% |
 
 - Mean phase ratio = **0.863** (median = 0.768), indicating the majority of expression change occurs during the T1->T2 (exponential-to-transition) window
-- Only 2/62 TFs fail the |LFC_T3vsT1| > 0.5 threshold -- consistent with H28's finding that 100% of exposed TFs are dynamic
+- Only 2/57 TFs fail the |LFC_T3vsT1| > 0.5 threshold -- consistent with H28's finding that 100% of exposed TFs are dynamic
 - Among early responders: 21 upregulated, 18 downregulated (balanced)
 - Among late responders: 9 upregulated, 4 downregulated (biased toward up)
 
@@ -139,7 +139,7 @@ Ward hierarchical clustering on z-scored T1/T2/T3 expression revealed 4 clusters
 
 ### 11. Exposed vs Shielded: similar temporal distributions
 
-| Metric | Exposed (n=62) | Shielded (n=955) |
+| Metric | Exposed (n=57) | Shielded (n=955) |
 |---|---|---|
 | Mean phase ratio | 0.863 | 0.711 |
 | Median phase ratio | 0.768 | 0.696 |
@@ -178,9 +178,9 @@ Ward hierarchical clustering on z-scored T1/T2/T3 expression revealed 4 clusters
 
 2. **Early-responder dominance:** 63% of exposed TFs are early responders, with most expression change occurring during the exponential-to-transition phase shift. This positions the exposed TF response as a **gate at the developmental transition point**.
 
-3. **Methylation timing is decoupled from expression timing:** Despite dynamic methylation at all 62 exposed TF promoters, the timing of methylation changes does not predict expression changes (rho < 0.14, NS). This further supports the H19/H21 conclusion that methylation marks exposed TFs rather than directly controlling their expression timing.
+3. **Methylation timing is decoupled from expression timing:** Despite dynamic methylation at all 57 exposed TF promoters, the timing of methylation changes does not predict expression changes (rho < 0.14, NS). This further supports the H19/H21 conclusion that methylation marks exposed TFs rather than directly controlling their expression timing.
 
-4. **Hierarchical structure exists within modules, not across:** Strong temporal coherence within co-expression modules (rho = 0.717) but zero cross-module prediction. The 62 exposed TFs form a **synchronous distributed network**, not a sequential cascade.
+4. **Hierarchical structure exists within modules, not across:** Strong temporal coherence within co-expression modules (rho = 0.717) but zero cross-module prediction. The 57 exposed TFs form a **synchronous distributed network**, not a sequential cascade.
 
 5. **TCS pairs show a marginal SK-timing effect:** When sensor kinases are the exposed partner, they tend to respond later (p = 0.057), which is the opposite of the classical SK-first signaling model. This may reflect the unique biology where methylation-mediated regulation inverts the normal TCS temporal ordering.
 
@@ -190,7 +190,7 @@ Ward hierarchical clustering on z-scored T1/T2/T3 expression revealed 4 clusters
 
 The synchronous activation of both blocs at T1->T2 refines the Gatekeeper Model:
 
-- **Layer 3 (revised):** The 62 exposed TFs constitute a **simultaneous switch** rather than a temporal cascade. Methylation changes at the exponential-to-transition boundary co-activate 35 upregulated genes AND co-repress 26 downregulated genes as a single coordinated event.
+- **Layer 3 (revised):** The 57 exposed TFs constitute a **simultaneous switch** rather than a temporal cascade. Methylation changes at the exponential-to-transition boundary co-activate 35 upregulated genes AND co-repress 26 downregulated genes as a single coordinated event.
 - The "gate" opens once: at the developmental transition point, both programs are unlocked simultaneously.
 - Within-module temporal coherence (rho = 0.717) suggests that genes sharing coordination types may be co-regulated by common upstream signals.
 

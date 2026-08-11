@@ -4,7 +4,7 @@ Figure 8: Positional stratification of methylation sites and KEGG/COG signal.
 
 Reviewer A2 + A4 fixes:
   - Drop the "Unassigned 6mA" category in panel A (no biological motif).
-  - Show only the two assigned motifs: GCCGGC (4mC) and AAGCCCG (m4C/6mA).
+  - Show only the two assigned motifs: GCCGGC (4mC) and AAGCCCG (4mC/6mA).
   - Panel A: stacked bar of genomic position categories per motif (two motifs).
   - Panel B: position-stratified KEGG/COG enrichment heatmap (significant only).
   - Publication-quality formatting (Arial 9 pt, dual PDF + SVG).
@@ -30,13 +30,17 @@ for _attr in dir(_utils):
 KEGG_DIR = EPIGENOME / '62_GO_KEGG_enrichment' / 'tables'
 
 CATEGORY_ORDER = ['promoter', '5UTR_approx', 'CDS_internal', 'intergenic']
-CATEGORY_LABELS = ['Promoter\n(−500 to TSS)', "5′ UTR\n(0–100 bp)",
-                   'CDS internal', 'Intergenic']
-CATEGORY_COLORS = ['#E69F00', '#009E73', '#4477AA', '#BBBBBB']  # muted (Okabe-Ito/Tol)
+# Short legend labels (full definitions are in the caption); the previous
+# spelled-out labels with parentheticals overran the figure's right edge and
+# were clipped, because save_figure() honours the declared NAR width and does
+# not tight-crop (figure-legibility-qc §3).
+CATEGORY_LABELS = ['Promoter', "5′ UTR", 'CDS', 'Intergenic']
+# Genomic-category qualitative set — muted tones threaded from the unified palette
+CATEGORY_COLORS = [COL_ARM, COL_CORE, COL_6mA, COL_GRAY]  # amber, green, blue, grey
 
 MOTIFS = [
-    ('GCCGGC', 'GCCGGC (4mC)', '#C26B6B'),
-    ('AAGCCCG', 'AAGCCCG (m4C/6mA)', '#7E57C2'),
+    ('GCCGGC', 'GCCGGC (4mC)', COL_4mC),
+    ('AAGCCCG', 'AAGCCCG (4mC/6mA)', COL_BOTH),
 ]
 
 
@@ -83,7 +87,7 @@ def panel_a(ax):
     ax.legend(loc='center left', bbox_to_anchor=(1.01, 0.5), ncol=1,
               fontsize=7, frameon=False, handlelength=1.0, handletextpad=0.4,
               labelspacing=0.7)
-    ax.set_title('A. Site distribution by genomic category (T1)',
+    ax.set_title('Site distribution by genomic category (T1)',
                  loc='left', fontsize=10, fontweight='bold', pad=10)
 
 
@@ -127,7 +131,7 @@ def panel_b(ax):
     log_or = np.log2(ors)
 
     cmap = LinearSegmentedColormap.from_list(
-        'or_cmap', ['#4477AA', '#FFFFFF', '#C26B6B'])  # muted blue->white->rose
+        'or_cmap', [COL_6mA, '#FFFFFF', COL_4mC])  # unified blue->white->red
     vmax = 4  # log2 OR clipped
 
     for _, row in df.iterrows():
@@ -152,10 +156,11 @@ def panel_b(ax):
 
     ax.set_xticks(range(len(x_keys)))
     ax.set_xticklabels(cat_lbl * len(motifs_short), fontsize=7.5)
-    # Motif group labels above x ticks
+    # Motif group labels above x ticks (display: 4mC → 4mC; data keys unchanged)
     for i, m in enumerate(motifs_short):
+        m_disp = m.replace('GCCGGC 4mC', 'GCCGGC 4mC').replace('AAGCCCG 6mA', 'AAGCCCG 6mA')
         ax.text(i * len(cats) + (len(cats) - 1) / 2, len(pathways) + 0.2,
-                m, ha='center', va='bottom', fontsize=8.5, fontweight='bold')
+                m_disp, ha='center', va='bottom', fontsize=8.5, fontweight='bold')
 
     ax.set_yticks(range(len(pathways)))
     ax.set_yticklabels(pathways, fontsize=7.5)
@@ -163,11 +168,11 @@ def panel_b(ax):
     ax.set_ylim(-0.6, len(pathways) - 0.4 + 0.5)
     ax.invert_yaxis()
     ax.grid(True, axis='both', linestyle=':', linewidth=0.4,
-            color='#cccccc', alpha=0.7, zorder=0)
+            color=COL_GRID, alpha=0.9, zorder=0)
     ax.set_axisbelow(True)
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
-    ax.set_title('B. Position-stratified KEGG enrichment',
+    ax.set_title('Position-stratified KEGG enrichment',
                  loc='left', fontsize=10, fontweight='bold', pad=18)
 
     # Color bar (log2 OR)
@@ -180,11 +185,14 @@ def panel_b(ax):
 
 
 def _short_kegg_name(name: str) -> str:
+    import textwrap
     name = str(name).split(' - ')[0]
     name = name.replace(' biosynthesis', ' biosynth.')
     name = name.replace(' metabolism', ' metab.')
-    if len(name) > 38:
-        name = name[:36] + '…'
+    # Wrap long names onto two lines instead of truncating with '…', so no
+    # pathway name is lost (e.g. 'Biosynthesis of various nucleotide sugars').
+    if len(name) > 30:
+        name = '\n'.join(textwrap.wrap(name, width=30, break_long_words=False))
     return name
 
 
@@ -194,7 +202,7 @@ def main():
 
     fig = plt.figure(figsize=(mm_to_inch(174), mm_to_inch(165)))
     gs = fig.add_gridspec(2, 1, height_ratios=[0.35, 1.0],
-                          hspace=0.55, left=0.30, right=0.92,
+                          hspace=0.55, left=0.30, right=0.86,
                           top=0.93, bottom=0.07)
     ax_a = fig.add_subplot(gs[0])
     ax_b = fig.add_subplot(gs[1])
@@ -203,6 +211,10 @@ def main():
     panel_a(ax_a)
     print('Drawing Panel B...')
     panel_b(ax_b)
+
+    # lowercase panel letters — uniform offset-points placement (shared helper)
+    for ax, L in ((ax_a, 'a'), (ax_b, 'b')):
+        _utils.add_panel_label(ax, L)
 
     # Figure caption note
     fig.text(0.30, 0.02,

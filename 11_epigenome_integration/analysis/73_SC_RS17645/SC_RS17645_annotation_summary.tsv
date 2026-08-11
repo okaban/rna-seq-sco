@@ -1,0 +1,48 @@
+field	value	source
+locus_tag	SC_RS17645	GCF_000203835.1 GFF3 (RefSeq)
+old_locus_tag	SCO3104	GCF_000203835.1 GFF3 (RefSeq)
+alias	SCE41.13c	UniProt Q9F2P6
+chromosome	NC_003888.3	GCF_000203835.1 GFF3 (RefSeq)
+start	3399763	GCF_000203835.1 GFF3 (RefSeq)
+end	3401802	GCF_000203835.1 GFF3 (RefSeq)
+strand	-	GCF_000203835.1 GFF3 (RefSeq)
+gene_length_bp	2040	GFF3
+protein_length_aa	679	WP_011028768.1
+product	N-6 DNA methylase	GCF_000203835.1 GFF3 (RefSeq)
+protein_id	WP_011028768.1	GCF_000203835.1 GFF3 (RefSeq)
+ncbi_gene_id	1098538	NCBI Gene
+uniprot	Q9F2P6	UniProt (TrEMBL, unreviewed)
+rebase_name	M.ScoA3ORF3104P	REBASE
+predicted_motif	AAGCCCG (6mA, 7-bp, novel)	this project
+go_function	DNA binding (GO:0003677); N-methyltransferase activity (GO:0008170)	UniProt-KW / InterPro (IEA)
+go_process	DNA restriction-modification system (GO:0009307)	UniProt-KW (IEA)
+domain_interpro_family	IPR052916 Type I RE MTase Subunit (1-484)	InterPro
+domain_pfam_catalytic	PF02384 N6_Mtase (167-393); SAM-binding catalytic domain	Pfam
+domain_interpro_sam	IPR029063 SAM-dep MTase superfamily (166-471)	InterPro
+domain_trd	IPR044946 Type I R-M DNA specificity domain (539-669)	InterPro
+sam_binding_motif_I	FXGXG at aa ~394	domain analysis
+gene_neighborhood_minus5	SC_RS17620 cytochrome P450	GFF3
+gene_neighborhood_minus4	SC_RS17625 NTP pyrophosphohydrolase	GFF3
+gene_neighborhood_minus3	SC_RS17630 SurA N-term domain	GFF3
+gene_neighborhood_minus2	SC_RS17635 pkaE (Ser/Thr kinase)	GFF3
+gene_neighborhood_minus1	SC_RS17640 hypothetical	GFF3
+gene_neighborhood_plus1	SC_RS17650 hypothetical	GFF3
+gene_neighborhood_plus2	SC_RS17655 lipoprotein	GFF3
+gene_neighborhood_plus3	SC_RS17660 HNH endonuclease	GFF3
+gene_neighborhood_plus4	SC_RS17665 antitoxin	GFF3
+gene_neighborhood_plus5	SC_RS17670 mfd (transcription-repair coupling factor)	GFF3
+nearby_hsdR_or_hsdS_within_5	none	GFF3 inspection
+nearby_hsdR_or_hsdS_within_50kb	none	GFF3 inspection (3,350,000-3,450,000 bp scan)
+hsd_in_whole_genome	none annotated as HsdR/HsdS/Type I R/specificity subunit	GFF3 product-name scan (NC_003888.3)
+operon_classification	orphan / solo MTase (no cognate restriction or specificity partner annotated)	this analysis
+streptomyces_genomes_searched	833	tblastn vs local NCBI assembly set
+m145_self_in_db	no (GCF_000203835.1 not in 833-set; closest hit is GCF_008931305.1 = S. coelicolor A3(2) CFB_NBC_0001 at 99.85% ident)	tblastn / acc_to_organism.tsv
+genomes_with_any_hit	666	tblastn (e-value <= 1e-5)
+genomes_pident_ge30_qcov_ge60	590	tblastn
+genomes_pident_ge50_qcov_ge80	406	tblastn
+genomes_pident_ge80_qcov_ge80	41	tblastn
+genomes_pident_ge95_qcov_ge95	6	tblastn
+species_with_pident_ge99	6 (S. coelicolor, S. lividans, S. violaceoruber, S. violaceolatus, S. anthocyanicus, S. rubrogriseus)	tblastn top hits
+conservation_pattern	widespread distant homology (~71% Streptomyces); high-identity (>=99%) restricted to S. coelicolor / lividans / violaceoruber clade	this analysis
+expression_log2fc_T2vsT1	-2.19 (padj=6.48e-16)	gene_master_DESeq2.tsv
+expression_T3_partial_recovery	+1.45 vs T2	this project DEG analysis

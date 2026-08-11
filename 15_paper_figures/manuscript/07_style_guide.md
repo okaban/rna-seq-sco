@@ -1,4 +1,4 @@
-# Style Guide: M145 Gatekeeper Model Paper
+# Style Guide: M145 Methylation-Exclusion Architecture Paper
 
 **Purpose**: このファイルは論文執筆時に全セクションで参照し、用語・数値・表記の一貫性を保つためのもの。
 各セッション冒頭でこのファイルを読み込むこと。
@@ -9,7 +9,7 @@
 
 | 使用する表現 | 使用しない表現 | 備考 |
 |-------------|--------------|------|
-| Gatekeeper model | gatekeeper mechanism, gatekeeper hypothesis | 固有名詞として大文字 |
+| methylation-exclusion architecture | Gatekeeper model, gatekeeper mechanism, gatekeeper hypothesis | ハイフン付き、小文字 |
 | shielded regulators | protected genes, methylation-free genes | 小文字、名詞として使う |
 | exposed regulators | unprotected genes, methylation-accessible | 小文字 |
 | protection zone | exclusion zone, methylation-free zone | |
@@ -52,8 +52,8 @@
 | Statistic | Value | Figure |
 |-----------|-------|--------|
 | Total regulatory genes | 1,055 | — |
-| Shielded regulators | 993 (94.1%) | Fig 1c |
-| Exposed regulators | 62 (5.9%) | Fig 1c |
+| Shielded regulators | 998 (94.6%) | Fig 1c |
+| Exposed regulators | 57 (5.4%) | Fig 1c |
 | Protection zone width | 2,200 bp (-1,300 to +700) | Fig 1b, 2a |
 | Deepest depletion | +300 bp (ratio = 0.541) | Fig 1b |
 | TSS methylation ratio (exp/shi) | 8.4x | — |
@@ -65,27 +65,27 @@
 | Sequence contribution estimate | ~33% | Fig 2c |
 | Protein occupancy contribution | ~67% | Fig 2c |
 | GCCGGC fold at TFBS | 1.157 (counter-intuitive enrichment) | Fig 2d |
-| Mann-Whitney (exposed vs shielded) | p = 5.3 x 10^-28 | Fig 1c |
+| Mann-Whitney (exposed vs shielded) | p = 1.7 x 10^-25 | Fig 1c |
 
-### 62 Exposed TFs (Layer 3)
+### 57 Exposed TFs (Layer 3)
 | Statistic | Value | Figure |
 |-----------|-------|--------|
-| Activation bloc size | ~35 genes | Fig 1d, 3 |
-| Repression bloc size | ~26 genes | Fig 1d, 3 |
+| Activation bloc size | 34 genes | Fig 1d, 3 |
+| Repression bloc size | 23 genes | Fig 1d, 3 |
 | Unassigned | 1 gene | — |
 | TetR enrichment in repression | OR = 0.16, p = 0.028 | Fig 3d |
 | TCS pairs with asymmetric split | 7/7 (100%) | Fig 3e |
-| Early responders (phase ratio > 0.6) | 39/62 (63%) | Fig 3c |
+| Early responders (phase ratio > 0.6) | 36/57 (63%) | Fig 3c |
 | Bloc phase separation p | 0.459 (simultaneous) | Fig 3c |
 | Within-type co-expression rho | 0.500 (p = 6.6 x 10^-25) | Fig 3a |
 | Between-type co-expression rho | -0.283 | — |
 | Module-internal coherence rho | 0.717 (p = 1 x 10^-19) | — |
 | Methylation–expression timing rho | 0.136 (p = 0.299, NS) | — |
-| FIMO motifs for exposed TFs | 0/62 | — |
+| FIMO motifs for exposed TFs | 0/57 | — |
 | Neighborhood permutation p | 0.857 | Fig 4d |
 | Neighborhood distance decay rho | +0.026 | Fig 4d |
-| Methylated AAGCCCG at exposed TSS | 2/62 (3.2%) | Fig 4c |
-| AAGCCCG sequence at exposed TSS | ~16/62 (25.8%) | Fig 4c |
+| Methylated AAGCCCG at exposed TSS | 2/57 (3.2%) | Fig 4c |
+| AAGCCCG sequence at exposed TSS | 14/57 (24.6%) | Fig 4c |
 
 ### Simpson's Paradox
 | Statistic | Value | Figure |
@@ -114,9 +114,9 @@
 ### Main Figures
 | # | Short title | Script |
 |---|-------------|--------|
-| Fig 1 | Gatekeeper Model overview | 10_new_figure1_overview.py |
+| Fig 1 | Methylation-exclusion architecture overview | 10_new_figure1_overview.py |
 | Fig 2 | Protection zone characterization | 11_new_figure2_protection.py |
-| Fig 3 | 62 exposed TFs — developmental switch | 12_new_figure3_exposed_TFs.py |
+| Fig 3 | 57 exposed TFs — developmental switch | 12_new_figure3_exposed_TFs.py |
 | Fig 4 | Negative results | 13_new_figure4_negative_results.py |
 | Fig 5 | Vegetative-to-developmental switch model | 14_new_figure5_switch_model.py |
 
@@ -128,7 +128,7 @@
 | S3 | Simpson's paradox 6-panel detail |
 | S4 | Regulatory avoidance forest plot (CMH) |
 | S5 | Sequence-level motif depletion |
-| S6 | 62 exposed TF complete annotation |
+| S6 | 57 exposed TF complete annotation |
 | S7 | TCS pair detailed analysis |
 | S8 | Conservation metrics (H36) |
 
@@ -139,7 +139,7 @@
 | ST2 | Motif summary + REBASE conservation |
 | ST3 | MTase genes (22 genes) |
 | ST4 | 1,055 regulatory genes: shielded/exposed classification |
-| ST5 | 62 exposed TFs: full annotation |
+| ST5 | 57 exposed TFs: full annotation |
 | ST6 | TCS pair analysis |
 | ST7 | Simpson's Paradox statistics |
 | ST8 | Hypothesis ledger (H1–H36) |
@@ -170,7 +170,7 @@
 
 ## 6. 書式ルール
 
-- p値: p < 0.001 は科学表記 (例: p = 5.3 x 10^-28)、p >= 0.001 は小数 (例: p = 0.028)
+- p値: p < 0.001 は科学表記 (例: p = 1.7 x 10^-25)、p >= 0.001 は小数 (例: p = 0.028)
 - 統計量: U, rho, r は斜体
 - 遺伝子名: 斜体 (*ramR*, *nsdB*)、タンパク質名は立体 (RamR, NsdB)
 - 種名: 斜体 (*Streptomyces coelicolor*)

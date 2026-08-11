@@ -85,7 +85,7 @@ Methylation gates a distinct set of non-literature regulatory genes, particularl
 | SC_RS24635 | -- | UdgX uracil-DNA binding | Concordant repression (T2 + T3) | DNA repair |
 | SC_RS35610 | ramR | RamR response regulator | Discordant gain_up (T3) | Aerial mycelium |
 
-**Interpretation**: The original model proposed methylation --> TF cascade --> BGC activation (REJECTED by H4). The revised model shows that methylation targets a previously uncharacterized set of 62 regulatory genes, ALL outside the well-studied literature 37 list. These genes are enriched in signal transduction functions (COG T, OR = 2.47) but contain ZERO secondary metabolism genes (COG Q = 0). TCS pairs show asymmetric methylation: sensor kinases are methylated while their cognate response regulators remain free. At T3, genes gaining methylation while being upregulated (discordant_gain_up) cluster overwhelmingly at chromosomal arms (87%, OR = 8.05), consistent with the Layer 1 geographic remodeling.
+**Interpretation**: The original model proposed methylation --> TF cascade --> BGC activation (REJECTED by H4). The revised model shows that methylation targets a previously uncharacterized set of 57 regulatory genes, ALL outside the well-studied literature 37 list. These genes are enriched in signal transduction functions (COG T, OR = 2.47) but contain ZERO secondary metabolism genes (COG Q = 0). TCS pairs show asymmetric methylation: sensor kinases are methylated while their cognate response regulators remain free. At T3, genes gaining methylation while being upregulated (discordant_gain_up) cluster overwhelmingly at chromosomal arms (87%, OR = 8.05), consistent with the Layer 1 geographic remodeling.
 
 ### 2.4 Excluded Pathway: Methylation-TF Cascade (Definitively Rejected)
 
@@ -120,7 +120,7 @@ Methylation gates a distinct set of non-literature regulatory genes, particularl
 ### 3.2 Evidence Strength Summary
 
 - **Definitive** (4 hypotheses): H3, H4, H7, H9 -- clear-cut results with no ambiguity
-- **Strong** (1 hypothesis): H6 -- 62 coordinated regulators identified, all novel
+- **Strong** (1 hypothesis): H6 -- 57 coordinated regulators identified, all novel
 - **Moderate-Strong** (1 hypothesis): H8 -- T3 arm enrichment significant, overall geography NS
 - **Partial** (2 hypotheses): H1, H5 -- some aspects supported, others not
 
@@ -168,7 +168,7 @@ Key revisions based on H1-H9 hypothesis testing:
 
 2. **Mechanism of TF BS protection**: Is methylation actively excluded from TF binding sites (by TF occupancy blocking MTase access), or is there a sequence-level incompatibility? The sharp depletion (fold = 0.66) suggests active protection, but the mechanism is unknown.
 
-3. **Causality in coordinated regulators**: The 62 coordinated regulatory genes show correlation between methylation and expression changes, but causality is not established. Does methylation cause expression changes, or do expression/chromatin changes alter MTase accessibility?
+3. **Causality in coordinated regulators**: The 57 coordinated regulatory genes show correlation between methylation and expression changes, but causality is not established. Does methylation cause expression changes, or do expression/chromatin changes alter MTase accessibility?
 
 4. **Functional impact of TCS asymmetry**: The asymmetric methylation of sensor kinases (methylated) vs response regulators (free) in 7 TCS pairs is striking, but the functional consequence is unknown.
 
@@ -193,7 +193,7 @@ Key revisions based on H1-H9 hypothesis testing:
 
 **Tier 1 (Immediate)**:
 - P1: SC_RS17645 KO -- foundational for the AAGCCCG R-M system
-- P4: SC_RS10435 (chaplin-adjacent TetR) -- strongest candidate from 62 coordinated regulators (concordant derepression at both T2 and T3)
+- P4: SC_RS10435 (chaplin-adjacent TetR) -- strongest candidate from 57 coordinated regulators (concordant derepression at both T2 and T3)
 - P7: CCGG geographic shift reproducibility -- validates the core finding of Layer 1
 
 **Tier 2 (High priority)**:
@@ -260,14 +260,14 @@ In v1, the "gatekeeper" metaphor implied methylation controlling access to the T
 The TF cascade model fails because:
 1. The 37 literature TFs are in the "walled garden" (92% methylation-free)
 2. SARP activators show the strongest expression changes without any methylation
-3. The genes that ARE methylation-regulated are different genes entirely (62 non-literature regulators)
-4. These 62 regulators are enriched in signal transduction (COG T), not secondary metabolism (COG Q = 0)
+3. The genes that ARE methylation-regulated are different genes entirely (57 non-literature regulators)
+4. These 57 regulators are enriched in signal transduction (COG T), not secondary metabolism (COG Q = 0)
 
 This means methylation influences gene regulation through an **indirect, multi-step pathway** rather than a direct TF --> target mechanism.
 
 ### 7.3 Implications for Streptomyces Biology
 
-1. **Antibiotic production regulation**: BGC activation is methylation-INDEPENDENT. Efforts to engineer antibiotic production through methylation manipulation are unlikely to succeed directly. However, manipulating the 62 coordinated regulators could have indirect effects.
+1. **Antibiotic production regulation**: BGC activation is methylation-INDEPENDENT. Efforts to engineer antibiotic production through methylation manipulation are unlikely to succeed directly. However, manipulating the 57 coordinated regulators could have indirect effects.
 
 2. **Morphological differentiation**: The strongest candidate (SC_RS10435, chaplin-adjacent TetR with concordant derepression) suggests methylation may influence aerial mycelium development through previously unknown regulatory genes.
 
@@ -307,7 +307,7 @@ This means methylation influences gene regulation through an **indirect, multi-s
 
 ## 9. Methods
 
-All figures generated with Python 3/matplotlib. Statistical tests from prior hypothesis analyses (H1-H9) were synthesized; no new statistical tests were performed in this integration analysis. Data sources include the 62 coordinated regulatory genes table (H6), family methylation summary (H6), TCS pair candidates (H8), COG enrichment results (H8), geographic distribution statistics (H8), and the corrected 37-TF dataset (H4).
+All figures generated with Python 3/matplotlib. Statistical tests from prior hypothesis analyses (H1-H9) were synthesized; no new statistical tests were performed in this integration analysis. Data sources include the 57 coordinated regulatory genes table (H6), family methylation summary (H6), TCS pair candidates (H8), COG enrichment results (H8), geographic distribution statistics (H8), and the corrected 37-TF dataset (H4).
 
 ---
 
@@ -317,7 +317,7 @@ The Gatekeeper Model v2 represents a fundamental revision of how DNA methylation
 
 1. **Landscape remodeling**: Wholesale, MTase-driven changes in methylation patterns across the genome (not gene-by-gene)
 2. **Active protection**: Critical regulatory DNA is shielded from methylation, ensuring master regulators function independently
-3. **Signal gating through novel regulators**: A previously uncharacterized set of 62 regulatory genes, enriched in signal transduction, is the actual interface between methylation and gene expression
+3. **Signal gating through novel regulators**: A previously uncharacterized set of 57 regulatory genes, enriched in signal transduction, is the actual interface between methylation and gene expression
 
 This model generates 10 testable predictions, 5 of which are prioritized as high-priority for immediate experimental validation. The most impactful would be SC_RS17645 knockout (confirming AAGCCCG MTase identity), SC_RS10435 characterization (validating chaplin-adjacent regulation), and CCGG geographic shift reproducibility (confirming the core Layer 1 finding).
 

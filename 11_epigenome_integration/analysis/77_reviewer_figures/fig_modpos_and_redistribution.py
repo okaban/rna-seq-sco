@@ -99,43 +99,52 @@ def quant_positions(ax, seq, freqs, title, ylab="mean modification\nfrequency (%
 
 import matplotlib.patches as mpatches
 fig, axes = plt.subplots(2, 3, figsize=(15.5, 7.2), gridspec_kw={"width_ratios":[1,1.15,0.85]})
-# GCCGGC (palindrome): m4C at internal C (C2) on the TOP strand only.
+# GCCGGC (palindrome): 4mC at internal C (C2) on the TOP strand only.
 # Hemi-methylated: the palindromic partner C on the BOTTOM strand (under
 # column 3, where the complementary base is C) is ~0% methylated.
 GREY0 = "#9aa0a6"  # marks the unmodified hemi partner
-draw_motif(axes[0,0], list("GCCGGC"), {2:("m4C", C4)},
-           "GCCGGC  (palindromic; hemi-methylated m4C)",
-           bot_mods={3:("unmodified\n(hemi partner)", GREY0)})
-quant_positions(axes[0,1], "GCCGGC", {2:(82,C4,"m4C")},
+draw_motif(axes[0,0], list("GCCGGC"), {2:("4mC", C4)},
+           "GCCGGC  (palindromic; hemi-methylated 4mC)",
+           bot_mods={3:("", GREY0)})
+quant_positions(axes[0,1], "GCCGGC", {2:(82,C4,"4mC")},
                 "Per-position modification frequency — GCCGGC")
-axes[0,1].text(0.98, 0.92, "m4C at C2; ~82% occupancy (n = 2,184 sites)", transform=axes[0,1].transAxes,
-               ha="right", va="top", fontsize=7.5, color="#555")
-# AAGCCCG: 6mA at A0/A1 (~23%), m4C at C3/C5 (~35%); dominant co-modified
+# (per-position occupancy detail moved to the figure caption)
+# AAGCCCG: 6mA at A0/A1 (~23%), 4mC at C3/C5 (~35%); dominant co-modified
 # pair A1<->C5. Both modification types sit on the SAME (top) strand; the
 # bottom strand carries no modification.
-draw_motif(axes[1,0], list("AAGCCCG"), {1:("6mA", C6), 5:("m4C", C4)},
+draw_motif(axes[1,0], list("AAGCCCG"), {1:("6mA", C6), 5:("4mC", C4)},
            "AAGCCCG  (same-strand dual modification)")
-quant_positions(axes[1,1], "AAGCCCG", {0:(23,C6,"6mA"),1:(23,C6,"6mA"),3:(35,C4,"m4C"),5:(35,C4,"m4C")},
+quant_positions(axes[1,1], "AAGCCCG", {0:(23,C6,"6mA"),1:(23,C6,"6mA"),3:(35,C4,"4mC"),5:(35,C4,"4mC")},
                 "Per-position modification frequency — AAGCCCG")
-axes[1,1].text(0.98, 0.92, "6mA at A0/A1 (~23%); m4C at C3/C5 (~35%);\ndominant same-strand pair A1↔C5", transform=axes[1,1].transAxes,
-               ha="right", va="top", fontsize=7.5, color="#555")
-# (third column) GCCGGC: single mod; AAGCCCG: 4mC & 6mA on DIFFERENT bases + per-read dual
-axes[0,2].axis("off")
-axes[0,2].text(0.5,0.6,"GCCGGC\nsingle modification:\nm4C only (at C2)\n~82% of sites",ha="center",va="center",fontsize=10,
-               bbox=dict(boxstyle="round,pad=0.4",fc="#f7eeee",ec="#C26B6B"))
-# AAGCCCG breakdown: 4mC at C3/C5 (699 sites), 6mA at A0/A1 (447), per-read dual 31.6% (T1)
+# (per-position occupancy + dominant-pair detail moved to the figure caption)
+# (third column, top) GCCGGC summary. Reviewer C7: the previous version placed
+# a red-bordered text box floating in an otherwise-empty axis, which reads as a
+# detached, non-standard figure element. Replace it with a titled, borderless
+# summary panel that mirrors the AAGCCCG summary panel directly below it, so the
+# two right-column cells form a coherent "modification-type summary" column.
+# GCCGGC breakdown bar — mirrors the AAGCCCG breakdown below so both right-column
+# cells are parallel DATA plots (not a text panel). GCCGGC carries 4mC essentially
+# only: T1 4mC = 1289 sites vs 6mA = 10 (~0).
+axa=axes[0,2]
+axa.bar([0,1],[1289,10],color=[C4,C6],width=0.6,zorder=3)
+axa.text(0,1289+15,"1289",ha="center",fontsize=9,color=C4,fontweight="bold",zorder=4)
+axa.text(1,10+15,"10",ha="center",fontsize=9,color=C6,fontweight="bold",zorder=4)
+axa.set_xticks([0,1]);axa.set_xticklabels(["4mC","6mA"],fontsize=9)
+axa.set_ylabel("GCCGGC sites (T1)",fontsize=8.5)
+axa.set_title("GCCGGC",fontsize=9)
+axa.set_ylim(0,1450)
+for sp in ("top","right"): axa.spines[sp].set_visible(False)
+# AAGCCCG breakdown: 4mC at C3/C5 (699 sites), 6mA at A0/A1 (441), per-read dual 31.6% (T1)
 axb=axes[1,2]
-axb.bar([0,1],[699,447],color=[C4,C6],width=0.6,zorder=3)
+axb.bar([0,1],[699,441],color=[C4,C6],width=0.6,zorder=3)
 axb.text(0,699+12,"699",ha="center",fontsize=9,color=C4,fontweight="bold",zorder=4)
-axb.text(1,447+12,"447",ha="center",fontsize=9,color=C6,fontweight="bold",zorder=4)
-axb.set_xticks([0,1]);axb.set_xticklabels(["m4C\n(at C3/C5)","6mA\n(at A0/A1)"],fontsize=9)
-axb.set_ylabel("AAGCCCG sites (T1)",fontsize=8.5);axb.set_title("AAGCCCG: two modification types\non DIFFERENT bases",fontsize=9)
-# Headroom above the tallest bar (699) so the annotation never overlaps the bars.
-axb.set_ylim(0, 980)
-axb.text(0.5,0.985,"per-molecule co-occurrence\n(both in one read) = 31.6% (T1)\n→ 7.2% (T2) → 4.3% (T3)",transform=axb.transAxes,
-         ha="center",va="top",fontsize=7.5,color="#444",
-         bbox=dict(boxstyle="round,pad=0.3",fc="white",ec="#aaa"),zorder=5)
-fig.legend(handles=[mpatches.Patch(color=C4,label="m4C"),mpatches.Patch(color=C6,label="6mA")],
+axb.text(1,441+12,"441",ha="center",fontsize=9,color=C6,fontweight="bold",zorder=4)
+axb.set_xticks([0,1]);axb.set_xticklabels(["4mC","6mA"],fontsize=9)
+axb.set_ylabel("AAGCCCG sites (T1)",fontsize=8.5);axb.set_title("AAGCCCG",fontsize=9)
+axb.set_ylim(0, 820)
+for sp in ("top","right"): axb.spines[sp].set_visible(False)
+# (per-molecule dual co-occurrence 31.6%→7.2%→4.3% across T1/T2/T3 moved to the caption)
+fig.legend(handles=[mpatches.Patch(color=C4,label="4mC"),mpatches.Patch(color=C6,label="6mA")],
            loc="lower center", frameon=False, fontsize=9, ncol=2, bbox_to_anchor=(0.5,-0.02))
 fig.suptitle("Position of the methyl modification within each recognition motif", y=1.0, fontsize=12)
 fig.tight_layout(rect=[0,0.03,1,1])
@@ -165,7 +174,10 @@ def landscape(ax, df, tps, tp_lbls, color, title):
         h,_ = np.histogram(pos, bins=edges)
         ax.bar(centers, h/hmax*band_h, width=BIN/1e6, bottom=base, color=color, alpha=0.95, linewidth=0, zorder=2)
         ax.axhline(base, color="#aaa", lw=0.5, zorder=1)
-        ax.text(-0.05, base+band_h/2, f"{lab}\nn={len(pos)}", ha="right", va="center", fontsize=7.5)
+        # Track label INSIDE the panel (top-left of each track) so it never
+        # collides with the y-axis title on the outer margin (figure-legibility-qc §3).
+        ax.text(0.15, base+band_h-0.03, f"{lab}  (n={len(pos)})", ha="left", va="top",
+                fontsize=7.2, color="#222", zorder=6)
     # region labels under the axis
     ax.text(ARM_LEFT/2/1e6, -0.34, "Left arm", ha="center", fontsize=7, color=COL_ARM, style="italic")
     ax.text((ARM_LEFT+ARM_RIGHT)/2/1e6, -0.34, "Core", ha="center", fontsize=7, color=COL_CORE, style="italic")
@@ -194,9 +206,9 @@ def quant_core_arm(ax, df, tps, color, title):
 fig, ax = plt.subplots(2, 2, figsize=(13, 7), gridspec_kw={"width_ratios":[1.9,1]})
 # GCCGGC (T1/T2/T3)
 landscape(ax[0,0], g, ["T1","T2","T3"], ["T1 (12 h)","T2 (24 h)","T3 (50 h)"], C4,
-          "(a) GCCGGC m4C — linear chromosome landscape")
+          "(a) GCCGGC 4mC — linear chromosome landscape")
 quant_core_arm(ax[0,1], g, ["T1","T2","T3"], C4,
-          "(b) GCCGGC m4C — core fraction (dynamic)")
+          "(b) GCCGGC 4mC — core fraction (dynamic)")
 # AAGCCCG (T1/T2/T3 from master site table)
 landscape(ax[1,0], a, ["T1","T2","T3"], ["T1 (12 h)","T2 (24 h)","T3 (50 h)"], C6,
           "(c) AAGCCCG — linear chromosome landscape (contrast)")

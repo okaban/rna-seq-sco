@@ -8,15 +8,15 @@
 
 ## Background
 
-In *Streptomyces coelicolor* M145, previous analyses (H27-H29) identified 62 "exposed" regulatory genes -- transcription factors and signal transduction genes that lack the methylation protection zone characteristic of the remaining 993 "shielded" regulatory genes. These 62 genes share several distinctive properties: they sit within 293 bp of methylation sites (vs >293 bp for shielded), show 100% dynamic expression (zero constitutive), have lower T1 baseline expression, and display methylation-expression coordination across developmental timepoints.
+In *Streptomyces coelicolor* M145, previous analyses (H27-H29) identified 57 "exposed" regulatory genes -- transcription factors and signal transduction genes that lack the methylation protection zone characteristic of the remaining 998 "shielded" regulatory genes. These 57 genes share several distinctive properties: they sit within 293 bp of methylation sites (vs >293 bp for shielded), show 100% dynamic expression (zero constitutive), have lower T1 baseline expression, and display methylation-expression coordination across developmental timepoints.
 
-The 62 exposed regulators span diverse TF families: TetR (9), sigma factors (7), sensor kinases (6), response regulators (5), and various HTH-type regulators. H8 previously identified 7 TCS (two-component system) pairs among the coordinated regulatory genes with asymmetric methylation.
+The 57 exposed regulators span diverse TF families: TetR (9), sigma factors (7), sensor kinases (6), response regulators (5), and various HTH-type regulators. H8 previously identified 7 TCS (two-component system) pairs among the coordinated regulatory genes with asymmetric methylation.
 
-**Key question:** Do these 62 exposed genes form an interconnected, self-regulatory "methylation-responsive module" -- with genomic clustering, co-expression, and shared coordination? Or are they independently scattered across the genome, unified only by the shared property of methylation exposure?
+**Key question:** Do these 57 exposed genes form an interconnected, self-regulatory "methylation-responsive module" -- with genomic clustering, co-expression, and shared coordination? Or are they independently scattered across the genome, unified only by the shared property of methylation exposure?
 
 ## Hypothesis
 
-**H32:** The 62 exposed regulators form a functionally interconnected regulatory module, evidenced by:
+**H32:** The 57 exposed regulators form a functionally interconnected regulatory module, evidenced by:
 1. Non-random genomic clustering
 2. Higher mutual co-expression than with shielded genes
 3. Coherent coordination types within co-expression groups
@@ -27,20 +27,20 @@ The 62 exposed regulators span diverse TF families: TetR (9), sigma factors (7),
 ## Methods
 
 ### Data sources
-- 62 exposed regulators with full annotation (from H28/51 analysis)
+- 57 exposed regulators with full annotation (from H28/51 analysis)
 - 1,017 regulatory genes with features (from H29/52 analysis)
-- 62 coordinated regulatory genes with methylation details (from H6/29 analysis)
+- 57 coordinated regulatory genes with methylation details (from H6/29 analysis)
 - Normalized expression counts (9 samples: 3 timepoints x 3 replicates)
 - 7 TCS pairs (from H8/31 analysis)
 
 ### Analyses performed
-1. **Genomic clustering**: Pairwise nearest-neighbor distances for 62 exposed TFs; permutation test (1,000 iterations sampling 62 from 1,017 regulatory genes); cluster detection at 20 kb threshold
+1. **Genomic clustering**: Pairwise nearest-neighbor distances for 57 exposed TFs; permutation test (1,000 iterations sampling 62 from 1,017 regulatory genes); cluster detection at 20 kb threshold
 2. **Co-expression**: Pairwise Spearman correlations across 9 samples; comparison of exposed-exposed, exposed-shielded, and shielded-shielded correlation distributions; hierarchical clustering (Ward linkage); co-expression module detection (rho > 0.7, BH-adjusted p < 0.05)
 3. **Coordination type coherence**: Distribution of coordination types; chi-square test for association with genomic cluster membership; within-type vs between-type co-expression comparison
 4. **TCS pair analysis**: Methylation asymmetry, expression correlation, and coordination status for each of the 7 pairs
 5. **Operon context**: Detection of operonic pairs (same strand, <150 bp intergenic distance) among exposed TFs; permutation enrichment test
 6. **Functional module detection**: Integration of genomic proximity (50 kb), co-expression (rho > 0.6), and coordination type coherence
-7. **Expression dynamics**: Z-scored heatmap of 62 exposed TFs across 9 samples
+7. **Expression dynamics**: Z-scored heatmap of 57 exposed TFs across 9 samples
 
 ---
 
@@ -48,7 +48,7 @@ The 62 exposed regulators span diverse TF families: TetR (9), sigma factors (7),
 
 ### 1. Genomic Distribution: Not Clustered
 
-The 62 exposed TFs are distributed across the full 8.67 Mb chromosome with **no significant genomic clustering**.
+The 57 exposed TFs are distributed across the full 8.67 Mb chromosome with **no significant genomic clustering**.
 
 | Metric | Value |
 |--------|-------|
@@ -58,7 +58,7 @@ The 62 exposed TFs are distributed across the full 8.67 Mb chromosome with **no 
 | Permutation p-value (more dispersed) | 0.369 |
 | Z-score | +0.295 |
 
-Only **2 genomic clusters** (within 20 kb) were found, containing 4 of 62 genes (6.5%):
+Only **2 genomic clusters** (within 20 kb) were found, containing 4 of 57 genes (6.5%):
 
 | Cluster | Genes | Span | Region | TF Families |
 |---------|-------|------|--------|-------------|
@@ -80,7 +80,7 @@ Only **2 genomic clusters** (within 20 kb) were found, containing 4 of 62 genes 
 | E-E vs E-S (greater) | 11,833,230 | 0.257 | 0.505 |
 | E-E vs S-S (greater) | 18,188,250 | 0.992 | 0.483 |
 
-**Interpretation:** Exposed-exposed correlations are NOT significantly higher than exposed-shielded or shielded-shielded. In fact, exposed-exposed median (0.017) is slightly below shielded-shielded (0.050). The 62 exposed TFs do **not** preferentially co-express with each other compared to background.
+**Interpretation:** Exposed-exposed correlations are NOT significantly higher than exposed-shielded or shielded-shielded. In fact, exposed-exposed median (0.017) is slightly below shielded-shielded (0.050). The 57 exposed TFs do **not** preferentially co-express with each other compared to background.
 
 ### 3. Co-expression Modules: Four Detected Within the 62
 
@@ -154,7 +154,7 @@ Key findings:
 - Expected by random permutation: median = 0 (mean ~ 0.6)
 - Permutation p-value: 1.0
 
-The 62 exposed TFs are **not** organized into shared operons with each other. This is consistent with the genomic dispersion finding.
+The 57 exposed TFs are **not** organized into shared operons with each other. This is consistent with the genomic dispersion finding.
 
 ### 7. Functional Module Detection
 
@@ -175,13 +175,13 @@ No large module has simultaneous genomic proximity AND co-expression AND coordin
 
 ## Interpretation
 
-### The 62 Exposed Regulators: A Functional Layer, Not a Physical Module
+### The 57 Exposed Regulators: A Functional Layer, Not a Physical Module
 
 The evidence presents a clear picture:
 
-1. **NOT a genomic module**: The 62 genes are dispersed across the chromosome indistinguishably from random (z = +0.30, p = 0.37). Only 4/62 (6.5%) are within 20 kb of another exposed gene. No shared operons.
+1. **NOT a genomic module**: The 57 genes are dispersed across the chromosome indistinguishably from random (z = +0.30, p = 0.37). Only 4/57 (6.5%) are within 20 kb of another exposed gene. No shared operons.
 
-2. **NOT preferentially co-expressed as a group**: Exposed-exposed correlations (median rho = 0.017) are no higher than exposed-shielded or shielded-shielded. The 62 genes do not behave as a single co-expression community.
+2. **NOT preferentially co-expressed as a group**: Exposed-exposed correlations (median rho = 0.017) are no higher than exposed-shielded or shielded-shielded. The 57 genes do not behave as a single co-expression community.
 
 3. **BUT internally structured by coordination type**: Genes sharing the same coordination type (e.g., all discordant_gain_up or all concordant_repression) co-express very strongly (median rho = 0.500 vs -0.283 for different types, p = 6.6 x 10^-25). This creates two main expression blocs:
    - **Activation bloc** (Modules 1-3, ~35 genes): Upregulated during development, methylation changes correlate with activation
@@ -193,7 +193,7 @@ The evidence presents a clear picture:
 
 ### Revised Model: Distributed Methylation-Responsive Regulatory Layer
 
-Rather than forming a single self-regulatory module, the 62 exposed regulators constitute a **distributed regulatory layer** -- genes scattered across the genome that are unified by their shared vulnerability to methylation changes. Within this layer, two antagonistic response programs operate:
+Rather than forming a single self-regulatory module, the 57 exposed regulators constitute a **distributed regulatory layer** -- genes scattered across the genome that are unified by their shared vulnerability to methylation changes. Within this layer, two antagonistic response programs operate:
 
 - **Program 1 (Activation)**: ~35 genes that are de-repressed when methylation is removed or that show discordant gain-up responses. These include sigma factors, sensor kinases, and HTH regulators involved in developmental transitions.
 - **Program 2 (Repression)**: ~26 genes that are repressed when methylation accumulates, including GntR, MarR, ArsR, and LysR family regulators. These may represent metabolic regulators that are silenced during differentiation.
@@ -206,7 +206,7 @@ The perfect TCS asymmetry (one partner exposed, one shielded) suggests this laye
 
 **PARTIAL**
 
-The hypothesis that the 62 exposed TFs form a self-regulatory module is **partially supported**:
+The hypothesis that the 57 exposed TFs form a self-regulatory module is **partially supported**:
 
 | Evidence | Result | Supports module? |
 |----------|--------|-----------------|
@@ -214,11 +214,11 @@ The hypothesis that the 62 exposed TFs form a self-regulatory module is **partia
 | E-E co-expression > E-S | NOT significant (p=0.26) | No |
 | E-E co-expression > S-S | NOT significant (p=0.99) | No |
 | Within-type co-expression coherence | **Highly significant** (p=6.6e-25, r=0.68) | Yes |
-| Co-expression modules detected | **4 modules, 61/62 genes covered** | Yes |
+| Co-expression modules detected | **4 modules, 61/57 genes covered** | Yes |
 | Operonic pair enrichment | NOT significant (0 pairs) | No |
 | High-confidence multi-evidence modules | 0 detected | No |
 
-**Key conclusion:** The 62 exposed regulators do NOT form a single interconnected physical module. Instead, they constitute a **distributed methylation-responsive regulatory layer** with strong internal structure organized by coordination type rather than genomic position. Two antagonistic expression programs (activation and repression) operate within this layer, and TCS pairs are invariably split between exposed and shielded members, suggesting a differential amplification mechanism.
+**Key conclusion:** The 57 exposed regulators do NOT form a single interconnected physical module. Instead, they constitute a **distributed methylation-responsive regulatory layer** with strong internal structure organized by coordination type rather than genomic position. Two antagonistic expression programs (activation and repression) operate within this layer, and TCS pairs are invariably split between exposed and shielded members, suggesting a differential amplification mechanism.
 
 ---
 
@@ -227,11 +227,11 @@ The hypothesis that the 62 exposed TFs form a self-regulatory module is **partia
 ### Figures
 | File | Description |
 |------|-------------|
-| `figures/genomic_distribution.pdf/svg` | Chromosome map with 62 TFs, clusters, permutation test |
+| `figures/genomic_distribution.pdf/svg` | Chromosome map with 57 TFs, clusters, permutation test |
 | `figures/coexpression_heatmap.pdf/svg` | 62x62 Spearman correlation matrix with dendrogram |
 | `figures/coordination_type_analysis.pdf/svg` | Coordination type distribution and coherence |
 | `figures/TCS_pairs.pdf/svg` | 7 TCS pairs expression and methylation analysis |
-| `figures/expression_heatmap.pdf/svg` | 62 TFs x 9 samples Z-scored heatmap |
+| `figures/expression_heatmap.pdf/svg` | 57 TFs x 9 samples Z-scored heatmap |
 | `figures/H32_comprehensive_summary.pdf/svg` | Multi-panel summary |
 
 ### Tables
@@ -251,11 +251,11 @@ The hypothesis that the 62 exposed TFs form a self-regulatory module is **partia
 
 | Hypothesis | Relationship |
 |------------|-------------|
-| **H6** (Genome-wide TF screen) | Identified the 62 coordinated regulatory genes analyzed here |
+| **H6** (Genome-wide TF screen) | Identified the 57 coordinated regulatory genes analyzed here |
 | **H8** (Coordinated regulators characterization) | Identified 7 TCS pairs with asymmetric methylation; confirmed all 7 are split exposed/shielded |
 | **H25** (TSS methylation gradient) | Established the protection zone model; exposed genes lack this protection |
 | **H27** (Exposed promoter model) | Showed exposed genes are 6.7x closer to methylation, lack protection zones |
 | **H28** (Exposed regulator characteristics) | Showed 100% dynamic expression, low T1 baseline; H32 shows this dynamic behavior splits into activation and repression programs |
 | **H29** (Shielded/exposed boundary) | Defined the 293bp boundary; H32 shows the exposed class is genomically dispersed, not clustered |
 | **H30** (TSS sequence determinants) | Showed DNA sequence contributes ~33% of protection; H32's dispersal pattern is consistent with distributed sequence-level determinants |
-| **Gatekeeper Model v3** | H32 refines Layer 3 (Signal Gating): the 62 exposed genes are not a single module but a distributed regulatory layer with two antagonistic programs. The TCS asymmetry finding strengthens the differential amplification concept |
+| **Gatekeeper Model v3** | H32 refines Layer 3 (Signal Gating): the 57 exposed genes are not a single module but a distributed regulatory layer with two antagonistic programs. The TCS asymmetry finding strengthens the differential amplification concept |

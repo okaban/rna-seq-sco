@@ -6,14 +6,14 @@
 
 ## Background and Rationale
 
-This hypothesis tests the causal pathway from the AAGCCCG methyltransferase (SC_RS17645/SCO3104) to the 62 "exposed" transcription factors, integrating findings from multiple prior analyses:
+This hypothesis tests the causal pathway from the AAGCCCG methyltransferase (SC_RS17645/SCO3104) to the 57 "exposed" transcription factors, integrating findings from multiple prior analyses:
 
 - **H5**: SC_RS17645 expression drops from T1 to T2 (LFC = -2.19), coinciding with AAGCCCG 6mA site loss (260 to 64 sites, 75% loss)
 - **H21**: Genome-wide AAGCCCG temporal de-repression test was completely null (Lost vs Never: p=0.91, r=0.003)
 - **H30**: AAGCCCG **DNA sequence motif** is 5.0x enriched at exposed TF TSS +/-300bp (p=1.1e-08), the strongest sequence discriminator between exposed and shielded regulators
 - **H34**: 63% of exposed TFs are early responders (T1 to T2 transition), precisely when SC_RS17645 expression drops
 
-**The key insight motivating H35**: H21 tested ALL ~800 genes with AAGCCCG loss. If only the 62 exposed TFs (which lack protection zones) are susceptible to AAGCCCG-mediated regulation, the signal would be diluted below detectability. This hypothesis restricts the test to exposed TFs only.
+**The key insight motivating H35**: H21 tested ALL ~800 genes with AAGCCCG loss. If only the 57 exposed TFs (which lack protection zones) are susceptible to AAGCCCG-mediated regulation, the signal would be diluted below detectability. This hypothesis restricts the test to exposed TFs only.
 
 ## Critical Methodological Discovery
 
@@ -23,14 +23,14 @@ A fundamental distinction emerged immediately in the analysis:
 |---------|-------------|-------------|
 | What was measured | AAGCCCG **DNA sequence** occurrence | AAGCCCG **methylated sites** |
 | Window | +/-300bp of TSS | +/-500bp of TSS |
-| Exposed TFs with hits | ~16/62 (25.8%) | **2/62 (3.2%)** |
+| Exposed TFs with hits | ~16/57 (25.8%) | **2/57 (3.2%)** |
 | Enrichment | 5.0x (p=1.1e-08) | N/A (too few for enrichment test) |
 
 **The AAGCCCG sequence motif is enriched near exposed TFs, but the vast majority of these motif instances are NOT methylated.** Of the ~1,334 AAGCCCG motif occurrences genome-wide, only 260 are methylated at T1 (19.5%). This means the sequence enrichment (H30) does not translate into a proportional methylation enrichment, severely limiting the statistical power of the causal test.
 
 ## Results
 
-### 1. AAGCCCG Methylated Site Mapping (62 Exposed TFs)
+### 1. AAGCCCG Methylated Site Mapping (57 Exposed TFs)
 
 | AAGCCCG Status | n TFs | % | Window |
 |---------------|-------|---|--------|
@@ -120,7 +120,7 @@ The T2 to T3 comparison shows the most suggestive signal: Lost TFs show median +
 | All genes (genome-wide) | 162 | 7,431 | -0.004 | 0.610 | 0.023 |
 | All regulatory (1,017) | 15 | 996 | +0.420 | 0.327 | -0.147 |
 | Shielded only (955) | 13 | 936 | +0.464 | 0.152 | -0.231 |
-| **Exposed only (62)** | **2** | **60** | **-1.144** | **0.402** | **0.383** |
+| **Exposed only (57)** | **2** | **60** | **-1.144** | **0.402** | **0.383** |
 
 The progressive restriction from genome-wide to regulatory-only shows a suggestive trend: shielded regulatory genes show a weak non-significant upregulation of Lost TFs (median diff +0.464, p=0.152, r=-0.231). This is interesting because the 13 Lost shielded regulators show the predicted de-repression direction, in contrast to the exposed result where the Lost direction is reversed. However, the exposed group's result is dominated by n=2 and is not interpretable.
 
@@ -147,7 +147,7 @@ The hypothesis assumed that sequence enrichment would translate to methylation e
 
 ### What the data do show
 
-1. **No evidence for AAGCCCG methylation as a direct causal mechanism for exposed TF regulation** -- with only 2/62 exposed TFs having methylated AAGCCCG near their TSS, methylation cannot be the proximate cause of expression changes in the majority of exposed TFs.
+1. **No evidence for AAGCCCG methylation as a direct causal mechanism for exposed TF regulation** -- with only 2/57 exposed TFs having methylated AAGCCCG near their TSS, methylation cannot be the proximate cause of expression changes in the majority of exposed TFs.
 
 2. **The AAGCCCG sequence motif enrichment (H30) is a structural/evolutionary property** -- it indicates that exposed TF promoters have sequence features compatible with methyltransferase access, but this does not mean they are actively methylated.
 
@@ -170,12 +170,12 @@ The hypothesis assumed that sequence enrichment would translate to methylation e
 
 The causal pathway hypothesis from SC_RS17645 to exposed TFs via AAGCCCG methylation is effectively untestable with the available data because:
 
-1. Only 2/62 exposed TFs have methylated AAGCCCG sites near their TSS (3.2%), making any statistical test severely underpowered
+1. Only 2/57 exposed TFs have methylated AAGCCCG sites near their TSS (3.2%), making any statistical test severely underpowered
 2. The direction of the 2-gene result is opposite to prediction (Lost TFs show repression, not de-repression)
 3. The H30 sequence enrichment finding does not translate to methylation enrichment
 4. Bootstrap confidence intervals include zero for all T2vsT1 comparisons
 
-**This negative result is itself informative**: it establishes that AAGCCCG 6mA methylation is NOT the proximate mechanism by which the 62 exposed TFs are regulated, despite the strong sequence motif enrichment. The exposed TF response must be mediated by a different mechanism -- potentially the AAGCCCG sequence motif itself (as a TF binding site feature rather than a methylation substrate), or a broader chromatin/protein occupancy change that correlates with but is not caused by methylation.
+**This negative result is itself informative**: it establishes that AAGCCCG 6mA methylation is NOT the proximate mechanism by which the 57 exposed TFs are regulated, despite the strong sequence motif enrichment. The exposed TF response must be mediated by a different mechanism -- potentially the AAGCCCG sequence motif itself (as a TF binding site feature rather than a methylation substrate), or a broader chromatin/protein occupancy change that correlates with but is not caused by methylation.
 
 ## Output Files
 
@@ -202,8 +202,8 @@ The causal pathway hypothesis from SC_RS17645 to exposed TFs via AAGCCCG methyla
 
 | Metric | Value |
 |--------|-------|
-| Exposed TFs with methylated AAGCCCG (500bp) | 2/62 (3.2%) |
-| Exposed TFs with AAGCCCG sequence motif (300bp, H30) | ~16/62 (25.8%) |
+| Exposed TFs with methylated AAGCCCG (500bp) | 2/57 (3.2%) |
+| Exposed TFs with AAGCCCG sequence motif (300bp, H30) | ~16/57 (25.8%) |
 | Lost vs Never LFC T2vsT1 p-value | 0.402 |
 | Lost vs Never rank-biserial r | 0.383 (wrong direction) |
 | Lost vs Never Cohen's d | -0.603 (wrong direction) |

@@ -403,7 +403,7 @@ METHYL-FREE ZONE:                    │      │     ├────┤    │
 | メチル化を持つ遺伝子数 | 158 |
 | うちBGC遺伝子 | 2 (cdaV: 4mC, cdaK: 6mA) |
 | AAGCCCG motif in SARP zone | 42 genes (BGC: 0) |
-| CCGG motif in SARP zone | 3,962 genes (BGC: 48) |
+| CCGG motif in SARP zone | 3,957 genes (BGC: 48) |
 
 ### 6c.2 SARP motif – メチル化モチーフ共存
 

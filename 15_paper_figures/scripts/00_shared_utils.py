@@ -36,22 +36,37 @@ FIG_DIR = BASE / '15_paper_figures' / 'figures' / 'main'
 FIG_SUP_DIR = BASE / '15_paper_figures' / 'figures' / 'supplementary'
 TABLE_SUP_DIR = BASE / '15_paper_figures' / 'tables' / 'supplementary'
 
-# ── Colors ──────────────────────────────────────────────────────────────────
-COL_4mC = '#C26B6B'  # muted rose (Tol-like)
-COL_6mA = '#4477AA'  # muted blue (Tol)
-COL_BOTH = '#7E57C2'
-COL_GRAY = '#BBBBBB'  # neutral grey
-COL_DARK = '#37474F'
-COL_GREEN = '#43A047'
-COL_ORANGE = '#FB8C00'
+# ── Colors — UNIFIED PALETTE "Rich & Calm" (approved 2026-07) ────────────────
+# One hex per semantic role across ALL main + supplementary figures.
+#   4mC (4mC) = rich muted red, 6mA = rich muted blue, dual = purple.
+#   Bars use a grayscale ramp keyed to SuppFig15 (author's hand-made reference).
+#   Motif sequence-logo colours (MOTIF_COLORS) are intentionally left colourful.
+COL_4mC = '#A64B44'   # rich muted red  — 4mC modification mark
+COL_6mA = '#3A6B8C'   # rich muted blue — 6mA modification mark
+COL_BOTH = '#6E5495'  # muted purple    — dual 4mC+6mA co-modification
+COL_DUAL = COL_BOTH   # alias
 
-# Gatekeeper model colors
-COL_ACTIVATION = '#43A047'    # Green — activation bloc
-COL_REPRESSION = '#FB8C00'    # Orange — repression bloc
-COL_EXPOSED = '#7E57C2'       # Purple — exposed TFs
-COL_SHIELDED = '#B0BEC5'      # Gray — shielded TFs
-COL_ARTIFACT = '#FFB74D'      # Light orange — Simpson's artifact
-COL_SIGNAL = '#1565C0'        # Blue — genuine signal
+# Grayscale bar ramp (SuppFig15 reference: bar #293039, grid #EAEAEA)
+COL_BAR_DARK = '#293039'   # T3 / late / single-category bars
+COL_BAR_MID = '#6B7783'    # T2 / mid
+COL_BAR_LIGHT = '#AAB3BB'  # T1 / early
+COL_GRID = '#EAEAEA'       # gridlines
+BAR_RAMP = [COL_BAR_LIGHT, COL_BAR_MID, COL_BAR_DARK]  # T1→T2→T3
+
+COL_GRAY = '#9AA7B0'  # neutral grey (Shielded / unassigned)
+COL_DARK = '#22282E'  # axis / text near-black
+COL_GREEN = '#3E7256'   # deep muted green — activation / core
+COL_ORANGE = '#C0803A'  # calm amber — repression / arm
+
+# Gatekeeper / categorical accents (muted, deduplicated)
+COL_ACTIVATION = '#3E7256'    # deep muted green — activation bloc / core
+COL_REPRESSION = '#C0803A'    # calm amber — repression bloc / arm
+COL_CORE = '#3E7256'          # chromosomal core (= activation)
+COL_ARM = '#C0803A'           # chromosomal arm (= repression)
+COL_EXPOSED = '#8A5A82'       # muted plum — exposed TFs (distinct from dual)
+COL_SHIELDED = '#9AA7B0'      # neutral grey — shielded TFs
+COL_ARTIFACT = '#C0803A'      # amber — Simpson's artifact (= repression tone)
+COL_SIGNAL = '#3A6B8C'        # blue — genuine signal (= 6mA tone)
 
 # ── Timepoint labels ────────────────────────────────────────────────────
 TP_LABELS = ['T1 (12 h)', 'T2 (24 h)', 'T3 (50 h)']
@@ -96,10 +111,106 @@ def apply_style():
     warnings.filterwarnings('ignore', category=UserWarning, module='matplotlib')
 
 
-def add_panel_label(ax, label, x=-0.12, y=1.08, fontsize=14):
-    """Add bold panel label (a, b, c, ...) to axes."""
-    ax.text(x, y, label, transform=ax.transAxes,
-            fontsize=fontsize, fontweight='bold', va='top', ha='left')
+# ── Unified role-based font ladder (NAR full-width 6.85") ─────────────────────
+# One size per role across ALL figures, so panels read consistently at 174 mm.
+FONT = {
+    'panel_title': 8,    # ax.set_title
+    'axis_label': 7.5,   # ax.set_xlabel / set_ylabel
+    'tick': 7,           # tick labels
+    'legend': 6.5,       # legend entries
+    'annot': 6.5,        # in-panel annotations / stat text
+    'panel_letter': 14,  # a b c d (bold, top-left)
+}
+
+# rcParams flavour of the ladder — apply per script for the compressed panels.
+STYLE_UNIFIED = {
+    'font.family': 'Arial',
+    'font.size': FONT['annot'],
+    'axes.titlesize': FONT['panel_title'],
+    'axes.labelsize': FONT['axis_label'],
+    'xtick.labelsize': FONT['tick'],
+    'ytick.labelsize': FONT['tick'],
+    'legend.fontsize': FONT['legend'],
+    'axes.spines.top': False,
+    'axes.spines.right': False,
+    'axes.edgecolor': COL_DARK,
+    'axes.labelcolor': COL_DARK,
+    'text.color': COL_DARK,
+    'xtick.color': COL_DARK,
+    'ytick.color': COL_DARK,
+    'grid.color': COL_GRID,
+    'grid.linewidth': 0.5,
+    'figure.dpi': 300,
+    'savefig.dpi': 300,
+    'pdf.fonttype': 42,
+    'ps.fonttype': 42,
+    'svg.fonttype': 'none',
+}
+
+
+def apply_unified_style():
+    """Apply the unified role-based font ladder + palette-consistent axis colours.
+
+    Use in place of apply_style() for figures being brought to the unified
+    2026-07 style (rich/calm palette, grayscale bars, lowercase panel letters).
+    Font sizes are sized for NAR full-width (174 mm) compressed panels.
+    """
+    plt.rcParams.update(STYLE_UNIFIED)
+    warnings.filterwarnings('ignore', category=UserWarning, module='matplotlib')
+
+
+def style_axes(ax, grid=False, grid_axis='both'):
+    """Normalise a single Axes to the unified look: hide top/right spines,
+    colour the remaining spines/ticks near-black, optional light gridlines."""
+    for side in ('top', 'right'):
+        ax.spines[side].set_visible(False)
+    for side in ('left', 'bottom'):
+        ax.spines[side].set_edgecolor(COL_DARK)
+        ax.spines[side].set_linewidth(0.8)
+    ax.tick_params(colors=COL_DARK, labelcolor=COL_DARK)
+    if grid:
+        ax.grid(True, axis=grid_axis, color=COL_GRID, linewidth=0.5, zorder=0)
+        ax.set_axisbelow(True)
+    return ax
+
+
+def add_panel_label(ax, label, dx=-26, dy=12, fontsize=13, lower=True,
+                    x=None, y=None):
+    """Add a bold panel label (a, b, c, ...) at a UNIFORM visual position.
+
+    The label is anchored to the axes' top-left CORNER and offset by a constant
+    number of typographic points (dx, dy), so every panel across every figure
+    gets an identically-sized, identically-placed letter regardless of how wide
+    that panel's y-axis label/tick text happens to be. This is the fix for the
+    previous per-panel `x`/`y` axes-fraction overrides, which made the letters
+    drift and appear different sizes. NAR convention is lowercase (matches the
+    figure legends' "(a) ... (b) ..."), so `lower=True` by default.
+    (x, y kwargs are accepted for backward-compatibility but ignored.)
+    """
+    lab = label.lower() if lower else label.upper()
+    # Anchor in the figure's OUTER margin at the panel's top-left, so the letter
+    # clears the y-axis label/ticks no matter how wide they are, and lands in the
+    # same visual spot for every panel. We use the axes' tightbbox (includes the
+    # y-label) left edge, then place the letter a small constant gap to its left
+    # and at the axes' top. Falls back to an axes-fraction offset if the renderer
+    # can't supply a tightbbox yet.
+    fig = ax.figure
+    try:
+        fig.canvas.draw()  # ensure a renderer exists for tightbbox
+        rend = fig.canvas.get_renderer()
+        tb = ax.get_tightbbox(rend).transformed(fig.transFigure.inverted())
+        ax_pos = ax.get_position()
+        xf = max(0.002, tb.x0 - 0.006)      # just left of the widest left-side text
+        # Sit at the axes top, but never below the top of the y-label text, and
+        # add a small constant lift so the letter clears a tall wrapped y-label.
+        yf = max(ax_pos.y1, tb.y1) + 0.012
+        fig.text(xf, yf, lab, fontsize=fontsize, fontweight='bold',
+                 va='bottom', ha='left')
+    except Exception:
+        ax.annotate(lab, xy=(0, 1), xycoords='axes fraction',
+                    xytext=(dx, dy), textcoords='offset points',
+                    fontsize=fontsize, fontweight='bold', va='bottom', ha='left',
+                    annotation_clip=False)
 
 
 # ── NAR figure width limits (mm → inch) ──────────────────────────────────────

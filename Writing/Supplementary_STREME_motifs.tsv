@@ -1,0 +1,12 @@
+analysis	motif_rank	consensus	width	e_value	n_sites	fraction_input	strand	interpretation	note
+unassigned_6mA_T1	1	CGGCGACGRCGA	12	3.0e-03	353	0.236	+/-	Novel candidate — no REBASE match; requires experimental validation	GC-rich; weakest E-value among reported motifs; positions distributed broadly across ±45 bp window (no centred peak at methylated A)
+unassigned_6mA_T1	2	CAAGCCCGCCV	11	1.4e-02	118	0.079	+/-	Residual AAGCCCG — assignment window ±3 bp leakage	Site distribution sharply peaks at positions 41–49 of the 91-bp window, consistent with off-centre AAGCCCG hits not captured by exact ±3 bp assignment
+unassigned_6mA_T1	3	CTGCTCGCC	9	2.2e-02	542	0.362	+/-	Degenerate / low-complexity — likely false positive	Short, GC-skewed; flat site distribution; no biological match
+unassigned_6mA_T1	4	CGCCCYCRCC	10	3.0e-02	372	0.248	+/-	Low-complexity GC-rich repeat — likely background	Heavily C/G-biased; consistent with S. coelicolor 72% GC genome background; no REBASE match
+unassigned_6mA_T1	5	CCSGGTTSCYG	11	9.1e-02	128	0.086	+/-	Marginal (E > 0.05) — not significant	Sharp peak at positions 45–47; small site count; E-value above conventional 0.05 threshold
+4mC_residual_(non-GCCGGC)	1	SAAGCCCGNSVV	12	1.4e-22	640	0.992	+/-	AAGCCCG cross-modification call — 4mC SMRT signal in 6mA motif context	Almost every residual 4mC site lies in AAGCCCG context; suggests cross-modification calls or SMRT IPD overlap rather than a genuine 4mC recognition sequence
+4mC_residual_(non-GCCGGC)	2	ACCGACT	7	2.0e+00	15	0.023	+/-	Not significant — random match	E-value above 0.05 threshold
+4mC_residual_(non-GCCGGC)	3	ACGTCCAG	8	2.0e+00	8	0.012	+/-	Not significant — random match	E-value above 0.05 threshold
+4mC_residual_(non-GCCGGC)	4	GAACWGSGC	9	4.0e+00	7	0.011	+/-	Not significant — random match	STREME stopped: 3 consecutive motifs with p > 0.05
+4mC_GCCGGC_assigned	NA	GCCGGC	6	NA	NA	NA	+/-	Analysis not performed — recognition sequence is known (M.SCO6361 / GCCGGC)	No de novo motif discovery run on GCCGGC-containing 4mC sites; canonical motif assigned by direct sequence matching
+4mC_AAGCCCG_assigned	NA	AAGCCCG	7	NA	NA	NA	+/-	Analysis not performed — recognition sequence is known (M.SCO1731 / AAGCCCG; primarily 6mA but cross-detected as 4mC)	No de novo motif discovery run on AAGCCCG-containing 4mC sites; sites assigned by direct sequence matching

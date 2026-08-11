@@ -28,9 +28,9 @@ import logomaker
 # ── Unified colour-blind-safe palette (Okabe-Ito) ────────────────────────
 # Override shared-utils shades locally for this figure only, so that
 # 4mC / 6mA / genome are consistent across panels a, b, c.
-COL_4mC = '#C26B6B'   # muted rose — canonical (matches Fig7/Fig9 + shared_utils)
-COL_6mA = '#4477AA'   # muted blue — canonical
-COL_GRAY = '#999999'  # neutral grey (Okabe-Ito) — genome/baseline series
+COL_4mC = '#A64B44'   # unified rich muted red — 4mC (matches all figs + shared_utils)
+COL_6mA = '#3A6B8C'   # unified rich muted blue — 6mA
+COL_GRAY = '#9AA7B0'  # unified neutral grey — genome/baseline series
 
 # ── Genome landmarks ─────────────────────────────────────────────────────
 GENOME_LEN = 8_667_507
@@ -39,8 +39,8 @@ ARM_RIGHT = 7_167_507
 ORIC_POS = 4_270_777       # dnaA (SC_RS21540)
 TIR_LEN = 21_653           # Terminal Inverted Repeat
 
-COL_CORE = '#88CCEE'       # muted cyan (Tol)
-COL_ARM = '#DDCC77'        # muted sand (Tol)
+COL_CORE = '#3E7256'       # unified deep muted green — chromosomal core (bands drawn translucent)
+COL_ARM = '#C0803A'        # unified calm amber — chromosomal arm
 
 
 def panel_a_linear(ax):
@@ -125,7 +125,7 @@ def panel_a_linear(ax):
                 fontsize=8, fontweight='bold')
         ax.text(-0.4, y - 0.15,
                 f'4mC: {n_4mc:,}  6mA: {n_6ma:,}',
-                ha='right', va='center', fontsize=6.5, color='#666')
+                ha='right', va='center', fontsize=6.5, color='#555B61')
 
     # ── Genome landmarks ──
     # Arm/core boundaries
@@ -133,12 +133,16 @@ def panel_a_linear(ax):
         ax.axvline(bnd / 1e6, color='gray', linestyle=':', linewidth=0.5,
                    ymin=0.02, ymax=0.98)
 
-    # oriC marker
-    ax.axvline(ORIC_POS / 1e6, color='#2E7D32', linestyle='-', linewidth=1.2,
-               ymin=0.02, ymax=0.98, alpha=0.7)
+    # oriC marker (recoloured grey/black per reviewer C4 — reduce palette;
+    # colour is reserved for the 4mC/6mA data series only)
+    ax.axvline(ORIC_POS / 1e6, color='#333333', linestyle='-', linewidth=1.2,
+               ymin=0.02, ymax=0.98, alpha=0.8)
+    # White bbox so the oriC line does not strike through the letters.
     ax.text(ORIC_POS / 1e6, y_positions[0] + bar_h + chrom_h / 2 + 0.25,
             'oriC', ha='center', va='bottom', fontsize=7,
-            fontweight='bold', color='#2E7D32')
+            fontweight='bold', color='#333333',
+            bbox=dict(boxstyle='round,pad=0.15', facecolor='white',
+                      edgecolor='none', alpha=0.85))
 
     # TIR markers
     for tir_start, tir_end, label in [
@@ -159,15 +163,33 @@ def panel_a_linear(ax):
             'TIR', ha='center', va='bottom', fontsize=6, color='#E65100',
             fontstyle='italic')
 
-    # Region labels at bottom
+    # Region labels at bottom (reviewer R2-08). "Core" is centred on the TRUE
+    # core-span midpoint (~4.33 Mb) so it sits symmetrically between the two
+    # arm/core boundaries. Because that midpoint is ~under the oriC line
+    # (4.27 Mb), a white bbox (as on the oriC label) keeps the line from
+    # striking through the word rather than shifting the label off-centre.
+    CORE_MID = (ARM_LEFT + ARM_RIGHT) / 2 / 1e6
     ax.text(ARM_LEFT / 2 / 1e6, -0.3, 'Left arm', ha='center', va='center',
             fontsize=7, color=COL_ARM, fontstyle='italic')
-    ax.text((ARM_LEFT + ARM_RIGHT) / 2 / 1e6, -0.3, 'Core',
+    ax.text(CORE_MID, -0.3, 'Core',
             ha='center', va='center', fontsize=7, color=COL_CORE,
-            fontstyle='italic')
+            fontstyle='italic',
+            bbox=dict(boxstyle='square,pad=0.1', facecolor='white',
+                      edgecolor='none', alpha=0.9))
     ax.text((ARM_RIGHT + GENOME_LEN) / 2 / 1e6, -0.3, 'Right arm',
             ha='center', va='center', fontsize=7, color=COL_ARM,
             fontstyle='italic')
+
+    # Numeric core/arm boundary definition on-panel (reviewer C4): the core
+    # spans the two dotted arm/core boundaries; state the coordinates so the
+    # definition is legible without the legend. Placed under the (left-shifted)
+    # "Core" label so it clears the oriC line at ~4.27 Mb.
+    ax.text(CORE_MID, -0.46,
+            f'core {ARM_LEFT/1e6:.2f}\u2013{ARM_RIGHT/1e6:.2f} Mb',
+            ha='center', va='center', fontsize=6, color=COL_CORE,
+            fontstyle='italic',
+            bbox=dict(boxstyle='square,pad=0.1', facecolor='white',
+                      edgecolor='none', alpha=0.9))
 
     # Coordinate axis (Mb)
     ax.set_xlim(-0.5, genome_mb + 0.5)
@@ -227,8 +249,10 @@ def panel_b_site_counts(ax):
     ax.set_xticklabels(TP_LABELS_NL)
     ax.set_ylabel('HC methylation sites')
     ax.set_title('Site counts by timepoint', fontsize=11, fontweight='bold')
-    ax.legend(fontsize=8, frameon=False, loc='upper right')
-    ax.set_ylim(0, max(counts_4mc.max(), counts_6ma.max()) * 1.2)
+    # Legend at upper-left: the tall T2/T3 bars and their value labels occupy the
+    # upper-right, so an upper-right legend collided with the '2,446'/'2,295' labels.
+    ax.legend(fontsize=8, frameon=False, loc='upper left')
+    ax.set_ylim(0, max(counts_4mc.max(), counts_6ma.max()) * 1.28)
     ax.grid(axis='y', alpha=0.3, lw=0.5)
 
     # E9: "Unique position" annotation removed from panel B
@@ -352,19 +376,24 @@ def panel_c_genomic_distribution(ax, ax_inset=None):
         for j in range(4):
             val = cat_data[j]
             if val > 1.5 and j != 2:
-                ax.text(x[j] + offsets[i], val + 0.8,
+                ax.text(x[j] + offsets[i], val + 0.4,
                         f'{val:.1f}', ha='center', va='bottom',
                         fontsize=5.5)
 
-    # Significance markers (above each bar pair)
+    # Significance markers (C5 fix): anchor every marker in a region to a common
+    # ceiling above the TALLEST bar of that region, so a marker over a short bar
+    # (e.g. 4mC Intergenic = 5.8) no longer lands at the height of a taller
+    # neighbour's value label (e.g. 6mA Intergenic = 10.7). 4mC and 6mA markers
+    # stay at their own x but share the region ceiling height.
     bar_x_map = {'4mC': x - width, '6mA': x}
-    y_max = max(max(results['4mC']), max(results['6mA'])) + 3
+    region_ceiling = {
+        j: max(results['4mC'][j], results['6mA'][j], results['Genome'][j])
+        for j in range(4)
+    }
     for (mod_type, j), (direction, marker) in sig_markers.items():
         bx = bar_x_map[mod_type][j]
-        bar_top = results[mod_type][j] + 1.5
         color = COL_4mC if mod_type == '4mC' else COL_6mA
-        # E10: offset increased (was +1.0) to avoid overlap with numeric value labels
-        ax.text(bx, bar_top + 3.5, f'{direction}{marker}',
+        ax.text(bx, region_ceiling[j] + 2.5, f'{direction}{marker}',
                 ha='center', va='bottom', fontsize=7,
                 color=color, fontweight='bold')
 
@@ -374,8 +403,14 @@ def panel_c_genomic_distribution(ax, ax_inset=None):
     # Explicit headroom so ▲▼ markers stay inside the axes (no spill below).
     ax.set_ylim(0, max(max(results['4mC']), max(results['6mA']),
                        max(results['Genome'])) * 1.15)
-    ax.set_title('Genomic region distribution', fontsize=11, fontweight='bold')
-    ax.legend(fontsize=7.5, frameon=False, loc='upper right')
+    ax.set_title('Genomic region distribution', fontsize=11, fontweight='bold',
+                 pad=8)
+    # Only the CDS bar is tall (~85%); promoter/5′UTR/intergenic bars are short,
+    # so the upper-left interior is empty. Put the colour key there — clear of
+    # the bars, the title, and the ▲▼ significance markers.
+    ax.legend(fontsize=7, frameon=False, loc='upper left',
+              bbox_to_anchor=(0.0, 0.98), handletextpad=0.4,
+              labelspacing=0.3)
     ax.grid(axis='y', alpha=0.3, lw=0.5)
     # (▲/▼ significance-test explanation moved to the figure legend, 2026-06-16,
     #  per reviewer: figures should not carry explanatory text directly.)
@@ -459,7 +494,7 @@ def panel_d_logos(ax_top, ax_bot):
     m4 = motifs_4mc['MEME-1']
     ax_top.set_title(
         f'4mC: {m4["name"]}  (n={m4["nsites"]:,}, E={m4["evalue"]})',
-        fontsize=8, fontweight='bold', color=COL_4mC)
+        fontsize=8, fontweight='bold', color='black')
     ax_top.set_ylim(0, 2.2)
     ax_top.set_xlim(-0.5, m4['width'] - 0.5)
     ax_top.set_xticklabels([])  # Hide x-axis labels on top logo
@@ -473,7 +508,7 @@ def panel_d_logos(ax_top, ax_bot):
     m6 = motifs_6ma['MEME-1']
     ax_bot.set_title(
         f'6mA: {m6["name"]}  (n={m6["nsites"]:,}, E={m6["evalue"]})',
-        fontsize=8, fontweight='bold', color=COL_6mA)
+        fontsize=8, fontweight='bold', color='black')
     ax_bot.set_ylim(0, 2.2)
     ax_bot.set_xlim(-0.5, m6['width'] - 0.5)
 
@@ -489,13 +524,14 @@ def main():
     fig = plt.figure(figsize=(mm_to_inch(174), mm_to_inch(250)))
 
     # Panel A: Linear genome (top, full width)
-    ax_a = fig.add_axes([0.12, 0.62, 0.85, 0.34])
+    ax_a = fig.add_axes([0.17, 0.65, 0.80, 0.31])
 
-    # Panel B: Site counts (middle left)
-    ax_b = fig.add_axes([0.10, 0.36, 0.37, 0.21])
+    # Panel B: Site counts (middle left). Lowered so panel A's x-axis label
+    # ("Chromosome position (Mb)") clears the panel-B/C titles and the "c" label.
+    ax_b = fig.add_axes([0.10, 0.35, 0.37, 0.19])
 
     # Panel C: Genomic distribution (middle right)
-    ax_c = fig.add_axes([0.58, 0.36, 0.38, 0.21])
+    ax_c = fig.add_axes([0.58, 0.35, 0.38, 0.19])
 
     # Panel D: Logos (bottom, two sub-axes).
     # Extra vertical gap below panel B/C (0.36 → 0.205) keeps panel C's
@@ -522,6 +558,14 @@ def main():
     # Save (PNG added for manuscript slot / proofing alongside PDF+SVG)
     out_path = FIG_DIR / 'new_Figure1_methylation_landscape'
     save_figure(fig, out_path, formats=('pdf', 'svg', 'png'))
+
+    # sync into the Obsidian manuscript slot (Figure1.png) — the script previously
+    # left this slot stale (7.14" old version), so add an explicit copy.
+    import shutil
+    slot = Path.home() / 'obsidian' / 'Research' / 'rna-seq' / 'Writing' / 'fig_images' / 'Figure1.png'
+    if slot.parent.is_dir():
+        shutil.copyfile(out_path.with_suffix('.png'), slot)
+        print(f'  Synced → {slot}')
 
     print('\n=== New Figure 1 complete ===')
 

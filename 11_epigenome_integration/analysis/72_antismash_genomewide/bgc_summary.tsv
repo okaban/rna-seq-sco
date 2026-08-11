@@ -1,0 +1,30 @@
+region	record	region_number	start	end	length_bp	products	categories	candidate_clusters	contig_edge	n_genes	top_known_acc	top_known_name	top_known_type	top_known_hits
+NC_003888.3_region1	NC_003888.3	1	86693	139654	52961	hglE-KS,T1PKS		1	False	39	BGC0001101.5	leinamycin	NRPS:Type I+PKS:Type I	2
+NC_003888.3_region2	NC_003888.3	2	164130	192008	27878	terpene		2	False	29	BGC0001456.3	isorenieratene	terpene	8
+NC_003888.3_region3	NC_003888.3	3	246525	271084	24559	lanthipeptide-class-i		3	False	24	BGC0002550.2	lobophorin CR4	PKS	2
+NC_003888.3_region4	NC_003888.3	4	493988	552325	58337	NRP-metallophore,NRPS		4	False	47	BGC0000325.5	coelichelin	NRPS:Type I	11
+NC_003888.3_region5	NC_003888.3	5	597850	621488	23638	terpene-precursor		5	False	25				
+NC_003888.3_region6	NC_003888.3	6	791583	801799	10216	RiPP-like		6	False	7	BGC0000518.3	informatipeptin	ribosomal:RiPP:Lanthipeptide	3
+NC_003888.3_region7	NC_003888.3	7	1257624	1298749	41125	T3PKS		7	False	42	BGC0002127.3	flaviolin/1,3,6,8-tetrahydroxynaphthalene	PKS	3
+NC_003888.3_region8	NC_003888.3	8	1995499	2005898	10399	ectoine		8	False	11	BGC0000853.3	ectoine	other:other	4
+NC_003888.3_region9	NC_003888.3	9	2939305	2949875	10570	melanin		9	False	14	BGC0000700.5	istamycin	saccharide	4
+NC_003888.3_region10	NC_003888.3	10	3024894	3054682	29788	NI-siderophore		10	False	26	BGC0000940.5	desferrioxamin B/desferrioxamine E	other:other	6
+NC_003888.3_region11	NC_003888.3	11	3523334	3603988	80654	NRPS		11	False	38	BGC0000315.5	CDA1b/CDA2a/CDA2b/CDA3a/CDA3b/CDA4a/CDA4b	NRPS:Type I	35
+NC_003888.3_region12	NC_003888.3	12	5494929	5567424	72495	T2PKS		12	False	65	BGC0000194.5	actinorhodin	PKS:Type II aromatic	22
+NC_003888.3_region13	NC_003888.3	13	5671087	5692101	21014	terpene		13	False	21	BGC0000660.5	albaflavenone	terpene	2
+NC_003888.3_region14	NC_003888.3	14	5701115	5722276	21161	terpene-precursor		14	False	24	BGC0000262.5	prejadomycin/rabelomycin/gaudimycin C/gaudimycin D/UWM6/gaudimycin A	PKS:Type II+saccharide:hybrid/tailoring	3
+NC_003888.3_region15	NC_003888.3	15	5751944	5824487	72543	T2PKS		15	False	73	BGC0000271.5	spore pigment	PKS	8
+NC_003888.3_region16	NC_003888.3	16	6326586	6356533	29947	NI-siderophore		16	False	25	BGC0000236.5	kinamycin	PKS	7
+NC_003888.3_region17	NC_003888.3	17	6423649	6476442	52793	prodigiosin,NRPS-like,T1PKS		17	False	44	BGC0001063.5	undecylprodigiosin	NRPS:Type I+PKS	22
+NC_003888.3_region18	NC_003888.3	18	6632342	6643659	11317	RiPP-like		18	False	11	BGC0002788.2	14-hydroxyisochainin	PKS:Modular type I	5
+NC_003888.3_region19	NC_003888.3	19	6656218	6678399	22181	terpene		19	False	18	BGC0001181.4	geosmin	terpene:Sesquiterpene	1
+NC_003888.3_region20	NC_003888.3	20	6833314	6864522	31208	NI-siderophore		20	False	23	BGC0000341.5	enduracidin A/enduracidin B	NRPS:Type I	5
+NC_003888.3_region21	NC_003888.3	21	6880897	6956537	75640	T1PKS,butyrolactone,hydrogen-cyanide		21,22,23,24	False	38	BGC0000038.5	coelimycin P1	PKS:Type I	25
+NC_003888.3_region22	NC_003888.3	22	7088263	7142447	54184	thioamide-NRP,NRPS		25	False	41	BGC0000249.5	nogalamycin	PKS	4
+NC_003888.3_region23	NC_003888.3	23	7409741	7432456	22715	lanthipeptide-class-iii		26	False	19	BGC0000551.5	SapB	ribosomal:RiPP:Lanthipeptide	4
+NC_003888.3_region24	NC_003888.3	24	7506016	7532758	26742	terpene		27	False	26	BGC0000663.5	hopene	terpene	13
+NC_003888.3_region25	NC_003888.3	25	7570411	7618555	48144	PKS-like,T1PKS		28,29,30	False	37	BGC0001283.3	Bisenarsan	PKS:Type I	25
+NC_003888.3_region26	NC_003888.3	26	7682906	7709360	26454	lanthipeptide-class-i		31	False	27				
+NC_003888.3_region27	NC_003888.3	27	7973469	8047475	74006	other,T3PKS		32,33,34	False	64	BGC0001454.5	germicidin	other:other	1
+NC_003888.3_region28	NC_003888.3	28	8269636	8290764	21128	indole		35	False	24	BGC0002128.3	5-dimethylallylindole-3-acetonitrile	other:other	9
+NC_003888.3_region29	NC_003888.3	29	8475101	8549581	74480	T3PKS,NRP-metallophore,NRPS,terpene		36,37,38,39	False	65	BGC0000324.5	coelibactin	NRPS:Type I	11

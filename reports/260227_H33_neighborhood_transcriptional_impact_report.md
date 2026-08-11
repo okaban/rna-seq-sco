@@ -8,14 +8,14 @@
 
 ## Background
 
-62 "exposed" regulatory genes lack methylation protection zones and show methylation-expression coordination (H27). H31 demonstrated that their downstream regulons cannot be directly mapped via FIMO binding motifs. In *Streptomyces*, regulatory genes often co-localize with their target genes (pathway-specific regulators near BGC clusters, local regulators near operons). This analysis tests whether genes in the genomic neighborhood of exposed TFs show expression changes correlated with the TF's methylation coordination type, providing indirect evidence for local regulatory activity.
+57 "exposed" regulatory genes lack methylation protection zones and show methylation-expression coordination (H27). H31 demonstrated that their downstream regulons cannot be directly mapped via FIMO binding motifs. In *Streptomyces*, regulatory genes often co-localize with their target genes (pathway-specific regulators near BGC clusters, local regulators near operons). This analysis tests whether genes in the genomic neighborhood of exposed TFs show expression changes correlated with the TF's methylation coordination type, providing indirect evidence for local regulatory activity.
 
 ## Methods
 
 ### Data sources
 - Gene annotation: 8,275 genes from `gene_annotation_basic.tsv`
-- 62 exposed TFs from `exposed_regulators_full_table.tsv`
-- 1,017 regulatory genes (955 shielded + 62 exposed) from `all_genes_features.tsv`
+- 57 exposed TFs from `exposed_regulators_full_table.tsv`
+- 1,017 regulatory genes (955 shielded + 57 exposed) from `all_genes_features.tsv`
 - DESeq2 differential expression: T2vsT1, T3vsT1, T3vsT2 (7,646 genes with expression data)
 - Coordination types from `coordinated_regulatory_genes.tsv`
 - Co-expression modules from `coexpression_modules.tsv`
@@ -25,7 +25,7 @@
 2. Exclude the TF itself and other exposed TFs from neighborhoods
 3. Compare neighborhood expression magnitude (|LFC|), DEG rate, and directional concordance
 4. Controls: 955 shielded TF neighborhoods + genome-wide background (7,258 non-TF genes)
-5. 1,000 permutation tests (random 62-gene sampling)
+5. 1,000 permutation tests (random 57-gene sampling)
 
 ---
 
@@ -58,7 +58,7 @@ DEG rates are remarkably similar between exposed and shielded TF neighborhoods a
 
 - **Overall mean concordance:** 0.599 (exposed) vs 0.556 (shielded)
 - **Mann-Whitney p = 0.191** (not significant)
-- **TFs with significant concordance (binomial p<0.05):** 28/62 (45.2%)
+- **TFs with significant concordance (binomial p<0.05):** 28/57 (45.2%)
 - **Random expectation:** ~50% concordance
 
 **By coordination type (T3):**
@@ -113,7 +113,7 @@ No distance-dependent decay of expression change magnitude is observed for expos
 ### 6. BGC Proximity
 
 - **No exposed TFs** have BGC-related product annotations (none are pathway-specific BGC regulators)
-- 22/62 exposed TFs have >=2 BGC-related neighbor genes within +/-20kb, but these matches are based on broad keyword matching (synthase, synthetase, etc.) and largely reflect general metabolism rather than dedicated BGC proximity
+- 22/57 exposed TFs have >=2 BGC-related neighbor genes within +/-20kb, but these matches are based on broad keyword matching (synthase, synthetase, etc.) and largely reflect general metabolism rather than dedicated BGC proximity
 - Notable: SC_RS03250 (SCO0266) near a lanthipeptide cluster, SC_RS36820 (SCO6924) near lanthionine synthetase genes, SC_RS39260 (SCO7411) near siderophore transporter genes
 
 ### 7. Permutation Test: No Enrichment
@@ -124,7 +124,7 @@ No distance-dependent decay of expression change magnitude is observed for expos
 | Concordance rate | 0.599 | 0.602 | 0.028 | -0.08 | 0.549 |
 | DEG rate T3 | 0.778 | 0.747 | 0.022 | +1.43 | 0.062 |
 
-The 1,000-permutation test confirms that exposed TF neighborhoods are NOT enriched for expression change relative to random 62-gene samples. The DEG rate shows a marginal trend (empirical p=0.062) but is not significant after considering the multiple metrics tested.
+The 1,000-permutation test confirms that exposed TF neighborhoods are NOT enriched for expression change relative to random 57-gene samples. The DEG rate shows a marginal trend (empirical p=0.062) but is not significant after considering the multiple metrics tested.
 
 ---
 
@@ -156,7 +156,7 @@ The one strong positive finding is the directional divergence between activation
 | Activation/repression directional divergence | **New (H33)** |
 | Gene-autonomous methylation response | Supported | H27, H28, H33 |
 
-The exposed TF regulatory mechanism operates through **trans-acting effects on dispersed targets** rather than cis-acting effects on nearby genes. The binding sites and target genes of these 62 regulators remain unknown, likely requiring experimental approaches (ChIP-seq, genetic knockouts) rather than computational prediction.
+The exposed TF regulatory mechanism operates through **trans-acting effects on dispersed targets** rather than cis-acting effects on nearby genes. The binding sites and target genes of these 57 regulators remain unknown, likely requiring experimental approaches (ChIP-seq, genetic knockouts) rather than computational prediction.
 
 ---
 
@@ -165,7 +165,7 @@ The exposed TF regulatory mechanism operates through **trans-acting effects on d
 ### Tables
 | File | Description |
 |------|-------------|
-| `tables/per_TF_neighborhood.tsv` | Per-TF statistics: 62 TFs with neighbor counts, mean |LFC|, concordance rates, distance correlations |
+| `tables/per_TF_neighborhood.tsv` | Per-TF statistics: 57 TFs with neighbor counts, mean |LFC|, concordance rates, distance correlations |
 | `tables/neighborhood_genes.tsv` | All 2,312 TF-neighbor pairs at +/-20kb with expression data |
 | `tables/bloc_comparison.tsv` | 23 product keyword enrichments: activation vs repression bloc neighbors |
 | `tables/statistical_tests.tsv` | All 27 statistical tests with test statistics, p-values, effect sizes |
@@ -178,7 +178,7 @@ The exposed TF regulatory mechanism operates through **trans-acting effects on d
 | `figures/directional_concordance.pdf/svg` | Bar charts: concordance rates by coordination type and exposed vs shielded |
 | `figures/activation_vs_repression_neighborhoods.pdf/svg` | Bloc comparison: |LFC|, DEG rate, neighbor direction |
 | `figures/distance_decay.pdf/svg` | Distance from TF vs mean |LFC| decay curves |
-| `figures/chromosome_neighborhood_map.pdf/svg` | Chromosome ideogram with 62 TF positions, module colors, expression direction |
+| `figures/chromosome_neighborhood_map.pdf/svg` | Chromosome ideogram with 57 TF positions, module colors, expression direction |
 | `figures/H33_comprehensive_summary.pdf/svg` | Multi-panel summary (9 panels) |
 
 ### Script

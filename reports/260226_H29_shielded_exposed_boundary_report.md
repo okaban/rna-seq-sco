@@ -8,8 +8,8 @@
 ## Background
 
 H27 identified two distinct classes among 1,055 regulatory genes in *S. coelicolor* M145:
-- **62 "exposed" regulators**: No methylation protection zone, median 114 bp methylation-to-TSS distance, with 8.4x TSS methylation enrichment
-- **993 "shielded" regulators**: 1,200 bp protection zone, median 762 bp methylation-to-TSS distance
+- **57 "exposed" regulators**: No methylation protection zone, median 114 bp methylation-to-TSS distance, with 8.4x TSS methylation enrichment
+- **998 "shielded" regulators**: 1,200 bp protection zone, median 762 bp methylation-to-TSS distance
 
 This analysis asks: can we predict which regulators are exposed versus shielded using quantitative features, and what is the optimal decision boundary?
 
@@ -20,7 +20,7 @@ Expression level (baseMean) has a threshold that separates shielded from exposed
 ## Methods
 
 ### Feature matrix
-For 1,017 regulatory genes (1,055 minus 38 with missing expression data; all 62 exposed retained), the following features were compiled:
+For 1,017 regulatory genes (1,055 minus 38 with missing expression data; all 57 exposed retained), the following features were compiled:
 
 | Feature | Source |
 |---------|--------|
@@ -65,10 +65,10 @@ For 1,017 regulatory genes (1,055 minus 38 with missing expression data; all 62 
 The optimal classification threshold for `nearest_methyl_distance` is **293 bp**:
 - **Below 293 bp**: classified as exposed
 - **Above 293 bp**: classified as shielded
-- At this threshold: sensitivity = 1.000 (all 62 exposed correctly identified), specificity = 0.806
+- At this threshold: sensitivity = 1.000 (all 57 exposed correctly identified), specificity = 0.806
 
 Distribution comparison:
-- Exposed (n=62): median = 114 bp, mean = 132 bp
+- Exposed (n=57): median = 114 bp, mean = 132 bp
 - Shielded (n=955): median = 768 bp, mean = 996 bp
 - Mann-Whitney U: p = 3.6 x 10^-28
 
@@ -177,7 +177,7 @@ The **nearest methylation distance** alone perfectly predicts this classificatio
 
 3. **Exposed regulators span all expression levels**: With 4-8% exposed at every quintile, the "exposure" to methylation is independent of basal transcription rates. This is inconsistent with the "RNAP occupancy model" where high transcription creates protection.
 
-4. **Protection zone is a binary feature of specific loci**: The 993 shielded regulators maintain a >293 bp buffer zone between methylation and TSS regardless of their expression level. This is more consistent with **sequence-level or chromatin-structural determinants** (e.g., nucleoid-associated proteins, specific DNA topology) than with transcription-dependent RNAP occupancy.
+4. **Protection zone is a binary feature of specific loci**: The 998 shielded regulators maintain a >293 bp buffer zone between methylation and TSS regardless of their expression level. This is more consistent with **sequence-level or chromatin-structural determinants** (e.g., nucleoid-associated proteins, specific DNA topology) than with transcription-dependent RNAP occupancy.
 
 5. **Gene length is the only significant expression-independent predictor** (OR = 1.001 per bp, p = 0.001): Longer regulatory genes are slightly more likely to be exposed, possibly because they present larger targets for methyltransferases or have different promoter architectures.
 
@@ -187,7 +187,7 @@ The **nearest methylation distance** alone perfectly predicts this classificatio
                     293 bp threshold
                          |
      EXPOSED             |            SHIELDED
-     62 genes            |            993 genes
+     57 genes            |            998 genes
      (methylation        |    (methylation kept
       at TSS)            |     away from TSS)
                          |
@@ -253,4 +253,4 @@ The **nearest methylation distance** alone perfectly predicts this classificatio
 3. The **293 bp boundary** sharply separates exposed from shielded regulators with perfect sensitivity
 4. Protection is **expression-independent**: all expression quintiles have ~6% exposed regulators
 5. The RNAP occupancy model is not supported; protection appears to be a **locus-specific structural property** rather than a consequence of transcriptional activity
-6. This reinforces the H27 "Exposed Promoter" model: the 62 exposed regulators are methylation-responsive not because they lack expression, but because they lack the locus-specific protection that shields the other 993
+6. This reinforces the H27 "Exposed Promoter" model: the 57 exposed regulators are methylation-responsive not because they lack expression, but because they lack the locus-specific protection that shields the other 998

@@ -1,0 +1,12 @@
+locus_tag	old_locus_tag	coord	strand	product	gene_name	rel_to_target
+SC_RS17620	SCO3099	3394340-3395641	-	cytochrome P450 family protein		-5
+SC_RS17625	SCO3100	3395638-3396615	-	nucleoside triphosphate pyrophosphohydrolase		-4
+SC_RS17630	SCO3101	3396692-3397339	-	SurA N-terminal domain-containing protein		-3
+SC_RS17635	SCO3102	3397490-3399001	-	serine/threonine protein kinase PkaE	pkaE	-2
+SC_RS17640	SCO3103	3399019-3399624	-	hypothetical protein		-1
+SC_RS17645	SCO3104	3399763-3401802	-	N-6 DNA methylase		0_TARGET
+SC_RS17650	SCO3105	3402007-3402504	+	hypothetical protein		+1
+SC_RS17655	SCO3106	3402554-3403453	+	lipoprotein		+2
+SC_RS17660	SCO3107	3403521-3404297	-	HNH endonuclease family protein		+3
+SC_RS17665	SCO3108	3404444-3404641	+	antitoxin		+4
+SC_RS17670	SCO3109	3404759-3408313	-	transcription-repair coupling factor	mfd	+5

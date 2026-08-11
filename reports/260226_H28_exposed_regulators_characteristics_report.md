@@ -1,4 +1,4 @@
-# H28: Biological Characteristics of 62 Exposed Regulators
+# H28: Biological Characteristics of 57 Exposed Regulators
 
 **Date**: 2026-02-26
 **Analysis directory**: `11_epigenome_integration/analysis/51_exposed_regulators_characteristics/`
@@ -6,18 +6,18 @@
 ## Background
 
 H27 discovered that the 1,055 regulatory genes in S. coelicolor M145 split into two fundamentally different groups:
-- **993 "shielded" regulators**: 1,200 bp methylation protection zone around TSS, methylation-insensitive expression
-- **62 "exposed" regulators**: NO protection zone, methylation sites at median 114 bp from TSS, expression responds to methylation changes (coordinated regulators)
+- **998 "shielded" regulators**: 1,200 bp methylation protection zone around TSS, methylation-insensitive expression
+- **57 "exposed" regulators**: NO protection zone, methylation sites at median 114 bp from TSS, expression responds to methylation changes (coordinated regulators)
 
-The critical question: WHY are these 62 genes exposed? What distinguishes them from the 993 shielded regulators?
+The critical question: WHY are these 57 genes exposed? What distinguishes them from the 998 shielded regulators?
 
 ## Hypothesis
 
-The 62 exposed regulators are characterized by **low T1 expression** (RNAP not occupying the promoter), explaining the absence of the protein-occupancy-based protection zone.
+The 57 exposed regulators are characterized by **low T1 expression** (RNAP not occupying the promoter), explaining the absence of the protein-occupancy-based protection zone.
 
 ## Methods
 
-Comprehensive multivariable comparison of 62 exposed vs 993 shielded regulatory genes across 8 dimensions:
+Comprehensive multivariable comparison of 57 exposed vs 998 shielded regulatory genes across 8 dimensions:
 1. Expression levels (baseMean, T1/T2/T3 normalized counts, |log2FC| change magnitudes)
 2. TF family composition (Fisher exact test for each of 25 families)
 3. Gene structural features (gene length, promoter GC content, intergenic distance, FIMO TF binding site predictions)
@@ -33,7 +33,7 @@ All continuous comparisons used Wilcoxon rank-sum tests with rank-biserial r eff
 
 ### PRIMARY HYPOTHESIS: T1 Expression
 
-| Metric | Exposed (n=62) | Shielded (n=955) | p-value | Effect size r |
+| Metric | Exposed (n=57) | Shielded (n=955) | p-value | Effect size r |
 |--------|---------------|-------------------|---------|---------------|
 | **T1 expression (median)** | **90.4** | **123.1** | **0.010** | **0.195** |
 | baseMean | 100.7 | 127.5 | 0.215 | 0.094 |
@@ -51,7 +51,7 @@ All continuous comparisons used Wilcoxon rank-sum tests with rank-biserial r eff
 | Q3 | 254 | 15 | 5.9% |
 | Q4 (highest) | 254 | 9 | 3.5% |
 
-Spearman trend test: rho = -0.095, p = 0.0024. The lowest T1 expression quartile contains 28/62 (45.2%) of exposed regulators -- a 3.1-fold enrichment over the expected 5.9% rate. This strong Q1 enrichment confirms that low initial expression is a primary determinant of exposure.
+Spearman trend test: rho = -0.095, p = 0.0024. The lowest T1 expression quartile contains 28/57 (45.2%) of exposed regulators -- a 3.1-fold enrichment over the expected 5.4% rate. This strong Q1 enrichment confirms that low initial expression is a primary determinant of exposure.
 
 ### Expression Change Magnitude (STRONGEST SIGNAL)
 
@@ -76,7 +76,7 @@ Exposed regulators show 1.7x larger expression changes than shielded regulators.
 
 Fisher exact test (dynamic vs constitutive): **OR=infinity, p=5.3e-13**
 
-**Zero of the 62 exposed regulators are constitutively expressed.** Every single one is developmentally regulated, compared to only 62% of shielded regulators. This is the single strongest distinguishing feature.
+**Zero of the 57 exposed regulators are constitutively expressed.** Every single one is developmentally regulated, compared to only 62% of shielded regulators. This is the single strongest distinguishing feature.
 
 ### Promoter GC Content
 
@@ -113,7 +113,7 @@ Geographic distribution, gene structure, operon context, and upstream TF binding
 
 No family shows statistically significant enrichment or depletion in the exposed group (all Fisher p > 0.05). The family distribution is representative of the overall regulator population. The exposure phenotype is not family-specific.
 
-## Integrated Model: Why Are These 62 Regulators Exposed?
+## Integrated Model: Why Are These 57 Regulators Exposed?
 
 The data support a coherent three-factor model:
 
@@ -149,7 +149,7 @@ The result is a class of regulatory genes whose expression is both influenced by
 ## Output Files
 
 ### Tables
-- `tables/exposed_regulators_full_table.tsv` -- All 62 exposed regulators with all measured features (30 columns)
+- `tables/exposed_regulators_full_table.tsv` -- All 57 exposed regulators with all measured features (30 columns)
 - `tables/feature_comparison_statistics.tsv` -- All 19 statistical tests with p-values and effect sizes
 - `tables/TF_family_distribution.tsv` -- Family-level breakdown with Fisher exact tests (25 families)
 - `tables/temporal_pattern_distribution.tsv` -- Expression pattern classification

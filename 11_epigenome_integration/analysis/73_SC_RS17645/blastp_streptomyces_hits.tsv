@@ -1,0 +1,51 @@
+accession	organism	strain	pct_identity	qcov_pct	aln_len_aa	evalue	bitscore
+GCF_008931305.1	Streptomyces coelicolor A3(2)	CFB_NBC_0001	99.85	100.0	679	0.0	1208.0
+GCF_039532845.1	Streptomyces violaceolatus	JCM 4531	99.26	100.0	679	0.0	1199.0
+GCF_033406955.1	Streptomyces violaceoruber	CGMCC 4.1801	99.26	100.0	679	0.0	1199.0
+GCF_035917655.1	Streptomyces anthocyanicus	NBC 01777	99.26	100.0	679	0.0	1195.0
+GCF_000739105.1	Streptomyces lividans TK24	TK24	99.12	100.0	679	0.0	1194.0
+GCF_027947575.1	Streptomyces rubrogriseus	NBRC 15455	98.23	100.0	679	0.0	1186.0
+GCF_045041415.1	Streptomyces coelicoflavus	NBC_00099	92.78	99.9	679	0.0	1116.0
+GCF_027947595.1	Streptomyces lienomycini	DSM 41475	91.9	100.0	679	0.0	1108.0
+GCF_014280945.1	Streptomyces salinarius	SS06011	92.46	99.4	676	0.0	1105.0
+GCF_014650435.1	Streptomyces tendae	JCM 4610	92.28	99.9	687	0.0	1104.0
+GCF_000717995.1	Streptomyces violaceorubidus	NRRL B-16381	90.71	99.9	678	0.0	1072.0
+GCF_020404845.1	Streptomyces hyderabadensis	JCM 17657	90.71	99.9	678	0.0	1060.0
+GCF_003112575.1	Streptomyces ardesiacus	NBRC 15402	90.33	99.0	672	0.0	1028.0
+GCF_020312315.1	Streptomyces solaniscabiei	FS70	83.8	100.0	679	0.0	965.0
+GCF_044765825.1	Streptomyces flaveolus	NPDC102396	83.8	100.0	679	0.0	962.0
+GCF_014650995.1	Streptomyces viridiviolaceus	JCM 4855	78.07	99.9	725	0.0	958.0
+GCF_036345035.1	Streptomyces pseudovenezuelae	NBC_00598	77.48	100.0	715	0.0	945.0
+GCF_036177905.1	Streptomyces canus	NBC_00277	76.16	100.0	730	0.0	944.0
+GCF_031845645.1	Streptomyces doebereineriae	DSM 41640	76.52	100.0	724	0.0	943.0
+GCF_014534645.1	Streptomyces griseicoloratus	TRM S81-3	76.08	99.9	744	0.0	941.0
+GCF_039537145.1	Streptomyces shaanxiensis	JCM 16925	78.58	99.9	705	0.0	937.0
+GCF_040302545.1	Streptomyces pharetrae	NPDC126476	81.47	100.0	680	0.0	937.0
+GCF_006539505.1	Streptomyces spinoverrucosus	NBRC 14228	78.8	100.0	698	0.0	935.0
+GCF_003963535.1	Streptomyces cyaneochromogenes	MK-45	78.14	99.9	709	0.0	935.0
+GCF_046628145.1	Streptomyces mutabilis	MPB24	76.85	100.0	730	0.0	931.0
+GCF_014650015.1	Streptomyces griseoloalbus	JCM 4480	76.32	100.0	722	0.0	930.0
+GCF_039533005.1	Streptomyces fimbriatus	JCM 5080	77.11	100.0	721	0.0	924.0
+GCF_001514215.1	Streptomyces bungoensis	DSM 41781	75.89	100.0	730	0.0	924.0
+GCF_016921115.1	Streptomyces actuosus	VRA1	75.76	100.0	722	0.0	924.0
+GCF_014650035.1	Streptomyces lucensis JCM 4490	JCM 4490	74.36	100.0	741	0.0	924.0
+GCF_016598615.1	Streptomyces liliifuscus	ZYC-3	78.89	99.9	687	0.0	923.0
+GCF_000719285.1	Streptomyces bicolor	NRRL B-5348	76.22	100.0	719	0.0	921.0
+GCF_008905045.1	Streptomyces albicerus	TRM68295	79.42	100.0	685	0.0	919.0
+GCF_028401765.1	Streptomyces gilvifuscus	T113	76.0	99.9	729	0.0	918.0
+GCF_021261325.1	Streptomyces guryensis	NR30	77.17	100.0	714	0.0	917.0
+GCF_039539045.1	Streptomyces marokkonensis	JCM 17027	76.57	99.9	734	0.0	916.0
+GCF_000725125.1	Streptomyces toyocaensis	NRRL 15009	77.43	100.0	700	0.0	915.0
+GCF_005768555.2	Streptomyces sporangiiformans	NEAU-SSA 1	77.14	100.0	700	0.0	915.0
+GCF_008704515.1	Streptomyces viridosporus T7A	ATCC 39115	76.64	99.9	715	0.0	915.0
+GCF_000718165.1	Streptomyces fulvoviolaceus	NRRL B-2870	74.9	100.0	733	0.0	915.0
+GCF_014649595.1	Streptomyces griseomycini	JCM 4382	79.22	100.0	693	0.0	914.0
+GCF_030863865.1	Streptomyces rochei	JK1	76.17	99.9	726	0.0	912.0
+GCF_023516615.1	Streptomyces panaciradicis	NBRC 109811	75.34	99.9	730	0.0	912.0
+GCF_014650215.1	Streptomyces vinaceusdrappus	JCM 4529	76.17	99.9	726	0.0	912.0
+GCF_014656275.1	Streptomyces umbrinus	JCM 4958	78.17	99.9	687	0.0	910.0
+GCF_014651055.1	Streptomyces fructofermentans	JCM 4956	78.36	99.9	684	0.0	910.0
+GCF_014650135.1	Streptomyces plicatus	JCM 4504	76.03	99.9	726	0.0	910.0
+GCF_053555975.1	Streptomyces mitragynae	NRAIS3	74.05	99.9	736	0.0	910.0
+GCF_015163075.1	Streptomyces justiciae	3R004	76.16	100.0	734	0.0	909.0
+GCF_039543605.1	Streptomyces siamensis	JCM 18409	80.27	100.0	679	0.0	909.0

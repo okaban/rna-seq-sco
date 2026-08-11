@@ -1,6 +1,6 @@
-# Paper Outline: The Gatekeeper Model of Bacterial DNA Methylation
+# Paper Outline: The Methylation-Exclusion Architecture of Bacterial DNA Regulation
 
-**Working title**: A restriction-modification Gatekeeper mechanism partitions the regulatory genome into a methylation-insensitive majority and a developmental-switch minority in *Streptomyces coelicolor*
+**Working title**: A restriction-modification methylation-exclusion mechanism partitions the regulatory genome into a methylation-insensitive majority and a developmental-switch minority in *Streptomyces coelicolor*
 
 **Target journal**: TBD (format assumes broad-interest journal: Nature Microbiology / PNAS / eLife)
 
@@ -12,7 +12,7 @@
 
 **Background** (2 sentences): Bacterial DNA methylation is widely assumed to regulate transcription, yet genome-wide evidence for this function remains inconsistent. *Streptomyces coelicolor* M145, with two active methylation systems (GCCGGC 4mC and AAGCCCG 6mA), provides an ideal model to test this assumption using integrated epigenomic and transcriptomic data across developmental stages.
 
-**Results** (4-5 sentences): We show that apparent genome-wide methylation-expression correlations are Simpson's paradox artifacts driven by the linear chromosome's core/arm functional differentiation. Instead, a four-layer "Gatekeeper" architecture governs methylation-transcription interactions: (1) R-M systems undergo complete geographic redistribution (Jaccard = 0.000) without transcriptional consequences; (2) 94.1% of regulatory gene promoters (993/1,055) maintain a ~2.2 kb methylation-free protection zone through collective promoter occupancy (~67%) and evolutionary counter-selection (~33%); (3) 62 exposed regulators (5.9%) lack this protection entirely, defined by a 293 bp boundary (AUC = 0.917); (4) these 62 genes constitute a distributed vegetative-to-developmental switch organized into two synchronous antagonistic blocs.
+**Results** (4-5 sentences): We show that apparent genome-wide methylation-expression correlations are spurious associations driven by geographic confounding from the linear chromosome's core/arm functional differentiation. Instead, a four-layer methylation-exclusion architecture governs methylation-transcription interactions: (1) R-M systems undergo complete geographic redistribution (Jaccard = 0.000) without transcriptional consequences; (2) 94.6% of regulatory gene promoters (998/1,055) maintain a ~2.2 kb methylation-free protection zone through collective promoter occupancy (~67%) and evolutionary counter-selection (~33%); (3) 57 exposed regulators (5.4%) lack this protection entirely, defined by a 293 bp boundary (AUC = 0.917); (4) these 57 genes constitute a distributed vegetative-to-developmental switch organized into two synchronous antagonistic blocs.
 
 **Conclusion** (2 sentences): DNA methylation does not control transcription directly in *S. coelicolor*. Instead, a structural dichotomy at regulatory gene promoters channels methylation effects through a specific minority of regulators that encode a coordinated developmental transition, revealing an unexpected organizational principle of bacterial regulatory genomes.
 
@@ -51,11 +51,11 @@
 - 18 exploration loops, 36 hypotheses: systematic construction of the model
 - 12 rejected hypotheses were the most informative (negative results as structural insights)
 - The model emerged from the failure of the "methylation controls transcription" paradigm
-- Brief overview of the 4-layer Gatekeeper architecture
+- Brief overview of the four-layer methylation-exclusion architecture
 
 ### Para 6: Scope and aims of this study
 - Aim 1: Determine whether DNA methylation directly regulates transcription genome-wide
-- Aim 2: Characterize the structural basis of regulatory gene protection from methylation
+- Aim 2: Characterize the structural basis of methylation depletion at regulatory gene promoters
 - Aim 3: Identify and characterize the methylation-responsive regulatory minority
 - Aim 4: Determine the biological function of methylation-responsive regulators in the developmental transition
 
@@ -99,7 +99,7 @@
 - **Data**: Fig. 3b, Fig. 3e
 
 **Para 6**: Two-tier protection mechanism
-- Sequence contribution: AAGCCCG motif 5.0× enriched at exposed TF promoters; combined sequence model CV AUC = 0.712 → ~33% contribution
+- Sequence contribution: AAGCCCG motif 4.10× enriched (mean count) at exposed TF promoters; combined sequence model CV AUC = 0.712 → ~33% contribution
 - Protein occupancy contribution: nearest methylation distance AUC = 0.917 >> sequence AUC → ~67% contribution
 - Individual TF binding sites are NOT protective: GCCGGC fold = 1.157 at TFBS (counter-intuitive enrichment)
 - Collective promoter occupancy (NAPs, RNAP, general factors) rather than specific TF binding
@@ -108,9 +108,9 @@
 ### Section 3: A sharp 293 bp boundary defines the Shielded/Exposed dichotomy (Fig. 2c)
 
 **Para 7**: Binary classification of regulatory genes
-- 993 shielded (94.1%): median nearest methylation = 762 bp
-- 62 exposed (5.9%): median nearest methylation = 114 bp
-- Mann-Whitney p = 5.3 × 10^-28; 6.7× distance ratio
+- 998 shielded (94.6%): median nearest methylation = 762 bp
+- 57 exposed (5.4%): median nearest methylation = 114 bp
+- Mann-Whitney p = 1.7 × 10^-25; 6.7× distance ratio
 - 293 bp threshold: AUC = 0.917 (95% CI: 0.895-0.935), 100% sensitivity, 80.6% specificity
 - This is a near-binary structural feature, not a graded continuum
 - **Data**: Fig. 2c, Fig. 3b
@@ -122,22 +122,22 @@
 - Exposed status is epigenomic context, not evolutionary novelty
 - **Data**: Fig. S7
 
-### Section 4: 62 exposed regulators form a distributed developmental switch (Fig. 4)
+### Section 4: 57 exposed regulators form a distributed developmental switch (Fig. 4)
 
 **Para 9**: Internal structure — two antagonistic blocs
-- Co-expression analysis reveals 4 modules covering 61/62 genes
+- Co-expression analysis reveals 4 modules covering 61/57 genes
 - Within-type co-expression rho = 0.500 (p = 6.6 × 10^-25)
 - Between-type co-expression rho = -0.283 → mirror-image trajectories
 - NOT a physical genomic cluster: z = +0.30, p = 0.37; 0 operonic pairs
 - **Data**: Fig. 4a
 
-**Para 10**: Activation bloc (~36 genes)
-- TCS (9 genes, 25%), sigma factors (5), WhiB (1), RamR
+**Para 10**: Activation bloc (34 genes)
+- TCS (9 genes, 26%), sigma factors (5), WhiB (1), RamR
 - Key genes: RamR (SCO6685, LFC = +7.9), NsdB (LFC = +7.8), SCO1160 (sensor kinase, LFC = +5.6)
 - Function: morphogenesis, signal transduction, stress response → developmental programs ON
 - **Data**: Fig. 4d, Fig. 6b
 
-**Para 11**: Repression bloc (~26 genes)
+**Para 11**: Repression bloc (23 genes)
 - TetR family significantly enriched (OR = 0.16, p = 0.028)
 - Also GntR, IclR, LacI, SSB, HU
 - Function: metabolism shutdown, DNA repair cessation, efflux repression → vegetative programs OFF
@@ -175,7 +175,7 @@
 - **Data**: Fig. 5a, Fig. 5b, Fig. S2
 
 **Para 16**: Sequence ≠ Methylation
-- AAGCCCG DNA sequence 5.0× enriched at exposed TF promoters (25.8% have motifs)
+- AAGCCCG DNA sequence 4.10× enriched (mean motif count) at exposed TF promoters (24.6%, 14/57 have motifs vs 6.4%, 64/994 shielded)
 - Only 3.2% have methylated AAGCCCG (MTase methylates ~19.5% of recognition sites)
 - Sequence enrichment is evolutionary/structural; methylation enrichment requires active MTase targeting
 - **Data**: Fig. 5c
@@ -187,9 +187,9 @@
 - **Data**: Fig. 5d
 
 **Para 18**: Mechanism remains unknown
-- 0/62 have curated FIMO binding motifs
+- 0/57 have curated FIMO binding motifs
 - 38/62 are FIMO targets of known TFs (same rate as shielded: OR = 0.881, p = 0.683)
-- Not AAGCCCG methylation-mediated (2/62)
+- Not AAGCCCG methylation-mediated (2/57)
 - Not cis-regulatory, not cascade, not known TF network
 - Experimental approaches required: ChIP-seq, DAP-seq, CRISPRi
 
@@ -199,15 +199,15 @@
 
 ### Para 1: Summary of central findings
 - DNA methylation does NOT control transcription directly in *S. coelicolor*
-- Instead, a Gatekeeper architecture channels methylation effects through 62 specific regulatory genes
+- Instead, a methylation-exclusion architecture channels methylation effects through 57 specific regulatory genes
 - The Shielded/Exposed dichotomy (AUC = 0.917) is the central organizing principle
-- The 62 exposed regulators encode a coordinated vegetative-to-developmental switch
+- The 57 exposed regulators encode a coordinated vegetative-to-developmental switch
 
 ### Para 2: Reinterpretation of bacterial methylation-transcription paradigm
 - Dam/CcrM paradigm: direct regulatory roles at specific loci (phase variation, replication timing)
 - Our findings suggest an alternative paradigm for R-M associated methylation: structural partitioning of the regulatory genome
 - Not all methylation is regulatory; most methylation in M145 is defense-related
-- The 5.9% exposed regulators represent the true methylation-responsive fraction
+- The 5.4% (57/1,055) exposed regulators represent the true methylation-responsive fraction
 - Compare with eukaryotic methylation: CpG islands near promoters are also depleted (analogy with protection zone)
 
 ### Para 3: Simpson's paradox as a methodological warning
@@ -224,8 +224,8 @@
 - NAP proteins (HupA, IHF, Lsr2) as likely candidates for the protection zone
 - Predict: ChIP-seq for NAPs will show enrichment at shielded TSS, depletion at exposed TSS
 
-### Para 5: The 62 exposed regulators — a novel regulatory layer
-- Not part of any characterized pathway (0/62 FIMO motifs)
+### Para 5: The 57 exposed regulators — a novel regulatory layer
+- Not part of any characterized pathway (0/57 FIMO motifs)
 - Distinct from BldA/BldH cascade, WhiB/WhiG pathway, known sigma factor cascades
 - TCS asymmetry (7/7 split) suggests methylation selectively gates one component of sensory systems
 - Parallel, not sequential, activation: the switch operates as a single gate-opening event
@@ -234,7 +234,7 @@
 ### Para 6: Evolutionary implications
 - Exposed regulators are equally conserved (H36): not evolutionary newcomers
 - Exposed status determined by epigenomic context (local methylation landscape), not by gene identity
-- Suggests the Gatekeeper mechanism is a conserved organizational principle in Streptomyces
+- Suggests the methylation-exclusion architecture is a conserved organizational principle in Streptomyces
 - Predicts similar Shielded/Exposed dichotomy in S. venezuelae, S. avermitilis, S. griseus
 - The ~33% sequence contribution implies co-evolution of motif density and regulatory function
 
@@ -304,9 +304,9 @@
 - LFC comparison: Lost vs Never, both unstratified and stratified by core/arm
 
 ### Co-expression analysis and module detection
-- 62 × 62 Spearman co-expression matrix across all timepoints/replicates
+- 57 × 57 Spearman co-expression matrix across all timepoints/replicates
 - Hierarchical clustering with Ward's method
-- Module detection (4 modules, 61/62 coverage)
+- Module detection (4 modules, 61/57 coverage)
 - Within-type vs between-type co-expression rho comparison
 - Bloc assignment: activation (modules 1-3) vs repression (module 4)
 
@@ -352,9 +352,9 @@
 | # | Title | Script |
 |---|-------|--------|
 | Fig. 1 | Methylation Landscape overview (Circos, site counts, genomic distribution, logos) | `01_figure1_landscape.py` |
-| Fig. 2 | Gatekeeper Model overview | `10_new_figure1_overview.py` |
+| Fig. 2 | Methylation-exclusion architecture overview | `10_new_figure1_overview.py` |
 | Fig. 3 | Protection zone characterization | `11_new_figure2_protection.py` |
-| Fig. 4 | 62 exposed TFs — distributed developmental switch | `12_new_figure3_exposed_TFs.py` |
+| Fig. 4 | 57 exposed TFs — distributed developmental switch | `12_new_figure3_exposed_TFs.py` |
 | Fig. 5 | Negative results panel | `13_new_figure4_negative_results.py` |
 | Fig. 6 | Vegetative-to-developmental switch model | `14_new_figure5_switch_model.py` |
 
@@ -365,7 +365,7 @@
 | Fig. S2 | Simpson's paradox detailed (6-panel: unstratified/core/arm × GCCGGC/AAGCCCG) |
 | Fig. S3 | Regulatory avoidance forest plot (CMH-adjusted) |
 | Fig. S4 | Sequence-level motif depletion (gene body + promoter) |
-| Fig. S5 | 62 exposed TF complete annotation |
+| Fig. S5 | 57 exposed TF complete annotation |
 | Fig. S6 | TCS pair detailed analysis |
 | Fig. S7 | Conservation metrics (H36) |
 | Fig. S14 | R-M recognition motif characterization: methylated position in AAGCCCG (pos1=63%) and GCCGGC (palindromic pos1/pos3), motif occupancy (AAGCCCG=31.6%/GCCGGC=7.96%/GATC=0.27%), 6mA Unassigned fraction (72.2% at T1) — `24_figS14_motif_reliability.py` |
@@ -379,7 +379,7 @@
 | Table S2 | Motif summary + REBASE conservation |
 | Table S3 | MTase genes (22 genes × expression/domain) |
 | Table S4 | 1,055 regulatory genes: shielded/exposed classification + all features |
-| Table S5 | 62 exposed TFs: full annotation (family, bloc, module, temporal class, LFC, conservation) |
+| Table S5 | 57 exposed TFs: full annotation (family, bloc, module, temporal class, LFC, conservation) |
 | Table S6 | TCS pair analysis (7 pairs × exposed/shielded status) |
 | Table S7 | Simpson's paradox statistics (3 instances × unstratified/stratified) |
 | Table S8 | Complete hypothesis ledger (H1-H36 × verdict, key statistic) |
@@ -393,7 +393,7 @@
 2. **Surprise**: Apparent correlations are Simpson's paradox artifacts
 3. **Discovery**: Instead of genome-wide regulation, a structural dichotomy partitions the regulatory genome
 4. **Mechanism**: The protection zone is created by collective protein occupancy, not individual TF binding
-5. **Biology**: The 62 exposed regulators encode a coordinated developmental switch
+5. **Biology**: The 57 exposed regulators encode a coordinated developmental switch
 6. **Impact**: Reframes bacterial epigenetics from "methylation controls genes" to "methylation partitions regulatory architecture"
 
 ### Tone

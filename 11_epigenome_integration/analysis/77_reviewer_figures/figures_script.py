@@ -34,14 +34,14 @@ sd = np.log10(S['dT1'].clip(lower=1)); ed = np.log10(E['dT1'].clip(lower=1))
 parts = ax[0].violinplot([sd, ed], showmedians=True)
 ax[0].axhline(np.log10(W), color="red", ls="--", lw=1, label=f"293 bp boundary")
 ax[0].set_xticks([1,2]); ax[0].set_xticklabels([f"Shielded\n(n={len(S)})", f"Exposed\n(n={len(E)})"])
-ax[0].set_ylabel("log₁₀ nearest GCCGGC m4C distance (bp)")
+ax[0].set_ylabel("log₁₀ nearest GCCGGC 4mC distance (bp)")
 u,p = mannwhitneyu(S['dT1'].dropna(), E['dT1'].dropna())
 ax[0].set_title(f"(c) Promoter-proximal methylation\nMWU p={p:.1e}"); ax[0].legend(frameon=False, fontsize=8)
 # (d) expression variability |LFC|
 ev = [S['LFC_T2vsT1'].abs().dropna(), E['LFC_T2vsT1'].abs().dropna(),
       S['LFC_T3vsT1'].abs().dropna(), E['LFC_T3vsT1'].abs().dropna()]
 bp = ax[1].boxplot(ev, positions=[1,1.7,3,3.7], widths=0.55, showfliers=False, patch_artist=True)
-for i,patch in enumerate(bp['boxes']): patch.set_facecolor(["#BBBBBB","#C26B6B"][i%2])
+for i,patch in enumerate(bp['boxes']): patch.set_facecolor(["#9AA7B0","#A64B44"][i%2])
 ax[1].set_xticks([1.35,3.35]); ax[1].set_xticklabels(["T2 vs T1","T3 vs T1"])
 ax[1].set_ylabel("|log₂ fold-change|")
 ax[1].set_title("(d) Expression variability (T2/T3 vs T1)")
@@ -54,15 +54,20 @@ print(f"Fig2c/d: Exposed={len(E)} Shielded={len(S)} ; distance MWU p={p:.2e}")
 cls = pd.read_csv(B/"62_GO_KEGG_enrichment/tables/F1_classified_meth_sites.tsv", sep="\t")
 order = ['promoter','5UTR_approx','CDS_internal','intergenic']
 lbls = ['Promoter','5′UTR','CDS','Intergenic']
-colors = ['#CC6677','#DDCC77','#4477AA','#88CCAA']  # muted Tol
+colors = ['#A64B44','#C0803A','#3A6B8C','#3E7256']  # unified calm qualitative
 fig, ax = plt.subplots(1, 2, figsize=(9, 4.2))
+MOT_MOD = {'GCCGGC': '4mC', 'AAGCCCG': '4mC/6mA'}  # GCCGGC = 4mC; AAGCCCG = dual
 for i,mot in enumerate(['GCCGGC','AAGCCCG']):
     sub = cls[cls.motif==mot]
     counts = [ (sub.category==c).sum() for c in order ]
     tot = sum(counts)
-    wedges,_,_ = ax[i].pie(counts, labels=lbls, colors=colors, autopct=lambda p:f"{p:.0f}%",
+    wedges,_,autotexts = ax[i].pie(counts, labels=lbls, colors=colors,
+                            autopct=lambda p:f"{p:.0f}%",
                             startangle=90, textprops={'fontsize':9})
-    ax[i].set_title(f"{mot} m4C sites (n={tot})")
+    # percent labels sit inside the (saturated/dark) wedges → white for contrast
+    for t in autotexts:
+        t.set_color('white'); t.set_fontweight('bold')
+    ax[i].set_title(f"{mot} {MOT_MOD[mot]} sites (n={tot})")
 fig.suptitle("Genomic-feature distribution of methylation sites", y=1.02, fontsize=11)
 fig.tight_layout()
 fig.savefig(OUT/"SuppFig_occupancy_pie.pdf", bbox_inches="tight")

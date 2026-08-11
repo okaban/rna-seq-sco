@@ -1,19 +1,19 @@
-# H36: Evolutionary Conservation Analysis of 62 Exposed Transcription Factors
+# H36: Evolutionary Conservation Analysis of 57 Exposed Transcription Factors
 
 **Date**: 2026-02-27
 **Analysis directory**: `11_epigenome_integration/analysis/59_exposed_TF_conservation/`
 **Script**: `scripts/H36_conservation_analysis.py`
-**Hypothesis**: The 62 exposed regulators (lacking methylation protection zones) are evolutionarily conserved across Streptomyces (suggesting an ancient regulatory feature) or lineage-specific (suggesting recent adaptation).
+**Hypothesis**: The 57 exposed regulators (lacking methylation protection zones) are evolutionarily conserved across Streptomyces (suggesting an ancient regulatory feature) or lineage-specific (suggesting recent adaptation).
 
 ---
 
 ## Background
 
 The Gatekeeper Model (v3) established that 1,017 regulatory genes in *S. coelicolor* M145 segregate into two classes based on methylation protection:
-- **993 Shielded regulators**: possess TSS-proximal methylation protection zones (median nearest methylation distance 762 bp)
-- **62 Exposed regulators**: completely lack protection zones (median distance 114 bp), with methylation sites directly at their TSS
+- **998 Shielded regulators**: possess TSS-proximal methylation protection zones (median nearest methylation distance 762 bp)
+- **57 Exposed regulators**: completely lack protection zones (median distance 114 bp), with methylation sites directly at their TSS
 
-These 62 genes form a "distributed methylation-responsive regulatory layer" (H32) that exhibits 100% dynamic expression, higher |LFC| variability, and synchronous switching behavior (H34). The question is whether this configuration represents an evolutionarily conserved feature or a lineage-specific adaptation.
+These 57 genes form a "distributed methylation-responsive regulatory layer" (H32) that exhibits 100% dynamic expression, higher |LFC| variability, and synchronous switching behavior (H34). The question is whether this configuration represents an evolutionarily conserved feature or a lineage-specific adaptation.
 
 ## Approach
 
@@ -30,7 +30,7 @@ Since full BLAST analysis against 833 available *Streptomyces* genomes is comput
 
 ### 1. Sequence Composition Metrics (Step 4)
 
-| Metric | Exposed (n=62) | Shielded (n=955) | p-value | Effect size |
+| Metric | Exposed (n=57) | Shielded (n=955) | p-value | Effect size |
 |--------|---------------|-------------------|---------|-------------|
 | Gene length (bp) | median 819 | median 729 | 0.137 | r=0.047, d=0.405 |
 | GC content | 0.739 | 0.730 | **0.022** | r=0.072, d=0.302 |
@@ -50,14 +50,14 @@ Since full BLAST analysis against 833 available *Streptomyces* genomes is comput
 | Named product | 100.0 | 100.0 | -- | 1.000 |
 | Has protein ID (WP_) | 100.0 | 98.1 | inf | 0.620 |
 
-**Interpretation**: No significant differences in annotation quality. All 62 exposed regulators have named products (non-hypothetical), SCO locus tags (96.8%), and protein IDs (100%). This indicates that the exposed genes are **not** novel/lineage-specific — they are all well-characterized, original *S. coelicolor* genes with conserved protein products.
+**Interpretation**: No significant differences in annotation quality. All 57 exposed regulators have named products (non-hypothetical), SCO locus tags (96.8%), and protein IDs (100%). This indicates that the exposed genes are **not** novel/lineage-specific — they are all well-characterized, original *S. coelicolor* genes with conserved protein products.
 
 ### 3. Chromosomal Position (Step 6)
 
 | Feature | Exposed | Shielded | Test | p-value |
 |---------|---------|----------|------|---------|
-| Core % | 56.5% (35/62) | 63.8% (609/955) | Fisher | 0.277 |
-| Arm % | 43.5% (27/62) | 36.2% (346/955) | Fisher | 0.277 |
+| Core % | 56.5% (35/57) | 63.8% (609/955) | Fisher | 0.277 |
+| Arm % | 43.5% (27/57) | 36.2% (346/955) | Fisher | 0.277 |
 | Distance to oriC | 2.64 Mb | 2.15 Mb | MWU | 0.264 |
 
 **Interpretation**: No significant difference in chromosomal localization. Exposed regulators are distributed across both core and arm regions similarly to shielded regulators, and show comparable distances to oriC. This argues against the hypothesis that exposed genes are preferentially located in less-conserved chromosomal arms.
@@ -119,7 +119,7 @@ Major TF families (n>=10) show similar conservation scores regardless of their e
 
 ### Primary Finding: **PARTIALLY SUPPORTED** — Exposed TFs Are Equally Conserved but Functionally Divergent
 
-The 62 exposed regulators show **no significant difference in evolutionary conservation proxies** compared to the 993 shielded regulators:
+The 57 exposed regulators show **no significant difference in evolutionary conservation proxies** compared to the 998 shielded regulators:
 
 1. **Equally conserved by sequence metrics**: GC3, Nc, rare codon frequency, gene length — all non-significant (composite ROC AUC = 0.459)
 2. **Equally annotated**: 96.8% have SCO locus tags, 100% have named products, 100% have protein IDs
@@ -144,7 +144,7 @@ The exposed regulator phenotype may therefore arise from the **interaction betwe
 
 ### Implications for the Gatekeeper Model
 
-This finding strengthens the model: the 62 exposed regulators are not evolutionary outliers or recent innovations. They are standard *Streptomyces* regulatory genes that happen to occupy genomic positions where methylation sites are proximal to their TSS. This is consistent with H29's finding that methylation proximity (not expression, not function) is the primary determinant of exposed status, and H30's finding that ~33% of protection is determined by local DNA sequence context.
+This finding strengthens the model: the 57 exposed regulators are not evolutionary outliers or recent innovations. They are standard *Streptomyces* regulatory genes that happen to occupy genomic positions where methylation sites are proximal to their TSS. This is consistent with H29's finding that methylation proximity (not expression, not function) is the primary determinant of exposed status, and H30's finding that ~33% of protection is determined by local DNA sequence context.
 
 ## Output Files
 

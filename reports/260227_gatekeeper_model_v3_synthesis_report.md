@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-In *Streptomyces coelicolor* A3(2) M145, DNA methylation (4mC/6mA) does **not** directly control transcription genome-wide. Instead, the methylation systems interact with the regulatory network through a "Shielded/Exposed" dichotomy: 993 of 1,055 regulatory genes maintain a ~1.2 kb protection zone that excludes methylation from the TSS (via collective promoter protein occupancy + evolutionary sequence divergence), rendering them methylation-insensitive. The remaining 62 regulatory genes lack this protection (methylation at median 114 bp from TSS), and these alone show methylation-expression coordination. This Shielded/Exposed dichotomy, defined by a sharp 293 bp boundary (AUC = 0.917), resolves the paradox of widespread methylation coexisting with minimal transcriptional impact.
+In *Streptomyces coelicolor* A3(2) M145, DNA methylation (4mC/6mA) does **not** directly control transcription genome-wide. Instead, the methylation systems interact with the regulatory network through a "Shielded/Exposed" dichotomy: 998 of 1,055 regulatory genes maintain a ~1.2 kb protection zone that excludes methylation from the TSS (via collective promoter protein occupancy + evolutionary sequence divergence), rendering them methylation-insensitive. The remaining 57 regulatory genes lack this protection (methylation at median 114 bp from TSS), and these alone show methylation-expression coordination. This Shielded/Exposed dichotomy, defined by a sharp 293 bp boundary (AUC = 0.917), resolves the paradox of widespread methylation coexisting with minimal transcriptional impact.
 
 ---
 
@@ -16,7 +16,7 @@ In *Streptomyces coelicolor* A3(2) M145, DNA methylation (4mC/6mA) does **not** 
 
 The single most important discovery of the 14-loop exploration is the identification of two structurally distinct classes within the 1,055 regulatory genes of *S. coelicolor* M145 (H27, Loop 13):
 
-| Property | Shielded (n=993, 94.1%) | Exposed (n=62, 5.9%) |
+| Property | Shielded (n=998, 94.6%) | Exposed (n=57, 5.4%) |
 |----------|:------------------------:|:---------------------:|
 | Protection zone width | 1,200 bp | **0 bp** |
 | Median nearest methylation site | 762 bp | **114 bp** |
@@ -26,7 +26,7 @@ The single most important discovery of the 14-loop exploration is the identifica
 | \|log2FC\| T3vsT1 | 0.93 | **1.53** (1.7x larger) |
 | Statistical separation | Mann-Whitney p = **5.3 x 10^-28** | 6.7x distance ratio |
 
-**Interpretation:** The 993 shielded regulators are embedded in constitutively protected promoter environments where collective protein occupancy physically blocks methyltransferase (MTase) access. Because methylation cannot penetrate these promoters, genome-wide methylation changes have no effect on their transcription. The 62 exposed regulators lack this structural protection; methylation sites lie within or immediately adjacent to their promoters (-300 to +100 bp from TSS), placing them at positions where they could directly alter sigma factor recognition, TF binding affinity, or DNA melting at the transcription start site.
+**Interpretation:** The 998 shielded regulators are embedded in constitutively protected promoter environments where collective protein occupancy physically blocks methyltransferase (MTase) access. Because methylation cannot penetrate these promoters, genome-wide methylation changes have no effect on their transcription. The 57 exposed regulators lack this structural protection; methylation sites lie within or immediately adjacent to their promoters (-300 to +100 bp from TSS), placing them at positions where they could directly alter sigma factor recognition, TF binding affinity, or DNA melting at the transcription start site.
 
 **Boundary definition (H29):** The optimal classifier between exposed and shielded is the nearest methylation-to-TSS distance, with a sharp threshold at **293 bp** (AUC = 0.917, sensitivity = 1.000, specificity = 0.806). No other feature -- including expression level (AUC = 0.547), genomic region, TF family, gene length, or number of predicted TF binding sites -- adds predictive power. The protection zone is an expression-independent, locus-specific structural property.
 
@@ -94,8 +94,8 @@ Crucially, H26 demonstrated that **individual TF binding sites do NOT show methy
 
 The protection zone is not a universal feature of all regulatory genes. Rather, it defines a binary dichotomy:
 
-- **993 shielded regulators**: Full protection zone (1,200 bp width, 44.3% depth), methylation kept at median 762 bp from TSS, methylation-expression correlation non-significant.
-- **62 exposed regulators**: No protection zone (0 bp width, 0.000 depth), methylation enriched 8.4x at TSS (median 114 bp from TSS), methylation-expression correlation significant (rho = 0.277, p = 0.029).
+- **998 shielded regulators**: Full protection zone (1,200 bp width, 44.3% depth), methylation kept at median 762 bp from TSS, methylation-expression correlation non-significant.
+- **57 exposed regulators**: No protection zone (0 bp width, 0.000 depth), methylation enriched 8.4x at TSS (median 114 bp from TSS), methylation-expression correlation significant (rho = 0.277, p = 0.029).
 
 **What determines exposed status?** H28 found three distinguishing features: (1) lower T1 expression (median 90 vs 123, p = 0.010), (2) 100% dynamic expression with zero constitutive genes (OR = infinity, p = 5.3 x 10^-13), (3) higher promoter GC content (71.5% vs 69.7%, p = 2.0 x 10^-4). However, H29 definitively showed that **expression level does not predict classification** (baseMean AUC = 0.547, essentially random). The 293 bp boundary captures 98.9% of decision tree importance as the sole feature, and exposed regulators are distributed uniformly across all expression quintiles (4.4-7.9% per quintile, JT p = 0.730).
 
@@ -105,14 +105,14 @@ The **causal direction is reversed**: it is not "low expression causes loss of p
 
 **Key hypotheses:** H6 (genome-wide regulator screen), H8 (coordinated regulator characterization), H27 (exposed promoter model), H28 (exposed characteristics)
 
-The 62 exposed regulators constitute the sole pathway through which methylation dynamics could influence gene expression. Their characteristics:
+The 57 exposed regulators constitute the sole pathway through which methylation dynamics could influence gene expression. Their characteristics:
 
 - **Discovery (H6):** Genome-wide screen of 1,055 GFF-annotated regulatory genes identified 165 (15.6%) with methylation in their vicinity. Of these, 62 show coordinated methylation-expression changes. All 62 are outside the literature TF list of 37 -- the literature list was biased toward TF cascade apex genes (SARPs, master regulators), which are universally shielded.
 - **Coordination types (H8):** discordant_gain_up (22), concordant_derepression (12), concordant_repression (12), discordant_loss_down (16). All four types show identical absence of protection zones and similar TSS-proximal methylation.
 - **Functional enrichment (H8):** COG T (signal transduction) is enriched (OR = 2.47, p = 0.045). COG Q (secondary metabolism) = 0. The exposed regulators are regulatory layer components, not biosynthetic genes. Seven TCS cognate pairs were identified, all showing asymmetric methylation (one partner methylated, the other not).
 - **Geographic distribution (H8, H27):** No significant arm/core bias overall (OR = 1.26, p = 0.42), except that the T3 discordant_gain_up subgroup shows strong arm enrichment (87%, OR = 8.05, p = 0.001).
 
-**Critical caveat:** While the 62 exposed regulators show methylation-expression coordination and represent plausible targets of methylation-based regulation, the evidence remains correlational. The temporal causality tests (H19, H21) failed to demonstrate that methylation loss causes expression changes for any methylation system. The coordination could reflect shared responses to developmental signals rather than a causal methylation-to-expression pathway.
+**Critical caveat:** While the 57 exposed regulators show methylation-expression coordination and represent plausible targets of methylation-based regulation, the evidence remains correlational. The temporal causality tests (H19, H21) failed to demonstrate that methylation loss causes expression changes for any methylation system. The coordination could reflect shared responses to developmental signals rather than a causal methylation-to-expression pathway.
 
 ---
 
@@ -162,7 +162,7 @@ The negative findings of this project are as significant as the positive ones:
 | H5 | Stable MTase expression yields stronger gene-level methylation-expression correlation | 2 | **Partial** | Site-level dynamics confirmed (AAGCCCG 260 sites lost with SC_RS17645 downregulation), but gene-level correlations are weak (all |rho| < 0.16) |
 | H6 | Genome-wide regulator screen finds coordinated genes outside literature 37 | 3 | **Supported** | 1,055 regulators from GFF; 62 show coordination, all outside literature list; MerR highest methylation rate (28.6%) |
 | H7 | CCGG 4mC decrease is passive dilution from Dcm-like MTase expression loss | 3 | **Rejected** | Complete non-overlap (Jaccard = 0.000); T1 = 77% core to T2 = 89% arm; active remodeling, not passive dilution |
-| H8 | 62 coordinated regulators are arm-enriched and secondary metabolism-associated | 4 | **Partial** | Overall arm enrichment NS (p = 0.17), but T3 discordant_gain_up = 87% arm (OR = 8.05, p = 0.001); COG T enriched (OR = 2.47); 7 TCS pairs with asymmetric methylation |
+| H8 | 57 coordinated regulators are arm-enriched and secondary metabolism-associated | 4 | **Partial** | Overall arm enrichment NS (p = 0.17), but T3 discordant_gain_up = 87% arm (OR = 8.05, p = 0.001); COG T enriched (OR = 2.47); 7 TCS pairs with asymmetric methylation |
 | H9 | CCGG "4mC" is Dcm-derived 5mC misclassified by Nanopore | 4 | **Rejected** | 5mC signal = 0.01%; 4mC frequency highest of all modifications (82.7%); 91.4% in GCCGGC palindrome, not CCWGG |
 | H10 | REBASE + M145 MTase catalog identifies GCCGGC N4-C MTase | 5 | **Partial** | Only 2/87 NaeI-family produce m4C; SC_RS24685 top by annotation (9/10) but later BLAST-negative (H12) |
 | H11 | Gatekeeper Model v2 integrates H1-H9 into 3-layer quantitative model | 5 | **Completed** | 3-layer model built; 10 testable predictions defined; superseded by v3 (this report) |
@@ -181,7 +181,7 @@ The negative findings of this project are as significant as the positive ones:
 | H24 | BGC methylation enrichment is a geographic confound | 12 | **Partial** | All 4mC enrichment disappears in core-only; GCCGGC enrichment partially remains but explained by DNA sequence composition (GC-rich PKS/NRPS) |
 | H25 | Methylation density gradient around regulatory TSS is steeper | 12 | **Supported** | 2,200 bp protection zone; 17.3% depletion (vs 3.8%); deepest at +300 bp; all motifs independently replicate |
 | H26 | Individual TF binding sites show methylation depletion | 13 | **Rejected** | Flat spatial profiles (p = 0.12-0.96); GCCGGC enriched at TF BS (fold = 1.16); protection is collective not individual |
-| H27 | 62 coordinated regulators have shallower protection zones | 13 | **Supported (opposite)** | Not shallower but **absent**; 8.4x enrichment at TSS; 6.7x closer (p = 5.3 x 10^-28); Shielded/Exposed dichotomy |
+| H27 | 57 coordinated regulators have shallower protection zones | 13 | **Supported (opposite)** | Not shallower but **absent**; 8.4x enrichment at TSS; 6.7x closer (p = 5.3 x 10^-28); Shielded/Exposed dichotomy |
 | H28 | Exposed regulators have low T1 expression (RNAP not occupying promoter) | 14 | **Supported** | T1 lower (p = 0.010); 100% dynamic (p = 5.3 x 10^-13); higher GC (p = 2.0 x 10^-4); but H29 reverses causal interpretation |
 | H29 | baseMean threshold separates shielded from exposed (AUC > 0.7) | 14 | **Rejected** | baseMean AUC = 0.547 (random); nearest_methyl_distance AUC = 0.917 at 293 bp; protection is expression-independent |
 
@@ -207,7 +207,7 @@ The following figures represent the strongest candidates for a research publicat
 1. **TSS methylation spatial profile** (H25): Regulatory vs non-regulatory density with smoothed CI ribbons showing the 2,200 bp protection zone. The deepest depletion at +300 bp from TSS is the spatial fingerprint of promoter occupancy shielding.
    - Source: `48_TSS_methylation_gradient/figures/H25_comprehensive_summary.pdf`
 
-2. **Shielded vs Exposed protection zone comparison** (H27): Side-by-side density profiles for 993 shielded vs 62 exposed regulators, showing the complete absence of protection and the 8.4x TSS enrichment spike.
+2. **Shielded vs Exposed protection zone comparison** (H27): Side-by-side density profiles for 998 shielded vs 57 exposed regulators, showing the complete absence of protection and the 8.4x TSS enrichment spike.
    - Source: `50_coordinated_regulators_protection/figures/H27_comprehensive_summary.pdf`
 
 3. **293 bp boundary ROC and distance distributions** (H29): ROC curve showing AUC = 0.917 for nearest_methyl_distance, with violin/box plots of the bimodal distance distribution.
@@ -227,7 +227,7 @@ The following figures represent the strongest candidates for a research publicat
 7. **Exposed regulators: 100% dynamic expression** (H28): Temporal pattern distribution showing zero constitutive expression among exposed regulators (OR = infinity, p = 5.3 x 10^-13).
    - Source: `51_exposed_regulators_characteristics/figures/H28_comprehensive_summary.pdf`
 
-8. **GCCGGC geographic redistribution** (H14): Chromosome ideogram showing T1 core (83%) to T2 arm (82%) to T3 arm (62%) shift.
+8. **GCCGGC geographic redistribution** (H14): Chromosome ideogram showing T1 core (83%) to T2 arm (82%) to T3 arm (57%) shift.
    - Source: `37_defense_island_GCCGGC/figures/H14_defense_island_GCCGGC_analysis.pdf`
 
 ---
@@ -253,9 +253,9 @@ With expression level rejected as a predictor (AUC = 0.547), what defines the lo
 - DNA supercoiling topology and replication-dependent accessibility
 - Long-range chromosomal organization (Hi-C data would be informative)
 
-### 6.3 Downstream targets of the 62 exposed regulators
+### 6.3 Downstream targets of the 57 exposed regulators
 
-The 62 exposed regulators are enriched for signal transduction (COG T, OR = 2.47) and include 7 TCS pairs with asymmetric methylation. Their regulatory targets remain uncharacterized. Integration with the FIMO binding site predictions (56,338 hits genome-wide) could map the indirect regulatory cascade from methylation to expression.
+The 57 exposed regulators are enriched for signal transduction (COG T, OR = 2.47) and include 7 TCS pairs with asymmetric methylation. Their regulatory targets remain uncharacterized. Integration with the FIMO binding site predictions (56,338 hits genome-wide) could map the indirect regulatory cascade from methylation to expression.
 
 ### 6.4 Cross-species conservation of the model
 
@@ -299,7 +299,7 @@ H15 (site-centric) found strong regulatory avoidance (fold = 0.43-0.61), while H
 
 Of 28 testable hypotheses, 10 were rejected and 1 premise-rejected (39.3%). These null results were not failures but critical advances:
 
-- **H4 rejection** (TF cascade not methylation-controlled) redirected the search from literature TFs to genome-wide regulators, leading to the 62 exposed regulators (H6)
+- **H4 rejection** (TF cascade not methylation-controlled) redirected the search from literature TFs to genome-wide regulators, leading to the 57 exposed regulators (H6)
 - **H19 rejection** (Simpson's paradox) protected against false positive claims of methylation-mediated transcription control
 - **H26 rejection** (individual TF BS not protected) clarified that protection is a collective phenomenon, not attributable to individual binding events
 - **H29 rejection** (expression does not predict protection) reversed the causal interpretation from H28, establishing protection as a structural property
@@ -313,7 +313,7 @@ S. coelicolor M145 Epigenome-Transcriptome Model (v3)
 
 LAYER 1: R-M DEFENSE GEOGRAPHIC REDISTRIBUTION
 [H7, H14, H19]
-- GCCGGC 4mC: T1=1,289 sites (83% core) --> T2=407 (82% arm) --> T3=21 (62% arm)
+- GCCGGC 4mC: T1=1,289 sites (83% core) --> T2=407 (82% arm) --> T3=21 (57% arm)
 - AAGCCCG 6mA: T1=260 (69% core) --> T2=64 (64% core) [more stable]
 - Complete positional remodeling (Jaccard = 0.000)
 - Function: Phage defense, self-DNA marking
@@ -339,7 +339,7 @@ LAYER 2: REGULATORY DNA PROTECTION
   2c. SHIELDED / EXPOSED DICHOTOMY [H27, H29]
   ============================================
   |                                            |
-  |    SHIELDED (993 genes, 94.1%)             |    EXPOSED (62 genes, 5.9%)
+  |    SHIELDED (998 genes, 94.6%)             |    EXPOSED (57 genes, 5.4%)
   |    Protection zone: 1,200 bp               |    Protection zone: 0 bp
   |    Nearest methyl: 762 bp                  |    Nearest methyl: 114 bp
   |    Methylation-insensitive                 |    8.4x TSS enrichment
@@ -351,7 +351,7 @@ LAYER 2: REGULATORY DNA PROTECTION
              v                                          v
 
 EXCLUDED                                   LAYER 3: METHYLATION-RESPONSIVE
-(NO PATHWAY)                               REGULATORY CASCADE (62 genes)
+(NO PATHWAY)                               REGULATORY CASCADE (57 genes)
                                            [H6, H8, H27, H28]
 - Literature TF cascade (H4: 0/37)         - Signal transduction enriched (COG T, p=0.045)
 - Direct transcriptional control            - 7 TCS pairs (asymmetric methylation)
