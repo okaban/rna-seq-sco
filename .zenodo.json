@@ -1,0 +1,32 @@
+{
+  "upload_type": "software",
+  "title": "Analysis code: a dual N4-methylcytosine/N6-methyladenine methylome of Streptomyces coelicolor A3(2) M145 integrated with a strand-resolved transcriptome",
+  "description": "<p>Analysis code accompanying the manuscript <em>A dual N4-methylcytosine/N6-methyladenine methylome of Streptomyces coelicolor: base-resolution reassignment of a cytosine mark and a same-strand AAGCCCG duplication</em> (under revision, Nucleic Acids Research).</p><p>Nine biological samples of <em>S. coelicolor</em> A3(2) M145 across three developmental time points (12, 24 and 50 h; R5 liquid culture). Genomic DNA and total RNA were extracted from the same harvested culture per sample. Methylome: Oxford Nanopore MinION (FLO-MIN114 / SQK-RBK114-96), modification-tagged alignments to NC_003888.3 (6mA, 4mC, 5mC). Transcriptome: Illumina NovaSeq X Plus, strand-specific RNA-seq (Ribo-Zero Plus, NEBNext Ultra II Directional).</p><p>Sequencing data are deposited separately in the NCBI Sequence Read Archive (BioProject accession to be added). This record contains code, per-stage conda environment exports, result tables and figure-generation scripts only. Scripts hard-code absolute paths under the original author's home directory and must be adapted before running elsewhere; see README.</p>",
+  "creators": [
+    {
+      "name": "Takeda, Tomoki",
+      "affiliation": "Keio University"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "Streptomyces coelicolor",
+    "DNA methylation",
+    "N4-methylcytosine",
+    "N6-methyladenine",
+    "Oxford Nanopore",
+    "RNA-seq",
+    "bacterial epigenetics",
+    "restriction-modification"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/okaban/rna-seq-sco",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ],
+  "language": "eng"
+}
