@@ -1,0 +1,13 @@
+Analysis	Comparison	ModType	Test	Statistic	P_value	EffectSize	Group1_median	Group2_median	Interpretation
+A1_nearest_dist	T2vsT1	4mC	Wilcoxon(DEG vs nonDEG)	U=6641391.0	0.741542838300203	r=0.005	1166.0bp	1202.0bp	NS
+A1_nearest_dist	T2vsT1	6mA	Wilcoxon(DEG vs nonDEG)	U=6581433.0	0.3277875908359441	r=0.014	1139.5bp	1180.5bp	NS
+A1_nearest_dist	T3vsT1	4mC	Wilcoxon(DEG vs nonDEG)	U=5310275.5	0.33262880235979	r=0.015	1164.0bp	1225.0bp	NS
+A1_nearest_dist	T3vsT1	6mA	Wilcoxon(DEG vs nonDEG)	U=5354125.5	0.6592264918444775	r=0.007	1161.0bp	1131.0bp	NS
+A1_nearest_dist	T3vsT2	4mC	Wilcoxon(DEG vs nonDEG)	U=6929497.0	0.9397338222757012	r=0.001	1173.5bp	1187.0bp	NS
+A1_nearest_dist	T3vsT2	6mA	Wilcoxon(DEG vs nonDEG)	U=6983146.0	0.6215164313580746	r=-0.007	1164.5bp	1131.5bp	NS
+A2_promoter_density	T2vsT1	4mC	Kruskal-Wallis	H=14.774	0.0006192635133380415		up=0.000	down=0.000	Significant
+A2_promoter_density	T2vsT1	6mA	Kruskal-Wallis	H=14.695	0.000644056164351904		up=0.000	down=0.000	Significant
+A2_promoter_density	T3vsT1	4mC	Kruskal-Wallis	H=26.851	1.4768196059393043e-06		up=0.000	down=0.000	Significant
+A2_promoter_density	T3vsT1	6mA	Kruskal-Wallis	H=24.957	3.8071549563868677e-06		up=0.000	down=0.000	Significant
+A2_promoter_density	T3vsT2	4mC	Kruskal-Wallis	H=12.052	0.002415545374951932		up=0.000	down=0.000	Significant
+A2_promoter_density	T3vsT2	6mA	Kruskal-Wallis	H=9.709	0.007794871805560218		up=0.000	down=0.000	Significant

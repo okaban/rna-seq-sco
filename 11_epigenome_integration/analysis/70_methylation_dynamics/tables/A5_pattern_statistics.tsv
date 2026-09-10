@@ -1,0 +1,10 @@
+motif	pattern	count	pct_of_dynamic
+GCCGGC	Valley (T2 min)	315	36.9
+GCCGGC	Peak (T2 max)	237	27.8
+GCCGGC	Monotone decrease	215	25.2
+GCCGGC	Monotone increase	81	9.5
+GCCGGC	Other	5	0.6
+AAGCCCG	Peak (T2 max)	51	34.7
+AAGCCCG	Valley (T2 min)	46	31.3
+AAGCCCG	Monotone increase	27	18.4
+AAGCCCG	Monotone decrease	23	15.6

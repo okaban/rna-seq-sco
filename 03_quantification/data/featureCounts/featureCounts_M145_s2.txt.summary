@@ -1,0 +1,15 @@
+Status	/Users/okaban/bioinfo/rna-seq/02_alignment/analysis/02_alignment_260127_v1/bam/M145_1_1.Aligned.sortedByCoord.out.bam	/Users/okaban/bioinfo/rna-seq/02_alignment/analysis/02_alignment_260127_v1/bam/M145_1_2.Aligned.sortedByCoord.out.bam	/Users/okaban/bioinfo/rna-seq/02_alignment/analysis/02_alignment_260127_v1/bam/M145_1_3.Aligned.sortedByCoord.out.bam	/Users/okaban/bioinfo/rna-seq/02_alignment/analysis/02_alignment_260127_v1/bam/M145_2_1.Aligned.sortedByCoord.out.bam	/Users/okaban/bioinfo/rna-seq/02_alignment/analysis/02_alignment_260127_v1/bam/M145_2_3.Aligned.sortedByCoord.out.bam	/Users/okaban/bioinfo/rna-seq/02_alignment/analysis/02_alignment_260127_v1/bam/M145_2_4.Aligned.sortedByCoord.out.bam	/Users/okaban/bioinfo/rna-seq/02_alignment/analysis/02_alignment_260127_v1/bam/M145_3_2.Aligned.sortedByCoord.out.bam	/Users/okaban/bioinfo/rna-seq/02_alignment/analysis/02_alignment_260127_v1/bam/M145_3_3.Aligned.sortedByCoord.out.bam	/Users/okaban/bioinfo/rna-seq/02_alignment/analysis/02_alignment_260127_v1/bam/M145_3_4.Aligned.sortedByCoord.out.bam
+Assigned	5674291	5401036	7014013	6099923	5524922	6346280	5971334	5886460	5343722
+Unassigned_Unmapped	30280	25608	36469	29295	29316	28615	41864	34110	33820
+Unassigned_Read_Type	0	0	0	0	0	0	0	0	0
+Unassigned_Singleton	160499	149064	197005	139373	130770	145386	166799	144013	146136
+Unassigned_MappingQuality	0	0	0	0	0	0	0	0	0
+Unassigned_Chimera	1284	1216	1623	1447	1637	1849	3048	2910	3210
+Unassigned_FragmentLength	0	0	0	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0	0	0	0
+Unassigned_MultiMapping	205118	159861	204403	343055	500700	471085	267993	177349	174842
+Unassigned_Secondary	0	0	0	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0	0	0	0
+Unassigned_NoFeatures	998984	953358	1260250	978477	762747	676118	1384534	771849	1171116
+Unassigned_Overlapping_Length	0	0	0	0	0	0	0	0	0
+Unassigned_Ambiguity	190856	183114	233022	98121	92274	104065	104520	96250	88580

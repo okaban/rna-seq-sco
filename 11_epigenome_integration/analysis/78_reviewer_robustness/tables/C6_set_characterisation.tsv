@@ -1,0 +1,4 @@
+set	n_windows	span_Mb	n_genes	genes_per_kb	frac_compA	frac_core	median_FIRE	median_methyl_n
+hotspot	102	0.51	535	1.049	0.98	1.0	1.605	2.0
+background	1622	8.11	7404	0.9129	0.419	0.636	0.968	0.0
+genome_all	1724	8.62	7816	0.9067	0.452	0.658	1.005	0.0

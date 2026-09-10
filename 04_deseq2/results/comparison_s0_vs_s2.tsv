@@ -1,0 +1,4 @@
+contrast	s0_total_deg	s0_up_deg	s0_down_deg	s2_total_deg	s2_up_deg	s2_down_deg	common_deg	only_s0_deg	only_s2_deg	pct_agreement	lfc_spearman_rho
+2_vs_1	3848	2003	1845	3840	2038	1802	3528	320	312	91.7	0.9708
+3_vs_1	4841	2766	2075	4674	2727	1947	4293	548	381	88.7	0.9773
+3_vs_2	3507	2014	1493	3067	1850	1217	2830	677	237	80.7	0.9729

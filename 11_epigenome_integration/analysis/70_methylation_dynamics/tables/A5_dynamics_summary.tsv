@@ -1,0 +1,7 @@
+threshold	motif	n_total	n_dynamic	n_stable	pct_dynamic
+0.2	GCCGGC	855	854	1	99.9
+0.2	AAGCCCG	147	147	0	100.0
+0.3	GCCGGC	855	853	2	99.8
+0.3	AAGCCCG	147	147	0	100.0
+0.4	GCCGGC	855	853	2	99.8
+0.4	AAGCCCG	147	147	0	100.0

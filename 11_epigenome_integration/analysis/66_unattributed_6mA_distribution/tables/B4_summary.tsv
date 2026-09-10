@@ -1,0 +1,10 @@
+analysis	category	n	pct_unattr	expected_pct	enrichment	fisher_p
+6mA_total_T1	all	1934				
+6mA_AAGCCCG_T1	AAGCCCG	260				
+6mA_unattr_T1	unattr	1674				
+BGC_enrichment	in_BGC	29	1.73	2.11	0.82	0.3079445386805144
+BGC_enrichment	non_BGC	1645	98.27	97.89		
+TSS_proximity	proximal	1075	64.22	88.61	0.725	1.1098005454558594e-149
+TSS_proximity	distal	599	35.78	11.39		
+GCCGGC_coloc	colocalized	49	2.93	1.4872	1.968	1.6618336025620946e-05
+GCCGGC_coloc	non_coloc	1625	97.07	98.5128		

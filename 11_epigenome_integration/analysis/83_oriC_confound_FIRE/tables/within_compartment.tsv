@@ -1,0 +1,6 @@
+analysis	effect	p	n
+genome-wide meth–FIRE	rho=0.319	p=5.6e-42	n=1724
+WITHIN-core meth–FIRE	rho=0.054	p=1.3e-01	n=780
+within-arm meth–FIRE	rho=0.264	p=1.5e-16	n=944
+within-core FIRE vs oriC-dist	rho=-0.764	p=4.4e-150	n=780
+within-core partial meth–FIRE | oriC-dist	rho=0.024		

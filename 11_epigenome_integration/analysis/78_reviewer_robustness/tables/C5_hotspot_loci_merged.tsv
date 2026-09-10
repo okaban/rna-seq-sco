@@ -1,0 +1,73 @@
+locus_rank	start_bp	end_bp	n_bins	max_FIRE	sum_methyl_T1	in_compartmentA	nearest_BGC	dist_to_BGC_bp	width_kb	nearest_gene	nearest_product
+1	4160000	4175000	3	2.0958	10	1	cda	560180	15.0	SC_RS21070	PhoX family protein
+2	3955000	3970000	3	1.6586	9	1	cda	355180	15.0	SC_RS20050	Pr6Pr family membrane protein
+3	3985000	4005000	4	1.6726	8	1	cda	385180	20.0	SC_RS20210	aspartate kinase
+4	3475000	3490000	3	1.4892	8	1	cda	31949	15.0	SC_RS18000	divisome protein SepX/GlpR
+5	3690000	3700000	2	1.483	7	1	cda	90180	10.0	SC_RS18810	ABC transporter permease
+6	4230000	4240000	2	2.7111	6	1	cda	630180	10.0	SC_RS21375	Stk1 family PASTA domain-containing Ser/Thr kinase
+7	4700000	4710000	2	1.6489	6	1	act	806309	10.0	SC_RS23630	hypothetical protein
+8	3925000	3935000	2	1.6343	6	1	cda	325180	10.0	SC_RS19910	type II secretion system F family protein
+9	4890000	4900000	2	1.5576	6	1	act	616309	10.0	SC_RS24535	c-type cytochrome biogenesis protein CcsB
+10	5815000	5830000	3	1.4643	6	1	act	282409	15.0	SC_RS28950	homoserine dehydrogenase
+11	4360000	4370000	2	2.2831	5	1	cda	760180	10.0	SC_RS21960	copper resistance CopC/CopD family protein
+12	5060000	5070000	2	1.7045	5	1	act	446309	10.0	SC_RS25375	TetR/AcrR family transcriptional regulator
+13	6015000	6025000	2	1.5968	5	1	red	410312	10.0	SC_RS29810	urease subunit gamma
+14	3665000	3675000	2	1.4657	5	1	cda	65180	10.0	SC_RS18695	hydroxymethylbilane synthase
+15	4725000	4735000	2	1.4589	5	1	act	781309	10.0	SC_RS23770	hypothetical protein
+16	5205000	5215000	2	1.4279	5	1	act	301309	10.0	SC_RS26105	DoxX family protein
+17	4255000	4260000	1	2.7759	4	1	cda	655180	5.0	SC_RS21490	SCO3870 family protein
+18	4200000	4210000	2	2.5247	4	1	cda	600180	10.0	SC_RS21245	NAD(P)H-quinone oxidoreductase
+19	4420000	4430000	2	2.0922	4	1	cda	820180	10.0	SC_RS22260	ANTAR domain-containing protein
+20	4640000	4645000	1	1.7302	4	1	act	871309	5.0	SC_RS23370	DoxX family protein
+21	3975000	3980000	1	1.6751	4	1	cda	375180	5.0	SC_RS20140	cation:proton antiporter regulatory subunit
+22	5090000	5100000	2	1.627	4	1	act	416309	10.0	SC_RS25500	ABC transporter permease
+23	4075000	4080000	1	1.6011	4	1	cda	475180	5.0	SC_RS20620	ArsO family NAD(P)H-dependent flavin-containing monooxygenase
+24	4870000	4880000	2	1.5931	4	1	act	636309	10.0	SC_RS24425	RNA polymerase sigma factor
+25	3275000	3285000	2	1.5892	4	1	cda	236949	10.0	SC_RS17130	GNAT family N-acetyltransferase
+26	6035000	6045000	2	1.53	4	1	red	390312	10.0	SC_RS29895	DUF742 domain-containing protein
+27	3395000	3405000	2	1.4709	4	1	cda	116949	10.0	SC_RS17640	hypothetical protein
+28	3760000	3770000	2	1.4561	4	1	cda	160180	10.0	SC_RS19120	nuclear transport factor 2 family protein
+29	4490000	4495000	1	1.8633	3	1	cda	890180	5.0	SC_RS22630	metallopeptidase family protein
+30	4650000	4655000	1	1.756	3	1	act	861309	5.0	SC_RS23415	GPW/gp25 family protein
+31	5140000	5145000	1	1.7045	3	1	act	371309	5.0	SC_RS25805	DNA-directed RNA polymerase subunit alpha
+32	3305000	3310000	1	1.6862	3	1	cda	211949	5.0	SC_RS17235	cation diffusion facilitator family transporter
+33	3380000	3385000	1	1.5924	3	1	cda	136949	5.0	SC_RS17570	ABC transporter ATP-binding protein
+34	3705000	3710000	1	1.5309	3	1	cda	105180	5.0	SC_RS18865	hypothetical protein
+35	3440000	3445000	1	1.5265	3	1	cda	76949	5.0	SC_RS17830	helix-turn-helix transcriptional regulator
+36	3890000	3895000	1	1.4232	3	1	cda	290180	5.0	SC_RS19740	hypothetical protein
+37	4325000	4330000	1	2.3984	2	1	cda	725180	5.0	SC_RS21805	GntR family transcriptional regulator
+38	4335000	4340000	1	2.3691	2	1	cda	735180	5.0	SC_RS21850	Ser/Thr/Tyr protein phosphatase SppA
+39	4465000	4470000	1	2.2869	2	1	cda	865180	5.0	SC_RS22495	sensor histidine kinase
+40	4295000	4300000	1	2.2289	2	1	cda	695180	5.0	SC_RS21650	transglycosylase domain-containing protein
+41	4445000	4450000	1	2.2156	2	1	cda	845180	5.0	SC_RS22395	hypothetical protein
+42	4305000	4310000	1	2.1702	2	1	cda	705180	5.0	SC_RS21700	replicative DNA helicase
+43	4375000	4380000	1	2.0329	2	1	cda	775180	5.0	SC_RS22015	ATP-binding protein
+44	4400000	4405000	1	2.0192	2	1	cda	800180	5.0	SC_RS22150	TetR family transcriptional regulator
+45	4135000	4140000	1	2.0012	2	1	cda	535180	5.0	SC_RS20940	hemolysin family protein
+46	4145000	4150000	1	1.9415	2	1	cda	545180	5.0	SC_RS20985	LysR family transcriptional regulator
+47	4120000	4125000	1	1.9355	2	1	cda	520180	5.0	SC_RS20885	ABC transporter ATP-binding protein
+48	3345000	3350000	1	1.8351	2	1	cda	171949	5.0	SC_RS17380	FG-GAP-like repeat-containing protein
+49	4630000	4635000	1	1.7869	2	1	act	881309	5.0	SC_RS23325	phosphate signaling complex protein PhoU
+50	4505000	4510000	1	1.7772	2	1	cda	905180	5.0	SC_RS22710	M23 family metallopeptidase
+51	4660000	4665000	1	1.708	2	1	act	851309	5.0	SC_RS23455	phage tail sheath subtilisin-like domain-containing protein
+52	4020000	4025000	1	1.7009	2	1	cda	420180	5.0	SC_RS20360	alpha/beta hydrolase
+53	4605000	4610000	1	1.6675	2	1	act	906309	5.0	SC_RS23175	helix-turn-helix domain-containing protein
+54	4555000	4560000	1	1.6343	2	1	cda	955180	5.0	SC_RS22900	phosphate ABC transporter substrate-binding protein PstS
+55	4680000	4685000	1	1.6277	2	1	act	831309	5.0	SC_RS23515	zinc-binding dehydrogenase
+56	3740000	3745000	1	1.6141	2	1	cda	140180	5.0	SC_RS19020	hypothetical protein
+57	4055000	4060000	1	1.5786	2	1	cda	455180	5.0	SC_RS20505	FG-GAP repeat domain-containing protein
+58	3725000	3730000	1	1.5661	2	1	cda	125180	5.0	SC_RS18965	M23 family metallopeptidase
+59	4525000	4530000	1	1.5564	2	1	cda	925180	5.0	SC_RS22770	ATP-binding SpoIIE family protein phosphatase
+60	5155000	5160000	1	1.54	2	1	act	356309	5.0	SC_RS25875	helix-turn-helix domain-containing protein
+61	5080000	5085000	1	1.5369	2	1	act	431309	5.0	SC_RS25455	DNA-directed RNA polymerase subunit beta'
+62	4840000	4845000	1	1.5204	2	1	act	671309	5.0	SC_RS24290	hypothetical protein
+63	4810000	4815000	1	1.5131	2	1	act	701309	5.0	SC_RS24145	alpha/beta fold hydrolase
+64	5175000	5180000	1	1.4879	2	1	act	336309	5.0	SC_RS25985	MOSC domain-containing protein
+65	5185000	5190000	1	1.4837	2	1	act	326309	5.0	SC_RS26030	glycerol-3-phosphate dehydrogenase/oxidase
+66	4935000	4940000	1	1.4358	2	1	act	576309	5.0	SC_RS24730	putative T7SS-secreted protein
+67	5835000	5840000	1	1.4339	2	1	act	302409	5.0	SC_RS29015	F0F1 ATP synthase subunit A
+68	4785000	4790000	1	1.432	2	1	act	726309	5.0	SC_RS24030	SUKH-4 family immunity protein
+69	3255000	3260000	1	1.4216	2	1	cda	261949	5.0	SC_RS17040	MarR family winged helix-turn-helix transcriptional regulator
+70	2210000	2215000	1	1.4197	2	0	cda	1306949	5.0	SC_RS12360	DNA polymerase III subunit alpha
+71	5560000	5565000	1	1.408	2	1	act	27409	5.0	SC_RS27740	ABC transporter ATP-binding protein
+72	2235000	2240000	1	1.4017	2	0	cda	1281949	5.0	SC_RS12460	undecaprenyldiphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase

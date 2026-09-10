@@ -1,0 +1,4 @@
+timepoint	n_total_6mA	n_AAGCCCG	n_GATC	n_unattr_excl_GATC	n_unassigned	pct_unattr_excl_GATC	pct_unassigned	n_proximal_600bp	pct_proximal_600bp	expected_pct_proximal	tss_proximity_p	n_coloc_gccggc	pct_coloc_gccggc	jaccard_unattr_vs_gccggc4mC	jaccard_all6mA_vs_gccggc4mC
+T1	1934	260	19	1655	1220	85.6	63.1	1174	70.9	76.2	0.0008055236011335658	49	2.96	0.0919	0.096
+T2	719	64	10	645	490	89.7	68.2	445	69.0	78.1	0.0002441652271281983	2	0.31	0.0288	0.0281
+T3	595	38	10	547	420	91.9	70.6	379	69.3	81.6	3.2936391835196992e-06	1	0.18	0.0038	0.0035

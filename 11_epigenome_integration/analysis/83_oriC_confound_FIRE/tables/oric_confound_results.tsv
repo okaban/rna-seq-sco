@@ -1,0 +1,10 @@
+analysis	effect	p	n
+windows: Spearman(meth_T1, FIRE) raw	rho=0.319	p=5.57e-42	n=1724
+windows: partial Spearman(meth,FIRE | dist_oriC)	rho=0.026		
+windows: FIRE vs dist_oriC (gradient)	rho=-0.934	p=0.00e+00	
+windows: meth_T1 vs dist_oriC (gradient)	rho=-0.332	p=1.60e-45	
+genes: Exposed vs Shielded FIRE_tss (overall)	medE=1.27 medS=0.94	MWU p=8.60e-06	nE=62 nS=985
+genes: Exposed>Shielded FIRE within oriC-dist Q1	medE=1.51 medS=1.61	MWU p=4.24e-01	nE=25 nS=237
+genes: Exposed>Shielded FIRE within oriC-dist Q2	medE=1.24 medS=1.11	MWU p=1.29e-01	nE=21 nS=240
+genes: Exposed>Shielded FIRE within oriC-dist Q3	medE=0.72 medS=0.66	MWU p=5.45e-02	nE=11 nS=251
+genes: Exposed>Shielded FIRE within oriC-dist Q4	medE=0.39 medS=0.41	MWU p=4.56e-01	nE=5 nS=257
