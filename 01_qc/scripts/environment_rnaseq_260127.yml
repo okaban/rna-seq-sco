@@ -122,4 +122,3 @@ dependencies:
   - yaml=0.2.5=h925e9cb_3
   - zipp=3.23.0=pyhcf101f3_1
   - zstd=1.5.7=hbf9d68e_6
-prefix: /Users/okaban/miniconda3/envs/rna-seq
