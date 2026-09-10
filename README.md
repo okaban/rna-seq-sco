@@ -70,5 +70,5 @@ its history and the reason stated in its docstring.
 
 ## License
 
-`TODO` — not yet chosen. Until a license is added, no permission to reuse this
-code is granted.
+MIT — see [LICENSE](LICENSE). The manuscript itself is not covered by this
+license.
