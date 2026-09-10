@@ -1,11 +1,38 @@
 #!/usr/bin/env python3
 """
-Figure 4: Shielded/Exposed Binary Classification and 293 bp Boundary
+RETRACTED — DO NOT RUN. Superseded; no output of this script appears in the
+manuscript.
 
-(A) Violin + strip plot — nearest_methyl_distance (Shielded vs Exposed)
-(B) ROC curves — distance AUC=0.917 vs expression AUC=0.547 (+ 293bp threshold)
-(C) Expression-independence — exposed fraction by expression quintile
+Former purpose: Figure 4, Shielded/Exposed binary classification and the
+293 bp boundary.
+
+Reason for retraction: panel B is circular. The ROC is scored with
+`y_true = df_genes['is_exposed']` while the predictor is
+`nearest_methyl_distance`, but `is_exposed` is itself *defined* by
+thresholding that same distance at 293 bp. The classifier is therefore
+recovering its own labelling rule, and the resulting AUC values (0.908 for
+distance, and the 0.917 variant quoted in the old header) are not evidence of
+anything. Both values were withdrawn from the manuscript and must not be
+reintroduced as live claims.
+
+Retained in the tree for provenance only. If the Shielded/Exposed contrast is
+ever revisited, the labels must come from a source independent of the distance
+metric being tested.
 """
+
+import sys as _sys
+
+_RETRACTION_NOTICE = (
+    "27_figure4_shielded_exposed.py is RETRACTED and disabled.\n"
+    "Panel B computed a circular ROC (y_true = is_exposed, which is defined by\n"
+    "thresholding the predictor nearest_methyl_distance at 293 bp). The AUC\n"
+    "values 0.908 / 0.917 were withdrawn from the manuscript and must not be\n"
+    "regenerated as live results. No manuscript figure slot uses this script.\n"
+    "To inspect the historical code, read the file or use git history; to run\n"
+    "it anyway you must deliberately remove this guard."
+)
+
+raise SystemExit(_RETRACTION_NOTICE)
 
 import importlib
 import numpy as np
