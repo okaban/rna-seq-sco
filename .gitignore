@@ -1,50 +1,66 @@
-# =============================================================
-# S. coelicolor RNA-seq + Epigenome project .gitignore
-# =============================================================
-
-# --- Large sequencing data files ---
-*.bam
-*.bai
-*.sam
+# ---------------------------------------------------------------------------
+# Sequencing data — deposited to SRA/ENA under the BioProject, never in git.
+# See DATA_LOCATIONS.md for where the canonical copies live.
+# ---------------------------------------------------------------------------
 *.fastq
 *.fastq.gz
 *.fq
 *.fq.gz
+*.bam
+*.bam.bai
+*.bai
 *.cram
-*.crai
+*.pod5
+*.fast5
 
-# --- Genome index files ---
-02_alignment/star_index/
-02_alignment/hisat2_index/
-*.ht2
-*.bt2
-*.bt2l
+# ---------------------------------------------------------------------------
+# Regenerable large intermediates. Recomputable from the deposited data with
+# the scripts in this repo; excluded because they exceed GitHub's file limits.
+# ---------------------------------------------------------------------------
+*_pileup.bed
+*_modonly.tsv
 
-# --- Large binary / intermediate files ---
-*.fna
-*.fa.gz
-*.fasta.gz
+# BLAST / alignment indexes (rebuild with makeblastdb / STAR / hisat2-build)
+*.nsq
+*.nin
+*.nhr
+*.ndb
+*.not
+*.ntf
+*.nto
+star_index/
+hisat2_index/
 
-# --- OS / editor junk ---
+# antiSMASH output bundle (regenerate from the reference GenBank)
+11_epigenome_integration/analysis/antismash_output/
+
+# ---------------------------------------------------------------------------
+# Working files that should never have been candidates for commit
+# ---------------------------------------------------------------------------
 .DS_Store
-**/.DS_Store
-*.swp
-*.swo
 *~
-.Rhistory
-.RData
+*.bak
+*.bak_*
+.bak_*
+temp/
+tmp/
+*_tmp/
 
-# --- Conda / Python environments ---
-.conda/
+# ---------------------------------------------------------------------------
+# Downloaded reference genomes (re-fetchable from NCBI; see the fetch script)
+# ---------------------------------------------------------------------------
+*.fna
+*.fna.gz
+11_epigenome_integration/data/ncbi_genomes/
+11_epigenome_integration/data/ncbi_genomes_all_species/
+
+# ---------------------------------------------------------------------------
+# Build / run detritus
+# ---------------------------------------------------------------------------
 __pycache__/
 *.pyc
 *.pyo
-.ipynb_checkpoints/
-
-# --- R session artifacts ---
-Rplots.pdf
-
-# --- Temporary files ---
-*.tmp
-*.temp
 *.log
+.ipynb_checkpoints/
+.Rhistory
+.RData
