@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated manuscript."
+title: "Analysis code for the S. coelicolor M145 dual 4mC/6mA methylome study"
+type: software
+authors:
+  - name: "TODO — add author list before publishing"
+repository-code: "https://github.com/okaban/rna-seq-sco"
+license-url: "TODO — add once a license is chosen"
+preferred-citation:
+  type: article
+  title: "A dual N4-methylcytosine/N6-methyladenine methylome of Streptomyces coelicolor: base-resolution reassignment of a cytosine mark and a same-strand AAGCCCG duplication"
+  journal: "Nucleic Acids Research"
+  status: submitted
+  year: 2026
+  authors:
+    - name: "TODO — add author list before publishing"
