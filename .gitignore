@@ -64,3 +64,28 @@ __pycache__/
 .ipynb_checkpoints/
 .Rhistory
 .RData
+
+# ---------------------------------------------------------------------------
+# Internal working material — removed from history 2026-09-10 before the
+# repository was made public, and ignored so it cannot be re-added.
+#   - peer-review correspondence is confidential to the journal and reviewers
+#   - narrative/story planning documents are internal author material
+#   - agent session logs and local settings are machine-specific
+#   - the two retracted-model renders must not be reachable by figure-slot
+#     lookup: Figure5_gatekeeper_model is the withdrawn four-tier Gatekeeper
+#     model, Figure2c_shielded_exposed the withdrawn Shielded/Exposed panel
+# The files remain on the author's disk; only git ignores them.
+# ---------------------------------------------------------------------------
+.claude/
+**/.claude/
+00_memo/
+Daily/
+Writing/Reviewer-Response-Draft.md
+Writing/story_and_outline_draft.md
+Writing/story_options_for_author.md
+Writing/draft_hi-c_paragraph.md
+Writing/draft_pisciotta_reinterpretation.md
+**/story_option_b_overview*
+**/figure_plan_storyB*
+**/Figure5_gatekeeper_model.*
+**/Figure2c_shielded_exposed.*
