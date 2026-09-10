@@ -1,0 +1,128 @@
+#Use Poisson/Negative Binominal regression remove systematic biases in loca interactions data
+#Adapt from HiCNorm from MingHu
+
+library("optparse")
+options(scipen = 999)
+
+option_list = list(
+  make_option(c("-i", "--input"), type = "character", default = NA,
+              help = "loca interactions data"),
+  make_option(c("-o", "--output"), type = "character", default = NA,
+              help = "normalized HiC matrix"),
+  make_option(c("-f", "--genomic_feature"), type = "character", default = NA,
+              help = "genomic feature file"),
+  make_option(c("-c", "--cov"), type = "integer", default = 2,
+              help = "minimum coverage [default %default]"),
+  make_option(c("-l", "--len"), type = "double", default = 0.1,
+              help = "minimum effective fragment length fraction of the bin [default %default]"),
+  make_option(c("-s", "--gc"), type = "double", default = 0.3,
+              help = "minimum gc content [default %default]"),
+  make_option(c("-m", "--map"), type = "double", default = 0.8,
+              help = "minimum mappability [default %default]"),
+  make_option(c("-n", "--negative_binomial"), action = "store_true", default =FALSE,
+              help = "use negative binomial regression")
+)
+
+opt_parser <- OptionParser(option_list=option_list)
+opt <- parse_args(opt_parser)
+
+if ( is.na(opt$input) | is.na(opt$output) | is.na(opt$genomic_feature) ) {
+  stop("Missing required parameters. See usage (--help)")
+}
+
+map_in <- opt$input
+genomic_features_in <- opt$genomic_feature
+out <- opt$output
+min_cov <- opt$cov
+min_len <- opt$len
+min_gc <- opt$gc
+min_map <- opt$map
+
+if ( !file.exists(genomic_features_in) ) {
+  stop("Cannot open genomic feauture file.")
+}
+if ( !file.exists(map_in) ) {
+  stop("Cannot open raw HiC matices.")
+}
+
+genomic_features <- read.table(genomic_features_in,head=F, sep="\t", colClasses=c("factor",rep("numeric",4)))
+colnames(genomic_features) <- c('chr', 'bin1', 'len', 'gc', 'map')
+genomic_features <- genomic_features[genomic_features$len>0 & genomic_features$gc>0 & genomic_features$map>0, ]
+
+map <- read.table(map_in, head=F)
+colnames(map) <- c('chr', 'bin1',  'raw') ##
+
+chr_n <- table(map$chr)
+chr_id <- names(chr_n)
+
+chr_id
+final <- NULL
+
+for (chr in chr_id) {
+	tryCatch(
+		{
+			message(paste("normalizing",chr,sep=" "))
+
+			genomic_features_chr <- genomic_features[which(genomic_features$chr==chr),]
+			#message(paste("feture",genomic_features_chr,sep=" "))
+			
+			map_chr <- map[which(map$chr==chr),]
+			#select bins with confident genomic features to build model
+			conf_bins <- which(genomic_features_chr$len>=min_len & genomic_features_chr$gc>=min_gc & genomic_features_chr$map>=min_map) 
+			#message(conf_bins)
+			
+			ind1 <- match(map_chr$bin1,genomic_features_chr$bin1)
+			#message(paste("aaaaa",ind1,sep=" "))
+			#ind2 <- match(map_chr$bin2,genomic_features_chr$bin1)
+
+			map_chr$len <- genomic_features_chr$len[ind1]
+            map_chr$gc <- genomic_features_chr$gc[ind1]
+            map_chr$map <- genomic_features_chr$map[ind1]
+
+			res <- map_chr
+
+    		
+			map_fit <- map_chr[!is.na(map_chr$len) & map_chr$raw >= min_cov & ind1 %in% conf_bins ,]
+			map_chr$len <- (map_chr$len - mean(map_fit$len)) / sd(map_fit$len)
+			map_chr$gc <- (map_chr$gc - mean(map_fit$gc)) / sd(map_fit$gc)
+    		
+			map_fit$len <- (map_fit$len - mean(map_fit$len)) / sd(map_fit$len)
+			
+			map_fit$gc <- (map_fit$gc - mean(map_fit$gc)) / sd(map_fit$gc)
+			
+		#	message(opt$negative_binomial)
+			#message(map_fit$len)
+			#message(map_fit$gc)
+		#	message(map_fit$map)
+#			message("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+			if ( opt$negative_binomial ) {
+			  library("MASS")
+			  fit <- glm.nb(raw~len+gc+offset(map), data = map_fit)
+			 
+			}
+			else{
+				message("duandian1")
+			  fit <- glm(raw~len+gc+offset(map), data = map_fit, family = "poisson")
+				message("duandian2")				
+			 
+			}
+			message("duandian3")
+			coeff <- round(fit$coeff,4)
+			message("duandian4")
+			res$nor <- round(map_chr$raw / exp(coeff[1] + coeff[2] * map_chr$len + coeff[3] * map_chr$gc + map_chr$map), 4)
+			message("duandian5")
+			final <- rbind(final,res)
+		},
+		error = function(e) {
+			message(e)
+			message(paste("\nskip", chr, sep=" "))
+		},
+		warning = function(w){
+			message(w)
+			message(paste("\nskip", chr, sep=" "))
+		}
+  )
+}
+#final
+write.table(final[,c(1,2,7)], file=out, row.names=F, col.names=F, sep="\t", quote=F, na = "NaN")
+

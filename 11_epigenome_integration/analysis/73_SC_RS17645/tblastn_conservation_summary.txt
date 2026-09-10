@@ -1,0 +1,42 @@
+SC_RS17645 conservation across 833 local Streptomyces genomes
+================================================================
+
+Total genomes with any tblastn hit:                  666 / 833
+Genomes with hit (identity >=30%, qcov >=60%):       590 / 833
+Genomes with hit (identity >=50%, qcov >=80%):       406 / 833
+Genomes with hit (identity >=80%, qcov >=80%):       41 / 833
+Genomes with hit (identity >=95%, qcov >=95%):       6 / 833
+
+Distinct species with any hit:                       666
+
+Top 30 species by best-hit bitscore:
+  Streptomyces coelicolor             ident= 99.8%  qcov=100.0%  bits=1208.0  (GCF_008931305.1)
+  Streptomyces violaceolatus          ident= 99.3%  qcov=100.0%  bits=1199.0  (GCF_039532845.1)
+  Streptomyces violaceoruber          ident= 99.3%  qcov=100.0%  bits=1199.0  (GCF_033406955.1)
+  Streptomyces anthocyanicus          ident= 99.3%  qcov=100.0%  bits=1195.0  (GCF_035917655.1)
+  Streptomyces lividans               ident= 99.1%  qcov=100.0%  bits=1194.0  (GCF_000739105.1)
+  Streptomyces rubrogriseus           ident= 98.2%  qcov=100.0%  bits=1186.0  (GCF_027947575.1)
+  Streptomyces coelicoflavus          ident= 92.8%  qcov= 99.9%  bits=1116.0  (GCF_045041415.1)
+  Streptomyces lienomycini            ident= 91.9%  qcov=100.0%  bits=1108.0  (GCF_027947595.1)
+  Streptomyces salinarius             ident= 92.5%  qcov= 99.4%  bits=1105.0  (GCF_014280945.1)
+  Streptomyces tendae                 ident= 92.3%  qcov= 99.9%  bits=1104.0  (GCF_014650435.1)
+  Streptomyces violaceorubidus        ident= 90.7%  qcov= 99.9%  bits=1072.0  (GCF_000717995.1)
+  Streptomyces hyderabadensis         ident= 90.7%  qcov= 99.9%  bits=1060.0  (GCF_020404845.1)
+  Streptomyces ardesiacus             ident= 90.3%  qcov= 99.0%  bits=1028.0  (GCF_003112575.1)
+  Streptomyces solaniscabiei          ident= 83.8%  qcov=100.0%  bits= 965.0  (GCF_020312315.1)
+  Streptomyces flaveolus              ident= 83.8%  qcov=100.0%  bits= 962.0  (GCF_044765825.1)
+  Streptomyces viridiviolaceus        ident= 78.1%  qcov= 99.9%  bits= 958.0  (GCF_014650995.1)
+  Streptomyces pseudovenezuelae       ident= 77.5%  qcov=100.0%  bits= 945.0  (GCF_036345035.1)
+  Streptomyces canus                  ident= 76.2%  qcov=100.0%  bits= 944.0  (GCF_036177905.1)
+  Streptomyces doebereineriae         ident= 76.5%  qcov=100.0%  bits= 943.0  (GCF_031845645.1)
+  Streptomyces griseicoloratus        ident= 76.1%  qcov= 99.9%  bits= 941.0  (GCF_014534645.1)
+  Streptomyces shaanxiensis           ident= 78.6%  qcov= 99.9%  bits= 937.0  (GCF_039537145.1)
+  Streptomyces pharetrae              ident= 81.5%  qcov=100.0%  bits= 937.0  (GCF_040302545.1)
+  Streptomyces spinoverrucosus        ident= 78.8%  qcov=100.0%  bits= 935.0  (GCF_006539505.1)
+  Streptomyces cyaneochromogenes      ident= 78.1%  qcov= 99.9%  bits= 935.0  (GCF_003963535.1)
+  Streptomyces mutabilis              ident= 76.8%  qcov=100.0%  bits= 931.0  (GCF_046628145.1)
+  Streptomyces griseoloalbus          ident= 76.3%  qcov=100.0%  bits= 930.0  (GCF_014650015.1)
+  Streptomyces fimbriatus             ident= 77.1%  qcov=100.0%  bits= 924.0  (GCF_039533005.1)
+  Streptomyces bungoensis             ident= 75.9%  qcov=100.0%  bits= 924.0  (GCF_001514215.1)
+  Streptomyces actuosus               ident= 75.8%  qcov=100.0%  bits= 924.0  (GCF_016921115.1)
+  Streptomyces lucensis               ident= 74.4%  qcov=100.0%  bits= 924.0  (GCF_014650035.1)
