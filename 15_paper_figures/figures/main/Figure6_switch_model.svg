@@ -2541,16 +2541,16 @@ z
     <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #7e57c2" x="312.644767" y="431.866783" transform="rotate(-0 312.644767 431.866783)">Observation 2</text>
    </g>
    <g id="text_152">
-    <text style="font-size: 6.5px; font-family: 'Arial'; text-anchor: start; fill: #37474f" x="312.644767" y="440.385958" transform="rotate(-0 312.644767 440.385958)">62 of 1,055 regulatory genes lack methylation protection at TSS</text>
+    <text style="font-size: 6.5px; font-family: 'Arial'; text-anchor: start; fill: #37474f" x="312.644767" y="440.385958" transform="rotate(-0 312.644767 440.385958)">57 of 1,055 regulatory genes lack methylation protection at TSS</text>
    </g>
    <g id="text_153">
-    <text style="font-size: 6px; font-family: 'Arial'; text-anchor: start; fill: #37474f" x="312.644767" y="449.86973" transform="rotate(-0 312.644767 449.86973)">(293 bp threshold, AUC = 0.917; 993 shielded, 62 exposed)</text>
+    <text style="font-size: 6px; font-family: 'Arial'; text-anchor: start; fill: #37474f" x="312.644767" y="449.86973" transform="rotate(-0 312.644767 449.86973)">(293 bp threshold, AUC = 0.917; 998 shielded, 57 exposed)</text>
    </g>
    <g id="text_154">
     <text style="font-weight: 700; font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #37474f" x="312.644767" y="470.319368" transform="rotate(-0 312.644767 470.319368)">Observation 3</text>
    </g>
    <g id="text_155">
-    <text style="font-size: 6.5px; font-family: 'Arial'; text-anchor: start; fill: #37474f" x="312.644767" y="479.030806" transform="rotate(-0 312.644767 479.030806)">The 62 exposed regulators form two antagonistic blocs</text>
+    <text style="font-size: 6.5px; font-family: 'Arial'; text-anchor: start; fill: #37474f" x="312.644767" y="479.030806" transform="rotate(-0 312.644767 479.030806)">The 57 exposed regulators form two antagonistic blocs</text>
    </g>
    <g id="text_156">
     <text style="font-size: 6px; font-family: 'Arial'; text-anchor: start; fill: #43a047" x="312.644767" y="487.939663" transform="rotate(-0 312.644767 487.939663)">Activation (n=35): TCS, Sigma, WhiB — development ON</text>
