@@ -50,11 +50,16 @@ for rule in ("same_instance", "within10bp"):
     p = pairs(u, rule); p.insert(0,"scope","pooled_any_timepoint"); p.insert(0,"rule",rule); out.append(p)
 allp = pd.concat(out, ignore_index=True)
 allp.to_csv(H/"site_census_AAGCCCG_pairs.tsv", sep="\t", index=False)
-summ = allp.groupby(["rule","scope","pair_class"]).size().unstack(fill_value=0); summ["total"] = summ.sum(axis=1)
+summ = allp.groupby(["rule","scope","pair_class"]).size().unstack(fill_value=0)
+# explicit zero rows for scopes with no pairs (T3), so that 0 is recorded rather than the row being absent
+idx = pd.MultiIndex.from_product([("same_instance","within10bp"), ("T1","T2","T3","pooled_any_timepoint")], names=["rule","scope"])
+summ = summ.reindex(idx, fill_value=0); summ["total"] = summ.sum(axis=1)
+# NOTE: pooled_any_timepoint pairs sites deduplicated over T1-T3, so a 4mC site canonical at one timepoint can pair with a
+# 6mA site canonical at another; pooled is therefore NOT the sum of the per-timepoint counts.
 summ.to_csv(H/"site_census_AAGCCCG_pairs_summary.tsv", sep="\t")
 print(summ.to_string())
 # instance-level: AAGCCCG instances (of 1,334) with >=1 same-instance pair; and site counts per timepoint
-si = allp[allp.rule=="same_instance"].groupby("scope")["inst"].nunique().rename("n_instances_with_pair")
+si = allp[allp.rule=="same_instance"].groupby("scope")["inst"].nunique().rename("n_instances_with_pair").reindex(["T1","T2","T3","pooled_any_timepoint"], fill_value=0)
 sites = aag.groupby(["timepoint","mod_type"]).size().unstack(fill_value=0)
 sites.loc["pooled_unique"] = aag.drop_duplicates(["position","strand","mod_type"]).groupby("mod_type").size()
 inst_tot = pd.DataFrame({"n_instances_with_pair": si}).join(sites, how="outer")
