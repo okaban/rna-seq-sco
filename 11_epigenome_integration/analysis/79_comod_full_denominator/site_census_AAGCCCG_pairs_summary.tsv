@@ -1,0 +1,7 @@
+rule	scope	A0-C4	A1-C4	cross-instance	total
+same_instance	T1	181	33	0	214
+same_instance	T2	19	7	0	26
+same_instance	pooled_any_timepoint	317	89	0	406
+within10bp	T1	181	33	5	219
+within10bp	T2	19	7	1	27
+within10bp	pooled_any_timepoint	317	89	9	415

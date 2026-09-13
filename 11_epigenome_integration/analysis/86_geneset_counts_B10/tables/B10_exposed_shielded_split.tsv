@@ -1,0 +1,4 @@
+universe	n	Shielded	Exposed
+all TSS-assignable regulatory genes	1051	989	62
+with defined LFC_T2vsT1	1019	960	59
+with defined LFC_T3vsT1	1019	960	59

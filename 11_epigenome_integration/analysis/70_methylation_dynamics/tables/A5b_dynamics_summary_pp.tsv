@@ -1,0 +1,7 @@
+threshold_pp	motif	n_total	n_dynamic_ge	n_dynamic_gt	pct_dynamic_ge
+5	GCCGGC	855	580	577	67.8
+5	AAGCCCG	147	107	107	72.8
+10	GCCGGC	855	243	242	28.4
+10	AAGCCCG	147	47	47	32.0
+20	GCCGGC	855	33	33	3.9
+20	AAGCCCG	147	1	1	0.7

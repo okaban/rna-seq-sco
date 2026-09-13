@@ -1,0 +1,40 @@
+#!/usr/bin/env python3
+"""Build the replacement Supplementary Table 9 (per-read AAGCCCG 4mC+6mA
+co-modification, FULL read denominator, T1) from comod_full_denominator_T1.tsv.
+
+Adds a 95% CI for the odds ratio by the log-OR normal approximation
+(Woolf): SE = sqrt(1/a + 1/b + 1/c + 1/d); CI = exp(log OR +/- 1.96 SE).
+a = n_both, b = n_A_only, c = n_C_only, d = n_neither.
+P(6mA|4mC) = a/(a+c); P(6mA) = (a+b)/N.  Output: SuppTable9_comod_full_denominator_T1.{tsv,md}
+"""
+import math, pandas as pd
+from pathlib import Path
+H = Path(__file__).resolve().parent
+t = pd.read_csv(H / "comod_full_denominator_T1.tsv", sep="\t")
+rows = []
+for r in t.itertuples():
+    a, b, c, d = r.n_both, r.n_A_only, r.n_C_only, r.n_neither
+    OR = (a * d) / (b * c)
+    se = math.sqrt(1/a + 1/b + 1/c + 1/d)
+    lo, hi = math.exp(math.log(OR) - 1.96*se), math.exp(math.log(OR) + 1.96*se)
+    rows.append(dict(threshold=r.threshold, n_both=a, n_A_only=b, n_C_only=c, n_neither=d, N=a+b+c+d,
+                     OR=OR, CI95_lower=lo, CI95_upper=hi, p_fisher=r.p_value,
+                     P_6mA_given_4mC=a/(a+c), P_6mA=(a+b)/(a+b+c+d), fold_vs_independence=r.fold_enrichment))
+out = pd.DataFrame(rows)
+assert abs(out.OR - t.OR).max() < 1e-3, "OR mismatch vs source"
+out.to_csv(H / "SuppTable9_comod_full_denominator_T1.tsv", sep="\t", index=False, float_format="%.6g")
+def fp(p):
+    if p == 0: return "< 1e-300"
+    m, e = f"{p:.1e}".split("e"); return f"{m} × 10^{int(e)}"
+md = ["| Threshold | n_both | n_A_only (6mA only) | n_C_only (4mC only) | n_neither | OR | 95% CI | *p* (Fisher) | P(6mA \\| 4mC) | P(6mA) |",
+      "|---|---|---|---|---|---|---|---|---|---|"]
+for r in out.itertuples():
+    md.append(f"| ≥ {r.threshold:.2f} | {r.n_both:,} | {r.n_A_only:,} | {r.n_C_only:,} | {r.n_neither:,} | {r.OR:.2f} | [{r.CI95_lower:.2f}, {r.CI95_upper:.2f}] | {fp(r.p_fisher)} | {r.P_6mA_given_4mC:.3f} | {r.P_6mA:.3f} |")
+hdr = ("**Supplementary Table 9 | Per-read probability threshold-sensitivity sweep for the AAGCCCG 4mC+6mA co-modification (full read denominator, T1).** "
+       "Unit: (motif instance × read) pairs in which the read covers both an A (A0/A1) and a C (C3/C5) position of the same AAGCCCG instance "
+       "(N = 200,830 pairs; 1,334 instances; T1 replicates 1-1, 1-2, 1-3). A pair is called 6mA-positive (A) / 4mC-positive (C) if the maximum "
+       "per-read modification probability over its A / C positions is ≥ threshold. OR = (n_both × n_neither)/(n_A_only × n_C_only); 95% CI by the "
+       "log-OR normal approximation; *p* by two-sided Fisher exact test. Source: 11_epigenome_integration/analysis/79_comod_full_denominator/comod_full_denominator_T1.tsv "
+       "(script comod_full_denominator.py; table built by build_suppTable9.py).")
+(H / "SuppTable9_comod_full_denominator_T1.md").write_text(hdr + "\n\n" + "\n".join(md) + "\n")
+print(open(H / "SuppTable9_comod_full_denominator_T1.md").read())

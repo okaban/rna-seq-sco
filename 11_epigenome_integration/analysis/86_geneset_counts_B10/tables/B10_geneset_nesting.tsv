@@ -1,0 +1,3 @@
+table	n_genes_in_table	GCCGGC_only	AAGCCCG_only	Dual_targeted	Background	GCCGGC_only_and_Dual	AAGCCCG_only_and_Dual	GCCGGC_only_and_AAGCCCG_only	GCCGGC_proximal_inclusive	AAGCCCG_proximal_inclusive	Dual_subset_of_GCCGGC_inclusive	Dual_subset_of_AAGCCCG_inclusive
+current	7374	3106	438	443	3387	0	0	0	3549	881	True	True
+s0_archive (superseded)	7646	3197	459	448	3542	0	0	0	3645	907	True	True

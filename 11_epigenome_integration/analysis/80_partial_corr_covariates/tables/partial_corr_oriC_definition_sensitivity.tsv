@@ -1,0 +1,9 @@
+definition	r	p
+|d| ranked	-0.0697043	0.0260771
+|d| linear	-0.0694896	0.0265418
+log10(|d|+1) linear	-0.0941929	0.00261413
+log10(|d|+1) ranked (= |d| ranked)	-0.0697043	0.0260771
+signed (TSS-oriC) linear	-0.122504	8.83568e-05
+|d| linear + arm	-0.0721737	0.0212176
+log10(|d|+1) linear + arm	-0.0880073	0.00493327
+signed linear + arm	-0.0837972	0.00744223

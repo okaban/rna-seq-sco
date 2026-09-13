@@ -1,0 +1,5 @@
+covariate	n	r	p	ci_lower	ci_upper
+none (raw Spearman)	1019	-0.127102	4.72459e-05		
+core_arm_binary	1019	-0.0898003	0.00411948	-0.152282	-0.0252642
+dist_oriC_continuous	1019	-0.0697043	0.0260771	-0.126733	-0.00986225
+both_jointly	1019	-0.0725096	0.0206215	-0.131854	-0.0148718
