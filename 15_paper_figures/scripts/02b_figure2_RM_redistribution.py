@@ -298,7 +298,7 @@ def panel_d(ax, df_genes):
 
     # Significance bracket — placed above all violins, well clear of legend
     bracket_y = y_max * 1.15
-    text_y = bracket_y * 1.03
+    text_y = bracket_y * 1.06   # 2026-09-13: clear of the bracket line
 
     for col, pos_s, pos_e, label in comparisons:
         e = exp[col].values
@@ -319,7 +319,7 @@ def panel_d(ax, df_genes):
                 f'{star}  (p = {p:.1e})',
                 ha='center', va='bottom', fontsize=7.5, fontweight='bold')
 
-    ax.set_ylim(0, bracket_y * 1.30)
+    ax.set_ylim(0, bracket_y * 1.32)
     ax.set_xticks([0.5, 3.5])
     ax.set_xticklabels([c[3] for c in comparisons], fontsize=9)
     ax.set_xlim(-0.7, 5.2)
@@ -339,10 +339,15 @@ def panel_d(ax, df_genes):
         Patch(facecolor=COL_EXPOSED, alpha=0.55,
               label=f'Exposed (n = {len(exp)} of 62)'),
     ]
-    ax.legend(handles=legend_handles, loc='upper right',
-              bbox_to_anchor=(1.0, -0.16), ncol=1,
-              fontsize=7.5, frameon=True, framealpha=0.9, edgecolor='#CCC',
-              handlelength=1.2, borderpad=0.4)
+    # 2026-09-13 (FIG-11): the below-axis legend was cut off at the PNG's bottom
+    # edge (canvas bottom margin too small). Two-column legend, anchored just
+    # under the tick labels; the standalone figure now reserves room for it.
+    ax.legend(handles=legend_handles, loc='upper center',
+              bbox_to_anchor=(0.5, -0.13), ncol=2,
+              fontsize=7.5, frameon=False,
+              handlelength=1.2, borderpad=0.4, columnspacing=1.5)
+    print(f'  panel D plotted n: Shielded={len(shi)} of 989, Exposed={len(exp)} of 62 '
+          f'(genes with LFC for both T2/T1 and T3/T1)')
 
 
 def main():
@@ -405,20 +410,26 @@ def main():
 
     out_path = FIG_DIR / 'Figure2_RM_redistribution'
     save_figure(fig, out_path, formats=('pdf', 'svg', 'png'))
+    # 2026-09-13: manuscript-slot sync is opt-in (SYNC_FIG_SLOTS=1); back up the
+    # old PNG to fig_images/archive/ before enabling. Figure2.png is no longer an
+    # embedded slot in the inline manuscript (Figure2_merged.png is).
+    import os
     slot = Path.home() / 'obsidian' / 'Research' / 'rna-seq' / 'Writing' / 'fig_images' / 'Figure2.png'
-    if slot.parent.is_dir():
+    if os.environ.get('SYNC_FIG_SLOTS') == '1' and slot.parent.is_dir():
         shutil.copyfile(out_path.with_suffix('.png'), slot)
         print(f'  Synced → {slot}')
 
     # --- SUPPLEMENTARY figure: the demoted negative-control panel, standalone.
-    figd = plt.figure(figsize=(mm_to_inch(100), mm_to_inch(90)))
+    # 2026-09-13 (FIG-11): taller canvas + larger bottom margin so the class
+    # legend under the x-axis is inside the saved PNG.
+    figd = plt.figure(figsize=(mm_to_inch(100), mm_to_inch(100)))
     axd = figd.add_subplot(1, 1, 1)
     panel_d(axd, df_genes)  # panel_d sets its own descriptive title; no suptitle needed
-    figd.subplots_adjust(left=0.16, right=0.95, top=0.88, bottom=0.15)
+    figd.subplots_adjust(left=0.16, right=0.95, top=0.89, bottom=0.24)
     out_d = FIG_DIR / 'SuppFigure_Fig2D_negative_control'
     save_figure(figd, out_d, formats=('pdf', 'svg', 'png'))
     slot_d = Path.home() / 'obsidian' / 'Research' / 'rna-seq' / 'Writing' / 'fig_images' / 'SuppFigure_neg_control.png'
-    if slot_d.parent.is_dir():
+    if os.environ.get('SYNC_FIG_SLOTS') == '1' and slot_d.parent.is_dir():
         shutil.copyfile(out_d.with_suffix('.png'), slot_d)
         print(f'  Synced (supp D) → {slot_d}')
     print('=== Done ===')
