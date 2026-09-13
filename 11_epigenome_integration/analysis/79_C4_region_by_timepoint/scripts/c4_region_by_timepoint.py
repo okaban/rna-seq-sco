@@ -3,7 +3,7 @@
 and developmental timepoint (T1/T2/T3).
 
 Driven by the CANONICAL census (depth>=10, freq>=50%) so per-system per-TP
-counts match every other figure (GCCGGC m4C 1289/407/21; AAGCCCG-4mC 587/212/15;
+counts match every other figure (GCCGGC 4mC 1289/407/21; AAGCCCG-4mC 587/212/15;
 AAGCCCG-6mA 260/64/38). Region categories use the SAME first-match logic as the
 SuppFig 9 classifier (62_GO_KEGG_enrichment/stratified_position_enrichment.py):
 promoter = TSS-500..-1; 5'UTR = in-gene 0..+100; CDS_internal = rest of gene;
@@ -63,9 +63,11 @@ def classify(df):
     return out
 
 
+# 2026-09-13 (FIG-09): locked notation is 4mC (not m4C); panel titles + table
+# 'system' column follow it.
 SYSTEMS = [
-    ("GCCGGC m4C", C4MC, "TGGCCGGC"),
-    ("AAGCCCG m4C", C4MC, "AAGCCCG"),
+    ("GCCGGC 4mC", C4MC, "TGGCCGGC"),
+    ("AAGCCCG 4mC", C4MC, "AAGCCCG"),
     ("AAGCCCG 6mA", C6MA, "AAGCCCG"),
 ]
 TPS = ["T1", "T2", "T3"]
