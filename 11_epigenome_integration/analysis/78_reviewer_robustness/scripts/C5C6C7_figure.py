@@ -46,8 +46,8 @@ loci = pd.read_csv(OUT / "tables/C5_hotspot_loci_merged.tsv", sep="\t")
 sweep = pd.read_csv(OUT / "tables/C7_resolution_sweep.tsv", sep="\t")
 
 fig = plt.figure(figsize=(13, 9))
-gs = fig.add_gridspec(3, 2, height_ratios=[1.15, 1.0, 1.0],
-                      hspace=0.45, wspace=0.28)
+gs = fig.add_gridspec(3, 2, height_ratios=[1.15, 1.0, 1.15],
+                      hspace=0.55, wspace=0.32)
 
 # ---------------- Panel A: genome track ----------------
 axA = fig.add_subplot(gs[0, :])
@@ -77,15 +77,19 @@ axA.scatter(hb["center"] / 1e6, [axA.get_ylim()[1] * 0.97] * len(hb),
 # BGCs
 for name, s, e in BGCS:
     axA.axvspan(s / 1e6, e / 1e6, color=C_BGC, alpha=0.85, lw=0)
-    axA.text((s + e) / 2 / 1e6, axA.get_ylim()[1] * 0.80, name, ha="center",
-             va="top", fontsize=7, color=C_BGC, fontweight="bold")
+    axA.text((s + e) / 2 / 1e6, axA.get_ylim()[1] * 0.60, name, ha="center",
+             va="top", fontsize=7, color="#222222", fontweight="bold",
+             bbox=dict(boxstyle="round,pad=0.15", fc="white", ec="none", alpha=0.85))
 axA.set_xlabel("Chromosome position (Mb)")
-axA.set_title("A  FIRE and T1 GCCGGC methylation along the chromosome; "
+axA.set_title("a  FIRE and T1 GCCGGC methylation along the chromosome; "
               "co-high hotspots concentrate in the central core (Compartment A; IQR 3.9–4.8 Mb)",
               fontsize=10, loc="left")
 h1, l1 = axA.get_legend_handles_labels()
 h2, l2 = axM.get_legend_handles_labels()
-axA.legend(h1 + h2, l1 + l2, fontsize=7, loc="upper right", ncol=2, framealpha=0.9)
+# 2026-09-13 (FIG-10): legend moved out of the data area (it covered the FIRE
+# trace at 6-8 Mb and the hotspot triangles) to a single row under the x-axis.
+axA.legend(h1 + h2, l1 + l2, fontsize=7, loc="upper center", ncol=4,
+           bbox_to_anchor=(0.5, -0.22), frameon=False)
 
 # ---------------- Panel B: FIRE vs methylation scatter ----------------
 axB = fig.add_subplot(gs[1, 0])
@@ -99,7 +103,7 @@ axB.axhline(fire_thr, color=C_FIRE, ls=":", lw=1)
 axB.axvline(methyl_thr - 0.5, color=C_METH, ls=":", lw=1)
 axB.set_xlabel("T1 GCCGGC sites / 5-kb bin")
 axB.set_ylabel("FIRE score")
-axB.set_title("B  Co-high quadrant (top-20% × top-20%)", fontsize=10, loc="left")
+axB.set_title("b  Co-high quadrant (top-20% × top-20%)", fontsize=10, loc="left")
 axB.legend(fontsize=7, loc="upper right")
 axB.set_xlim(-0.5, bins["m_n_T1"].max() + 0.5)
 
@@ -117,7 +121,7 @@ axC.set_xticklabels(["%dkb" % (w // 1000) for w in sw["window_bp"]])
 axC.set_xlabel("Window size")
 axC.set_ylabel("Concordance")
 axC.set_ylim(0, 0.65)
-axC.set_title("C  Methylation↔FIRE concordance vs resolution", fontsize=10,
+axC.set_title("c  Methylation↔FIRE concordance vs resolution", fontsize=10,
               loc="left")
 axC.legend(fontsize=7, loc="upper left")
 axC.grid(alpha=0.25)
@@ -134,8 +138,9 @@ axD.set_xticks(xx)
 axD.set_xticklabels(["%dkb" % (w // 1000) for w in allsw["window_bp"]])
 axD.set_xlabel("Window size")
 axD.set_ylabel("Number of windows")
-axD.set_title("D  Candidate-window count by resolution", fontsize=10, loc="left")
-axD.legend(fontsize=7)
+axD.set_title("d  Candidate-window count by resolution", fontsize=10, loc="left")
+axD.set_ylim(0, allsw["n_methyl_windows"].max() * 1.30)  # headroom for count labels
+axD.legend(fontsize=7, loc="upper right")
 for xi, n in zip(xx + 0.2, allsw["n_top_methyl_windows"]):
     axD.text(xi, n + 8, str(int(n)), ha="center", fontsize=6.5, color=C_METH)
 
@@ -148,14 +153,14 @@ labels = ["%.2f–%.2f Mb (%dkb, %s+%dkb)" %
           (r.start_bp / 1e6, r.end_bp / 1e6, r.width_kb, r.nearest_BGC,
            r.dist_to_BGC_bp // 1000) for r in top.itertuples()]
 axE.set_yticks(ypos)
-axE.set_yticklabels(labels, fontsize=6.5)
+axE.set_yticklabels(labels, fontsize=5.8)
 axE.set_xlabel("Σ T1 GCCGGC sites in locus")
-axE.set_title("E  Top-10 discrete hotspot loci", fontsize=10, loc="left")
+axE.set_title("e  Top-10 discrete hotspot loci", fontsize=10, loc="left")
 for yi, (m, f) in enumerate(zip(top["sum_methyl_T1"], top["max_FIRE"])):
     axE.text(m + 0.1, yi, "FIRE %.1f" % f, va="center", fontsize=6)
 
-fig.suptitle("FIRE × GCCGGC-methylation integration hotspots and nomination "
-             "resolution (C5/C6/C7)", fontsize=12, y=0.995)
+# 2026-09-13 (FIG-10): suptitle removed — it carried internal reviewer-comment
+# codes "(C5/C6/C7)"; the figure title belongs in the manuscript legend.
 out = FIG / "C5C6C7_hotspots_summary.png"
 fig.savefig(out, dpi=200, bbox_inches="tight")
 print("[saved]", out)

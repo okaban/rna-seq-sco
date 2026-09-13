@@ -38,7 +38,12 @@ def _panel_letter(ax, lab, fontsize=13):
         xf = max(0.002, tb.x0 - 0.006)
         # Sit just above the axes top, but stay clear of the suptitle band (these
         # compact 3-panel figures reserve the top 10% for the suptitle).
-        yf = min(ax.get_position().y1 + 0.006, 0.895)
+        # 2026-09-13: anchor ABOVE the panel's tight bbox (which includes its
+        # left-aligned title) so the letter never prints over the title text.
+        # Common baseline: the tallest panel's tight-bbox top, so a/b/c align.
+        top = max(a_.get_tightbbox(rend).transformed(fig.transFigure.inverted()).y1
+                  for a_ in fig.axes)
+        yf = min(top + 0.004, 0.975)
         fig.text(xf, yf, lab.lower(), fontsize=fontsize, fontweight="bold",
                  va="bottom", ha="left")
     except Exception:
@@ -96,7 +101,7 @@ cols = [C_GCC, C_AAG, C_ALL]
 ax[0].bar(range(3), vals, color=cols, width=0.6)
 for k, v in enumerate(vals):
     ax[0].text(k, v+2, f"{v:.0f}%", ha="center", fontsize=7, fontweight="bold")
-ax[0].set_xticks(range(3)); ax[0].set_xticklabels(labels, fontsize=6.5)
+ax[0].set_xticks(range(3)); ax[0].set_xticklabels(labels, fontsize=6)
 ax[0].set_ylabel("% of class in chromosomal core"); ax[0].set_ylim(0, 108)
 ax[0].set_title("Distinct chromosomal positioning", fontsize=8, pad=6, loc="left")
 # overlap note in the free upper-right corner, clear of the bars/percent labels
@@ -109,13 +114,21 @@ ors, ps = [], []
 for fam in fams:
     a=((reg.Exposed)&(reg.tf_family==fam)).sum(); c=((~reg.Exposed)&(reg.tf_family==fam)).sum()
     od,p=fisher_exact([[a,len(E)-a],[c,len(reg)-len(E)-c]]); ors.append(od); ps.append(p)
-cols=[C_GCC if p<0.05 else C_ALL for p in ps]
+# 2026-09-13 (FIG-07): the legend/body report Benjamini-Hochberg-corrected p across
+# the six families (MerR/LysR significant; LacI p_BH = 0.10 not). The asterisk and
+# the bar colour now follow the SAME BH rule instead of the raw Fisher p.
+from statsmodels.stats.multitest import multipletests
+p_bh = multipletests(ps, method="fdr_bh")[1]
+print("TF-family Fisher:", {f:(round(o,2), round(p,4), round(q,4)) for f,o,p,q in zip(fams,ors,ps,p_bh)})
+cols=[C_GCC if q<0.05 else C_ALL for q in p_bh]
 ax[1].barh(range(len(fams)), ors, color=cols)
 ax[1].axvline(1, color="k", ls="--", lw=0.8)
 ax[1].set_yticks(range(len(fams))); ax[1].set_yticklabels(fams)
-for i,(o,p) in enumerate(zip(ors,ps)):
-    ax[1].text(o+max(ors)*0.03, i, f"OR={o:.1f}{'*' if p<0.05 else ''}",
+for i,(o,q) in enumerate(zip(ors,p_bh)):
+    ax[1].text(o+max(ors)*0.03, i, f"OR={o:.1f}{'*' if q<0.05 else ''}",
                va="center", fontsize=6, color="#333")
+ax[1].text(0.98, 0.98, "* $p_{BH}$ < 0.05", transform=ax[1].transAxes,
+           ha="right", va="top", fontsize=5.5, color="#333")
 # extra right headroom so the 'OR=4.7*' label on the longest bar stays inside the axis
 ax[1].set_xlim(0, max(ors)*1.45)
 ax[1].set_xlabel("odds ratio (Exposed vs other regulators)")
@@ -133,9 +146,9 @@ ax[2].set_title("Synchronous demethylation at T2", fontsize=8, pad=6, loc="left"
 ax[2].legend(frameon=False, fontsize=6, loc="upper right", bbox_to_anchor=(1.0, 1.0))
 for _i, _lab in enumerate(["a","b","c"]):
     _panel_letter(ax[_i], _lab)
-fig.suptitle("Two methylation systems mark largely distinct regulator classes (vegetative growth)",
-             y=0.99, fontsize=9, fontweight="bold")
-fig.tight_layout(rect=[0, 0, 1, 0.90], w_pad=2.6)
+# 2026-09-13 (FIG-07): banner suptitle removed — it asserted the conclusion in the
+# figure and collided with the panel letters; the title now lives in the legend.
+fig.tight_layout(rect=[0, 0, 1, 0.93], w_pad=2.6)
 fig.savefig(FIG/"Figure4_two_system_marking.pdf", bbox_inches="tight"); fig.savefig(FIG/"Figure4_two_system_marking.png", dpi=300, bbox_inches="tight"); plt.close(fig)
 _clamp_png_width(FIG/"Figure4_two_system_marking.png")
 
@@ -145,7 +158,7 @@ fig, ax = plt.subplots(1, 3, figsize=(FULL_W, 2.7))
 cnt = [ (E['dT1']<=W).sum(), (E['dT2']<=W).sum(), (E['dT3']<=W).sum() ]
 ax[0].bar(['T1\n(12 h)','T2\n(24 h)','T3\n(50 h)'], cnt, color=[C_BAR, C_ALL, C_ALL])
 for i,c in enumerate(cnt): ax[0].text(i, c+0.8, str(int(c)), ha="center", fontsize=10)
-ax[0].set_ylabel("Exposed promoters methylated (≤293 bp)")
+ax[0].set_ylabel("Exposed promoters\nmethylated (≤293 bp)")
 ax[0].set_title(f"Synchronous erasure ({len(E)}→0 at T2)", fontsize=8, pad=6, loc="left")
 # (b) weak bias: promoter GCCGGC occupancy (+-2kb, T1) vs LFC_T2, region-controlled
 gT1 = g[g.timepoint=='T1']; P=np.sort(gT1.position.values); Fq=gT1.sort_values('position').frequency.values
@@ -157,7 +170,7 @@ rx=d.occ2k.rank()-np.polyval(np.polyfit(d.region.rank(),d.occ2k.rank(),1),d.regi
 ry=d.LFC_T2vsT1.rank()-np.polyval(np.polyfit(d.region.rank(),d.LFC_T2vsT1.rank(),1),d.region.rank())
 rr,pp=pearsonr(rx,ry)
 ax[1].scatter(d.occ2k, d.LFC_T2vsT1, s=8, alpha=0.4, c="#6B7783", edgecolors="none")
-ax[1].set_xlabel("promoter GCCGGC occupancy (±2 kb, T1)"); ax[1].set_ylabel("log2 FC (T2 vs T1)")
+ax[1].set_xlabel("promoter GCCGGC occupancy (±2 kb, T1)"); ax[1].set_ylabel("log$_2$ FC (T2 vs T1)")
 ax[1].set_title(f"Weak modulatory bias\nregion-controlled r = {rr:.2f} (p = {pp:.3f})", fontsize=8, pad=6, loc="left")
 ax[1].axhline(0, color="k", lw=0.5)
 # (c) bidirectional exemplars: same promoter mark, opposite outcomes (permissive)
@@ -172,20 +185,22 @@ colors = [C_REPRESSED if v < 0 else C_INDUCED for v in sel['LFC_T2vsT1']]  # uni
 ax[2].barh(range(len(sel)), sel['LFC_T2vsT1'].values, color=colors)
 ax[2].set_yticks(range(len(sel))); ax[2].set_yticklabels(sel['name'], fontsize=8)
 ax[2].axvline(0, color="k", lw=0.6)
-ax[2].set_xlabel("log2 FC (T2 vs T1)")
+ax[2].set_xlabel("log$_2$ FC (T2 vs T1)")
 ax[2].set_title("Same mark, opposite outcomes\n(Exposed regulators; permissive)", fontsize=8, pad=6, loc="left")
 for _i, _lab in enumerate(["a","b","c"]):
     _panel_letter(ax[_i], _lab)
-fig.suptitle("Methylation marks the Exposed regulators but does NOT direct their expression (permissive)",
-             y=0.99, fontsize=9, fontweight="bold")
-fig.tight_layout(rect=[0, 0, 1, 0.90], w_pad=2.6)
+# 2026-09-13 (FIG-03): banner suptitle removed — interpretive in-figure title
+# ("...does NOT direct...") is not NAR style and overlapped the panel letters.
+fig.tight_layout(rect=[0, 0, 1, 0.93], w_pad=2.6)
 fig.savefig(FIG/"Figure5_synchronized_demethylation.pdf", bbox_inches="tight"); fig.savefig(FIG/"Figure5_synchronized_demethylation.png", dpi=300, bbox_inches="tight"); plt.close(fig)
 _clamp_png_width(FIG/"Figure5_synchronized_demethylation.png")
 
 # sync the two PNGs into the manuscript image slots (Figure4.png / Figure5.png)
-import shutil
+import shutil, os
 _slotdir = Path.home()/"obsidian"/"Research"/"rna-seq"/"Writing"/"fig_images"
-if _slotdir.is_dir():
+# 2026-09-13: sync is opt-in (SYNC_FIG_SLOTS=1). Manuscript slots are now
+# Figure5.png (main Fig 4) and SuppFigure20.png (S20); back up before overwriting.
+if os.environ.get("SYNC_FIG_SLOTS") == "1" and _slotdir.is_dir():
     shutil.copyfile(FIG/"Figure4_two_system_marking.png", _slotdir/"Figure4.png")
     shutil.copyfile(FIG/"Figure5_synchronized_demethylation.png", _slotdir/"Figure5.png")
     print(f"  Synced → {_slotdir}/Figure4.png, Figure5.png")

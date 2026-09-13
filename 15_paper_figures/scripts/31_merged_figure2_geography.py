@@ -38,11 +38,22 @@ def main():
 
     fig = plt.figure(figsize=(f6.mm_to_inch(174), f6.mm_to_inch(112)))
     ax_a = fig.add_axes([0.085, 0.630, 0.885, 0.300])
-    ax_b = fig.add_axes([0.085, 0.155, 0.335, 0.330])
-    ax_s = fig.add_axes([0.525, 0.135, 0.465, 0.370])
+    # 2026-09-13 (FIG-08): panel b lifted 0.02 so its Core/Arms legend fits
+    # BELOW the two-line x-tick labels instead of on top of them.
+    ax_b = fig.add_axes([0.085, 0.175, 0.335, 0.310])
+    # 2026-09-13 (FIG-08): panel c's axes top used to sit ABOVE panel b's top
+    # (0.505 vs 0.485), so its panel letter landed on panel a's x-axis label
+    # ("Chromosome position (Mb)"). Align the tops of b and c exactly.
+    ax_s = fig.add_axes([0.525, 0.115, 0.465, 0.370])
 
     f2.panel_a(ax_a, df_sites)
     f6.draw_panelA(ax_b, rowsA)
+    # 2026-09-13 (FIG-08): draw_panelA anchors its Core/Arms legend below the
+    # axis at y=-0.30, where it overlapped the two-line x-tick labels
+    # "(24 h)"/"(50 h)". Re-anchor it clear below the tick labels.
+    ax_b.legend(frameon=False, fontsize=6, loc='upper center',
+                bbox_to_anchor=(0.5, -0.30), ncol=2, handlelength=1.1,
+                columnspacing=1.2, borderpad=0.2)
     f6.draw_schematic(ax_s)
     # draw_schematic reserves top whitespace for its in-plot mark legend; the
     # merged layout is tighter, so crop the unused band below the chromosomes.
