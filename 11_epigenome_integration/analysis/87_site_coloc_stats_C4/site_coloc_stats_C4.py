@@ -60,12 +60,18 @@ for scope, (m4, m6) in S.items():
     a_perm = rng.hypergeometric(n_comod, n_tot-n_comod, n_in, N)
     p_perm = (np.sum(a_perm >= a) + 1) / (N + 1)
     rate_in = a / n_in; rate_out = c / (c+d); rr = rate_in / rate_out if c else np.inf
-    out_rows.append(dict(scope=scope, in_comod=a, in_notcomod=b, out_comod=c, out_notcomod=d, n_candidate_pairs=n_tot, n_in_motif_pairs=n_in,
+    n_inst_comod = cand[cand.in_motif & cand.comod].drop_duplicates(["strand","c_pos"]).shape[0]   # distinct AAGCCCG instances (one C4 per instance) with >=1 co-mod pair
+    out_rows.append(dict(scope=scope, n_instances_with_comod_pair=n_inst_comod, in_comod=a, in_notcomod=b, out_comod=c, out_notcomod=d, n_candidate_pairs=n_tot, n_in_motif_pairs=n_in,
                          in_comod_spacing4_A0C4=by_sp.get(4,0), in_comod_spacing3_A1C4=by_sp.get(3,0),
                          OR=OR, OR_CI95_lower=lo, OR_CI95_upper=hi, haldane_corrected=(min(a,b,c,d)==0), fisher_p_greater=p_fisher,
                          expected_in_comod_H0=exp_in, fold_over_expectation=fold, perm_p=f"< {1/(N+1):.1e}" if np.sum(a_perm>=a)==0 else f"{p_perm:.4f}",
                          perm_null_max_in_comod=int(a_perm.max()), rate_in=rate_in, rate_out=rate_out, rate_ratio=rr))
 res = pd.DataFrame(out_rows); res.to_csv(H/"tables/site_coloc_2x2_C4.tsv", sep="\t", index=False, float_format="%.6g")
+# cross-check instance counts against the independent census (79_/site_census_AAGCCCG_instances_summary.tsv)
+chk = pd.read_csv(H.parent/"79_comod_full_denominator/site_census_AAGCCCG_instances_summary.tsv", sep="\t", index_col=0)["n_instances_with_pair"]
+assert int(res.set_index("scope").loc["T1","n_instances_with_comod_pair"]) == int(chk["T1"]), (res.n_instances_with_comod_pair.tolist(), chk.to_dict())
+assert int(res.set_index("scope").loc["pooled","n_instances_with_comod_pair"]) == int(chk["pooled_any_timepoint"])
+print("instance-count cross-check vs 79_ census: OK")
 print(res.T.to_string())
 # 6mA occupancy at AAGCCCG, T1 (corrected denominators)
 a_pos = {("+", m.start()+k) for m in re.finditer("AAGCCCG", seq) for k in (0,1)} | {("-", m.start()+6-k) for m in re.finditer("CGGGCTT", seq) for k in (0,1)}
