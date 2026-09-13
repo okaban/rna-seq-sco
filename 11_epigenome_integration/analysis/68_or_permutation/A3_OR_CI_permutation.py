@@ -173,7 +173,9 @@ ax.set_xlabel("log₁₀(Odds Ratio)", fontsize=11)
 ax.set_ylabel("Count (permutations)", fontsize=11)
 ax.set_title("AAGCCCG dual-modification: permutation null distribution\n"
              "vs observed OR (pileup-level, T1 pooled)", fontsize=10.5)
-ax.legend(fontsize=8, loc="upper left")
+# 2026-09-13 (FIG-17): the upper-left legend box hid the null bars at
+# log10(OR) ~0.3-0.9; anchor it in the empty middle of the axis instead.
+ax.legend(fontsize=8, loc="upper center", bbox_to_anchor=(0.45, 0.98))
 ax.xaxis.set_minor_locator(ticker.AutoMinorLocator())
 ax.yaxis.set_minor_locator(ticker.AutoMinorLocator())
 ax.tick_params(axis="both", which="both", direction="in")
