@@ -167,7 +167,7 @@ def main():
     fig = plt.figure(figsize=(mm_to_inch(174), mm_to_inch(150)))
 
     gs = fig.add_gridspec(2, 12, hspace=0.55, wspace=1.4,
-                          left=0.08, right=0.95, top=0.92, bottom=0.10,
+                          left=0.08, right=0.95, top=0.90, bottom=0.10,  # 2026-09-13: top 0.92->0.90 so panel letter 'a' is not clipped
                           height_ratios=[1.05, 1])
 
     ax_a = fig.add_subplot(gs[0, 1:11])     # (a) heatmap, centred full width
@@ -189,9 +189,11 @@ def main():
     # Save (and sync into the Obsidian manuscript slot Figure3.png)
     out_path = FIG_DIR / 'Figure3_protection_zone'
     save_figure(fig, out_path, formats=('pdf', 'svg', 'png'))
-    import shutil
-    slot = Path.home() / 'obsidian' / 'Research' / 'rna-seq' / 'Writing' / 'fig_images' / 'Figure3.png'
-    if slot.parent.is_dir():
+    # 2026-09-13: this figure is now Supplementary Figure 22 (slot SuppFigure22.png);
+    # the old Figure3.png slot is no longer embedded. Sync is opt-in (SYNC_FIG_SLOTS=1).
+    import shutil, os
+    slot = Path.home() / 'obsidian' / 'Research' / 'rna-seq' / 'Writing' / 'fig_images' / 'SuppFigure22.png'
+    if os.environ.get('SYNC_FIG_SLOTS') == '1' and slot.parent.is_dir():
         shutil.copyfile(out_path.with_suffix('.png'), slot)
         print(f'  Synced → {slot}')
     print()

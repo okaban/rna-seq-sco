@@ -432,6 +432,21 @@ def main():
     if os.environ.get('SYNC_FIG_SLOTS') == '1' and slot_d.parent.is_dir():
         shutil.copyfile(out_d.with_suffix('.png'), slot_d)
         print(f'  Synced (supp D) → {slot_d}')
+    # --- SUPPLEMENTARY Figure 23 (2026-09-13, FIG-06): the TSS-to-nearest-GCCGGC
+    # distance panel (former main Fig 2c) as a standalone figure. The legend
+    # describes exactly this panel (n = 1,051 TSS-assignable regulatory genes,
+    # 293 bp operating point, unimodal). Slot: fig_images/SuppFigure23.png.
+    figc = plt.figure(figsize=(mm_to_inch(100), mm_to_inch(90)))
+    axc = figc.add_subplot(1, 1, 1)
+    panel_c(axc, df_genes)
+    axc.set_title('')  # NAR: title lives in the legend
+    figc.subplots_adjust(left=0.16, right=0.96, top=0.95, bottom=0.17)
+    out_c = FIG_DIR / 'SuppFigure_TSS_distance_gradient'
+    save_figure(figc, out_c, formats=('pdf', 'svg', 'png'))
+    slot_c = Path.home() / 'obsidian' / 'Research' / 'rna-seq' / 'Writing' / 'fig_images' / 'SuppFigure23.png'
+    if os.environ.get('SYNC_FIG_SLOTS') == '1' and slot_c.parent.is_dir():
+        shutil.copyfile(out_c.with_suffix('.png'), slot_c)
+        print(f'  Synced (supp 23) → {slot_c}')
     print('=== Done ===')
 
 
