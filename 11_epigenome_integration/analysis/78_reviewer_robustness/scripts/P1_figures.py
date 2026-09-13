@@ -86,28 +86,34 @@ lfc = d.LFC_T2vsT1.values
 obs, _ = stats.spearmanr(code, lfc)
 rng = np.random.default_rng(42)
 null = np.array([stats.spearmanr(code, np.roll(lfc, rng.integers(1, len(lfc))))[0] for _ in range(3000)])
-fig, ax = plt.subplots(1, 2, figsize=(7, 3.2))
+fig, ax = plt.subplots(1, 2, figsize=(7.6, 3.2))
 ax[0].hist(null, bins=40, color=OK["grey"], alpha=0.8)
-ax[0].axvline(obs, color=OK["vermillion"], lw=2, label=f"observed ρ={obs:+.3f}")
+ax[0].axvline(obs, color=OK["vermillion"], lw=2, label=f"observed ρ = {obs:+.3f}\n(block-perm p = 0.22)")
 ax[0].axvline(-np.percentile(np.abs(null),95), color="k", ls=":", lw=0.8)
 ax[0].axvline(np.percentile(np.abs(null),95), color="k", ls=":", lw=0.8, label="null 95%")
 ax[0].set_xlabel("Spearman ρ (dose vs LFC)"); ax[0].set_ylabel("permutations")
-ax[0].set_title("a  genome-wide (n=7496)\nautocorrelation null", loc="left", fontweight="bold", fontsize=9)
-ax[0].legend(fontsize=7, frameon=False)
-ax[0].text(0.02, 0.80, "block-perm p=0.22\n→ artefact", transform=ax[0].transAxes, fontsize=8)
+# 2026-09-13 (FIG-05): neutral titles, no editorial labels ("→ artefact",
+# "SURVIVES"); panel letters a-d run across the two stacked rows (S18).
+ax[0].set_title("a  Genome-wide dose vs log$_2$FC (n = 7,496)\n    spatial-block permutation null",
+                loc="left", fontweight="bold", fontsize=9)
+ax[0].set_ylim(top=ax[0].get_ylim()[1] * 1.28)  # headroom for the legend
+ax[0].legend(fontsize=7, frameon=False, loc="upper center")
 # panel b: regulatory survives
 reg = pd.read_csv(os.path.join(T, "P1_3b_permissive_spatial.tsv"), sep="\t").iloc[0]
 ax[1].bar([0, 1], [reg.p_partial_naive, reg.block_perm_p_partial], color=[OK["grey"], OK["green"]])
 ax[1].axhline(0.05, ls="--", color="k", lw=0.8); ax[1].set_yscale("log")
 ax[1].set_xticks([0, 1]); ax[1].set_xticklabels(["naive p", "block-perm p"])
 ax[1].set_ylabel("p (partial Spearman | region)")
-ax[1].set_title(f"b  regulatory weak bias\nρ={reg.rho_partial:+.2f} SURVIVES", loc="left", fontweight="bold", fontsize=9)
+ax[1].set_title(f"b  Regulatory genes (n = {int(reg.n):,})\n    partial Spearman ρ = {reg.rho_partial:+.2f}\n    (TSS–GCCGGC distance vs log$_2$FC | region)",
+                loc="left", fontweight="bold", fontsize=8)
+ax[1].text(0.5, 0.95, f"naive p = {reg.p_partial_naive:.1e}\nblock-perm p = {reg.block_perm_p_partial:.4f}",
+           transform=ax[1].transAxes, fontsize=7.5, ha="center", va="top")
 fig.tight_layout(); fig.savefig(os.path.join(F, "P1_3_spatial_autocorr.png"), dpi=200); plt.close(fig)
 
 # ---- Fig D: equivalence + threshold sensitivity (P1-4/5) ------------------
 eq = pd.read_csv(os.path.join(T, "P1_4_equivalence.tsv"), sep="\t")
 sens = pd.read_csv(os.path.join(T, "P1_5_threshold_sensitivity.tsv"), sep="\t")
-fig, ax = plt.subplots(1, 2, figsize=(7, 3.2))
+fig, ax = plt.subplots(1, 2, figsize=(7.6, 3.2))
 row = eq[eq.contrast == "|LFC| T2vsT1"].iloc[0]
 ax[0].axvspan(-0.147, 0.147, color=OK["green"], alpha=0.15, label="negligible band")
 ax[0].errorbar([row.cliff_delta], [0], xerr=[[row.cliff_delta-row.cliff_lo],[row.cliff_hi-row.cliff_delta]],
@@ -115,16 +121,26 @@ ax[0].errorbar([row.cliff_delta], [0], xerr=[[row.cliff_delta-row.cliff_lo],[row
 ax[0].axvline(0, color="k", lw=0.6)
 ax[0].set_yticks([]); ax[0].set_xlim(-0.5, 0.5)
 ax[0].set_xlabel("Cliff's δ (Exposed − Shielded |LFC|)")
-ax[0].set_title("a  permissive equivalence\nδ=−0.01, CI[−0.16,0.15]", loc="left", fontweight="bold", fontsize=9)
+ax[0].set_title(f"c  Permissive equivalence (TOST)\n    Cliff's δ = {row.cliff_delta:+.2f}, 95% CI [{row.cliff_lo:+.2f}, {row.cliff_hi:+.2f}]",
+                loc="left", fontweight="bold", fontsize=9)
 ax[0].legend(fontsize=7, frameon=False, loc="upper right")
 ax[1].plot(sens.window_bp, sens.cliff_delta, "-o", color=OK["blue"], ms=4)
 ax[1].axhspan(-0.147, 0.147, color=OK["green"], alpha=0.15)
 ax[1].axvline(293, ls="--", color=OK["vermillion"], lw=1, label="293 bp")
 ax[1].set_xlabel("Exposed window (bp)"); ax[1].set_ylabel("Cliff's δ (|LFC|)")
 ax[1].set_ylim(-0.4, 0.4)
-ax[1].set_title("b  permissive null is\nthreshold-robust", loc="left", fontweight="bold", fontsize=9)
+ax[1].set_title("d  Cliff's δ across Exposed-window\n    definitions (100–500 bp)", loc="left", fontweight="bold", fontsize=9)
 ax[1].legend(fontsize=7, frameon=False)
 fig.tight_layout(); fig.savefig(os.path.join(F, "P1_4_5_equivalence.png"), dpi=200); plt.close(fig)
+
+# ---- S18 slot: rows C (a,b) and D (c,d) stacked into one PNG -------------
+from PIL import Image
+_top = Image.open(os.path.join(F, "P1_3_spatial_autocorr.png"))
+_bot = Image.open(os.path.join(F, "P1_4_5_equivalence.png"))
+_W = max(_top.width, _bot.width); _gap = 40
+_st = Image.new("RGB", (_W, _top.height + _bot.height + _gap), "white")
+_st.paste(_top, (0, 0)); _st.paste(_bot, (0, _top.height + _gap))
+_st.save(os.path.join(F, "P1_3_4_5_stacked_S18.png"), dpi=(200, 200))
 
 print("Figures ->", F)
 for fn in ["P1_1_crosstalk.png","P1_2_5mC_vs_4mC.png","P1_3_spatial_autocorr.png","P1_4_5_equivalence.png"]:
