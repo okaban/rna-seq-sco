@@ -1,0 +1,4 @@
+metric	n	denominator	pct
+6mA canonical sites at AAGCCCG A0/A1, T1	418	A0+A1 positions = 2 x 1,334 = 2,668	15.7
+AAGCCCG instances with >=1 canonical 6mA (A0 or A1), T1	366	1,334 instances	27.4
+4mC canonical sites at AAGCCCG C4, T1	698	1,334 C4 positions	52.3
