@@ -536,8 +536,10 @@ def main():
     # Panel D: Logos (bottom, two sub-axes).
     # Extra vertical gap below panel B/C (0.36 → 0.205) keeps panel C's
     # x-tick labels and ▲▼ markers clear of panel D's title / "d" label.
-    ax_d1 = fig.add_axes([0.10, 0.125, 0.85, 0.08])
-    ax_d2 = fig.add_axes([0.10, 0.015, 0.85, 0.08])
+    # 2026-09-13 (FIG-16): the lower logo sat at y=0.015, so its x-tick labels
+    # fell off the canvas bottom; both logo axes lifted by 0.025.
+    ax_d1 = fig.add_axes([0.10, 0.150, 0.85, 0.08])
+    ax_d2 = fig.add_axes([0.10, 0.040, 0.85, 0.08])
 
     print('Panel A: Linear genome ideogram...')
     panel_a_linear(ax_a)
@@ -562,8 +564,11 @@ def main():
     # sync into the Obsidian manuscript slot (Figure1.png) — the script previously
     # left this slot stale (7.14" old version), so add an explicit copy.
     import shutil
+    # 2026-09-13: sync is opt-in (SYNC_FIG_SLOTS=1); back up the old PNG to
+    # fig_images/archive/ first.
+    import os
     slot = Path.home() / 'obsidian' / 'Research' / 'rna-seq' / 'Writing' / 'fig_images' / 'Figure1.png'
-    if slot.parent.is_dir():
+    if os.environ.get('SYNC_FIG_SLOTS') == '1' and slot.parent.is_dir():
         shutil.copyfile(out_path.with_suffix('.png'), slot)
         print(f'  Synced → {slot}')
 
