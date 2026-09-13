@@ -85,7 +85,11 @@ def panel_a(ax, df_enrich):
     ax.set_xticklabels(labels, fontsize=8)
     ax.set_ylabel('Fold enrichment (BGC vs non-BGC)', fontsize=8)
     ax.set_title('Methylation enrichment in BGC genes', fontsize=9, fontweight='bold')
-    ax.legend(fontsize=7, loc='upper right', frameon=False)
+    # 2026-09-13 (FIG-17): legend used to sit on the '**' mark of the All-4mC core
+    # bar; add headroom and pin the legend above every bar/marker.
+    ax.set_ylim(0, max(df_enrich['fold_enrichment'].max(), 1.0) * 1.35)
+    ax.legend(fontsize=7, loc='upper right', frameon=False, ncol=2,
+              columnspacing=1.0, handlelength=1.4)
     _style(ax)
 
 
@@ -150,6 +154,7 @@ def panel_c(ax, df_dna):
     ax.set_xticks(x)
     ax.set_xticklabels(categories, fontsize=8)
     ax.set_ylabel('Mean density (proportion)', fontsize=8)
+    ax.set_ylim(0, max(max(bgc_vals), max(nonbgc_vals)) * 1.30)  # 2026-09-13: headroom for ×fold labels
     ax.set_title('DNA sequence vs methylation in BGC\n(core genes only)', fontsize=9,
                  fontweight='bold', linespacing=1.3)
     ax.legend(fontsize=7, frameon=False)
@@ -179,7 +184,10 @@ def panel_d(ax, df_cluster):
     ax.set_xticklabels([c.upper() for c in clusters], fontsize=8)
     ax.set_ylabel('Fold enrichment vs core baseline', fontsize=8)
     ax.set_title('BGC-specific enrichment per cluster', fontsize=9, fontweight='bold')
-    ax.legend(fontsize=7, frameon=False)
+    # 2026-09-13 (FIG-17): legend overlapped the ACT bar; add headroom and pin it
+    # upper-right, above the tallest bar.
+    ax.set_ylim(0, 2.05)
+    ax.legend(fontsize=7, frameon=False, loc='upper right', handlelength=1.4)
     _style(ax)
 
 
@@ -225,7 +233,7 @@ def main():
 
     # ── Save ─────────────────────────────────────────────────────────────────
     out_path = FIG_SUP_DIR / 'FigS11_bgc_methylation'
-    save_figure(fig, out_path)
+    save_figure(fig, out_path, formats=('pdf', 'svg', 'png'))
     print(f'\nSaved: {out_path}.pdf / .svg')
     print('=== Done ===')
 
