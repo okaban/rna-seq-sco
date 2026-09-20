@@ -1,0 +1,4 @@
+timepoint	n_instances	inst_6mA	occupancy_6mA_pct	inst_4mC_C4	pct_4mC	inst_both	expected_both_indep	ratio_obs_exp	core_frac_both
+T1	1334	366	27.4	698	52.3	194	191.5	1.01	0.876
+T2	1334	387	29.0	851	63.8	248	246.9	1.0	0.706
+T3	1334	375	28.1	574	43.0	171	161.4	1.06	0.754

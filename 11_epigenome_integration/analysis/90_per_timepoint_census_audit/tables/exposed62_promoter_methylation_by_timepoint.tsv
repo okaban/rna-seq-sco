@@ -1,0 +1,13 @@
+source	timepoint	n_exposed	n_within_293bp	frac_within_293bp	median_nearest_bp	n_within_1kb	n_within_2kb
+canonical	T1	62	62	1.0	172.0	62	62
+canonical	T2	62	56	0.9032	181.0	58	58
+canonical	T3	62	45	0.7258	184.0	47	50
+canonical	T1	Shielded n=989	0	0.0	2973.0	160	355
+canonical	T2	Shielded n=989	20	0.0202	2191.0	226	461
+canonical	T3	Shielded n=989	8	0.0081	3100.0	153	340
+dedup_first_appearance	T1	62	62	1.0	172.0	62	62
+dedup_first_appearance	T2	62	0	0.0	57884.5	2	3
+dedup_first_appearance	T3	62	1	0.0161	196230.5	1	1
+dedup_first_appearance	T1	Shielded n=989	0	0.0	2973.0	160	355
+dedup_first_appearance	T2	Shielded n=989	20	0.0202	12487.0	87	167
+dedup_first_appearance	T3	Shielded n=989	0	0.0	151340.0	7	13

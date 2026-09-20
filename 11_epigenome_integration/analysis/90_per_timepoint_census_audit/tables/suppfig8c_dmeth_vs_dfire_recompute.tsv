@@ -1,0 +1,3 @@
+source	n_windows	spearman_rho_dMeth_T1T2_vs_dFIRE_MtoL	circular_shift_p	rho_T1count_vs_FIRE_M	rho_T2count_vs_FIRE_L
+canonical	1724	0.397	0.03	0.319	0.043
+dedup_first_appearance	1724	0.428	0.0265	0.319	-0.42
