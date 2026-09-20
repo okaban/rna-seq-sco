@@ -1,0 +1,6 @@
+metric	universe	n_coord	n_noncoord	median_coord	median_noncoord	mwu_U	mwu_p
+nearest_GCCGGC_T1	n1051 (52_ SuppTable_regulatory_gene_classification_n1051)	62	989	2798.0	2677.0	29616.5	0.6531255921719346
+nearest_GCCGGC_T2	n1051 (52_ SuppTable_regulatory_gene_classification_n1051)	62	989	10963.0	13892.0	29065.5	0.49203506556686893
+nearest_GCCGGC_T3	n1051 (52_ SuppTable_regulatory_gene_classification_n1051)	62	989	123541.5	156238.0	27689.0	0.20027348313679583
+50_ nearest_methyl_dist (all sites, 01_integration)	50_ universe restricted to n1051	62	989	113.5	762.0	5220.5	5.230658009910526e-28
+50_ nearest_methyl_dist (as published)	50_ universe n1055	62	993	113.5	762.0	5247.5	5.300797217741319e-28

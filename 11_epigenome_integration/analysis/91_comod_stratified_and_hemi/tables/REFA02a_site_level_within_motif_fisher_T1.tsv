@@ -1,0 +1,3 @@
+scope	unit	n_4mC_C4	n_6mA_A0orA1	n_both	expected_both	n_neither	OR	CI_lo	CI_hi	fisher_p_two_sided	source
+T1, AAGCCCG instances (N=1,334)	instance	698	366	194	191.5	464	1.038	0.816	1.321	0.8059269937992062	698: 79_/site_census_AAGCCCG_instances_summary.tsv; 366: 87_/tables/AAGCCCG_occupancy_T1_C4.tsv (418 = A0+A1 site count, not instance count); 194: 79_ n_instances_with_pair T1
+sensitivity: 418 (A0+A1 SITE count) mis-used as instance count	instance	698	418	194	218.7	412	0.708			0.003782319017219921	not valid: 418 counts sites, 366 counts instances
