@@ -1,0 +1,14 @@
+#!/bin/sh
+# Analysis repo pre-commit gate (installed via: git config core.hooksPath hooks)
+# 1) supersession tripwire: a retired value appearing in a canonical output blocks the commit
+# 2) refuses to commit files that must never be evidence (stale/archived)
+set -e
+cd "$(git rev-parse --show-toplevel)"
+PY=$(command -v python3 || command -v python)
+if git diff --cached --name-only | grep -q "^11_epigenome_integration/analysis/"; then
+  "$PY" 11_epigenome_integration/analysis/make_analysis_index.py --check || { echo "[pre-commit] supersession tripwire FAILED"; exit 1; }
+fi
+if git diff --cached --name-only | grep -q "is_exposed_STALE_n57\|_ARCHIVED_\|\.bak_"; then
+  echo "[pre-commit] refusing to commit stale/backup files:"; git diff --cached --name-only | grep "is_exposed_STALE_n57\|_ARCHIVED_\|\.bak_"; exit 1
+fi
+exit 0

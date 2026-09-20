@@ -40,7 +40,7 @@ for ax, (label, null, obs, exp) in zip(axes, panels):
     ax.tick_params(labelsize=7, direction="in", which="both")
     ax.margins(0.04)
 axes[0].set_ylabel("Permutation replicates", fontsize=8)
-fig.suptitle("No permutation replicate reaches even 1 % of the observed count", fontsize=9, y=1.02)
+fig.suptitle("No permutation replicate reaches 2 % of the observed count (null maxima 5 of 406; 4 of 214)", fontsize=9, y=1.02)
 fig.tight_layout()
 fig.savefig(FIG, dpi=300, bbox_inches="tight")
 r = fig.canvas.get_renderer()
