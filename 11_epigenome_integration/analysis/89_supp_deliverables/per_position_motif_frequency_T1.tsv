@@ -1,0 +1,9 @@
+motif	offset	base	mod_type	n_instances	mean_pct_all	n_called	mean_pct_at_called_sites	pct_instances_called
+GCCGGC	1	C	4mC	31452	0.01	0	0.0	0.0
+GCCGGC	2	C	4mC	31452	4.34	1594	82.7	5.1
+GCCGGC	5	C	4mC	31452	0.0	0	0.0	0.0
+AAGCCCG	0	A	6mA	1334	36.18	312	62.1	23.4
+AAGCCCG	1	A	6mA	1334	25.21	98	59.6	7.3
+AAGCCCG	3	C	4mC	1334	0.15	0	0.0	0.0
+AAGCCCG	4	C	4mC	1334	54.59	867	74.8	65.0
+AAGCCCG	5	C	4mC	1334	0.05	0	0.0	0.0

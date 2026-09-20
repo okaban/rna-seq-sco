@@ -112,9 +112,14 @@ quant_positions(axes[0,1], "GCCGGC", {2:(82,C4,"4mC")},
 # AAGCCCG: 6mA at A0/A1 (~23%), 4mC at C3/C5 (~35%); dominant co-modified
 # pair A1<->C5. Both modification types sit on the SAME (top) strand; the
 # bottom strand carries no modification.
-draw_motif(axes[1,0], list("AAGCCCG"), {1:("6mA", C6), 5:("4mC", C4)},
+# 2026-09-20: the 4mC sits at C4, not C3/C5. The earlier offsets came from the
+# 1-bp-misaligned `sequence` window of methylation_site_sequences.csv; the T1
+# pileups put 4mC at C4 (mean 74.8% at canonical sites, 65.0% of instances
+# called) and ~0% at C3/C5 (0.15% / 0.05%). 6mA: A0 62.1%, A1 59.6% at canonical
+# sites. Values from 89_supp_deliverables/per_position_motif_frequency_T1.tsv.
+draw_motif(axes[1,0], list("AAGCCCG"), {0:("6mA", C6), 1:("6mA", C6), 4:("4mC", C4)},
            "AAGCCCG  (same-strand dual modification)")
-quant_positions(axes[1,1], "AAGCCCG", {0:(23,C6,"6mA"),1:(23,C6,"6mA"),3:(35,C4,"4mC"),5:(35,C4,"4mC")},
+quant_positions(axes[1,1], "AAGCCCG", {0:(62,C6,"6mA"),1:(60,C6,"6mA"),4:(75,C4,"4mC")},
                 "Per-position modification frequency — AAGCCCG")
 # (per-position occupancy + dominant-pair detail moved to the figure caption)
 # (third column, top) GCCGGC summary. Reviewer C7: the previous version placed
@@ -134,14 +139,15 @@ axa.set_ylabel("GCCGGC sites (T1)",fontsize=8.5)
 axa.set_title("GCCGGC",fontsize=9)
 axa.set_ylim(0,1450)
 for sp in ("top","right"): axa.spines[sp].set_visible(False)
-# AAGCCCG breakdown: 4mC at C3/C5 (699 sites), 6mA at A0/A1 (441), per-read dual 31.6% (T1)
+# AAGCCCG breakdown at the corrected offsets (T1 canonical sites, cov>=10, >=50%):
+# 4mC at C4 = 867 sites; 6mA at A0/A1 = 410 sites (312 + 98).
 axb=axes[1,2]
-axb.bar([0,1],[699,441],color=[C4,C6],width=0.6,zorder=3)
-axb.text(0,699+12,"699",ha="center",fontsize=9,color=C4,fontweight="bold",zorder=4)
-axb.text(1,441+12,"441",ha="center",fontsize=9,color=C6,fontweight="bold",zorder=4)
+axb.bar([0,1],[867,410],color=[C4,C6],width=0.6,zorder=3)
+axb.text(0,867+12,"867",ha="center",fontsize=9,color=C4,fontweight="bold",zorder=4)
+axb.text(1,410+12,"410",ha="center",fontsize=9,color=C6,fontweight="bold",zorder=4)
 axb.set_xticks([0,1]);axb.set_xticklabels(["4mC","6mA"],fontsize=9)
 axb.set_ylabel("AAGCCCG sites (T1)",fontsize=8.5);axb.set_title("AAGCCCG",fontsize=9)
-axb.set_ylim(0, 820)
+axb.set_ylim(0, 980)
 for sp in ("top","right"): axb.spines[sp].set_visible(False)
 # (per-molecule dual co-occurrence 31.6%→7.2%→4.3% across T1/T2/T3 moved to the caption)
 fig.legend(handles=[mpatches.Patch(color=C4,label="4mC"),mpatches.Patch(color=C6,label="6mA")],
