@@ -1,0 +1,7 @@
+source	timepoint	n_sites	core_n	core_frac	arm_frac	null_core_frac_mean	null_ci95_lo	null_ci95_hi	perm_p_two_sided_approx	direction	compartmentA_frac_2.3-6.2Mb	genomic_GCCGGC_compA_frac
+canonical	T1	1289	1070	0.8301	0.1699	0.6309	0.6051	0.6571	0.0002	core-enriched	0.6152	0.4241
+canonical	T2	1595	1052	0.6596	0.3404	0.631	0.6082	0.6539	0.016	core-enriched	0.4677	0.4241
+canonical	T3	1073	737	0.6869	0.3131	0.631	0.603	0.6589	0.0002	core-enriched	0.5107	0.4241
+dedup_first_appearance	T1	1289	1070	0.8301	0.1699	0.6311	0.6051	0.6571	0.0002	core-enriched	0.6152	0.4241
+dedup_first_appearance	T2	407	74	0.1818	0.8182	0.6308	0.5848	0.6781	0.0002	arm-enriched	0.0418	0.4241
+dedup_first_appearance	T3	21	8	0.381	0.619	0.6309	0.4286	0.8095	0.0344	arm-enriched	0.1905	0.4241
