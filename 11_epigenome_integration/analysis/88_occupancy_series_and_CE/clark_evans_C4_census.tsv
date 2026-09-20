@@ -1,0 +1,3 @@
+scope	n	mean_nn_bp	expected_nn_bp	R	z	p_two_sided	pattern
+pooled_any_timepoint	406	9415.6	10674.3	0.882	-2.38	0.0175	clustered
+T1	214	17866.5	20251.2	0.882	-1.72	0.085	clustered

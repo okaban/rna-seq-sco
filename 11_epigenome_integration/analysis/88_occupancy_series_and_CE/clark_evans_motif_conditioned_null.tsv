@@ -1,0 +1,3 @@
+scope	n	obs_mean_nn_bp	null_mean_nn_bp	ratio_obs_null	p_two_sided	pattern
+pooled_any_timepoint	406	9415.6	10626.2	0.886	0.0062	more clustered than motif set
+T1	214	17866.5	20048.6	0.891	0.0634	more clustered than motif set
