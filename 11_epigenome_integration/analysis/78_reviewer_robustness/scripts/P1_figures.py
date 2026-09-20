@@ -16,8 +16,11 @@ plt.rcParams.update({"font.size": 9, "axes.spines.top": False, "axes.spines.righ
 
 
 # ---- Fig A: cross-talk specificity + probability QC ------------------------
-rates = pd.read_csv(os.path.join(T, "P1_1_crosstalk_rates.tsv"), sep="\t")
-probs = pd.read_csv(os.path.join(T, "P1_1_prob_distributions.tsv"), sep="\t")
+# 2026-09-20: read the C4 tables (4mC is at C4; the C3/C5 QC panel measured
+# positions that carry ~0 modification). The near/far test itself is unchanged
+# because it scans offsets around each 6mA call, not fixed motif positions.
+rates = pd.read_csv(os.path.join(T, "P1_1_crosstalk_rates_C4.tsv"), sep="\t")
+probs = pd.read_csv(os.path.join(T, "P1_1_prob_distributions_C4.tsv"), sep="\t")
 fig, ax = plt.subplots(1, 3, figsize=(10, 3.2))
 aag = rates[rates.group == "AAGCCCG_6mA"].iloc[0]
 non = rates[rates.group == "nonAAGCCCG_6mA_generic"].iloc[0]
@@ -44,9 +47,9 @@ ax[1].set_ylabel("near 4mC co-call rate (log)")
 ax[1].set_title(f"motif specificity = {spec:.0f}×", loc="center", fontsize=9)
 # panel c: probability QC
 ax[2].plot(probs.prob_bin_center, probs.AAGCCCG_A_6mA/probs.AAGCCCG_A_6mA.sum(),
-           "-o", ms=3, color=OK["blue"], label="A0/A1 (6mA)")
+           "-o", ms=3, color=OK["blue"], label="A₀/A₁ (6mA)")
 ax[2].plot(probs.prob_bin_center, probs.AAGCCCG_C_4mC/probs.AAGCCCG_C_4mC.sum(),
-           "-s", ms=3, color=OK["vermillion"], label="C3/C5 (4mC)")
+           "-s", ms=3, color=OK["vermillion"], label="C₄ (4mC)")
 ax[2].set_xlabel("per-read modification probability")
 ax[2].set_ylabel("fraction of calls")
 ax[2].set_title("call confidence at AAGCCCG", loc="center", fontsize=9)
