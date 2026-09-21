@@ -19,7 +19,7 @@
 - `methylation_site_sequences.csv` — **この表は first-appearance 表である（2026-09-21 判明、BLOCKER-0）**: position で重複除去され、各部位は最初に現れた時点の行しか持たない（4mC 1,987 / 664 / 42）。**T1 の集計にしか使えない。**T2/T3 の部位数・占有率・ペア数・Jaccard をここから出すと「T2 で新たに現れた部位」を数えることになる（本文の 1,289→407→21、Jaccard 0、Exposed 62→0、27.4→6.8→3.7% の原因）。時点別の値は `01_integration/high_confidence_sites_weighted.csv`（全時点・全部位）から出すこと（`90_per_timepoint_census_audit/`）。さらに `sequence` 列の窓は真の部位より 1 塩基上流に中心がある（C₅/C₃ ラベルずれの原因）。オフセットは参照配列に position を当てて求めること。
 - `23_expanded_motif_search/4mC_motif_assignment.csv` — **first-appearance 表（07_ と同じ重複除去）。T2/T3 の集計に使わない。** 詳細は 07_ の READ_BEFORE_USE.md。
 - `88_occupancy_series_and_CE` — **T2/T3 の占有率（6.8% / 3.7%）は first-appearance 表由来で誤り**（正準: 29.0% / 28.1%、`90_`）。T1 27.4% と Clark–Evans（pooled 406 の空間統計）は有効。
-- `79_comod_full_denominator` — site census の **T2 (26) / T3 (0) ペア数は first-appearance 表由来で誤り**（正準: T2 248 / T3 171 instances、`90_`）。T1 の値、per-read OR（BAM 直読）、pooled 406（『いずれかの時点で両マーク』の union として定義を明記すれば可）は有効。
+- `79_comod_full_denominator` — site census の **T2 (26) / T3 (0) ペア数は first-appearance 表由来で誤り**（正準: T2 248 / T3 171 instances、`90_`）。**per-read OR 4.84 も誤り**: `comod_full_denominator_C4.py` は `modified_bases_forward` を SEQ 座標と混用し minus 鎖を全て未修飾扱いにしていた（EPI-03）。正しい表は `comod_full_denominator_T1_C4_orientation_fixed.tsv`（OR 1.04 → 0.96；`91_` で生成）。T1 の site 値と pooled 406（定義明記）は有効。
 - `80_rebase_dualmod_search` — `80_` が 2 つある（`80_partial_corr_covariates` と `80_rebase_dualmod_search`）。番号は重複しているが別物。改番はリンク切れを招くのでしない。
 
 ## 撤回済みトークンの漏れ検査
@@ -28,4 +28,4 @@
 
 ---
 
-_生成: 2026-09-21 04:14 · `make_analysis_index.py` · HEAD `c3c0223 analysis(90): per-timepoint census audit — canonical` · SUPERSEDED.md 更新 9 件_
+_生成: 2026-09-21 10:20 · `make_analysis_index.py` · HEAD `fa13530 analysis(91): orientation-fixed per-read AAGCCCG sca` · SUPERSEDED.md 更新 1 件_

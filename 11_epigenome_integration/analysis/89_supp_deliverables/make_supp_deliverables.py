@@ -29,7 +29,7 @@ DATE = datetime.now().strftime("%Y%m%d")
 coloc = pd.read_csv(f"{A}/87_site_coloc_stats_C4/tables/site_coloc_2x2_C4.tsv", sep="\t").set_index("scope")
 ce    = pd.read_csv(f"{A}/88_occupancy_series_and_CE/clark_evans_C4_census.tsv", sep="\t").set_index("scope")
 cemc  = pd.read_csv(f"{A}/88_occupancy_series_and_CE/clark_evans_motif_conditioned_null.tsv", sep="\t").set_index("scope")
-sweep = pd.read_csv(f"{A}/79_comod_full_denominator/comod_full_denominator_T1_C4.tsv", sep="\t")
+sweep = pd.read_csv(f"{A}/79_comod_full_denominator/comod_full_denominator_T1_C4_orientation_fixed.tsv", sep="\t")
 p = coloc.loc["pooled"]; c = ce.loc["pooled_any_timepoint"]; m = cemc.loc["pooled_any_timepoint"]
 
 # ---- Supplementary Table 6: statistical tests -------------------------------

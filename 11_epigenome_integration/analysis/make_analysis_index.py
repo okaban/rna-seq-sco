@@ -88,7 +88,8 @@ CAVEATS = [
            "T1 27.4% と Clark–Evans（pooled 406 の空間統計）は有効。"),
  dict(path="11_epigenome_integration/analysis/79_comod_full_denominator",
       note="site census の **T2 (26) / T3 (0) ペア数は first-appearance 表由来で誤り**（正準: T2 248 / T3 171 instances、`90_`）。"
-           "T1 の値、per-read OR（BAM 直読）、pooled 406（『いずれかの時点で両マーク』の union として定義を明記すれば可）は有効。"),
+           "**per-read OR 4.84 も誤り**: `comod_full_denominator_C4.py` は `modified_bases_forward` を SEQ 座標と混用し minus 鎖を全て未修飾扱いにしていた（EPI-03）。"
+           "正しい表は `comod_full_denominator_T1_C4_orientation_fixed.tsv`（OR 1.04 → 0.96；`91_` で生成）。T1 の site 値と pooled 406（定義明記）は有効。"),
  dict(path="11_epigenome_integration/analysis/80_rebase_dualmod_search",
       note="`80_` が 2 つある（`80_partial_corr_covariates` と `80_rebase_dualmod_search`）。"
            "番号は重複しているが別物。改番はリンク切れを招くのでしない。"),
