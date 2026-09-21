@@ -61,7 +61,7 @@ def add_uppercase_label(ax, label, x=None, y=None, fontsize=13):
 
 
 def panel_a(ax, df_sites, bin_size_bp=50_000):
-    """GCCGGC 4mC core-to-arm redistribution — stacked per-timepoint landscape.
+    """GCCGGC 4mC geographic distribution — stacked per-timepoint landscape.
 
     Formerly a 3-line overlay in an Okabe-Ito trio (blue/orange/green), which
     introduced three colours that clash with the paper's 4mC-red / 6mA-blue /
@@ -119,7 +119,8 @@ def panel_a(ax, df_sites, bin_size_bp=50_000):
     ax.spines['left'].set_visible(False)
     ax.set_xlabel('Chromosome position (Mb)', fontsize=9)
     ax.set_ylabel('GCCGGC 4mC sites\n(per 50 kb, by timepoint)', fontsize=9)
-    ax.set_title('Geographic redistribution', pad=14,
+    # 2026-09-21: neutral title (canonical per-timepoint sets show no redistribution)
+    ax.set_title('Geographic distribution', pad=14,
                  fontsize=10, fontweight='bold')
 
 

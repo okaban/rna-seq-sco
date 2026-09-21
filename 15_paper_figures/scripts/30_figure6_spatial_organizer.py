@@ -59,8 +59,17 @@ COL_ARM  = '#C0803A'      # arm fraction — unified calm amber
 
 
 def _load_panelA():
-    """Core/arm site counts per timepoint from real GCCGGC calls."""
-    g = pd.read_csv(SITES_TSV, sep='\t')
+    """Core/arm site counts per timepoint from real GCCGGC calls.
+
+    2026-09-21 (BLOCKER-0): SITES_TSV (37_) is position-deduplicated across
+    timepoints (first-appearance 1,289/407/21). Read the canonical per-timepoint
+    file (1,289/1,595/1,073) through 90_/canonical_sites.py instead.
+    """
+    import importlib.util as _ilu
+    _spec = _ilu.spec_from_file_location(
+        'canonical_sites', BASE_ANALYSIS / '90_per_timepoint_census_audit' / 'canonical_sites.py')
+    _cs = _ilu.module_from_spec(_spec); _spec.loader.exec_module(_cs)
+    g = _cs.gccggc_by_timepoint()
     g['core'] = (g['position'] >= CORE_LO) & (g['position'] <= CORE_HI)
     rows = {}
     for tp in ('T1', 'T2', 'T3'):
@@ -111,7 +120,9 @@ def draw_panelA(ax, rows):
     ax.set_ylim(0, 112)
     ax.set_yticks([0, 25, 50, 75, 100])
     ax.set_ylabel('GCCGGC 4mC sites (%)', fontsize=8)
-    ax.set_title('Core→arm redistribution of GCCGGC 4mC', fontsize=8, pad=14)
+    # 2026-09-21: neutral title — canonical per-timepoint sets stay core-enriched
+    # (83/66/69 % vs 63 % null); no core→arm redistribution.
+    ax.set_title('Core/arm distribution of GCCGGC 4mC', fontsize=8, pad=14)
     ax.spines[['top', 'right']].set_visible(False)
     ax.legend(frameon=False, fontsize=6, loc='lower center',
               bbox_to_anchor=(0.5, -0.30), ncol=2, handlelength=1.1,
@@ -137,46 +148,61 @@ def draw_panelB(ax, d, rr, pp):
                       edgecolor=COL_GRAY, linewidth=0.7))
 
 
-# ── Top schematic strip: core → arm switch ────────────────────────────────────
-def draw_schematic(ax):
-    ax.set_xlim(0, 10); ax.set_ylim(0, 10); ax.axis('off')
+# ── Schematic strip: per-timepoint methylome states (data-driven) ──────────────
+def draw_schematic(ax, sites=None):
+    """Two chromosome cartoons (T1, T2) whose methyl ticks are a fixed-size random
+    subsample of the CANONICAL per-timepoint GCCGGC 4mC positions, so the drawn
+    core/arm balance is the measured one (T1 83 % core, T2 66 % core; both
+    core-enriched vs the 63 % genomic-motif null).
 
-    def chromosome(cx, concentrate_core, label, sub):
+    2026-09-21 (BLOCKER-0): replaces the hand-drawn 'T1 core-methylated -> T2
+    arm-redistributed' cartoon, which encoded the first-appearance artefact
+    (T2 = 407 sites NEW at T2, 82 % arm). Under the canonical file there is no
+    relocation; the schematic now reports the stable, core-enriched states.
+    """
+    ax.set_xlim(0, 10); ax.set_ylim(0, 10); ax.axis('off')
+    if sites is None:
+        sites, _ = _load_panelA()
+    g = sites
+    n_ticks = 40
+    rng = np.random.default_rng(3)
+
+    def chromosome(cx, tp, label, sub):
         w, h, y = 3.6, 0.55, 5.4
         x0 = cx - w / 2
-        # backbone
         ax.add_patch(Rectangle((x0, y), w, h, facecolor='#ECEFF1',
                                edgecolor=COL_DARK, linewidth=0.9, zorder=2))
-        # core shade (central ~65% of the bar)
         core_frac = (CORE_HI - CORE_LO) / GENOME
         cw = w * core_frac
-        ax.add_patch(Rectangle((cx - cw / 2, y), cw, h, facecolor='#CFE3D6',
-                               edgecolor='none', zorder=1.5))
-        # methyl ticks: core-concentrated (T1) or arm-concentrated (T2)
-        rng = np.random.default_rng(3)
-        if concentrate_core:
-            xs = np.clip(rng.normal(cx, cw / 3.2, 22), x0 + 0.05, x0 + w - 0.05)
-        else:
-            left = rng.normal(x0 + (w - cw) / 4, 0.28, 9)
-            right = rng.normal(x0 + w - (w - cw) / 4, 0.28, 9)
-            xs = np.clip(np.concatenate([left, right]), x0 + 0.05, x0 + w - 0.05)
-        for xt in xs:
+        # drawn ABOVE the backbone (zorder 2.5) so the core band is visible
+        ax.add_patch(Rectangle((x0 + w * CORE_LO / GENOME, y), cw, h, facecolor='#CFE3D6',
+                               edgecolor='none', zorder=2.5))
+        ax.text(cx, y + h / 2, 'core', ha='center', va='center', fontsize=5.2,
+                color=COL_DARK, zorder=2.6)
+        pos = g.loc[g['timepoint'] == tp, 'position'].to_numpy()
+        pick = rng.choice(pos, size=min(n_ticks, len(pos)), replace=False)
+        for pv in pick:
+            xt = x0 + w * pv / GENOME
             ax.vlines(xt, y + h, y + h + 0.55, color=COL_4mC, lw=0.6, alpha=0.85, zorder=3)
         ax.text(cx, y - 0.35, label, ha='center', va='top', fontsize=6.6,
                 fontweight='bold', color=COL_DARK)
         ax.text(cx, y - 1.15, sub, ha='center', va='top', fontsize=5.6, color=COL_DARK)
 
-    chromosome(2.4, True, 'T1 — core-methylated', 'vegetative growth (12 h)')
-    chromosome(7.6, False, 'T2 — arm-redistributed', 'developmental switch (24 h)')
-    # arrow between the two states
+    _, rows = _load_panelA()
+    chromosome(2.4, 'T1', f"T1 — {rows['T1']['pct_core']:.0f}% core",
+               f"vegetative growth (12 h); n = {rows['T1']['n']:,}")
+    chromosome(7.6, 'T2', f"T2 — {rows['T2']['pct_core']:.0f}% core",
+               f"developmental switch (24 h); n = {rows['T2']['n']:,}")
     arr = FancyArrowPatch((4.35, 5.68), (5.65, 5.68), arrowstyle='-|>',
                           mutation_scale=13, lw=1.8, color=COL_DARK, zorder=5)
     ax.add_patch(arr)
-    ax.text(5.0, 6.55, 'developmental\nswitch', ha='center', va='bottom',
+    t1 = set(zip(*g.loc[g['timepoint'] == 'T1', ['position', 'strand']].to_numpy().T))
+    t2 = set(zip(*g.loc[g['timepoint'] == 'T2', ['position', 'strand']].to_numpy().T))
+    jac = len(t1 & t2) / len(t1 | t2)
+    ax.text(5.0, 6.55, f'T1 → T2\n(Jaccard {jac:.2f})', ha='center', va='bottom',
             fontsize=5.8, fontweight='bold', color=COL_DARK)
-    # mark legend, top-left whitespace
-    ax.text(0.1, 9.4, '│ GCCGGC 4mC site', fontsize=5.8, color=COL_4mC,
-            ha='left', va='top')
+    ax.text(0.1, 9.4, f'│ GCCGGC 4mC site (random {n_ticks} of n per timepoint)',
+            fontsize=5.8, color=COL_4mC, ha='left', va='top')
 
 
 def main():

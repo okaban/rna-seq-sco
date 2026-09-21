@@ -30,7 +30,27 @@ BGC (29 antiSMASH regions) GCCGGC 4mC: 140 / 214 / 118 (dedup 140 / 80 / 4 — r
 Supp Fig 8c: ρ = 0.397, circular-shift p = 0.030 (dedup 0.428 / 0.027).
 Dynamic sites (≥10 pp, HC at all three timepoints): GCCGGC 244/858 (A5b: 243/855); AAGCCCG 6mA 97/309 (A5b: 47/147 — A5 treats `position` as 1-based; the 147 set = 119 A0 + 27 A1 + 1 non-motif).
 
-## Figure PNGs embedding first-appearance numbers (not regenerated)
+## Figure regeneration 2026-09-21 (EPI_ANALYST) — see `tables/figure_regeneration_260921.tsv`
+Six manuscript PNGs were regenerated from the canonical file through the shared loader
+`canonical_sites.py` (motif assignment identical to `per_timepoint_census.py`); each
+producing script now imports it instead of the 37_/23_/07_ first-appearance tables.
+Previous PNGs are in `Writing/fig_images/archive/<name>_pre260921.png`.
+- `Figure2_merged.png` a/b: 1,289/1,595/1,073, 83/66/69 % core; panel c schematic redrawn
+  data-driven (T1 83 % / T2 66 % core, Jaccard 0.70) — message changed, needs author sign-off.
+- `Figure5.png` a: 62/56/45 within 293 bp (medians 172/181/184 bp).
+- `SuppFigure20.png` c: GCCGGC-Exposed 100/90.3/72.6 % only. The former 'AAGCCCG-prom
+  9.1/4.5/0 %' series was `near_frac(AAGp)` on the **GCCGGC** distance columns (fraction of
+  the 22 AAGCCCG-promoter regulators with a GCCGGC site ≤293 bp of the TSS), not AAGCCCG
+  retention; it is not drawn. Candidate replacements: `52_/tables/S20c_aagcccg_series_candidates.tsv`
+  (canonical TSS-based AAGCCCG-6mA class n = 21: 100/85.7/81.0 %). The 22-gene class itself
+  (panels a/b) comes from the 23_ 6mA census, whose T1 AAGCCCG set is 260 of the 418
+  canonical sites, with distance to gene start/end (gene body = 0) rather than to the TSS.
+- `SuppFigure8.png` c: ρ = 0.397 (circular-shift p 0.030 from `tables/suppfig8c_*`).
+- `SuppFigure11.png`: GCCGGC 83/66/69 %; AAGCCCG pooled 82/70/73 % (1,116/1,302/1,017).
+- `SuppFigure14.png`: n 1,289/1,595/1,073; 698/851/574; 418/451/443 (`79_/tables/C4_region_composition.tsv`).
+- `SuppFigure17.png`: not regenerated (T1-only); legend premise only.
+
+## Figure PNGs embedding first-appearance numbers (regenerated 2026-09-21; see above)
 - `Writing/fig_images/Figure2_merged.png` (main Fig 2a,b) ← `15_paper_figures/scripts/31_merged_figure2_geography.py` → `02b_figure2_RM_redistribution.py` ← 37_ table
 - `Writing/fig_images/Figure5.png` (main Fig 4a, 62/0/1) ← `52_shielded_exposed_boundary/scripts/F4_F5_reframe_figures.py` ← 37_ table
 - `Writing/fig_images/SuppFigure20.png` (S20c 100/0/1.6%; 9.1/4.5/0%) ← same script ← 37_ table + `36_AAGCCCG_distribution/tables/AAGCCCG_site_gene_mapping.tsv` (23_ 6mA census)

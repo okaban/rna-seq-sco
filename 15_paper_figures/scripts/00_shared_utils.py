@@ -611,10 +611,20 @@ def load_geographic_redistribution():
         df_summary: core/arm distribution by timepoint
         df_sites: individual GCCGGC site positions by timepoint
     """
-    base = EPIGENOME / '37_defense_island_GCCGGC' / 'tables'
-    df_summary = pd.read_csv(base / 'geographic_distribution_summary.tsv', sep='\t')
-    df_sites = pd.read_csv(base / 'GCCGGC_sites_by_timepoint.tsv', sep='\t')
-    print(f'  GCCGGC sites: T1={len(df_sites[df_sites.timepoint=="T1"])}, '
+    # 2026-09-21 (BLOCKER-0): the 37_ table is position-DEDUPLICATED across
+    # timepoints (first-appearance: 1,289/407/21 = sites NEW at each TP). Read the
+    # canonical per-timepoint file instead (1,289/1,595/1,073) via the shared
+    # loader in 90_per_timepoint_census_audit/canonical_sites.py.
+    import importlib.util as _ilu
+    _spec = _ilu.spec_from_file_location(
+        'canonical_sites', EPIGENOME / '90_per_timepoint_census_audit' / 'canonical_sites.py')
+    _cs = _ilu.module_from_spec(_spec); _spec.loader.exec_module(_cs)
+    df_sites = _cs.gccggc_by_timepoint()
+    df_summary = (df_sites.groupby('timepoint')
+                  .agg(n_sites=('position', 'size'),
+                       core_fraction=('region', lambda r: (r == 'core').mean()))
+                  .reset_index())
+    print(f'  GCCGGC sites (canonical per-timepoint): T1={len(df_sites[df_sites.timepoint=="T1"])}, '
           f'T2={len(df_sites[df_sites.timepoint=="T2"])}, '
           f'T3={len(df_sites[df_sites.timepoint=="T3"])}')
     return df_summary, df_sites
