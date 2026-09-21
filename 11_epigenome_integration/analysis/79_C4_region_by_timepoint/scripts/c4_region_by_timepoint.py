@@ -2,9 +2,13 @@
 """C4: genomic-region composition of methylation sites by modification system
 and developmental timepoint (T1/T2/T3).
 
-Driven by the CANONICAL census (depth>=10, freq>=50%) so per-system per-TP
-counts match every other figure (GCCGGC 4mC 1289/407/21; AAGCCCG-4mC 587/212/15;
-AAGCCCG-6mA 260/64/38). Region categories use the SAME first-match logic as the
+Driven by the CANONICAL per-timepoint file 01_integration/high_confidence_sites_weighted.csv
+(depth>=10, 3 reps, weighted freq>=50%) via 90_/canonical_sites.py, so per-system
+per-TP counts match every other figure: GCCGGC 4mC 1,289/1,595/1,073; AAGCCCG-4mC (C4)
+698/851/574; AAGCCCG-6mA (A0/A1) 418/451/443.
+2026-09-21 (BLOCKER-0): the previous source, 23_expanded_motif_search/*_final_census.csv,
+is position-deduplicated across timepoints (first-appearance), which produced the
+retracted 1,289/407/21 series and the 'T3 strata small (n = 15-38)' caveat. Region categories use the SAME first-match logic as the
 SuppFig 9 classifier (62_GO_KEGG_enrichment/stratified_position_enrichment.py):
 promoter = TSS-500..-1; 5'UTR = in-gene 0..+100; CDS_internal = rest of gene;
 else intergenic.
@@ -20,8 +24,12 @@ BASE = Path("/Users/okaban/bioinfo/rna-seq/11_epigenome_integration/analysis")
 TSS = pd.read_csv(BASE / "18_tss_analyses/comprehensive_tss_table.csv")[
     ["gene_id", "chrom", "start", "end", "strand", "tss"]].rename(
     columns={"start": "gstart", "end": "gend"})
-C4MC = pd.read_csv(BASE / "23_expanded_motif_search/4mC_final_census.csv")
-C6MA = pd.read_csv(BASE / "23_expanded_motif_search/6mA_final_census.csv")
+import importlib.util as _ilu
+_spec = _ilu.spec_from_file_location("canonical_sites", BASE / "90_per_timepoint_census_audit/canonical_sites.py")
+_cs = _ilu.module_from_spec(_spec); _spec.loader.exec_module(_cs)
+_HC = _cs.load_canonical()          # columns: position, strand, mod, timepoint, frequency, motif
+C4MC = _HC[_HC["mod"] == "4mC"].rename(columns={"motif": "final_motif"})
+C6MA = _HC[_HC["mod"] == "6mA"].rename(columns={"motif": "final_motif"})
 
 CATS = ["promoter", "5UTR_approx", "CDS_internal", "intergenic"]
 
@@ -66,7 +74,7 @@ def classify(df):
 # 2026-09-13 (FIG-09): locked notation is 4mC (not m4C); panel titles + table
 # 'system' column follow it.
 SYSTEMS = [
-    ("GCCGGC 4mC", C4MC, "TGGCCGGC"),
+    ("GCCGGC 4mC", C4MC, "GCCGGC"),
     ("AAGCCCG 4mC", C4MC, "AAGCCCG"),
     ("AAGCCCG 6mA", C6MA, "AAGCCCG"),
 ]
