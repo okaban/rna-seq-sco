@@ -65,14 +65,28 @@ def _clamp_png_width(png_path, target_px=NAR_FULL_PX):
 
 reg = pd.read_csv(A/"tables/all_genes_features_unified_n57.tsv", sep="\t").dropna(subset=['tss']).copy()
 reg['tss'] = reg['tss'].astype(int)
-g = pd.read_csv(B/"37_defense_island_GCCGGC/tables/GCCGGC_sites_by_timepoint.tsv", sep="\t")
+# 2026-09-21 (BLOCKER-0): the 37_ table is position-DEDUPLICATED across timepoints
+# (first-appearance: T2/T3 rows are sites NEW at that timepoint), which produced the
+# retracted 62 -> 0 -> 1 series. Read the canonical per-timepoint GCCGGC 4mC sets
+# (1,289/1,595/1,073) through 90_/canonical_sites.py. T1 is identical to the 37_ T1 set.
+import importlib.util as _ilu
+_spec = _ilu.spec_from_file_location("canonical_sites", B/"90_per_timepoint_census_audit/canonical_sites.py")
+_cs = _ilu.module_from_spec(_spec); _spec.loader.exec_module(_cs)
+g = _cs.gccggc_by_timepoint()
+# AAGCCCG-promoter class (panels S20a/b): T1 rows of the 36_ mapping. The mapping is
+# built from 23_ 6mA_final_census.csv, whose T1 AAGCCCG set (260 sites) is a subset of the
+# canonical T1 AAGCCCG 6mA set (418; motif called from the reference at A0/A1), and its
+# `distance` is to the nearest gene START/END (gene-body = 0), not to the TSS. Kept
+# unchanged here (T1-only, so not a first-appearance artefact) -- see open questions.
 aag = pd.read_csv(B/"36_AAGCCCG_distribution/tables/AAGCCCG_site_gene_mapping.tsv", sep="\t")
+aag6 = _cs.aagcccg_by_timepoint("6mA")   # canonical AAGCCCG 6mA (A0/A1) per timepoint
 
 def nd(tss, pos):
     if len(pos) == 0: return np.nan
     i = np.clip(np.searchsorted(pos, tss), 1, len(pos)-1); return min(abs(tss-pos[i-1]), abs(tss-pos[i]))
 for tp in ['T1','T2','T3']:
     pos = np.sort(g[g.timepoint==tp].position.values); reg['d'+tp] = reg['tss'].apply(lambda t: nd(t, pos))
+    pos6 = np.sort(aag6[aag6.timepoint==tp].position.values); reg['dA'+tp] = reg['tss'].apply(lambda t: nd(t, pos6))
 reg['Exposed'] = reg['dT1'] <= W
 aagprom = set(aag[(aag.timepoint=='T1') & (aag['distance']<=W)]['locus_tag'])
 reg['AAG'] = reg['locus_tag'].isin(aagprom)
@@ -133,17 +147,44 @@ ax[1].text(0.98, 0.98, "* $p_{BH}$ < 0.05", transform=ax[1].transAxes,
 ax[1].set_xlim(0, max(ors)*1.45)
 ax[1].set_xlabel("odds ratio (Exposed vs other regulators)")
 ax[1].set_title("Exposed: TF-family enrichment", fontsize=8, pad=6, loc="left")
-# (c) demethylation trajectory: fraction with promoter mark <=293bp at T1/T2/T3
-def near_frac(df):
-    return [ (df['dT1']<=W).mean(), (df['dT2']<=W).mean(), (df['dT3']<=W).mean() ]
+# (c) retention trajectory: fraction with a GCCGGC 4mC site <=293 bp of the TSS at T1/T2/T3
+def near_frac(df, prefix='d'):
+    return [ (df[prefix+'T1']<=W).mean(), (df[prefix+'T2']<=W).mean(), (df[prefix+'T3']<=W).mean() ]
 ax[2].plot([1,2,3], np.array(near_frac(E))*100, '-o', color=C_GCC, label=f"GCCGGC-Exposed (n={len(E)})")
-ax[2].plot([1,2,3], np.array(near_frac(AAGp))*100, '-s', color=C_AAG, label=f"AAGCCCG-prom (n={len(AAGp)})")
+# 2026-09-21 (BLOCKER-0): the former second series ("AAGCCCG-prom", 9.1/4.5/0 %) was
+# near_frac(AAGp) on the GCCGGC distance columns, i.e. the fraction of the 22
+# AAGCCCG-promoter regulators with a *GCCGGC* site within 293 bp -- not AAGCCCG-mark
+# retention as the legend states -- and it used the first-appearance table. It is NOT
+# drawn. Candidate AAGCCCG series computed from the canonical file are written to
+# tables/S20c_aagcccg_series_candidates.tsv for the authors to choose a definition;
+# set S20C_AAG_SERIES=canonical_tss to draw the canonical TSS-based series instead.
+import os as _os
+_cands = []
+_cands.append(dict(series="retired_figure_metric_GCCGGC_dist_on_36_class", class_def="36_ T1 mapping, gene-boundary distance<=293 (23_ census)",
+                   n_class=len(AAGp), metric="fraction with GCCGGC 4mC site <=293 bp of TSS (canonical)",
+                   T1=near_frac(AAGp)[0]*100, T2=near_frac(AAGp)[1]*100, T3=near_frac(AAGp)[2]*100))
+_cands.append(dict(series="36_class_canonical_AAGCCCG_6mA_TSS", class_def="36_ T1 mapping (n=22)", n_class=len(AAGp),
+                   metric="fraction with canonical AAGCCCG 6mA (A0/A1) site <=293 bp of TSS",
+                   T1=near_frac(AAGp,'dA')[0]*100, T2=near_frac(AAGp,'dA')[1]*100, T3=near_frac(AAGp,'dA')[2]*100))
+_Ac = reg[reg['dAT1']<=W]
+_cands.append(dict(series="canonical_tss", class_def="regulators with canonical AAGCCCG 6mA site <=293 bp of TSS at T1", n_class=len(_Ac),
+                   metric="fraction with canonical AAGCCCG 6mA (A0/A1) site <=293 bp of TSS",
+                   T1=near_frac(_Ac,'dA')[0]*100, T2=near_frac(_Ac,'dA')[1]*100, T3=near_frac(_Ac,'dA')[2]*100))
+_cands.append(dict(series="GCCGGC_Exposed_drawn", class_def="Exposed-62 (GCCGGC <=293 bp of TSS at T1)", n_class=len(E),
+                   metric="fraction with canonical GCCGGC 4mC site <=293 bp of TSS",
+                   T1=near_frac(E)[0]*100, T2=near_frac(E)[1]*100, T3=near_frac(E)[2]*100))
+pd.DataFrame(_cands).round(1).to_csv(A/"tables/S20c_aagcccg_series_candidates.tsv", sep="\t", index=False)
+if _os.environ.get("S20C_AAG_SERIES") == "canonical_tss":
+    ax[2].plot([1,2,3], np.array(near_frac(_Ac,'dA'))*100, '-s', color=C_AAG,
+               label=f"AAGCCCG-6mA promoter (n={len(_Ac)})")
 ax[2].set_xticks([1,2,3]); ax[2].set_xticklabels(['T1\n(12 h)','T2\n(24 h)','T3\n(50 h)'])
 ax[2].set_ylabel("% with promoter mark (≤293 bp)"); ax[2].set_ylim(-3,103)
-ax[2].set_title("Synchronous demethylation at T2", fontsize=8, pad=6, loc="left")
-# both series start high at T1 (left) and collapse by T2; the upper-right is the
-# only clear space, so anchor the legend there away from the T1 markers.
-ax[2].legend(frameon=False, fontsize=6, loc="upper right", bbox_to_anchor=(1.0, 1.0))
+ax[2].set_title("Promoter-mark retention across development", fontsize=8, pad=6, loc="left")
+for _x, _v in zip([1,2,3], np.array(near_frac(E))*100):
+    ax[2].text(_x+0.08, _v+3.0, f"{_v:.1f}%", ha="left", va="bottom", fontsize=6, color=C_GCC)
+ax[2].set_xlim(0.75, 3.55); ax[2].set_ylim(-3, 112)
+ax[2].legend(frameon=False, fontsize=6, loc="lower left", bbox_to_anchor=(0.0, 0.0))
+print("S20c series candidates:", pd.DataFrame(_cands).round(1).to_dict("records"))
 for _i, _lab in enumerate(["a","b","c"]):
     _panel_letter(ax[_i], _lab)
 # 2026-09-13 (FIG-07): banner suptitle removed — it asserted the conclusion in the
@@ -156,10 +197,16 @@ _clamp_png_width(FIG/"Figure4_two_system_marking.png")
 fig, ax = plt.subplots(1, 3, figsize=(FULL_W, 2.7))
 # (a) count of Exposed promoters still methylated at each timepoint
 cnt = [ (E['dT1']<=W).sum(), (E['dT2']<=W).sum(), (E['dT3']<=W).sum() ]
-ax[0].bar(['T1\n(12 h)','T2\n(24 h)','T3\n(50 h)'], cnt, color=[C_BAR, C_ALL, C_ALL])
+med = [ E['dT1'].median(), E['dT2'].median(), E['dT3'].median() ]
+# 2026-09-21: canonical per-timepoint sets give 62/56/45 (medians 172/181/184 bp);
+# the retracted 62/0/1 came from the first-appearance table. Uniform bar colour --
+# no timepoint is singled out as an 'erasure' state.
+ax[0].bar(['T1\n(12 h)','T2\n(24 h)','T3\n(50 h)'], cnt, color=[C_BAR, C_BAR, C_BAR])
 for i,c in enumerate(cnt): ax[0].text(i, c+0.8, str(int(c)), ha="center", fontsize=10)
+ax[0].set_ylim(0, len(E)*1.12)
 ax[0].set_ylabel("Exposed promoters\nmethylated (≤293 bp)")
-ax[0].set_title(f"Synchronous erasure ({len(E)}→0 at T2)", fontsize=8, pad=6, loc="left")
+ax[0].set_title(f"Exposed promoters retaining\na GCCGGC site (of {len(E)})", fontsize=8, pad=6, loc="left")
+print("Fig4a Exposed retention:", cnt, "median nearest-site bp:", med)
 # (b) weak bias: promoter GCCGGC occupancy (+-2kb, T1) vs LFC_T2, region-controlled
 gT1 = g[g.timepoint=='T1']; P=np.sort(gT1.position.values); Fq=gT1.sort_values('position').frequency.values
 def occ(tss,w):
