@@ -35,7 +35,14 @@ fire['center'] = fire['bin'] * BIN + BIN/2
 fire['core'] = ((fire['center'] >= CORE_LO) & (fire['center'] <= CORE_HI)).astype(int)
 
 # --- methylation density per 5kb bin ---
-g = pd.read_csv(BASE/"37_defense_island_GCCGGC/tables/GCCGGC_sites_by_timepoint.tsv", sep="\t")
+# 2026-09-21 (BLOCKER-0): the 37_ table is position-deduplicated across timepoints
+# (its T2 rows = sites NEW at T2, n = 407), which fed m_n_T2 and hence the retracted
+# panel-c rho = 0.43. Read the canonical per-timepoint GCCGGC 4mC sets
+# (1,289/1,595/1,073) through 90_/canonical_sites.py. T1 is unchanged.
+import importlib.util as _ilu
+_spec = _ilu.spec_from_file_location("canonical_sites", BASE/"90_per_timepoint_census_audit/canonical_sites.py")
+_cs = _ilu.module_from_spec(_spec); _spec.loader.exec_module(_cs)
+g = _cs.gccggc_by_timepoint()
 def methyl_density(tp):
     s = g[g.timepoint == tp].copy()
     s['bin'] = (s['position'] // BIN).astype(int)
