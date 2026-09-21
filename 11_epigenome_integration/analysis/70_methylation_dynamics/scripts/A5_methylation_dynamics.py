@@ -136,7 +136,10 @@ def assign_motifs_fast(df: pd.DataFrame, genome: str) -> pd.Series:
     genome_len = len(genome)
 
     for _, row in df.iterrows():
-        pos0   = int(row['position']) - 1
+        # 2026-09-21: high_confidence_sites_weighted.csv 'position' is 0-based (modkit bedMethyl start);
+        # the previous '- 1' shifted every site by one base and matched only 147/855 motif sites
+        # (canonical 0-based matching: 567 AAGCCCG 6mA / 1,717 GCCGGC 4mC distinct sites).
+        pos0   = int(row['position'])
         mod    = row['mod_type']
         strand = row['strand']
         flank  = 15
@@ -146,32 +149,24 @@ def assign_motifs_fast(df: pd.DataFrame, genome: str) -> pd.Series:
         center = pos0 - start
 
         motif = 'other'
-
+        # 2026-09-21: strand-aware, identical to the canonical census (90_per_timepoint_census_audit):
+        #   GCCGGC 4mC  : + strand C at offset 2 (GC[C]GGC), - strand reference G at offset 3
+        #   AAGCCCG 4mC : + strand C4 (AAGC[C]CG),   - strand (CGGGCTT) reference G at offset 2
+        #   AAGCCCG 6mA : + strand A0/A1,            - strand (CGGGCTT) reference T at offsets 5/6
         if mod == '4mC':
             for m in re.finditer('GCCGGC', ctx):
-                ms = m.start()
-                if center in (ms + 1, ms + 2, ms + 5):
-                    motif = 'GCCGGC'
-                    break
+                if center == m.start() + (2 if strand == '+' else 3):
+                    motif = 'GCCGGC'; break
             if motif == 'other':
-                for m in re.finditer('AAGCCCG', ctx):
-                    ms = m.start()
-                    if center in (ms + 3, ms + 4, ms + 5):
-                        motif = 'AAGCCCG'
-                        break
-
+                pat, offs = ('AAGCCCG', (4,)) if strand == '+' else ('CGGGCTT', (2,))
+                for m in re.finditer(pat, ctx):
+                    if center - m.start() in offs:
+                        motif = 'AAGCCCG'; break
         elif mod == '6mA':
-            for m in re.finditer('AAGCCCG', ctx):
-                ms = m.start()
-                if center in (ms, ms + 1):
-                    motif = 'AAGCCCG'
-                    break
-            if motif == 'other':
-                for m in re.finditer('CGGGCTT', ctx):
-                    ms = m.start()
-                    if center in (ms + 5, ms + 6):
-                        motif = 'AAGCCCG'
-                        break
+            pat, offs = ('AAGCCCG', (0, 1)) if strand == '+' else ('CGGGCTT', (5, 6))
+            for m in re.finditer(pat, ctx):
+                if center - m.start() in offs:
+                    motif = 'AAGCCCG'; break
 
         motifs.append(motif)
 

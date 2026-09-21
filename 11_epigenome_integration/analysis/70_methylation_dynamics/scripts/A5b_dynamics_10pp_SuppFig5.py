@@ -43,7 +43,7 @@ mm = uniq.set_index(["chrom","position","strand","mod_type"])["motif"]
 df["motif"] = df.set_index(["chrom","position","strand","mod_type"]).index.map(mm).values
 g = A5.build_wide_table(df, "4mC"); g = g[g.motif=="GCCGGC"].copy()
 a = A5.build_wide_table(df, "6mA"); a = a[a.motif=="AAGCCCG"].copy()
-assert len(g) == 855 and len(a) == 147, (len(g), len(a))
+print('wide-table sites (all three timepoints):', len(g), len(a))  # 2026-09-21: was asserted 855/147 under the 1-bp-shifted, strand-blind matcher
 for d in (g, a):
     d["delta"] = d[["T1_freq","T2_freq","T3_freq"]].max(axis=1) - d[["T1_freq","T2_freq","T3_freq"]].min(axis=1)
     assert d[["T1_freq","T2_freq","T3_freq"]].max().max() > 1.5, "frequencies are not in percent"
