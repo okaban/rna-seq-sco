@@ -28,4 +28,4 @@
 
 ---
 
-_生成: 2026-09-21 10:20 · `make_analysis_index.py` · HEAD `fa13530 analysis(91): orientation-fixed per-read AAGCCCG sca` · SUPERSEDED.md 更新 1 件_
+_生成: 2026-09-21 20:38 · `make_analysis_index.py` · HEAD `3afbda3 analysis(52/90): Supp Table 1 nearest-GCCGGC T2/T3 c` · SUPERSEDED.md 更新 0 件_
