@@ -20,11 +20,18 @@ CORE_LO, CORE_HI = ARM_LEFT, ARM_RIGHT
 C4 = "#C26B6B"; C6 = "#4477AA"  # muted Tol (4mC rose / 6mA blue), matches Fig1
 
 # ---------- data ----------
-g = pd.read_csv(B/"37_defense_island_GCCGGC/tables/GCCGGC_sites_by_timepoint.tsv", sep="\t")
-# AAGCCCG per-site positions for ALL timepoints (incl. T3) from the master
-# methylation-site table (sequence-matched; the gene-mapping table omitted T3).
-_master = pd.read_csv(B/"07_motif_analysis/methylation_site_sequences.csv")
-a = _master[_master.sequence.astype(str).str.upper().str.contains('AAGCCCG|CGGGCTT', regex=True)][['position','timepoint']].copy()
+# 2026-09-21 (BLOCKER-0): both former sources (37_ GCCGGC table; 07_ master site
+# table) are position-DEDUPLICATED across timepoints (first-appearance), which gave
+# the retracted 83/18/38 % and 82/38/61 % core series. Read the canonical
+# per-timepoint file through 90_/canonical_sites.py: GCCGGC 4mC 1,289/1,595/1,073
+# (83.0/66.0/68.7 % core); AAGCCCG with 4mC(C4) and 6mA(A0/A1) pooled
+# 1,116/1,302/1,017 (82.2/70.4/73.0 % core; motif called from the reference, not from
+# the 1-bp-misaligned `sequence` window).
+import importlib.util as _ilu
+_spec = _ilu.spec_from_file_location("canonical_sites", B/"90_per_timepoint_census_audit/canonical_sites.py")
+_cs = _ilu.module_from_spec(_spec); _spec.loader.exec_module(_cs)
+g = _cs.gccggc_by_timepoint()
+a = _cs.aagcccg_pooled_by_timepoint()[['position','timepoint']].copy()
 
 # ============================================================
 # FIGURE A — modification position within each motif (Q10)
@@ -158,7 +165,7 @@ fig.savefig(OUT/"Figure_modification_position.pdf", bbox_inches="tight"); fig.sa
 print("[saved] Figure_modification_position (schematic + quantitative)")
 
 # ============================================================
-# FIGURE B — redistribution: landscape + quantitative, both motifs (Q14)
+# FIGURE B — geographic distribution: landscape + quantitative, both motifs (Q14)
 # ============================================================
 def landscape(ax, df, tps, tp_lbls, color, title):
     """Fig1a-identical design: arm/core shading, oriC marker, region labels,
@@ -214,13 +221,13 @@ fig, ax = plt.subplots(2, 2, figsize=(13, 7), gridspec_kw={"width_ratios":[1.9,1
 landscape(ax[0,0], g, ["T1","T2","T3"], ["T1 (12 h)","T2 (24 h)","T3 (50 h)"], C4,
           "(a) GCCGGC 4mC — linear chromosome landscape")
 quant_core_arm(ax[0,1], g, ["T1","T2","T3"], C4,
-          "(b) GCCGGC 4mC — core fraction (dynamic)")
+          "(b) GCCGGC 4mC — core fraction")
 # AAGCCCG (T1/T2/T3 from master site table)
 landscape(ax[1,0], a, ["T1","T2","T3"], ["T1 (12 h)","T2 (24 h)","T3 (50 h)"], C6,
-          "(c) AAGCCCG — linear chromosome landscape (contrast)")
+          "(c) AAGCCCG (4mC + 6mA pooled) — linear chromosome landscape")
 quant_core_arm(ax[1,1], a, ["T1","T2","T3"], C6,
-          "(d) AAGCCCG — core fraction (quantitative)")
-fig.suptitle("Geographic redistribution of GCCGGC and AAGCCCG methylation across development (T1–T3)", y=1.0, fontsize=12)
+          "(d) AAGCCCG (4mC + 6mA pooled) — core fraction")
+fig.suptitle("Geographic distribution of GCCGGC and AAGCCCG methylation across development (T1–T3)", y=1.0, fontsize=12)
 fig.tight_layout(); fig.subplots_adjust(left=0.10, wspace=0.28)
 fig.savefig(OUT/"Figure2_redistribution_4panel.pdf", bbox_inches="tight"); fig.savefig(OUT/"Figure2_redistribution_4panel.png", dpi=150); plt.close(fig)
 print("[saved] Figure2_redistribution_4panel")
