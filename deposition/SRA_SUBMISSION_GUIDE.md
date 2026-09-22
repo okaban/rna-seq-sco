@@ -3,16 +3,21 @@
 すべてのメタデータは埋まっている。**アカウント操作だけが残っている**。
 所要は入力 30 分 ＋ アップロード（86.7 GB、回線次第で数時間〜1 日）。
 
-## 0. 先に確認する 1 件 — pod5 を SRA が受け付けるか
+## 0. pod5 の可否 — **2026-09-22 に SRA ヘルプデスクから回答済み（照会は不要）**
 
-SRA の公式フォーマットガイドは Nanopore ネイティブ形式として **fast5 しか挙げていない**
-（pod5 の記載なし、2026-09 時点）。72 GB を上げてから弾かれるのを避けるため、
-**先にヘルプデスクへ問い合わせる**。下書き: `sra_helpdesk_email.txt`（送信先 sra@ncbi.nlm.nih.gov）。
+> "SRA does not accept data in POD5 format. We recommend that Nanopore data be submitted in bam or
+> fastq format. Your data in bam format should be sufficient for submission to SRA.
+> Unfortunately, we don't have a recommendation for an alternative archive to store the raw signal data."
+> — The SRA Team, NCBI（2026-09-22）
 
-返答までの間、BAM と FASTQ（14.3 GB）の提出は先に進めてよい。pod5 は同じ
-BioProject に後から run を追加できる。ダメと言われた場合の代替は
-**Zenodo に pod5 をアーカイブ**（無料枠 50 GB/レコード。72 GB は 2 レコードに分割か、
-上限引き上げをリクエスト）。
+決定事項:
+- **SRA には修飾タグ付き BAM 9 件（6.18 GB）と Illumina FASTQ 18 件（8.13 GB）＝ 計 14.3 GB を提出する。**
+  BAM は MM/ML タグを保持しており、SRA 側も「BAM で十分」と明言している。
+- **pod5 72.44 GB は SRA には出せない。** NCBI は代替アーカイブの推奨も持っていない。
+  → 生シグナルを公開するかどうかは著者判断（`open_items.md` の判断項目を参照）。
+  アーカイブしない場合、本文は「modification-tagged BAM が寄託される一次記録である」と明記する必要がある
+  （再 basecall は不可能になる）。
+- 以前あった「pod5 の返答を待ってから SRA を進める」という保留は**解消**。1〜5 をそのまま進めてよい。
 
 ## 1. 提出の構造
 
