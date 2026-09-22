@@ -55,8 +55,11 @@ res.append(fisher("position_core", lambda r: r["region_label"].lower().startswit
 res.append(mwu("dist_to_chrom_center(bp)", lambda r: abs(fnum(r,"tss")-CENTER) if fnum(r,"tss") is not None else None))
 # TF family enrichment (expected: MerR/LysR/LacI)
 fams = [f for f,_ in Counter(r["tf_family"] for r in rows).most_common() if f]
-for fam in ["MerR","LysR","LacI","TetR","Sigma","sensor_kinase"]:
-    res.append(fisher(f"family_{fam}", lambda r,fam=fam: fam.lower() in (r["tf_family"] or "").lower()))
+# 2026-09-22: was a substring test (`fam.lower() in tf_family.lower()`) with keys that do not
+# occur as substrings of the actual labels: 'sensor_kinase' never matched 'Sensor kinase' (0/62,
+# OR = nan) and 'Sigma' also matched 'Anti-sigma' (3/62 reported as 4/62). Exact labels now.
+for fam in ["MerR","LysR","LacI","TetR","Sigma factor","Sensor kinase","HTH (other)"]:
+    res.append(fisher(f"family_{fam.replace(' ','_')}", lambda r,fam=fam: (r["tf_family"] or "").strip()==fam))
 
 # BH-FDR
 ps = [r["p"] for r in res]
