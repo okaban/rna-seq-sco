@@ -41,9 +41,21 @@ TABLE_SUP_DIR = BASE / '15_paper_figures' / 'tables' / 'supplementary'
 #   4mC (4mC) = rich muted red, 6mA = rich muted blue, dual = purple.
 #   Bars use a grayscale ramp keyed to SuppFig15 (author's hand-made reference).
 #   Motif sequence-logo colours (MOTIF_COLORS) are intentionally left colourful.
-COL_4mC = '#A64B44'   # rich muted red  — 4mC modification mark
-COL_6mA = '#3A6B8C'   # rich muted blue — 6mA modification mark
-COL_BOTH = '#6E5495'  # muted purple    — dual 4mC+6mA co-modification
+# v2 (2026-09-22): hues kept, RELATIVE LUMINANCE re-spaced. Measured on v1:
+#   4mC vs 6mA  greyscale contrast 1.01  -> identical in black-and-white print
+#   6mA vs dual deuteranope distance 0.036 -> identical to a red-green CVD reader,
+#                and these two sit side by side in the KEGG figure.
+# v1 put the five categorical hues at almost the same luminance (0.118-0.143), so
+# they were separated by chroma alone -- the two failure modes Crameri, Shephard &
+# Heron (2020, Nat Commun 11:5444) name. v2 measures: 4mC-6mA 1.92 / 0.335,
+# 6mA-dual 1.83 / 0.393, 4mC-dual 3.50 / 0.699, core-arm 2.22 / 0.350.
+# NOTE the one pair luminance cannot fix: COL_4mC vs COL_CORE (red vs green) stays
+# at 1.21 / 0.053 -- never use them as opposing categories in the SAME panel.
+COL_4mC = '#8A3D37'   # deep muted red   — 4mC modification mark      (L 0.09)
+COL_6mA = '#68849D'   # mid muted blue   — 6mA modification mark      (L 0.22)
+COL_BOTH = '#B5AEC5'  # light lavender   — dual 4mC+6mA co-modification (L 0.44)
+# superseded v1, kept so old outputs can be identified: 4mC #A64B44, 6mA #3A6B8C,
+# dual #6E5495, core #3E7256, arm #C0803A
 COL_DUAL = COL_BOTH   # alias
 
 # Grayscale bar ramp (SuppFig15 reference: bar #293039, grid #EAEAEA)
@@ -55,18 +67,18 @@ BAR_RAMP = [COL_BAR_LIGHT, COL_BAR_MID, COL_BAR_DARK]  # T1→T2→T3
 
 COL_GRAY = '#9AA7B0'  # neutral grey (Shielded / unassigned)
 COL_DARK = '#22282E'  # axis / text near-black
-COL_GREEN = '#3E7256'   # deep muted green — activation / core
-COL_ORANGE = '#C0803A'  # calm amber — repression / arm
+COL_GREEN = '#3A6B51'   # deep muted green — activation / core
+COL_ORANGE = '#C69062'  # calm amber — repression / arm
 
 # Gatekeeper / categorical accents (muted, deduplicated)
-COL_ACTIVATION = '#3E7256'    # deep muted green — activation bloc / core
-COL_REPRESSION = '#C0803A'    # calm amber — repression bloc / arm
-COL_CORE = '#3E7256'          # chromosomal core (= activation)
-COL_ARM = '#C0803A'           # chromosomal arm (= repression)
-COL_EXPOSED = '#8A5A82'       # muted plum — exposed TFs (distinct from dual)
+COL_ACTIVATION = '#3A6B51'    # deep muted green — activation bloc / core
+COL_REPRESSION = '#C69062'    # calm amber — repression bloc / arm
+COL_CORE = '#3A6B51'          # chromosomal core (= activation)
+COL_ARM = '#C69062'           # chromosomal arm (= repression)
+COL_EXPOSED = '#895981'       # muted plum — exposed TFs (distinct from dual)
 COL_SHIELDED = '#9AA7B0'      # neutral grey — shielded TFs
-COL_ARTIFACT = '#C0803A'      # amber — Simpson's artifact (= repression tone)
-COL_SIGNAL = '#3A6B8C'        # blue — genuine signal (= 6mA tone)
+COL_ARTIFACT = '#C69062'      # amber — Simpson's artifact (= repression tone)
+COL_SIGNAL = '#68849D'        # blue — genuine signal (= 6mA tone)
 
 # ── Timepoint labels ────────────────────────────────────────────────────
 TP_LABELS = ['T1 (12 h)', 'T2 (24 h)', 'T3 (50 h)']
