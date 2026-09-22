@@ -223,6 +223,128 @@ def main():
     plt.close(fig1)
     print("Figure1 written")
 
+    # ---- Figure 2 -----------------------------------------------------------
+    fig2 = plt.figure(figsize=(su.mm_to_inch(174), su.mm_to_inch(86)))
+    b1 = fig2.add_axes([0.140, 0.68, 0.800, 0.22])
+    b2 = fig2.add_axes([0.140, 0.16, 0.320, 0.26])
+    b3 = fig2.add_axes([0.700, 0.16, 0.150, 0.26])
+
+    # (a) where the sites are, timepoint by timepoint — ordered lightness ramp
+    BIN = 100_000
+    edges = np.arange(0, GENOME_LEN + BIN, BIN)
+    for i, tp in enumerate(("T1", "T2", "T3")):
+        pos = np.array([p for p, _ in S[(tp, "4mC", "GCCGGC")]])
+        h, _ = np.histogram(pos, bins=edges)
+        b1.plot(edges[:-1] / 1e6, h, lw=0.9, color=su.BAR_RAMP[i],
+                label=su.TP_LABELS[i], zorder=2 + i)
+    b1.axvspan(CORE[0] / 1e6, CORE[1] / 1e6, color=su.COL_GRAY, alpha=0.18, zorder=1)
+    b1.set_xlim(0, GENOME_LEN / 1e6)
+    b1.set_xticks(np.arange(0, 9, 2))
+    b1.set_xlabel("chromosomal position (Mb)")
+    b1.set_ylabel(f"GCCGGC 4mC sites\nper {BIN//1000} kb")
+    b1.set_title("The site census is largely stable; the shaded band is the core",
+                 loc="left")
+    # key above the track: three lines fill the panel, so nothing can sit inside it
+    b1.legend(frameon=False, loc="lower right", bbox_to_anchor=(1.0, 1.02), ncol=3,
+              handletextpad=0.4, columnspacing=1.6, fontsize=su.FONT["legend"])
+
+    # (b) persistence patterns, split by compartment
+    pp = pd.read_csv(RESTRUCT / "gccggc_persistence_patterns.tsv", sep="\t")
+    pp["pattern"] = pp["pattern"].astype(str).str.zfill(3)
+    order = (pp.groupby("pattern")["n"].sum().sort_values(ascending=False).index.tolist())
+    core_n = [int(pp[(pp.pattern == k) & (pp.region == "core")].n.sum()) for k in order]
+    arm_n = [int(pp[(pp.pattern == k) & (pp.region == "arm")].n.sum()) for k in order]
+    xs = np.arange(len(order))
+    b2.bar(xs, core_n, color=su.COL_CORE, width=0.66, label="core", zorder=2)
+    b2.bar(xs, arm_n, bottom=core_n, color=su.COL_ARM, width=0.66, label="arm", zorder=2)
+    b2.set_xticks(xs); b2.set_xticklabels(order)
+    b2.set_xlabel("detected at T1/T2/T3 (1 = detected)")
+    b2.set_ylabel("distinct GCCGGC 4mC sites")
+    b2.set_title(f"{core_n[0] + arm_n[0]:,} of {sum(core_n) + sum(arm_n):,} sites are seen\n"
+                 f"at all three timepoints", loc="left")
+    b2.legend(frameon=False, loc="lower right", bbox_to_anchor=(1.0, 1.02), ncol=2,
+              handletextpad=0.4, columnspacing=1.2, fontsize=su.FONT["legend"])
+
+    # (c) the 62 Exposed promoters keep their mark
+    ex = pd.read_csv(CENSUS / "exposed62_per_timepoint.tsv", sep="\t")
+    b3.bar(np.arange(3), ex.within_293bp, color=su.COL_EXPOSED, width=0.6, zorder=2)
+    b3.axhline(62, color=su.COL_DARK, ls=":", lw=0.8, zorder=1)
+    b3.set_xticks(np.arange(3)); b3.set_xticklabels(su.TP_LABELS_NL)
+    b3.set_ylabel("Exposed promoters with a\nGCCGGC 4mC site ≤293 bp")
+    b3.set_ylim(0, 72)
+    b3.set_title("Retained, not erased", loc="left")
+    # Panel letters in FIGURE coordinates: an axes-relative offset collides with
+    # a tall rotated y-label, whose extent depends on the label text.
+    for ax, L in ((b1, "a"), (b2, "b"), (b3, "c")):
+        bb = ax.get_position()
+        lx = 0.022 if ax is not b3 else 0.605
+        fig2.text(lx, bb.y1 + 0.025, L, fontweight="bold",
+                  fontsize=su.FONT["panel_letter"], va="bottom", ha="left")
+    su.assert_no_text_collisions(fig2, "Figure2")
+    su.save_figure(fig2, FIGDIR / "Figure2_merged", formats=("png", "pdf"), width_class="full")
+    plt.close(fig2)
+    print("Figure2_merged written")
+
+    # ---- Figure 4 (ships as Figure5.png) ------------------------------------
+    # all_genes_features.tsv holds only 11 Exposed genes; the manuscript's universe
+    # is the unified table (62 Exposed of 1,055 rows). Denominators here are genes
+    # that HAVE an expression estimate (59 and 960) — the class sizes 62 and 989
+    # quoted in the text include genes that cannot enter the numerator.
+    reg = pd.read_csv(
+        A / "52_shielded_exposed_boundary/tables/all_genes_features_unified_n57.tsv", sep="\t")
+    E = reg[reg.is_exposed == 1]; Sh = reg[reg.is_exposed == 0]
+    rows = []
+    for nm, sub in (("Exposed", E), ("Shielded", Sh)):
+        v = sub.LFC_T2vsT1.dropna()
+        k = int((v.abs() >= 1).sum())
+        lo, hi = wilson(k, len(v))
+        rows.append(dict(cls=nm, n=len(v), n_de=k, frac=k / len(v), lo=lo, hi=hi,
+                         median_abs_lfc=float(v.abs().median())))
+    de = pd.DataFrame(rows); de.to_csv(TAB / "fig4a_de_fraction_wilson.tsv", sep="\t", index=False)
+
+    fig4 = plt.figure(figsize=(su.mm_to_inch(174), su.mm_to_inch(72)))
+    c1 = fig4.add_axes([0.085, 0.38, 0.135, 0.44])
+    c2 = fig4.add_axes([0.400, 0.38, 0.185, 0.44])
+    c3 = fig4.add_axes([0.760, 0.38, 0.185, 0.44])
+    cols = [su.COL_EXPOSED, su.COL_SHIELDED]
+    c1.bar(np.arange(2), de.frac * 100, color=cols, width=0.6, zorder=2)
+    c1.errorbar(np.arange(2), de.frac * 100,
+                yerr=[(de.frac - de.lo) * 100, (de.hi - de.frac) * 100],
+                fmt="none", ecolor=su.COL_DARK, elinewidth=0.8, capsize=2.5, zorder=3)
+    c1.set_xticks(np.arange(2))
+    c1.set_xticklabels([f"Exposed\n({de.n_de[0]}/{de.n[0]})", f"Shielded\n({de.n_de[1]}/{de.n[1]})"])
+    # criterion and denominator stated in the caption, not inside the panel
+    c1.set_ylabel("responding genes (%)")
+    c1.set_ylim(0, 72)
+    c1.set_title("Marked promoters are no more\nlikely to respond", loc="left")
+
+    for nm, sub, col in (("Exposed", E, su.COL_EXPOSED), ("Shielded", Sh, su.COL_SHIELDED)):
+        v = np.sort(sub.LFC_T2vsT1.dropna().abs().values)
+        c2.plot(v, np.arange(1, len(v) + 1) / len(v), color=col, lw=1.2, label=nm)
+    c2.set_xlim(0, 6); c2.set_xlabel("|log$_2$ FC| (T2 vs T1)")
+    c2.set_ylabel("cumulative fraction of genes")
+    c2.set_title("and their response sizes\ncoincide", loc="left")
+    c2.legend(frameon=False, loc="lower right", handletextpad=0.5,
+              fontsize=su.FONT["legend"])
+
+    fo = pd.read_csv(RESTRUCT / "fig4_correlation_forest.tsv", sep="\t")
+    yy = np.arange(len(fo))[::-1]
+    c3.errorbar(fo.r, yy, xerr=[fo.r - fo.lo, fo.hi - fo.r], fmt="o", ms=3.4,
+                color=su.COL_BAR_DARK, ecolor=su.COL_BAR_DARK, elinewidth=0.9, capsize=2)
+    c3.axvline(0, color=su.COL_DARK, lw=0.7)
+    c3.set_yticks(yy)
+    c3.set_yticklabels([f"{l} (n={n})" for l, n in zip(fo.label.str.replace(chr(10), " "), fo.n)])
+    c3.set_xlabel("Spearman r, occupancy vs log$_2$ FC")
+    c3.set_title("The coupling is carried by\nchromosomal position", loc="left")
+    for ax, L, lx in ((c1, "a", 0.020), (c2, "b", 0.315), (c3, "c", 0.672)):
+        bb = ax.get_position()
+        fig4.text(lx, bb.y1 + 0.035, L, fontweight="bold",
+                  fontsize=su.FONT["panel_letter"], va="bottom", ha="left")
+    su.assert_no_text_collisions(fig4, "Figure4")
+    su.save_figure(fig4, FIGDIR / "Figure5", formats=("png", "pdf"), width_class="full")
+    plt.close(fig4)
+    print("Figure5 (manuscript Figure 4) written")
+
 
 if __name__ == "__main__":
     sys.exit(main())

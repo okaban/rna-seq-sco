@@ -833,12 +833,23 @@ def text_collisions(fig, data_pad=1.0):
     # matplotlib relative to its own axes. Two of them abutting is a layout
     # artefact, not a defect; only collisions that involve free-floating text
     # (annotations, legend entries) or cross different axes are reported.
+    def _struct(ax):
+        # loc="left"/"right" titles are SEPARATE artists (_left_title/_right_title),
+        # not ax.title. Omitting them made the checker report a left-aligned panel
+        # title as an annotation sitting on the data.
+        out = {ax.title, ax.xaxis.label, ax.yaxis.label}
+        for attr in ("_left_title", "_right_title"):
+            t = getattr(ax, attr, None)
+            if t is not None:
+                out.add(t)
+        return ticks.get(ax, set()) | out
+
     structural = set()
-    for ax in fig.axes:
-        structural |= ticks.get(ax, set()) | {ax.title, ax.xaxis.label, ax.yaxis.label}
     own = {}
     for ax in fig.axes:
-        for t in ticks.get(ax, set()) | {ax.title, ax.xaxis.label, ax.yaxis.label}:
+        st = _struct(ax)
+        structural |= st
+        for t in st:
             own[t] = ax
     # Legend entries are packed by matplotlib's offsetbox; their reported extents
     # can nominally intersect even when the drawn rows are clearly separated, so
