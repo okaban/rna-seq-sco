@@ -797,3 +797,127 @@ if __name__ == '__main__':
 
     print()
     print('=== All utilities OK ===')
+
+# ── Text-collision gate ───────────────────────────────────────────────────────
+# Rule (2026-09-22): text may sit INSIDE the axes only when it identifies an
+# adjacent mark (direct labelling, which Wong's "Axes, ticks and grids" column
+# frames as keeping navigational elements unobtrusive so the DATA keeps visual
+# priority, and which the CPT visual-communication tutorial prefers over a
+# legend box). Narration — n, statistics, null levels — goes outside the data
+# region: title, axis label, margin, or caption. Nothing may overlap data marks
+# or other text, and nothing may fall outside the canvas.
+# Every figure script must call assert_no_text_collisions() before saving;
+# Writing/check_figures.py fails a script that does not.
+
+def _renderer(fig):
+    # Draw twice: after a save the first draw can still report stale extents for
+    # axis labels, which made the canvas-overflow test fire on labels that were
+    # comfortably inside. Two draws settle the layout deterministically.
+    fig.canvas.draw()
+    fig.canvas.draw()
+    if hasattr(fig.canvas, "get_renderer"):
+        return fig.canvas.get_renderer()
+    from matplotlib.backends.backend_agg import FigureCanvasAgg
+    return FigureCanvasAgg(fig).get_renderer()
+
+
+def text_collisions(fig, data_pad=1.0):
+    """Report (overlapping text pairs, text outside canvas, text over data marks)."""
+    import matplotlib as mpl
+    r = _renderer(fig)
+    ticks = {ax: set(ax.get_xticklabels(which="both") + ax.get_yticklabels(which="both"))
+             for ax in fig.axes}
+    texts = [(t, t.get_window_extent(r)) for t in fig.findobj(mpl.text.Text)
+             if t.get_text().strip() and t.get_visible()]
+    # Structural text — titles, axis labels, tick labels — is positioned by
+    # matplotlib relative to its own axes. Two of them abutting is a layout
+    # artefact, not a defect; only collisions that involve free-floating text
+    # (annotations, legend entries) or cross different axes are reported.
+    structural = set()
+    for ax in fig.axes:
+        structural |= ticks.get(ax, set()) | {ax.title, ax.xaxis.label, ax.yaxis.label}
+    own = {}
+    for ax in fig.axes:
+        for t in ticks.get(ax, set()) | {ax.title, ax.xaxis.label, ax.yaxis.label}:
+            own[t] = ax
+    # Legend entries are packed by matplotlib's offsetbox; their reported extents
+    # can nominally intersect even when the drawn rows are clearly separated, so
+    # legend-internal pairs are excluded. Legend text that covers DATA or leaves
+    # the canvas is still reported below.
+    legend_texts = set()
+    for ax in list(fig.axes) + [fig]:
+        lg = getattr(ax, "legend_", None)
+        if lg is not None:
+            legend_texts |= set(lg.get_texts())
+    pairs = []
+    for i, (a, ba) in enumerate(texts):
+        for b, bb in texts[i + 1:]:
+            if not ba.overlaps(bb):
+                continue
+            # Report a pair only when at least one member is free-floating text
+            # (an annotation or value label the script placed itself). Titles,
+            # axis labels and tick labels are positioned by matplotlib, which
+            # does not draw them on top of each other; their reported extents
+            # can nominally intersect without any visible collision.
+            if a in structural and b in structural:
+                continue
+            if a in legend_texts and b in legend_texts:
+                continue
+            pairs.append((a.get_text()[:28], b.get_text()[:28]))
+    outside = [t.get_text()[:28] for t, b in texts
+               if b.x0 < -1 or b.y0 < -1 or b.x1 > fig.bbox.x1 + 1 or b.y1 > fig.bbox.y1 + 1]
+    over_data = []
+    for ax in fig.axes:
+        # Test against the actual drawn positions, not each artist's bounding box:
+        # a scatter cloud's bbox is as wide as the axes, so a bbox test silently
+        # passed text sitting on top of points.
+        pts = []
+        for c in ax.collections:
+            try:
+                off = c.get_offsets()
+                if off is not None and len(off):
+                    pts.extend(ax.transData.transform(off))
+            except Exception:
+                pass
+        for l in ax.lines:
+            try:
+                xy = l.get_xydata()
+                if xy is not None and len(xy):
+                    pts.extend(ax.transData.transform(xy))
+            except Exception:
+                pass
+        boxes = []
+        for m in ax.patches:
+            try:
+                bb = m.get_window_extent(r)
+                if bb.width > 0 and bb.height > 0 and bb.width < ax.bbox.width * 0.98:
+                    boxes.append(bb)
+            except Exception:
+                pass
+        for t, bt in texts:
+            if t in structural:          # never an annotation-over-data finding
+                continue
+            hit_patch = any(bt.overlaps(bb) for bb in boxes)
+            hit_point = any(bt.x0 - 1 <= px <= bt.x1 + 1 and bt.y0 - 1 <= py <= bt.y1 + 1
+                            for px, py in pts)
+            if hit_patch or hit_point:
+                over_data.append(t.get_text()[:28])
+    return pairs, outside, sorted(set(over_data))
+
+
+def assert_no_text_collisions(fig, name="figure", allow_over_data=()):
+    """Raise unless the figure is free of text collisions. allow_over_data lists
+    label texts that are deliberately placed on a mark (e.g. a value inside a bar,
+    which must then meet the contrast floor)."""
+    pairs, outside, over = text_collisions(fig)
+    over = [o for o in over if o not in allow_over_data]
+    msg = []
+    if pairs:
+        msg.append(f"text overlaps text: {pairs}")
+    if outside:
+        msg.append(f"text outside the canvas: {outside}")
+    if over:
+        msg.append(f"text over data marks: {over}")
+    if msg:
+        raise AssertionError(f"[{name}] " + " | ".join(msg))
+    print(f"  [{name}] text-collision check: clean")
