@@ -17,7 +17,8 @@
   → 生シグナルを公開するかどうかは著者判断（`open_items.md` の判断項目を参照）。
   アーカイブしない場合、本文は「modification-tagged BAM が寄託される一次記録である」と明記する必要がある
   （再 basecall は不可能になる）。
-- 以前あった「pod5 の返答を待ってから SRA を進める」という保留は**解消**。1〜5 をそのまま進めてよい。
+- 以前あった「pod5 の返答を待ってから SRA を進める」という保留は**解消**。
+  **以下の 1〜5 は pod5 を含まない構成に書き換えてある**（SRA に出すのは BAM と FASTQ だけ）。
 
 ## 1. 提出の構造
 
@@ -26,7 +27,7 @@ BioProject（1 件）
  └ BioSample × 9（同一培養から DNA/RNA を分取したので 9 個で両アッセイを共有）
     ├ SRA run: ONT BAM（9）
     ├ SRA run: Illumina FASTQ ペア（9）
-    └ SRA run: pod5（9、ヘルプデスク OK なら）
+    （pod5 の run は作らない — SRA は POD5 を受け付けない）
 ```
 
 ## 2. 手順
@@ -41,15 +42,13 @@ BioProject（1 件）
    - `biosample_attributes.tsv` をそのままアップロード（9 行、必須項目に空欄なし）
 4. **SRA** → New submission → 上記 BioProject / BioSample を紐付け
    - `sra_metadata.tsv` をアップロード（18 行）
-   - pod5 を出す場合は同シートに 9 行追加（`pod5_upload_manifest.tsv` を参照。
-     ディレクトリごと tar にまとめる場合はファイル名を `<sample>_pod5.tar` にし、
-     ヘルプデスクの指示に従って個別ファイル名の列挙要否を決める）
+   - **pod5 の行は追加しない。** SRA は POD5 を受け付けないため、`pod5_upload_manifest.tsv` は
+     SRA 提出には使わない（生シグナルの公開先は著者判断。`著者判断メモ_260922.md` B 項）。
 5. **ファイル転送** — Aspera（推奨、`ascp`）または FTP。SRA 画面に出る
    一時ディレクトリのパスと鍵を使う。転送対象:
    - ONT BAM 9 件: `ont_bam_md5.tsv` のパス列（6.18 GB）
    - Illumina FASTQ 18 件: `raw_checksum_report.tsv` のファイル名。実体は
      `~/Library/CloudStorage/Dropbox-SFC-CNS/Takeda Tomoki/my_projects/2026/M145_RNA-seq/data/RH250715199/01_RawData/`（8.13 GB）
-   - pod5: `pod5_upload_manifest.tsv` の 17 ディレクトリ（72.42 GB）
 6. 転送後、SRA 側の md5 と手元（`ont_bam_md5.tsv`、`raw_checksum_report.tsv`）を照合
 7. 査読者に見せる場合: 提出完了後 SRA から **reviewer link** を発行できる
 
