@@ -7,6 +7,12 @@ cd "$(git rev-parse --show-toplevel)"
 PY=$(command -v python3 || command -v python)
 if git diff --cached --name-only | grep -q "^11_epigenome_integration/analysis/"; then
   "$PY" 11_epigenome_integration/analysis/make_analysis_index.py --check || { echo "[pre-commit] supersession tripwire FAILED"; exit 1; }
+  # figure rules: producing script registered, shared style applied, NAR width,
+  # palette constants imported, colour separability, text-collision assert present
+  # the cd must happen INSIDE the subshell that runs the checker, or the checker
+  # runs in the repo root and fails with "No such file"
+  ( cd "$HOME/obsidian/Research/rna-seq/Writing" && "$PY" check_figures.py ) \
+    || { echo "[pre-commit] figure gate FAILED"; exit 1; }
 fi
 if git diff --cached --name-only | grep -q "is_exposed_STALE_n57\|_ARCHIVED_\|\.bak_"; then
   echo "[pre-commit] refusing to commit stale/backup files:"; git diff --cached --name-only | grep "is_exposed_STALE_n57\|_ARCHIVED_\|\.bak_"; exit 1

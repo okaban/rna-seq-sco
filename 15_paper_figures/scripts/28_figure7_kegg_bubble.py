@@ -36,8 +36,10 @@ MOTIF_CFG = [
      COL_4mC, 'E1_KEGG_enrichment_GCCGGC-proximal_4mC.tsv'),
     ('AAGCCCG\n(4mC/6mA)', 'AAGCCCG-proximal_6mA',
      COL_BOTH, 'E1_KEGG_enrichment_AAGCCCG-proximal_6mA.tsv'),
+    # 2026-09-22: was COL_6mA, but blue denotes the 6mA mark elsewhere and this
+    # column is a GENE SET (near both motifs), not a modification. Neutral dark.
     ('Dual-\ntargeted', 'Dual-targeted',
-     COL_6mA, 'E1_KEGG_enrichment_Dual-targeted.tsv'),
+     COL_BAR_DARK, 'E1_KEGG_enrichment_Dual-targeted.tsv'),
 ]
 
 FDR_CUT = 0.10
@@ -221,6 +223,7 @@ def main():
 
     # Save (PNG added alongside PDF/SVG for the manuscript image slot)
     out = FIG_DIR / 'Figure7_kegg_bubble'
+    assert_no_text_collisions(fig, 'Figure7_kegg')
     save_figure(fig, out, formats=('pdf', 'svg', 'png'))
 
     # sync into the Obsidian manuscript slot (Figure7.png) — script previously

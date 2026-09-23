@@ -31,7 +31,9 @@ def main():
     ax.set_title("")
 
     out = f6.FIG_DIR / "Figure3_protection_metagene"
-    f6.save_figure(fig, out, formats=("pdf", "svg", "png"))
+    f6.assert_no_text_collisions(fig, "Figure3_protection")
+    # single-column class: the default "full" left the figure at 88 mm, 2 mm over
+    f6.save_figure(fig, out, formats=("pdf", "svg", "png"), width_class="single")
     print(f"  written {out}.png")
 
 if __name__ == "__main__":
