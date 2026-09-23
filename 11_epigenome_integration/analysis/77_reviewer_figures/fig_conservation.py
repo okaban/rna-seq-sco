@@ -35,6 +35,14 @@ parts = ax.violinplot(data, showmedians=True, widths=0.85)
 for i,(lab,c,col) in enumerate(motifs):
     parts['bodies'][i].set_facecolor(col)
     parts['bodies'][i].set_alpha(0.8)
+    parts['bodies'][i].set_edgecolor(su.COL_DARK)
+    parts['bodies'][i].set_linewidth(0.6)
+# violinplot leaves cbars/cmins/cmaxes/cmedians at the default cycle blue, which
+# denotes the 6mA mark everywhere else in the deck
+for k in ("cbars", "cmins", "cmaxes", "cmedians"):
+    if k in parts:
+        parts[k].set_color(su.COL_DARK)
+        parts[k].set_linewidth(0.9 if k == "cmedians" else 0.6)
 ax.axhline(1.0, color="k", ls="--", lw=1, label="O/E = 1 (neutral expectation)")
 ax.set_xticks(range(1,len(motifs)+1)); ax.set_xticklabels([m[0] for m in motifs], fontsize=7.5)
 ax.set_xlim(0.4, len(motifs)+0.9)   # right headroom for the 'med' labels beside each violin
