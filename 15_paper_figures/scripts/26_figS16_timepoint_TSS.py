@@ -1,3 +1,17 @@
+"""SUPERSEDED 2026-09-23 — DO NOT SHIP THIS FIGURE.
+
+This script plots the regulatory-gene protection ratio over time from
+64_timepoint_TSS/tables/C2_protection_zone_metrics.tsv, which was built on the
+FIRST-APPEARANCE site set and gives 0.839 / 0.844 / 1.046 — the series the
+manuscript retired on 2026-09-23. On the canonical per-timepoint site set the
+ratio is 0.743 / 0.709 / 0.684 (protection maintained at T3);
+see 90_per_timepoint_census_audit/tables/protection_zone_ratio_by_timepoint.tsv.
+
+Its output is referenced by nothing: not the manuscript, not figure_manifest.tsv.
+The shipped SuppFigure16.png is the C4-corrected crosstalk figure from
+78_reviewer_robustness/scripts/P1_figures.py, which is unrelated to this script
+despite the similar name. Rebuild from the 90_ table before reusing any of this.
+"""
 """
 FigS16: Timepoint-resolved TSS methylation protection zone (C-2)
 
